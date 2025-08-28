@@ -15,6 +15,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 |                                | OpenSSH      | `crypto/openssh`       | OpenBSD  |
 |                                | Unbound      | `crypto/unbound`       | OpenBSD  |
 | __Security Infrastructure__    |              |                        |          |
+|                                | BearSSL      | `contrib/bearssl`      | BearSSL  |
 |                                | OpenSSL      | `crypto/openssl`       | OpenSSL  |
 | __Test Infrastructure__        |              |                        |          |
 |                                | ATF          |                        |          |

@@ -90,6 +90,17 @@ Owners:
 
 ## Security Components
 
+### Component: BearSSL
+
+Upstream:      [BearSSL](https://bearssl.org)  
+Directory:     `contrib/bearssl`  
+Vendor branch: `vendor/bearssl`  
+Owners:
+
+| Full name           | e-mail   | Capacity           |
+| ------------------- | -------- | ------------------ |
+| Simon J. Gerraty    | sjg@     | Import of 20220418 |
+
 ### Component: OpenSSL
 
 Upstream:      [OpenSSL](https://openssl-library.org)  
