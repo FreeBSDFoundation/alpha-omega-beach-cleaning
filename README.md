@@ -37,8 +37,8 @@ The current timeline is set as follows:
 | Propose list of priorities     | 22/09/2025 | 28/09/2025 |             | Continuous review and adjustments |
 | Plan the respective actions    | 29/09/2025 | 26/10/2025 |             | Coordination with the owners      |
 | Formalize code owners          | 27/10/2025 | 30/11/2025 |             | [Deliverable](owners.md)          |
-| Integrate review methodologies |       _continuous_      |             | See [^1]                          |
-| Plan execution & coordination  |       _continuous_      |             |                                   |
+| Integrate review methodologies |      _continuous_      ||             | See [^1]                          |
+| Plan execution & coordination  |      _continuous_      ||             |                                   |
 | Final report                   | 09/03/2026 | 30/03/2026 |             |                                   |
 
 [^1]: [ecosyste.ms](https://ecosyste.ms)
