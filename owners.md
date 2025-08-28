@@ -18,8 +18,8 @@ contained in the `MAINTAINERS` file of the src repository.
 
 ### Component: ice(4)
 
-Description:   Intel Ethernet 800 Series Driver
-Directory:     `sys/contrib/dev/ice`
+Description:   Intel Ethernet 800 Series Driver  
+Directory:     `sys/contrib/dev/ice`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -28,8 +28,8 @@ Owners:
 
 ### Component: umb(4)
 
-Upstream:      [OpenBSD](https://openbsd.org)
-Directory:     `sys/dev/usb/net`
+Upstream:      [OpenBSD](https://openbsd.org)  
+Directory:     `sys/dev/usb/net`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -38,7 +38,7 @@ Owners:
 
 ### Component: ZFS
 
-Upstream:      [OpenZFS](https://openzfs.org)
+Upstream:      [OpenZFS](https://openzfs.org)  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -57,8 +57,8 @@ Owners:
 
 ### Component: LLVM
 
-Upstream:      [LLVM](https://llvm.org)
-Directory:     `contrib/llvm-project`
+Upstream:      [LLVM](https://llvm.org)  
+Directory:     `contrib/llvm-project`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -71,10 +71,10 @@ Owners:
 
 ### Component: OpenSSL
 
-Upstream:      [OpenSSL](https://openssl-library.org)
-Directory:     `crypto/openssl`
-Strategy:      [LTS](https://openssl-library.org/policies/releasestrat/index.html)
-Vendor branch: `vendor/openssl-3.5`
+Upstream:      [OpenSSL](https://openssl-library.org)  
+Directory:     `crypto/openssl`  
+Strategy:      [LTS](https://openssl-library.org/policies/releasestrat/index.html)  
+Vendor branch: `vendor/openssl-3.5`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -86,9 +86,9 @@ Owners:
 
 ### Component: ATF
 
-Upstream:      [NetBSD](https://netbsd.org)
-Strategy:      [Fork](https://github.com/freebsd/kyua)
-Vendor branch: `vendor/atf`
+Upstream:      [NetBSD](https://netbsd.org)  
+Strategy:      [Fork](https://github.com/freebsd/kyua)  
+Vendor branch: `vendor/atf`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -97,8 +97,8 @@ Owners:
 
 ### Component: NetBSD tests
 
-Upstream:      [NetBSD](https://netbsd.org)
-Vendor branch: `vendor/NetBSD/tests`
+Upstream:      [NetBSD](https://netbsd.org)  
+Vendor branch: `vendor/NetBSD/tests`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
