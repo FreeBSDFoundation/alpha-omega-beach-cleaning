@@ -14,7 +14,30 @@ inclusion in a review team in Phabricator)
 It aims at completing - as opposed to replacing - the information already
 contained in the `MAINTAINERS` file of the src repository.
 
-## Kernel components
+## Compilation Infrastructure
+
+### Component: libcxxrt
+
+Owners:
+
+| Full name           | e-mail   | Capacity           |
+| ------------------- | -------- | ------------------ |
+| Dimitry Andric      | dim@     | MAINTAINERS        |
+| Ed Maste            | emaste@  | MAINTAINERS        |
+
+### Component: LLVM
+
+Upstream:      [LLVM](https://llvm.org)  
+Directory:     `contrib/llvm-project`  
+Owners:
+
+| Full name           | e-mail   | Capacity           |
+| ------------------- | -------- | ------------------ |
+| Dimitry Andric      | dim@     | MAINTAINERS        |
+| Ed Maste            | emaste@  | MAINTAINERS        |
+| John Baldwin        | jhb@     | MAINTAINERS        |
+
+## Kernel Components
 
 ### Component: ice(4)
 
@@ -44,30 +67,18 @@ Owners:
 | Full name           | e-mail   | Capacity           |
 | ------------------- | -------- | ------------------ |
 
-## Compilation Infrastructure
+## Network Services
 
-### Component: libcxxrt
+### Component: OpenSSH
 
+Upstream:      [OpenBSD](https://openbsd.org)  
+Directory:     `crypto/openssh`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
 | ------------------- | -------- | ------------------ |
-| Dimitry Andric      | dim@     | MAINTAINERS        |
-| Ed Maste            | emaste@  | MAINTAINERS        |
 
-### Component: LLVM
-
-Upstream:      [LLVM](https://llvm.org)  
-Directory:     `contrib/llvm-project`  
-Owners:
-
-| Full name           | e-mail   | Capacity           |
-| ------------------- | -------- | ------------------ |
-| Dimitry Andric      | dim@     | MAINTAINERS        |
-| Ed Maste            | emaste@  | MAINTAINERS        |
-| John Baldwin        | jhb@     | MAINTAINERS        |
-
-## Security components
+## Security Components
 
 ### Component: OpenSSL
 
