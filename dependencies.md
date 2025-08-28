@@ -13,6 +13,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 |                                | ZFS          |                        | OpenZFS  |
 | __Network Services__           |              |                        |          |
 |                                | OpenSSH      | `crypto/openssh`       | OpenBSD  |
+|                                | Unbound      | `crypto/unbound`       | OpenBSD  |
 | __Security Infrastructure__    |              |                        |          |
 |                                | OpenSSL      | `crypto/openssl`       | OpenSSL  |
 | __Test Infrastructure__        |              |                        |          |

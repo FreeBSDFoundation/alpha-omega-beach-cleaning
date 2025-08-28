@@ -78,6 +78,16 @@ Owners:
 | Full name           | e-mail   | Capacity           |
 | ------------------- | -------- | ------------------ |
 
+### Component: Unbound
+
+Upstream:      NLnet Labs  
+Directory:     `contrib/unbound`  
+Owners:
+
+| Full name           | e-mail   | Capacity           |
+| ------------------- | -------- | ------------------ |
+| Dag-Erling Smørgrav | des@     |                    |
+
 ## Security Components
 
 ### Component: OpenSSL
