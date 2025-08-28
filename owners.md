@@ -62,6 +62,8 @@ Owners:
 ### Component: ZFS
 
 Upstream:      [OpenZFS](https://openzfs.org)  
+Directory:     `sys/contrib/openzfs`, `cddl`  
+Vendor branch: `vendor/openzfs/*`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
