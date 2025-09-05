@@ -18,6 +18,7 @@ contained in the `MAINTAINERS` file of the src repository.
 
 ### Component: libcxxrt
 
+Version:
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -28,6 +29,7 @@ Owners:
 ### Component: LLVM
 
 Upstream:      [LLVM](https://llvm.org)  
+Version:
 Directory:     `contrib/llvm-project`  
 Owners:
 
@@ -41,17 +43,19 @@ Owners:
 
 ### Component: ice(4)
 
+Version:
 Description:   Intel Ethernet 800 Series Driver  
 Directory:     `sys/contrib/dev/ice`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
 | ------------------- | -------- | ------------------ |
-|                     | erj@     | MAINTAINERS        |
+| Eric Joyner         | erj@     | MAINTAINERS        |
 
 ### Component: umb(4)
 
 Upstream:      [OpenBSD](https://openbsd.org)  
+Version:
 Directory:     `sys/dev/usb/net`  
 Owners:
 
@@ -62,6 +66,7 @@ Owners:
 ### Component: ZFS
 
 Upstream:      [OpenZFS](https://openzfs.org)  
+Version:
 Directory:     `sys/contrib/openzfs`, `cddl`  
 Vendor branch: `vendor/openzfs/*`  
 Owners:
@@ -71,9 +76,23 @@ Owners:
 
 ## Network Services
 
+### Component: ldns
+
+Upstream:      NLnet Labs  
+Version:
+Directory:     `contrib/ldns`  
+Vendor branch: `vendor/ldns`  
+Owners:
+
+| Full name           | e-mail   | Capacity           |
+| ------------------- | -------- | ------------------ |
+| Dag-Erling Smørgrav | des@     | Import of 1.8.3    |
+
 ### Component: OpenSSH
 
+Homepage:      [OpenSSH](https://openssh.com)  
 Upstream:      [OpenBSD](https://openbsd.org)  
+Version:
 Directory:     `crypto/openssh`  
 Owners:
 
@@ -83,6 +102,7 @@ Owners:
 ### Component: Unbound
 
 Upstream:      NLnet Labs  
+Version:
 Directory:     `contrib/unbound`  
 Owners:
 
@@ -95,6 +115,7 @@ Owners:
 ### Component: BearSSL
 
 Upstream:      [BearSSL](https://bearssl.org)  
+Version:
 Directory:     `contrib/bearssl`  
 Vendor branch: `vendor/bearssl`  
 Owners:
@@ -106,9 +127,10 @@ Owners:
 ### Component: OpenSSL
 
 Upstream:      [OpenSSL](https://openssl-library.org)  
+Version:
 Directory:     `crypto/openssl`  
 Strategy:      [LTS](https://openssl-library.org/policies/releasestrat/index.html)  
-Vendor branch: `vendor/openssl-3.5`  
+Vendor branch: `vendor/openssl`, `vendor/openssl-3.0`, `vendor/openssl-3.5`  
 Owners:
 
 | Full name           | e-mail   | Capacity           |
@@ -116,11 +138,16 @@ Owners:
 | Ngie Cooper         | ngie@    |                    |
 | Pierre Pronchery    | khorben@ | Import of 3.0, 3.5 |
 
-## Testing infrastructure
+## System Libraries
+
+### Component: libedit
+
+## Testing Infrastructure
 
 ### Component: ATF
 
 Upstream:      [NetBSD](https://netbsd.org)  
+Version:
 Strategy:      [Fork](https://github.com/freebsd/kyua)  
 Vendor branch: `vendor/atf`  
 Owners:
@@ -132,6 +159,7 @@ Owners:
 ### Component: NetBSD tests
 
 Upstream:      [NetBSD](https://netbsd.org)  
+Version:
 Vendor branch: `vendor/NetBSD/tests`  
 Owners:
 
@@ -141,6 +169,7 @@ Owners:
 
 ### Component: pjdfstest
 
+Version:
 Owners:
 
 | Full name           | e-mail   | Capacity           |
