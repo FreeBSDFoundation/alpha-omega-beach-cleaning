@@ -1,7 +1,3 @@
-# Inventory of Dependencies
-
-For the detailed information, refer to the list of [owners](owners.md).
-
 | Component                      | Directory                           | Upstream               | Homepage                                           |
 | ------------------------------ | ----------------------------------- | ---------------------- | -------------------------------------------------- |
 | __Compilation Infrastructure__ |                                     |                        |                                                    |
@@ -14,7 +10,6 @@ For the detailed information, refer to the list of [owners](owners.md).
 | unifdef                        | `contrib/unifdef`                   | Tony Finch             | https://dotat.at/prog/unifdef                      |
 | __Kernel__                     |                                     |                        |                                                    |
 | acpi(4)                        | `sys/contrib/dev/acpica`            | Intel                  | https://github.com/acpica/acpica                   |
-| ice(4)                         |                                     |                        |                                                    |
 | ipfilter(4)                    | `sys/netpfil/ipfilter`              | Phil Dibowitz          | https://www.phildev.net/ipf/                       |
 | pf(4)                          | `sys/netpfil/pf`                    | OpenBSD                | https://openbsd.org                                |
 | umb(4)                         | `sys/dev/usb/net`                   | OpenBSD                | https://openbsd.org                                |
@@ -66,7 +61,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 | ncurses                        | `contrib/ncurses`                   | invisible-island       | https://invisible-island.net/ncurses/              |
 | OpenPAM                        | `contrib/openpam`                   | OpenPAM                | https://openpam.org                                |
 | SQLite                         | `contrib/sqlite3`                   | SQLite                 | https://sqlite.org/src                             |
-| Time Zone Database             | `contrib/{tzcode,tzdata}`           | IANA                   | https://www.iana.org/time-zones                    |
+| Time Zone Database             | `contrib/tzcode`, `contrib/tzdata`  | IANA                   | https://www.iana.org/time-zones                    |
 | zlib                           | `contrib/zlib`                      | zlib                   | https://zlib.net                                   |
 | __System Tools__               |                                     |                        |                                                    |
 | awk                            | `contrib/one-true-awk`              | One True Awk           | https://github.com/onetrueawk/awk                  |
