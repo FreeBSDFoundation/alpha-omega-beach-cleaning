@@ -17,7 +17,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 | ice(4)                         |                                     |                        |                                                    |
 | ipfilter(4)                    | `sys/netpfil/ipfilter`              | Phil Dibowitz          | https://www.phildev.net/ipf/                       |
 | pf(4)                          | `sys/netpfil/pf`                    | OpenBSD                | https://openbsd.org                                |
-| umb(4)                         |                                     | OpenBSD                | https://openbsd.org                                |
+| umb(4)                         | `sys/dev/usb/net`                   | OpenBSD                | https://openbsd.org                                |
 | ZFS                            | `sys/contrib/openzfs`, `cddl`       | OpenZFS                | https://openzfs.org/wiki/Main\_Page                |
 | zstd                           | `sys/contrib/zstd`                  | Meta                   | https://facebook.github.io/zstd/                   |
 | __Network Libraries__          |                                     |                        |                                                    |
@@ -32,7 +32,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 | Sendmail                       | `contrib/sendmail`                  | Proofpoint             | https://ftp.sendmail.org                           |
 | Unbound                        | `contrib/unbound`                   | NLnet Labs             | https://github.com/NLnetLabs/unbound               |
 | WireGuard                      | `contrib/wireguard-tools`           | WireGuard              | https://git.zx2c4.com/wireguard-tools/             |
-| wpa\_supplicant                | `contrib/wpa`                       | Jouni Malinen          | https://w1.fi/wpa_supplicant/                      |
+| wpa\_supplicant                | `contrib/wpa`                       | Jouni Malinen          | https://w1.fi/wpa\_supplicant/                     |
 | __Network Tools__              |                                     |                        |                                                    |
 | lib9p                          | `contrib/lib9p`                     | Conclusive Engineering | https://github.com/conclusiveeng/lib9p             |
 | tcpdump                        | `contrib/tcpdump`                   | TCPdump                | https://www.tcpdump.org                            |
@@ -46,7 +46,7 @@ For the detailed information, refer to the list of [owners](owners.md).
 | bzip2                          | `contrib/bzip2`                     | Julian Seward          | https://sourceware.org/bzip2/                      |
 | flex                           | `contrib/flex`                      | Will Estes             | https://github.com/westes/flex                     |
 | gdtoa                          | `contrib/gdtoa`                     | David M. Gay           | https://www.netlib.org/fp/                         |
-| Heimdal Kerberos               | `crypto/heimdal`, `contrib/com_err` | Heimdal Software       | https://www.heimdal.software/                      |
+| Heimdal Kerberos               | `crypto/heimdal`, `contrib/com_err` | Heimdal Software       | https://www.heimdal.software                       |
 | jemalloc                       | `contrib/jemalloc`                  | jemalloc               | https://jemalloc.net                               |
 | libarchive                     | `contrib/libarchive`                | libarchive             | https://libarchive.org                             |
 | libbegemot                     | `contrib/libbegemot`                | Hartmut Brandt         | https://people.freebsd.org/~harti/libbegemot/      |
