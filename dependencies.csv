@@ -9,6 +9,7 @@ LLVM,contrib/llvm-project,LLVM,https://llvm.org
 unifdef,contrib/unifdef,Tony Finch,https://dotat.at/prog/unifdef
 Kernel,,,
 acpi(4),sys/contrib/dev/acpica,Intel,https://github.com/acpica/acpica
+ice(4),sys/contrib/dev/ice,Intel,https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
 ipfilter(4),sys/netpfil/ipfilter,Phil Dibowitz,https://www.phildev.net/ipf/
 pf(4),sys/netpfil/pf,OpenBSD,https://openbsd.org
 umb(4),sys/dev/usb/net,OpenBSD,https://openbsd.org
