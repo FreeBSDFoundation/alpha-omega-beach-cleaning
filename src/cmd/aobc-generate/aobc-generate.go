@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/csv"
+	"errors"
 	"flag"
 	"fmt"
 	"os"
@@ -9,6 +10,7 @@ import (
 )
 
 var (
+	columnDirectory int
 	progname string = "aobc-generate"
 )
 
@@ -36,9 +38,22 @@ func aobcGenerateDependencies() error {
 	}
 	defer ofile.Close()
 
+	//validate the input
+	if len(lines) < 1 {
+		err = errors.New("invalid input (empty file)")
+		return err
+	}
+
+	//lookup special columns
+	for i := range lines[0] {
+		if lines[0][i] == "Directory" {
+			columnDirectory = i
+		}
+	}
+
 	widths := make([]int, len(lines[0]))
 	for line := range lines {
-		if len(lines[line][1]) == 0 {
+		if len(lines[line][columnDirectory]) == 0 {
 			w := len(lines[line][0]) + 4
 
 			//highlight titles
@@ -51,7 +66,7 @@ func aobcGenerateDependencies() error {
 		for i := range lines[line] {
 			w := len(lines[line][i])
 
-			if i == 1 {
+			if i == columnDirectory {
 				//directories
 				tokens := strings.Split(lines[line][i], "|")
 				w += 1 + (len(tokens)-1)*4
@@ -64,7 +79,7 @@ func aobcGenerateDependencies() error {
 	}
 
 	for line := range lines {
-		if len(lines[line][1]) == 0 {
+		if len(lines[line][columnDirectory]) == 0 {
 			//print as a title
 			fmt.Fprintf(ofile, "| __%s__%-*s ", textEscape(lines[line][0]), widths[0]-len(textEscape(lines[line][0]))-4, "")
 			for i := range lines[line][1:] {
@@ -72,7 +87,7 @@ func aobcGenerateDependencies() error {
 			}
 		} else {
 			for i := range lines[line] {
-				if line != 0 && i == 1 {
+				if line != 0 && i == columnDirectory {
 					tokens := strings.Split(lines[line][i], "|")
 					fmt.Fprintf(ofile, "| %-*s ", widths[i], "`"+strings.Join(tokens, "`, `")+"`")
 				} else {
