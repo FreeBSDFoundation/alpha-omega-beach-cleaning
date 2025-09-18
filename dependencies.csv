@@ -73,6 +73,7 @@ less,contrib/less,Mark Nudelman,https://www.greenwoodsoftware.com/less/
 Lua,contrib/lua,Lua,https://www.lua.org
 Test Infrastructure,,,
 ATF,contrib/atf,Julio Merino,https://github.com/jmmv/atf
+capsicum-test,contrib/capsicum-test,University of Cambridge,https://www.cl.cam.ac.uk/research/security/capsicum/
 GoogleTest,contrib/googletest,Google,https://google.github.io/googletest/
 NetBSD tests,contrib/netbsd-tests,NetBSD,https://www.NetBSD.org
 pjdfstest,contrib/pjdfstest,pjdfstest,https://github.com/pjd/pjdfstest
