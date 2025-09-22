@@ -24,10 +24,10 @@
 | blocklist | network, system | 2 |
 | dma | network | 1 |
 | NTP | network, system | 2 |
-| OpenSSH | network | 1 |
+| OpenSSH | auth, crypto, network | 3 |
 | Sendmail | network | 1 |
 | Unbound | network | 1 |
-| WireGuard | kernel, network | 2 |
+| WireGuard | auth, crypto, kernel, network | 4 |
 | wpa\_supplicant | kernel, network | 2 |
 | __Network Tools__ | | |
 | lib9p | network | 1 |
@@ -42,7 +42,7 @@
 | bzip2 | user | 1 |
 | flex | build, user | 2 |
 | gdtoa | runtime | 1 |
-| Heimdal Kerberos | crypto, network | 2 |
+| Heimdal Kerberos | auth, crypto, network | 3 |
 | jemalloc | runtime, user | 2 |
 | libarchive | user | 1 |
 | libbegemot | network, user | 2 |
@@ -53,14 +53,14 @@
 | libevent | system, user | 2 |
 | libexecinfo | user | 1 |
 | libexpat | user | 1 |
-| libfido2 | crypto, system, user | 3 |
+| libfido2 | auth, crypto, system, user | 4 |
 | liblzma | firmware, user | 2 |
 | libmagic (file) | user | 1 |
 | libucl | system, user | 2 |
 | libxo | user | 1 |
 | mandoc | build, user | 2 |
 | ncurses | user | 1 |
-| OpenPAM | system, user | 2 |
+| OpenPAM | auth, system, user | 3 |
 | SQLite | user | 1 |
 | Time Zone Database | system, user | 2 |
 | zlib | firmware, system, user | 3 |
