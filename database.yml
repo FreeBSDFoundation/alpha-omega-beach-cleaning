@@ -3,6 +3,10 @@ DependenciesColumns:
   - directory: Directory
   - upstream: Upstream
   - homepage: Homepage
+SecurityColumns:
+  - component: Component
+  - security: Security impact
+  - score: Score
 SecurityImpacts:
   - build: "build process (threat: developer, builder)"
   - crypto: "security of operations (threat: integrity, access control...)"
