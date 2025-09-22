@@ -33,8 +33,8 @@
 | lib9p | network | 1 |
 | tcpdump | network | 1 |
 | __Security Infrastructure__ | | |
-| BearSSL | crypto, network | 2 |
-| OpenSSL | crypto, network | 2 |
+| BearSSL | crypto, network, user | 3 |
+| OpenSSL | crypto, network, user | 3 |
 | __System Libraries__ | | |
 | arm-optimized-routines | system | 1 |
 | bionic-x86\_64-string | system | 1 |
