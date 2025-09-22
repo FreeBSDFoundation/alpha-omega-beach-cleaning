@@ -26,7 +26,7 @@ subdirs:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/"; \
 		else $(MAKE); fi) || exit; done
 
-$(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate dependencies.csv
+$(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
 	$(OBJDIR)src/aobc-generate
 
 clean:
@@ -51,7 +51,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/project.conf \
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
-		$(PACKAGE)-$(VERSION)/dependencies.csv \
+		$(PACKAGE)-$(VERSION)/database.yml \
 		$(PACKAGE)-$(VERSION)/project.conf
 	$(RM) -- $(OBJDIR)$(PACKAGE)-$(VERSION)
 
