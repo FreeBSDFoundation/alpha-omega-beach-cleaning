@@ -348,8 +348,8 @@ Sections:
         - user
     libucl:
       - directory: contrib/libucl
-      - upstream: libucl
-      - homepage: 
+      - upstream: Vsevolod Stakhov
+      - homepage: https://github.com/vstakhov/libucl
       - security:
         - system
         - user
