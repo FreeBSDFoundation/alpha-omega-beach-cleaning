@@ -56,7 +56,7 @@
 | libfido2 | `contrib/libfido2` | Yubico | https://github.com/Yubico/libfido2 |
 | liblzma | `contrib/xz` | Tukaani | https://tukaani.org/xz/ |
 | libmagic (file) | `contrib/file` | Ian Darwin | https://www.darwinsys.com/file/ |
-| libucl | `contrib/libucl` | libucl |  |
+| libucl | `contrib/libucl` | Vsevolod Stakhov | https://github.com/vstakhov/libucl |
 | libxo | `contrib/libxo` | Juniper | https://github.com/Juniper/libxo |
 | mandoc | `contrib/mandoc` | Ingo Schwarze | https://mandoc.bsd.lv |
 | ncurses | `contrib/ncurses` | invisible-island | https://invisible-island.net/ncurses/ |
