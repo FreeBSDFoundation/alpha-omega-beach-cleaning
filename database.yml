@@ -3,295 +3,481 @@ DependenciesColumns:
   - directory: Directory
   - upstream: Upstream
   - homepage: Homepage
+SecurityImpacts:
+  - build: "build process (threat: developer, builder)"
+  - crypto: "security of operations (threat: integrity, access control...)"
+  - firmware: "component of the start-up sequence (threat: system)"
+  - kernel: "control of hardware and system operations (threat: system)"
+  - network: "remote exposure (threat: network tools and services)"
+  - runtime: "security of application setup (threat: system, user)"
+  - user: "security of applications (threat: user)"
 Sections:
   - Compilation Infrastructure:
     bmake:
       - directory: contrib/bmake
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
+      - security:
+        - build
     byacc:
       - directory: contrib/byacc
       - upstream: invisible-island
       - homepage: https://invisible-island.net/byacc/
+      - security:
+        - build
     dtc:
       - directory: usr.bin/dtc
       - upstream: David Chisnall
       - homepage: https://github.com/davidchisnall/dtc
+      - security:
+        - build
+        - kernel
     elftoolchain:
       - directory: contrib/elftoolchain
       - upstream: elftoolchain
       - homepage: https://sourceforge.net/projects/elftoolchain/
+      - security:
+        - build
     libcxxrt:
       - directory: contrib/libcxxrt
       - upstream:
       - homepage: https://github.com/libcxxrt/libcxxrt
+      - security:
+        - runtime
     LLVM:
       - directory: contrib/llvm-project
       - upstream: LLVM
       - homepage: https://llvm.org
+      - security:
+        - build
+        - runtime
     unifdef:
       - directory: contrib/unifdef
       - upstream: Tony Finch
       - homepage: https://dotat.at/prog/unifdef
+      - security:
+        - build
   - Kernel:
     acpi(4):
       - directory: sys/contrib/dev/acpica
       - upstream: Intel
       - homepage: https://github.com/acpica/acpica
+      - security:
+        - build
+        - firmware
+        - kernel
     ice(4):
       - directory: sys/contrib/dev/ice
       - upstream: Intel
       - homepage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
+      - security:
+        - kernel
+        - network
     ipfilter(4):
       - directory: sys/netpfil/ipfilter
       - upstream: Phil Dibowitz
       - homepage: https://www.phildev.net/ipf/
+      - security:
+        - kernel
+        - network
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
       - homepage: https://openbsd.org
+      - security:
+        - kernel
+        - network
     umb(4):
       - directory: sys/dev/usb/net
       - upstream: OpenBSD
       - homepage: https://openbsd.org
+      - security:
+        - kernel
+        - network
     ZFS:
       - directory:
         - sys/contrib/openzfs
         - cddl
       - upstream: OpenZFS
       - homepage: https://openzfs.org/wiki/Main_Page
+      - security:
+        - crypto
+        - firmware
+        - kernel
+        - network
     zstd:
       - directory: sys/contrib/zstd
       - upstream: Meta
       - homepage: https://facebook.github.io/zstd/
+      - security:
+        - firmware
+        - kernel
   - Network Libraries:
     bsnmp:
       - directory: contrib/bsnmp
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/bsnmp/
+      - security:
+        - network
     ldns:
       - directory: contrib/ldns
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/ldns
+      - security:
+        - network
     libpcap:
       - directory: contrib/libpcap
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - security:
+        - network
   - Network Services:
     blocklist:
       - directory: contrib/blocklist
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
+      - security:
+        - network
+        - system
     dma:
       - directory: contrib/dma
       - upstream: DragonFly BSD
       - homepage: https://www.dragonflybsd.org/handbook/mta/
+      - security:
+        - network
     NTP:
       - directory: contrib/ntp
       - upstream: NTP Project
       - homepage: https://www.ntp.org
+      - security:
+        - network
+        - system
     OpenSSH:
       - directory: crypto/openssh
       - upstream: OpenBSD
       - homepage: https://openssh.com
+      - security:
+        - network
     Sendmail:
       - directory: contrib/sendmail
       - upstream: Proofpoint
       - homepage: https://ftp.sendmail.org
+      - security:
+        - network
     Unbound:
       - directory: contrib/unbound
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/unbound
+      - security:
+        - network
     WireGuard:
       - directory: contrib/wireguard-tools
       - upstream: WireGuard
       - homepage: https://git.zx2c4.com/wireguard-tools/
+      - security:
+        - kernel
+        - network
     wpa_supplicant:
       - directory: contrib/wpa
       - upstream: Jouni Malinen
       - homepage: https://w1.fi/wpa_supplicant/
+      - security:
+        - kernel
+        - network
   - Network Tools:
     lib9p:
       - directory: contrib/lib9p
       - upstream: Conclusive Engineering
       - homepage: https://github.com/conclusiveeng/lib9p
+      - security:
+        - network
     tcpdump:
       - directory: contrib/tcpdump
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - security:
+        - network
   - Security Infrastructure:
     BearSSL:
       - directory: contrib/bearssl
       - upstream: BearSSL
       - homepage: https://bearssl.org
+      - security:
+        - crypto
+        - network
     OpenSSL:
       - directory: crypto/openssl
       - upstream: OpenSSL
       - homepage: https://openssl-library.org
+      - security:
+        - crypto
+        - network
   - System Libraries:
     arm-optimized-routines:
       - directory: contrib/arm-optimized-routines
       - upstream: Arm
       - homepage: https://github.com/ARM-software/optimized-routines
+      - security:
+        - system
     bionic-x86_64-string:
       - directory: contrib/bionic-x86_64-string
       - upstream: Intel
       - homepage: https://android.googlesource.com/platform/bionic
+      - security:
+        - system
     bsddialog:
       - directory: contrib/bsddialog
       - upstream: Alfonso Siciliano
       - homepage: https://gitlab.com/alfix/bsddialog
+      - security:
+        - user
     bzip2:
       - directory: contrib/bzip2
       - upstream: Julian Seward
       - homepage: https://sourceware.org/bzip2/
+      - security:
+        - user
     flex:
       - directory: contrib/flex
       - upstream: Will Estes
       - homepage: https://github.com/westes/flex
+      - security:
+        - build
+        - user
     gdtoa:
       - directory: contrib/gdtoa
       - upstream: David M. Gay
       - homepage: https://www.netlib.org/fp/
+      - security:
+        - runtime
     Heimdal Kerberos:
       - directory:
         - crypto/heimdal
         - contrib/com_err
       - upstream: Heimdal Software
       - homepage: https://www.heimdal.software
+      - security:
+        - crypto
+        - network
     jemalloc:
       - directory: contrib/jemalloc
       - upstream: jemalloc
       - homepage: https://jemalloc.net
+      - security:
+        - runtime
+        - user
     libarchive:
       - directory: contrib/libarchive
       - upstream: libarchive
       - homepage: https://libarchive.org
+      - security:
+        - user
     libbegemot:
       - directory: contrib/libbegemot
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/libbegemot/
+      - security:
+        - network
+        - user
     libcbor:
       - directory: contrib/libcbor
       - upstream: Pavel Kalvoda
       - homepage: https://github.com/PJK/libcbor
+      - security:
+        - crypto
+        - system
+        - user
     libdialog:
       - directory: contrib/libdialog
       - upstream: invisible-island
       - homepage: https://invisible-island.net/dialog/
+      - security:
+        - user
     libdiff:
       - directory: contrib/libdiff
       - upstream: Game of Trees
       - homepage: https://www.gameoftrees.org
+      - security:
+        - build
+        - user
     libedit:
       - directory: contrib/libedit
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
+      - security:
+        - user
     libevent:
       - directory: contrib/libevent
       - upstream: libevent
       - homepage: https://libevent.org
+      - security:
+        - system
+        - user
     libexecinfo:
       - directory: contrib/libexecinfo
       - upstream: Maxim Sobolev
       - homepage: 
+      - security:
+        - user
     libexpat:
       - directory: contrib/expat
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
+      - security:
+        - user
     libfido2:
       - directory: contrib/libfido2
       - upstream: Yubico
       - homepage: https://github.com/Yubico/libfido2
+      - security:
+        - crypto
+        - system
+        - user
     liblzma:
       - directory: contrib/xz
       - upstream: Tukaani
       - homepage: https://tukaani.org/xz/
+      - security:
+        - firmware
+        - user
     libmagic (file):
       - directory: contrib/file
       - upstream: Ian Darwin
       - homepage: https://www.darwinsys.com/file/
+      - security:
+        - user
     libucl:
       - directory: contrib/libucl
       - upstream: libucl
       - homepage: 
+      - security:
+        - system
+        - user
     libxo:
       - directory: contrib/libxo
       - upstream: Juniper
       - homepage: https://github.com/Juniper/libxo
+      - security:
+        - user
     mandoc:
       - directory: contrib/mandoc
       - upstream: Ingo Schwarze
       - homepage: https://mandoc.bsd.lv
+      - security:
+        - build
+        - user
     ncurses:
       - directory: contrib/ncurses
       - upstream: invisible-island
       - homepage: https://invisible-island.net/ncurses/
+      - security:
+        - user
     OpenPAM:
       - directory: contrib/openpam
       - upstream: OpenPAM
       - homepage: https://openpam.org
+      - security:
+        - system
+        - user
     SQLite:
       - directory: contrib/sqlite3
       - upstream: SQLite
       - homepage: https://sqlite.org/src
+      - security:
+        - user
     Time Zone Database:
       - directory:
         - contrib/tzcode
         - contrib/tzdata
       - upstream: IANA
       - homepage: https://www.iana.org/time-zones
+      - security:
+        - system
+        - user
     zlib:
       - directory: contrib/zlib
       - upstream: zlib
       - homepage: https://zlib.net
+      - security:
+        - firmware
+        - system
+        - user
   - System Tools:
     awk:
       - directory: contrib/one-true-awk
       - upstream: One True Awk
       - homepage: https://github.com/onetrueawk/awk
+      - security:
+        - build
+        - user
     bc:
       - directory: contrib/bc
       - upstream: Gavin D. Howard
       - homepage: https://gavinhoward.com/tag/bc/
+      - security:
+        - user
     diff:
       - directory: contrib/diff
       - upstream: GNU
       - homepage: https://www.gnu.org/software/diffutils/
+      - security:
+        - build
+        - user
     ee:
       - directory: contrib/ee
       - upstream: Hugh Mahon
       - homepage: 
+      - security:
+        - user
     hyperv:
       - directory: contrib/hyperv
       - upstream: Microsoft
       - homepage: 
+      - security:
+        - system
     less:
       - directory: contrib/less
       - upstream: Mark Nudelman
       - homepage: https://www.greenwoodsoftware.com/less/
+      - security:
+        - user
     Lua:
       - directory: contrib/lua
       - upstream: Lua
       - homepage: https://www.lua.org
+      - security:
+        - firmware
+        - runtime
+        - user
   - Test Infrastructure:
     ATF:
       - directory: contrib/atf
       - upstream: Julio Merino
       - homepage: https://github.com/jmmv/atf
+      - security:
+        - user
     capsicum-test:
       - directory: contrib/capsicum-test
       - upstream: University of Cambridge
       - homepage: https://www.cl.cam.ac.uk/research/security/capsicum/
+      - security:
+        - kernel
+        - user
     GoogleTest:
       - directory: contrib/googletest
       - upstream: Google
       - homepage: https://google.github.io/googletest/
+      - security:
+        - user
     NetBSD tests:
       - directory: contrib/netbsd-tests
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
+      - security:
+        - user
     pjdfstest:
       - directory: contrib/pjdfstest
       - upstream: pjdfstest
       - homepage: https://github.com/pjd/pjdfstest
+      - security:
+        - user
