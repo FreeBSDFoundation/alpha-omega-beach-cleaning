@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md
+TARGETS	= $(OBJDIR)dependencies.md format
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -17,7 +17,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: subdirs $(TARGETS)
+all: subdirs $(OBJDIR)dependencies.md
 
 subdirs:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -28,6 +28,9 @@ subdirs:
 
 $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
 	$(OBJDIR)src/aobc-generate
+
+format:
+	go fmt src/cmd/aobc-generate/aobc-generate.go
 
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -40,7 +43,7 @@ distclean:
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
-	$(RM) -- $(TARGETS)
+	$(RM) -- $(OBJDIR)dependencies.md
 
 dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
@@ -81,4 +84,4 @@ uninstall:
 		else $(MAKE) uninstall; fi) || exit; done
 	$(RM) -- $(DESTDIR)$(PREFIX)/share/doc/$(PACKAGE)/README.md
 
-.PHONY: all subdirs clean distclean dist distcheck install uninstall
+.PHONY: all subdirs clean distclean dist distcheck install uninstall format
