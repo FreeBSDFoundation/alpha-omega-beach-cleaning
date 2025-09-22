@@ -8,6 +8,7 @@ SecurityColumns:
   - security: Security impact
   - score: Score
 SecurityImpacts:
+  - auth: "authenticates users (threat: system)"
   - build: "build process (threat: developer, builder)"
   - crypto: "security of operations (threat: integrity, access control...)"
   - firmware: "component of the start-up sequence (threat: system)"
@@ -161,6 +162,8 @@ Sections:
       - upstream: OpenBSD
       - homepage: https://openssh.com
       - security:
+        - auth
+        - crypto
         - network
     Sendmail:
       - directory: contrib/sendmail
@@ -179,6 +182,8 @@ Sections:
       - upstream: WireGuard
       - homepage: https://git.zx2c4.com/wireguard-tools/
       - security:
+        - auth
+        - crypto
         - kernel
         - network
     wpa_supplicant:
@@ -261,6 +266,7 @@ Sections:
       - upstream: Heimdal Software
       - homepage: https://www.heimdal.software
       - security:
+        - auth
         - crypto
         - network
     jemalloc:
@@ -334,6 +340,7 @@ Sections:
       - upstream: Yubico
       - homepage: https://github.com/Yubico/libfido2
       - security:
+        - auth
         - crypto
         - system
         - user
@@ -381,6 +388,7 @@ Sections:
       - upstream: OpenPAM
       - homepage: https://openpam.org
       - security:
+        - auth
         - system
         - user
     SQLite:
