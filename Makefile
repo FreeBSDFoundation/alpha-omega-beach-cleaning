@@ -51,6 +51,8 @@ dist:
 	@cd $(OBJDIR). && $(TAR) -czvf $(PACKAGE)-$(VERSION)$(TGZEXT) -- \
 		$(PACKAGE)-$(VERSION)/src/cmd/aobc-generate/aobc-generate.go \
 		$(PACKAGE)-$(VERSION)/src/Makefile \
+		$(PACKAGE)-$(VERSION)/src/go.mod \
+		$(PACKAGE)-$(VERSION)/src/go.sum \
 		$(PACKAGE)-$(VERSION)/src/project.conf \
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
