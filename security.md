@@ -1,0 +1,80 @@
+| Component | Security impact | Score |
+| --- | --- | --- |
+| __Compilation Infrastructure__ | | |
+| bmake | build | 1 |
+| byacc | build | 1 |
+| dtc | build, kernel | 2 |
+| elftoolchain | build | 1 |
+| libcxxrt | runtime | 1 |
+| LLVM | build, runtime | 2 |
+| unifdef | build | 1 |
+| __Kernel__ | | |
+| acpi(4) | build, firmware, kernel | 3 |
+| ice(4) | kernel, network | 2 |
+| ipfilter(4) | kernel, network | 2 |
+| pf(4) | kernel, network | 2 |
+| umb(4) | kernel, network | 2 |
+| ZFS | crypto, firmware, kernel, network | 4 |
+| zstd | firmware, kernel | 2 |
+| __Network Libraries__ | | |
+| bsnmp | network | 1 |
+| ldns | network | 1 |
+| libpcap | network | 1 |
+| __Network Services__ | | |
+| blocklist | network, system | 2 |
+| dma | network | 1 |
+| NTP | network, system | 2 |
+| OpenSSH | network | 1 |
+| Sendmail | network | 1 |
+| Unbound | network | 1 |
+| WireGuard | kernel, network | 2 |
+| wpa\_supplicant | kernel, network | 2 |
+| __Network Tools__ | | |
+| lib9p | network | 1 |
+| tcpdump | network | 1 |
+| __Security Infrastructure__ | | |
+| BearSSL | crypto, network | 2 |
+| OpenSSL | crypto, network | 2 |
+| __System Libraries__ | | |
+| arm-optimized-routines | system | 1 |
+| bionic-x86\_64-string | system | 1 |
+| bsddialog | user | 1 |
+| bzip2 | user | 1 |
+| flex | build, user | 2 |
+| gdtoa | runtime | 1 |
+| Heimdal Kerberos | crypto, network | 2 |
+| jemalloc | runtime, user | 2 |
+| libarchive | user | 1 |
+| libbegemot | network, user | 2 |
+| libcbor | crypto, system, user | 3 |
+| libdialog | user | 1 |
+| libdiff | build, user | 2 |
+| libedit | user | 1 |
+| libevent | system, user | 2 |
+| libexecinfo | user | 1 |
+| libexpat | user | 1 |
+| libfido2 | crypto, system, user | 3 |
+| liblzma | firmware, user | 2 |
+| libmagic (file) | user | 1 |
+| libucl | system, user | 2 |
+| libxo | user | 1 |
+| mandoc | build, user | 2 |
+| ncurses | user | 1 |
+| OpenPAM | system, user | 2 |
+| SQLite | user | 1 |
+| Time Zone Database | system, user | 2 |
+| zlib | firmware, system, user | 3 |
+| __System Tools__ | | |
+| awk | build, user | 2 |
+| bc | user | 1 |
+| diff | build, user | 2 |
+| ee | user | 1 |
+| hyperv | system | 1 |
+| less | user | 1 |
+| Lua | firmware, runtime, user | 3 |
+| __Test Infrastructure__ | | |
+| ATF | user | 1 |
+| capsicum-test | kernel, user | 2 |
+| GoogleTest | user | 1 |
+| NetBSD tests | user | 1 |
+| pjdfstest | user | 1 |
