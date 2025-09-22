@@ -33,7 +33,7 @@ The current timeline is set as follows:
 | Phase                          | Start date | End date   | Status      | Notes                             |
 | ------------------------------ | ---------- | ---------- | ----------- | --------------------------------- |
 | Inventory of dependencies      | 25/08/2025 | 07/09/2025 | Done        | [Deliverable](dependencies.md)    |
-| Security risk assessments      | 08/09/2025 | 21/09/2025 | In progress |                                   |
+| Security risk assessments      | 08/09/2025 | 21/09/2025 | In progress | [Deliverable](security.md)        |
 | Propose list of priorities     | 22/09/2025 | 28/09/2025 |             | Continuous review and adjustments |
 | Plan the respective actions    | 29/09/2025 | 26/10/2025 |             | Coordination with the owners      |
 | Formalize code owners          | 27/10/2025 | 30/11/2025 |             | [Deliverable](owners.md)          |
