@@ -8,7 +8,7 @@ SecurityColumns:
   - security: Security impact
   - score: Score
 SecurityImpacts:
-  - auth: "authenticates users (threat: system)"
+  - auth: "authenticates users or system components (threat: system)"
   - build: "build process (threat: developer, builder)"
   - crypto: "security of operations (threat: integrity, access control...)"
   - firmware: "component of the start-up sequence (threat: system)"
@@ -214,6 +214,7 @@ Sections:
       - security:
         - crypto
         - network
+        - user
     OpenSSL:
       - directory: crypto/openssl
       - upstream: OpenSSL
@@ -221,6 +222,7 @@ Sections:
       - security:
         - crypto
         - network
+        - user
   - System Libraries:
     arm-optimized-routines:
       - directory: contrib/arm-optimized-routines
