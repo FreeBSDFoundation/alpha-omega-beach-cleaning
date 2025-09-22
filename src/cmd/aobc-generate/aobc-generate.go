@@ -1,17 +1,25 @@
 package main
 
 import (
-	"encoding/csv"
+	"bytes"
 	"errors"
 	"flag"
 	"fmt"
+	"io/ioutil"
 	"os"
 	"strings"
+
+	"gopkg.in/yaml.v3"
 )
 
+type Tuple struct {
+	key   string
+	value string
+}
+
 var (
-	columnDirectory int
-	progname string = "aobc-generate"
+	databaseFilename string = "database.yml"
+	progname         string = "aobc-generate"
 )
 
 func aobcGenerate() error {
@@ -20,16 +28,17 @@ func aobcGenerate() error {
 
 func aobcGenerateDependencies() error {
 	var err error
-	var ifile, ofile *os.File
+	var root yaml.Node
+	var ofile *os.File
 
-	if ifile, err = os.Open("dependencies.csv"); err != nil {
+	data, err := ioutil.ReadFile(databaseFilename)
+	if err != nil {
 		return err
 	}
-	defer ifile.Close()
 
-	reader := csv.NewReader(ifile)
-	lines, err := reader.ReadAll()
-	if err != nil {
+	dec := yaml.NewDecoder(bytes.NewReader(data))
+	dec.KnownFields(false)
+	if err = dec.Decode(&root); err != nil {
 		return err
 	}
 
@@ -39,71 +48,101 @@ func aobcGenerateDependencies() error {
 	defer ofile.Close()
 
 	//validate the input
-	if len(lines) < 1 {
+	if len(root.Content) == 0 {
 		err = errors.New("invalid input (empty file)")
 		return err
 	}
 
-	//lookup special columns
-	for i := range lines[0] {
-		if lines[0][i] == "Directory" {
-			columnDirectory = i
-		}
-	}
+	top := root.Content[0]
 
-	widths := make([]int, len(lines[0]))
-	for line := range lines {
-		if len(lines[line][columnDirectory]) == 0 {
-			w := len(lines[line][0]) + 4
-
-			//highlight titles
-			if w > widths[0] {
-				widths[0] = w
+	//obtain the columns
+	var columns []Tuple
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "DependenciesColumns" {
+				continue
 			}
-			continue
-		}
-
-		for i := range lines[line] {
-			w := len(lines[line][i])
-
-			if i == columnDirectory {
-				//directories
-				tokens := strings.Split(lines[line][i], "|")
-				w += 1 + (len(tokens)-1)*4
-			}
-
-			if w > widths[i] {
-				widths[i] = w
-			}
-		}
-	}
-
-	for line := range lines {
-		if len(lines[line][columnDirectory]) == 0 {
-			//print as a title
-			fmt.Fprintf(ofile, "| __%s__%-*s ", textEscape(lines[line][0]), widths[0]-len(textEscape(lines[line][0]))-4, "")
-			for i := range lines[line][1:] {
-				fmt.Fprintf(ofile, "| %-*s ", widths[i+1], "")
-			}
-		} else {
-			for i := range lines[line] {
-				if line != 0 && i == columnDirectory {
-					tokens := strings.Split(lines[line][i], "|")
-					fmt.Fprintf(ofile, "| %-*s ", widths[i], "`"+strings.Join(tokens, "`, `")+"`")
-				} else {
-					fmt.Fprintf(ofile, "| %-*s ", widths[i], textEscape(lines[line][i]))
+			column := top.Content[i+1]
+			for _, v := range column.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
+					}
 				}
 			}
 		}
-		fmt.Fprintf(ofile, "|\n")
+	}
 
-		//print a separator line for the first line
-		if line == 0 {
-			separators := make([]string, len(lines[line]))
-			for i := range separators {
-				separators[i] = strings.Repeat("-", widths[i])
+	//output the table header
+	for _, title := range columns {
+		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
+	}
+	fmt.Fprintf(ofile, "|\n")
+	for _ = range columns {
+		fmt.Fprintf(ofile, "| --- ")
+	}
+	fmt.Fprintf(ofile, "|\n")
+
+	//output the entries
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "Sections" {
+				continue
 			}
-			fmt.Fprintf(ofile, "| %s |\n", strings.Join(separators, " | "))
+			section := top.Content[i+1]
+			for _, v := range section.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						if v.Content[k+1].Kind == yaml.ScalarNode {
+							//new section
+							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
+							for _ = range columns {
+								fmt.Fprintf(ofile, " |")
+							}
+							fmt.Fprintf(ofile, "\n")
+						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+							var values map[string]string
+
+							//new entry
+							values = make(map[string]string)
+							//XXX hard-coded
+							values["component"] = v.Content[k].Value
+							for _, col := range columns {
+								for _, entry := range v.Content[k+1].Content {
+									if entry.Kind == yaml.MappingNode {
+										for m := 0; m < len(entry.Content); m += 2 {
+											//special case: directory
+											if col.key == "directory" && entry.Content[m].Value == col.key {
+												if entry.Content[m+1].Kind == yaml.SequenceNode {
+													var str []string
+
+													for _, w := range entry.Content[m+1].Content {
+														str = append(str, w.Value)
+													}
+													values[col.key] = "`" + strings.Join(str, "`, `") + "`"
+													break
+												}
+												values[col.key] = "`" + entry.Content[m+1].Value + "`"
+												break
+											} else if entry.Content[m].Value == col.key {
+												//general case
+												values[col.key] = entry.Content[m+1].Value
+												break
+											}
+										}
+									}
+								}
+							}
+							for _, col := range columns {
+								fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
+							}
+							fmt.Fprintf(ofile, "|\n")
+						}
+					}
+				}
+			}
 		}
 	}
 
@@ -111,7 +150,12 @@ func aobcGenerateDependencies() error {
 }
 
 func textEscape(text string) string {
-	return strings.ReplaceAll(text, "_", "\\_")
+	text = strings.ReplaceAll(text, `\`, `\\`)
+	text = strings.ReplaceAll(text, "_", `\_`)
+	text = strings.ReplaceAll(text, "|", `\|`)
+	text = strings.ReplaceAll(text, "\r\n", "\n")
+	text = strings.ReplaceAll(text, "\n", "<br>")
+	return text
 }
 
 func usage() int {
