@@ -57,6 +57,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/go.mod \
 		$(PACKAGE)-$(VERSION)/src/go.sum \
 		$(PACKAGE)-$(VERSION)/src/project.conf \
+		$(PACKAGE)-$(VERSION)/COPYING \
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
 		$(PACKAGE)-$(VERSION)/database.yml \
