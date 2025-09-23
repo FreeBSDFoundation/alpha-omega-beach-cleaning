@@ -1,5 +1,5 @@
 PACKAGE	= alpha-omega-beach-cleaning
-VERSION	= 20250912
+VERSION	= 20250922
 VENDOR	= FreeBSD-Foundation
 SUBDIRS	= src
 OBJDIR	=
