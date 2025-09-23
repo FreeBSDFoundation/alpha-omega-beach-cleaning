@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: BSD-2-Clause
+//
+// Copyright (c) 2025 The FreeBSD Foundation
+//
+// This software was developed by Pierre Pronchery <pierre@defora.net> at Defora
+// Networks GmbH under sponsorship from the FreeBSD Foundation.
+
 package main
 
 import (
