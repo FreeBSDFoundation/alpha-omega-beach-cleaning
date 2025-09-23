@@ -1,10 +1,10 @@
 DependenciesColumns:
-  - component: Component
+  - title: Component
   - directory: Directory
   - upstream: Upstream
   - homepage: Homepage
 SecurityColumns:
-  - component: Component
+  - title: Component
   - security: Security impact
   - score: Score
 SecurityImpacts:

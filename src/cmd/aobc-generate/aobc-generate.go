@@ -123,7 +123,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 							//new entry
 							values = make(map[string]string)
 							//XXX hard-coded
-							values["component"] = v.Content[k].Value
+							values["title"] = v.Content[k].Value
 							for _, col := range columns {
 								for _, entry := range v.Content[k+1].Content {
 									if entry.Kind == yaml.MappingNode {
@@ -228,7 +228,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 							//new entry
 							values = make(map[string]string)
 							//XXX hard-coded
-							values["component"] = v.Content[k].Value
+							values["title"] = v.Content[k].Value
 							for _, col := range columns {
 								for _, entry := range v.Content[k+1].Content {
 									if entry.Kind == yaml.MappingNode {
