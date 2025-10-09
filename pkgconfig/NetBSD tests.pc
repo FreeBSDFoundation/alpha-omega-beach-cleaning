@@ -1,0 +1,6 @@
+Name: NetBSD tests
+Description: 
+URL: https://www.NetBSD.org
+Version: 
+License: 
+Source: https://www.NetBSD.org

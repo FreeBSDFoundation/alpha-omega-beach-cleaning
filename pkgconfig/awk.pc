@@ -1,0 +1,6 @@
+Name: awk
+Description: 
+URL: https://github.com/onetrueawk/awk
+Version: 
+License: 
+Source: https://github.com/onetrueawk/awk

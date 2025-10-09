@@ -1,0 +1,6 @@
+Name: ncurses
+Description: 
+URL: https://invisible-island.net/ncurses/
+Version: 
+License: 
+Source: https://invisible-island.net/ncurses/

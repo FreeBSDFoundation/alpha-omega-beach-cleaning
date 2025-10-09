@@ -1,0 +1,6 @@
+Name: bsnmp
+Description: 
+URL: https://people.freebsd.org/~harti/bsnmp/
+Version: 
+License: 
+Source: https://people.freebsd.org/~harti/bsnmp/

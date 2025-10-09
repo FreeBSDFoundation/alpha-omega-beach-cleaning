@@ -1,0 +1,6 @@
+Name: dma
+Description: 
+URL: https://www.dragonflybsd.org/handbook/mta/
+Version: 
+License: 
+Source: https://www.dragonflybsd.org/handbook/mta/

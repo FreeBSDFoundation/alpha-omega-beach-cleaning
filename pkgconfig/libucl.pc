@@ -1,0 +1,6 @@
+Name: libucl
+Description: 
+URL: https://github.com/vstakhov/libucl
+Version: 
+License: 
+Source: https://github.com/vstakhov/libucl
