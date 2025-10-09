@@ -1,0 +1,6 @@
+Name: libdialog
+Description: 
+URL: https://invisible-island.net/dialog/
+Version: 
+License: 
+Source: https://invisible-island.net/dialog/

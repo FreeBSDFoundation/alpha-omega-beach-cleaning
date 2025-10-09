@@ -1,0 +1,6 @@
+Name: libfido2
+Description: 
+URL: https://github.com/Yubico/libfido2
+Version: 
+License: 
+Source: https://github.com/Yubico/libfido2

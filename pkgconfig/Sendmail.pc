@@ -1,0 +1,6 @@
+Name: Sendmail
+Description: 
+URL: https://ftp.sendmail.org
+Version: 
+License: 
+Source: https://ftp.sendmail.org
