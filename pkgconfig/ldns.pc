@@ -1,0 +1,6 @@
+Name: ldns
+Description: 
+URL: https://github.com/NLnetLabs/ldns
+Version: 
+License: 
+Source: https://github.com/NLnetLabs/ldns
