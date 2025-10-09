@@ -1,0 +1,6 @@
+Name: mandoc
+Description: 
+URL: https://mandoc.bsd.lv
+Version: 
+License: 
+Source: https://mandoc.bsd.lv

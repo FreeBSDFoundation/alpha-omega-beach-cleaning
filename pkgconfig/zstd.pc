@@ -1,0 +1,6 @@
+Name: zstd
+Description: 
+URL: https://facebook.github.io/zstd/
+Version: 
+License: 
+Source: https://facebook.github.io/zstd/

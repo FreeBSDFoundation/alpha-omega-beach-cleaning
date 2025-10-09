@@ -1,0 +1,6 @@
+Name: Heimdal Kerberos
+Description: 
+URL: https://www.heimdal.software
+Version: 
+License: 
+Source: https://www.heimdal.software

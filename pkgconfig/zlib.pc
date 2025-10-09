@@ -1,0 +1,6 @@
+Name: zlib
+Description: 
+URL: https://zlib.net
+Version: 
+License: 
+Source: https://zlib.net
