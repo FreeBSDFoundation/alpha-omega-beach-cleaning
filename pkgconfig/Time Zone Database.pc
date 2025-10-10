@@ -1,6 +1,3 @@
 Name: Time Zone Database
-Description: 
 URL: https://www.iana.org/time-zones
-Version: 
-License: 
 Source: https://www.iana.org/time-zones

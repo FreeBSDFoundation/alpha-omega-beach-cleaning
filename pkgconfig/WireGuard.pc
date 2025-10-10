@@ -1,6 +1,3 @@
 Name: WireGuard
-Description: 
 URL: https://git.zx2c4.com/wireguard-tools/
-Version: 
-License: 
 Source: https://git.zx2c4.com/wireguard-tools/

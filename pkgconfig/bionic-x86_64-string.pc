@@ -1,6 +1,3 @@
 Name: bionic-x86\_64-string
-Description: 
 URL: https://android.googlesource.com/platform/bionic
-Version: 
-License: 
 Source: https://android.googlesource.com/platform/bionic
