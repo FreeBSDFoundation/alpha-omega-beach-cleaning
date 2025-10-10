@@ -1,3 +1,2 @@
 Name: libdialog
 URL: https://invisible-island.net/dialog/
-Source: https://invisible-island.net/dialog/

@@ -1,3 +1,2 @@
 Name: BearSSL
 URL: https://bearssl.org
-Source: https://bearssl.org

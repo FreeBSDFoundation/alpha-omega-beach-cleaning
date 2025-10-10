@@ -1,3 +1,2 @@
 Name: bsnmp
 URL: https://people.freebsd.org/~harti/bsnmp/
-Source: https://people.freebsd.org/~harti/bsnmp/

@@ -1,3 +1,2 @@
 Name: liblzma
 URL: https://tukaani.org/xz/
-Source: https://tukaani.org/xz/

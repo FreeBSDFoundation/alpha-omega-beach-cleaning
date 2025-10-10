@@ -1,3 +1,2 @@
 Name: libucl
 URL: https://github.com/vstakhov/libucl
-Source: https://github.com/vstakhov/libucl

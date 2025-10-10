@@ -1,3 +1,2 @@
 Name: libevent
 URL: https://libevent.org
-Source: https://libevent.org
