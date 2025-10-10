@@ -1,2 +1,5 @@
 Name: liblzma
 URL: https://tukaani.org/xz/
+Version: 5.8.1
+License: 0BSD
+Source: https://github.com/tukaani-project/xz
