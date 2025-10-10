@@ -1,6 +1,3 @@
 Name: byacc
-Description: 
 URL: https://invisible-island.net/byacc/
-Version: 
-License: 
 Source: https://invisible-island.net/byacc/

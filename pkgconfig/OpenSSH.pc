@@ -1,6 +1,3 @@
 Name: OpenSSH
-Description: 
 URL: https://openssh.com
-Version: 
-License: 
 Source: https://openssh.com

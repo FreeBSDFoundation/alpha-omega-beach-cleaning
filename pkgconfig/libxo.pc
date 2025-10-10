@@ -1,6 +1,3 @@
 Name: libxo
-Description: 
 URL: https://github.com/Juniper/libxo
-Version: 
-License: 
 Source: https://github.com/Juniper/libxo

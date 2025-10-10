@@ -1,6 +1,3 @@
 Name: libarchive
-Description: 
 URL: https://libarchive.org
-Version: 
-License: 
 Source: https://libarchive.org

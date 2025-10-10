@@ -1,6 +1,3 @@
 Name: LLVM
-Description: 
 URL: https://llvm.org
-Version: 
-License: 
 Source: https://llvm.org

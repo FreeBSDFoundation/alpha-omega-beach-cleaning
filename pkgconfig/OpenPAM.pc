@@ -1,6 +1,3 @@
 Name: OpenPAM
-Description: 
 URL: https://openpam.org
-Version: 
-License: 
 Source: https://openpam.org

@@ -1,6 +1,3 @@
 Name: jemalloc
-Description: 
 URL: https://jemalloc.net
-Version: 
-License: 
 Source: https://jemalloc.net

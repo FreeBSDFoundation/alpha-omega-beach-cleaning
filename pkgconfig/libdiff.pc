@@ -1,6 +1,3 @@
 Name: libdiff
-Description: 
 URL: https://www.gameoftrees.org
-Version: 
-License: 
 Source: https://www.gameoftrees.org

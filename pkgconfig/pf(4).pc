@@ -1,6 +1,3 @@
 Name: pf(4)
-Description: 
 URL: https://openbsd.org
-Version: 
-License: 
 Source: https://openbsd.org

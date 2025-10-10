@@ -1,6 +1,1 @@
 Name: hyperv
-Description: 
-URL: 
-Version: 
-License: 
-Source: 

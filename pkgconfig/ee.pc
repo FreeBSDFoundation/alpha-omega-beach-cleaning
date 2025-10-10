@@ -1,6 +1,1 @@
 Name: ee
-Description: 
-URL: 
-Version: 
-License: 
-Source: 

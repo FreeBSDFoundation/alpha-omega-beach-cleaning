@@ -1,6 +1,3 @@
 Name: OpenSSL
-Description: 
 URL: https://openssl-library.org
-Version: 
-License: 
 Source: https://openssl-library.org
