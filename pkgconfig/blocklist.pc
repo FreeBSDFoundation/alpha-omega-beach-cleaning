@@ -1,3 +1,2 @@
 Name: blocklist
 URL: https://www.NetBSD.org
-Source: https://www.NetBSD.org

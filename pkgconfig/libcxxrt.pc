@@ -1,3 +1,2 @@
 Name: libcxxrt
 URL: https://github.com/libcxxrt/libcxxrt
-Source: https://github.com/libcxxrt/libcxxrt

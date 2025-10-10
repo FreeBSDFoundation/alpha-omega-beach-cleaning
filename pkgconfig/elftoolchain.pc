@@ -1,3 +1,2 @@
 Name: elftoolchain
 URL: https://sourceforge.net/projects/elftoolchain/
-Source: https://sourceforge.net/projects/elftoolchain/

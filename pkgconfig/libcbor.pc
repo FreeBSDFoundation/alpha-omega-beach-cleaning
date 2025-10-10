@@ -1,3 +1,2 @@
 Name: libcbor
 URL: https://github.com/PJK/libcbor
-Source: https://github.com/PJK/libcbor

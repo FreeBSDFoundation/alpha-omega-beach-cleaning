@@ -1,3 +1,2 @@
 Name: libbegemot
 URL: https://people.freebsd.org/~harti/libbegemot/
-Source: https://people.freebsd.org/~harti/libbegemot/

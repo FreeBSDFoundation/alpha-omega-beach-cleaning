@@ -1,3 +1,2 @@
 Name: awk
 URL: https://github.com/onetrueawk/awk
-Source: https://github.com/onetrueawk/awk

@@ -1,3 +1,2 @@
 Name: capsicum-test
 URL: https://www.cl.cam.ac.uk/research/security/capsicum/
-Source: https://www.cl.cam.ac.uk/research/security/capsicum/

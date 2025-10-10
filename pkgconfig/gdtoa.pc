@@ -1,3 +1,2 @@
 Name: gdtoa
 URL: https://www.netlib.org/fp/
-Source: https://www.netlib.org/fp/

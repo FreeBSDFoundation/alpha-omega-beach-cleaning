@@ -1,3 +1,2 @@
 Name: libexpat
 URL: https://github.com/libexpat/libexpat
-Source: https://github.com/libexpat/libexpat
