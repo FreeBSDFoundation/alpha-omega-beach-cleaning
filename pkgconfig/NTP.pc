@@ -1,3 +1,2 @@
 Name: NTP
 URL: https://www.ntp.org
-Source: https://www.ntp.org

@@ -1,3 +1,2 @@
 Name: libxo
 URL: https://github.com/Juniper/libxo
-Source: https://github.com/Juniper/libxo

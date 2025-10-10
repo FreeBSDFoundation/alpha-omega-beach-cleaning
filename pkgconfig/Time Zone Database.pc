@@ -1,3 +1,2 @@
 Name: Time Zone Database
 URL: https://www.iana.org/time-zones
-Source: https://www.iana.org/time-zones

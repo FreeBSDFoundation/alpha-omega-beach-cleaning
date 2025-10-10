@@ -1,3 +1,2 @@
 Name: dma
 URL: https://www.dragonflybsd.org/handbook/mta/
-Source: https://www.dragonflybsd.org/handbook/mta/

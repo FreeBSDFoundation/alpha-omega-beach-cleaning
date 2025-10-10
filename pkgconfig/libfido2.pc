@@ -1,3 +1,2 @@
 Name: libfido2
 URL: https://github.com/Yubico/libfido2
-Source: https://github.com/Yubico/libfido2

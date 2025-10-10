@@ -1,3 +1,2 @@
 Name: Heimdal Kerberos
 URL: https://www.heimdal.software
-Source: https://www.heimdal.software

@@ -1,3 +1,2 @@
 Name: SQLite
 URL: https://sqlite.org/src
-Source: https://sqlite.org/src
