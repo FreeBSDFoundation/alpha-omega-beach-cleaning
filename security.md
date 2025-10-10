@@ -34,7 +34,7 @@
 | tcpdump | network | 1 |
 | __Security Infrastructure__ | | |
 | BearSSL | crypto, network, user | 3 |
-| OpenSSL | crypto, network, user | 3 |
+| OpenSSL | crypto, kernel, network, user | 4 |
 | __System Libraries__ | | |
 | arm-optimized-routines | system | 1 |
 | bionic-x86\_64-string | system | 1 |
