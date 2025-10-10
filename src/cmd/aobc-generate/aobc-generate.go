@@ -247,7 +247,9 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 								}
 							}
 							for _, col := range columns {
-								fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value), textEscape(values[col.key]))
+								if len(values[col.key]) > 0 {
+									fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value), textEscape(values[col.key]))
+								}
 							}
 						}
 					}
