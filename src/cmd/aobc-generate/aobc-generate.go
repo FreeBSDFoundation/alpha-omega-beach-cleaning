@@ -176,7 +176,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 	var prefix, filename string
 	var ofile *os.File
 
-	if err = os.Mkdir("pkgconfig", 0755); err != nil {
+	if err = os.MkdirAll("pkgconfig", 0755); err != nil {
 		return err
 	}
 
