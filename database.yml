@@ -221,6 +221,7 @@ Sections:
       - homepage: https://openssl-library.org
       - security:
         - crypto
+        - kernel
         - network
         - user
   - System Libraries:
