@@ -1,3 +1,2 @@
 Name: zstd
 URL: https://facebook.github.io/zstd/
-Source: https://facebook.github.io/zstd/

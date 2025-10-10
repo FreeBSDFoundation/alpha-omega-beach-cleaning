@@ -1,3 +1,2 @@
 Name: GoogleTest
 URL: https://google.github.io/googletest/
-Source: https://google.github.io/googletest/

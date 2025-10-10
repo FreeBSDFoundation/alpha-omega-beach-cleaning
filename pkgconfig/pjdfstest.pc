@@ -1,3 +1,2 @@
 Name: pjdfstest
 URL: https://github.com/pjd/pjdfstest
-Source: https://github.com/pjd/pjdfstest

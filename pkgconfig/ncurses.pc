@@ -1,3 +1,2 @@
 Name: ncurses
 URL: https://invisible-island.net/ncurses/
-Source: https://invisible-island.net/ncurses/

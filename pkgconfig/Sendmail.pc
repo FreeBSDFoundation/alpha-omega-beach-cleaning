@@ -1,3 +1,2 @@
 Name: Sendmail
 URL: https://ftp.sendmail.org
-Source: https://ftp.sendmail.org

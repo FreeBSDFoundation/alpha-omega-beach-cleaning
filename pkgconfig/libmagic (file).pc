@@ -1,3 +1,2 @@
 Name: libmagic (file)
 URL: https://www.darwinsys.com/file/
-Source: https://www.darwinsys.com/file/

@@ -1,3 +1,2 @@
 Name: mandoc
 URL: https://mandoc.bsd.lv
-Source: https://mandoc.bsd.lv

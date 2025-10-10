@@ -1,3 +1,2 @@
 Name: bc
 URL: https://gavinhoward.com/tag/bc/
-Source: https://gavinhoward.com/tag/bc/
