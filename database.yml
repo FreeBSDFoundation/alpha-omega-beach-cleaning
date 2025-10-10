@@ -9,7 +9,7 @@ PkgConfigColumns:
   - homepage: URL
   - version: Version
   - license: License
-  - homepage: Source
+  - source: Source
 PlanColumns:
   - title: Component
   - plan: Plan
