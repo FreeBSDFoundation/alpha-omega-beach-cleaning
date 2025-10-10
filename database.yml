@@ -79,9 +79,13 @@ Sections:
         - runtime
       - plan: fix
     LLVM:
+      - description: Collection of modular and reusable compiler and toolchain technologies
       - directory: contrib/llvm-project
+      - version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
       - upstream: LLVM
       - homepage: https://llvm.org
+      - license: Apache-2.0
+      - source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       - security:
         - build
         - runtime
@@ -95,12 +99,23 @@ Sections:
       - plan: fix
   - Internal:
     libc:
+      - description: FreeBSD libc
       - directory:
         - lib/libc
         - lib/libc_nonshared
+      - version: 14.3
       - upstream: FreeBSD
       - homepage: https://www.FreeBSD.org
       - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+      - source: https://cgit.freebsd.org/src/tree/lib/libc
+    mkuzip:
+      - description: compress disk image for use with geom_uzip(4) class
+      - directory: usr.bin
+      - version: 14.3
+      - upstream: FreeBSD
+      - homepage: https://www.FreeBSD.org
+      - license: BSD-2-Clause
+      - source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip
   - Kernel:
     acpi(4):
       - directory: sys/contrib/dev/acpica
@@ -157,8 +172,11 @@ Sections:
       - plan: fix
     zstd:
       - directory: sys/contrib/zstd
+      - version: 1.5.2
       - upstream: Meta
       - homepage: https://facebook.github.io/zstd/
+      - license: BSD-3-Clause
+      - source: https://github.com/facebook/zstd
       - security:
         - firmware
         - kernel
@@ -277,8 +295,10 @@ Sections:
       - plan: fix
     OpenSSL:
       - directory: crypto/openssl
+      - version: 3.5.3
       - upstream: OpenSSL
       - homepage: https://openssl-library.org
+      - license: Apache-2.0
       - security:
         - crypto
         - kernel
@@ -428,8 +448,11 @@ Sections:
       - plan: fix
     liblzma:
       - directory: contrib/xz
+      - version: 5.8.1
       - upstream: Tukaani
       - homepage: https://tukaani.org/xz/
+      - license: 0BSD
+      - source: https://github.com/tukaani-project/xz
       - security:
         - firmware
         - user
@@ -499,8 +522,11 @@ Sections:
       - plan: fix
     zlib:
       - directory: contrib/zlib
+      - version: 1.3.1
       - upstream: zlib
       - homepage: https://zlib.net
+      - license: Zlib
+      - source: https://github.com/madler/zlib/tree/develop
       - security:
         - firmware
         - system
