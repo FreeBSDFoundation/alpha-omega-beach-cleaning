@@ -1,2 +1,3 @@
 Name: byacc
+Description: Parser generator designed to be compatible with Yacc
 URL: https://invisible-island.net/byacc/
