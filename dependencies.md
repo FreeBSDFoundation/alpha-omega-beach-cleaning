@@ -73,6 +73,7 @@
 | hyperv | `contrib/hyperv` | Microsoft |  |
 | less | `contrib/less` | Mark Nudelman | https://www.greenwoodsoftware.com/less/ |
 | Lua | `contrib/lua` | Lua | https://www.lua.org |
+| pkg | `usr.sbin/pkg` | FreeBSD (GitHub) | https://github.com/FreeBSD/pkg |
 | __Test Infrastructure__ | | | |
 | ATF | `contrib/atf` | Julio Merino | https://github.com/jmmv/atf |
 | capsicum-test | `contrib/capsicum-test` | University of Cambridge | https://www.cl.cam.ac.uk/research/security/capsicum/ |

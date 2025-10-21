@@ -73,6 +73,7 @@
 | hyperv | system | 1 |
 | less | user | 1 |
 | Lua | firmware, runtime, user | 3 |
+| pkg | build, crypto, network, user | 4 |
 | __Test Infrastructure__ | | |
 | ATF | user | 1 |
 | capsicum-test | kernel, user | 2 |
