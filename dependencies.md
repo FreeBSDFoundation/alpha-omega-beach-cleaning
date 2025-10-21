@@ -5,6 +5,7 @@
 | byacc | `contrib/byacc` | invisible-island | https://invisible-island.net/byacc/ |
 | dtc | `usr.bin/dtc` | David Chisnall | https://github.com/davidchisnall/dtc |
 | elftoolchain | `contrib/elftoolchain` | elftoolchain | https://sourceforge.net/projects/elftoolchain/ |
+| Git |  | Git | https://git-scm.com |
 | libcxxrt | `contrib/libcxxrt` |  | https://github.com/libcxxrt/libcxxrt |
 | LLVM | `contrib/llvm-project` | LLVM | https://llvm.org |
 | unifdef | `contrib/unifdef` | Tony Finch | https://dotat.at/prog/unifdef |

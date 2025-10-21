@@ -5,6 +5,7 @@
 | byacc | build | 1 |
 | dtc | build, kernel | 2 |
 | elftoolchain | build | 1 |
+| Git | build, crypto, network, user | 4 |
 | libcxxrt | runtime | 1 |
 | LLVM | build, runtime | 2 |
 | unifdef | build | 1 |
