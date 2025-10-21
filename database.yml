@@ -34,13 +34,16 @@ SecurityImpacts:
 Sections:
   - Compilation Infrastructure:
     bmake:
+      - description: Program designed to simplify the maintenance of other programs
       - directory: contrib/bmake
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
+      - source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
       - security:
         - build
       - plan: fix
     byacc:
+      - description: Parser generator designed to be compatible with Yacc
       - directory: contrib/byacc
       - upstream: invisible-island
       - homepage: https://invisible-island.net/byacc/
@@ -63,8 +66,10 @@ Sections:
         - build
       - plan: fix
     Git:
+      - description: Distributed Version Control System
       - upstream: Git
       - homepage: https://git-scm.com
+      - source: https://git.kernel.org/pub/scm/git/git.git
       - security:
         - build
         - crypto
@@ -109,7 +114,7 @@ Sections:
       - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
       - source: https://cgit.freebsd.org/src/tree/lib/libc
     mkuzip:
-      - description: compress disk image for use with geom_uzip(4) class
+      - description: Compress disk image for use with geom_uzip(4) class
       - directory: usr.bin
       - version: 14.3
       - upstream: FreeBSD
@@ -578,18 +583,22 @@ Sections:
         - user
       - plan: fix
     Lua:
+      - description: Embeddable scripting language
       - directory: contrib/lua
       - upstream: Lua
       - homepage: https://www.lua.org
+      - source: https://github.com/Lua/lua
       - security:
         - firmware
         - runtime
         - user
       - plan: fix
     pkg:
+      - description: Package manager for FreeBSD
       - directory: usr.sbin/pkg
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/pkg
+      - source: https://github.com/FreeBSD/pkg
       - security:
         - build
         - crypto
