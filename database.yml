@@ -43,6 +43,14 @@ Sections:
       - homepage: https://sourceforge.net/projects/elftoolchain/
       - security:
         - build
+    Git:
+      - upstream: Git
+      - homepage: https://git-scm.com
+      - security:
+        - build
+        - crypto
+        - network
+        - user
     libcxxrt:
       - directory: contrib/libcxxrt
       - upstream:
