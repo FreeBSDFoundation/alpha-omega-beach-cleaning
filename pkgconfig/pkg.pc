@@ -1,0 +1,4 @@
+Name: pkg
+Description: Package manager for FreeBSD
+URL: https://github.com/FreeBSD/pkg
+Source: https://github.com/FreeBSD/pkg
