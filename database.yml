@@ -472,6 +472,15 @@ Sections:
         - firmware
         - runtime
         - user
+    pkg:
+      - directory: usr.sbin/pkg
+      - upstream: FreeBSD (GitHub)
+      - homepage: https://github.com/FreeBSD/pkg
+      - security:
+        - build
+        - crypto
+        - network
+        - user
   - Test Infrastructure:
     ATF:
       - directory: contrib/atf
