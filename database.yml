@@ -262,6 +262,7 @@ Sections:
         - network
         - user
     OpenSSL:
+      - description: OpenSSL cryptography library
       - directory: crypto/openssl
       - version: 3.5.3
       - upstream: OpenSSL
@@ -396,6 +397,7 @@ Sections:
         - system
         - user
     liblzma:
+      - description: General purpose data compression library
       - directory: contrib/xz
       - version: 5.8.1
       - upstream: Tukaani
@@ -406,15 +408,21 @@ Sections:
         - firmware
         - user
     libmagic (file):
+      - description: Magic number recognition library
       - directory: contrib/file
       - upstream: Ian Darwin
       - homepage: https://www.darwinsys.com/file/
+      - source: https://github.com/file/file
+      - license: BSD-2-Clause
       - security:
         - user
     libucl:
+      - description: Universal configuration library parser
       - directory: contrib/libucl
       - upstream: Vsevolod Stakhov
       - homepage: https://github.com/vstakhov/libucl
+      - source: https://github.com/vstakhov/libucl
+      - license: BSD-2-Clause
       - security:
         - system
         - user
@@ -432,9 +440,11 @@ Sections:
         - build
         - user
     ncurses:
+      - description: clone of System V curses
       - directory: contrib/ncurses
       - upstream: invisible-island
-      - homepage: https://invisible-island.net/ncurses/
+      - homepage: https://invisible-island.net/ncurses
+      - license: X11
       - security:
         - user
     OpenPAM:
@@ -461,6 +471,7 @@ Sections:
         - system
         - user
     zlib:
+      - description: zlib compression library
       - directory: contrib/zlib
       - version: 1.3.1
       - upstream: zlib
