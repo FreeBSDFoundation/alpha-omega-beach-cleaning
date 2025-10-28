@@ -27,6 +27,7 @@ type Tuple struct {
 const (
 	databaseFilename     string = "database.yml"
 	dependenciesFilename string = "dependencies.md"
+	planFilename         string = "plan.md"
 	progname             string = "aobc-generate"
 	securityFilename     string = "security.md"
 )
@@ -53,6 +54,9 @@ func aobcGenerate() error {
 	}
 
 	err = aobcGenerateDependencies(dec, root)
+	if err == nil {
+		err = aobcGeneratePlan(dec, root)
+	}
 	if err == nil {
 		err = aobcGenerateSecurityReview(dec, root)
 	}
@@ -142,6 +146,98 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 												values[col.key] = "`" + entry.Content[m+1].Value + "`"
 												break
 											} else if entry.Content[m].Value == col.key {
+												//general case
+												values[col.key] = entry.Content[m+1].Value
+												break
+											}
+										}
+									}
+								}
+							}
+							for _, col := range columns {
+								fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
+							}
+							fmt.Fprintf(ofile, "|\n")
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return nil
+}
+
+func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
+	var err error
+	var ofile *os.File
+
+	if ofile, err = os.Create(planFilename); err != nil {
+		return err
+	}
+	defer ofile.Close()
+
+	top := root.Content[0]
+
+	//obtain the columns
+	var columns []Tuple
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "PlanColumns" {
+				continue
+			}
+			column := top.Content[i+1]
+			for _, v := range column.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
+					}
+				}
+			}
+		}
+	}
+
+	//output the table header
+	for _, title := range columns {
+		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
+	}
+	fmt.Fprintf(ofile, "|\n")
+	for _ = range columns {
+		fmt.Fprintf(ofile, "| --- ")
+	}
+	fmt.Fprintf(ofile, "|\n")
+
+	//output the entries
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "Sections" {
+				continue
+			}
+			section := top.Content[i+1]
+			for _, v := range section.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						if v.Content[k+1].Kind == yaml.ScalarNode {
+							//new section
+							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
+							for _ = range columns {
+								fmt.Fprintf(ofile, " |")
+							}
+							fmt.Fprintf(ofile, "\n")
+						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+							var values map[string]string
+
+							//new entry
+							values = make(map[string]string)
+							//XXX hard-coded
+							values["title"] = v.Content[k].Value
+							for _, col := range columns {
+								for _, entry := range v.Content[k+1].Content {
+									if entry.Kind == yaml.MappingNode {
+										for m := 0; m < len(entry.Content); m += 2 {
+											if entry.Content[m].Value == col.key {
 												//general case
 												values[col.key] = entry.Content[m+1].Value
 												break
