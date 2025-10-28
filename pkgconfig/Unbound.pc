@@ -2,3 +2,4 @@ Name: Unbound
 Description:
 URL: https://github.com/NLnetLabs/unbound
 Version:
+Requires: flex, libexpat, OpenSSL

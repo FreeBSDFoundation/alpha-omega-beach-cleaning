@@ -18,4 +18,51 @@ PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text></text>
 
 
+##### Package: flex@
+
+PackageName: flex@
+SPDXID: SPDXRef-Package-flexC64
+PackageVersion: 
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/westes/flex
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text></text>
+
+
+##### Package: libexpat@
+
+PackageName: libexpat@
+SPDXID: SPDXRef-Package-libexpatC64
+PackageVersion: 
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/libexpat/libexpat
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text></text>
+
+
+##### Package: OpenSSL@3.5.3
+
+PackageName: OpenSSL@3.5.3
+SPDXID: SPDXRef-Package-OpenSSLC643.5.3
+PackageVersion: 3.5.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openssl-library.org
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: <text>OpenSSL cryptography library</text>
+
+
+Relationship: SPDXRef-Package-UnboundC64 DEPENDS_ON SPDXRef-Package-flexC64
+Relationship: SPDXRef-Package-flexC64 DEPENDENCY_OF SPDXRef-Package-UnboundC64
+Relationship: SPDXRef-Package-UnboundC64 DEPENDS_ON SPDXRef-Package-libexpatC64
+Relationship: SPDXRef-Package-libexpatC64 DEPENDENCY_OF SPDXRef-Package-UnboundC64
+Relationship: SPDXRef-Package-UnboundC64 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.3
+Relationship: SPDXRef-Package-OpenSSLC643.5.3 DEPENDENCY_OF SPDXRef-Package-UnboundC64
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-UnboundC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-flexC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libexpatC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.3
