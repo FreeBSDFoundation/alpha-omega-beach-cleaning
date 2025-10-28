@@ -1,2 +1,4 @@
 Name: wpa\_supplicant
+Description:
 URL: https://w1.fi/wpa\_supplicant/
+Version:

@@ -1,2 +1,4 @@
 Name: libevent
+Description:
 URL: https://libevent.org
+Version:

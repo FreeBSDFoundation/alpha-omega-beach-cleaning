@@ -1,2 +1,4 @@
 Name: unifdef
+Description:
 URL: https://dotat.at/prog/unifdef
+Version:

@@ -1,1 +1,3 @@
 Name: ee
+Description:
+Version:

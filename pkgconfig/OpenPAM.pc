@@ -1,2 +1,4 @@
 Name: OpenPAM
+Description:
 URL: https://openpam.org
+Version:

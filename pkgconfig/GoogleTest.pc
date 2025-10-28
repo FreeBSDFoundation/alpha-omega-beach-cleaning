@@ -1,2 +1,4 @@
 Name: GoogleTest
+Description:
 URL: https://google.github.io/googletest/
+Version:

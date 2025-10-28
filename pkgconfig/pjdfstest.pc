@@ -1,2 +1,4 @@
 Name: pjdfstest
+Description:
 URL: https://github.com/pjd/pjdfstest
+Version:

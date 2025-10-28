@@ -1,2 +1,4 @@
 Name: bsddialog
+Description:
 URL: https://gitlab.com/alfix/bsddialog
+Version:

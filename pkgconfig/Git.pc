@@ -1,4 +1,5 @@
 Name: Git
 Description: Distributed Version Control System
 URL: https://git-scm.com
+Version:
 Source: https://git.kernel.org/pub/scm/git/git.git

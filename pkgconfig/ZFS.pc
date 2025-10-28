@@ -1,2 +1,4 @@
 Name: ZFS
+Description:
 URL: https://openzfs.org/wiki/Main\_Page
+Version:

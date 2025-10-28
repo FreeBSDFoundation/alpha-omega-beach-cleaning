@@ -1,2 +1,4 @@
 Name: libedit
+Description:
 URL: https://www.NetBSD.org
+Version:

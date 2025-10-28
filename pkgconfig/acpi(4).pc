@@ -1,2 +1,4 @@
 Name: acpi(4)
+Description:
 URL: https://github.com/acpica/acpica
+Version:

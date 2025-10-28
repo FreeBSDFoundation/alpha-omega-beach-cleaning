@@ -1,2 +1,4 @@
 Name: bzip2
+Description:
 URL: https://sourceware.org/bzip2/
+Version:

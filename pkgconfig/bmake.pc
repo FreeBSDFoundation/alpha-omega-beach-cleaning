@@ -1,4 +1,5 @@
 Name: bmake
 Description: Program designed to simplify the maintenance of other programs
 URL: https://www.NetBSD.org
+Version:
 Source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/

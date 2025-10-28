@@ -1,2 +1,4 @@
 Name: lib9p
+Description:
 URL: https://github.com/conclusiveeng/lib9p
+Version:

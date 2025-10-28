@@ -1,2 +1,4 @@
 Name: ice(4)
+Description:
 URL: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
+Version:

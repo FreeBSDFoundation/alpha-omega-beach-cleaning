@@ -1,2 +1,4 @@
 Name: libcbor
+Description:
 URL: https://github.com/PJK/libcbor
+Version:

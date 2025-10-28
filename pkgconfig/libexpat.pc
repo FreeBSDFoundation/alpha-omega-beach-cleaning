@@ -1,2 +1,4 @@
 Name: libexpat
+Description:
 URL: https://github.com/libexpat/libexpat
+Version:
