@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md $(OBJDIR)security.md format
+TARGETS	= $(OBJDIR)dependencies.md $(OBJDIR)security.md format spdx
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -35,17 +35,22 @@ $(OBJDIR)security.md: $(OBJDIR)src/aobc-generate database.yml
 format:
 	go fmt src/cmd/aobc-generate/aobc-generate.go
 
+spdx: dependencies.md security.md tools/spdx.sh
+	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
+
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" clean; \
 		else $(MAKE) clean; fi) || exit; done
+	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
 
 distclean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
+	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
 	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)security.md
 
 dist:
@@ -61,6 +66,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
 		$(PACKAGE)-$(VERSION)/database.yml \
+		$(PACKAGE)-$(VERSION)/tools/spdx.sh \
 		$(PACKAGE)-$(VERSION)/project.conf
 	$(RM) -- $(OBJDIR)$(PACKAGE)-$(VERSION)
 
@@ -90,4 +96,4 @@ uninstall:
 		else $(MAKE) uninstall; fi) || exit; done
 	$(RM) -- $(DESTDIR)$(PREFIX)/share/doc/$(PACKAGE)/README.md
 
-.PHONY: all subdirs clean distclean dist distcheck install uninstall format
+.PHONY: all subdirs clean distclean dist distcheck install uninstall format spdx
