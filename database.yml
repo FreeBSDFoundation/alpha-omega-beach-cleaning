@@ -223,14 +223,18 @@ Sections:
         - system
       - plan: fix
     dma:
+      - description: DragonFly Mail Agent (DMA)
       - directory: contrib/dma
+      - version: 2022-01-27
       - upstream: DragonFly BSD
       - homepage: https://www.dragonflybsd.org/handbook/mta/
       - security:
         - network
       - plan: fix
     NTP:
+      - description: Network Time Protocol (NTP)
       - directory: contrib/ntp
+      - version: 4.2.8p18
       - upstream: NTP Project
       - homepage: https://www.ntp.org
       - security:
@@ -238,7 +242,9 @@ Sections:
         - system
       - plan: fix
     OpenSSH:
+      - description: Connectivity tool for remote login with the SSH protocol
       - directory: crypto/openssh
+      - version: 10.0p2
       - upstream: OpenBSD
       - homepage: https://openssh.com
       - security:
@@ -259,6 +265,10 @@ Sections:
       - homepage: https://github.com/NLnetLabs/unbound
       - security:
         - network
+      - depends:
+        - flex
+        - libexpat
+        - OpenSSL
       - plan: fix
     WireGuard:
       - directory: contrib/wireguard-tools
