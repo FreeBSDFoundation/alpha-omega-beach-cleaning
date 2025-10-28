@@ -1,2 +1,4 @@
 Name: capsicum-test
+Description:
 URL: https://www.cl.cam.ac.uk/research/security/capsicum/
+Version:

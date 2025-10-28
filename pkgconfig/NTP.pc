@@ -1,2 +1,4 @@
 Name: NTP
+Description:
 URL: https://www.ntp.org
+Version:

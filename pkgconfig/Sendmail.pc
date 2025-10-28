@@ -1,2 +1,4 @@
 Name: Sendmail
+Description:
 URL: https://ftp.sendmail.org
+Version:

@@ -1,2 +1,4 @@
 Name: mandoc
+Description:
 URL: https://mandoc.bsd.lv
+Version:

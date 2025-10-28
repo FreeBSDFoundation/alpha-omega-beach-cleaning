@@ -1,4 +1,5 @@
 Name: ncurses
 Description: clone of System V curses
 URL: https://invisible-island.net/ncurses
+Version:
 License: X11

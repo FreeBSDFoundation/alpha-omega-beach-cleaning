@@ -1,2 +1,4 @@
 Name: libarchive
+Description:
 URL: https://libarchive.org
+Version:

@@ -1,2 +1,4 @@
 Name: OpenSSH
+Description:
 URL: https://openssh.com
+Version:
