@@ -10,6 +10,7 @@ PkgConfigColumns:
   - version: Version
   - license: License
   - source: Source
+  - depends: Requires
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -202,9 +203,13 @@ Sections:
         - network
       - plan: fix
     libpcap:
+      - description: Platform-independent network traffic capture library
       - directory: contrib/libpcap
+      - version: 1.10.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
       - plan: fix
@@ -283,10 +288,14 @@ Sections:
       - plan: fix
     tcpdump:
       - directory: contrib/tcpdump
+      - version: 4.99.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
+      - depends: libpcap
       - plan: fix
   - Security Infrastructure:
     BearSSL:
