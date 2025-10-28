@@ -1,21 +1,38 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-tcpdumpC64
+DocumentName: SBOM-SPDX-tcpdumpC644.99.5
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: tcpdump@
+##### Package: tcpdump@4.99.5
 
-PackageName: tcpdump@
-SPDXID: SPDXRef-Package-tcpdumpC64
-PackageVersion: 
+PackageName: tcpdump@4.99.5
+SPDXID: SPDXRef-Package-tcpdumpC644.99.5
+PackageVersion: 4.99.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.tcpdump.org
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text></text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-tcpdumpC64
+##### Package: libpcap@1.10.5
+
+PackageName: libpcap@1.10.5
+SPDXID: SPDXRef-Package-libpcapC641.10.5
+PackageVersion: 1.10.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.tcpdump.org
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Platform-independent network traffic capture library</text>
+
+
+Relationship: SPDXRef-Package-tcpdumpC644.99.5 DEPENDS_ON SPDXRef-Package-libpcapC641.10.5
+Relationship: SPDXRef-Package-libpcapC641.10.5 DEPENDENCY_OF SPDXRef-Package-tcpdumpC644.99.5
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-tcpdumpC644.99.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpcapC641.10.5

@@ -1,4 +1,6 @@
 Name: libpcap
-Description:
+Description: Platform-independent network traffic capture library
 URL: https://www.tcpdump.org
-Version:
+Version: 1.10.5
+License: BSD-3-Clause
+Source: https://www.tcpdump.org/release/
