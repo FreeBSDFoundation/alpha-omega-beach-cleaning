@@ -24,7 +24,7 @@ type Tuple struct {
 	value string
 }
 
-var (
+const (
 	databaseFilename     string = "database.yml"
 	dependenciesFilename string = "dependencies.md"
 	progname             string = "aobc-generate"
