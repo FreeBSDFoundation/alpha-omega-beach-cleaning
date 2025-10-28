@@ -10,6 +10,7 @@ PkgConfigColumns:
   - version: Version
   - license: License
   - source: Source
+  - depends: Requires
 SecurityColumns:
   - title: Component
   - security: Security impact
@@ -177,9 +178,13 @@ Sections:
       - security:
         - network
     libpcap:
+      - description: Platform-independent network traffic capture library
       - directory: contrib/libpcap
+      - version: 1.10.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
   - Network Services:
@@ -248,10 +253,14 @@ Sections:
         - network
     tcpdump:
       - directory: contrib/tcpdump
+      - version: 4.99.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
+      - depends: libpcap
   - Security Infrastructure:
     BearSSL:
       - directory: contrib/bearssl
