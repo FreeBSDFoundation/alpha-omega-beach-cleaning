@@ -1,4 +1,5 @@
 Name: flex
-Description:
+Description: Fast lexical analyzer generator
 URL: https://github.com/westes/flex
-Version:
+Version: 2.6.4
+License: BSD-2-Clause
