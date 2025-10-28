@@ -229,9 +229,12 @@ Sections:
       - security:
         - network
     Unbound:
+      - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
+      - version: 1.23.1
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/unbound
+      - license: BSD-3-Clause
       - security:
         - network
       - depends:
@@ -318,9 +321,12 @@ Sections:
       - security:
         - user
     flex:
+      - description: Fast lexical analyzer generator
       - directory: contrib/flex
+      - version: 2.6.4
       - upstream: Will Estes
       - homepage: https://github.com/westes/flex
+      - license: BSD-2-Clause
       - security:
         - build
         - user
@@ -401,9 +407,13 @@ Sections:
       - security:
         - user
     libexpat:
+      - description: XML 1.0 parser written in C
       - directory: contrib/expat
+      - version: 2.7.3
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
+      - license: MIT
+      - source: https://github.com/libexpat/libexpat/releases
       - security:
         - user
     libfido2:
