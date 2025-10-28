@@ -1,4 +1,6 @@
 Name: libexpat
-Description:
+Description: XML 1.0 parser written in C
 URL: https://github.com/libexpat/libexpat
-Version:
+Version: 2.7.3
+License: MIT
+Source: https://github.com/libexpat/libexpat/releases
