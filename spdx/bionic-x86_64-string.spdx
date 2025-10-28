@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-bionic-x86_64-stringC64
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: bionic-x86_64-string@
+
+PackageName: bionic-x86_64-string@
+SPDXID: SPDXRef-Package-bionic-x86_64-stringC64
+PackageVersion: 
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://android.googlesource.com/platform/bionic
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text></text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bionic-x86_64-stringC64

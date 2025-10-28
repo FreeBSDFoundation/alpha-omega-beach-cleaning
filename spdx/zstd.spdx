@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-zstdC641.5.2
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: zstd@1.5.2
+
+PackageName: zstd@1.5.2
+SPDXID: SPDXRef-Package-zstdC641.5.2
+PackageVersion: 1.5.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://facebook.github.io/zstd/
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text></text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zstdC641.5.2
