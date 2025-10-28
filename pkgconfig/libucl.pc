@@ -1,2 +1,5 @@
 Name: libucl
+Description: Universal configuration library parser
 URL: https://github.com/vstakhov/libucl
+License: BSD-2-Clause
+Source: https://github.com/vstakhov/libucl
