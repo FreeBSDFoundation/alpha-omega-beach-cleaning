@@ -619,6 +619,7 @@ Sections:
       - plan: import
   - Test Infrastructure:
     ATF:
+      - description: Libraries to write tests in C, C++ and shell
       - directory: contrib/atf
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/atf
@@ -641,6 +642,7 @@ Sections:
         - user
       - plan: fix
     kyua:
+      - description: Port/Package build and test system
       - directory: contrib/kyua
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/kyua
