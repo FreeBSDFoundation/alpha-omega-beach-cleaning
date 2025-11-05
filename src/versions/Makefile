@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)versions.yml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -11,7 +11,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT)
+all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT)
 
 bsddialog_OBJS = $(OBJDIR)bsddialog.o
 bsddialog_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS) -isystem /usr/include/private/bsddialog
@@ -97,6 +97,13 @@ ncurses_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)ncurses$(EXEEXT): $(ncurses_OBJS)
 	$(CC) -o $(OBJDIR)ncurses$(EXEEXT) $(ncurses_OBJS) $(ncurses_LDFLAGS)
 
+openssl_OBJS = $(OBJDIR)openssl.o
+openssl_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+openssl_LDFLAGS = $(LDFLAGSF) $(LDFLAGS) -lcrypto
+
+$(OBJDIR)openssl$(EXEEXT): $(openssl_OBJS)
+	$(CC) -o $(OBJDIR)openssl$(EXEEXT) $(openssl_OBJS) $(openssl_LDFLAGS)
+
 patch_OBJS = $(OBJDIR)patch.o
 patch_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
 patch_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
@@ -111,8 +118,8 @@ tcpdump_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)tcpdump$(EXEEXT): $(tcpdump_OBJS)
 	$(CC) -o $(OBJDIR)tcpdump$(EXEEXT) $(tcpdump_OBJS) $(tcpdump_LDFLAGS)
 
-$(OBJDIR)versions.yml: bsddialog byacc bzip2 dtc file libarchive libedit libevent libpcap ncurses patch tcpdump
-	(./bsddialog; ./byacc; ./bzip2; ./dtc; ./file; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./patch; ./tcpdump) > versions.yml
+$(OBJDIR)versions.yml: bsddialog byacc bzip2 dtc file libarchive libedit libevent libpcap ncurses openssl patch tcpdump
+	(./bsddialog; ./byacc; ./bzip2; ./dtc; ./file; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./openssl; ./patch; ./tcpdump) > versions.yml
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
@@ -150,6 +157,9 @@ $(OBJDIR)libpcap.o: libpcap.c
 $(OBJDIR)ncurses.o: ncurses.c
 	$(CC) $(ncurses_CFLAGS) -o $(OBJDIR)ncurses.o -c ncurses.c
 
+$(OBJDIR)openssl.o: openssl.c
+	$(CC) $(openssl_CFLAGS) -o $(OBJDIR)openssl.o -c openssl.c
+
 $(OBJDIR)patch.o: patch.c
 	$(CC) $(patch_CFLAGS) -o $(OBJDIR)patch.o -c patch.c
 
@@ -157,7 +167,7 @@ $(OBJDIR)tcpdump.o: tcpdump.c
 	$(CC) $(tcpdump_CFLAGS) -o $(OBJDIR)tcpdump.o -c tcpdump.c
 
 clean:
-	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(dtc_OBJS) $(file_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS) $(patch_OBJS) $(tcpdump_OBJS)
+	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(dtc_OBJS) $(file_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS) $(openssl_OBJS) $(patch_OBJS) $(tcpdump_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)
