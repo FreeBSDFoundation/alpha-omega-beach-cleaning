@@ -65,6 +65,16 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/go.mod \
 		$(PACKAGE)-$(VERSION)/src/go.sum \
 		$(PACKAGE)-$(VERSION)/src/project.conf \
+		$(PACKAGE)-$(VERSION)/src/versions/bsddialog.c \
+		$(PACKAGE)-$(VERSION)/src/versions/bzip2.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libarchive.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libdialog.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libedit.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libevent.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libpcap.c \
+		$(PACKAGE)-$(VERSION)/src/versions/ncurses.c \
+		$(PACKAGE)-$(VERSION)/src/versions/Makefile \
+		$(PACKAGE)-$(VERSION)/src/versions/project.conf \
 		$(PACKAGE)-$(VERSION)/COPYING \
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
