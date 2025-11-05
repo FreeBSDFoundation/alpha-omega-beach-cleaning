@@ -1,0 +1,2 @@
+Name: NetBSD tests
+URL: https://www.NetBSD.org

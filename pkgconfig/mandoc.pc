@@ -1,0 +1,2 @@
+Name: mandoc
+URL: https://mandoc.bsd.lv

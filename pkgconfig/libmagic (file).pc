@@ -1,0 +1,5 @@
+Name: libmagic (file)
+Description: Magic number recognition library
+URL: https://www.darwinsys.com/file/
+License: BSD-2-Clause
+Source: https://github.com/file/file

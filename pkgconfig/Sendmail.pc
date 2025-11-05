@@ -1,0 +1,2 @@
+Name: Sendmail
+URL: https://ftp.sendmail.org

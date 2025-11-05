@@ -1,0 +1,2 @@
+Name: libedit
+URL: https://www.NetBSD.org

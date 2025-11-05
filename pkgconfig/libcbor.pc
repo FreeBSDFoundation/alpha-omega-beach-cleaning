@@ -1,0 +1,2 @@
+Name: libcbor
+URL: https://github.com/PJK/libcbor

@@ -29,6 +29,7 @@ const (
 	dependenciesFilename string = "dependencies.md"
 	planFilename         string = "plan.md"
 	progname             string = "aobc-generate"
+	sectionIgnore        string = "Internal"
 	securityFilename     string = "security.md"
 )
 
@@ -59,6 +60,9 @@ func aobcGenerate() error {
 	}
 	if err == nil {
 		err = aobcGenerateSecurityReview(dec, root)
+	}
+	if err == nil {
+		err = aobcGeneratePkgConfig(dec, root)
 	}
 	return err
 }
@@ -116,6 +120,9 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 					for k := 0; k < len(v.Content); k += 2 {
 						if v.Content[k+1].Kind == yaml.ScalarNode {
 							//new section
+							if v.Content[k].Value == sectionIgnore {
+								break
+							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
 							for _ = range columns {
 								fmt.Fprintf(ofile, " |")
@@ -165,6 +172,95 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 		}
 	}
 
+	return nil
+}
+
+func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
+	var err error
+	var prefix, filename string
+	var ofile *os.File
+
+	if err = os.MkdirAll("pkgconfig", 0755); err != nil {
+		return err
+	}
+
+	top := root.Content[0]
+
+	//obtain the columns
+	var columns []Tuple
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "PkgConfigColumns" {
+				continue
+			}
+			column := top.Content[i+1]
+			for _, v := range column.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
+					}
+				}
+			}
+		}
+	}
+
+	//output the files
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "Sections" {
+				continue
+			}
+			section := top.Content[i+1]
+			for _, v := range section.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						if v.Content[k+1].Kind == yaml.ScalarNode {
+							//new section
+							if v.Content[k].Value == sectionIgnore {
+								prefix = "FreeBSD-"
+							} else {
+								prefix = ""
+							}
+						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+							var values map[string]string
+
+							//new entry
+							values = make(map[string]string)
+							//XXX hard-coded
+							values["title"] = v.Content[k].Value
+
+							filename = "pkgconfig/" + prefix + values["title"] + ".pc"
+
+							if ofile, err = os.Create(filename); err != nil {
+								return err
+							}
+							defer ofile.Close()
+
+							for _, col := range columns {
+								for _, entry := range v.Content[k+1].Content {
+									if entry.Kind == yaml.MappingNode {
+										for m := 0; m < len(entry.Content); m += 2 {
+											if entry.Content[m].Value == col.key {
+												values[col.key] = entry.Content[m+1].Value
+												break
+											}
+										}
+									}
+								}
+							}
+							for _, col := range columns {
+								if len(values[col.key]) > 0 {
+									fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value), textEscape(values[col.key]))
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 	return nil
 }
 
@@ -221,6 +317,9 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 					for k := 0; k < len(v.Content); k += 2 {
 						if v.Content[k+1].Kind == yaml.ScalarNode {
 							//new section
+							if v.Content[k].Value == sectionIgnore {
+								break
+							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
 							for _ = range columns {
 								fmt.Fprintf(ofile, " |")
@@ -313,6 +412,9 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 					for k := 0; k < len(v.Content); k += 2 {
 						if v.Content[k+1].Kind == yaml.ScalarNode {
 							//new section
+							if v.Content[k].Value == sectionIgnore {
+								break
+							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
 							for _ = range columns {
 								fmt.Fprintf(ofile, " |")

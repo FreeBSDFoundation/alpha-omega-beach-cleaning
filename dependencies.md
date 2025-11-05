@@ -44,7 +44,7 @@
 | flex | `contrib/flex` | Will Estes | https://github.com/westes/flex |
 | gdtoa | `contrib/gdtoa` | David M. Gay | https://www.netlib.org/fp/ |
 | Heimdal Kerberos | `crypto/heimdal`, `contrib/com\_err` | Heimdal Software | https://www.heimdal.software |
-| jemalloc | `contrib/jemalloc` | jemalloc | https://jemalloc.net |
+| jemalloc | `contrib/jemalloc` | facebook | https://github.com/facebook/jemalloc |
 | libarchive | `contrib/libarchive` | libarchive | https://libarchive.org |
 | libbegemot | `contrib/libbegemot` | Hartmut Brandt | https://people.freebsd.org/~harti/libbegemot/ |
 | libcbor | `contrib/libcbor` | Pavel Kalvoda | https://github.com/PJK/libcbor |
@@ -60,7 +60,7 @@
 | libucl | `contrib/libucl` | Vsevolod Stakhov | https://github.com/vstakhov/libucl |
 | libxo | `contrib/libxo` | Juniper | https://github.com/Juniper/libxo |
 | mandoc | `contrib/mandoc` | Ingo Schwarze | https://mandoc.bsd.lv |
-| ncurses | `contrib/ncurses` | invisible-island | https://invisible-island.net/ncurses/ |
+| ncurses | `contrib/ncurses` | invisible-island | https://invisible-island.net/ncurses |
 | OpenPAM | `contrib/openpam` | OpenPAM | https://openpam.org |
 | SQLite | `contrib/sqlite3` | SQLite | https://sqlite.org/src |
 | Time Zone Database | `contrib/tzcode`, `contrib/tzdata` | IANA | https://www.iana.org/time-zones |
@@ -75,8 +75,9 @@
 | Lua | `contrib/lua` | Lua | https://www.lua.org |
 | pkg | `usr.sbin/pkg` | FreeBSD (GitHub) | https://github.com/FreeBSD/pkg |
 | __Test Infrastructure__ | | | |
-| ATF | `contrib/atf` | Julio Merino | https://github.com/jmmv/atf |
+| ATF | `contrib/atf` | FreeBSD (GitHub) | https://github.com/FreeBSD/atf |
 | capsicum-test | `contrib/capsicum-test` | University of Cambridge | https://www.cl.cam.ac.uk/research/security/capsicum/ |
 | GoogleTest | `contrib/googletest` | Google | https://google.github.io/googletest/ |
+| kyua | `contrib/kyua` | FreeBSD (GitHub) | https://github.com/FreeBSD/kyua |
 | NetBSD tests | `contrib/netbsd-tests` | NetBSD | https://www.NetBSD.org |
 | pjdfstest | `contrib/pjdfstest` | pjdfstest | https://github.com/pjd/pjdfstest |

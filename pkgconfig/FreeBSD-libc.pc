@@ -1,0 +1,6 @@
+Name: libc
+Description: FreeBSD libc
+URL: https://www.FreeBSD.org
+Version: 14.3
+License: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/lib/libc

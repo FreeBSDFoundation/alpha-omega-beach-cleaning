@@ -1,0 +1,5 @@
+Name: zstd
+URL: https://facebook.github.io/zstd/
+Version: 1.5.2
+License: BSD-3-Clause
+Source: https://github.com/facebook/zstd
