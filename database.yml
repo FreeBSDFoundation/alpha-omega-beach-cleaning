@@ -605,6 +605,15 @@ Sections:
         - runtime
         - user
       - plan: fix
+    patch:
+      - directory: usr.bin/patch
+      - upstream: GNU
+      - homepage: https://www.gnu.org/software/patch/
+      - source: https://git.savannah.gnu.org/git/patch.git
+      - security:
+        - build
+        - user
+      - plan: fork
     pkg:
       - description: Package manager for FreeBSD
       - directory: usr.sbin/pkg
