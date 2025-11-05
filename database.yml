@@ -3,6 +3,13 @@ DependenciesColumns:
   - directory: Directory
   - upstream: Upstream
   - homepage: Homepage
+PkgConfigColumns:
+  - title: Name
+  - description: Description
+  - homepage: URL
+  - version: Version
+  - license: License
+  - homepage: Source
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -86,6 +93,14 @@ Sections:
       - security:
         - build
       - plan: fix
+  - Internal:
+    libc:
+      - directory:
+        - lib/libc
+        - lib/libc_nonshared
+      - upstream: FreeBSD
+      - homepage: https://www.FreeBSD.org
+      - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
   - Kernel:
     acpi(4):
       - directory: sys/contrib/dev/acpica
