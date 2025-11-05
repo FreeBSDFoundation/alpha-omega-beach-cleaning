@@ -412,7 +412,7 @@ Sections:
       - security:
         - build
         - user
-      - plan: fix
+      - plan: fork
     libedit:
       - directory: contrib/libedit
       - upstream: NetBSD
