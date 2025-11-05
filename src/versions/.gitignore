@@ -1,10 +1,12 @@
 /bsddialog
 /byacc
 /bzip2
+/file
 /libarchive
 /libedit
 /libevent
 /libpcap
 /ncurses
 /patch
+/tcpdump
 /versions.yml
