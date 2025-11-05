@@ -561,6 +561,7 @@ Sections:
       - directory: contrib/bc
       - upstream: Gavin D. Howard
       - homepage: https://gavinhoward.com/tag/bc/
+      - source: https://github.com/gavinhoward/bc
       - security:
         - user
       - plan: fix
