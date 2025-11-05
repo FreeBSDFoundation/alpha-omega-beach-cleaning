@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)versions.yaml
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)versions.yaml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -40,6 +40,13 @@ libarchive_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)libarchive$(EXEEXT): $(libarchive_OBJS)
 	$(CC) -o $(OBJDIR)libarchive$(EXEEXT) $(libarchive_OBJS) $(libarchive_LDFLAGS)
+
+libcbor_OBJS = $(OBJDIR)libcbor.o
+libcbor_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+libcbor_LDFLAGS = $(LDFLAGSF) $(LDFLAGS) -lprivatecbor
+
+$(OBJDIR)libcbor$(EXEEXT): $(libcbor_OBJS)
+	$(CC) -o $(OBJDIR)libcbor$(EXEEXT) $(libcbor_OBJS) $(libcbor_LDFLAGS)
 
 libdialog_OBJS = $(OBJDIR)libdialog.o
 libdialog_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -91,6 +98,9 @@ $(OBJDIR)bzip2.o: bzip2.c
 $(OBJDIR)libarchive.o: libarchive.c
 	$(CC) $(libarchive_CFLAGS) -o $(OBJDIR)libarchive.o -c libarchive.c
 
+$(OBJDIR)libcbor.o: libcbor.c
+	$(CC) $(libcbor_CFLAGS) -o $(OBJDIR)libcbor.o -c libcbor.c
+
 $(OBJDIR)libdialog.o: libdialog.c
 	$(CC) $(libdialog_CFLAGS) -o $(OBJDIR)libdialog.o -c libdialog.c
 
@@ -107,7 +117,7 @@ $(OBJDIR)ncurses.o: ncurses.c
 	$(CC) $(ncurses_CFLAGS) -o $(OBJDIR)ncurses.o -c ncurses.c
 
 clean:
-	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(libarchive_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS)
+	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)

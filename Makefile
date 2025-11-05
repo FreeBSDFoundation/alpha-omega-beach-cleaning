@@ -69,6 +69,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/byacc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bzip2.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libarchive.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libcbor.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libdialog.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libedit.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libevent.c \
