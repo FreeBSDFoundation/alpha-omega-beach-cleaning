@@ -75,6 +75,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/libevent.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libpcap.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ncurses.c \
+		$(PACKAGE)-$(VERSION)/src/versions/patch.c \
 		$(PACKAGE)-$(VERSION)/src/versions/Makefile \
 		$(PACKAGE)-$(VERSION)/src/versions/project.conf \
 		$(PACKAGE)-$(VERSION)/COPYING \
