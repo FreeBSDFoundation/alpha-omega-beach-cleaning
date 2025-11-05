@@ -73,6 +73,7 @@
 | hyperv | `contrib/hyperv` | Microsoft |  |
 | less | `contrib/less` | Mark Nudelman | https://www.greenwoodsoftware.com/less/ |
 | Lua | `contrib/lua` | Lua | https://www.lua.org |
+| patch | `usr.bin/patch` | GNU | https://www.gnu.org/software/patch/ |
 | pkg | `usr.sbin/pkg` | FreeBSD (GitHub) | https://github.com/FreeBSD/pkg |
 | __Test Infrastructure__ | | | |
 | ATF | `contrib/atf` | FreeBSD (GitHub) | https://github.com/FreeBSD/atf |

@@ -73,6 +73,7 @@
 | hyperv | fix |
 | less | fix |
 | Lua | fix |
+| patch | fork |
 | pkg | import |
 | __Test Infrastructure__ | |
 | ATF | fork |
