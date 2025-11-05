@@ -3,6 +3,14 @@ DependenciesColumns:
   - directory: Directory
   - upstream: Upstream
   - homepage: Homepage
+PlanColumns:
+  - title: Component
+  - plan: Plan
+Plan:
+  - fix: "formalize and implement regular updates to the dependency"
+  - fork: "assume maintainership of the dependency"
+  - forego: "remove the dependency, or replace it with an existing component"
+  - import: "import the dependency into the sources tree"
 SecurityColumns:
   - title: Component
   - security: Security impact
@@ -24,12 +32,14 @@ Sections:
       - homepage: https://www.NetBSD.org
       - security:
         - build
+      - plan: fix
     byacc:
       - directory: contrib/byacc
       - upstream: invisible-island
       - homepage: https://invisible-island.net/byacc/
       - security:
         - build
+      - plan: fix
     dtc:
       - directory: usr.bin/dtc
       - upstream: David Chisnall
@@ -37,12 +47,14 @@ Sections:
       - security:
         - build
         - kernel
+      - plan: fix
     elftoolchain:
       - directory: contrib/elftoolchain
       - upstream: elftoolchain
       - homepage: https://sourceforge.net/projects/elftoolchain/
       - security:
         - build
+      - plan: fix
     Git:
       - upstream: Git
       - homepage: https://git-scm.com
@@ -51,12 +63,14 @@ Sections:
         - crypto
         - network
         - user
+      - plan: import
     libcxxrt:
       - directory: contrib/libcxxrt
       - upstream:
       - homepage: https://github.com/libcxxrt/libcxxrt
       - security:
         - runtime
+      - plan: fix
     LLVM:
       - directory: contrib/llvm-project
       - upstream: LLVM
@@ -64,12 +78,14 @@ Sections:
       - security:
         - build
         - runtime
+      - plan: fix
     unifdef:
       - directory: contrib/unifdef
       - upstream: Tony Finch
       - homepage: https://dotat.at/prog/unifdef
       - security:
         - build
+      - plan: fix
   - Kernel:
     acpi(4):
       - directory: sys/contrib/dev/acpica
@@ -79,6 +95,7 @@ Sections:
         - build
         - firmware
         - kernel
+      - plan: fix
     ice(4):
       - directory: sys/contrib/dev/ice
       - upstream: Intel
@@ -86,6 +103,7 @@ Sections:
       - security:
         - kernel
         - network
+      - plan: fix
     ipfilter(4):
       - directory: sys/netpfil/ipfilter
       - upstream: Phil Dibowitz
@@ -93,6 +111,7 @@ Sections:
       - security:
         - kernel
         - network
+      - plan: fix
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
@@ -100,6 +119,7 @@ Sections:
       - security:
         - kernel
         - network
+      - plan: fix
     umb(4):
       - directory: sys/dev/usb/net
       - upstream: OpenBSD
@@ -107,6 +127,7 @@ Sections:
       - security:
         - kernel
         - network
+      - plan: fix
     ZFS:
       - directory:
         - sys/contrib/openzfs
@@ -118,6 +139,7 @@ Sections:
         - firmware
         - kernel
         - network
+      - plan: fix
     zstd:
       - directory: sys/contrib/zstd
       - upstream: Meta
@@ -125,6 +147,7 @@ Sections:
       - security:
         - firmware
         - kernel
+      - plan: fix
   - Network Libraries:
     bsnmp:
       - directory: contrib/bsnmp
@@ -132,18 +155,21 @@ Sections:
       - homepage: https://people.freebsd.org/~harti/bsnmp/
       - security:
         - network
+      - plan: fix
     ldns:
       - directory: contrib/ldns
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/ldns
       - security:
         - network
+      - plan: fix
     libpcap:
       - directory: contrib/libpcap
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
       - security:
         - network
+      - plan: fix
   - Network Services:
     blocklist:
       - directory: contrib/blocklist
@@ -152,12 +178,14 @@ Sections:
       - security:
         - network
         - system
+      - plan: fix
     dma:
       - directory: contrib/dma
       - upstream: DragonFly BSD
       - homepage: https://www.dragonflybsd.org/handbook/mta/
       - security:
         - network
+      - plan: fix
     NTP:
       - directory: contrib/ntp
       - upstream: NTP Project
@@ -165,6 +193,7 @@ Sections:
       - security:
         - network
         - system
+      - plan: fix
     OpenSSH:
       - directory: crypto/openssh
       - upstream: OpenBSD
@@ -173,18 +202,21 @@ Sections:
         - auth
         - crypto
         - network
+      - plan: fix
     Sendmail:
       - directory: contrib/sendmail
       - upstream: Proofpoint
       - homepage: https://ftp.sendmail.org
       - security:
         - network
+      - plan: fix
     Unbound:
       - directory: contrib/unbound
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/unbound
       - security:
         - network
+      - plan: fix
     WireGuard:
       - directory: contrib/wireguard-tools
       - upstream: WireGuard
@@ -194,6 +226,7 @@ Sections:
         - crypto
         - kernel
         - network
+      - plan: fix
     wpa_supplicant:
       - directory: contrib/wpa
       - upstream: Jouni Malinen
@@ -201,6 +234,7 @@ Sections:
       - security:
         - kernel
         - network
+      - plan: fix
   - Network Tools:
     lib9p:
       - directory: contrib/lib9p
@@ -208,12 +242,14 @@ Sections:
       - homepage: https://github.com/conclusiveeng/lib9p
       - security:
         - network
+      - plan: fix
     tcpdump:
       - directory: contrib/tcpdump
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
       - security:
         - network
+      - plan: fix
   - Security Infrastructure:
     BearSSL:
       - directory: contrib/bearssl
@@ -223,6 +259,7 @@ Sections:
         - crypto
         - network
         - user
+      - plan: fix
     OpenSSL:
       - directory: crypto/openssl
       - upstream: OpenSSL
@@ -232,6 +269,7 @@ Sections:
         - kernel
         - network
         - user
+      - plan: fix
   - System Libraries:
     arm-optimized-routines:
       - directory: contrib/arm-optimized-routines
@@ -239,24 +277,28 @@ Sections:
       - homepage: https://github.com/ARM-software/optimized-routines
       - security:
         - system
+      - plan: fix
     bionic-x86_64-string:
       - directory: contrib/bionic-x86_64-string
       - upstream: Intel
       - homepage: https://android.googlesource.com/platform/bionic
       - security:
         - system
+      - plan: fix
     bsddialog:
       - directory: contrib/bsddialog
       - upstream: Alfonso Siciliano
       - homepage: https://gitlab.com/alfix/bsddialog
       - security:
         - user
+      - plan: fix
     bzip2:
       - directory: contrib/bzip2
       - upstream: Julian Seward
       - homepage: https://sourceware.org/bzip2/
       - security:
         - user
+      - plan: fix
     flex:
       - directory: contrib/flex
       - upstream: Will Estes
@@ -264,12 +306,14 @@ Sections:
       - security:
         - build
         - user
+      - plan: fix
     gdtoa:
       - directory: contrib/gdtoa
       - upstream: David M. Gay
       - homepage: https://www.netlib.org/fp/
       - security:
         - runtime
+      - plan: fix
     Heimdal Kerberos:
       - directory:
         - crypto/heimdal
@@ -280,6 +324,7 @@ Sections:
         - auth
         - crypto
         - network
+      - plan: fix
     jemalloc:
       - directory: contrib/jemalloc
       - upstream: facebook
@@ -287,12 +332,14 @@ Sections:
       - security:
         - runtime
         - user
+      - plan: fix
     libarchive:
       - directory: contrib/libarchive
       - upstream: libarchive
       - homepage: https://libarchive.org
       - security:
         - user
+      - plan: fix
     libbegemot:
       - directory: contrib/libbegemot
       - upstream: Hartmut Brandt
@@ -300,6 +347,7 @@ Sections:
       - security:
         - network
         - user
+      - plan: fix
     libcbor:
       - directory: contrib/libcbor
       - upstream: Pavel Kalvoda
@@ -308,12 +356,14 @@ Sections:
         - crypto
         - system
         - user
+      - plan: fix
     libdialog:
       - directory: contrib/libdialog
       - upstream: invisible-island
       - homepage: https://invisible-island.net/dialog/
       - security:
         - user
+      - plan: fix
     libdiff:
       - directory: contrib/libdiff
       - upstream: Game of Trees
@@ -321,12 +371,14 @@ Sections:
       - security:
         - build
         - user
+      - plan: fix
     libedit:
       - directory: contrib/libedit
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
       - security:
         - user
+      - plan: fix
     libevent:
       - directory: contrib/libevent
       - upstream: libevent
@@ -334,18 +386,21 @@ Sections:
       - security:
         - system
         - user
+      - plan: fix
     libexecinfo:
       - directory: contrib/libexecinfo
       - upstream: Maxim Sobolev
       - homepage: 
       - security:
         - user
+      - plan: fix
     libexpat:
       - directory: contrib/expat
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
       - security:
         - user
+      - plan: fix
     libfido2:
       - directory: contrib/libfido2
       - upstream: Yubico
@@ -355,6 +410,7 @@ Sections:
         - crypto
         - system
         - user
+      - plan: fix
     liblzma:
       - directory: contrib/xz
       - upstream: Tukaani
@@ -362,12 +418,14 @@ Sections:
       - security:
         - firmware
         - user
+      - plan: fix
     libmagic (file):
       - directory: contrib/file
       - upstream: Ian Darwin
       - homepage: https://www.darwinsys.com/file/
       - security:
         - user
+      - plan: fix
     libucl:
       - directory: contrib/libucl
       - upstream: Vsevolod Stakhov
@@ -375,12 +433,14 @@ Sections:
       - security:
         - system
         - user
+      - plan: fix
     libxo:
       - directory: contrib/libxo
       - upstream: Juniper
       - homepage: https://github.com/Juniper/libxo
       - security:
         - user
+      - plan: fix
     mandoc:
       - directory: contrib/mandoc
       - upstream: Ingo Schwarze
@@ -388,12 +448,14 @@ Sections:
       - security:
         - build
         - user
+      - plan: fix
     ncurses:
       - directory: contrib/ncurses
       - upstream: invisible-island
       - homepage: https://invisible-island.net/ncurses/
       - security:
         - user
+      - plan: fix
     OpenPAM:
       - directory: contrib/openpam
       - upstream: OpenPAM
@@ -402,12 +464,14 @@ Sections:
         - auth
         - system
         - user
+      - plan: fix
     SQLite:
       - directory: contrib/sqlite3
       - upstream: SQLite
       - homepage: https://sqlite.org/src
       - security:
         - user
+      - plan: fix
     Time Zone Database:
       - directory:
         - contrib/tzcode
@@ -417,6 +481,7 @@ Sections:
       - security:
         - system
         - user
+      - plan: fix
     zlib:
       - directory: contrib/zlib
       - upstream: zlib
@@ -425,6 +490,7 @@ Sections:
         - firmware
         - system
         - user
+      - plan: fix
   - System Tools:
     awk:
       - directory: contrib/one-true-awk
@@ -433,12 +499,14 @@ Sections:
       - security:
         - build
         - user
+      - plan: fix
     bc:
       - directory: contrib/bc
       - upstream: Gavin D. Howard
       - homepage: https://gavinhoward.com/tag/bc/
       - security:
         - user
+      - plan: fix
     diff:
       - directory: contrib/diff
       - upstream: GNU
@@ -446,24 +514,28 @@ Sections:
       - security:
         - build
         - user
+      - plan: fix
     ee:
       - directory: contrib/ee
       - upstream: Hugh Mahon
       - homepage: 
       - security:
         - user
+      - plan: fix
     hyperv:
       - directory: contrib/hyperv
       - upstream: Microsoft
       - homepage: 
       - security:
         - system
+      - plan: fix
     less:
       - directory: contrib/less
       - upstream: Mark Nudelman
       - homepage: https://www.greenwoodsoftware.com/less/
       - security:
         - user
+      - plan: fix
     Lua:
       - directory: contrib/lua
       - upstream: Lua
@@ -472,6 +544,7 @@ Sections:
         - firmware
         - runtime
         - user
+      - plan: fix
     pkg:
       - directory: usr.sbin/pkg
       - upstream: FreeBSD (GitHub)
@@ -481,6 +554,7 @@ Sections:
         - crypto
         - network
         - user
+      - plan: import
   - Test Infrastructure:
     ATF:
       - directory: contrib/atf
@@ -488,6 +562,7 @@ Sections:
       - homepage: https://github.com/FreeBSD/atf
       - security:
         - user
+      - plan: fork
     capsicum-test:
       - directory: contrib/capsicum-test
       - upstream: University of Cambridge
@@ -495,27 +570,32 @@ Sections:
       - security:
         - kernel
         - user
+      - plan: fix
     GoogleTest:
       - directory: contrib/googletest
       - upstream: Google
       - homepage: https://google.github.io/googletest/
       - security:
         - user
+      - plan: fix
     kyua:
       - directory: contrib/kyua
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/kyua
       - security:
         - user
+      - plan: fork
     NetBSD tests:
       - directory: contrib/netbsd-tests
       - upstream: NetBSD
       - homepage: https://www.NetBSD.org
       - security:
         - user
+      - plan: fix
     pjdfstest:
       - directory: contrib/pjdfstest
       - upstream: pjdfstest
       - homepage: https://github.com/pjd/pjdfstest
       - security:
         - user
+      - plan: fix

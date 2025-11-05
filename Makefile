@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md $(OBJDIR)security.md format
+TARGETS	= $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md format
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -17,7 +17,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: subdirs $(OBJDIR)dependencies.md $(OBJDIR)security.md
+all: subdirs $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
 
 subdirs:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -27,6 +27,9 @@ subdirs:
 		else $(MAKE); fi) || exit; done
 
 $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
+	$(OBJDIR)src/aobc-generate
+
+$(OBJDIR)plan.md: $(OBJDIR)src/aobc-generate database.yml
 	$(OBJDIR)src/aobc-generate
 
 $(OBJDIR)security.md: $(OBJDIR)src/aobc-generate database.yml
@@ -46,7 +49,7 @@ distclean:
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
-	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)security.md
+	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
 
 dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
