@@ -511,7 +511,7 @@ Sections:
       - plan: fix
     OpenPAM:
       - directory: contrib/openpam
-      - upstream: OpenPAM
+      - upstream: Dag-Erling Smørgrav
       - homepage: https://openpam.org
       - security:
         - auth
