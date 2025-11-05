@@ -59,7 +59,7 @@
 | libmagic (file) | fix |
 | libucl | fix |
 | libxo | fix |
-| LibYAML |  |
+| LibYAML | fix |
 | mandoc | fix |
 | ncurses | fix |
 | OpenPAM | fix |
