@@ -282,8 +282,8 @@ Sections:
         - network
     jemalloc:
       - directory: contrib/jemalloc
-      - upstream: jemalloc
-      - homepage: https://jemalloc.net
+      - upstream: facebook
+      - homepage: https://github.com/facebook/jemalloc
       - security:
         - runtime
         - user
