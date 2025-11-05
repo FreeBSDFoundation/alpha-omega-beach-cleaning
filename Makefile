@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md format $(OBJDIR)plan.md $(OBJDIR)security.md spdx
+TARGETS	= $(OBJDIR)dependencies.md format merge-versions $(OBJDIR)plan.md $(OBJDIR)security.md spdx
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -31,6 +31,9 @@ $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
 
 format:
 	go fmt src/cmd/aobc-generate/aobc-generate.go
+
+merge-versions:
+	(cd src/versions && $(MAKE) versions.yml) && yq database.yml src/versions/versions.yml
 
 $(OBJDIR)plan.md: $(OBJDIR)src/aobc-generate database.yml
 	$(OBJDIR)src/aobc-generate
@@ -112,4 +115,4 @@ uninstall:
 		else $(MAKE) uninstall; fi) || exit; done
 	$(RM) -- $(DESTDIR)$(PREFIX)/share/doc/$(PACKAGE)/README.md
 
-.PHONY: all subdirs clean distclean dist distcheck install uninstall format spdx
+.PHONY: all subdirs clean distclean dist distcheck install uninstall format merge-versions spdx
