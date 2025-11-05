@@ -8,6 +8,7 @@
 /libevent
 /libpcap
 /ncurses
+/openssl
 /patch
 /tcpdump
 /versions.yml
