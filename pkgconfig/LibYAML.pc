@@ -1,0 +1,4 @@
+Name: LibYAML
+URL: https://pyyaml.org/wiki/LibYAML
+Version: 0.2.5
+Source: https://github.com/yaml/libyaml

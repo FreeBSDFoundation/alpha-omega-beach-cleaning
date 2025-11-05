@@ -59,6 +59,7 @@
 | libmagic (file) | `contrib/file` | Ian Darwin | https://www.darwinsys.com/file/ |
 | libucl | `contrib/libucl` | Vsevolod Stakhov | https://github.com/vstakhov/libucl |
 | libxo | `contrib/libxo` | Juniper | https://github.com/Juniper/libxo |
+| LibYAML | `contrib/libyaml` | LibYAML | https://pyyaml.org/wiki/LibYAML |
 | mandoc | `contrib/mandoc` | Ingo Schwarze | https://mandoc.bsd.lv |
 | ncurses | `contrib/ncurses` | invisible-island | https://invisible-island.net/ncurses |
 | OpenPAM | `contrib/openpam` | Dag-Erling Smørgrav | https://openpam.org |

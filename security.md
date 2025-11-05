@@ -59,6 +59,7 @@
 | libmagic (file) | user | 1 |
 | libucl | system, user | 2 |
 | libxo | user | 1 |
+| LibYAML |  |  |
 | mandoc | build, user | 2 |
 | ncurses | user | 1 |
 | OpenPAM | auth, system, user | 3 |
