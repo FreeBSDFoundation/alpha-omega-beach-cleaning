@@ -572,7 +572,7 @@ Sections:
       - security:
         - build
         - user
-      - plan: fix
+      - plan: fork
     ee:
       - directory: contrib/ee
       - upstream: Hugh Mahon
