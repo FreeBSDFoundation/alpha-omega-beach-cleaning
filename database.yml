@@ -146,7 +146,7 @@ Sections:
       - security:
         - kernel
         - network
-      - plan: fix
+      - plan: fork
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
@@ -154,7 +154,7 @@ Sections:
       - security:
         - kernel
         - network
-      - plan: fix
+      - plan: fork
     umb(4):
       - directory: sys/dev/usb/net
       - upstream: OpenBSD
@@ -162,7 +162,7 @@ Sections:
       - security:
         - kernel
         - network
-      - plan: fix
+      - plan: fork
     ZFS:
       - directory:
         - sys/contrib/openzfs
@@ -354,7 +354,7 @@ Sections:
       - homepage: https://www.netlib.org/fp/
       - security:
         - runtime
-      - plan: fix
+      - plan: fork
     Heimdal Kerberos:
       - directory:
         - crypto/heimdal
@@ -579,7 +579,7 @@ Sections:
       - homepage: 
       - security:
         - user
-      - plan: fix
+      - plan: fork
     hyperv:
       - directory: contrib/hyperv
       - upstream: Microsoft
