@@ -501,6 +501,12 @@ Sections:
       - homepage: https://google.github.io/googletest/
       - security:
         - user
+    kyua:
+      - directory: contrib/kyua
+      - upstream: FreeBSD (GitHub)
+      - homepage: https://github.com/FreeBSD/kyua
+      - security:
+        - user
     NetBSD tests:
       - directory: contrib/netbsd-tests
       - upstream: NetBSD
