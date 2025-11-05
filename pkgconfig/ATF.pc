@@ -1,2 +1,2 @@
 Name: ATF
-URL: https://github.com/jmmv/atf
+URL: https://github.com/FreeBSD/atf

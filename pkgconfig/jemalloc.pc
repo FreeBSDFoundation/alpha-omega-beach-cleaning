@@ -1,2 +1,2 @@
 Name: jemalloc
-URL: https://jemalloc.net
+URL: https://github.com/facebook/jemalloc
