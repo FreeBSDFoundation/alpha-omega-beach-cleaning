@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)versions.yml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -11,7 +11,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT)
+all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT)
 
 bsddialog_OBJS = $(OBJDIR)bsddialog.o
 bsddialog_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS) -isystem /usr/include/private/bsddialog
@@ -33,6 +33,13 @@ bzip2_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)bzip2$(EXEEXT): $(bzip2_OBJS)
 	$(CC) -o $(OBJDIR)bzip2$(EXEEXT) $(bzip2_OBJS) $(bzip2_LDFLAGS)
+
+file_OBJS = $(OBJDIR)file.o
+file_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+file_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
+
+$(OBJDIR)file$(EXEEXT): $(file_OBJS)
+	$(CC) -o $(OBJDIR)file$(EXEEXT) $(file_OBJS) $(file_LDFLAGS)
 
 libarchive_OBJS = $(OBJDIR)libarchive.o
 libarchive_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -90,8 +97,8 @@ patch_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)patch$(EXEEXT): $(patch_OBJS)
 	$(CC) -o $(OBJDIR)patch$(EXEEXT) $(patch_OBJS) $(patch_LDFLAGS)
 
-$(OBJDIR)versions.yml: bsddialog byacc bzip2 libarchive libedit libevent libpcap ncurses patch
-	(./bsddialog; ./byacc; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./patch) > versions.yml
+$(OBJDIR)versions.yml: bsddialog byacc bzip2 file libarchive libedit libevent libpcap ncurses patch
+	(./bsddialog; ./byacc; ./bzip2; ./file; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./patch) > versions.yml
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
@@ -101,6 +108,9 @@ $(OBJDIR)byacc.o: byacc.c
 
 $(OBJDIR)bzip2.o: bzip2.c
 	$(CC) $(bzip2_CFLAGS) -o $(OBJDIR)bzip2.o -c bzip2.c
+
+$(OBJDIR)file.o: file.c
+	$(CC) $(file_CFLAGS) -o $(OBJDIR)file.o -c file.c
 
 $(OBJDIR)libarchive.o: libarchive.c
 	$(CC) $(libarchive_CFLAGS) -o $(OBJDIR)libarchive.o -c libarchive.c
@@ -127,7 +137,7 @@ $(OBJDIR)patch.o: patch.c
 	$(CC) $(patch_CFLAGS) -o $(OBJDIR)patch.o -c patch.c
 
 clean:
-	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS) $(patch_OBJS)
+	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(file_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS) $(patch_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)
