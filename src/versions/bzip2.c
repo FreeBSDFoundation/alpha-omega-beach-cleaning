@@ -28,7 +28,7 @@ int main(void)
 		}
 	}
 	fclose(fp);
-	printf("%s\n", "Components");
+	printf("%s\n", "Sections");
 	printf("  - %s\n", "System Libraries");
 	printf("    %s\n", "bzip2");
 	printf("    - version: %s\n", version);

@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("%s\n", "Components");
+	printf("%s\n", "Sections");
 	printf("  - %s\n", "System Libraries");
 	printf("    %s\n", "libcbor");
 	printf("    - version: %d.%d.%d\n", cbor_major_version,

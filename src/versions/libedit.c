@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	printf("%s\n", "Components");
+	printf("%s\n", "Sections");
 	printf("  - %s\n", "System Libraries");
 	printf("    %s\n", "libedit");
 	printf("    - version: %d.%d\n",
