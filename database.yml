@@ -484,8 +484,8 @@ Sections:
   - Test Infrastructure:
     ATF:
       - directory: contrib/atf
-      - upstream: Julio Merino
-      - homepage: https://github.com/jmmv/atf
+      - upstream: FreeBSD (GitHub)
+      - homepage: https://github.com/FreeBSD/atf
       - security:
         - user
     capsicum-test:
