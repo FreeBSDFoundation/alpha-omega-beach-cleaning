@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT)
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)versions.yaml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -68,6 +68,9 @@ ncurses_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)ncurses$(EXEEXT): $(ncurses_OBJS)
 	$(CC) -o $(OBJDIR)ncurses$(EXEEXT) $(ncurses_OBJS) $(ncurses_LDFLAGS)
+
+$(OBJDIR)versions.yaml: bsddialog bzip2 libarchive libedit libevent libpcap ncurses
+	(./bsddialog; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses) > versions.yaml
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
