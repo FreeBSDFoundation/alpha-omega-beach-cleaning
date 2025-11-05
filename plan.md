@@ -12,9 +12,9 @@
 | __Kernel__ | |
 | acpi(4) | fix |
 | ice(4) | fix |
-| ipfilter(4) | fix |
-| pf(4) | fix |
-| umb(4) | fix |
+| ipfilter(4) | fork |
+| pf(4) | fork |
+| umb(4) | fork |
 | ZFS | fix |
 | zstd | fix |
 | __Network Libraries__ | |
@@ -42,7 +42,7 @@
 | bsddialog | fix |
 | bzip2 | fix |
 | flex | fix |
-| gdtoa | fix |
+| gdtoa | fork |
 | Heimdal Kerberos | fix |
 | jemalloc | fix |
 | libarchive | fix |
@@ -68,8 +68,8 @@
 | __System Tools__ | |
 | awk | fix |
 | bc | fix |
-| diff | fix |
-| ee | fix |
+| diff | fork |
+| ee | fork |
 | hyperv | fix |
 | less | fix |
 | Lua | fix |
