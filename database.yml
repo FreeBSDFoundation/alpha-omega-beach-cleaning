@@ -10,6 +10,7 @@ PkgConfigColumns:
   - version: Version
   - license: License
   - source: Source
+  - depends: Requires
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -202,9 +203,13 @@ Sections:
         - network
       - plan: fix
     libpcap:
+      - description: Platform-independent network traffic capture library
       - directory: contrib/libpcap
+      - version: 1.10.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
       - plan: fix
@@ -218,14 +223,18 @@ Sections:
         - system
       - plan: fix
     dma:
+      - description: DragonFly Mail Agent (DMA)
       - directory: contrib/dma
+      - version: 2022-01-27
       - upstream: DragonFly BSD
       - homepage: https://www.dragonflybsd.org/handbook/mta/
       - security:
         - network
       - plan: fix
     NTP:
+      - description: Network Time Protocol (NTP)
       - directory: contrib/ntp
+      - version: 4.2.8p18
       - upstream: NTP Project
       - homepage: https://www.ntp.org
       - security:
@@ -233,7 +242,9 @@ Sections:
         - system
       - plan: fix
     OpenSSH:
+      - description: Connectivity tool for remote login with the SSH protocol
       - directory: crypto/openssh
+      - version: 10.0p2
       - upstream: OpenBSD
       - homepage: https://openssh.com
       - security:
@@ -249,11 +260,18 @@ Sections:
         - network
       - plan: fix
     Unbound:
+      - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
+      - version: 1.23.1
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/unbound
+      - license: BSD-3-Clause
       - security:
         - network
+      - depends:
+        - flex
+        - libexpat
+        - OpenSSL
       - plan: fix
     WireGuard:
       - directory: contrib/wireguard-tools
@@ -283,10 +301,14 @@ Sections:
       - plan: fix
     tcpdump:
       - directory: contrib/tcpdump
+      - version: 4.99.5
       - upstream: TCPdump
       - homepage: https://www.tcpdump.org
+      - license: BSD-3-Clause
+      - source: https://www.tcpdump.org/release/
       - security:
         - network
+      - depends: libpcap
       - plan: fix
   - Security Infrastructure:
     BearSSL:
@@ -341,9 +363,12 @@ Sections:
         - user
       - plan: fix
     flex:
+      - description: Fast lexical analyzer generator
       - directory: contrib/flex
+      - version: 2.6.4
       - upstream: Will Estes
       - homepage: https://github.com/westes/flex
+      - license: BSD-2-Clause
       - security:
         - build
         - user
@@ -436,9 +461,13 @@ Sections:
         - user
       - plan: fix
     libexpat:
+      - description: XML 1.0 parser written in C
       - directory: contrib/expat
+      - version: 2.7.3
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
+      - license: MIT
+      - source: https://github.com/libexpat/libexpat/releases
       - security:
         - user
       - plan: fix

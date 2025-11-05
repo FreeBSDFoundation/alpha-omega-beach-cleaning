@@ -1,2 +1,4 @@
 Name: OpenSSH
+Description: Connectivity tool for remote login with the SSH protocol
 URL: https://openssh.com
+Version: 10.0p2

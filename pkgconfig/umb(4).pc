@@ -1,2 +1,4 @@
 Name: umb(4)
+Description:
 URL: https://openbsd.org
+Version:

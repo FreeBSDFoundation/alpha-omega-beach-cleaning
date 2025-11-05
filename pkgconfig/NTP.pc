@@ -1,2 +1,4 @@
 Name: NTP
+Description: Network Time Protocol (NTP)
 URL: https://www.ntp.org
+Version: 4.2.8p18

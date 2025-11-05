@@ -1,2 +1,4 @@
 Name: dma
+Description: DragonFly Mail Agent (DMA)
 URL: https://www.dragonflybsd.org/handbook/mta/
+Version: 2022-01-27

@@ -1,2 +1,7 @@
 Name: tcpdump
+Description:
 URL: https://www.tcpdump.org
+Version: 4.99.5
+License: BSD-3-Clause
+Source: https://www.tcpdump.org/release/
+Requires: libpcap

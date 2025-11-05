@@ -1,2 +1,4 @@
 Name: BearSSL
+Description:
 URL: https://bearssl.org
+Version:

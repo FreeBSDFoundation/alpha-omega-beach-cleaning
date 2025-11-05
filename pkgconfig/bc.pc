@@ -1,3 +1,5 @@
 Name: bc
+Description:
 URL: https://gavinhoward.com/tag/bc/
+Version:
 Source: https://github.com/gavinhoward/bc

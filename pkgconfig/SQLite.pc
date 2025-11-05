@@ -1,2 +1,4 @@
 Name: SQLite
+Description:
 URL: https://sqlite.org/src
+Version:

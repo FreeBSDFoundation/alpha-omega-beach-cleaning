@@ -1,2 +1,4 @@
 Name: arm-optimized-routines
+Description:
 URL: https://github.com/ARM-software/optimized-routines
+Version:

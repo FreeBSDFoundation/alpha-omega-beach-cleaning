@@ -1,2 +1,4 @@
 Name: gdtoa
+Description:
 URL: https://www.netlib.org/fp/
+Version:
