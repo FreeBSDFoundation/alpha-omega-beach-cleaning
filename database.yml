@@ -492,6 +492,13 @@ Sections:
       - security:
         - user
       - plan: fix
+    LibYAML:
+      - directory: contrib/libyaml
+      - upstream: LibYAML
+      - version: 0.2.5
+      - homepage: https://pyyaml.org/wiki/LibYAML
+      - licence: MIT
+      - source: https://github.com/yaml/libyaml
     mandoc:
       - directory: contrib/mandoc
       - upstream: Ingo Schwarze
