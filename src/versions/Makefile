@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)versions.yaml
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)versions.yml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -90,8 +90,8 @@ patch_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)patch$(EXEEXT): $(patch_OBJS)
 	$(CC) -o $(OBJDIR)patch$(EXEEXT) $(patch_OBJS) $(patch_LDFLAGS)
 
-$(OBJDIR)versions.yaml: bsddialog byacc bzip2 libarchive libedit libevent libpcap ncurses patch
-	(./bsddialog; ./byacc; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./patch) > versions.yaml
+$(OBJDIR)versions.yml: bsddialog byacc bzip2 libarchive libedit libevent libpcap ncurses patch
+	(./bsddialog; ./byacc; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses; ./patch) > versions.yml
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
