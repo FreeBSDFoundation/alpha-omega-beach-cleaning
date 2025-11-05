@@ -75,8 +75,9 @@
 | Lua | fix |
 | pkg | import |
 | __Test Infrastructure__ | |
-| ATF | fix |
+| ATF | fork |
 | capsicum-test | fix |
 | GoogleTest | fix |
+| kyua | fork |
 | NetBSD tests | fix |
 | pjdfstest | fix |

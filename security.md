@@ -78,5 +78,6 @@
 | ATF | user | 1 |
 | capsicum-test | kernel, user | 2 |
 | GoogleTest | user | 1 |
+| kyua | user | 1 |
 | NetBSD tests | user | 1 |
 | pjdfstest | user | 1 |
