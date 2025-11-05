@@ -66,6 +66,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/go.sum \
 		$(PACKAGE)-$(VERSION)/src/project.conf \
 		$(PACKAGE)-$(VERSION)/src/versions/bsddialog.c \
+		$(PACKAGE)-$(VERSION)/src/versions/byacc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bzip2.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libarchive.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libdialog.c \

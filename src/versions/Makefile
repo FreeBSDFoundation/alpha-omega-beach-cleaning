@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)versions.yaml
+TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)versions.yaml
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -11,7 +11,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT)
+all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT)
 
 bsddialog_OBJS = $(OBJDIR)bsddialog.o
 bsddialog_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS) -isystem /usr/include/private/bsddialog
@@ -19,6 +19,13 @@ bsddialog_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)bsddialog$(EXEEXT): $(bsddialog_OBJS)
 	$(CC) -o $(OBJDIR)bsddialog$(EXEEXT) $(bsddialog_OBJS) $(bsddialog_LDFLAGS)
+
+byacc_OBJS = $(OBJDIR)byacc.o
+byacc_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+byacc_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
+
+$(OBJDIR)byacc$(EXEEXT): $(byacc_OBJS)
+	$(CC) -o $(OBJDIR)byacc$(EXEEXT) $(byacc_OBJS) $(byacc_LDFLAGS)
 
 bzip2_OBJS = $(OBJDIR)bzip2.o
 bzip2_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -69,11 +76,14 @@ ncurses_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)ncurses$(EXEEXT): $(ncurses_OBJS)
 	$(CC) -o $(OBJDIR)ncurses$(EXEEXT) $(ncurses_OBJS) $(ncurses_LDFLAGS)
 
-$(OBJDIR)versions.yaml: bsddialog bzip2 libarchive libedit libevent libpcap ncurses
-	(./bsddialog; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses) > versions.yaml
+$(OBJDIR)versions.yaml: bsddialog byacc bzip2 libarchive libedit libevent libpcap ncurses
+	(./bsddialog; ./byacc; ./bzip2; ./libarchive; ./libedit; ./libevent; ./libpcap; ./ncurses) > versions.yaml
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
+
+$(OBJDIR)byacc.o: byacc.c
+	$(CC) $(byacc_CFLAGS) -o $(OBJDIR)byacc.o -c byacc.c
 
 $(OBJDIR)bzip2.o: bzip2.c
 	$(CC) $(bzip2_CFLAGS) -o $(OBJDIR)bzip2.o -c bzip2.c
@@ -97,7 +107,7 @@ $(OBJDIR)ncurses.o: ncurses.c
 	$(CC) $(ncurses_CFLAGS) -o $(OBJDIR)ncurses.o -c ncurses.c
 
 clean:
-	$(RM) -- $(bsddialog_OBJS) $(bzip2_OBJS) $(libarchive_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS)
+	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(libarchive_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(libpcap_OBJS) $(ncurses_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)
