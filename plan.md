@@ -49,7 +49,7 @@
 | libbegemot | fix |
 | libcbor | fix |
 | libdialog | fix |
-| libdiff | fix |
+| libdiff | fork |
 | libedit | fix |
 | libevent | fix |
 | libexecinfo | fix |

@@ -61,7 +61,7 @@
 | libxo | `contrib/libxo` | Juniper | https://github.com/Juniper/libxo |
 | mandoc | `contrib/mandoc` | Ingo Schwarze | https://mandoc.bsd.lv |
 | ncurses | `contrib/ncurses` | invisible-island | https://invisible-island.net/ncurses |
-| OpenPAM | `contrib/openpam` | OpenPAM | https://openpam.org |
+| OpenPAM | `contrib/openpam` | Dag-Erling Smørgrav | https://openpam.org |
 | SQLite | `contrib/sqlite3` | SQLite | https://sqlite.org/src |
 | Time Zone Database | `contrib/tzcode`, `contrib/tzdata` | IANA | https://www.iana.org/time-zones |
 | zlib | `contrib/zlib` | zlib | https://zlib.net |
