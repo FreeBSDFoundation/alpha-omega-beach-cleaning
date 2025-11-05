@@ -650,6 +650,7 @@ Sections:
       - homepage: https://pyyaml.org/wiki/LibYAML
       - licence: MIT
       - source: https://github.com/yaml/libyaml/tree/0.2.5
+      - plan: fix
     mandoc:
       - description: UNIX manpage compiler toolset
       - directory: contrib/mandoc
