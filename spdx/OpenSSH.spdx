@@ -14,7 +14,7 @@ PackageVersion: 10.0p2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openssh.com
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: SSH-OpenSSH
 PackageSummary: <text>Connectivity tool for remote login with the SSH protocol</text>
 
 

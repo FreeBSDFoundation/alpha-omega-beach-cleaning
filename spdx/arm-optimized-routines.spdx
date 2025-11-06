@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-arm-optimized-routinesC64
+DocumentName: SBOM-SPDX-arm-optimized-routinesC6425.01
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: arm-optimized-routines@
+##### Package: arm-optimized-routines@25.01
 
-PackageName: arm-optimized-routines@
-SPDXID: SPDXRef-Package-arm-optimized-routinesC64
-PackageVersion: 
+PackageName: arm-optimized-routines@25.01
+SPDXID: SPDXRef-Package-arm-optimized-routinesC6425.01
+PackageVersion: 25.01
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/ARM-software/optimized-routines
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: MIT OR LLVM-exception
+PackageSummary: <text>Optimized implementations of various library functions for ARM architecture processors</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-arm-optimized-routinesC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-arm-optimized-routinesC6425.01

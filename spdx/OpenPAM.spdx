@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-OpenPAMC64
+DocumentName: SBOM-SPDX-OpenPAMC64Zingiber
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: OpenPAM@
+##### Package: OpenPAM@Zingiber
 
-PackageName: OpenPAM@
-SPDXID: SPDXRef-Package-OpenPAMC64
-PackageVersion: 
+PackageName: OpenPAM@Zingiber
+SPDXID: SPDXRef-Package-OpenPAMC64Zingiber
+PackageVersion: Zingiber
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openpam.org
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Open source PAM library that focuses on simplicity, correctness, and cleanliness.</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenPAMC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenPAMC64Zingiber

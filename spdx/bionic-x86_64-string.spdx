@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://android.googlesource.com/platform/bionic
 PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageSummary: <text>Android's C library, math library, and dynamic linker</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bionic-x86_64-stringC64

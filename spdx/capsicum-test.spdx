@@ -14,8 +14,8 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.cl.cam.ac.uk/research/security/capsicum/
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Practical capabilities for UNIX</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-capsicum-testC64

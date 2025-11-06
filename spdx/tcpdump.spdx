@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.tcpdump.org
 PackageLicenseDeclared: BSD-3-Clause
-PackageSummary: <text></text>
+PackageSummary: <text>Powerful command-line packet analyzer</text>
 
 
 ##### Package: libpcap@1.10.5

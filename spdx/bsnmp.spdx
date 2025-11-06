@@ -14,8 +14,8 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://people.freebsd.org/~harti/bsnmp/
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>mini SNMP daemon</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bsnmpC64

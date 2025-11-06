@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-blocklistC64
+DocumentName: SBOM-SPDX-blocklistC642025-04-28
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: blocklist@
+##### Package: blocklist@2025-04-28
 
-PackageName: blocklist@
-SPDXID: SPDXRef-Package-blocklistC64
-PackageVersion: 
+PackageName: blocklist@2025-04-28
+SPDXID: SPDXRef-Package-blocklistC642025-04-28
+PackageVersion: 2025-04-28
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.NetBSD.org
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-blocklistC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-blocklistC642025-04-28

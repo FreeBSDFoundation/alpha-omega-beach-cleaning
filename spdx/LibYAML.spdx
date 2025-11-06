@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-LibYAMLC640.2.5
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: LibYAML@0.2.5
+
+PackageName: LibYAML@0.2.5
+SPDXID: SPDXRef-Package-LibYAMLC640.2.5
+PackageVersion: 0.2.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://pyyaml.org/wiki/LibYAML
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>C library for parsing and emitting YAML</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-LibYAMLC640.2.5

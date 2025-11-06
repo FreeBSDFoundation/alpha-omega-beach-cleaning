@@ -14,8 +14,8 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/NLnetLabs/ldns
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>LDNS is a DNS library that facilitates DNS tool programming</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ldnsC64

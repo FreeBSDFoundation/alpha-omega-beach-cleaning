@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-libeventC64
+DocumentName: SBOM-SPDX-libeventC642.1.12
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: libevent@
+##### Package: libevent@2.1.12
 
-PackageName: libevent@
-SPDXID: SPDXRef-Package-libeventC64
-PackageVersion: 
+PackageName: libevent@2.1.12
+SPDXID: SPDXRef-Package-libeventC642.1.12
+PackageVersion: 2.1.12
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://libevent.org
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: BSD-3-Clause AND 0BSD AND MIT
+PackageSummary: <text>API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libeventC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libeventC642.1.12

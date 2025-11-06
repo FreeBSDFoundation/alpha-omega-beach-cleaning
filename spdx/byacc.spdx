@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-byaccC64
+DocumentName: SBOM-SPDX-byaccC6420240109
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: byacc@
+##### Package: byacc@20240109
 
-PackageName: byacc@
-SPDXID: SPDXRef-Package-byaccC64
-PackageVersion: 
+PackageName: byacc@20240109
+SPDXID: SPDXRef-Package-byaccC6420240109
+PackageVersion: 20240109
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/byacc/
@@ -18,4 +18,4 @@ PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Parser generator designed to be compatible with Yacc</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-byaccC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-byaccC6420240109

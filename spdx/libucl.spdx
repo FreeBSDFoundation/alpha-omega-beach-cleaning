@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-libuclC64
+DocumentName: SBOM-SPDX-libuclC640.9.2
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: libucl@
+##### Package: libucl@0.9.2
 
-PackageName: libucl@
-SPDXID: SPDXRef-Package-libuclC64
-PackageVersion: 
+PackageName: libucl@0.9.2
+SPDXID: SPDXRef-Package-libuclC640.9.2
+PackageVersion: 0.9.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/vstakhov/libucl
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Universal configuration library parser</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libuclC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libuclC640.9.2

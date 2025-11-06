@@ -14,8 +14,8 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openzfs.org/wiki/Main\_Page
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: CDDL-1.0
+PackageSummary: <text>Open-source storage platform</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ZFSC64

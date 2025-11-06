@@ -14,7 +14,7 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/pkg
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
 
 

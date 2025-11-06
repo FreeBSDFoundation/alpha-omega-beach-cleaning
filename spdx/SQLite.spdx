@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-SQLiteC64
+DocumentName: SBOM-SPDX-SQLiteC643.50.2
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: SQLite@
+##### Package: SQLite@3.50.2
 
-PackageName: SQLite@
-SPDXID: SPDXRef-Package-SQLiteC64
-PackageVersion: 
+PackageName: SQLite@3.50.2
+SPDXID: SPDXRef-Package-SQLiteC643.50.2
+PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://sqlite.org/src
 PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageSummary: <text>SQLite database engine</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-SQLiteC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-SQLiteC643.50.2

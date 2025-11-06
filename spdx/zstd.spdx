@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://facebook.github.io/zstd/
 PackageLicenseDeclared: BSD-3-Clause
-PackageSummary: <text></text>
+PackageSummary: <text>Zstandard is a fast compression algorithm</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zstdC641.5.2

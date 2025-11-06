@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-diffC64
+DocumentName: SBOM-SPDX-diffC642.8.7
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: diff@
+##### Package: diff@2.8.7
 
-PackageName: diff@
-SPDXID: SPDXRef-Package-diffC64
-PackageVersion: 
+PackageName: diff@2.8.7
+SPDXID: SPDXRef-Package-diffC642.8.7
+PackageVersion: 2.8.7
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/diffutils/
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: GPL-3.0
+PackageSummary: <text>GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-diffC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-diffC642.8.7

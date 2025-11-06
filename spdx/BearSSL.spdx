@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-BearSSLC64
+DocumentName: SBOM-SPDX-BearSSLC6420220417
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: BearSSL@
+##### Package: BearSSL@20220417
 
-PackageName: BearSSL@
-SPDXID: SPDXRef-Package-BearSSLC64
-PackageVersion: 
+PackageName: BearSSL@20220417
+SPDXID: SPDXRef-Package-BearSSLC6420220417
+PackageVersion: 20220417
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://bearssl.org
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageLicenseDeclared: MIT
+PackageSummary: <text>Implementation of the SSL/TLS protocol (RFC 5246) written in C</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-BearSSLC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-BearSSLC6420220417

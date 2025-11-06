@@ -14,7 +14,7 @@ PackageVersion: 2022-01-27
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.dragonflybsd.org/handbook/mta/
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>DragonFly Mail Agent (DMA)</text>
 
 

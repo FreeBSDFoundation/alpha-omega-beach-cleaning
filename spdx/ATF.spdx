@@ -13,9 +13,9 @@ SPDXID: SPDXRef-Package-ATFC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://github.com/jmmv/atf
-PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageHomePage: https://github.com/FreeBSD/atf
+PackageLicenseDeclared: BSD-3-Clause and BSD-2-Clause
+PackageSummary: <text>Libraries to write tests in C, C++ and shell</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ATFC64

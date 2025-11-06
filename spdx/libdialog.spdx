@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/dialog/
 PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageSummary: <text>Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdialogC64

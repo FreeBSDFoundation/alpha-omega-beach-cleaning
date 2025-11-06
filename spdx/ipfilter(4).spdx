@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.phildev.net/ipf/
 PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text></text>
+PackageSummary: <text>IP Filter</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ipfilter(4)C64
