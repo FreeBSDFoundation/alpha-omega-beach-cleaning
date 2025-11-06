@@ -1,4 +1,6 @@
 Name: dtc
-Description:
+Description: FreeBSD Device Tree Compiler
 URL: https://github.com/davidchisnall/dtc
-Version:
+Version: 23387dd
+License: BSD-2-Clause
+Source: https://github.com/davidchisnall/dtc/tree/23387dd5462d38bf2e7301e2811913d82e167efc

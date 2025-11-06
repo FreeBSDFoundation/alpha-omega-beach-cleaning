@@ -1,4 +1,6 @@
 Name: libcbor
-Description:
+Description: CBOR protocol implementation for C
 URL: https://github.com/PJK/libcbor
-Version:
+Version: 0.11.0
+License: MIT
+Source: https://github.com/PJK/libcbor/tree/v0.11.0

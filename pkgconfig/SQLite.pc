@@ -1,4 +1,5 @@
 Name: SQLite
-Description:
+Description: SQLite database engine
 URL: https://sqlite.org/src
-Version:
+Version: 3.50.2
+Source: https://github.com/sqlite/sqlite/tree/version-3.50.2

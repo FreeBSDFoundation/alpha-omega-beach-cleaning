@@ -52,7 +52,7 @@
 | libdiff | `contrib/libdiff` | Game of Trees | https://www.gameoftrees.org |
 | libedit | `contrib/libedit` | NetBSD | https://www.NetBSD.org |
 | libevent | `contrib/libevent` | libevent | https://libevent.org |
-| libexecinfo | `contrib/libexecinfo` | Maxim Sobolev |  |
+| libexecinfo | `contrib/libexecinfo` | Maxim Sobolev | https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/ |
 | libexpat | `contrib/expat` | expat | https://github.com/libexpat/libexpat |
 | libfido2 | `contrib/libfido2` | Yubico | https://github.com/Yubico/libfido2 |
 | liblzma | `contrib/xz` | Tukaani | https://tukaani.org/xz/ |
@@ -71,7 +71,7 @@
 | bc | `contrib/bc` | Gavin D. Howard | https://gavinhoward.com/tag/bc/ |
 | diff | `contrib/diff` | GNU | https://www.gnu.org/software/diffutils/ |
 | ee | `contrib/ee` | Hugh Mahon |  |
-| hyperv | `contrib/hyperv` | Microsoft |  |
+| hyperv | `contrib/hyperv` | Microsoft | https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview |
 | less | `contrib/less` | Mark Nudelman | https://www.greenwoodsoftware.com/less/ |
 | Lua | `contrib/lua` | Lua | https://www.lua.org |
 | patch | `usr.bin/patch` | GNU | https://www.gnu.org/software/patch/ |

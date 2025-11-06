@@ -1,4 +1,6 @@
 Name: BearSSL
-Description:
+Description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
 URL: https://bearssl.org
-Version:
+Version: 20220417
+License: MIT
+Source: https://bearssl.org/gitweb/?p=BearSSL;a=tree;h=d40d23b60cf1a42188a441b59226db35da234fea;hb=d40d23b60cf1a42188a441b59226db35da234fea

@@ -1,3 +1,4 @@
 Name: hyperv
-Description:
+Description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
+URL: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
 Version:

@@ -1,4 +1,6 @@
 Name: OpenPAM
-Description:
+Description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
 URL: https://openpam.org
-Version:
+Version: Zingiber
+License: BSD-3-Clause
+Source: https://git.des.dev/OpenPAM/OpenPAM/src/commit/7a0660d699c4f82aa234524256b5b9f5a7cba786

@@ -1,4 +1,6 @@
 Name: wpa\_supplicant
-Description:
+Description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
 URL: https://w1.fi/wpa\_supplicant/
-Version:
+Version: 2.11
+License: BSD-3-Clause
+Source: https://w1.fi/releases/hostapd-2.11.tar.gz

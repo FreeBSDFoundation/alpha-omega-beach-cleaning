@@ -1,4 +1,6 @@
 Name: arm-optimized-routines
-Description:
+Description: Optimized implementations of various library functions for ARM architecture processors
 URL: https://github.com/ARM-software/optimized-routines
-Version:
+Version: 25.01
+License: MIT OR LLVM-exception
+Source: https://github.com/ARM-software/optimized-routines/tree/v25.01

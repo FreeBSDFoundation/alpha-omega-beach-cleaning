@@ -1,4 +1,6 @@
 Name: jemalloc
-Description:
+Description: Meta fork of the OG Jemalloc project
 URL: https://github.com/facebook/jemalloc
-Version:
+Version: 5.3.0
+License: BSD-2-Clause
+Source: https://github.com/facebook/jemalloc/tree/5.3.0

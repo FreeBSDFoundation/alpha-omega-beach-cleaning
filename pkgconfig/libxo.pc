@@ -1,4 +1,6 @@
 Name: libxo
-Description:
+Description: Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.
 URL: https://github.com/Juniper/libxo
-Version:
+Version: 1.4.0
+License: BSD-2-Clause
+Source: https://github.com/Juniper/libxo/tree/1.4.0

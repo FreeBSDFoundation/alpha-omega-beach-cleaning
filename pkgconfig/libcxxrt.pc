@@ -1,4 +1,6 @@
 Name: libcxxrt
-Description:
+Description: C++ ABI implementation providing low-level support for a standard C++ library
 URL: https://github.com/libcxxrt/libcxxrt
-Version:
+Version: 6f2fdfebcd62
+License: BSD-2-Clause
+Source: https://github.com/libcxxrt/libcxxrt/tree/6f2fdfebcd6291d763de8b17740d636f01761890

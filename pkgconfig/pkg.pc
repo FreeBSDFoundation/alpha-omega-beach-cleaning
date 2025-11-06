@@ -2,4 +2,5 @@ Name: pkg
 Description: Package manager for FreeBSD
 URL: https://github.com/FreeBSD/pkg
 Version:
+License: BSD-2-Clause
 Source: https://github.com/FreeBSD/pkg

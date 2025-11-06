@@ -1,4 +1,5 @@
 Name: capsicum-test
-Description:
+Description: Practical capabilities for UNIX
 URL: https://www.cl.cam.ac.uk/research/security/capsicum/
 Version:
+License: BSD-2-Clause

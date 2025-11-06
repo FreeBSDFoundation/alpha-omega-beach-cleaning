@@ -1,4 +1,5 @@
 Name: gdtoa
-Description:
+Description: Library of binary -> decimal and decimal -> binary conversion routines
 URL: https://www.netlib.org/fp/
-Version:
+Version: 20110304
+License: SMLNJ

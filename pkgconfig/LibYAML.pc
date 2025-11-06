@@ -1,5 +1,5 @@
 Name: LibYAML
-Description:
+Description: C library for parsing and emitting YAML
 URL: https://pyyaml.org/wiki/LibYAML
 Version: 0.2.5
-Source: https://github.com/yaml/libyaml
+Source: https://github.com/yaml/libyaml/tree/0.2.5

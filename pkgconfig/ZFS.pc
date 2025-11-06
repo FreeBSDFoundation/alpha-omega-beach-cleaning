@@ -1,4 +1,5 @@
 Name: ZFS
-Description:
+Description: Open-source storage platform
 URL: https://openzfs.org/wiki/Main\_Page
 Version:
+License: CDDL-1.0

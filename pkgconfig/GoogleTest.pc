@@ -1,4 +1,6 @@
 Name: GoogleTest
-Description:
+Description: Google’s C++ testing and mocking framework
 URL: https://google.github.io/googletest/
-Version:
+Version: 1.15.2
+License: BSD-3-Clause
+Source: https://github.com/google/googletest/releases/tag/v1.15.2

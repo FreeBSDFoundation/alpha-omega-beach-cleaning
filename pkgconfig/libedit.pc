@@ -1,4 +1,6 @@
 Name: libedit
-Description:
+Description: NetBSD Editline library (libedit)
 URL: https://www.NetBSD.org
-Version:
+Version: 2025-01-03
+License: BSD-3-Clause
+Source: https://github.com/NetBSD/src/commit/2cf0b469b9d048aeccdc6451da18d68a11366991

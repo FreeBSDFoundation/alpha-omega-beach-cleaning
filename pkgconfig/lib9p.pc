@@ -1,4 +1,6 @@
 Name: lib9p
-Description:
+Description: BSD-licensed 9P2000.u/.L server library
 URL: https://github.com/conclusiveeng/lib9p
-Version:
+Version: 9d5aee77b
+License: BSD-2-Clause AND MIT
+Source: https://github.com/conclusiveeng/lib9p/tree/9d5aee77bcc1bf0e79b0a3bfefff5fdf2146283c

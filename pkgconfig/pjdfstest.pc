@@ -1,4 +1,6 @@
 Name: pjdfstest
-Description:
+Description: File system test suite
 URL: https://github.com/pjd/pjdfstest
-Version:
+Version: 0.1
+License: BSD-2-Clause
+Source: https://github.com/pjd/pjdfstest/tree/0.1

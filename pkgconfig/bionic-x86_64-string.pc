@@ -1,4 +1,4 @@
 Name: bionic-x86\_64-string
-Description:
+Description: Android's C library, math library, and dynamic linker
 URL: https://android.googlesource.com/platform/bionic
 Version:

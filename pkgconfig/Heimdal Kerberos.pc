@@ -1,4 +1,5 @@
 Name: Heimdal Kerberos
-Description:
+Description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
 URL: https://www.heimdal.software
-Version:
+Version: 1.5.1
+License: BSD-3-Clause

@@ -1,4 +1,5 @@
 Name: byacc
 Description: Parser generator designed to be compatible with Yacc
 URL: https://invisible-island.net/byacc/
-Version:
+Version: 20240109
+Source: https://invisible-island.net/datafiles/release/byacc.tar.gz

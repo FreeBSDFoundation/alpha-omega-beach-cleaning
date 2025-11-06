@@ -2,3 +2,5 @@ Name: ATF
 Description: Libraries to write tests in C, C++ and shell
 URL: https://github.com/FreeBSD/atf
 Version:
+License: BSD-3-Clause and BSD-2-Clause
+Source: https://github.com/FreeBSD/atf

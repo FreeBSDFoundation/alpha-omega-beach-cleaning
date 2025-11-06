@@ -1,4 +1,4 @@
 Name: libdialog
-Description:
+Description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
 URL: https://invisible-island.net/dialog/
 Version:

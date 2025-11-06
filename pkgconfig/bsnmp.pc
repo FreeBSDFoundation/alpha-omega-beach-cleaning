@@ -1,4 +1,5 @@
 Name: bsnmp
-Description:
+Description: mini SNMP daemon
 URL: https://people.freebsd.org/~harti/bsnmp/
 Version:
+License: BSD-2-Clause

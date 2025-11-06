@@ -1,4 +1,4 @@
 Name: ipfilter(4)
-Description:
+Description: IP Filter
 URL: https://www.phildev.net/ipf/
 Version:
