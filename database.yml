@@ -192,7 +192,7 @@ Sections:
         - network
       - plan: fork
     ZFS:
-      - descrption: Open-source storage platform
+      - description: Open-source storage platform
       - directory:
         - sys/contrib/openzfs
         - cddl
@@ -360,7 +360,7 @@ Sections:
         - network
       - plan: fix
     tcpdump:
-      - descrption: Powerful command-line packet analyzer
+      - description: Powerful command-line packet analyzer
       - directory: contrib/tcpdump
       - version: 4.99.5
       - upstream: TCPdump
