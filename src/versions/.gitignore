@@ -14,5 +14,6 @@
 /ncurses
 /openssl
 /patch
+/sqlite
 /tcpdump
 /versions.yml
