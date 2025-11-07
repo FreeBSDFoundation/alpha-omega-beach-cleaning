@@ -9,7 +9,7 @@ int main(void)
 	FILE * fp;
 	char buf[1024];
 	char * p;
-	char version[16];
+	char version[16] = "";
 
 	if((fp = popen(command, "r")) == NULL)
 	{
@@ -26,6 +26,8 @@ int main(void)
 		}
 	}
 	fclose(fp);
+	if(strlen(version) == 0)
+		return 3;
 	printf("%s\n", "Sections");
 	printf("  - %s\n", "Compilation Infrastructure");
 	printf("    %s\n", "dtc");

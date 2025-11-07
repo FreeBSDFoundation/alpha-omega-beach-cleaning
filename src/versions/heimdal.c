@@ -10,7 +10,7 @@ int main(void)
 	char buf[1024];
 	char * p;
 	int release;
-	char version[16];
+	char version[16] = "";
 
 	if((fp = popen(command, "r")) == NULL)
 	{
@@ -28,6 +28,8 @@ int main(void)
 		}
 	}
 	fclose(fp);
+	if(strlen(version) == 0)
+		return 3;
 	printf("%s\n", "Sections");
 	printf("  - %s\n", "System Libraries");
 	printf("    %s\n", "heimdal");

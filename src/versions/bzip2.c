@@ -9,7 +9,7 @@ int main(void)
 	FILE * fp;
 	char buf[1024];
 	char * p;
-	char * version;
+	char * version = "";
 
 	if((fp = fopen(filename, "r")) == NULL)
 	{
@@ -28,6 +28,8 @@ int main(void)
 		}
 	}
 	fclose(fp);
+	if(strlen(version) == 0)
+		return 3;
 	printf("%s\n", "Sections");
 	printf("  - %s\n", "System Libraries");
 	printf("    %s\n", "bzip2");
