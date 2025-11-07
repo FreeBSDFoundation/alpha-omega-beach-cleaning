@@ -88,6 +88,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/patch.c \
 		$(PACKAGE)-$(VERSION)/src/versions/sqlite.c \
 		$(PACKAGE)-$(VERSION)/src/versions/tcpdump.c \
+		$(PACKAGE)-$(VERSION)/src/versions/zlib.c \
 		$(PACKAGE)-$(VERSION)/src/versions/Makefile \
 		$(PACKAGE)-$(VERSION)/src/versions/project.conf \
 		$(PACKAGE)-$(VERSION)/COPYING \
