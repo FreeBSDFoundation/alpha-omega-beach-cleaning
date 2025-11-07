@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)versions.yml $(OBJDIR)zlib$(EXEEXT)
+TARGETS	= $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)versions.yml $(OBJDIR)zlib$(EXEEXT)
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -17,7 +17,14 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)zlib$(EXEEXT)
+all: $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)zlib$(EXEEXT)
+
+bc_OBJS = $(OBJDIR)bc.o
+bc_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+bc_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
+
+$(OBJDIR)bc$(EXEEXT): $(bc_OBJS)
+	$(CC) -o $(OBJDIR)bc$(EXEEXT) $(bc_OBJS) $(bc_LDFLAGS)
 
 bsddialog_OBJS = $(OBJDIR)bsddialog.o
 bsddialog_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS) -isystem /usr/include/private/bsddialog
@@ -167,7 +174,7 @@ $(OBJDIR)tcpdump$(EXEEXT): $(tcpdump_OBJS)
 	$(CC) -o $(OBJDIR)tcpdump$(EXEEXT) $(tcpdump_OBJS) $(tcpdump_LDFLAGS)
 
 $(OBJDIR)versions.yml: all
-	(./bsddialog; ./byacc; ./bzip2; ./dtc; ./file; ./flex; ./heimdal; ./less; ./libarchive; ./libedit; ./libevent; ./liblzma; ./libpcap; ./libxo; ./ncurses; ./openssl; ./patch; ./tcpdump; ./zlib) > versions.yml
+	(./bc; ./bsddialog; ./byacc; ./bzip2; ./dtc; ./file; ./flex; ./heimdal; ./less; ./libarchive; ./libedit; ./libevent; ./liblzma; ./libpcap; ./libxo; ./ncurses; ./openssl; ./patch; ./tcpdump; ./zlib) > versions.yml
 
 zlib_OBJS = $(OBJDIR)zlib.o
 zlib_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -175,6 +182,9 @@ zlib_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)zlib$(EXEEXT): $(zlib_OBJS)
 	$(CC) -o $(OBJDIR)zlib$(EXEEXT) $(zlib_OBJS) $(zlib_LDFLAGS)
+
+$(OBJDIR)bc.o: bc.c
+	$(CC) $(bc_CFLAGS) -o $(OBJDIR)bc.o -c bc.c
 
 $(OBJDIR)bsddialog.o: bsddialog.c
 	$(CC) $(bsddialog_CFLAGS) -o $(OBJDIR)bsddialog.o -c bsddialog.c
@@ -243,7 +253,7 @@ $(OBJDIR)zlib.o: zlib.c
 	$(CC) $(zlib_CFLAGS) -o $(OBJDIR)zlib.o -c zlib.c
 
 clean:
-	$(RM) -- $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(dtc_OBJS) $(file_OBJS) $(flex_OBJS) $(heimdal_OBJS) $(less_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(liblzma_OBJS) $(libpcap_OBJS) $(libxo_OBJS) $(ncurses_OBJS) $(openssl_OBJS) $(patch_OBJS) $(sqlite_OBJS) $(tcpdump_OBJS) $(zlib_OBJS)
+	$(RM) -- $(bc_OBJS) $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(dtc_OBJS) $(file_OBJS) $(flex_OBJS) $(heimdal_OBJS) $(less_OBJS) $(libarchive_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(liblzma_OBJS) $(libpcap_OBJS) $(libxo_OBJS) $(ncurses_OBJS) $(openssl_OBJS) $(patch_OBJS) $(sqlite_OBJS) $(tcpdump_OBJS) $(zlib_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)
