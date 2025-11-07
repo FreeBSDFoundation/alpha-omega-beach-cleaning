@@ -138,10 +138,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							for _, col := range columns {
-								fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
-							}
-							fmt.Fprintf(ofile, "|\n")
+							reportRow(ofile, columns, values)
 						}
 					}
 				}
@@ -293,10 +290,7 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							for _, col := range columns {
-								fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
-							}
-							fmt.Fprintf(ofile, "|\n")
+							reportRow(ofile, columns, values)
 						}
 					}
 				}
@@ -380,10 +374,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							for _, col := range columns {
-								fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
-							}
-							fmt.Fprintf(ofile, "|\n")
+							reportRow(ofile, columns, values)
 						}
 					}
 				}
@@ -425,6 +416,13 @@ func reportHeader(ofile *os.File, columns []Tuple) {
 	fmt.Fprintf(ofile, "|\n")
 	for _ = range columns {
 		fmt.Fprintf(ofile, "| --- ")
+	}
+	fmt.Fprintf(ofile, "|\n")
+}
+
+func reportRow(ofile *os.File, columns []Tuple, values map[string]string) {
+	for _, col := range columns {
+		fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
 	}
 	fmt.Fprintf(ofile, "|\n")
 }
