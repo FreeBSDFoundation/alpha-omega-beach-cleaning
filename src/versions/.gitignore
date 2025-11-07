@@ -10,6 +10,7 @@
 /libevent
 /liblzma
 /libpcap
+/libxo
 /ncurses
 /openssl
 /patch
