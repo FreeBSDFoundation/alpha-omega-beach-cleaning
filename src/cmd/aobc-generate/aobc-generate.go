@@ -79,23 +79,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 	top := root.Content[0]
 
 	//obtain the columns
-	var columns []Tuple
-	switch top.Kind {
-	case yaml.MappingNode:
-		for i := 0; i < len(top.Content); i += 2 {
-			if top.Content[i].Value != "DependenciesColumns" {
-				continue
-			}
-			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
-					}
-				}
-			}
-		}
-	}
+	columns := databaseGetColumns(root, "DependenciesColumns")
 
 	//output the table header
 	for _, title := range columns {
@@ -187,23 +171,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 	top := root.Content[0]
 
 	//obtain the columns
-	var columns []Tuple
-	switch top.Kind {
-	case yaml.MappingNode:
-		for i := 0; i < len(top.Content); i += 2 {
-			if top.Content[i].Value != "PkgConfigColumns" {
-				continue
-			}
-			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
-					}
-				}
-			}
-		}
-	}
+	columns := databaseGetColumns(root, "PkgConfigColumns")
 
 	//output the files
 	switch top.Kind {
@@ -286,23 +254,7 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 	top := root.Content[0]
 
 	//obtain the columns
-	var columns []Tuple
-	switch top.Kind {
-	case yaml.MappingNode:
-		for i := 0; i < len(top.Content); i += 2 {
-			if top.Content[i].Value != "PlanColumns" {
-				continue
-			}
-			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
-					}
-				}
-			}
-		}
-	}
+	columns := databaseGetColumns(root, "PlanColumns")
 
 	//output the table header
 	for _, title := range columns {
@@ -381,23 +333,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 	top := root.Content[0]
 
 	//obtain the columns
-	var columns []Tuple
-	switch top.Kind {
-	case yaml.MappingNode:
-		for i := 0; i < len(top.Content); i += 2 {
-			if top.Content[i].Value != "SecurityColumns" {
-				continue
-			}
-			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
-					}
-				}
-			}
-		}
-	}
+	columns := databaseGetColumns(root, "SecurityColumns")
 
 	//output the table header
 	for _, title := range columns {
@@ -477,6 +413,30 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 	}
 
 	return nil
+}
+
+func databaseGetColumns(root yaml.Node, label string) []Tuple {
+	var columns []Tuple
+
+	top := root.Content[0]
+
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != label {
+				continue
+			}
+			column := top.Content[i+1]
+			for _, v := range column.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
+					}
+				}
+			}
+		}
+	}
+	return columns
 }
 
 func textEscape(text string) string {
