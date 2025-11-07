@@ -27,9 +27,9 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	printf("%s\n", "Sections");
-	printf("  - %s\n", "System Libraries");
-	printf("    %s\n", "flex");
+	printf("%s:\n", "Sections");
+	printf("  - %s:\n", "System Libraries");
+	printf("    %s:\n", "flex");
 	printf("    - version: %s\n", version);
 	return 0;
 }

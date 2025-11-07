@@ -27,9 +27,9 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	printf("%s\n", "Sections");
-	printf("  - %s\n", "Network Libraries");
-	printf("    %s\n", "libpcap");
+	printf("%s:\n", "Sections");
+	printf("  - %s:\n", "Network Libraries");
+	printf("    %s:\n", "libpcap");
 	printf("    - version: %s\n", version);
 	return 0;
 }
