@@ -68,6 +68,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/go.mod \
 		$(PACKAGE)-$(VERSION)/src/go.sum \
 		$(PACKAGE)-$(VERSION)/src/project.conf \
+		$(PACKAGE)-$(VERSION)/src/versions/awk.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bsddialog.c \
 		$(PACKAGE)-$(VERSION)/src/versions/byacc.c \
