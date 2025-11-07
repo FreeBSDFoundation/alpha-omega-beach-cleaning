@@ -86,6 +86,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/liblzma.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libpcap.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libxo.c \
+		$(PACKAGE)-$(VERSION)/src/versions/llvm.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ncurses.c \
 		$(PACKAGE)-$(VERSION)/src/versions/openssl.c \
 		$(PACKAGE)-$(VERSION)/src/versions/patch.c \
