@@ -8,7 +8,6 @@ int main(void)
 	const char * command = "krb5-config --version";
 	FILE * fp;
 	char buf[1024];
-	char * p;
 	int release;
 	char version[16] = "";
 

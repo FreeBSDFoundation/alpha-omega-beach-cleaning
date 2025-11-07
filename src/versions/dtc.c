@@ -8,7 +8,6 @@ int main(void)
 	const char * command = "dtc -v";
 	FILE * fp;
 	char buf[1024];
-	char * p;
 	char version[16] = "";
 
 	if((fp = popen(command, "r")) == NULL)
