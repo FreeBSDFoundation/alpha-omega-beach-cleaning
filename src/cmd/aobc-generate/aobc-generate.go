@@ -82,14 +82,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 	columns := databaseGetColumns(root, "DependenciesColumns")
 
 	//output the table header
-	for _, title := range columns {
-		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
-	}
-	fmt.Fprintf(ofile, "|\n")
-	for _ = range columns {
-		fmt.Fprintf(ofile, "| --- ")
-	}
-	fmt.Fprintf(ofile, "|\n")
+	reportHeader(ofile, columns)
 
 	//output the entries
 	switch top.Kind {
@@ -257,14 +250,7 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 	columns := databaseGetColumns(root, "PlanColumns")
 
 	//output the table header
-	for _, title := range columns {
-		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
-	}
-	fmt.Fprintf(ofile, "|\n")
-	for _ = range columns {
-		fmt.Fprintf(ofile, "| --- ")
-	}
-	fmt.Fprintf(ofile, "|\n")
+	reportHeader(ofile, columns)
 
 	//output the entries
 	switch top.Kind {
@@ -336,14 +322,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 	columns := databaseGetColumns(root, "SecurityColumns")
 
 	//output the table header
-	for _, title := range columns {
-		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
-	}
-	fmt.Fprintf(ofile, "|\n")
-	for _ = range columns {
-		fmt.Fprintf(ofile, "| --- ")
-	}
-	fmt.Fprintf(ofile, "|\n")
+	reportHeader(ofile, columns)
 
 	//output the entries
 	switch top.Kind {
@@ -437,6 +416,17 @@ func databaseGetColumns(root yaml.Node, label string) []Tuple {
 		}
 	}
 	return columns
+}
+
+func reportHeader(ofile *os.File, columns []Tuple) {
+	for _, title := range columns {
+		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
+	}
+	fmt.Fprintf(ofile, "|\n")
+	for _ = range columns {
+		fmt.Fprintf(ofile, "| --- ")
+	}
+	fmt.Fprintf(ofile, "|\n")
 }
 
 func textEscape(text string) string {
