@@ -19,7 +19,7 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
-type Tuple struct {
+type tuple struct {
 	key   string
 	value string
 }
@@ -101,7 +101,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 								break
 							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for _ = range columns {
+							for range columns {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
@@ -117,7 +117,8 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 									if entry.Kind == yaml.MappingNode {
 										for m := 0; m < len(entry.Content); m += 2 {
 											//special case: directory
-											if col.key == "directory" && entry.Content[m].Value == col.key {
+											if col.key == "directory" &&
+												entry.Content[m].Value == col.key {
 												if entry.Content[m+1].Kind == yaml.SequenceNode {
 													var str []string
 
@@ -201,7 +202,9 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 									if entry.Kind == yaml.MappingNode {
 										for m := 0; m < len(entry.Content); m += 2 {
 											//special case: depends
-											if col.key == "depends" && entry.Content[m].Value == col.key && entry.Content[m+1].Kind == yaml.SequenceNode {
+											if col.key == "depends" &&
+												entry.Content[m].Value == col.key &&
+												entry.Content[m+1].Kind == yaml.SequenceNode {
 												var str []string
 
 												for _, w := range entry.Content[m+1].Content {
@@ -218,7 +221,8 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							}
 							for _, col := range columns {
 								if len(values[col.key]) > 0 {
-									fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value), textEscape(values[col.key]))
+									fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value),
+										textEscape(values[col.key]))
 								} else if col.key == "description" || col.key == "version" {
 									fmt.Fprintf(ofile, "%s:\n", textEscape(col.value))
 								}
@@ -266,7 +270,7 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 								break
 							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for _ = range columns {
+							for range columns {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
@@ -335,7 +339,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 								break
 							}
 							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for _ = range columns {
+							for range columns {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
@@ -351,7 +355,8 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 									if entry.Kind == yaml.MappingNode {
 										for m := 0; m < len(entry.Content); m += 2 {
 											//special case: security
-											if col.key == "security" && entry.Content[m].Value == col.key {
+											if col.key == "security" &&
+												entry.Content[m].Value == col.key {
 												if entry.Content[m+1].Kind == yaml.SequenceNode {
 													var str []string
 
@@ -385,8 +390,8 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 	return nil
 }
 
-func databaseGetColumns(root yaml.Node, label string) []Tuple {
-	var columns []Tuple
+func databaseGetColumns(root yaml.Node, label string) []tuple {
+	var columns []tuple
 
 	top := root.Content[0]
 
@@ -400,7 +405,8 @@ func databaseGetColumns(root yaml.Node, label string) []Tuple {
 			for _, v := range column.Content {
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, Tuple{v.Content[k].Value, v.Content[k+1].Value})
+						columns = append(columns, tuple{v.Content[k].Value,
+							v.Content[k+1].Value})
 					}
 				}
 			}
@@ -409,18 +415,18 @@ func databaseGetColumns(root yaml.Node, label string) []Tuple {
 	return columns
 }
 
-func reportHeader(ofile *os.File, columns []Tuple) {
+func reportHeader(ofile *os.File, columns []tuple) {
 	for _, title := range columns {
 		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
 	}
 	fmt.Fprintf(ofile, "|\n")
-	for _ = range columns {
+	for range columns {
 		fmt.Fprintf(ofile, "| --- ")
 	}
 	fmt.Fprintf(ofile, "|\n")
 }
 
-func reportRow(ofile *os.File, columns []Tuple, values map[string]string) {
+func reportRow(ofile *os.File, columns []tuple, values map[string]string) {
 	for _, col := range columns {
 		fmt.Fprintf(ofile, "| %s ", textEscape(values[col.key]))
 	}
