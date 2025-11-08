@@ -3,9 +3,16 @@
 #include <string.h>
 #include <errno.h>
 
+#ifndef PROGNAME
+# define PROGNAME	"libc"
+#endif
+#ifndef SECTION
+# define SECTION	"Internal"
+#endif
+
 int main(void)
 {
-	const char * progname = "libc";
+	const char * progname = PROGNAME;
 	struct utsname u;
 	char * p;
 
@@ -17,8 +24,8 @@ int main(void)
 	if((p = strchr(u.release, '-')) != NULL)
 		*p = '\0';
 	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "Internal");
-	printf("    %s:\n", "libc");
+	printf("  - %s:\n", SECTION);
+	printf("    %s:\n", PROGNAME);
 	printf("    - version: %s\n", u.release);
 	return 0;
 }
