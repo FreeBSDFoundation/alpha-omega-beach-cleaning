@@ -100,6 +100,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/unifdef.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zfs.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zlib.c \
+		$(PACKAGE)-$(VERSION)/src/versions/zstd.c \
 		$(PACKAGE)-$(VERSION)/src/versions/Makefile \
 		$(PACKAGE)-$(VERSION)/src/versions/project.conf \
 		$(PACKAGE)-$(VERSION)/COPYING \
