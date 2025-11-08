@@ -17,7 +17,7 @@ int main(void)
 	if((p = strchr(u.release, '-')) != NULL)
 		*p = '\0';
 	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "System Libraries");
+	printf("  - %s:\n", "Internal");
 	printf("    %s:\n", "libc");
 	printf("    - version: %s\n", u.release);
 	return 0;
