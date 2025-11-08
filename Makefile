@@ -80,6 +80,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/heimdal.c \
 		$(PACKAGE)-$(VERSION)/src/versions/less.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libarchive.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libcbor.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libdialog.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libedit.c \
