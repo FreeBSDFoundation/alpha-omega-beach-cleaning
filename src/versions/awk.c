@@ -28,7 +28,7 @@ int main(void)
 	if(strlen(version) == 0)
 		return 3;
 	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "System Libraries");
+	printf("  - %s:\n", "System Tools");
 	printf("    %s:\n", "awk");
 	printf("    - version: %s\n", version);
 	return 0;
