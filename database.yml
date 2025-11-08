@@ -216,6 +216,7 @@ Sections:
       - security:
         - firmware
         - kernel
+        - user
       - plan: fix
   - Network Libraries:
     bsnmp:
