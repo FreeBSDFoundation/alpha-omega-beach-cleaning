@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "flex";
-	const char * command = "flex --version";
+	const char * command = "/usr/bin/flex --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

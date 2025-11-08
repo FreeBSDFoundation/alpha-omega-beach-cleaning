@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "llvm";
-	const char * command = "clang --version";
+	const char * command = "/usr/bin/clang --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

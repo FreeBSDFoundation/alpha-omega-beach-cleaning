@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "heimdal";
-	const char * command = "krb5-config --version";
+	const char * command = "/usr/bin/krb5-config --version";
 	FILE * fp;
 	char buf[1024];
 	int release;

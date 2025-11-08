@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "dtc";
-	const char * command = "dtc -v";
+	const char * command = "/usr/bin/dtc -v";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";
@@ -18,7 +18,7 @@ int main(void)
 	}
 	while(fgets(buf, sizeof(buf), fp) != NULL)
 	{
-		if(sscanf(buf, "Version: dtc %15[^ \n]\n", version) == 1)
+		if(sscanf(buf, "Version: /usr/bin/dtc %15[^ \n]\n", version) == 1)
 		{
 			version[sizeof(version) - 1] = '\0';
 			break;

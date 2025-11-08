@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "libxo";
-	const char * command = "xo --version 2>&1";
+	const char * command = "/usr/bin/xo --version 2>&1";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

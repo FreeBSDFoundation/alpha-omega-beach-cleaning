@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "awk";
-	const char * command = "awk --version";
+	const char * command = "/usr/bin/awk --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

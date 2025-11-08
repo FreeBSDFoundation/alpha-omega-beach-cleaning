@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "libpcap";
-	const char * command = "tcpdump --version";
+	const char * command = "/usr/sbin/tcpdump --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

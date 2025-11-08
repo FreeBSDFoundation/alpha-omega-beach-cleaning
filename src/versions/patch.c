@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "patch";
-	const char * command = "patch --version";
+	const char * command = "/usr/bin/patch --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

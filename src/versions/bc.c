@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "bc";
-	const char * command = "bc --version";
+	const char * command = "/usr/bin/bc --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

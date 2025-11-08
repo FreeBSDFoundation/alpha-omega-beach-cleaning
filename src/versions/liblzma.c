@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "liblzma";
-	const char * command = "xz --version";
+	const char * command = "/usr/bin/xz --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

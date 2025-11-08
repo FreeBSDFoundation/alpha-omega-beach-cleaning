@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "less";
-	const char * command = "less --version";
+	const char * command = "/usr/bin/less --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";

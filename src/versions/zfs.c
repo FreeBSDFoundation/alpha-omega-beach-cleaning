@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "zfs";
-	const char * command = "zfs version";
+	const char * command = "/sbin/zfs version";
 	FILE * fp;
 	char buf[1024];
 	char version[32] = "";

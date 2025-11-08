@@ -5,7 +5,7 @@
 int main(void)
 {
 	const char * progname = "byacc";
-	const char * command = "byacc --version";
+	const char * command = "/usr/bin/byacc --version";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";
@@ -18,7 +18,7 @@ int main(void)
 	}
 	while(fgets(buf, sizeof(buf), fp) != NULL)
 	{
-		if(sscanf(buf, "byacc - %15[^ \n]\n", version) == 1)
+		if(sscanf(buf, "/usr/bin/byacc - %15[^ \n]\n", version) == 1)
 		{
 			version[sizeof(version) - 1] = '\0';
 			break;
