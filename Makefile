@@ -99,6 +99,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/openssl.c \
 		$(PACKAGE)-$(VERSION)/src/versions/patch.c \
 		$(PACKAGE)-$(VERSION)/src/versions/pkg.c \
+		$(PACKAGE)-$(VERSION)/src/versions/sendmail.c \
 		$(PACKAGE)-$(VERSION)/src/versions/sqlite.c \
 		$(PACKAGE)-$(VERSION)/src/versions/tcpdump.c \
 		$(PACKAGE)-$(VERSION)/src/versions/unbound.c \
