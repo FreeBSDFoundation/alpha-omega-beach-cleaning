@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include "common.c"
 
 int main(void)
 {
@@ -27,9 +28,6 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "Kernel");
-	printf("    %s:\n", "acpi(4)");
-	printf("    - version: %s\n", version);
+	_report("Kernel", "acpi(4)", version);
 	return 0;
 }

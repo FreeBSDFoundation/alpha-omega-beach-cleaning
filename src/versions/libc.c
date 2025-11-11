@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include "common.c"
 
 #ifndef PROGNAME
 # define PROGNAME	"libc"
@@ -23,9 +24,6 @@ int main(void)
 	}
 	if((p = strchr(u.release, '-')) != NULL)
 		*p = '\0';
-	printf("%s:\n", "Sections");
-	printf("  - %s:\n", SECTION);
-	printf("    %s:\n", PROGNAME);
-	printf("    - version: %s\n", u.release);
+	_report(SECTION, PROGNAME, u.release);
 	return 0;
 }

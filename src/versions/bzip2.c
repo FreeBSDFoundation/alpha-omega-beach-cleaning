@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include "common.c"
 
 int main(void)
 {
@@ -30,9 +31,6 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "System Libraries");
-	printf("    %s:\n", "bzip2");
-	printf("    - version: %s\n", version);
+	_report("System  Libraries", progname, version);
 	return 0;
 }

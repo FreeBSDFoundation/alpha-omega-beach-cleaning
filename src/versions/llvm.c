@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <errno.h>
+#include "common.c"
 
 int main(void)
 {
@@ -27,9 +28,6 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "Compilation Infrastructure");
-	printf("    %s:\n", "LLVM");
-	printf("    - version: %s\n", version);
+	_report("Compilation Infrastructure", "LLVM", version);
 	return 0;
 }

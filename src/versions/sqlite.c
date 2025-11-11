@@ -1,11 +1,8 @@
-#include <stdio.h>
 #include <sqlite3.h>
+#include "common.c"
 
 int main(void)
 {
-	printf("%s:\n", "Sections");
-	printf("  - %s:\n", "System Libraries");
-	printf("    %s:\n", "SQLite");
-	printf("    - version: %s\n", SQLITE_VERSION);
+	_report("System Libraries", "SQLite", SQLITE_VERSION);
 	return 0;
 }
