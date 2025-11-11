@@ -71,6 +71,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/acpi.c \
 		$(PACKAGE)-$(VERSION)/src/versions/awk.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bc.c \
+		$(PACKAGE)-$(VERSION)/src/versions/bmake.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bsddialog.c \
 		$(PACKAGE)-$(VERSION)/src/versions/byacc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bzip2.c \
