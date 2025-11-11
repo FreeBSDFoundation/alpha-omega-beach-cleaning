@@ -1,4 +1,4 @@
-TARGETS	= $(OBJDIR)acpi$(EXEEXT) $(OBJDIR)awk$(EXEEXT) $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bmake$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)diff$(EXEEXT) $(OBJDIR)dma$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)ipfilter$(EXEEXT) $(OBJDIR)ldns$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libc$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)llvm$(EXEEXT) $(OBJDIR)mkuzip$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)pkg$(EXEEXT) $(OBJDIR)sendmail$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)unbound$(EXEEXT) $(OBJDIR)unifdef$(EXEEXT) $(OBJDIR)versions.yml $(OBJDIR)wireguard$(EXEEXT) $(OBJDIR)zfs$(EXEEXT) $(OBJDIR)zlib$(EXEEXT) $(OBJDIR)zstd$(EXEEXT)
+TARGETS	= $(OBJDIR)acpi$(EXEEXT) $(OBJDIR)awk$(EXEEXT) $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bmake$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)diff$(EXEEXT) $(OBJDIR)dma$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)ipfilter$(EXEEXT) $(OBJDIR)ldns$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libc$(EXEEXT) $(OBJDIR)libcbor$(EXEEXT) $(OBJDIR)libdialog$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)llvm$(EXEEXT) $(OBJDIR)mkuzip$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)pkg$(EXEEXT) $(OBJDIR)sendmail$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)unbound$(EXEEXT) $(OBJDIR)unifdef$(EXEEXT) $(OBJDIR)versions.yml $(OBJDIR)wireguard$(EXEEXT) $(OBJDIR)wpa_supplicant$(EXEEXT) $(OBJDIR)zfs$(EXEEXT) $(OBJDIR)zlib$(EXEEXT) $(OBJDIR)zstd$(EXEEXT)
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -17,7 +17,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: $(OBJDIR)acpi$(EXEEXT) $(OBJDIR)awk$(EXEEXT) $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bmake$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)diff$(EXEEXT) $(OBJDIR)dma$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)ipfilter$(EXEEXT) $(OBJDIR)ldns$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libc$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)llvm$(EXEEXT) $(OBJDIR)mkuzip$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)pkg$(EXEEXT) $(OBJDIR)sendmail$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)unbound$(EXEEXT) $(OBJDIR)unifdef$(EXEEXT) $(OBJDIR)wireguard$(EXEEXT) $(OBJDIR)zfs$(EXEEXT) $(OBJDIR)zlib$(EXEEXT) $(OBJDIR)zstd$(EXEEXT)
+all: $(OBJDIR)acpi$(EXEEXT) $(OBJDIR)awk$(EXEEXT) $(OBJDIR)bc$(EXEEXT) $(OBJDIR)bmake$(EXEEXT) $(OBJDIR)bsddialog$(EXEEXT) $(OBJDIR)byacc$(EXEEXT) $(OBJDIR)bzip2$(EXEEXT) $(OBJDIR)diff$(EXEEXT) $(OBJDIR)dma$(EXEEXT) $(OBJDIR)dtc$(EXEEXT) $(OBJDIR)file$(EXEEXT) $(OBJDIR)flex$(EXEEXT) $(OBJDIR)heimdal$(EXEEXT) $(OBJDIR)ipfilter$(EXEEXT) $(OBJDIR)ldns$(EXEEXT) $(OBJDIR)less$(EXEEXT) $(OBJDIR)libarchive$(EXEEXT) $(OBJDIR)libc$(EXEEXT) $(OBJDIR)libedit$(EXEEXT) $(OBJDIR)libevent$(EXEEXT) $(OBJDIR)liblzma$(EXEEXT) $(OBJDIR)libpcap$(EXEEXT) $(OBJDIR)libxo$(EXEEXT) $(OBJDIR)llvm$(EXEEXT) $(OBJDIR)mkuzip$(EXEEXT) $(OBJDIR)ncurses$(EXEEXT) $(OBJDIR)openssl$(EXEEXT) $(OBJDIR)patch$(EXEEXT) $(OBJDIR)pkg$(EXEEXT) $(OBJDIR)sendmail$(EXEEXT) $(OBJDIR)sqlite$(EXEEXT) $(OBJDIR)tcpdump$(EXEEXT) $(OBJDIR)unbound$(EXEEXT) $(OBJDIR)unifdef$(EXEEXT) $(OBJDIR)wireguard$(EXEEXT) $(OBJDIR)wpa_supplicant$(EXEEXT) $(OBJDIR)zfs$(EXEEXT) $(OBJDIR)zlib$(EXEEXT) $(OBJDIR)zstd$(EXEEXT)
 
 acpi_OBJS = $(OBJDIR)acpi.o
 acpi_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -272,7 +272,7 @@ $(OBJDIR)unifdef$(EXEEXT): $(unifdef_OBJS)
 	$(CC) -o $(OBJDIR)unifdef$(EXEEXT) $(unifdef_OBJS) $(unifdef_LDFLAGS)
 
 $(OBJDIR)versions.yml: all
-	(./acpi; ./awk; ./bc; ./bmake; ./bsddialog; ./byacc; ./bzip2; ./diff; ./dma; ./dtc; ./file; ./flex; ./heimdal; ./ipfilter; ./ldns; ./less; ./libarchive; ./libc; ./libedit; ./libevent; ./liblzma; ./libpcap; ./libxo; ./mkuzip; ./ncurses; ./openssl; ./patch; ./pkg; ./sendmail; ./sqlite; ./tcpdump; ./unbound; ./unifdef; ./wireguard; ./zfs; ./zlib; ./zstd) > versions.yml
+	(./acpi; ./awk; ./bc; ./bmake; ./bsddialog; ./byacc; ./bzip2; ./diff; ./dma; ./dtc; ./file; ./flex; ./heimdal; ./ipfilter; ./ldns; ./less; ./libarchive; ./libc; ./libedit; ./libevent; ./liblzma; ./libpcap; ./libxo; ./mkuzip; ./ncurses; ./openssl; ./patch; ./pkg; ./sendmail; ./sqlite; ./tcpdump; ./unbound; ./unifdef; ./wireguard; ./wpa_supplicant; ./zfs; ./zlib; ./zstd) > versions.yml
 
 wireguard_OBJS = $(OBJDIR)wireguard.o
 wireguard_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -280,6 +280,13 @@ wireguard_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 
 $(OBJDIR)wireguard$(EXEEXT): $(wireguard_OBJS)
 	$(CC) -o $(OBJDIR)wireguard$(EXEEXT) $(wireguard_OBJS) $(wireguard_LDFLAGS)
+
+wpa_supplicant_OBJS = $(OBJDIR)wpa_supplicant.o
+wpa_supplicant_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
+wpa_supplicant_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
+
+$(OBJDIR)wpa_supplicant$(EXEEXT): $(wpa_supplicant_OBJS)
+	$(CC) -o $(OBJDIR)wpa_supplicant$(EXEEXT) $(wpa_supplicant_OBJS) $(wpa_supplicant_LDFLAGS)
 
 zfs_OBJS = $(OBJDIR)zfs.o
 zfs_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
@@ -413,6 +420,9 @@ $(OBJDIR)unifdef.o: unifdef.c common.c
 $(OBJDIR)wireguard.o: wireguard.c common.c
 	$(CC) $(wireguard_CFLAGS) -o $(OBJDIR)wireguard.o -c wireguard.c
 
+$(OBJDIR)wpa_supplicant.o: wpa_supplicant.c common.c
+	$(CC) $(wpa_supplicant_CFLAGS) -o $(OBJDIR)wpa_supplicant.o -c wpa_supplicant.c
+
 $(OBJDIR)zfs.o: zfs.c common.c
 	$(CC) $(zfs_CFLAGS) -o $(OBJDIR)zfs.o -c zfs.c
 
@@ -423,7 +433,7 @@ $(OBJDIR)zstd.o: zstd.c common.c
 	$(CC) $(zstd_CFLAGS) -o $(OBJDIR)zstd.o -c zstd.c
 
 clean:
-	$(RM) -- $(acpi_OBJS) $(awk_OBJS) $(bc_OBJS) $(bmake_OBJS) $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(diff_OBJS) $(dma_OBJS) $(dtc_OBJS) $(file_OBJS) $(flex_OBJS) $(heimdal_OBJS) $(ipfilter_OBJS) $(ldns_OBJS) $(less_OBJS) $(libarchive_OBJS) $(libc_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(liblzma_OBJS) $(libpcap_OBJS) $(libxo_OBJS) $(llvm_OBJS) $(mkuzip_OBJS) $(ncurses_OBJS) $(openssl_OBJS) $(patch_OBJS) $(pkg_OBJS) $(sendmail_OBJS) $(sqlite_OBJS) $(tcpdump_OBJS) $(unbound_OBJS) $(unifdef_OBJS) $(wireguard_OBJS) $(zfs_OBJS) $(zlib_OBJS) $(zstd_OBJS)
+	$(RM) -- $(acpi_OBJS) $(awk_OBJS) $(bc_OBJS) $(bmake_OBJS) $(bsddialog_OBJS) $(byacc_OBJS) $(bzip2_OBJS) $(diff_OBJS) $(dma_OBJS) $(dtc_OBJS) $(file_OBJS) $(flex_OBJS) $(heimdal_OBJS) $(ipfilter_OBJS) $(ldns_OBJS) $(less_OBJS) $(libarchive_OBJS) $(libc_OBJS) $(libcbor_OBJS) $(libdialog_OBJS) $(libedit_OBJS) $(libevent_OBJS) $(liblzma_OBJS) $(libpcap_OBJS) $(libxo_OBJS) $(llvm_OBJS) $(mkuzip_OBJS) $(ncurses_OBJS) $(openssl_OBJS) $(patch_OBJS) $(pkg_OBJS) $(sendmail_OBJS) $(sqlite_OBJS) $(tcpdump_OBJS) $(unbound_OBJS) $(unifdef_OBJS) $(wireguard_OBJS) $(wpa_supplicant_OBJS) $(zfs_OBJS) $(zlib_OBJS) $(zstd_OBJS)
 
 distclean: clean
 	$(RM) -- $(TARGETS)
