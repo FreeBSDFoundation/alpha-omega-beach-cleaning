@@ -101,6 +101,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/pkg.c \
 		$(PACKAGE)-$(VERSION)/src/versions/sqlite.c \
 		$(PACKAGE)-$(VERSION)/src/versions/tcpdump.c \
+		$(PACKAGE)-$(VERSION)/src/versions/unbound.c \
 		$(PACKAGE)-$(VERSION)/src/versions/unifdef.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zfs.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zlib.c \
