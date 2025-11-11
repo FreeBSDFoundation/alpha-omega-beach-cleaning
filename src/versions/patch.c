@@ -28,6 +28,6 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	_report("Compilation Infrastructure", progname, version);
+	_report("System Tools", progname, version);
 	return 0;
 }
