@@ -74,6 +74,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/bsddialog.c \
 		$(PACKAGE)-$(VERSION)/src/versions/byacc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/bzip2.c \
+		$(PACKAGE)-$(VERSION)/src/versions/dma.c \
 		$(PACKAGE)-$(VERSION)/src/versions/dtc.c \
 		$(PACKAGE)-$(VERSION)/src/versions/file.c \
 		$(PACKAGE)-$(VERSION)/src/versions/flex.c \
