@@ -34,6 +34,7 @@
 /unifdef
 /versions.yml
 /wireguard
+/wpa_supplicant
 /zfs
 /zlib
 /zstd
