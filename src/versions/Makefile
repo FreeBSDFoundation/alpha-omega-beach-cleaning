@@ -267,10 +267,10 @@ zstd_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
 $(OBJDIR)zstd$(EXEEXT): $(zstd_OBJS)
 	$(CC) -o $(OBJDIR)zstd$(EXEEXT) $(zstd_OBJS) $(zstd_LDFLAGS)
 
-$(OBJDIR)acpi.o: acpi.c
+$(OBJDIR)acpi.o: acpi.c common.c
 	$(CC) $(acpi_CFLAGS) -o $(OBJDIR)acpi.o -c acpi.c
 
-$(OBJDIR)awk.o: awk.c
+$(OBJDIR)awk.o: awk.c common.c
 	$(CC) $(awk_CFLAGS) -o $(OBJDIR)awk.o -c awk.c
 
 $(OBJDIR)bc.o: bc.c
@@ -282,94 +282,94 @@ $(OBJDIR)bsddialog.o: bsddialog.c
 $(OBJDIR)byacc.o: byacc.c
 	$(CC) $(byacc_CFLAGS) -o $(OBJDIR)byacc.o -c byacc.c
 
-$(OBJDIR)bzip2.o: bzip2.c
+$(OBJDIR)bzip2.o: bzip2.c common.c
 	$(CC) $(bzip2_CFLAGS) -o $(OBJDIR)bzip2.o -c bzip2.c
 
-$(OBJDIR)dma.o: dma.c
+$(OBJDIR)dma.o: dma.c common.c
 	$(CC) $(dma_CFLAGS) -o $(OBJDIR)dma.o -c dma.c
 
-$(OBJDIR)dtc.o: dtc.c
+$(OBJDIR)dtc.o: dtc.c common.c
 	$(CC) $(dtc_CFLAGS) -o $(OBJDIR)dtc.o -c dtc.c
 
-$(OBJDIR)file.o: file.c
+$(OBJDIR)file.o: file.c common.c
 	$(CC) $(file_CFLAGS) -o $(OBJDIR)file.o -c file.c
 
-$(OBJDIR)flex.o: flex.c
+$(OBJDIR)flex.o: flex.c common.c
 	$(CC) $(flex_CFLAGS) -o $(OBJDIR)flex.o -c flex.c
 
-$(OBJDIR)heimdal.o: heimdal.c
+$(OBJDIR)heimdal.o: heimdal.c common.c
 	$(CC) $(heimdal_CFLAGS) -o $(OBJDIR)heimdal.o -c heimdal.c
 
-$(OBJDIR)ipfilter.o: ipfilter.c
+$(OBJDIR)ipfilter.o: ipfilter.c common.c
 	$(CC) $(ipfilter_CFLAGS) -o $(OBJDIR)ipfilter.o -c ipfilter.c
 
-$(OBJDIR)ldns.o: ldns.c
+$(OBJDIR)ldns.o: ldns.c common.c
 	$(CC) $(ldns_CFLAGS) -o $(OBJDIR)ldns.o -c ldns.c
 
-$(OBJDIR)less.o: less.c
+$(OBJDIR)less.o: less.c common.c
 	$(CC) $(less_CFLAGS) -o $(OBJDIR)less.o -c less.c
 
-$(OBJDIR)libarchive.o: libarchive.c
+$(OBJDIR)libarchive.o: libarchive.c common.c
 	$(CC) $(libarchive_CFLAGS) -o $(OBJDIR)libarchive.o -c libarchive.c
 
-$(OBJDIR)libc.o: libc.c
+$(OBJDIR)libc.o: libc.c common.c
 	$(CC) $(libc_CFLAGS) -o $(OBJDIR)libc.o -c libc.c
 
-$(OBJDIR)libcbor.o: libcbor.c
+$(OBJDIR)libcbor.o: libcbor.c common.c
 	$(CC) $(libcbor_CFLAGS) -o $(OBJDIR)libcbor.o -c libcbor.c
 
-$(OBJDIR)libdialog.o: libdialog.c
+$(OBJDIR)libdialog.o: libdialog.c common.c
 	$(CC) $(libdialog_CFLAGS) -o $(OBJDIR)libdialog.o -c libdialog.c
 
-$(OBJDIR)libedit.o: libedit.c
+$(OBJDIR)libedit.o: libedit.c common.c
 	$(CC) $(libedit_CFLAGS) -o $(OBJDIR)libedit.o -c libedit.c
 
-$(OBJDIR)libevent.o: libevent.c
+$(OBJDIR)libevent.o: libevent.c common.c
 	$(CC) $(libevent_CFLAGS) -o $(OBJDIR)libevent.o -c libevent.c
 
-$(OBJDIR)liblzma.o: liblzma.c
+$(OBJDIR)liblzma.o: liblzma.c common.c
 	$(CC) $(liblzma_CFLAGS) -o $(OBJDIR)liblzma.o -c liblzma.c
 
-$(OBJDIR)libpcap.o: libpcap.c
+$(OBJDIR)libpcap.o: libpcap.c common.c
 	$(CC) $(libpcap_CFLAGS) -o $(OBJDIR)libpcap.o -c libpcap.c
 
-$(OBJDIR)libxo.o: libxo.c
+$(OBJDIR)libxo.o: libxo.c common.c
 	$(CC) $(libxo_CFLAGS) -o $(OBJDIR)libxo.o -c libxo.c
 
-$(OBJDIR)llvm.o: llvm.c
+$(OBJDIR)llvm.o: llvm.c common.c
 	$(CC) $(llvm_CFLAGS) -o $(OBJDIR)llvm.o -c llvm.c
 
 $(OBJDIR)mkuzip.o: mkuzip.c libc.c
 	$(CC) $(mkuzip_CFLAGS) -o $(OBJDIR)mkuzip.o -c mkuzip.c
 
-$(OBJDIR)ncurses.o: ncurses.c
+$(OBJDIR)ncurses.o: ncurses.c common.c
 	$(CC) $(ncurses_CFLAGS) -o $(OBJDIR)ncurses.o -c ncurses.c
 
-$(OBJDIR)openssl.o: openssl.c
+$(OBJDIR)openssl.o: openssl.c common.c
 	$(CC) $(openssl_CFLAGS) -o $(OBJDIR)openssl.o -c openssl.c
 
-$(OBJDIR)patch.o: patch.c
+$(OBJDIR)patch.o: patch.c common.c
 	$(CC) $(patch_CFLAGS) -o $(OBJDIR)patch.o -c patch.c
 
-$(OBJDIR)pkg.o: pkg.c
+$(OBJDIR)pkg.o: pkg.c common.c
 	$(CC) $(pkg_CFLAGS) -o $(OBJDIR)pkg.o -c pkg.c
 
-$(OBJDIR)sqlite.o: sqlite.c
+$(OBJDIR)sqlite.o: sqlite.c common.c
 	$(CC) $(sqlite_CFLAGS) -o $(OBJDIR)sqlite.o -c sqlite.c
 
-$(OBJDIR)tcpdump.o: tcpdump.c
+$(OBJDIR)tcpdump.o: tcpdump.c common.c
 	$(CC) $(tcpdump_CFLAGS) -o $(OBJDIR)tcpdump.o -c tcpdump.c
 
-$(OBJDIR)unifdef.o: unifdef.c
+$(OBJDIR)unifdef.o: unifdef.c common.c
 	$(CC) $(unifdef_CFLAGS) -o $(OBJDIR)unifdef.o -c unifdef.c
 
-$(OBJDIR)zfs.o: zfs.c
+$(OBJDIR)zfs.o: zfs.c common.c
 	$(CC) $(zfs_CFLAGS) -o $(OBJDIR)zfs.o -c zfs.c
 
-$(OBJDIR)zlib.o: zlib.c
+$(OBJDIR)zlib.o: zlib.c common.c
 	$(CC) $(zlib_CFLAGS) -o $(OBJDIR)zlib.o -c zlib.c
 
-$(OBJDIR)zstd.o: zstd.c
+$(OBJDIR)zstd.o: zstd.c common.c
 	$(CC) $(zstd_CFLAGS) -o $(OBJDIR)zstd.o -c zstd.c
 
 clean:

@@ -104,6 +104,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/zlib.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zstd.c \
 		$(PACKAGE)-$(VERSION)/src/versions/Makefile \
+		$(PACKAGE)-$(VERSION)/src/versions/common.c \
 		$(PACKAGE)-$(VERSION)/src/versions/project.conf \
 		$(PACKAGE)-$(VERSION)/COPYING \
 		$(PACKAGE)-$(VERSION)/Makefile \
