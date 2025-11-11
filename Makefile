@@ -82,6 +82,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/flex.c \
 		$(PACKAGE)-$(VERSION)/src/versions/heimdal.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ipfilter.c \
+		$(PACKAGE)-$(VERSION)/src/versions/kyua.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ldns.c \
 		$(PACKAGE)-$(VERSION)/src/versions/less.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libarchive.c \
