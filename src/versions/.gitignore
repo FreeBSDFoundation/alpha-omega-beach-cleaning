@@ -29,6 +29,7 @@
 /pkg
 /sqlite
 /tcpdump
+/unbound
 /unifdef
 /versions.yml
 /zfs
