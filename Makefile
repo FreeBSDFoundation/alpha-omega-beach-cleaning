@@ -104,6 +104,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/tcpdump.c \
 		$(PACKAGE)-$(VERSION)/src/versions/unbound.c \
 		$(PACKAGE)-$(VERSION)/src/versions/unifdef.c \
+		$(PACKAGE)-$(VERSION)/src/versions/wireguard.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zfs.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zlib.c \
 		$(PACKAGE)-$(VERSION)/src/versions/zstd.c \
