@@ -870,6 +870,10 @@ Sections:
       - license: BSD-3-Clause
       - security:
         - user
+      - depends:
+        - libcxxrt
+        - Lua
+        - SQLite
       - plan: fork
     NetBSD tests:
       - description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
