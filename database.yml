@@ -66,6 +66,8 @@ Sections:
       - security:
         - build
         - kernel
+      - depends:
+        - libcxxrt
       - plan: fix
     elftoolchain:
       - description: BSD licensed ELF toolchain
@@ -111,6 +113,8 @@ Sections:
       - security:
         - build
         - runtime
+      - depends:
+        - libcxxrt
       - plan: fix
     unifdef:
       - description: Selectively remove C preprocessor conditionals
