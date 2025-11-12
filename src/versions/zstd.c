@@ -19,7 +19,7 @@ int main(void)
 	}
 	while(fgets(buf, sizeof(buf), fp) != NULL)
 	{
-		if(sscanf(buf, "*** zstd command line interface 64-bits v%15[^ \n]\n", version) == 1)
+		if(sscanf(buf, "*** zstd command line interface 64-bits v%15[^, \n]\n", version) == 1)
 		{
 			version[sizeof(version) - 1] = '\0';
 			break;
