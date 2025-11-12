@@ -169,6 +169,7 @@ Sections:
     ipfilter(4):
       - description: IP Filter
       - directory: sys/netpfil/ipfilter
+      - version: 5.1.2
       - upstream: Phil Dibowitz
       - homepage: https://www.phildev.net/ipf/
       - security:
@@ -196,6 +197,7 @@ Sections:
       - directory:
         - sys/contrib/openzfs
         - cddl
+      - version: 2.4.0-rc3
       - upstream: OpenZFS
       - homepage: https://openzfs.org/wiki/Main_Page
       - license: CDDL-1.0
@@ -231,6 +233,7 @@ Sections:
     ldns:
       - description: LDNS is a DNS library that facilitates DNS tool programming
       - directory: contrib/ldns
+      - version: 1.8.3
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/ldns
       - license: BSD-3-Clause
@@ -299,18 +302,18 @@ Sections:
     Sendmail:
       - description: General purpose internetwork email routing application
       - directory: contrib/sendmail
-      - version: 8.17.1
+      - version: 8.18.1
       - upstream: Proofpoint
       - homepage: https://ftp.sendmail.org
       - license: Sendmail
-      - source: https://ftp.sendmail.org/sendmail.8.17.1.tar.gz
+      - source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
       - security:
         - network
       - plan: fix
     Unbound:
       - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
-      - version: 1.23.1
+      - version: 1.24.1
       - upstream: NLnet Labs
       - homepage: https://github.com/NLnetLabs/unbound
       - license: BSD-3-Clause
@@ -389,7 +392,7 @@ Sections:
     OpenSSL:
       - description: OpenSSL cryptography library
       - directory: crypto/openssl
-      - version: 3.5.3
+      - version: 3.5.4
       - upstream: OpenSSL
       - homepage: https://openssl-library.org
       - license: Apache-2.0
@@ -737,7 +740,7 @@ Sections:
       - plan: fix
     bc:
       - description: Implementation of the POSIX bc calculator with GNU extensions and dc
-      - version 7.1.0
+      - version: 7.1.0
       - directory: contrib/bc
       - upstream: Gavin D. Howard
       - homepage: https://gavinhoward.com/tag/bc/
@@ -803,6 +806,7 @@ Sections:
       - plan: fix
     patch:
       - directory: usr.bin/patch
+      - version: 2.0-12u11
       - upstream: GNU
       - homepage: https://www.gnu.org/software/patch/
       - source: https://git.savannah.gnu.org/git/patch.git
@@ -813,6 +817,7 @@ Sections:
     pkg:
       - description: Package manager for FreeBSD
       - directory: usr.sbin/pkg
+      - version: 2.3.1
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/pkg
       - license: BSD-2-Clause
@@ -827,6 +832,7 @@ Sections:
     ATF:
       - description: Libraries to write tests in C, C++ and shell
       - directory: contrib/atf
+      - version: 0.22
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/atf
       - license: BSD-3-Clause and BSD-2-Clause
@@ -858,6 +864,7 @@ Sections:
     kyua:
       - description: Port/Package build and test system
       - directory: contrib/kyua
+      - version: 0.13
       - upstream: FreeBSD (GitHub)
       - homepage: https://github.com/FreeBSD/kyua
       - license: BSD-3-Clause
