@@ -18,4 +18,21 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>FreeBSD Device Tree Compiler</text>
 
 
+##### Package: libcxxrt@6f2fdfebcd62
+
+PackageName: libcxxrt@6f2fdfebcd62
+SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
+PackageVersion: 6f2fdfebcd62
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/libcxxrt/libcxxrt
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
+
+
+Relationship: SPDXRef-Package-dtcC6423387dd DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-dtcC6423387dd
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-dtcC6423387dd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcxxrtC646f2fdfebcd62
