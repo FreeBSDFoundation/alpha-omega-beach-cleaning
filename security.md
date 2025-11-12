@@ -16,7 +16,7 @@
 | pf(4) | kernel, network | 2 |
 | umb(4) | kernel, network | 2 |
 | ZFS | crypto, firmware, kernel, network | 4 |
-| zstd | firmware, kernel | 2 |
+| zstd | firmware, kernel, user | 3 |
 | __Network Libraries__ | | |
 | bsnmp | network | 1 |
 | ldns | network | 1 |

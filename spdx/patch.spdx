@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-patchC64
+DocumentName: SBOM-SPDX-patchC642.0-12u11
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: patch@
+##### Package: patch@2.0-12u11
 
-PackageName: patch@
-SPDXID: SPDXRef-Package-patchC64
-PackageVersion: 
+PackageName: patch@2.0-12u11
+SPDXID: SPDXRef-Package-patchC642.0-12u11
+PackageVersion: 2.0-12u11
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/patch/
@@ -18,4 +18,4 @@ PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text></text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-patchC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-patchC642.0-12u11

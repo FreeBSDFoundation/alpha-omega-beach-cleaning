@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-UnboundC641.23.1
+DocumentName: SBOM-SPDX-UnboundC641.24.1
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: Unbound@1.23.1
+##### Package: Unbound@1.24.1
 
-PackageName: Unbound@1.23.1
-SPDXID: SPDXRef-Package-UnboundC641.23.1
-PackageVersion: 1.23.1
+PackageName: Unbound@1.24.1
+SPDXID: SPDXRef-Package-UnboundC641.24.1
+PackageVersion: 1.24.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/NLnetLabs/unbound
@@ -42,11 +42,11 @@ PackageLicenseDeclared: MIT
 PackageSummary: <text>XML 1.0 parser written in C</text>
 
 
-##### Package: OpenSSL@3.5.3
+##### Package: OpenSSL@3.5.4
 
-PackageName: OpenSSL@3.5.3
-SPDXID: SPDXRef-Package-OpenSSLC643.5.3
-PackageVersion: 3.5.3
+PackageName: OpenSSL@3.5.4
+SPDXID: SPDXRef-Package-OpenSSLC643.5.4
+PackageVersion: 3.5.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openssl-library.org
@@ -54,15 +54,15 @@ PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>
 
 
-Relationship: SPDXRef-Package-UnboundC641.23.1 DEPENDS_ON SPDXRef-Package-flexC642.6.4
-Relationship: SPDXRef-Package-flexC642.6.4 DEPENDENCY_OF SPDXRef-Package-UnboundC641.23.1
-Relationship: SPDXRef-Package-UnboundC641.23.1 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
-Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-UnboundC641.23.1
-Relationship: SPDXRef-Package-UnboundC641.23.1 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.3
-Relationship: SPDXRef-Package-OpenSSLC643.5.3 DEPENDENCY_OF SPDXRef-Package-UnboundC641.23.1
+Relationship: SPDXRef-Package-UnboundC641.24.1 DEPENDS_ON SPDXRef-Package-flexC642.6.4
+Relationship: SPDXRef-Package-flexC642.6.4 DEPENDENCY_OF SPDXRef-Package-UnboundC641.24.1
+Relationship: SPDXRef-Package-UnboundC641.24.1 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-UnboundC641.24.1
+Relationship: SPDXRef-Package-UnboundC641.24.1 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.4
+Relationship: SPDXRef-Package-OpenSSLC643.5.4 DEPENDENCY_OF SPDXRef-Package-UnboundC641.24.1
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-UnboundC641.23.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-UnboundC641.24.1
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-flexC642.6.4
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libexpatC642.7.3
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.4

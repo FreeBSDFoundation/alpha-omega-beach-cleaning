@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-pkgC64
+DocumentName: SBOM-SPDX-pkgC642.3.1
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: pkg@
+##### Package: pkg@2.3.1
 
-PackageName: pkg@
-SPDXID: SPDXRef-Package-pkgC64
-PackageVersion: 
+PackageName: pkg@2.3.1
+SPDXID: SPDXRef-Package-pkgC642.3.1
+PackageVersion: 2.3.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/pkg
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pkgC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pkgC642.3.1

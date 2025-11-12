@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-ldnsC64
+DocumentName: SBOM-SPDX-ldnsC641.8.3
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: ldns@
+##### Package: ldns@1.8.3
 
-PackageName: ldns@
-SPDXID: SPDXRef-Package-ldnsC64
-PackageVersion: 
+PackageName: ldns@1.8.3
+SPDXID: SPDXRef-Package-ldnsC641.8.3
+PackageVersion: 1.8.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/NLnetLabs/ldns
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>LDNS is a DNS library that facilitates DNS tool programming</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ldnsC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ldnsC641.8.3

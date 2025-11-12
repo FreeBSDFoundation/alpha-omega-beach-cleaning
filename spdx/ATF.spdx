@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-ATFC64
+DocumentName: SBOM-SPDX-ATFC640.22
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: ATF@
+##### Package: ATF@0.22
 
-PackageName: ATF@
-SPDXID: SPDXRef-Package-ATFC64
-PackageVersion: 
+PackageName: ATF@0.22
+SPDXID: SPDXRef-Package-ATFC640.22
+PackageVersion: 0.22
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/atf
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-3-Clause and BSD-2-Clause
 PackageSummary: <text>Libraries to write tests in C, C++ and shell</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ATFC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ATFC640.22

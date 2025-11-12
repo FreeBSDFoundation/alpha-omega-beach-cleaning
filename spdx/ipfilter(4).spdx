@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-ipfilter(4)C64
+DocumentName: SBOM-SPDX-ipfilter(4)C645.1.2
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: ipfilter(4)@
+##### Package: ipfilter(4)@5.1.2
 
-PackageName: ipfilter(4)@
-SPDXID: SPDXRef-Package-ipfilter(4)C64
-PackageVersion: 
+PackageName: ipfilter(4)@5.1.2
+SPDXID: SPDXRef-Package-ipfilter(4)C645.1.2
+PackageVersion: 5.1.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.phildev.net/ipf/
@@ -18,4 +18,4 @@ PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>IP Filter</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ipfilter(4)C64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ipfilter(4)C645.1.2

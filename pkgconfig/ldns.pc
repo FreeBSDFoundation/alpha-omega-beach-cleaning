@@ -1,5 +1,5 @@
 Name: ldns
 Description: LDNS is a DNS library that facilitates DNS tool programming
 URL: https://github.com/NLnetLabs/ldns
-Version:
+Version: 1.8.3
 License: BSD-3-Clause

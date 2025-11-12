@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-kyuaC64
+DocumentName: SBOM-SPDX-kyuaC640.13
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: kyua@
+##### Package: kyua@0.13
 
-PackageName: kyua@
-SPDXID: SPDXRef-Package-kyuaC64
-PackageVersion: 
+PackageName: kyua@0.13
+SPDXID: SPDXRef-Package-kyuaC640.13
+PackageVersion: 0.13
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/kyua
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Port/Package build and test system</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-kyuaC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-kyuaC640.13
