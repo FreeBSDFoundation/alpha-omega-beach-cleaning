@@ -18,4 +18,21 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
 
 
+##### Package: OpenSSL@3.5.4
+
+PackageName: OpenSSL@3.5.4
+SPDXID: SPDXRef-Package-OpenSSLC643.5.4
+PackageVersion: 3.5.4
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openssl-library.org
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: <text>OpenSSL cryptography library</text>
+
+
+Relationship: SPDXRef-Package-pkgC642.3.1 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.4
+Relationship: SPDXRef-Package-OpenSSLC643.5.4 DEPENDENCY_OF SPDXRef-Package-pkgC642.3.1
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pkgC642.3.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.4

@@ -18,4 +18,21 @@ PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.</text>
 
 
+##### Package: OpenSSL@3.5.4
+
+PackageName: OpenSSL@3.5.4
+SPDXID: SPDXRef-Package-OpenSSLC643.5.4
+PackageVersion: 3.5.4
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openssl-library.org
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: <text>OpenSSL cryptography library</text>
+
+
+Relationship: SPDXRef-Package-wpa_supplicantC642.11 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.4
+Relationship: SPDXRef-Package-OpenSSLC643.5.4 DEPENDENCY_OF SPDXRef-Package-wpa_supplicantC642.11
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-wpa_supplicantC642.11
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.4

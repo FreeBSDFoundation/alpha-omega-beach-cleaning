@@ -4,3 +4,4 @@ URL: https://ftp.sendmail.org
 Version: 8.18.1
 License: Sendmail
 Source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+Requires: OpenSSL
