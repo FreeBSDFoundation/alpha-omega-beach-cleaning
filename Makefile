@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md format merge-versions $(OBJDIR)plan.md $(OBJDIR)security.md spdx
+TARGETS	= $(OBJDIR)dependencies.md format merge-versions $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -32,8 +32,8 @@ $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
 format:
 	go fmt src/cmd/aobc-generate/aobc-generate.go
 
-merge-versions:
-	(cd src/versions && $(MAKE) versions.yml) && yq database.yml src/versions/versions.yml
+merge-versions: versions.yml
+	(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
 
 $(OBJDIR)plan.md: $(OBJDIR)src/aobc-generate database.yml
 	$(OBJDIR)src/aobc-generate
@@ -43,6 +43,9 @@ $(OBJDIR)security.md: $(OBJDIR)src/aobc-generate database.yml
 
 spdx: dependencies.md security.md tools/spdx.sh
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
+
+$(OBJDIR)versions.yml: all
+	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zstd; ./ldns; ./libpcap; ./dma; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./liblzma; ./libxo; ./file; ./ncurses; ./sqlite; ./zlib; ./awk; ./bc; ./diff; ./less; ./patch; ./pkg; ./kyua) > versions.yml
 
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -57,7 +60,7 @@ distclean:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
 	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
-	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
+	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)versions.yml
 
 dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
