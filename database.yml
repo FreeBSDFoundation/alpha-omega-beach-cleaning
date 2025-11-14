@@ -115,6 +115,7 @@ Sections:
         - runtime
       - depends:
         - libcxxrt
+        - ncurses
       - plan: fix
     unifdef:
       - description: Selectively remove C preprocessor conditionals
@@ -778,6 +779,8 @@ Sections:
       - license: BSD-2-Clause
       - security:
         - user
+      - depends:
+        - ncurses
       - plan: fork
     hyperv:
       - description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
@@ -797,6 +800,8 @@ Sections:
       - source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
       - security:
         - user
+      - depends:
+        - ncurses
       - plan: fix
     Lua:
       - description: Embeddable scripting language
