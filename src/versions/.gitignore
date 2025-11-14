@@ -25,6 +25,7 @@
 /llvm
 /mkuzip
 /ncurses
+/ntp
 /openssh
 /openssl
 /patch
