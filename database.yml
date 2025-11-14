@@ -543,7 +543,7 @@ Sections:
       - homepage: https://invisible-island.net/dialog/
       - security:
         - user
-      - plan: fix
+      - plan: forego
     libdiff:
       - directory: contrib/libdiff
       - upstream: Game of Trees
