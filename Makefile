@@ -45,7 +45,7 @@ spdx: dependencies.md security.md tools/spdx.sh
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
 
 $(OBJDIR)versions.yml: all
-	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zstd; ./ldns; ./libpcap; ./dma; ./openssh; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./liblzma; ./libxo; ./file; ./ncurses; ./sqlite; ./zlib; ./awk; ./bc; ./diff; ./less; ./patch; ./pkg; ./kyua) > versions.yml
+	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zstd; ./ldns; ./libpcap; ./dma; ./ntp; ./openssh; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./liblzma; ./libxo; ./file; ./ncurses; ./sqlite; ./zlib; ./awk; ./bc; ./diff; ./less; ./patch; ./pkg; ./kyua) > versions.yml
 
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -100,6 +100,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/llvm.c \
 		$(PACKAGE)-$(VERSION)/src/versions/mkuzip.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ncurses.c \
+		$(PACKAGE)-$(VERSION)/src/versions/ntp.c \
 		$(PACKAGE)-$(VERSION)/src/versions/openssh.c \
 		$(PACKAGE)-$(VERSION)/src/versions/openssl.c \
 		$(PACKAGE)-$(VERSION)/src/versions/patch.c \
