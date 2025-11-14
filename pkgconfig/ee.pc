@@ -2,3 +2,4 @@ Name: ee
 Description: Easy Editor
 Version: 1.5.0
 License: BSD-2-Clause
+Requires: ncurses

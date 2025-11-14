@@ -30,9 +30,24 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
 
 
+##### Package: ncurses@6.5
+
+PackageName: ncurses@6.5
+SPDXID: SPDXRef-Package-ncursesC646.5
+PackageVersion: 6.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: X11
+PackageSummary: <text>clone of System V curses</text>
+
+
 Relationship: SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
 Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
+Relationship: SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncursesC646.5

@@ -48,7 +48,7 @@
 | libarchive | fix |
 | libbegemot | fix |
 | libcbor | fix |
-| libdialog | fix |
+| libdialog | forego |
 | libdiff | fork |
 | libedit | fix |
 | libevent | fix |

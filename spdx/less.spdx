@@ -18,4 +18,21 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Open-source file pager</text>
 
 
+##### Package: ncurses@6.5
+
+PackageName: ncurses@6.5
+SPDXID: SPDXRef-Package-ncursesC646.5
+PackageVersion: 6.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: X11
+PackageSummary: <text>clone of System V curses</text>
+
+
+Relationship: SPDXRef-Package-lessC64679 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-lessC64679
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-lessC64679
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncursesC646.5

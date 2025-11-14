@@ -17,4 +17,21 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Easy Editor</text>
 
 
+##### Package: ncurses@6.5
+
+PackageName: ncurses@6.5
+SPDXID: SPDXRef-Package-ncursesC646.5
+PackageVersion: 6.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: X11
+PackageSummary: <text>clone of System V curses</text>
+
+
+Relationship: SPDXRef-Package-eeC641.5.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-eeC641.5.0
+
+
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-eeC641.5.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncursesC646.5
