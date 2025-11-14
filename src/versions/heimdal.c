@@ -30,6 +30,6 @@ int main(void)
 	fclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	_report("System Libraries", progname, version);
+	_report("System Libraries", "Heimdal Kerberos", version);
 	return 0;
 }
