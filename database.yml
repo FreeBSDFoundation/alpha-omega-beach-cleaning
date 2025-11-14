@@ -313,6 +313,8 @@ Sections:
       - source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
       - security:
         - network
+      - depends:
+        - OpenSSL
       - plan: fix
     Unbound:
       - description: Validating, recursive, and caching DNS resolver
@@ -354,6 +356,8 @@ Sections:
       - security:
         - kernel
         - network
+      - depends:
+        - OpenSSL
       - plan: fix
   - Network Tools:
     lib9p:
@@ -831,6 +835,8 @@ Sections:
         - crypto
         - network
         - user
+      - depends:
+        - OpenSSL
       - plan: import
   - Test Infrastructure:
     ATF:
