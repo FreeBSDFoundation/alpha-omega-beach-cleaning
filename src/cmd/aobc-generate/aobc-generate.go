@@ -202,8 +202,8 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 								for _, entry := range v.Content[k+1].Content {
 									if entry.Kind == yaml.MappingNode {
 										for m := 0; m < len(entry.Content); m += 2 {
-											//special case: depends
-											if col.key == "depends" &&
+											//special cases: depends, owners
+											if (col.key == "depends" || col.key == "owners") &&
 												entry.Content[m].Value == col.key &&
 												entry.Content[m+1].Kind == yaml.SequenceNode {
 												var str []string
