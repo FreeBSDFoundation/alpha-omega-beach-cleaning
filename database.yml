@@ -139,6 +139,18 @@ Sections:
       - homepage: https://www.FreeBSD.org
       - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
       - source: https://cgit.freebsd.org/src/tree/lib/libc
+    lyaml:
+      - description: LibYAML binding for Lua
+      - directory: contrib/lyaml
+      - version: 6.2.8
+      - upstream: Gary V. Vaughan
+      - homepage: https://gvvaughan.github.io/lyaml/
+      - license: MIT
+      - source: https://github.com/gvvaughan/lyaml
+      - depends:
+        - Lua
+        - LibYAML
+      - plan: fix
     mkuzip:
       - description: Compress disk image for use with geom_uzip(4) class
       - directory: usr.bin
