@@ -34,6 +34,7 @@
 /sendmail
 /sqlite
 /tcpdump
+/tzdata
 /unbound
 /unifdef
 /wireguard
