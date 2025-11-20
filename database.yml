@@ -854,6 +854,8 @@ Sections:
       - source: https://github.com/FreeBSD/atf
       - security:
         - user
+      - depends:
+        - libcxxrt
       - plan: fork
     capsicum-test:
       - description: Practical capabilities for UNIX
