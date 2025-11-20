@@ -7,7 +7,7 @@
 | elftoolchain | build | 1 |
 | Git | build, crypto, network, user | 4 |
 | libcxxrt | runtime | 1 |
-| LLVM | build, runtime | 2 |
+| LLVM | build, runtime, user | 3 |
 | unifdef | build | 1 |
 | __Kernel__ | | |
 | acpi(4) | build, firmware, kernel | 3 |
