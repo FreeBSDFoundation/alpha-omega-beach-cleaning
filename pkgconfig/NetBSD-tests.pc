@@ -4,3 +4,4 @@ URL: https://www.NetBSD.org
 Version:
 License: BSD-2-Clause
 Source: https://cvsweb.netbsd.org/bsdweb.cgi/src/tests/
+Maintainer: ngie@

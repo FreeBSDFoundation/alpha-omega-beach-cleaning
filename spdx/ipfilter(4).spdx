@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-ipfilter(4)C645.1.2
 PackageVersion: 5.1.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@
 PackageHomePage: https://www.phildev.net/ipf/
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>IP Filter</text>

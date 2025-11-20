@@ -49,6 +49,7 @@ SPDXID: SPDXRef-Package-OpenSSLC643.5.4
 PackageVersion: 3.5.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: khorben@, ngie@
 PackageHomePage: https://openssl-library.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>

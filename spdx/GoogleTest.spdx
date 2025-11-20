@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-GoogleTestC641.15.2
 PackageVersion: 1.15.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: ngie@
 PackageHomePage: https://google.github.io/googletest/
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Google’s C++ testing and mocking framework</text>

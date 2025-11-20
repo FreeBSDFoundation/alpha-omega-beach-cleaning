@@ -4,3 +4,4 @@ URL: https://github.com/pjd/pjdfstest
 Version: 0.1
 License: BSD-2-Clause
 Source: https://github.com/pjd/pjdfstest/tree/0.1
+Maintainer: asomers@, ngie@, pjd@, #test

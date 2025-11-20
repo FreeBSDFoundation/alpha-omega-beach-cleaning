@@ -25,6 +25,7 @@ SPDXID: SPDXRef-Package-LuaC645.4.8
 PackageVersion: 5.4.8
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: kevans@
 PackageHomePage: https://www.lua.org
 PackageLicenseDeclared: MIT
 PackageSummary: <text>Embeddable scripting language</text>

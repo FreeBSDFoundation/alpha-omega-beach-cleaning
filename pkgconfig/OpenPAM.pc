@@ -4,3 +4,4 @@ URL: https://openpam.org
 Version: 20250531
 License: BSD-3-Clause
 Source: https://git.des.dev/OpenPAM/OpenPAM/src/commit/7a0660d699c4f82aa234524256b5b9f5a7cba786
+Maintainer: des@

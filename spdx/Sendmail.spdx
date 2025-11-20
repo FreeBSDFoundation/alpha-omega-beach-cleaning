@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-SendmailC648.18.1
 PackageVersion: 8.18.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: gshapiro@
 PackageHomePage: https://ftp.sendmail.org
 PackageLicenseDeclared: Sendmail
 PackageSummary: <text>General purpose internetwork email routing application</text>
@@ -25,6 +26,7 @@ SPDXID: SPDXRef-Package-OpenSSLC643.5.4
 PackageVersion: 3.5.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: khorben@, ngie@
 PackageHomePage: https://openssl-library.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>
