@@ -191,6 +191,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							values["title"] = v.Content[k].Value
 
 							filename = "pkgconfig/" + prefix + values["title"] + ".pc"
+							filename = strings.ReplaceAll(filename, " ", "-")
 
 							if ofile, err = os.Create(filename); err != nil {
 								return err
