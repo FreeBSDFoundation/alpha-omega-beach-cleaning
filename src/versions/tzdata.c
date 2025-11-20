@@ -23,8 +23,9 @@ int main(void)
 		if((p = strstr(buf, "# version ")) != NULL)
 		{
 			version = p + 10;
-			if((p = strchr(version, ' ')) != NULL)
-				*p = '\0';
+			buf[sizeof(buf) - 1] = '\n';
+			p = strchr(version, '\n');
+			*p = '\0';
 			break;
 		}
 	}
