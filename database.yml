@@ -11,7 +11,7 @@ PkgConfigColumns:
   - license: License
   - source: Source
   - depends: Requires
-  - owners: Maintainer
+  - owner: Maintainer
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -103,7 +103,7 @@ Sections:
       - security:
         - runtime
       - plan: fix
-      - owners:
+      - owner:
         - dim@
         - emaste@
     LLVM:
@@ -121,7 +121,7 @@ Sections:
         - libcxxrt
         - ncurses
       - plan: fix
-      - owners:
+      - owner:
         - dim@
         - emaste@
         - jhb@
@@ -191,7 +191,7 @@ Sections:
         - kernel
         - network
       - plan: fix
-      - owners: erj@
+      - owner: erj@
     ipfilter(4):
       - description: IP Filter
       - directory: sys/netpfil/ipfilter
@@ -202,7 +202,7 @@ Sections:
         - kernel
         - network
       - plan: fork
-      - owners: cy@
+      - owner: cy@
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
@@ -211,7 +211,7 @@ Sections:
         - kernel
         - network
       - plan: fork
-      - owners:
+      - owner:
         - glebius@
         - kp@
     umb(4):
@@ -329,7 +329,7 @@ Sections:
         - crypto
         - network
       - plan: fix
-      - owners: des@
+      - owner: des@
     Sendmail:
       - description: General purpose internetwork email routing application
       - directory: contrib/sendmail
@@ -343,7 +343,7 @@ Sections:
       - depends:
         - OpenSSL
       - plan: fix
-      - owners: gshapiro@
+      - owner: gshapiro@
     Unbound:
       - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
@@ -439,7 +439,7 @@ Sections:
         - network
         - user
       - plan: fix
-      - owners:
+      - owner:
         - khorben@
         - ngie@
   - System Libraries:
@@ -728,7 +728,7 @@ Sections:
         - system
         - user
       - plan: fix
-      - owners: des@
+      - owner: des@
     SQLite:
       - description: SQLite database engine
       - directory: contrib/sqlite3
@@ -848,7 +848,7 @@ Sections:
         - runtime
         - user
       - plan: fix
-      - owners: kevans@
+      - owner: kevans@
     patch:
       - directory: usr.bin/patch
       - version: 2.0-12u11
@@ -875,8 +875,7 @@ Sections:
       - depends:
         - OpenSSL
       - plan: import
-      - owners:
-        - "#pkg"
+      - owner: "#pkg"
   - Test Infrastructure:
     ATF:
       - description: Libraries to write tests in C, C++ and shell
@@ -891,7 +890,7 @@ Sections:
       - depends:
         - libcxxrt
       - plan: fork
-      - owners: ngie@
+      - owner: ngie@
     capsicum-test:
       - description: Practical capabilities for UNIX
       - directory: contrib/capsicum-test
@@ -913,7 +912,7 @@ Sections:
       - security:
         - user
       - plan: fix
-      - owners: ngie@
+      - owner: ngie@
     kyua:
       - description: Port/Package build and test system
       - directory: contrib/kyua
@@ -938,7 +937,7 @@ Sections:
       - security:
         - user
       - plan: fix
-      - owners: ngie@
+      - owner: ngie@
     pjdfstest:
       - description: File system test suite
       - directory: contrib/pjdfstest
@@ -950,7 +949,7 @@ Sections:
       - security:
         - user
       - plan: fix
-      - owners:
+      - owner:
         - asomers@
         - ngie@
         - pjd@
