@@ -117,6 +117,7 @@ Sections:
       - security:
         - build
         - runtime
+        - user
       - depends:
         - libcxxrt
         - ncurses
