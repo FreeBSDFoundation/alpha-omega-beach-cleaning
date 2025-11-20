@@ -11,6 +11,7 @@ PkgConfigColumns:
   - license: License
   - source: Source
   - depends: Requires
+  - owners: Maintainer
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -102,6 +103,9 @@ Sections:
       - security:
         - runtime
       - plan: fix
+      - owners:
+        - dim@
+        - emaste@
     LLVM:
       - description: Collection of modular and reusable compiler and toolchain technologies
       - directory: contrib/llvm-project
@@ -117,6 +121,10 @@ Sections:
         - libcxxrt
         - ncurses
       - plan: fix
+      - owners:
+        - dim@
+        - emaste@
+        - jhb@
     unifdef:
       - description: Selectively remove C preprocessor conditionals
       - directory: contrib/unifdef
@@ -183,6 +191,7 @@ Sections:
         - kernel
         - network
       - plan: fix
+      - owners: erj@
     ipfilter(4):
       - description: IP Filter
       - directory: sys/netpfil/ipfilter
@@ -193,6 +202,7 @@ Sections:
         - kernel
         - network
       - plan: fork
+      - owners: cy@
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
@@ -201,6 +211,9 @@ Sections:
         - kernel
         - network
       - plan: fork
+      - owners:
+        - glebius@
+        - kp@
     umb(4):
       - directory: sys/dev/usb/net
       - upstream: OpenBSD
@@ -316,6 +329,7 @@ Sections:
         - crypto
         - network
       - plan: fix
+      - owners: des@
     Sendmail:
       - description: General purpose internetwork email routing application
       - directory: contrib/sendmail
@@ -329,6 +343,7 @@ Sections:
       - depends:
         - OpenSSL
       - plan: fix
+      - owners: gshapiro@
     Unbound:
       - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
@@ -424,6 +439,9 @@ Sections:
         - network
         - user
       - plan: fix
+      - owners:
+        - khorben@
+        - ngie@
   - System Libraries:
     arm-optimized-routines:
       - description: Optimized implementations of various library functions for ARM architecture processors
@@ -710,6 +728,7 @@ Sections:
         - system
         - user
       - plan: fix
+      - owners: des@
     SQLite:
       - description: SQLite database engine
       - directory: contrib/sqlite3
@@ -829,6 +848,7 @@ Sections:
         - runtime
         - user
       - plan: fix
+      - owners: kevans@
     patch:
       - directory: usr.bin/patch
       - version: 2.0-12u11
@@ -855,6 +875,8 @@ Sections:
       - depends:
         - OpenSSL
       - plan: import
+      - owners:
+        - "#pkg"
   - Test Infrastructure:
     ATF:
       - description: Libraries to write tests in C, C++ and shell
@@ -869,6 +891,7 @@ Sections:
       - depends:
         - libcxxrt
       - plan: fork
+      - owners: ngie@
     capsicum-test:
       - description: Practical capabilities for UNIX
       - directory: contrib/capsicum-test
@@ -890,6 +913,7 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owners: ngie@
     kyua:
       - description: Port/Package build and test system
       - directory: contrib/kyua
@@ -914,6 +938,7 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owners: ngie@
     pjdfstest:
       - description: File system test suite
       - directory: contrib/pjdfstest
@@ -925,3 +950,8 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owners:
+        - asomers@
+        - ngie@
+        - pjd@
+        - "#test"
