@@ -619,7 +619,9 @@ Sections:
       - plan: fix
     libexpat:
       - description: XML 1.0 parser written in C
-      - directory: contrib/expat
+      - directory:
+        - contrib/expat
+        - lib/libexpat
       - version: 2.7.3
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
