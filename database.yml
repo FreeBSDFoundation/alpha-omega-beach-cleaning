@@ -546,7 +546,7 @@ Sections:
         - user
       - plan: fix
     libbegemot:
-      - directory: Begemot utility function library. It is needed to build most of the begemot tools
+      - description: Begemot utility function library. It is needed to build most of the begemot tools
       - directory: contrib/libbegemot
       - version: 1.14
       - upstream: Hartmut Brandt
