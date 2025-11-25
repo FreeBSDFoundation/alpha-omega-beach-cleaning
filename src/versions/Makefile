@@ -189,7 +189,7 @@ $(OBJDIR)libevent$(EXEEXT): $(libevent_OBJS)
 
 libexpat_OBJS = $(OBJDIR)libexpat.o
 libexpat_CFLAGS = $(CPPFLAGSF) $(CPPFLAGS) $(CFLAGSF) $(CFLAGS)
-libexpat_LDFLAGS = $(LDFLAGSF) $(LDFLAGS)
+libexpat_LDFLAGS = $(LDFLAGSF) $(LDFLAGS) -lbsdxml
 
 $(OBJDIR)libexpat$(EXEEXT): $(libexpat_OBJS)
 	$(CC) -o $(OBJDIR)libexpat$(EXEEXT) $(libexpat_OBJS) $(libexpat_LDFLAGS)
