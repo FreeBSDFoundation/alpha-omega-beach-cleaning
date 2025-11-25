@@ -26,20 +26,20 @@ subdirs:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/"; \
 		else $(MAKE); fi) || exit; done
 
-$(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-generate database.yml
-	$(OBJDIR)src/aobc-generate
+$(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-tool database.yml
+	$(OBJDIR)src/aobc-tool generate
 
 format:
-	go fmt src/cmd/aobc-generate/aobc-generate.go
+	go fmt src/cmd/aobc-tool/aobc-tool.go
 
 merge-versions: versions.yml
 	(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
 
-$(OBJDIR)plan.md: $(OBJDIR)src/aobc-generate database.yml
-	$(OBJDIR)src/aobc-generate
+$(OBJDIR)plan.md: $(OBJDIR)src/aobc-tool database.yml
+	$(OBJDIR)src/aobc-tool generate
 
-$(OBJDIR)security.md: $(OBJDIR)src/aobc-generate database.yml
-	$(OBJDIR)src/aobc-generate
+$(OBJDIR)security.md: $(OBJDIR)src/aobc-tool database.yml
+	$(OBJDIR)src/aobc-tool generate
 
 spdx: dependencies.md security.md tools/spdx.sh
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
@@ -66,7 +66,7 @@ dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
 	$(LN) -s -- "$$PWD" $(OBJDIR)$(PACKAGE)-$(VERSION)
 	@cd $(OBJDIR). && $(TAR) -czvf $(PACKAGE)-$(VERSION)$(TGZEXT) -- \
-		$(PACKAGE)-$(VERSION)/src/cmd/aobc-generate/aobc-generate.go \
+		$(PACKAGE)-$(VERSION)/src/cmd/aobc-tool/aobc-tool.go \
 		$(PACKAGE)-$(VERSION)/src/Makefile \
 		$(PACKAGE)-$(VERSION)/src/go.mod \
 		$(PACKAGE)-$(VERSION)/src/go.sum \

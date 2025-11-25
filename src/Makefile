@@ -1,5 +1,5 @@
 SUBDIRS	= versions
-TARGETS	= $(OBJDIR)aobc-generate$(EXEEXT)
+TARGETS	= $(OBJDIR)aobc-tool$(EXEEXT)
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -24,25 +24,25 @@ subdirs:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/"; \
 		else $(MAKE); fi) || exit; done
 
-aobc-generate_OBJS =
-aobc-generate_GOFLAGS = $(GOFLAGSF) $(GOFLAGS)
+aobc-tool_OBJS =
+aobc-tool_GOFLAGS = $(GOFLAGSF) $(GOFLAGS)
 
-$(OBJDIR)aobc-generate$(EXEEXT): cmd/aobc-generate/aobc-generate.go
-	$(GO) build $(aobc-generate_GOFLAGS) -o $(OBJDIR)aobc-generate$(EXEEXT) cmd/aobc-generate/aobc-generate.go
+$(OBJDIR)aobc-tool$(EXEEXT): cmd/aobc-tool/aobc-tool.go
+	$(GO) build $(aobc-tool_GOFLAGS) -o $(OBJDIR)aobc-tool$(EXEEXT) cmd/aobc-tool/aobc-tool.go
 
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" clean; \
 		else $(MAKE) clean; fi) || exit; done
-	$(RM) -- $(aobc-generate_OBJS)
+	$(RM) -- $(aobc-tool_OBJS)
 
 distclean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
-	$(RM) -- $(aobc-generate_OBJS)
+	$(RM) -- $(aobc-tool_OBJS)
 	$(RM) -- $(TARGETS)
 
 install: all
