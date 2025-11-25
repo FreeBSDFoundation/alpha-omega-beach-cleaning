@@ -255,6 +255,7 @@ Sections:
     bsnmp:
       - description: mini SNMP daemon
       - directory: contrib/bsnmp
+      - version: 1.14
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/bsnmp/
       - license: BSD-2-Clause
