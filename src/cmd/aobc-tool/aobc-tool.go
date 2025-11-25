@@ -28,10 +28,116 @@ const (
 	databaseFilename     string = "database.yml"
 	dependenciesFilename string = "dependencies.md"
 	planFilename         string = "plan.md"
-	progname             string = "aobc-generate"
+	progname             string = "aobc-tool"
 	sectionIgnore        string = "Internal"
 	securityFilename     string = "security.md"
 )
+
+func aobcBlame(path []string) error {
+	var err error
+	var root yaml.Node
+
+	data, err := ioutil.ReadFile(databaseFilename)
+	if err != nil {
+		return err
+	}
+
+	dec := yaml.NewDecoder(bytes.NewReader(data))
+	dec.KnownFields(false)
+	if err = dec.Decode(&root); err != nil {
+		return err
+	}
+
+	for _, p := range path {
+		if e := aobcBlamePath(dec, root, p); e != nil {
+			fmt.Fprintf(os.Stderr, "%s: %s\n", progname, e)
+		}
+	}
+	return nil
+}
+
+func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
+	var err error
+
+	top := root.Content[0]
+
+	//obtain the columns
+	columns := [2]tuple{
+		{ "owner", "Owner" },
+		{ "directory", "Directory" },
+	}
+
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "Sections" {
+				continue
+			}
+			section := top.Content[i+1]
+			for _, v := range section.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						if v.Content[k+1].Kind == yaml.ScalarNode {
+							//new section
+							if v.Content[k].Value == sectionIgnore {
+								break
+							}
+						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+							var owners, directories []string
+							var values map[string]string
+
+							//new entry
+							values = make(map[string]string)
+							//XXX hard-coded
+							values["title"] = v.Content[k].Value
+
+							//collect the owners and paths
+							for _, col := range columns {
+								for _, entry := range v.Content[k+1].Content {
+									if entry.Kind == yaml.MappingNode {
+										for m := 0; m < len(entry.Content); m += 2 {
+											if col.key == "owner" &&
+												entry.Content[m].Value == col.key {
+												if entry.Content[m+1].Kind == yaml.SequenceNode {
+													for _, w := range entry.Content[m+1].Content {
+														owners = append(owners, w.Value)
+													}
+												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+													owners = append(owners, entry.Content[m+1].Value)
+												}
+										} else if col.key == "directory" &&
+												entry.Content[m].Value == col.key {
+												if entry.Content[m+1].Kind == yaml.SequenceNode {
+													for _, w := range entry.Content[m+1].Content {
+														directories = append(directories, w.Value)
+													}
+												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+													directories = append(directories, entry.Content[m+1].Value)
+												}
+											}
+										}
+									}
+								}
+							}
+							for _, v := range directories {
+								if matched := strings.HasPrefix(path + "/", v + "/"); matched {
+									fmt.Printf("Owner(s) for %s: (%s in %s)\n", values["title"], path, v)
+									for _, v := range owners {
+										fmt.Printf("- %s\n", v)
+									}
+									return nil
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	err = fmt.Errorf("%s: no owner found", path)
+	return err
+}
 
 func aobcGenerate() error {
 	var err error
@@ -416,6 +522,10 @@ func databaseGetColumns(root yaml.Node, label string) []tuple {
 	return columns
 }
 
+func init() {
+	flag.Usage = func() { usage() }
+}
+
 func reportHeader(ofile *os.File, columns []tuple) {
 	for _, title := range columns {
 		fmt.Fprintf(ofile, "| %s ", textEscape(title.value))
@@ -444,7 +554,9 @@ func textEscape(text string) string {
 }
 
 func usage() int {
-	fmt.Fprintf(os.Stderr, `Usage: %s`, progname)
+	fmt.Fprintf(os.Stderr, `Usage: %s generate
+       %s blame path...
+`, progname, progname)
 	return 1
 }
 
@@ -452,13 +564,32 @@ func main() {
 	var err error
 
 	flag.Parse()
-	if len(flag.Args()) != 0 {
+	if len(flag.Args()) < 1 {
 		os.Exit(usage())
 	}
 
-	if err = aobcGenerate(); err != nil {
-		fmt.Fprintf(os.Stderr, "%s: %s\n", progname, err)
-		os.Exit(2)
+	switch flag.Arg(0) {
+	case "generate":
+		if len(flag.Args()) != 1 {
+			os.Exit(usage())
+		}
+		if err = aobcGenerate(); err != nil {
+			fmt.Fprintf(os.Stderr, "%s: %s\n", progname, err)
+			os.Exit(2)
+		}
+	case "blame":
+		if len(flag.Args()) < 2 {
+			os.Exit(usage())
+		}
+		a := flag.Args()
+		if err = aobcBlame(a[1:]); err != nil {
+			fmt.Fprintf(os.Stderr, "%s: %s\n", progname, err)
+			os.Exit(2)
+		}
+	default:
+		if len(flag.Args()) < 1 {
+			os.Exit(usage())
+		}
 	}
 
 	os.Exit(0)
