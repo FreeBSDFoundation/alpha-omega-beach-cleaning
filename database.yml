@@ -547,6 +547,7 @@ Sections:
     libbegemot:
       - directory: Begemot utility function library. It is needed to build most of the begemot tools
       - directory: contrib/libbegemot
+      - version: 1.14
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/libbegemot/
       - license: BSD-2-Clause
