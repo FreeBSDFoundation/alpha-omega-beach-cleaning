@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -17,7 +17,7 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 
 
-all: subdirs $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
+all: subdirs $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
 
 subdirs:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -25,6 +25,9 @@ subdirs:
 		([ -d "$(OBJDIR)$$i" ] || $(MKDIR) -- "$(OBJDIR)$$i") && \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/"; \
 		else $(MAKE); fi) || exit; done
+
+$(OBJDIR)CODEOWNERS: $(OBJDIR)src/aobc-tool database.yml
+	$(OBJDIR)src/aobc-tool generate codeowners
 
 $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-tool database.yml
 	$(OBJDIR)src/aobc-tool generate dependencies
@@ -63,7 +66,7 @@ distclean:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
 	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
-	$(RM) -- $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)versions.yml
+	$(RM) -- $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)versions.yml
 
 dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
