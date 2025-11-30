@@ -139,7 +139,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 	return err
 }
 
-func aobcGenerate() error {
+func aobcGenerate(reports[] string) error {
 	var err error
 	var root yaml.Node
 
@@ -160,17 +160,29 @@ func aobcGenerate() error {
 		return err
 	}
 
-	err = aobcGenerateDependencies(dec, root)
-	if err == nil {
-		err = aobcGeneratePlan(dec, root)
+	for _, r := range reports {
+		switch r {
+		case "dependencies":
+			err = aobcGenerateDependencies(dec, root)
+		case "pkgconfig":
+			err = aobcGeneratePkgConfig(dec, root)
+		case "plan":
+			err = aobcGeneratePlan(dec, root)
+		case "securityreview":
+			err = aobcGenerateSecurityReview(dec, root)
+		}
+		if err != nil {
+			break
+		}
 	}
-	if err == nil {
-		err = aobcGenerateSecurityReview(dec, root)
-	}
-	if err == nil {
-		err = aobcGeneratePkgConfig(dec, root)
-	}
+
 	return err
+}
+
+func aobcGenerateAll() error {
+	reports := []string{"dependencies", "plan", "securityreview", "pkgconfig" }
+
+	return aobcGenerate(reports)
 }
 
 func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
@@ -554,7 +566,7 @@ func textEscape(text string) string {
 }
 
 func usage() int {
-	fmt.Fprintf(os.Stderr, `Usage: %s generate
+	fmt.Fprintf(os.Stderr, `Usage: %s generate [report]
        %s blame path...
 `, progname, progname)
 	return 1
@@ -570,10 +582,14 @@ func main() {
 
 	switch flag.Arg(0) {
 	case "generate":
-		if len(flag.Args()) != 1 {
+		if len(flag.Args()) == 2 {
+			err = aobcGenerate(flag.Args())
+		} else if len(flag.Args()) == 1 {
+			err = aobcGenerateAll()
+		} else {
 			os.Exit(usage())
 		}
-		if err = aobcGenerate(); err != nil {
+		if err != nil {
 			fmt.Fprintf(os.Stderr, "%s: %s\n", progname, err)
 			os.Exit(2)
 		}

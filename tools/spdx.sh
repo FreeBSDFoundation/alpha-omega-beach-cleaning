@@ -7,15 +7,21 @@
 
 
 BOMTOOL="bomtool"
+DEBUG="_debug"
 FIND="find"
 MKDIR="mkdir -p"
 RM="rm -f"
 
-$MKDIR spdx &&
+_debug() {
+	echo "$@" 1>&2
+	"$@"
+}
+
+$DEBUG $MKDIR spdx &&
 	cd spdx &&
-	$FIND ../pkgconfig -type f -a -name '*.pc' -print | while read filename; do
+	$DEBUG $FIND ../pkgconfig -type f -a -name '*.pc' -print | while read filename; do
 	pkgconfig=${filename#../pkgconfig/}
 	pkgconfig=${pkgconfig%.pc}
 	spdx="$pkgconfig.spdx"
-	PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $BOMTOOL -- "$pkgconfig" > "$spdx" || $RM -- "$spdx"
+	PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx" || $RM -- "$spdx"
 done
