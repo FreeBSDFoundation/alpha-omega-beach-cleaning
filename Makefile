@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)dependencies.md format merge-versions $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -27,7 +27,7 @@ subdirs:
 		else $(MAKE); fi) || exit; done
 
 $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-tool database.yml
-	$(OBJDIR)src/aobc-tool generate
+	$(OBJDIR)src/aobc-tool generate dependencies
 
 format:
 	go fmt src/cmd/aobc-tool/aobc-tool.go
@@ -35,13 +35,16 @@ format:
 merge-versions: versions.yml
 	(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
 
+pkgconfig: $(OBJDIR)src/aobc-tool database.yml
+	$(OBJDIR)src/aobc-tool generate pkgconfig
+
 $(OBJDIR)plan.md: $(OBJDIR)src/aobc-tool database.yml
-	$(OBJDIR)src/aobc-tool generate
+	$(OBJDIR)src/aobc-tool generate plan
 
 $(OBJDIR)security.md: $(OBJDIR)src/aobc-tool database.yml
-	$(OBJDIR)src/aobc-tool generate
+	$(OBJDIR)src/aobc-tool generate securityreview
 
-spdx: dependencies.md security.md tools/spdx.sh
+spdx: tools/spdx.sh pkgconfig
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
 
 $(OBJDIR)versions.yml: all
@@ -158,4 +161,4 @@ uninstall:
 		else $(MAKE) uninstall; fi) || exit; done
 	$(RM) -- $(DESTDIR)$(PREFIX)/share/doc/$(PACKAGE)/README.md
 
-.PHONY: all subdirs clean distclean dist distcheck install uninstall format merge-versions spdx
+.PHONY: all subdirs clean distclean dist distcheck install uninstall format merge-versions pkgconfig spdx
