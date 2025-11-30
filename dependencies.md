@@ -53,7 +53,7 @@
 | libedit | `contrib/libedit` | NetBSD | https://www.NetBSD.org |
 | libevent | `contrib/libevent` | libevent | https://libevent.org |
 | libexecinfo | `contrib/libexecinfo` | Maxim Sobolev | https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/ |
-| libexpat | `contrib/expat` | expat | https://github.com/libexpat/libexpat |
+| libexpat | `contrib/expat`, `lib/libexpat` | expat | https://github.com/libexpat/libexpat |
 | libfido2 | `contrib/libfido2` | Yubico | https://github.com/Yubico/libfido2 |
 | liblzma | `contrib/xz` | Tukaani | https://tukaani.org/xz/ |
 | libmagic (file) | `contrib/file` | Ian Darwin | https://www.darwinsys.com/file/ |
