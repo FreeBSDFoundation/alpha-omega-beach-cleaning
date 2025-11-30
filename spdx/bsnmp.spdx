@@ -1,16 +1,16 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-bsnmpC64
+DocumentName: SBOM-SPDX-bsnmpC641.14
 DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
 Creator: Tool: bomtool 2.4.3
 
 
-##### Package: bsnmp@
+##### Package: bsnmp@1.14
 
-PackageName: bsnmp@
-SPDXID: SPDXRef-Package-bsnmpC64
-PackageVersion: 
+PackageName: bsnmp@1.14
+SPDXID: SPDXRef-Package-bsnmpC641.14
+PackageVersion: 1.14
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://people.freebsd.org/~harti/bsnmp/
@@ -18,4 +18,4 @@ PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>mini SNMP daemon</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bsnmpC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bsnmpC641.14
