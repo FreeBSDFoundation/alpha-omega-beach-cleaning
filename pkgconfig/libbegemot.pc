@@ -1,5 +1,5 @@
 Name: libbegemot
-Description:
+Description: Begemot utility function library. It is needed to build most of the begemot tools
 URL: https://people.freebsd.org/~harti/libbegemot/
-Version:
+Version: 1.14
 License: BSD-2-Clause

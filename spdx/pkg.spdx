@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-pkgC642.3.1
 PackageVersion: 2.3.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: 
 PackageHomePage: https://github.com/FreeBSD/pkg
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
@@ -25,6 +26,7 @@ SPDXID: SPDXRef-Package-OpenSSLC643.5.4
 PackageVersion: 3.5.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: khorben@, ngie@
 PackageHomePage: https://openssl-library.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>

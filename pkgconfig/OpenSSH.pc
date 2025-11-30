@@ -4,3 +4,4 @@ URL: https://openssh.com
 Version: 10.0p2
 License: SSH-OpenSSH
 Source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+Maintainer: des@

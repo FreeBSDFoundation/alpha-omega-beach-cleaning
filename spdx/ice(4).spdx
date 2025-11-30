@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-ice(4)C641.3.41.0
 PackageVersion: 1.3.41.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: erj@
 PackageHomePage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).</text>

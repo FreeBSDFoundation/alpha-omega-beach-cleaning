@@ -4,3 +4,4 @@ URL: https://google.github.io/googletest/
 Version: 1.15.2
 License: BSD-3-Clause
 Source: https://github.com/google/googletest/releases/tag/v1.15.2
+Maintainer: ngie@

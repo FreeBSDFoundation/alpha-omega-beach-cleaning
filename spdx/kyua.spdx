@@ -25,6 +25,7 @@ SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
 PackageVersion: 6f2fdfebcd62
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: dim@, emaste@
 PackageHomePage: https://github.com/libcxxrt/libcxxrt
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
@@ -37,6 +38,7 @@ SPDXID: SPDXRef-Package-LuaC645.4.8
 PackageVersion: 5.4.8
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: kevans@
 PackageHomePage: https://www.lua.org
 PackageLicenseDeclared: MIT
 PackageSummary: <text>Embeddable scripting language</text>

@@ -11,6 +11,7 @@ PkgConfigColumns:
   - license: License
   - source: Source
   - depends: Requires
+  - owner: Maintainer
 PlanColumns:
   - title: Component
   - plan: Plan
@@ -102,6 +103,9 @@ Sections:
       - security:
         - runtime
       - plan: fix
+      - owner:
+        - dim@
+        - emaste@
     LLVM:
       - description: Collection of modular and reusable compiler and toolchain technologies
       - directory: contrib/llvm-project
@@ -113,10 +117,15 @@ Sections:
       - security:
         - build
         - runtime
+        - user
       - depends:
         - libcxxrt
         - ncurses
       - plan: fix
+      - owner:
+        - dim@
+        - emaste@
+        - jhb@
     unifdef:
       - description: Selectively remove C preprocessor conditionals
       - directory: contrib/unifdef
@@ -139,6 +148,18 @@ Sections:
       - homepage: https://www.FreeBSD.org
       - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
       - source: https://cgit.freebsd.org/src/tree/lib/libc
+    lyaml:
+      - description: LibYAML binding for Lua
+      - directory: contrib/lyaml
+      - version: 6.2.8
+      - upstream: Gary V. Vaughan
+      - homepage: https://gvvaughan.github.io/lyaml/
+      - license: MIT
+      - source: https://github.com/gvvaughan/lyaml
+      - depends:
+        - Lua
+        - LibYAML
+      - plan: fix
     mkuzip:
       - description: Compress disk image for use with geom_uzip(4) class
       - directory: usr.bin
@@ -171,6 +192,7 @@ Sections:
         - kernel
         - network
       - plan: fix
+      - owner: erj@
     ipfilter(4):
       - description: IP Filter
       - directory: sys/netpfil/ipfilter
@@ -181,6 +203,7 @@ Sections:
         - kernel
         - network
       - plan: fork
+      - owner: cy@
     pf(4):
       - directory: sys/netpfil/pf
       - upstream: OpenBSD
@@ -189,6 +212,9 @@ Sections:
         - kernel
         - network
       - plan: fork
+      - owner:
+        - glebius@
+        - kp@
     umb(4):
       - directory: sys/dev/usb/net
       - upstream: OpenBSD
@@ -229,6 +255,7 @@ Sections:
     bsnmp:
       - description: mini SNMP daemon
       - directory: contrib/bsnmp
+      - version: 1.14
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/bsnmp/
       - license: BSD-2-Clause
@@ -304,6 +331,7 @@ Sections:
         - crypto
         - network
       - plan: fix
+      - owner: des@
     Sendmail:
       - description: General purpose internetwork email routing application
       - directory: contrib/sendmail
@@ -317,6 +345,7 @@ Sections:
       - depends:
         - OpenSSL
       - plan: fix
+      - owner: gshapiro@
     Unbound:
       - description: Validating, recursive, and caching DNS resolver
       - directory: contrib/unbound
@@ -412,6 +441,9 @@ Sections:
         - network
         - user
       - plan: fix
+      - owner:
+        - khorben@
+        - ngie@
   - System Libraries:
     arm-optimized-routines:
       - description: Optimized implementations of various library functions for ARM architecture processors
@@ -514,8 +546,9 @@ Sections:
         - user
       - plan: fix
     libbegemot:
-      - directory: Begemot utility function library. It is needed to build most of the begemot tools
+      - description: Begemot utility function library. It is needed to build most of the begemot tools
       - directory: contrib/libbegemot
+      - version: 1.14
       - upstream: Hartmut Brandt
       - homepage: https://people.freebsd.org/~harti/libbegemot/
       - license: BSD-2-Clause
@@ -586,7 +619,9 @@ Sections:
       - plan: fix
     libexpat:
       - description: XML 1.0 parser written in C
-      - directory: contrib/expat
+      - directory:
+        - contrib/expat
+        - lib/libexpat
       - version: 2.7.3
       - upstream: expat
       - homepage: https://github.com/libexpat/libexpat
@@ -688,7 +723,7 @@ Sections:
     OpenPAM:
       - description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
       - directory: contrib/openpam
-      - version: Zingiber
+      - version: 20250531
       - upstream: Dag-Erling Smørgrav
       - homepage: https://openpam.org
       - license: BSD-3-Clause
@@ -698,6 +733,7 @@ Sections:
         - system
         - user
       - plan: fix
+      - owner: des@
     SQLite:
       - description: SQLite database engine
       - directory: contrib/sqlite3
@@ -817,6 +853,7 @@ Sections:
         - runtime
         - user
       - plan: fix
+      - owner: kevans@
     patch:
       - directory: usr.bin/patch
       - version: 2.0-12u11
@@ -843,6 +880,7 @@ Sections:
       - depends:
         - OpenSSL
       - plan: import
+      - owner: "#pkg"
   - Test Infrastructure:
     ATF:
       - description: Libraries to write tests in C, C++ and shell
@@ -854,7 +892,10 @@ Sections:
       - source: https://github.com/FreeBSD/atf
       - security:
         - user
+      - depends:
+        - libcxxrt
       - plan: fork
+      - owner: ngie@
     capsicum-test:
       - description: Practical capabilities for UNIX
       - directory: contrib/capsicum-test
@@ -876,6 +917,7 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owner: ngie@
     kyua:
       - description: Port/Package build and test system
       - directory: contrib/kyua
@@ -900,6 +942,7 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owner: ngie@
     pjdfstest:
       - description: File system test suite
       - directory: contrib/pjdfstest
@@ -911,3 +954,8 @@ Sections:
       - security:
         - user
       - plan: fix
+      - owner:
+        - asomers@
+        - ngie@
+        - pjd@
+        - "#test"

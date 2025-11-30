@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-LLVMC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
 PackageVersion: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: dim@, emaste@, jhb@
 PackageHomePage: https://llvm.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>Collection of modular and reusable compiler and toolchain technologies</text>
@@ -25,6 +26,7 @@ SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
 PackageVersion: 6f2fdfebcd62
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: dim@, emaste@
 PackageHomePage: https://github.com/libcxxrt/libcxxrt
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>

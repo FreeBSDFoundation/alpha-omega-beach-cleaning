@@ -1,2 +1,4 @@
+*.o
 *.swo
 *.swp
+/versions.yml
