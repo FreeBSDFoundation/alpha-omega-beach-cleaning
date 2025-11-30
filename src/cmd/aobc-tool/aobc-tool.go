@@ -25,6 +25,7 @@ type tuple struct {
 }
 
 const (
+	codeownersFilename   string = "CODEOWNERS"
 	databaseFilename     string = "database.yml"
 	dependenciesFilename string = "dependencies.md"
 	planFilename         string = "plan.md"
@@ -162,6 +163,8 @@ func aobcGenerate(reports[] string) error {
 
 	for _, r := range reports {
 		switch r {
+		case "codeowners":
+			err = aobcGenerateCodeOwners(dec, root)
 		case "dependencies":
 			err = aobcGenerateDependencies(dec, root)
 		case "pkgconfig":
@@ -180,9 +183,101 @@ func aobcGenerate(reports[] string) error {
 }
 
 func aobcGenerateAll() error {
-	reports := []string{"dependencies", "plan", "securityreview", "pkgconfig" }
+	reports := []string{"codeowners", "dependencies", "plan", "securityreview", "pkgconfig" }
 
 	return aobcGenerate(reports)
+}
+
+func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
+	var err error
+	var ofile *os.File
+
+	if ofile, err = os.Create(codeownersFilename); err != nil {
+		return err
+	}
+	defer ofile.Close()
+
+	top := root.Content[0]
+
+	//obtain the columns
+	columns := [2]tuple{
+		{ "owner", "Owner" },
+		{ "directory", "Directory" },
+	}
+
+	switch top.Kind {
+	case yaml.MappingNode:
+		for i := 0; i < len(top.Content); i += 2 {
+			if top.Content[i].Value != "Sections" {
+				continue
+			}
+			section := top.Content[i+1]
+			for _, v := range section.Content {
+				if v.Kind == yaml.MappingNode {
+					for k := 0; k < len(v.Content); k += 2 {
+						if v.Content[k+1].Kind == yaml.ScalarNode {
+							//new section
+							if v.Content[k].Value == sectionIgnore {
+								break
+							}
+						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+							var owners, directories []string
+							var values map[string]string
+
+							//new entry
+							values = make(map[string]string)
+							//XXX hard-coded
+							values["title"] = v.Content[k].Value
+
+							//collect the owners and paths
+							for _, col := range columns {
+								for _, entry := range v.Content[k+1].Content {
+									if entry.Kind == yaml.MappingNode {
+										for m := 0; m < len(entry.Content); m += 2 {
+											if col.key == "owner" &&
+												entry.Content[m].Value == col.key {
+												if entry.Content[m+1].Kind == yaml.SequenceNode {
+													for _, w := range entry.Content[m+1].Content {
+														owners = append(owners, w.Value)
+													}
+												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+													owners = append(owners, entry.Content[m+1].Value)
+												}
+										} else if col.key == "directory" &&
+												entry.Content[m].Value == col.key {
+												if entry.Content[m+1].Kind == yaml.SequenceNode {
+													for _, w := range entry.Content[m+1].Content {
+														directories = append(directories, w.Value)
+													}
+												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+													directories = append(directories, entry.Content[m+1].Value)
+												}
+											}
+										}
+									}
+								}
+							}
+							fmt.Fprintf(ofile, "# %s\n", values["title"])
+							for _, v := range directories {
+								fmt.Fprintf(ofile, "/%s", v)
+								for _, v := range owners {
+									if v[0] == '#' {
+										fmt.Fprintf(ofile, " @FreeBSD/%s", v[1:])
+									} else {
+										fmt.Fprintf(ofile, " %sFreeBSD.org", v)
+									}
+								}
+								fmt.Fprintf(ofile, "\n")
+							}
+							fmt.Fprintf(ofile, "\n")
+						}
+					}
+				}
+			}
+		}
+	}
+
+	return err
 }
 
 func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {

@@ -1,0 +1,225 @@
+# bmake
+/contrib/bmake
+
+# byacc
+/contrib/byacc
+
+# dtc
+/usr.bin/dtc
+
+# elftoolchain
+/contrib/elftoolchain
+
+# Git
+
+# libcxxrt
+/contrib/libcxxrt dim@FreeBSD.org emaste@FreeBSD.org
+
+# LLVM
+/contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
+
+# unifdef
+/contrib/unifdef
+
+# acpi(4)
+/sys/contrib/dev/acpica
+
+# ice(4)
+/sys/contrib/dev/ice erj@FreeBSD.org
+
+# ipfilter(4)
+/sys/netpfil/ipfilter cy@FreeBSD.org
+
+# pf(4)
+/sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
+
+# umb(4)
+/sys/dev/usb/net
+
+# ZFS
+/sys/contrib/openzfs
+/cddl
+
+# zstd
+/sys/contrib/zstd
+
+# bsnmp
+/contrib/bsnmp
+
+# ldns
+/contrib/ldns
+
+# libpcap
+/contrib/libpcap
+
+# blocklist
+/contrib/blocklist
+
+# dma
+/contrib/dma
+
+# NTP
+/contrib/ntp
+
+# OpenSSH
+/crypto/openssh des@FreeBSD.org
+
+# Sendmail
+/contrib/sendmail gshapiro@FreeBSD.org
+
+# Unbound
+/contrib/unbound
+
+# WireGuard
+/contrib/wireguard-tools
+
+# wpa_supplicant
+/contrib/wpa
+
+# lib9p
+/contrib/lib9p
+
+# tcpdump
+/contrib/tcpdump
+
+# BearSSL
+/contrib/bearssl
+
+# OpenSSL
+/crypto/openssl khorben@FreeBSD.org ngie@FreeBSD.org
+
+# arm-optimized-routines
+/contrib/arm-optimized-routines
+
+# bionic-x86_64-string
+/contrib/bionic-x86_64-string
+
+# bsddialog
+/contrib/bsddialog
+
+# bzip2
+/contrib/bzip2
+
+# flex
+/contrib/flex
+
+# gdtoa
+/contrib/gdtoa
+
+# Heimdal Kerberos
+/crypto/heimdal
+/contrib/com_err
+
+# jemalloc
+/contrib/jemalloc
+
+# libarchive
+/contrib/libarchive
+
+# libbegemot
+/contrib/libbegemot
+
+# libcbor
+/contrib/libcbor
+
+# libdialog
+/contrib/libdialog
+
+# libdiff
+/contrib/libdiff
+
+# libedit
+/contrib/libedit
+
+# libevent
+/contrib/libevent
+
+# libexecinfo
+/contrib/libexecinfo
+
+# libexpat
+/contrib/expat
+/lib/libexpat
+
+# libfido2
+/contrib/libfido2
+
+# liblzma
+/contrib/xz
+
+# libmagic (file)
+/contrib/file
+
+# libucl
+/contrib/libucl
+
+# libxo
+/contrib/libxo
+
+# LibYAML
+/contrib/libyaml
+
+# mandoc
+/contrib/mandoc
+
+# ncurses
+/contrib/ncurses
+
+# OpenPAM
+/contrib/openpam des@FreeBSD.org
+
+# SQLite
+/contrib/sqlite3
+
+# Time Zone Database
+/contrib/tzcode
+/contrib/tzdata
+
+# zlib
+/contrib/zlib
+
+# awk
+/contrib/one-true-awk
+
+# bc
+/contrib/bc
+
+# diff
+/contrib/diff
+
+# ee
+/contrib/ee
+
+# hyperv
+/contrib/hyperv
+
+# less
+/contrib/less
+
+# Lua
+/contrib/lua kevans@FreeBSD.org
+
+# patch
+/usr.bin/patch
+
+# pkg
+/usr.sbin/pkg @FreeBSD/pkg
+
+# ATF
+/contrib/atf ngie@FreeBSD.org
+
+# capsicum-test
+/contrib/capsicum-test
+
+# GoogleTest
+/contrib/googletest ngie@FreeBSD.org
+
+# kyua
+/contrib/kyua
+
+# NetBSD tests
+/contrib/netbsd-tests ngie@FreeBSD.org
+
+# pjdfstest
+/contrib/pjdfstest asomers@FreeBSD.org ngie@FreeBSD.org pjd@FreeBSD.org @FreeBSD/test
+
