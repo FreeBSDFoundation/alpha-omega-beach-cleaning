@@ -1,40 +1,40 @@
 DependenciesColumns:
-  - title: Component
-  - directory: Directory
-  - upstream: Upstream
-  - homepage: Homepage
+  title: Component
+  directory: Directory
+  upstream: Upstream
+  homepage: Homepage
 PkgConfigColumns:
-  - title: Name
-  - description: Description
-  - homepage: URL
-  - version: Version
-  - license: License
-  - source: Source
-  - depends: Requires
-  - owner: Maintainer
+  title: Name
+  description: Description
+  homepage: URL
+  version: Version
+  license: License
+  source: Source
+  depends: Requires
+  owner: Maintainer
 PlanColumns:
-  - title: Component
-  - plan: Plan
+  title: Component
+  plan: Plan
 Plan:
-  - fix: "formalize and implement regular updates to the dependency"
-  - fork: "assume maintainership of the dependency"
-  - forego: "remove the dependency, or replace it with an existing component"
-  - import: "import the dependency into the sources tree"
+  fix: "formalize and implement regular updates to the dependency"
+  fork: "assume maintainership of the dependency"
+  forego: "remove the dependency, or replace it with an existing component"
+  import: "import the dependency into the sources tree"
 SecurityColumns:
-  - title: Component
-  - security: Security impact
-  - score: Score
+  title: Component
+  security: Security impact
+  score: Score
 SecurityImpacts:
-  - auth: "authenticates users or system components (threat: system)"
-  - build: "build process (threat: developer, builder)"
-  - crypto: "security of operations (threat: integrity, access control...)"
-  - firmware: "component of the start-up sequence (threat: system)"
-  - kernel: "control of hardware and system operations (threat: system)"
-  - network: "remote exposure (threat: network tools and services)"
-  - runtime: "security of application setup (threat: system, user)"
-  - user: "security of applications (threat: user)"
+  auth: "authenticates users or system components (threat: system)"
+  build: "build process (threat: developer, builder)"
+  crypto: "security of operations (threat: integrity, access control...)"
+  firmware: "component of the start-up sequence (threat: system)"
+  kernel: "control of hardware and system operations (threat: system)"
+  network: "remote exposure (threat: network tools and services)"
+  runtime: "security of application setup (threat: system, user)"
+  user: "security of applications (threat: user)"
 Sections:
-  - Compilation Infrastructure:
+  Compilation Infrastructure:
     bmake:
       description: Program designed to simplify the maintenance of other programs
       directory: contrib/bmake
@@ -137,7 +137,7 @@ Sections:
       security:
         - build
       plan: fix
-  - Internal:
+  Internal:
     libc:
       description: FreeBSD libc
       directory:
@@ -168,7 +168,7 @@ Sections:
       homepage: https://www.FreeBSD.org
       license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip
-  - Kernel:
+  Kernel:
     acpi(4):
       description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
       directory: sys/contrib/dev/acpica
@@ -251,7 +251,7 @@ Sections:
         - kernel
         - user
       plan: fix
-  - Network Libraries:
+  Network Libraries:
     bsnmp:
       description: mini SNMP daemon
       directory: contrib/bsnmp
@@ -283,7 +283,7 @@ Sections:
       security:
         - network
       plan: fix
-  - Network Services:
+  Network Services:
     blocklist:
       description: Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.
       directory: contrib/blocklist
@@ -389,7 +389,7 @@ Sections:
       depends:
         - OpenSSL
       plan: fix
-  - Network Tools:
+  Network Tools:
     lib9p:
       description: BSD-licensed 9P2000.u/.L server library
       directory: contrib/lib9p
@@ -413,7 +413,7 @@ Sections:
         - network
       depends: libpcap
       plan: fix
-  - Security Infrastructure:
+  Security Infrastructure:
     BearSSL:
       description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
       directory: contrib/bearssl
@@ -444,7 +444,7 @@ Sections:
       owner:
         - khorben@
         - ngie@
-  - System Libraries:
+  System Libraries:
     arm-optimized-routines:
       description: Optimized implementations of various library functions for ARM architecture processors
       directory: contrib/arm-optimized-routines
@@ -770,7 +770,7 @@ Sections:
         - system
         - user
       plan: fix
-  - System Tools:
+  System Tools:
     awk:
       description: One true awk
       directory: contrib/one-true-awk
@@ -881,7 +881,7 @@ Sections:
         - OpenSSL
       plan: import
       owner: "#pkg"
-  - Test Infrastructure:
+  Test Infrastructure:
     ATF:
       description: Libraries to write tests in C, C++ and shell
       directory: contrib/atf
