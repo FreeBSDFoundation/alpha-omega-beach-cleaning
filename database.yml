@@ -169,7 +169,7 @@ Sections:
       license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip
   Kernel:
-    acpi(4):
+    acpi:
       description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
       directory: sys/contrib/dev/acpica
       version: 20250807
@@ -181,7 +181,7 @@ Sections:
         - firmware
         - kernel
       plan: fix
-    ice(4):
+    ice:
       description: Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).
       directory: sys/contrib/dev/ice
       version: 1.3.41.0
@@ -191,9 +191,10 @@ Sections:
       security:
         - kernel
         - network
+      section: 4
       plan: fix
       owner: erj@
-    ipfilter(4):
+    ipfilter:
       description: IP Filter
       directory: sys/netpfil/ipfilter
       version: 5.1.2
@@ -202,26 +203,29 @@ Sections:
       security:
         - kernel
         - network
+      section: 4
       plan: fork
       owner: cy@
-    pf(4):
+    pf:
       directory: sys/netpfil/pf
       upstream: OpenBSD
       homepage: https://openbsd.org
       security:
         - kernel
         - network
+      section: 4
       plan: fork
       owner:
         - glebius@
         - kp@
-    umb(4):
+    umb:
       directory: sys/dev/usb/net
       upstream: OpenBSD
       homepage: https://openbsd.org
       security:
         - kernel
         - network
+      section:
       plan: fork
     ZFS:
       description: Open-source storage platform
@@ -656,7 +660,7 @@ Sections:
         - firmware
         - user
       plan: fix
-    libmagic (file):
+    libmagic:
       description: Magic number recognition library
       directory: contrib/file
       version: 5.46
