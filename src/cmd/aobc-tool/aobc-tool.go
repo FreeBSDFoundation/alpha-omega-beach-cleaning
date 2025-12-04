@@ -610,13 +610,13 @@ func databaseGetColumns(root yaml.Node, label string) []tuple {
 				continue
 			}
 			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, tuple{v.Content[k].Value,
-							v.Content[k+1].Value})
-					}
-				}
+			if column.Kind != yaml.MappingNode {
+				continue
+			}
+			for j := 0; j < len(column.Content); j += 2 {
+				v := column
+				columns = append(columns, tuple{v.Content[j].Value,
+					v.Content[j+1].Value})
 			}
 		}
 	}
