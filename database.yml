@@ -3849,6 +3849,38 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/znew
       upstream: FreeBSD project
       version: '15.0'
+  Macros and Conventions:
+    nuageinit:
+      description: Initialize a cloud-init environment
+      directory: libexec/nuageinit
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nuageinit(7)
+      license: NOASSERTION
+      section: 7
+      source: https://cgit.freebsd.org/src/tree/nuageinit
+      upstream: FreeBSD project
+      version: '15.0'
+    re_format:
+      description: POSIX 1003.2 regular expressions
+      directory: lib/libc/regex
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=re_format(7)
+      license: NOASSERTION
+      section: 7
+      source: https://cgit.freebsd.org/src/tree/re_format
+      upstream: FreeBSD project
+      version: '15.0'
+    symlink:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Symbolic link handling
+      directory: bin/ln
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=symlink(7)
+      license: NOASSERTION
+      section: 7
+      source: https://cgit.freebsd.org/src/tree/symlink
+      upstream: FreeBSD project
+      version: '15.0'
   Internal:
     libc:
       description: FreeBSD libc
