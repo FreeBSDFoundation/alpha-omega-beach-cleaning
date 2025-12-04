@@ -691,7 +691,8 @@ Sections:
       section: 1
       source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       upstream: LLVM
-      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e    unifdef:
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    unifdef:
       description: Selectively remove C preprocessor conditionals
       directory: contrib/unifdef
       version: 2.12
