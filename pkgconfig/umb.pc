@@ -1,5 +1,4 @@
-Name: pf(4)
+Name: umb
 Description:
 URL: https://openbsd.org
 Version:
-Maintainer: glebius@, kp@

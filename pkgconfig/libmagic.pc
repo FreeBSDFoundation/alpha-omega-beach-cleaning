@@ -1,4 +1,4 @@
-Name: libmagic (file)
+Name: libmagic
 Description: Magic number recognition library
 URL: https://www.darwinsys.com/file/
 Version: 5.46
