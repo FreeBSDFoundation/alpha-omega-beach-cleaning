@@ -3881,6 +3881,5282 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/symlink
       upstream: FreeBSD project
       version: '15.0'
+  Maintenance Commands:
+    ac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Connect time accounting
+      directory: usr.sbin/ac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ac
+      upstream: FreeBSD project
+      version: '15.0'
+    accton:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Enable/disable system accounting
+      directory: usr.sbin/accton
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=accton(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/accton
+      upstream: FreeBSD project
+      version: '15.0'
+    acpiconf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control ACPI power management
+      directory: usr.sbin/acpi/acpiconf
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=acpiconf(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/acpiconf
+      upstream: FreeBSD project
+      version: '15.0'
+    acpidb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: ACPI DSDT debugger
+      directory: usr.sbin/acpi/acpidb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=acpidb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/acpidb
+      upstream: FreeBSD project
+      version: '15.0'
+    acpidump:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Dump ACPI tables and ASL
+      directory: usr.sbin/acpi/acpidump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=acpidump(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/acpidump
+      upstream: FreeBSD project
+      version: '15.0'
+    adduser:
+      description: Command for adding new users
+      directory: usr.sbin/adduser
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=adduser(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/adduser
+      upstream: FreeBSD project
+      version: '15.0'
+    adjkerntz:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Adjust real-time clock (rtc) and kernel timezone offset
+      directory: sbin/adjkerntz
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=adjkerntz(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/adjkerntz
+      upstream: FreeBSD project
+      version: '15.0'
+    apm:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control the APM BIOS and display its information
+      directory: usr.sbin/apm
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=apm(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/apm
+      upstream: FreeBSD project
+      version: '15.0'
+    apmd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Advanced Power Management monitor daemon
+      directory: usr.sbin/apmd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=apmd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/apmd
+      upstream: FreeBSD project
+      version: '15.0'
+    arp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libxo
+      description: Address resolution display and control
+      directory: usr.sbin/arp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=arp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/arp
+      upstream: FreeBSD project
+      version: '15.0'
+    ath3kfw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libusb
+      description: Load firmware for Atheros AR3011/AR3012 Bluetooth USB devices
+      directory: usr.sbin/bluetooth/ath3kfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ath3kfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ath3kfw
+      upstream: FreeBSD project
+      version: '15.0'
+    automount:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Update autofs mounts
+      directory: usr.sbin/autofs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=automount(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/automount
+      upstream: FreeBSD project
+      version: '15.0'
+    automountd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Daemon handling autofs mount requests
+      directory: usr.sbin/autofs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=automountd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/automountd
+      upstream: FreeBSD project
+      version: '15.0'
+    autounmountd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Daemon unmounting automounted filesystems
+      directory: usr.sbin/autofs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=autounmountd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/autounmountd
+      upstream: FreeBSD project
+      version: '15.0'
+    backlight:
+      description: Configure backlight hardware
+      directory: usr.bin/backlight
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=backlight(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/backlight
+      upstream: FreeBSD project
+      version: '15.0'
+    bcmfw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetgraph
+      description: Load firmware for Broadcom BCM2033 Bluetooth USB devices
+      directory: usr.sbin/bluetooth/bcmfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bcmfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bcmfw
+      upstream: FreeBSD project
+      version: '15.0'
+    bectl:
+      depends:
+        - csu
+        - libbe
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: Manage ZFS boot environments
+      directory: sbin/bectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bectl
+      upstream: FreeBSD project
+      version: '15.0'
+    bhyve:
+      depends:
+        - csu
+        - lib9p
+        - libc
+        - libcam
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libnetgraph
+        - libnv
+        - libsbuf
+        - libthr
+        - libutil
+        - libvmmapi
+        - libz
+      description: Run a guest operating system inside a virtual machine
+      directory: usr.sbin/bhyve
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyve(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bhyve
+      upstream: FreeBSD project
+      version: '15.0'
+    bhyvectl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - libvmmapi
+      description: Control utility for bhyve instances
+      directory: usr.sbin/bhyvectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyvectl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bhyvectl
+      upstream: FreeBSD project
+      version: '15.0'
+    bhyveload:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libvmmapi
+      description: Load a FreeBSD guest inside a bhyve virtual machine
+      directory: usr.sbin/bhyveload
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyveload(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bhyveload
+      upstream: FreeBSD project
+      version: '15.0'
+    binmiscctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Manage binary image activators
+      directory: usr.sbin/binmiscctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=binmiscctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/binmiscctl
+      upstream: FreeBSD project
+      version: '15.0'
+    bluetooth-config:
+      description: A script to manage config files for the bluetooth sub system
+      directory: usr.sbin/bluetooth/bluetooth-config
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bluetooth-config(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bluetooth-config
+      upstream: FreeBSD project
+      version: '15.0'
+    boot0cfg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Boot manager installation/configuration utility
+      directory: usr.sbin/boot0cfg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=boot0cfg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/boot0cfg
+      upstream: FreeBSD project
+      version: '15.0'
+    boot_i386:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: System bootstrapping procedures
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=boot_i386(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/boot_i386
+      upstream: FreeBSD project
+      version: '15.0'
+    bootparamd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Boot parameter server
+      directory: usr.sbin/bootparamd/bootparamd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bootparamd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bootparamd
+      upstream: FreeBSD project
+      version: '15.0'
+    bootpd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Internet Boot Protocol server/gateway
+      directory: libexec/bootpd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bootpd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bootpd
+      upstream: FreeBSD project
+      version: '15.0'
+    bootpef:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: BOOTP Extension File compiler
+      directory: libexec/bootpd/tools/bootpef
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bootpef(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bootpef
+      upstream: FreeBSD project
+      version: '15.0'
+    bootptest:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send BOOTP queries and print responses
+      directory: libexec/bootpd/tools/bootptest
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bootptest(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bootptest
+      upstream: FreeBSD project
+      version: '15.0'
+    boottrace:
+      description: Trace command execution with boottrace(4)
+      directory: usr.sbin/boottrace
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=boottrace(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/boottrace
+      upstream: FreeBSD project
+      version: '15.0'
+    bsdconfig:
+      description: System configuration utility
+      directory: usr.sbin/bsdconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bsdconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    bsdinstall:
+      description: System installer
+      directory: usr.sbin/bsdinstall
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdinstall(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bsdinstall
+      upstream: FreeBSD project
+      version: '15.0'
+    bsdlabel:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Read and write BSD label
+      directory: sbin/bsdlabel
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdlabel(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bsdlabel
+      upstream: FreeBSD project
+      version: '15.0'
+    bthidcontrol:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libsdp
+        - libusbhid
+      description: Bluetooth HID control utility
+      directory: usr.sbin/bluetooth/bthidcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bthidcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bthidcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    bthidd:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libusbhid
+      description: Bluetooth HID daemon
+      directory: usr.sbin/bluetooth/bthidd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bthidd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/bthidd
+      upstream: FreeBSD project
+      version: '15.0'
+    btpand:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libsdp
+        - libutil
+      description: Bluetooth PAN daemon
+      directory: usr.sbin/bluetooth/btpand
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=btpand(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/btpand
+      upstream: FreeBSD project
+      version: '15.0'
+    btxld:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Link editor for BTX clients
+      directory: usr.sbin/btxld
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=btxld(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/btxld
+      upstream: FreeBSD project
+      version: '15.0'
+    camcontrol:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libnvmf
+        - libsbuf
+        - libutil
+      description: CAM control program
+      directory: sbin/camcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=camcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/camcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    camdd:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libexpat
+        - libmt
+        - libthr
+        - libutil
+        - libz
+      description: CAM data transfer utility
+      directory: usr.sbin/camdd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=camdd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/camdd
+      upstream: FreeBSD project
+      version: '15.0'
+    ccdconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Configuration utility for the concatenated disk driver
+      directory: sbin/ccdconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ccdconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ccdconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    certctl:
+      description: Tool for managing trusted and untrusted TLS certificates
+      directory: usr.sbin/certctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=certctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/certctl
+      upstream: FreeBSD project
+      version: '15.0'
+    chat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Automated conversational script with a modem
+      directory: usr.bin/chat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/chat
+      upstream: FreeBSD project
+      version: '15.0'
+    chkgrp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Check the syntax of the group file
+      directory: usr.sbin/chkgrp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chkgrp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/chkgrp
+      upstream: FreeBSD project
+      version: '15.0'
+    chkprintcap:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Check validity of entries in the print spooler database
+      directory: usr.sbin/lpr/chkprintcap
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chkprintcap(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/chkprintcap
+      upstream: FreeBSD project
+      version: '15.0'
+    chown:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Change file owner and group
+      directory: usr.sbin/chown
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chown(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/chown
+      upstream: FreeBSD project
+      version: '15.0'
+    chroot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Change root directory
+      directory: usr.sbin/chroot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chroot(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/chroot
+      upstream: FreeBSD project
+      version: '15.0'
+    clear_locks:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Clear locks held on behalf of an NFS client
+      directory: usr.sbin/clear_locks
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=clear_locks(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/clear_locks
+      upstream: FreeBSD project
+      version: '15.0'
+    clri:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Clear an inode
+      directory: sbin/clri
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=clri(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/clri
+      upstream: FreeBSD project
+      version: '15.0'
+    comcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control a special tty device
+      directory: sbin/comcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=comcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/comcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    comsat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Biff server
+      directory: libexec/comsat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=comsat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/comsat
+      upstream: FreeBSD project
+      version: '15.0'
+    config:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - msun
+      description: Build system configuration files
+      directory: usr.sbin/config
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=config(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/config
+      upstream: FreeBSD project
+      version: '15.0'
+    conscontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control physical system video console devices
+      directory: sbin/conscontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=conscontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/conscontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    cpucontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control utility for the cpuctl(4) device
+      directory: usr.sbin/cpucontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=cpucontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/cpucontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    crashinfo:
+      description: Analyze a core dump of the operating system
+      directory: usr.sbin/crashinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=crashinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/crashinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    cron:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+        - libutil
+      description: Daemon to execute scheduled commands (Vixie Cron)
+      directory: usr.sbin/cron/cron
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=cron(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/cron
+      upstream: FreeBSD project
+      version: '15.0'
+    ctladm:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libexpat
+        - libnv
+        - libsbuf
+        - libutil
+      description: CAM Target Layer control utility
+      directory: usr.sbin/ctladm
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ctladm(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ctladm
+      upstream: FreeBSD project
+      version: '15.0'
+    ctld:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libexpat
+        - libiscsiutil
+        - libmd
+        - libnv
+        - libsbuf
+        - libucl
+        - libutil
+        - msun
+      description: CAM Target Layer / iSCSI target daemon
+      directory: usr.sbin/ctld
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ctld(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ctld
+      upstream: FreeBSD project
+      version: '15.0'
+    ctlstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libsbuf
+      description: CAM Target Layer statistics utility
+      directory: usr.bin/ctlstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ctlstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ctlstat
+      upstream: FreeBSD project
+      version: '15.0'
+    cxgbetool:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpcap
+      description: Userspace companion to Chelsio cxgbe Ethernet driver
+      directory: usr.sbin/cxgbetool
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=cxgbetool(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/cxgbetool
+      upstream: FreeBSD project
+      version: '15.0'
+    daemon:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Run detached from the controlling terminal
+      directory: usr.sbin/daemon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=daemon(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/daemon
+      upstream: FreeBSD project
+      version: '15.0'
+    dconschat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: User interface to dcons(4)
+      directory: usr.sbin/dconschat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dconschat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dconschat
+      upstream: FreeBSD project
+      version: '15.0'
+    ddb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Configure DDB kernel debugger properties
+      directory: sbin/ddb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ddb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ddb
+      upstream: FreeBSD project
+      version: '15.0'
+    decryptcore:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libpjdlog
+      description: Decrypt a core dump of the operating system
+      directory: sbin/decryptcore
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=decryptcore(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/decryptcore
+      upstream: FreeBSD project
+      version: '15.0'
+    devctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevctl
+      description: Device control utility
+      directory: usr.sbin/devctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=devctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/devctl
+      upstream: FreeBSD project
+      version: '15.0'
+    devd:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libutil
+        - msun
+      description: Device state change daemon
+      directory: sbin/devd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=devd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/devd
+      upstream: FreeBSD project
+      version: '15.0'
+    devfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: DEVFS control
+      directory: sbin/devfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=devfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/devfs
+      upstream: FreeBSD project
+      version: '15.0'
+    devinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevinfo
+      description: Print information about system device configuration
+      directory: usr.sbin/devinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=devinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/devinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    devmatch:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevinfo
+      description: Print information about unattached devices
+      directory: sbin/devmatch
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=devmatch(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/devmatch
+      upstream: FreeBSD project
+      version: '15.0'
+    dhclient:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libutil
+      description: Dynamic Host Configuration Protocol (DHCP) client
+      directory: sbin/dhclient
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dhclient(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dhclient
+      upstream: FreeBSD project
+      version: '15.0'
+    dhclient-script:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libutil
+      description: DHCP client network configuration script
+      directory: sbin/dhclient
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dhclient-script(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dhclient-script
+      upstream: FreeBSD project
+      version: '15.0'
+    diskinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Get information about disk device
+      directory: usr.sbin/diskinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=diskinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/diskinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    dmesg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Display the system message buffer
+      directory: sbin/dmesg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dmesg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dmesg
+      upstream: FreeBSD project
+      version: '15.0'
+    dump:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: File system backup
+      directory: sbin/dump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dump(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dump
+      upstream: FreeBSD project
+      version: '15.0'
+    dumpcis:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: PC Card and Cardbus (PCMCIA) CIS display tool
+      directory: usr.sbin/dumpcis
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dumpcis(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dumpcis
+      upstream: FreeBSD project
+      version: '15.0'
+    dumpfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Dump UFS file system information
+      directory: sbin/dumpfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dumpfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dumpfs
+      upstream: FreeBSD project
+      version: '15.0'
+    dumpon:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Specify a device for crash dumps
+      directory: sbin/dumpon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dumpon(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/dumpon
+      upstream: FreeBSD project
+      version: '15.0'
+    edquota:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Edit user quotas
+      directory: usr.sbin/edquota
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=edquota(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/edquota
+      upstream: FreeBSD project
+      version: '15.0'
+    efibootmgr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libefivar
+        - libgeom
+      description: Manipulate the EFI Boot Manager
+      directory: usr.sbin/efibootmgr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=efibootmgr(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/efibootmgr
+      upstream: FreeBSD project
+      version: '15.0'
+    efidp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libefivar
+        - libgeom
+      description: UEFI Device Path manipulation
+      directory: usr.sbin/efidp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=efidp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/efidp
+      upstream: FreeBSD project
+      version: '15.0'
+    efitable:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libxo
+      description: Dump UEFI tables
+      directory: usr.sbin/efitable
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=efitable(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/efitable
+      upstream: FreeBSD project
+      version: '15.0'
+    efivar:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libefivar
+        - libgeom
+      description: UEFI environment variable interaction
+      directory: usr.sbin/efivar
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=efivar(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/efivar
+      upstream: FreeBSD project
+      version: '15.0'
+    efiwake:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Manipulate the EFI wake timer
+      directory: usr.sbin/efiwake
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=efiwake(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/efiwake
+      upstream: FreeBSD project
+      version: '15.0'
+    etcupdate:
+      description: Manage updates to system files not updated by installworld
+      directory: usr.sbin/etcupdate
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=etcupdate(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/etcupdate
+      upstream: FreeBSD project
+      version: '15.0'
+    etherswitchcfg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Configure a built-in Ethernet switch
+      directory: sbin/etherswitchcfg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=etherswitchcfg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/etherswitchcfg
+      upstream: FreeBSD project
+      version: '15.0'
+    extattrctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Manage UFS1 extended attributes
+      directory: usr.sbin/extattrctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=extattrctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/extattrctl
+      upstream: FreeBSD project
+      version: '15.0'
+    fdcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Display and modify floppy disk parameters
+      directory: usr.sbin/fdcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fdcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fdcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    fdformat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Format floppy disks
+      directory: usr.sbin/fdformat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fdformat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fdformat
+      upstream: FreeBSD project
+      version: '15.0'
+    fdisk:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: PC slice table maintenance utility
+      directory: sbin/fdisk
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fdisk(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fdisk
+      upstream: FreeBSD project
+      version: '15.0'
+    ffsinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Dump all meta information of an existing ufs file system
+      directory: sbin/ffsinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ffsinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ffsinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    fingerd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Remote user information server
+      directory: libexec/fingerd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fingerd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fingerd
+      upstream: FreeBSD project
+      version: '15.0'
+    flowctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetgraph
+      description: Ng_netflow(4) control utility
+      directory: usr.sbin/flowctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=flowctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/flowctl
+      upstream: FreeBSD project
+      version: '15.0'
+    freebsd-update:
+      description: Fetch and install binary updates to FreeBSD
+      directory: usr.sbin/freebsd-update
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=freebsd-update(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/freebsd-update
+      upstream: FreeBSD project
+      version: '15.0'
+    fsck:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: File system consistency check and interactive repair
+      directory: sbin/fsck
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fsck
+      upstream: FreeBSD project
+      version: '15.0'
+    fsck_ffs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: File system consistency check and interactive repair
+      directory: sbin/fsck_ffs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_ffs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fsck_ffs
+      upstream: FreeBSD project
+      version: '15.0'
+    fsck_msdosfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: DOS/Windows (FAT) file system consistency checker
+      directory: sbin/fsck_msdosfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_msdosfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fsck_msdosfs
+      upstream: FreeBSD project
+      version: '15.0'
+    fsdb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+        - libufs
+      description: FFS debugging/editing tool
+      directory: sbin/fsdb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsdb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fsdb
+      upstream: FreeBSD project
+      version: '15.0'
+    fsirand:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Randomize inode generation numbers
+      directory: sbin/fsirand
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsirand(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fsirand
+      upstream: FreeBSD project
+      version: '15.0'
+    fstyp:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libgeom
+        - libmd
+        - libufs
+      description: Determine filesystem type
+      directory: usr.sbin/fstyp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fstyp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fstyp
+      upstream: FreeBSD project
+      version: '15.0'
+    fwcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: FireWire control utility
+      directory: usr.sbin/fwcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fwcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fwcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    fwget:
+      description: Install firmware packages for the running system
+      directory: usr.sbin/fwget
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fwget(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/fwget
+      upstream: FreeBSD project
+      version: '15.0'
+    gcache:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for CACHE GEOM class
+      directory: lib/geom/cache
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gcache(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gcache
+      upstream: FreeBSD project
+      version: '15.0'
+    gconcat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Disk concatenation control utility
+      directory: lib/geom/concat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gconcat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gconcat
+      upstream: FreeBSD project
+      version: '15.0'
+    geli:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+      description: Control utility for the cryptographic GEOM class
+      directory: lib/geom/eli
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=geli(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/geli
+      upstream: FreeBSD project
+      version: '15.0'
+    geom:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libgeom
+        - libsbuf
+        - libutil
+      description: Universal control utility for GEOM classes
+      directory: sbin/geom/core
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=geom(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/geom
+      upstream: FreeBSD project
+      version: '15.0'
+    getfmac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Print MAC label for a file system object
+      directory: usr.sbin/getfmac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=getfmac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/getfmac
+      upstream: FreeBSD project
+      version: '15.0'
+    getpmac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Print process-related MAC labels
+      directory: usr.sbin/getpmac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=getpmac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/getpmac
+      upstream: FreeBSD project
+      version: '15.0'
+    getty:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Set terminal mode
+      directory: libexec/getty
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=getty(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/getty
+      upstream: FreeBSD project
+      version: '15.0'
+    ggatec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libthr
+        - libutil
+      description: GEOM Gate network client and control utility
+      directory: sbin/ggate/ggatec
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ggatec(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ggatec
+      upstream: FreeBSD project
+      version: '15.0'
+    ggated:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libthr
+        - libutil
+      description: GEOM Gate network daemon
+      directory: sbin/ggate/ggated
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ggated(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ggated
+      upstream: FreeBSD project
+      version: '15.0'
+    ggatel:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libutil
+      description: GEOM Gate local control utility
+      directory: sbin/ggate/ggatel
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ggatel(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ggatel
+      upstream: FreeBSD project
+      version: '15.0'
+    gjournal:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+        - libufs
+      description: Control utility for journaled devices
+      directory: lib/geom/journal
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gjournal(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gjournal
+      upstream: FreeBSD project
+      version: '15.0'
+    glabel:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Disk labelization control utility
+      directory: lib/geom/label
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=glabel(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/glabel
+      upstream: FreeBSD project
+      version: '15.0'
+    gmirror:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+      description: Control utility for mirrored devices
+      directory: lib/geom/mirror
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gmirror(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gmirror
+      upstream: FreeBSD project
+      version: '15.0'
+    gmountver:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for disk mount verification GEOM class
+      directory: lib/geom/mountver
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gmountver(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gmountver
+      upstream: FreeBSD project
+      version: '15.0'
+    gmultipath:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Disk multipath control utility
+      directory: lib/geom/multipath
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gmultipath(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gmultipath
+      upstream: FreeBSD project
+      version: '15.0'
+    gnop:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for NOP GEOM class
+      directory: lib/geom/nop
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gnop(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gnop
+      upstream: FreeBSD project
+      version: '15.0'
+    gpart:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libutil
+      description: Control utility for the disk partitioning GEOM class
+      directory: lib/geom/part
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gpart(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gpart
+      upstream: FreeBSD project
+      version: '15.0'
+    gpioctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgpio
+      description: GPIO control utility
+      directory: usr.sbin/gpioctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gpioctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gpioctl
+      upstream: FreeBSD project
+      version: '15.0'
+    graid:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+      description: Control utility for software RAID devices
+      directory: lib/geom/raid
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=graid(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/graid
+      upstream: FreeBSD project
+      version: '15.0'
+    graid3:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+      description: Control utility for RAID3 devices
+      directory: lib/geom/raid3
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=graid3(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/graid3
+      upstream: FreeBSD project
+      version: '15.0'
+    growfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+        - libutil
+      description: Expand an existing UFS file system
+      directory: sbin/growfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=growfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/growfs
+      upstream: FreeBSD project
+      version: '15.0'
+    gshsec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for shared secret devices
+      directory: lib/geom/shsec
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gshsec(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gshsec
+      upstream: FreeBSD project
+      version: '15.0'
+    gssd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgssapi
+      description: Generic Security Services Daemon
+      directory: usr.sbin/gssd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gssd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gssd
+      upstream: FreeBSD project
+      version: '15.0'
+    gstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevstat
+        - libedit
+        - libgeom
+        - libkvm
+        - ncurses
+        - tinfo
+      description: Print statistics about GEOM disks
+      directory: usr.sbin/gstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gstat
+      upstream: FreeBSD project
+      version: '15.0'
+    gstripe:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for striped devices
+      directory: lib/geom/stripe
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gstripe(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gstripe
+      upstream: FreeBSD project
+      version: '15.0'
+    gunion:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for UNION GEOM class
+      directory: lib/geom/union
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gunion(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gunion
+      upstream: FreeBSD project
+      version: '15.0'
+    gvirstor:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Control utility for virtual data storage devices
+      directory: lib/geom/virstor
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gvirstor(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/gvirstor
+      upstream: FreeBSD project
+      version: '15.0'
+    hastctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+        - libutil
+        - libz
+      description: Highly Available Storage control utility
+      directory: sbin/hastctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hastctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hastctl
+      upstream: FreeBSD project
+      version: '15.0'
+    hastd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libmd
+        - libthr
+        - libutil
+        - libz
+      description: Highly Available Storage daemon
+      directory: sbin/hastd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hastd
+      upstream: FreeBSD project
+      version: '15.0'
+    hccontrol:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+      description: Bluetooth HCI configuration utility
+      directory: usr.sbin/bluetooth/hccontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hccontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hccontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    hcsecd:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+      description: Control link keys and PIN codes for Bluetooth devices
+      directory: usr.sbin/bluetooth/hcsecd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hcsecd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hcsecd
+      upstream: FreeBSD project
+      version: '15.0'
+    hostapd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpcap
+        - libutil
+      description: Authenticator for IEEE 802.11 networks
+      directory: usr.sbin/wpa/hostapd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hostapd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hostapd
+      upstream: FreeBSD project
+      version: '15.0'
+    hostapd_cli:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Text-based frontend program for interacting with hostapd(8)
+      directory: usr.sbin/wpa/hostapd_cli
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hostapd_cli(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/hostapd_cli
+      upstream: FreeBSD project
+      version: '15.0'
+    i2c:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Test I2C bus and slave devices
+      directory: usr.sbin/i2c
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=i2c(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/i2c
+      upstream: FreeBSD project
+      version: '15.0'
+    iasl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Intel ACPI compiler/decompiler
+      directory: usr.sbin/acpi/iasl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iasl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iasl
+      upstream: FreeBSD project
+      version: '15.0'
+    ifconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libifconfig
+        - libnv
+        - libutil
+        - msun
+      description: Configure network interface parameters
+      directory: sbin/ifconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ifconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ifconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    ifmcstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Dump multicast group management statistics per interface
+      directory: usr.sbin/ifmcstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ifmcstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ifmcstat
+      upstream: FreeBSD project
+      version: '15.0'
+    inetd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libipsec
+        - libutil
+      description: Internet “super-server”
+      directory: usr.sbin/inetd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=inetd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/inetd
+      upstream: FreeBSD project
+      version: '15.0'
+    init:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Process control initialization
+      directory: sbin/init
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=init(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/init
+      upstream: FreeBSD project
+      version: '15.0'
+    iostat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevstat
+        - libkvm
+        - msun
+      description: Report I/O statistics
+      directory: usr.sbin/iostat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iostat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iostat
+      upstream: FreeBSD project
+      version: '15.0'
+    iovctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnv
+        - libucl
+        - msun
+      description: PCI SR-IOV configuration utility
+      directory: usr.sbin/iovctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iovctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iovctl
+      upstream: FreeBSD project
+      version: '15.0'
+    ip6addrctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Configure address selection policy for IPv6 and IPv4
+      directory: usr.sbin/ip6addrctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ip6addrctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ip6addrctl
+      upstream: FreeBSD project
+      version: '15.0'
+    ipf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+        - libpcap
+      description: Alters packet filtering lists for IP packet input and output
+      directory: sbin/ipf/ipf
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipf(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipf
+      upstream: FreeBSD project
+      version: '15.0'
+    ipfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Saves and restores information for NAT and state tables.
+      directory: sbin/ipf/ipfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipfs
+      upstream: FreeBSD project
+      version: '15.0'
+    ipfstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+        - ncurses
+        - tinfo
+      description: Reports on packet filter statistics and filter list
+      directory: sbin/ipf/ipfstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipfstat
+      upstream: FreeBSD project
+      version: '15.0'
+    ipfw:
+      depends:
+        - csu
+        - libalias
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: >-
+        User interface for firewall, traffic shaper, packet scheduler, in-kernel
+        NAT.
+      directory: sbin/ipfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipfw
+      upstream: FreeBSD project
+      version: '15.0'
+    ipfwpcap:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpcap
+      description: Copy diverted packets to a file in tcpdump format
+      directory: usr.sbin/ipfwpcap
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfwpcap(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipfwpcap
+      upstream: FreeBSD project
+      version: '15.0'
+    ipmon:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Monitors /dev/ipl for logged packets
+      directory: sbin/ipf/ipmon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipmon(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipmon
+      upstream: FreeBSD project
+      version: '15.0'
+    ippool:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: User interface to the IPFilter pools
+      directory: sbin/ipf/ippool
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ippool(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ippool
+      upstream: FreeBSD project
+      version: '15.0'
+    ipscan:
+      description: User interface to the IPFilter content scanning
+      directory: sbin/ipf/ipscan
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipscan(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ipscan
+      upstream: FreeBSD project
+      version: '15.0'
+    iscsictl:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libutil
+        - libxo
+      description: ISCSI initiator management utility
+      directory: usr.bin/iscsictl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iscsictl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iscsictl
+      upstream: FreeBSD project
+      version: '15.0'
+    iscsid:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libiscsiutil
+        - libmd
+        - libutil
+      description: ISCSI initiator daemon
+      directory: usr.sbin/iscsid
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iscsid(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iscsid
+      upstream: FreeBSD project
+      version: '15.0'
+    iwmbtfw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libusb
+      description: Load firmware for Intel Wireless AC Bluetooth USB devices
+      directory: usr.sbin/bluetooth/iwmbtfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=iwmbtfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/iwmbtfw
+      upstream: FreeBSD project
+      version: '15.0'
+    jail:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libkvm
+        - libutil
+      description: Manage system jails
+      directory: usr.sbin/jail
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=jail(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/jail
+      upstream: FreeBSD project
+      version: '15.0'
+    jexec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: Execute a command inside an existing jail
+      directory: usr.sbin/jexec
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=jexec(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/jexec
+      upstream: FreeBSD project
+      version: '15.0'
+    jls:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libxo
+      description: List jails
+      directory: usr.sbin/jls
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=jls(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/jls
+      upstream: FreeBSD project
+      version: '15.0'
+    kldconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Display or modify the kernel module search path
+      directory: sbin/kldconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=kldconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/kldconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    kldload:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Load a file into the kernel
+      directory: sbin/kldload
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=kldload(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/kldload
+      upstream: FreeBSD project
+      version: '15.0'
+    kldstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Display status of dynamic kernel linker
+      directory: sbin/kldstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=kldstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/kldstat
+      upstream: FreeBSD project
+      version: '15.0'
+    kldunload:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Unload a file from the kernel
+      directory: sbin/kldunload
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=kldunload(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/kldunload
+      upstream: FreeBSD project
+      version: '15.0'
+    kldxref:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+      description: Generate hints for the kernel loader
+      directory: usr.sbin/kldxref
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=kldxref(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/kldxref
+      upstream: FreeBSD project
+      version: '15.0'
+    ktrdump:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libkvm
+      description: Print kernel ktr trace buffer
+      directory: usr.bin/ktrdump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ktrdump(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ktrdump
+      upstream: FreeBSD project
+      version: '15.0'
+    l2control:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+      description: L2CAP configuration utility
+      directory: usr.sbin/bluetooth/l2control
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=l2control(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/l2control
+      upstream: FreeBSD project
+      version: '15.0'
+    l2ping:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+      description: Send L2CAP ECHO_REQUEST to remote devices
+      directory: usr.sbin/bluetooth/l2ping
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=l2ping(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/l2ping
+      upstream: FreeBSD project
+      version: '15.0'
+    lastlogin:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libxo
+      description: Indicate last login time of users
+      directory: usr.sbin/lastlogin
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lastlogin(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/lastlogin
+      upstream: FreeBSD project
+      version: '15.0'
+    ldconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Configure the dynamic linker search path for shared libraries
+      directory: sbin/ldconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ldconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ldconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    locate.updatedb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Update locate database
+      directory: usr.bin/locate/locate
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=locate.updatedb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/locate.updatedb
+      upstream: FreeBSD project
+      version: '15.0'
+    lpc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Line printer control program
+      directory: usr.sbin/lpr/lpc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lpc(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/lpc
+      upstream: FreeBSD project
+      version: '15.0'
+    lpd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Line printer spooler daemon
+      directory: usr.sbin/lpr/lpd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lpd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/lpd
+      upstream: FreeBSD project
+      version: '15.0'
+    lptcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: A utility for manipulating the lpt printer driver
+      directory: usr.sbin/lptcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lptcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/lptcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    mailwrapper:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Invoke appropriate MTA software based on configuration file
+      directory: usr.sbin/mailwrapper
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mailwrapper(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mailwrapper
+      upstream: FreeBSD project
+      version: '15.0'
+    makefs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetbsd
+        - libsbuf
+        - libutil
+      description: Create a file system image from a directory tree or a mtree manifest
+      directory: usr.sbin/makefs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=makefs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/makefs
+      upstream: FreeBSD project
+      version: '15.0'
+    makewhatis.local:
+      description: Start makewhatis for local file systems
+      directory: libexec/makewhatis.local
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=makewhatis.local(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/makewhatis.local
+      upstream: FreeBSD project
+      version: '15.0'
+    manctl:
+      description: Manipulating manual pages
+      directory: usr.sbin/manctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=manctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/manctl
+      upstream: FreeBSD project
+      version: '15.0'
+    mdconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevstat
+        - libgeom
+        - libkvm
+        - libutil
+      description: Create and control memory disks
+      directory: sbin/mdconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mdconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mdconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    mdmfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: >-
+        Configure and mount an in-memory file system using the md(4) driver or
+        the tmpfs(4) filesystem
+      directory: sbin/mdmfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mdmfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mdmfs
+      upstream: FreeBSD project
+      version: '15.0'
+    memcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control system cache behaviour with respect to memory
+      directory: usr.sbin/memcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=memcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/memcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    mfiutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Utility for managing LSI MegaRAID SAS controllers
+      directory: usr.sbin/mfiutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mfiutil(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mfiutil
+      upstream: FreeBSD project
+      version: '15.0'
+    mixer:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmixer
+      description: Manipulate soundcard mixer controls
+      directory: usr.sbin/mixer
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mixer(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mixer
+      upstream: FreeBSD project
+      version: '15.0'
+    mknetid:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Generate netid map data
+      directory: libexec/mknetid
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mknetid(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mknetid
+      upstream: FreeBSD project
+      version: '15.0'
+    mknod:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Build special file
+      directory: sbin/mknod
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mknod(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mknod
+      upstream: FreeBSD project
+      version: '15.0'
+    mksnap_ffs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Take a file system snapshot
+      directory: sbin/mksnap_ffs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mksnap_ffs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mksnap_ffs
+      upstream: FreeBSD project
+      version: '15.0'
+    mld6query:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send multicast listener query
+      directory: usr.sbin/mld6query
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mld6query(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mld6query
+      upstream: FreeBSD project
+      version: '15.0'
+    mlx5tool:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Utility for managing Connect-X 4/5/6 Mellanox network adapters
+      directory: usr.sbin/mlx5tool
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mlx5tool(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mlx5tool
+      upstream: FreeBSD project
+      version: '15.0'
+    mlxcontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Mylex DAC-family RAID management utility
+      directory: usr.sbin/mlxcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mlxcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mlxcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    mount:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - libxo
+      description: Mount file systems
+      directory: sbin/mount
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_cd9660:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkiconv
+      description: Mount an ISO-9660 file system
+      directory: sbin/mount_cd9660
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_cd9660(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_cd9660
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_fusefs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Mount a Fuse file system daemon
+      directory: sbin/mount_fusefs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_fusefs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_fusefs
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_msdosfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkiconv
+        - libutil
+      description: Mount an MS-DOS (FAT) file system
+      directory: sbin/mount_msdosfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_msdosfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_msdosfs
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_nfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Mount NFS file systems
+      directory: sbin/mount_nfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_nfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_nfs
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_nullfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: >-
+        Mount a loopback file system sub-tree; demonstrate the use of a null
+        file system layer
+      directory: sbin/mount_nullfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_nullfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_nullfs
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_udf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkiconv
+      description: Mount a UDF file system
+      directory: sbin/mount_udf
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_udf(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_udf
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_unionfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Mount union file systems
+      directory: sbin/mount_unionfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_unionfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mount_unionfs
+      upstream: FreeBSD project
+      version: '15.0'
+    mountd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Service remote NFS mount requests
+      directory: usr.sbin/mountd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mountd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mountd
+      upstream: FreeBSD project
+      version: '15.0'
+    moused:
+      description: Pass mouse data to the console driver
+      directory: usr.sbin/moused/moused
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=moused(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/moused
+      upstream: FreeBSD project
+      version: '15.0'
+    mpsutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Utility for managing LSI Fusion-MPT 2/3 controllers
+      directory: usr.sbin/mpsutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mpsutil(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mpsutil
+      upstream: FreeBSD project
+      version: '15.0'
+    mptutil:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libutil
+      description: Utility for managing LSI Fusion-MPT controllers
+      directory: usr.sbin/mptutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mptutil(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mptutil
+      upstream: FreeBSD project
+      version: '15.0'
+    msconvd:
+      description: Mouse protocol conversion daemon
+      directory: usr.sbin/moused/msconvd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=msconvd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/msconvd
+      upstream: FreeBSD project
+      version: '15.0'
+    mtest:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Test multicast socket operations
+      directory: usr.sbin/mtest
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mtest(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/mtest
+      upstream: FreeBSD project
+      version: '15.0'
+    natd:
+      depends:
+        - csu
+        - libalias
+        - libc
+        - libcompiler_rt
+      description: Network Address Translation daemon
+      directory: sbin/natd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=natd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/natd
+      upstream: FreeBSD project
+      version: '15.0'
+    ndp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libxo
+      description: Control/diagnose IPv6 neighbor discovery protocol
+      directory: usr.sbin/ndp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ndp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ndp
+      upstream: FreeBSD project
+      version: '15.0'
+    newfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+        - libutil
+      description: Construct a new UFS1/UFS2 file system
+      directory: sbin/newfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=newfs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/newfs
+      upstream: FreeBSD project
+      version: '15.0'
+    newfs_msdos:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Construct a new MS-DOS (FAT) file system
+      directory: sbin/newfs_msdos
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=newfs_msdos(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/newfs_msdos
+      upstream: FreeBSD project
+      version: '15.0'
+    newsyslog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+      description: Maintain system log files to manageable sizes
+      directory: usr.sbin/newsyslog
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=newsyslog(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/newsyslog
+      upstream: FreeBSD project
+      version: '15.0'
+    nextboot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Specify an alternate kernel and boot flags for the next reboot
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nextboot(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nextboot
+      upstream: FreeBSD project
+      version: '15.0'
+    nfscbd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: NFSv4 client side callback daemon
+      directory: usr.sbin/nfscbd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfscbd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfscbd
+      upstream: FreeBSD project
+      version: '15.0'
+    nfsd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Remote NFS server
+      directory: usr.sbin/nfsd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfsd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfsd
+      upstream: FreeBSD project
+      version: '15.0'
+    nfsdumpstate:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Display NFSv4 open/lock state
+      directory: usr.sbin/nfsdumpstate
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfsdumpstate(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfsdumpstate
+      upstream: FreeBSD project
+      version: '15.0'
+    nfsiod:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Local NFS asynchronous I/O server
+      directory: sbin/nfsiod
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfsiod(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfsiod
+      upstream: FreeBSD project
+      version: '15.0'
+    nfsrevoke:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Revoke NFS V4 client
+      directory: usr.sbin/nfsrevoke
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfsrevoke(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfsrevoke
+      upstream: FreeBSD project
+      version: '15.0'
+    nfsuserd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: >-
+        Load user and group information into the kernel for NFSv4 services plus
+        support manage-gids for all NFS versions
+      directory: usr.sbin/nfsuserd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nfsuserd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nfsuserd
+      upstream: FreeBSD project
+      version: '15.0'
+    ngctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetgraph
+        - libthr
+      description: Netgraph control utility
+      directory: usr.sbin/ngctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ngctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ngctl
+      upstream: FreeBSD project
+      version: '15.0'
+    nghook:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetgraph
+      description: Connect to a netgraph(4) node
+      directory: usr.sbin/nghook
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nghook(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nghook
+      upstream: FreeBSD project
+      version: '15.0'
+    nologin:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Politely refuse a login
+      directory: usr.sbin/nologin
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nologin(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nologin
+      upstream: FreeBSD project
+      version: '15.0'
+    nos-tun:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Implement ``nos'' or ``ka9q'' style IP over IP tunnel
+      directory: sbin/nos-tun
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nos-tun(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nos-tun
+      upstream: FreeBSD project
+      version: '15.0'
+    nscd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+        - libutil
+        - msun
+      description: Name service caching daemon
+      directory: usr.sbin/nscd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nscd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nscd
+      upstream: FreeBSD project
+      version: '15.0'
+    nss_tacplus:
+      description: TACACS+ nsswitch module
+      directory: lib/nss_tacplus
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nss_tacplus(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nss_tacplus
+      upstream: FreeBSD project
+      version: '15.0'
+    ntpdate:
+      description: Set the date and time via NTP
+      directory: usr.sbin/ntp/doc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ntpdate(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ntpdate
+      upstream: FreeBSD project
+      version: '15.0'
+    ntptime:
+      description: Read kernel time variables
+      directory: usr.sbin/ntp/doc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ntptime(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ntptime
+      upstream: FreeBSD project
+      version: '15.0'
+    ntptrace:
+      description: Trace peers of an NTP server
+      directory: usr.sbin/ntp/doc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ntptrace(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ntptrace
+      upstream: FreeBSD project
+      version: '15.0'
+    nvmecontrol:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnvmf
+        - libutil
+      description: NVM Express control utility
+      directory: sbin/nvmecontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nvmecontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nvmecontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    nvram:
+      description: Display or modify contents of the EEPROM or NVRAM
+      directory: usr.sbin/nvram
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=nvram(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/nvram
+      upstream: FreeBSD project
+      version: '15.0'
+    ofwdump:
+      depends:
+        - csu
+        - libc
+        - libc_nonshared
+        - libcompiler_rt
+      description: Examine the Open Firmware device tree
+      directory: usr.sbin/ofwdump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ofwdump(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ofwdump
+      upstream: FreeBSD project
+      version: '15.0'
+    pac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Printer/plotter accounting information
+      directory: usr.sbin/lpr/pac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pac
+      upstream: FreeBSD project
+      version: '15.0'
+    pam-krb5:
+      depends:
+        - csu
+        - libc
+        - libcom_err
+        - libcompiler_rt
+        - libpam
+      description: Kerberos PAM module
+      directory: lib/libpam/modules/pam_krb5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam-krb5(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam-krb5
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_chroot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Chroot PAM module
+      directory: lib/libpam/modules/pam_chroot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_chroot(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_chroot
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_deny:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Deny PAM module
+      directory: lib/libpam/modules/pam_deny
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_deny(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_deny
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_echo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Echo PAM module
+      directory: lib/libpam/modules/pam_echo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_echo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_echo
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_exec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Exec PAM module
+      directory: lib/libpam/modules/pam_exec
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_exec(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_exec
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_ftpusers:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Ftpusers PAM module
+      directory: lib/libpam/modules/pam_ftpusers
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_ftpusers(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_ftpusers
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_group:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Group PAM module
+      directory: lib/libpam/modules/pam_group
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_group(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_group
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_guest:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Guest PAM module
+      directory: lib/libpam/modules/pam_guest
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_guest(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_guest
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_krb5:
+      depends:
+        - csu
+        - libc
+        - libcom_err
+        - libcompiler_rt
+        - libpam
+      description: Kerberos 5 PAM module
+      directory: lib/libpam/modules/pam_krb5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_krb5(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_krb5
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_ksu:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Kerberos 5 SU PAM module
+      directory: lib/libpam/modules/pam_ksu
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_ksu(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_ksu
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_lastlog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Login accounting PAM module
+      directory: lib/libpam/modules/pam_lastlog
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_lastlog(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_lastlog
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_login_access:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Login.access PAM module
+      directory: lib/libpam/modules/pam_login_access
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_login_access(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_login_access
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_nologin:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+        - libutil
+      description: NoLogin PAM module
+      directory: lib/libpam/modules/pam_nologin
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_nologin(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_nologin
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_passwdqc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libpam
+      description: Password quality-control PAM module
+      directory: lib/libpam/modules/pam_passwdqc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_passwdqc(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_passwdqc
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_permit:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Promiscuous PAM module
+      directory: lib/libpam/modules/pam_permit
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_permit(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_permit
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_radius:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+        - libradius
+      description: RADIUS authentication PAM module
+      directory: lib/libpam/modules/pam_radius
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_radius(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_radius
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_rhosts:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Rhosts PAM module
+      directory: lib/libpam/modules/pam_rhosts
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_rhosts(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_rhosts
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_rootok:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: RootOK PAM module
+      directory: lib/libpam/modules/pam_rootok
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_rootok(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_rootok
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_securetty:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: SecureTTY PAM module
+      directory: lib/libpam/modules/pam_securetty
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_securetty(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_securetty
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_self:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Self PAM module
+      directory: lib/libpam/modules/pam_self
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_self(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_self
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_ssh:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Authentication and session management with SSH private keys
+      directory: lib/libpam/modules/pam_ssh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_ssh(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_ssh
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_tacplus:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+        - libtacplus
+      description: TACACS+ authentication PAM module
+      directory: lib/libpam/modules/pam_tacplus
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_tacplus(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_tacplus
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_unix:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libpam
+        - libutil
+      description: UNIX PAM module
+      directory: lib/libpam/modules/pam_unix
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_unix(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_unix
+      upstream: FreeBSD project
+      version: '15.0'
+    pam_xdg:
+      description: XDG PAM module
+      directory: lib/libpam/modules/pam_xdg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_xdg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pam_xdg
+      upstream: FreeBSD project
+      version: '15.0'
+    pciconf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Diagnostic utility for the PCI bus
+      directory: usr.sbin/pciconf
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pciconf(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pciconf
+      upstream: FreeBSD project
+      version: '15.0'
+    periodic:
+      description: Run periodic system functions
+      directory: usr.sbin/periodic
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=periodic(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/periodic
+      upstream: FreeBSD project
+      version: '15.0'
+    pfctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+        - libnv
+        - libpfctl
+        - msun
+      description: Control the packet filter (PF) device
+      directory: sbin/pfctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pfctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pfctl
+      upstream: FreeBSD project
+      version: '15.0'
+    pfilctl:
+      description: Pfil(9) control utility
+      directory: sbin/pfilctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pfilctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pfilctl
+      upstream: FreeBSD project
+      version: '15.0'
+    pflowctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control pflow data export
+      directory: sbin/pflowctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pflowctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pflowctl
+      upstream: FreeBSD project
+      version: '15.0'
+    phttpget:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Retrieve multiple files via pipelined HTTP
+      directory: libexec/phttpget
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=phttpget(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/phttpget
+      upstream: FreeBSD project
+      version: '15.0'
+    ping:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libipsec
+        - libmd
+        - msun
+      description: Send ICMP or ICMPv6 ECHO_REQUEST packets to network hosts
+      directory: sbin/ping
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ping(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ping
+      upstream: FreeBSD project
+      version: '15.0'
+    pmcannotate:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Sources printout with inlined profiling
+      directory: usr.sbin/pmcannotate
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcannotate(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pmcannotate
+      upstream: FreeBSD project
+      version: '15.0'
+    pmccontrol:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libpmc
+        - msun
+      description: Control hardware performance monitoring counters
+      directory: usr.sbin/pmccontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pmccontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pmccontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    pmcstat:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libelf
+        - libkvm
+        - libpmc
+        - libpmcstat
+        - msun
+        - ncurses
+        - tinfo
+      description: Performance measurement with performance monitoring hardware
+      directory: usr.sbin/pmcstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pmcstat
+      upstream: FreeBSD project
+      version: '15.0'
+    pmcstudy:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Perform various studies on a system's overall PMCs
+      directory: usr.sbin/pmcstudy
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcstudy(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pmcstudy
+      upstream: FreeBSD project
+      version: '15.0'
+    pnfsdscopymr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Copy or move a data storage file for a MDS file to a different DS
+      directory: usr.sbin/pnfsdscopymr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pnfsdscopymr(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pnfsdscopymr
+      upstream: FreeBSD project
+      version: '15.0'
+    pnfsdsfile:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: >-
+        Display a pNFS data storage file's location(s) and/or modify the
+        “pnfsd.dsfile” extended attribute for them
+      directory: usr.sbin/pnfsdsfile
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pnfsdsfile(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pnfsdsfile
+      upstream: FreeBSD project
+      version: '15.0'
+    pnfsdskill:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Disables a pNFS data storage server (DS)
+      directory: usr.sbin/pnfsdskill
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pnfsdskill(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pnfsdskill
+      upstream: FreeBSD project
+      version: '15.0'
+    powerd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: System power control utility
+      directory: usr.sbin/powerd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=powerd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/powerd
+      upstream: FreeBSD project
+      version: '15.0'
+    ppp:
+      depends:
+        - csu
+        - libalias
+        - libc
+        - libcompiler_rt
+        - libmd
+        - libnetgraph
+        - libpam
+        - libradius
+        - libutil
+        - libz
+      description: Point to Point Protocol (a.k.a. user-ppp)
+      directory: usr.sbin/ppp
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ppp
+      upstream: FreeBSD project
+      version: '15.0'
+    pppctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+        - libthr
+      description: PPP control program
+      directory: usr.sbin/pppctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pppctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pppctl
+      upstream: FreeBSD project
+      version: '15.0'
+    pppoed:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetgraph
+      description: Handle incoming PPP over Ethernet connections
+      directory: libexec/pppoed
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pppoed(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pppoed
+      upstream: FreeBSD project
+      version: '15.0'
+    prometheus_sysctl_exporter:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libz
+        - msun
+      description: Print kernel state as Prometheus metrics
+      directory: usr.sbin/prometheus_sysctl_exporter
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=prometheus_sysctl_exporter(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/prometheus_sysctl_exporter
+      upstream: FreeBSD project
+      version: '15.0'
+    pstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+        - libutil
+      description: Display system data structures
+      directory: usr.sbin/pstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pstat
+      upstream: FreeBSD project
+      version: '15.0'
+    pw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Create, remove, modify & display system users and groups
+      directory: usr.sbin/pw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pw
+      upstream: FreeBSD project
+      version: '15.0'
+    pwd_mkdb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Generate the password databases
+      directory: usr.sbin/pwd_mkdb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pwd_mkdb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pwd_mkdb
+      upstream: FreeBSD project
+      version: '15.0'
+    pwm:
+      description: Configure PWM (Pulse Width Modulation) hardware
+      directory: usr.sbin/pwm
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pwm(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/pwm
+      upstream: FreeBSD project
+      version: '15.0'
+    quot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Display disk space occupied by each user
+      directory: usr.sbin/quot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=quot(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/quot
+      upstream: FreeBSD project
+      version: '15.0'
+    quotacheck:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+        - libutil
+      description: File system quota consistency checker
+      directory: sbin/quotacheck
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=quotacheck(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/quotacheck
+      upstream: FreeBSD project
+      version: '15.0'
+    quotaon:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Turn file system quotas on and off
+      directory: usr.sbin/quotaon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=quotaon(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/quotaon
+      upstream: FreeBSD project
+      version: '15.0'
+    rarpd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Reverse ARP daemon
+      directory: usr.sbin/rarpd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rarpd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rarpd
+      upstream: FreeBSD project
+      version: '15.0'
+    rbootd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: HP remote boot server
+      directory: libexec/rbootd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rbootd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rbootd
+      upstream: FreeBSD project
+      version: '15.0'
+    rcorder:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Print a dependency ordering of interdependent files
+      directory: sbin/rcorder
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rcorder(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rcorder
+      upstream: FreeBSD project
+      version: '15.0'
+    rctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Display and update resource limits database
+      directory: usr.bin/rctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rctl
+      upstream: FreeBSD project
+      version: '15.0'
+    reboot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Stopping and restarting the system
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=reboot(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/reboot
+      upstream: FreeBSD project
+      version: '15.0'
+    renice:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Alter priority of running processes
+      directory: usr.bin/renice
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=renice(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/renice
+      upstream: FreeBSD project
+      version: '15.0'
+    repquota:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Summarize quotas for a file system
+      directory: usr.sbin/repquota
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=repquota(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/repquota
+      upstream: FreeBSD project
+      version: '15.0'
+    restore:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Restore files or file systems from backups made with dump
+      directory: sbin/restore
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=restore(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/restore
+      upstream: FreeBSD project
+      version: '15.0'
+    revnetgroup:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Generate reverse netgroup data
+      directory: libexec/revnetgroup
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=revnetgroup(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/revnetgroup
+      upstream: FreeBSD project
+      version: '15.0'
+    rfcomm_pppd:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libsdp
+      description: RFCOMM PPP daemon
+      directory: usr.sbin/bluetooth/rfcomm_pppd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rfcomm_pppd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rfcomm_pppd
+      upstream: FreeBSD project
+      version: '15.0'
+    rip6query:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: RIPng debugging tool
+      directory: usr.sbin/rip6query
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rip6query(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rip6query
+      upstream: FreeBSD project
+      version: '15.0'
+    rmextattr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+        - libutil
+      description: Manipulate extended attributes
+      directory: usr.sbin/extattr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rmextattr
+      upstream: FreeBSD project
+      version: '15.0'
+    rmt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Remote magtape protocol module
+      directory: usr.sbin/rmt
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rmt(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rmt
+      upstream: FreeBSD project
+      version: '15.0'
+    rmuser:
+      description: Remove users from the system
+      directory: usr.sbin/adduser
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rmuser(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rmuser
+      upstream: FreeBSD project
+      version: '15.0'
+    route:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libjail
+      description: Manually manipulate the routing tables
+      directory: sbin/route
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=route(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/route
+      upstream: FreeBSD project
+      version: '15.0'
+    route6d:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: RIP6 Routing Daemon
+      directory: usr.sbin/route6d
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=route6d(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/route6d
+      upstream: FreeBSD project
+      version: '15.0'
+    routed:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+      description: Network RIP and router discovery routing daemon
+      directory: sbin/routed
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=routed(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/routed
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.lockd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+        - libutil
+      description: NFS file locking daemon
+      directory: usr.sbin/rpc.lockd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.lockd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.lockd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.rquotad:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+        - libutil
+      description: Remote quota server
+      directory: libexec/rpc.rquotad
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.rquotad(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.rquotad
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.rstatd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevstat
+        - libkvm
+        - librpcsvc
+      description: Kernel statistics server
+      directory: libexec/rpc.rstatd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.rstatd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.rstatd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.rusersd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Logged in users server
+      directory: libexec/rpc.rusersd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.rusersd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.rusersd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.rwalld:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Write messages to users currently logged in server
+      directory: libexec/rpc.rwalld
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.rwalld(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.rwalld
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.sprayd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Spray server
+      directory: libexec/rpc.sprayd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.sprayd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.sprayd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.statd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Host status monitoring daemon
+      directory: usr.sbin/rpc.statd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.statd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.statd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.tlsclntd:
+      description: Sun RPC over TLS Client Daemon
+      directory: usr.sbin/rpc.tlsclntd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.tlsclntd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.tlsclntd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.tlsservd:
+      description: Sun RPC over TLS Server Daemon
+      directory: usr.sbin/rpc.tlsservd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.tlsservd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.tlsservd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.umntall:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Notify NFS servers about unmounted NFS file systems
+      directory: usr.sbin/rpc.umntall
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.umntall(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.umntall
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.yppasswdd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - librpcsvc
+        - libutil
+      description: Server for updating NIS passwords
+      directory: usr.sbin/rpc.yppasswdd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.yppasswdd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.yppasswdd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpc.ypxfrd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: NIS map transfer server
+      directory: usr.sbin/rpc.ypxfrd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.ypxfrd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpc.ypxfrd
+      upstream: FreeBSD project
+      version: '15.0'
+    rpcbind:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Universal addresses to RPC program number mapper
+      directory: usr.sbin/rpcbind
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpcbind(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpcbind
+      upstream: FreeBSD project
+      version: '15.0'
+    rpcinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Report RPC information
+      directory: usr.bin/rpcinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rpcinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rpcinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    rrenumd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libipsec
+      description: Router renumbering daemon
+      directory: usr.sbin/rrenumd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rrenumd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rrenumd
+      upstream: FreeBSD project
+      version: '15.0'
+    rtadvctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Control program for rtadvd(8) daemon
+      directory: usr.sbin/rtadvctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtadvctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rtadvctl
+      upstream: FreeBSD project
+      version: '15.0'
+    rtadvd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Router advertisement daemon
+      directory: usr.sbin/rtadvd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtadvd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rtadvd
+      upstream: FreeBSD project
+      version: '15.0'
+    rtlbtfw:
+      description: Load firmware for Realtek 87XX/88XX Bluetooth USB devices
+      directory: usr.sbin/bluetooth/rtlbtfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtlbtfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rtlbtfw
+      upstream: FreeBSD project
+      version: '15.0'
+    rtquery:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+      description: Query routing daemons for their routing tables
+      directory: sbin/routed/rtquery
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtquery(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rtquery
+      upstream: FreeBSD project
+      version: '15.0'
+    rtsold:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libutil
+      description: Router solicitation daemon
+      directory: usr.sbin/rtsold
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtsold(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rtsold
+      upstream: FreeBSD project
+      version: '15.0'
+    rwhod:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: System status server
+      directory: usr.sbin/rwhod
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rwhod(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/rwhod
+      upstream: FreeBSD project
+      version: '15.0'
+    sa:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Print system accounting statistics
+      directory: usr.sbin/sa
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sa(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sa
+      upstream: FreeBSD project
+      version: '15.0'
+    sade:
+      depends:
+        - csu
+        - libbsddialog
+        - libc
+        - libcompiler_rt
+        - libgeom
+        - libutil
+      description: Sysadmins disk editor
+      directory: usr.sbin/bsdinstall/partedit
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sade(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sade
+      upstream: FreeBSD project
+      version: '15.0'
+    save-entropy:
+      description: Save bits of entropy to feed /dev/random at startup
+      directory: libexec/save-entropy
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=save-entropy(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/save-entropy
+      upstream: FreeBSD project
+      version: '15.0'
+    savecore:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libxo
+        - libz
+        - libzstd
+      description: Save a core dump of the operating system
+      directory: sbin/savecore
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=savecore(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/savecore
+      upstream: FreeBSD project
+      version: '15.0'
+    sdpcontrol:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libsdp
+      description: Bluetooth Service Discovery Protocol query utility
+      directory: usr.sbin/bluetooth/sdpcontrol
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sdpcontrol(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sdpcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    sdpd:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+        - libsdp
+      description: Bluetooth Service Discovery Protocol daemon
+      directory: usr.sbin/bluetooth/sdpd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sdpd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sdpd
+      upstream: FreeBSD project
+      version: '15.0'
+    service:
+      description: Control (start/stop/etc.) or list system services
+      directory: usr.sbin/service
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=service(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/service
+      upstream: FreeBSD project
+      version: '15.0'
+    services_mkdb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Generate the services database
+      directory: usr.sbin/services_mkdb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=services_mkdb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/services_mkdb
+      upstream: FreeBSD project
+      version: '15.0'
+    sesutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libxo
+      description: Utility for managing SCSI Enclosure Services (SES) device
+      directory: usr.sbin/sesutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sesutil(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sesutil
+      upstream: FreeBSD project
+      version: '15.0'
+    setaudit:
+      description: Specify audit configurations on a process
+      directory: usr.sbin/setaudit
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setaudit(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/setaudit
+      upstream: FreeBSD project
+      version: '15.0'
+    setfmac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Set MAC label for a file system object
+      directory: usr.sbin/setfmac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setfmac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/setfmac
+      upstream: FreeBSD project
+      version: '15.0'
+    setfsmac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Set MAC label for a file hierarchy
+      directory: usr.sbin/setfmac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setfsmac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/setfsmac
+      upstream: FreeBSD project
+      version: '15.0'
+    setkey:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libipsec
+      description: Manually manipulate the IPsec SA/SP database
+      directory: sbin/setkey
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setkey(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/setkey
+      upstream: FreeBSD project
+      version: '15.0'
+    setpmac:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Run a command with a different MAC process label
+      directory: usr.sbin/setpmac
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setpmac(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/setpmac
+      upstream: FreeBSD project
+      version: '15.0'
+    showmount:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Show remote nfs mounts on host
+      directory: usr.bin/showmount
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=showmount(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/showmount
+      upstream: FreeBSD project
+      version: '15.0'
+    shutdown:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Close down the system at a given time
+      directory: sbin/shutdown
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=shutdown(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/shutdown
+      upstream: FreeBSD project
+      version: '15.0'
+    smbmsg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send or receive messages over an SMBus
+      directory: usr.sbin/smbmsg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=smbmsg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/smbmsg
+      upstream: FreeBSD project
+      version: '15.0'
+    snapinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Show snapshot location on UFS file systems
+      directory: usr.sbin/snapinfo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=snapinfo(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/snapinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    sndctl:
+      description: List and modify soundcard properties
+      directory: usr.sbin/sndctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sndctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sndctl
+      upstream: FreeBSD project
+      version: '15.0'
+    spi:
+      description: Communicate on SPI bus with slave devices
+      directory: usr.sbin/spi
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=spi(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/spi
+      upstream: FreeBSD project
+      version: '15.0'
+    spkrtest:
+      description: Test script for the speaker driver
+      directory: usr.sbin/spkrtest
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=spkrtest(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/spkrtest
+      upstream: FreeBSD project
+      version: '15.0'
+    spray:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Send many packets to host
+      directory: usr.sbin/spray
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=spray(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/spray
+      upstream: FreeBSD project
+      version: '15.0'
+    strfile:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Create a random access file for storing strings
+      directory: usr.bin/fortune/strfile
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=strfile(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/strfile
+      upstream: FreeBSD project
+      version: '15.0'
+    swapon:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Specify devices for paging and swapping
+      directory: sbin/swapon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=swapon(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/swapon
+      upstream: FreeBSD project
+      version: '15.0'
+    sync:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Force completion of pending disk writes (flush cache)
+      directory: bin/sync
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sync(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sync
+      upstream: FreeBSD project
+      version: '15.0'
+    sysctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Get or set kernel state
+      directory: sbin/sysctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sysctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sysctl
+      upstream: FreeBSD project
+      version: '15.0'
+    syslogd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Log systems messages
+      directory: usr.sbin/syslogd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=syslogd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/syslogd
+      upstream: FreeBSD project
+      version: '15.0'
+    sysrc:
+      description: Safely edit system rc files
+      directory: usr.sbin/sysrc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sysrc(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sysrc
+      upstream: FreeBSD project
+      version: '15.0'
+    talkd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Remote user communication server
+      directory: libexec/talkd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=talkd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/talkd
+      upstream: FreeBSD project
+      version: '15.0'
+    tcpdrop:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Drop TCP connections
+      directory: usr.sbin/tcpdrop
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=tcpdrop(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/tcpdrop
+      upstream: FreeBSD project
+      version: '15.0'
+    tcpsso:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Set a socket option on a TCP endpoint
+      directory: usr.sbin/tcpsso
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=tcpsso(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/tcpsso
+      upstream: FreeBSD project
+      version: '15.0'
+    tftpd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Internet Trivial File Transfer Protocol server
+      directory: libexec/tftpd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=tftpd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/tftpd
+      upstream: FreeBSD project
+      version: '15.0'
+    traceroute:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libipsec
+      description: Print the route packets take to network host
+      directory: usr.sbin/traceroute
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=traceroute(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/traceroute
+      upstream: FreeBSD project
+      version: '15.0'
+    traceroute6:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_dns
+        - libcompiler_rt
+        - libipsec
+      description: Print the route IPv6 packets will take to a network node
+      directory: usr.sbin/traceroute6
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=traceroute6(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/traceroute6
+      upstream: FreeBSD project
+      version: '15.0'
+    trim:
+      description: Erase device blocks that have no needed contents
+      directory: usr.sbin/trim
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=trim(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/trim
+      upstream: FreeBSD project
+      version: '15.0'
+    tunefs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: Tune up an existing UFS file system
+      directory: sbin/tunefs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=tunefs(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/tunefs
+      upstream: FreeBSD project
+      version: '15.0'
+    tzsetup:
+      depends:
+        - csu
+        - libbsddialog
+        - libc
+        - libcompiler_rt
+      description: Set local timezone
+      directory: usr.sbin/tzsetup
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=tzsetup(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/tzsetup
+      upstream: FreeBSD project
+      version: '15.0'
+    uathload:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Load firmware for Atheros USB wireless devices
+      directory: usr.sbin/uathload
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=uathload(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/uathload
+      upstream: FreeBSD project
+      version: '15.0'
+    uefisign:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: UEFI Secure Boot signing utility
+      directory: usr.sbin/uefisign
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=uefisign(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/uefisign
+      upstream: FreeBSD project
+      version: '15.0'
+    ugidfw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libugidfw
+      description: Firewall-like access controls for file system objects
+      directory: usr.sbin/ugidfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ugidfw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ugidfw
+      upstream: FreeBSD project
+      version: '15.0'
+    umbctl:
+      description: Display or set MBIM cellular modem interface parameters (4G/LTE)
+      directory: sbin/umbctl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=umbctl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/umbctl
+      upstream: FreeBSD project
+      version: '15.0'
+    umount:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Unmount file systems
+      directory: sbin/umount
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=umount(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/umount
+      upstream: FreeBSD project
+      version: '15.0'
+    usbconfig:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libusb
+      description: Configure the USB subsystem
+      directory: usr.sbin/usbconfig
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=usbconfig(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usbconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    usbdump:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Dump traffic on USB host controller
+      directory: usr.sbin/usbdump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=usbdump(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usbdump
+      upstream: FreeBSD project
+      version: '15.0'
+    utx:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Manage the user accounting database
+      directory: usr.sbin/utx
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=utx(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/utx
+      upstream: FreeBSD project
+      version: '15.0'
+    valectl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnetmap
+      description: Manage VALE network switches provided by netmap
+      directory: usr.sbin/valectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=valectl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/valectl
+      upstream: FreeBSD project
+      version: '15.0'
+    veriexec:
+      depends:
+        - csu
+        - libbearssl
+        - libc
+        - libcompiler_rt
+        - libveriexec
+      description: Manipulate state of mac_veriexec
+      directory: sbin/veriexec
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=veriexec(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/veriexec
+      upstream: FreeBSD project
+      version: '15.0'
+    vigr:
+      description: Edit the group file
+      directory: usr.sbin/vigr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vigr(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/vigr
+      upstream: FreeBSD project
+      version: '15.0'
+    vipw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Edit the password file
+      directory: usr.sbin/vipw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vipw(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/vipw
+      upstream: FreeBSD project
+      version: '15.0'
+    virtual_bt_speaker:
+      description: Virtual bluetooth speaker
+      directory: usr.sbin/virtual_oss/virtual_bt_speaker
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=virtual_bt_speaker(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/virtual_bt_speaker
+      upstream: FreeBSD project
+      version: '15.0'
+    virtual_equalizer:
+      description: Audio equalizer
+      directory: usr.sbin/virtual_oss/virtual_equalizer
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=virtual_equalizer(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/virtual_equalizer
+      upstream: FreeBSD project
+      version: '15.0'
+    virtual_oss:
+      description: Daemon to multiplex and demultiplex an OSS device
+      directory: usr.sbin/virtual_oss/virtual_oss
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=virtual_oss(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/virtual_oss
+      upstream: FreeBSD project
+      version: '15.0'
+    virtual_oss_cmd:
+      description: Modify a running virtual_oss(8) instance's options
+      directory: usr.sbin/virtual_oss/virtual_oss_cmd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=virtual_oss_cmd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/virtual_oss_cmd
+      upstream: FreeBSD project
+      version: '15.0'
+    vmstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libdevstat
+        - libkvm
+        - libmemstat
+        - libutil
+        - libxo
+      description: Report virtual memory statistics
+      directory: usr.bin/vmstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vmstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/vmstat
+      upstream: FreeBSD project
+      version: '15.0'
+    vtfontcvt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Convert font files for use by the video console
+      directory: usr.bin/vtfontcvt
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vtfontcvt(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/vtfontcvt
+      upstream: FreeBSD project
+      version: '15.0'
+    wake:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send Wake on LAN frames to hosts on a local Ethernet network
+      directory: usr.sbin/wake
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=wake(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/wake
+      upstream: FreeBSD project
+      version: '15.0'
+    watch:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - tinfo
+      description: Snoop on another tty line
+      directory: usr.sbin/watch
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=watch(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/watch
+      upstream: FreeBSD project
+      version: '15.0'
+    watchdog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - msun
+      description: Watchdog control program
+      directory: usr.sbin/watchdogd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=watchdog(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/watchdog
+      upstream: FreeBSD project
+      version: '15.0'
+    watchdogd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - msun
+      description: Watchdog daemon
+      directory: usr.sbin/watchdogd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=watchdogd(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/watchdogd
+      upstream: FreeBSD project
+      version: '15.0'
+    wlandebug:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libifconfig
+        - msun
+      description: Set/query 802.11 wireless debugging messages
+      directory: usr.sbin/wlandebug
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=wlandebug(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/wlandebug
+      upstream: FreeBSD project
+      version: '15.0'
+    wlanstat:
+      description: Query 802.11 wireless network statistics
+      directory: usr.sbin/wlanstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=wlanstat(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/wlanstat
+      upstream: FreeBSD project
+      version: '15.0'
+    wpa_cli:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpcap
+        - libutil
+      description: Console utility for WiFi authentication with wpa_supplicant
+      directory: usr.sbin/wpa/wpa_cli
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=wpa_cli(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/wpa_cli
+      upstream: FreeBSD project
+      version: '15.0'
+    wpa_passphrase:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: >-
+        Utility for generating a 256-bit pre-shared WPA key from an ASCII
+        passphrase
+      directory: usr.sbin/wpa/wpa_passphrase
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=wpa_passphrase(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/wpa_passphrase
+      upstream: FreeBSD project
+      version: '15.0'
+    yp_mkdb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Generate the NIS databases
+      directory: usr.sbin/yp_mkdb
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=yp_mkdb(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/yp_mkdb
+      upstream: FreeBSD project
+      version: '15.0'
+    ypbind:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: NIS domain binding daemon
+      directory: usr.sbin/ypbind
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypbind(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypbind
+      upstream: FreeBSD project
+      version: '15.0'
+    ypinit:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Build and install NIS databases
+      directory: usr.sbin/ypserv
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypinit(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypinit
+      upstream: FreeBSD project
+      version: '15.0'
+    ypldap:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libevent1
+        - libopenbsd
+        - librpcsvc
+        - libutil
+      description: YP map server using LDAP backend
+      directory: usr.sbin/ypldap
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypldap(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypldap
+      upstream: FreeBSD project
+      version: '15.0'
+    yppoll:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Ask version of NIS map from NIS server
+      directory: usr.sbin/yppoll
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=yppoll(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/yppoll
+      upstream: FreeBSD project
+      version: '15.0'
+    yppush:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Force propagation of updated NIS databases
+      directory: usr.sbin/yppush
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=yppush(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/yppush
+      upstream: FreeBSD project
+      version: '15.0'
+    ypserv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: NIS database server
+      directory: usr.sbin/ypserv
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypserv(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypserv
+      upstream: FreeBSD project
+      version: '15.0'
+    ypset:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Tell ypbind(8) which NIS server process to use
+      directory: usr.sbin/ypset
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypset(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypset
+      upstream: FreeBSD project
+      version: '15.0'
+    ypxfr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - librpcsvc
+      description: Transfer NIS database from remote server to local host
+      directory: libexec/ypxfr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypxfr(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/ypxfr
+      upstream: FreeBSD project
+      version: '15.0'
+    zfsbootcfg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Specify zfsboot options for the next boot
+      directory: sbin/zfsbootcfg
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zfsbootcfg(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/zfsbootcfg
+      upstream: FreeBSD project
+      version: '15.0'
+    zonectl:
+      depends:
+        - csu
+        - libc
+        - libcam
+        - libcompiler_rt
+        - libsbuf
+        - libutil
+      description: Shingled Magnetic Recording Zone Control utility
+      directory: usr.sbin/zonectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zonectl(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/zonectl
+      upstream: FreeBSD project
+      version: '15.0'
+    zzz:
+      description: Suspend an ACPI or APM system
+      directory: usr.sbin/zzz
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zzz(8)
+      license: NOASSERTION
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/zzz
+      upstream: FreeBSD project
+      version: '15.0'
   Internal:
     libc:
       description: FreeBSD libc
