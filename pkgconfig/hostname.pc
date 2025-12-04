@@ -1,0 +1,7 @@
+Name: hostname
+Description: Set or print the name of current host system
+URL: https://man.freebsd.org/cgi/man.cgi?query=hostname(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/hostname
+Requires: csu, libc, libcompiler\_rt

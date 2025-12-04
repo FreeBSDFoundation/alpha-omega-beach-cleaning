@@ -1,0 +1,7 @@
+Name: pam\_ssh
+Description: Authentication and session management with SSH private keys
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_ssh(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_ssh
+Requires: csu, libc, libcompiler\_rt, libpam

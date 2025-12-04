@@ -1,0 +1,7 @@
+Name: who
+Description: Display who is on the system
+URL: https://man.freebsd.org/cgi/man.cgi?query=who(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/who
+Requires: csu, libc, libcompiler\_rt

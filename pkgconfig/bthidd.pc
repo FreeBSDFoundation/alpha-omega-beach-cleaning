@@ -1,0 +1,7 @@
+Name: bthidd
+Description: Bluetooth HID daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=bthidd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/bthidd
+Requires: csu, libbluetooth, libc, libcompiler\_rt, libusbhid

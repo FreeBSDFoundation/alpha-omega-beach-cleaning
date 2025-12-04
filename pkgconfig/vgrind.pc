@@ -1,0 +1,7 @@
+Name: vgrind
+Description: Grind nice listings of programs
+URL: https://man.freebsd.org/cgi/man.cgi?query=vgrind(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/vgrind
+Requires: csu, libc, libcompiler\_rt

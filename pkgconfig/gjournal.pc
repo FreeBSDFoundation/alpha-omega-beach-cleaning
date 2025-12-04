@@ -1,0 +1,7 @@
+Name: gjournal
+Description: Control utility for journaled devices
+URL: https://man.freebsd.org/cgi/man.cgi?query=gjournal(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/gjournal
+Requires: csu, libc, libcompiler\_rt, libgeom, libmd, libufs

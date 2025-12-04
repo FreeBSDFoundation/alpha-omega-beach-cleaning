@@ -1,0 +1,7 @@
+Name: fsync
+Description: Synchronize a file's in-core state with that on disk
+URL: https://man.freebsd.org/cgi/man.cgi?query=fsync(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/fsync
+Requires: csu, libc, libcompiler\_rt

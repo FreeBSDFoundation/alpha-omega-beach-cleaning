@@ -1,0 +1,7 @@
+Name: services\_mkdb
+Description: Generate the services database
+URL: https://man.freebsd.org/cgi/man.cgi?query=services\_mkdb(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/services\_mkdb
+Requires: csu, libc, libcompiler\_rt, libutil

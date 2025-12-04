@@ -1,0 +1,7 @@
+Name: rfcomm\_pppd
+Description: RFCOMM PPP daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=rfcomm\_pppd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rfcomm\_pppd
+Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp

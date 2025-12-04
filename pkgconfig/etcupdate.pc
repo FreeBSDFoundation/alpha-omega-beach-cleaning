@@ -1,0 +1,6 @@
+Name: etcupdate
+Description: Manage updates to system files not updated by installworld
+URL: https://man.freebsd.org/cgi/man.cgi?query=etcupdate(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/etcupdate

@@ -1,0 +1,7 @@
+Name: prometheus\_sysctl\_exporter
+Description: Print kernel state as Prometheus metrics
+URL: https://man.freebsd.org/cgi/man.cgi?query=prometheus\_sysctl\_exporter(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/prometheus\_sysctl\_exporter
+Requires: csu, libc, libcompiler\_rt, libz, msun

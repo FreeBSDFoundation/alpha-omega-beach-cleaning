@@ -1,0 +1,7 @@
+Name: ypxfr
+Description: Transfer NIS database from remote server to local host
+URL: https://man.freebsd.org/cgi/man.cgi?query=ypxfr(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ypxfr
+Requires: csu, libc, libcompiler\_rt, librpcsvc

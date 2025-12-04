@@ -1,0 +1,6 @@
+Name: rpc.tlsclntd
+Description: Sun RPC over TLS Client Daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=rpc.tlsclntd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rpc.tlsclntd

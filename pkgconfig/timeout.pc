@@ -1,0 +1,7 @@
+Name: timeout
+Description: Run a command with a time limit
+URL: https://man.freebsd.org/cgi/man.cgi?query=timeout(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/timeout
+Requires: csu, libc, libcompiler\_rt

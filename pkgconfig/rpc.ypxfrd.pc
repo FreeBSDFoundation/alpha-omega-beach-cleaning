@@ -1,0 +1,7 @@
+Name: rpc.ypxfrd
+Description: NIS map transfer server
+URL: https://man.freebsd.org/cgi/man.cgi?query=rpc.ypxfrd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rpc.ypxfrd
+Requires: csu, libc, libcompiler\_rt, librpcsvc

@@ -1,0 +1,7 @@
+Name: ipcrm
+Description: Remove the specified message queues, semaphore sets, and shared segments
+URL: https://man.freebsd.org/cgi/man.cgi?query=ipcrm(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ipcrm
+Requires: csu, libc, libcompiler\_rt, libkvm

@@ -1,0 +1,7 @@
+Name: ifmcstat
+Description: Dump multicast group management statistics per interface
+URL: https://man.freebsd.org/cgi/man.cgi?query=ifmcstat(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ifmcstat
+Requires: csu, libc, libcompiler\_rt

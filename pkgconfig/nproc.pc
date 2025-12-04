@@ -1,0 +1,7 @@
+Name: nproc
+Description: Print the number of processors
+URL: https://man.freebsd.org/cgi/man.cgi?query=nproc(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nproc
+Requires: csu, libc, libcompiler\_rt

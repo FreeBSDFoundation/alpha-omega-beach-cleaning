@@ -1,0 +1,6 @@
+Name: bsdconfig
+Description: System configuration utility
+URL: https://man.freebsd.org/cgi/man.cgi?query=bsdconfig(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/bsdconfig

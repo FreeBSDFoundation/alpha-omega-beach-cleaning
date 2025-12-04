@@ -1,0 +1,7 @@
+Name: rpc.rusersd
+Description: Logged in users server
+URL: https://man.freebsd.org/cgi/man.cgi?query=rpc.rusersd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rpc.rusersd
+Requires: csu, libc, libcompiler\_rt, librpcsvc

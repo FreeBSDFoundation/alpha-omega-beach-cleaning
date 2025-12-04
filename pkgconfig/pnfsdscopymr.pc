@@ -1,0 +1,7 @@
+Name: pnfsdscopymr
+Description: Copy or move a data storage file for a MDS file to a different DS
+URL: https://man.freebsd.org/cgi/man.cgi?query=pnfsdscopymr(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pnfsdscopymr
+Requires: csu, libc, libcompiler\_rt

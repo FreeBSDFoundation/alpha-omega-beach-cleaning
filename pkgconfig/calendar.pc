@@ -1,0 +1,7 @@
+Name: calendar
+Description: Reminder service
+URL: https://man.freebsd.org/cgi/man.cgi?query=calendar(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/calendar
+Requires: csu, libc, libcompiler\_rt, libutil, msun

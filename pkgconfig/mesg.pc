@@ -1,0 +1,7 @@
+Name: mesg
+Description: Display (do not display) messages from other users
+URL: https://man.freebsd.org/cgi/man.cgi?query=mesg(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mesg
+Requires: csu, libc, libcompiler\_rt

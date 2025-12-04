@@ -1,0 +1,7 @@
+Name: pam\_echo
+Description: Echo PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_echo(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_echo
+Requires: csu, libc, libcompiler\_rt, libpam

@@ -1,0 +1,7 @@
+Name: find
+Description: Walk a file hierarchy
+URL: https://man.freebsd.org/cgi/man.cgi?query=find(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/find
+Requires: csu, libc, libcompiler\_rt

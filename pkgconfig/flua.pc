@@ -1,0 +1,6 @@
+Name: flua
+Description: Lua interpreter for the FreeBSD base system
+URL: https://man.freebsd.org/cgi/man.cgi?query=flua(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/flua

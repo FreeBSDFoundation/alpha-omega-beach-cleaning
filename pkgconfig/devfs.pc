@@ -1,0 +1,7 @@
+Name: devfs
+Description: DEVFS control
+URL: https://man.freebsd.org/cgi/man.cgi?query=devfs(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/devfs
+Requires: csu, libc, libcompiler\_rt

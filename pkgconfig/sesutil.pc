@@ -1,0 +1,7 @@
+Name: sesutil
+Description: Utility for managing SCSI Enclosure Services (SES) device
+URL: https://man.freebsd.org/cgi/man.cgi?query=sesutil(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/sesutil
+Requires: csu, libc, libcompiler\_rt, libxo

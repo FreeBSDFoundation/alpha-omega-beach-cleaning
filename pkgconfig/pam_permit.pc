@@ -1,0 +1,7 @@
+Name: pam\_permit
+Description: Promiscuous PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_permit(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_permit
+Requires: csu, libc, libcompiler\_rt, libpam

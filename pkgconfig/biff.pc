@@ -1,0 +1,7 @@
+Name: biff
+Description: Be notified if mail arrives and who it is from
+URL: https://man.freebsd.org/cgi/man.cgi?query=biff(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/biff
+Requires: csu, libc, libcompiler\_rt

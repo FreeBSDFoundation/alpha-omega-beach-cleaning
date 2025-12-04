@@ -1,0 +1,7 @@
+Name: fdread
+Description: Read floppy disks
+URL: https://man.freebsd.org/cgi/man.cgi?query=fdread(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/fdread
+Requires: csu, libc, libcompiler\_rt

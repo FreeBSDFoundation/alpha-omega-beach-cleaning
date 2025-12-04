@@ -1,0 +1,7 @@
+Name: fingerd
+Description: Remote user information server
+URL: https://man.freebsd.org/cgi/man.cgi?query=fingerd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/fingerd
+Requires: csu, libc, libcompiler\_rt, libutil

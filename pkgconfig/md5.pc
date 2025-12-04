@@ -1,0 +1,7 @@
+Name: md5
+Description: Calculate a message-digest fingerprint (checksum) for a file
+URL: https://man.freebsd.org/cgi/man.cgi?query=md5(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/md5
+Requires: csu, libc, libcapsicum, libcasper, cap\_fileargs, libcompiler\_rt, libmd

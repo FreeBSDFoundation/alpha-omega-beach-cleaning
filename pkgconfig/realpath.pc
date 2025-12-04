@@ -1,0 +1,7 @@
+Name: realpath
+Description: Return resolved physical path
+URL: https://man.freebsd.org/cgi/man.cgi?query=realpath(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/realpath
+Requires: csu, libc, libcompiler\_rt

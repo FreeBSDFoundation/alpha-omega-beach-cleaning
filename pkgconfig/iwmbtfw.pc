@@ -1,0 +1,7 @@
+Name: iwmbtfw
+Description: Load firmware for Intel Wireless AC Bluetooth USB devices
+URL: https://man.freebsd.org/cgi/man.cgi?query=iwmbtfw(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/iwmbtfw
+Requires: csu, libc, libcompiler\_rt, libusb

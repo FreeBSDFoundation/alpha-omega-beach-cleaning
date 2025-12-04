@@ -1,0 +1,7 @@
+Name: automountd
+Description: Daemon handling autofs mount requests
+URL: https://man.freebsd.org/cgi/man.cgi?query=automountd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/automountd
+Requires: csu, libc, libcompiler\_rt, libutil

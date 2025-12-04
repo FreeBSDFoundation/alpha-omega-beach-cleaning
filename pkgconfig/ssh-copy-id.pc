@@ -1,0 +1,6 @@
+Name: ssh-copy-id
+Description: Copy public keys to a remote host
+URL: https://man.freebsd.org/cgi/man.cgi?query=ssh-copy-id(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ssh-copy-id

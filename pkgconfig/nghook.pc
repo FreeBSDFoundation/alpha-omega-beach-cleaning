@@ -1,0 +1,7 @@
+Name: nghook
+Description: Connect to a netgraph(4) node
+URL: https://man.freebsd.org/cgi/man.cgi?query=nghook(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nghook
+Requires: csu, libc, libcompiler\_rt, libnetgraph

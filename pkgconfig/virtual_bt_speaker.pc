@@ -1,0 +1,6 @@
+Name: virtual\_bt\_speaker
+Description: Virtual bluetooth speaker
+URL: https://man.freebsd.org/cgi/man.cgi?query=virtual\_bt\_speaker(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/virtual\_bt\_speaker

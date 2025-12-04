@@ -1,0 +1,7 @@
+Name: ctladm
+Description: CAM Target Layer control utility
+URL: https://man.freebsd.org/cgi/man.cgi?query=ctladm(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ctladm
+Requires: csu, libc, libcam, libcompiler\_rt, libexpat, libnv, libsbuf, libutil

@@ -1,0 +1,7 @@
+Name: revnetgroup
+Description: Generate reverse netgroup data
+URL: https://man.freebsd.org/cgi/man.cgi?query=revnetgroup(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/revnetgroup
+Requires: csu, libc, libcompiler\_rt

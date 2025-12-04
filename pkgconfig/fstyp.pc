@@ -1,0 +1,7 @@
+Name: fstyp
+Description: Determine filesystem type
+URL: https://man.freebsd.org/cgi/man.cgi?query=fstyp(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/fstyp
+Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, libgeom, libmd, libufs

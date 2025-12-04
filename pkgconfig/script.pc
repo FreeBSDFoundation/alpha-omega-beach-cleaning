@@ -1,0 +1,7 @@
+Name: script
+Description: Make typescript of terminal session
+URL: https://man.freebsd.org/cgi/man.cgi?query=script(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/script
+Requires: csu, libc, libcompiler\_rt, libutil

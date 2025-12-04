@@ -1,0 +1,7 @@
+Name: ofwdump
+Description: Examine the Open Firmware device tree
+URL: https://man.freebsd.org/cgi/man.cgi?query=ofwdump(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ofwdump
+Requires: csu, libc, libc\_nonshared, libcompiler\_rt

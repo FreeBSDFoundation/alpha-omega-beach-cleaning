@@ -1,0 +1,7 @@
+Name: mount\_fusefs
+Description: Mount a Fuse file system daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=mount\_fusefs(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mount\_fusefs
+Requires: csu, libc, libcompiler\_rt

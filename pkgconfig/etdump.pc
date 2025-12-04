@@ -1,0 +1,6 @@
+Name: etdump
+Description: Dump ISO-9660 El Torito boot catalog information
+URL: https://man.freebsd.org/cgi/man.cgi?query=etdump(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/etdump

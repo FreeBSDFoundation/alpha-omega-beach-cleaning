@@ -1,0 +1,7 @@
+Name: dconschat
+Description: User interface to dcons(4)
+URL: https://man.freebsd.org/cgi/man.cgi?query=dconschat(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/dconschat
+Requires: csu, libc, libcompiler\_rt, libkvm

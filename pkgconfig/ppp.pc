@@ -1,0 +1,7 @@
+Name: ppp
+Description: Point to Point Protocol (a.k.a. user-ppp)
+URL: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ppp
+Requires: csu, libalias, libc, libcompiler\_rt, libmd, libnetgraph, libpam, libradius, libutil, libz

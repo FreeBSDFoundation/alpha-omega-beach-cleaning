@@ -1,0 +1,7 @@
+Name: makefs
+Description: Create a file system image from a directory tree or a mtree manifest
+URL: https://man.freebsd.org/cgi/man.cgi?query=makefs(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/makefs
+Requires: csu, libc, libcompiler\_rt, libnetbsd, libsbuf, libutil

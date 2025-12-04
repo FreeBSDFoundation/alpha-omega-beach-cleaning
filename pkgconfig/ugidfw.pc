@@ -1,0 +1,7 @@
+Name: ugidfw
+Description: Firewall-like access controls for file system objects
+URL: https://man.freebsd.org/cgi/man.cgi?query=ugidfw(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ugidfw
+Requires: csu, libc, libcompiler\_rt, libugidfw

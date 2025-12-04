@@ -1,0 +1,7 @@
+Name: nfsuserd
+Description: Load user and group information into the kernel for NFSv4 services plus support manage-gids for all NFS versions
+URL: https://man.freebsd.org/cgi/man.cgi?query=nfsuserd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nfsuserd
+Requires: csu, libc, libcompiler\_rt

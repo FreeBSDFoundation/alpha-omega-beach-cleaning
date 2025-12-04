@@ -1,0 +1,7 @@
+Name: echo
+Description: Write arguments to the standard output
+URL: https://man.freebsd.org/cgi/man.cgi?query=echo(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/echo
+Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt

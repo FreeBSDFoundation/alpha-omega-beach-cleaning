@@ -1,0 +1,7 @@
+Name: kldload
+Description: Load a file into the kernel
+URL: https://man.freebsd.org/cgi/man.cgi?query=kldload(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/kldload
+Requires: csu, libc, libcompiler\_rt

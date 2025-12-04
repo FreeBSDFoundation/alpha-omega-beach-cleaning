@@ -1,0 +1,7 @@
+Name: sa
+Description: Print system accounting statistics
+URL: https://man.freebsd.org/cgi/man.cgi?query=sa(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/sa
+Requires: csu, libc, libcompiler\_rt

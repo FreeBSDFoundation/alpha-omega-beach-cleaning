@@ -1,0 +1,7 @@
+Name: dumpcis
+Description: PC Card and Cardbus (PCMCIA) CIS display tool
+URL: https://man.freebsd.org/cgi/man.cgi?query=dumpcis(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/dumpcis
+Requires: csu, libc, libcompiler\_rt

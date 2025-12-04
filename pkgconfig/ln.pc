@@ -1,0 +1,7 @@
+Name: ln
+Description: Link files
+URL: https://man.freebsd.org/cgi/man.cgi?query=ln(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ln
+Requires: csu, libc, libcompiler\_rt

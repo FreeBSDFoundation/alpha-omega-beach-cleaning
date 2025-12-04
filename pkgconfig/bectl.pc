@@ -1,0 +1,7 @@
+Name: bectl
+Description: Manage ZFS boot environments
+URL: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/bectl
+Requires: csu, libbe, libc, libcompiler\_rt, libjail, libutil

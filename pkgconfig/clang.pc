@@ -1,0 +1,7 @@
+Name: clang
+Description: The Clang C, C++, and Objective-C compiler
+URL: https://llvm.org
+Version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+License: Apache-2.0
+Source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+Requires: csu, libclang, libllvm, libc, libc++, libcompiler\_rt, libcxxrt, libexecinfo, libthr, libz, libzstd, msun, ncurses, tinfo

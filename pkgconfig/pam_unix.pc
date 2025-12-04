@@ -1,0 +1,7 @@
+Name: pam\_unix
+Description: UNIX PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_unix(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_unix
+Requires: csu, libc, libcompiler\_rt, libcrypt, libpam, libutil

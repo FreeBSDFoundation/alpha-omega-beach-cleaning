@@ -1,0 +1,7 @@
+Name: rfcomm\_sppd
+Description: RFCOMM Serial Port Profile daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=rfcomm\_sppd(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rfcomm\_sppd
+Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp, libutil

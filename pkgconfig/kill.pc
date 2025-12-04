@@ -1,0 +1,7 @@
+Name: kill
+Description: Terminate or signal a process
+URL: https://man.freebsd.org/cgi/man.cgi?query=kill(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/kill
+Requires: csu, libc, libcompiler\_rt

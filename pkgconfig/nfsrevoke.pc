@@ -1,0 +1,7 @@
+Name: nfsrevoke
+Description: Revoke NFS V4 client
+URL: https://man.freebsd.org/cgi/man.cgi?query=nfsrevoke(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nfsrevoke
+Requires: csu, libc, libcompiler\_rt

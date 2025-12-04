@@ -1,0 +1,7 @@
+Name: route6d
+Description: RIP6 Routing Daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=route6d(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/route6d
+Requires: csu, libc, libcompiler\_rt

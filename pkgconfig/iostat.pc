@@ -1,0 +1,7 @@
+Name: iostat
+Description: Report I/O statistics
+URL: https://man.freebsd.org/cgi/man.cgi?query=iostat(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/iostat
+Requires: csu, libc, libcompiler\_rt, libdevstat, libkvm, msun

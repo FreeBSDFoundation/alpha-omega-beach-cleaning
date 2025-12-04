@@ -1,0 +1,7 @@
+Name: cpucontrol
+Description: Control utility for the cpuctl(4) device
+URL: https://man.freebsd.org/cgi/man.cgi?query=cpucontrol(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/cpucontrol
+Requires: csu, libc, libcompiler\_rt

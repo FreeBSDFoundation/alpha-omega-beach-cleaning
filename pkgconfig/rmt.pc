@@ -1,0 +1,7 @@
+Name: rmt
+Description: Remote magtape protocol module
+URL: https://man.freebsd.org/cgi/man.cgi?query=rmt(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rmt
+Requires: csu, libc, libcompiler\_rt

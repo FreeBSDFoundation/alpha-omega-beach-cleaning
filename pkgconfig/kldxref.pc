@@ -1,0 +1,7 @@
+Name: kldxref
+Description: Generate hints for the kernel loader
+URL: https://man.freebsd.org/cgi/man.cgi?query=kldxref(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/kldxref
+Requires: csu, libc, libcompiler\_rt, libelf

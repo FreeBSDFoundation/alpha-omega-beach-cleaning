@@ -1,0 +1,7 @@
+Name: pam\_nologin
+Description: NoLogin PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_nologin(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_nologin
+Requires: csu, libc, libcompiler\_rt, libpam, libutil

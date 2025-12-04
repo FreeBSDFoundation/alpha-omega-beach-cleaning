@@ -1,0 +1,7 @@
+Name: pstat
+Description: Display system data structures
+URL: https://man.freebsd.org/cgi/man.cgi?query=pstat(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pstat
+Requires: csu, libc, libcompiler\_rt, libkvm, libutil

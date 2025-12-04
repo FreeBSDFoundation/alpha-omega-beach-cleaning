@@ -1,0 +1,7 @@
+Name: du
+Description: Display disk usage statistics
+URL: https://man.freebsd.org/cgi/man.cgi?query=du(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/du
+Requires: csu, libc, libcompiler\_rt, libutil, libxo

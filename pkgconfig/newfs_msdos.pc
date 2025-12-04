@@ -1,0 +1,7 @@
+Name: newfs\_msdos
+Description: Construct a new MS-DOS (FAT) file system
+URL: https://man.freebsd.org/cgi/man.cgi?query=newfs\_msdos(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/newfs\_msdos
+Requires: csu, libc, libcompiler\_rt

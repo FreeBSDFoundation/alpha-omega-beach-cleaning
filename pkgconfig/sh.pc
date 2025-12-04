@@ -1,0 +1,7 @@
+Name: sh
+Description: Command interpreter (shell)
+URL: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/sh
+Requires: csu, libc, libcompiler\_rt, libedit

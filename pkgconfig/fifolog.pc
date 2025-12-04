@@ -1,0 +1,7 @@
+Name: fifolog
+Description: Initialize, write, seek and extract data from a fifolog
+URL: https://man.freebsd.org/cgi/man.cgi?query=fifolog(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/fifolog
+Requires: csu, libc, libcompiler\_rt, libutil, libz

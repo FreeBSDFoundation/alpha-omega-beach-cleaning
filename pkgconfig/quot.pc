@@ -1,0 +1,7 @@
+Name: quot
+Description: Display disk space occupied by each user
+URL: https://man.freebsd.org/cgi/man.cgi?query=quot(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/quot
+Requires: csu, libc, libcompiler\_rt, libufs

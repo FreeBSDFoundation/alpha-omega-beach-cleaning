@@ -1,0 +1,6 @@
+Name: ntpdate
+Description: Set the date and time via NTP
+URL: https://man.freebsd.org/cgi/man.cgi?query=ntpdate(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ntpdate

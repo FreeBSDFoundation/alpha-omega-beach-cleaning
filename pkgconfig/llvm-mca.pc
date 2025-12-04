@@ -1,0 +1,6 @@
+Name: llvm-mca
+Description: LLVM Machine Code Analyzer
+URL: https://llvm.org
+Version: 15.0
+License: Apache-2.0
+Source: https://cgit.freebsd.org/src/tree/llvm-mca

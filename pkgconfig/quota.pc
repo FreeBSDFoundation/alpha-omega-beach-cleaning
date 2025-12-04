@@ -1,0 +1,7 @@
+Name: quota
+Description: Display disk usage and limits
+URL: https://man.freebsd.org/cgi/man.cgi?query=quota(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/quota
+Requires: csu, libc, libcompiler\_rt, librpcsvc, libutil

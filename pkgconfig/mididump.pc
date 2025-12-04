@@ -1,0 +1,6 @@
+Name: mididump
+Description: Dump MIDI events
+URL: https://man.freebsd.org/cgi/man.cgi?query=mididump(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mididump

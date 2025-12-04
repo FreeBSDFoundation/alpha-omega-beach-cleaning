@@ -1,0 +1,7 @@
+Name: rup
+Description: Remote status display
+URL: https://man.freebsd.org/cgi/man.cgi?query=rup(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rup
+Requires: csu, libc, libcompiler\_rt, librpcsvc
