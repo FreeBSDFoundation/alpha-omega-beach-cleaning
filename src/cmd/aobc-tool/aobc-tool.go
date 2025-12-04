@@ -471,20 +471,21 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				} else {
+					fmt.Fprintf(ofile, "| __%s__", textEscape(section.Content[j].Value))
+					for range columns {
+						fmt.Fprintf(ofile, " |")
+					}
+					fmt.Fprintf(ofile, "\n")
+				}
+				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for range columns {
-								fmt.Fprintf(ofile, " |")
-							}
-							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -503,7 +504,10 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							reportRow(ofile, columns, values)
+							//XXX hard-coded
+							if _, exists := values["plan"]; exists && len(values["plan"]) > 0 {
+								reportRow(ofile, columns, values)
+							}
 						}
 					}
 				}
