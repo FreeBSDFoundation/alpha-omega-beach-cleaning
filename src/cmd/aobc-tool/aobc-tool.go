@@ -383,13 +383,13 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 			}
 			section := top.Content[i+1]
 			for j := 0; j < len(section.Content); j += 2 {
-				v := section.Content[j+1]
 				//new section
 				if section.Content[j].Value == sectionIgnore {
 					prefix = "FreeBSD-"
 				} else {
 					prefix = ""
 				}
+				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
 						if v.Content[k+1].Kind == yaml.MappingNode {
