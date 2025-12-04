@@ -64,8 +64,8 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 
 	//obtain the columns
 	columns := [2]tuple{
-		{ "owner", "Owner" },
-		{ "directory", "Directory" },
+		{"owner", "Owner"},
+		{"directory", "Directory"},
 	}
 
 	switch top.Kind {
@@ -106,7 +106,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
 												owners = append(owners, entry.Content[m+1].Value)
 											}
-									} else if col.key == "directory" &&
+										} else if col.key == "directory" &&
 											entry.Content[m].Value == col.key {
 											if entry.Content[m+1].Kind == yaml.SequenceNode {
 												for _, w := range entry.Content[m+1].Content {
@@ -120,7 +120,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 								}
 							}
 							for _, v := range directories {
-								if matched := strings.HasPrefix(path + "/", v + "/"); matched {
+								if matched := strings.HasPrefix(path+"/", v+"/"); matched {
 									fmt.Printf("Owner(s) for %s: (%s in %s)\n", values["title"], path, v)
 									for _, v := range owners {
 										fmt.Printf("- %s\n", v)
@@ -139,7 +139,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 	return err
 }
 
-func aobcGenerate(reports[] string) error {
+func aobcGenerate(reports []string) error {
 	var err error
 	var root yaml.Node
 
@@ -182,7 +182,7 @@ func aobcGenerate(reports[] string) error {
 }
 
 func aobcGenerateAll() error {
-	reports := []string{"codeowners", "dependencies", "plan", "securityreview", "pkgconfig" }
+	reports := []string{"codeowners", "dependencies", "plan", "securityreview", "pkgconfig"}
 
 	return aobcGenerate(reports)
 }
@@ -200,8 +200,8 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 
 	//obtain the columns
 	columns := [2]tuple{
-		{ "owner", "Owner" },
-		{ "directory", "Directory" },
+		{"owner", "Owner"},
+		{"directory", "Directory"},
 	}
 
 	switch top.Kind {
@@ -242,7 +242,7 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
 												owners = append(owners, entry.Content[m+1].Value)
 											}
-									} else if col.key == "directory" &&
+										} else if col.key == "directory" &&
 											entry.Content[m].Value == col.key {
 											if entry.Content[m+1].Kind == yaml.SequenceNode {
 												for _, w := range entry.Content[m+1].Content {
