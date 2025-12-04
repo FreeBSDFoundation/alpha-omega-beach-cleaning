@@ -1,0 +1,22 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-pfC64
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: pf@
+
+PackageName: pf@
+SPDXID: SPDXRef-Package-pfC64
+PackageVersion: 
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: glebius@, kp@
+PackageHomePage: https://openbsd.org
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text></text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pfC64

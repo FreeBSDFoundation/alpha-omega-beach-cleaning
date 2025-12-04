@@ -9,12 +9,15 @@
 | libcxxrt | runtime | 1 |
 | LLVM | build, runtime, user | 3 |
 | unifdef | build | 1 |
+| __General Commands__ | | |
+| __Macros and Conventions__ | | |
+| __Maintenance Commands__ | | |
 | __Kernel__ | | |
-| acpi(4) | build, firmware, kernel | 3 |
-| ice(4) | kernel, network | 2 |
-| ipfilter(4) | kernel, network | 2 |
-| pf(4) | kernel, network | 2 |
-| umb(4) | kernel, network | 2 |
+| acpi | build, firmware, kernel | 3 |
+| ice | kernel, network | 2 |
+| ipfilter | kernel, network | 2 |
+| pf | kernel, network | 2 |
+| umb | kernel, network | 2 |
 | ZFS | crypto, firmware, kernel, network | 4 |
 | zstd | firmware, kernel, user | 3 |
 | __Network Libraries__ | | |
@@ -56,10 +59,9 @@
 | libexpat | user | 1 |
 | libfido2 | auth, crypto, system, user | 4 |
 | liblzma | firmware, user | 2 |
-| libmagic (file) | user | 1 |
+| libmagic | user | 1 |
 | libucl | system, user | 2 |
 | libxo | user | 1 |
-| LibYAML |  |  |
 | mandoc | build, user | 2 |
 | ncurses | user | 1 |
 | OpenPAM | auth, system, user | 3 |

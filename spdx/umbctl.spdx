@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-umbctlC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: umbctl@15.0
+
+PackageName: umbctl@15.0
+SPDXID: SPDXRef-Package-umbctlC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=umbctl(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Display or set MBIM cellular modem interface parameters (4G/LTE)</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-umbctlC6415.0
