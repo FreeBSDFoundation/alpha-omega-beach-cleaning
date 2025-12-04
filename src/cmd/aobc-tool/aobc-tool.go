@@ -83,7 +83,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 							if v.Content[k].Value == sectionIgnore {
 								break
 							}
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var owners, directories []string
 							var values map[string]string
 
@@ -94,27 +94,26 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 
 							//collect the owners and paths
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											if col.key == "owner" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													for _, w := range entry.Content[m+1].Content {
-														owners = append(owners, w.Value)
-													}
-												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
-													owners = append(owners, entry.Content[m+1].Value)
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										if col.key == "owner" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												for _, w := range entry.Content[m+1].Content {
+													owners = append(owners, w.Value)
 												}
-										} else if col.key == "directory" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													for _, w := range entry.Content[m+1].Content {
-														directories = append(directories, w.Value)
-													}
-												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
-													directories = append(directories, entry.Content[m+1].Value)
+											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+												owners = append(owners, entry.Content[m+1].Value)
+											}
+									} else if col.key == "directory" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												for _, w := range entry.Content[m+1].Content {
+													directories = append(directories, w.Value)
 												}
+											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+												directories = append(directories, entry.Content[m+1].Value)
 											}
 										}
 									}
