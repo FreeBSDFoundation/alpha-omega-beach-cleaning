@@ -36,925 +36,925 @@ SecurityImpacts:
 Sections:
   - Compilation Infrastructure:
     bmake:
-      - description: Program designed to simplify the maintenance of other programs
-      - directory: contrib/bmake
-      - version: 20250804
-      - license: BSD-3-Clause
-      - upstream: NetBSD
-      - homepage: https://www.NetBSD.org
-      - source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
-      - security:
+      description: Program designed to simplify the maintenance of other programs
+      directory: contrib/bmake
+      version: 20250804
+      license: BSD-3-Clause
+      upstream: NetBSD
+      homepage: https://www.NetBSD.org
+      source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
+      security:
         - build
-      - plan: fix
+      plan: fix
     byacc:
-      - description: Parser generator designed to be compatible with Yacc
-      - directory: contrib/byacc
-      - version: 20240109
-      - upstream: invisible-island
-      - homepage: https://invisible-island.net/byacc/
-      - source: https://invisible-island.net/datafiles/release/byacc.tar.gz
-      - security:
+      description: Parser generator designed to be compatible with Yacc
+      directory: contrib/byacc
+      version: 20240109
+      upstream: invisible-island
+      homepage: https://invisible-island.net/byacc/
+      source: https://invisible-island.net/datafiles/release/byacc.tar.gz
+      security:
         - build
-      - plan: fix
+      plan: fix
     dtc:
-      - description: FreeBSD Device Tree Compiler
-      - directory: usr.bin/dtc
-      - version: 23387dd
-      - license: BSD-2-Clause
-      - upstream: David Chisnall
-      - homepage: https://github.com/davidchisnall/dtc
-      - source: https://github.com/davidchisnall/dtc/tree/23387dd5462d38bf2e7301e2811913d82e167efc
-      - security:
+      description: FreeBSD Device Tree Compiler
+      directory: usr.bin/dtc
+      version: 23387dd
+      license: BSD-2-Clause
+      upstream: David Chisnall
+      homepage: https://github.com/davidchisnall/dtc
+      source: https://github.com/davidchisnall/dtc/tree/23387dd5462d38bf2e7301e2811913d82e167efc
+      security:
         - build
         - kernel
-      - depends:
+      depends:
         - libcxxrt
-      - plan: fix
+      plan: fix
     elftoolchain:
-      - description: BSD licensed ELF toolchain
-      - directory: contrib/elftoolchain
-      - version: r4912
-      - license: BSD-2-Clause
-      - upstream: elftoolchain
-      - homepage: https://sourceforge.net/projects/elftoolchain/
-      - source: https://sourceforge.net/p/elftoolchain/code/4192/tree/
-      - security:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/4192/tree/
+      security:
         - build
-      - plan: fix
+      plan: fix
     Git:
-      - description: Distributed Version Control System
-      - upstream: Git
-      - homepage: https://git-scm.com
-      - source: https://git.kernel.org/pub/scm/git/git.git
-      - security:
+      description: Distributed Version Control System
+      upstream: Git
+      homepage: https://git-scm.com
+      source: https://git.kernel.org/pub/scm/git/git.git
+      security:
         - build
         - crypto
         - network
         - user
-      - plan: import
+      plan: import
     libcxxrt:
-      - description: C++ ABI implementation providing low-level support for a standard C++ library
-      - directory: contrib/libcxxrt
-      - version: 6f2fdfebcd62
-      - license: BSD-2-Clause
-      - upstream:
-      - homepage: https://github.com/libcxxrt/libcxxrt
-      - source: https://github.com/libcxxrt/libcxxrt/tree/6f2fdfebcd6291d763de8b17740d636f01761890
-      - security:
+      description: C++ ABI implementation providing low-level support for a standard C++ library
+      directory: contrib/libcxxrt
+      version: 6f2fdfebcd62
+      license: BSD-2-Clause
+      upstream:
+      homepage: https://github.com/libcxxrt/libcxxrt
+      source: https://github.com/libcxxrt/libcxxrt/tree/6f2fdfebcd6291d763de8b17740d636f01761890
+      security:
         - runtime
-      - plan: fix
-      - owner:
+      plan: fix
+      owner:
         - dim@
         - emaste@
     LLVM:
-      - description: Collection of modular and reusable compiler and toolchain technologies
-      - directory: contrib/llvm-project
-      - version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
-      - upstream: LLVM
-      - homepage: https://llvm.org
-      - license: Apache-2.0
-      - source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
-      - security:
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory: contrib/llvm-project
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
         - build
         - runtime
         - user
-      - depends:
+      depends:
         - libcxxrt
         - ncurses
-      - plan: fix
-      - owner:
+      plan: fix
+      owner:
         - dim@
         - emaste@
         - jhb@
     unifdef:
-      - description: Selectively remove C preprocessor conditionals
-      - directory: contrib/unifdef
-      - version: 2.12
-      - upstream: Tony Finch
-      - homepage: https://dotat.at/prog/unifdef
-      - source: https://dotat.at/cgi/git/unifdef.git/tree/3a5ba6f9ecaadef4f3a118b35d0c89233609161d
-      - license: BSD-2-Clause AND BSD-3-Clause
-      - security:
+      description: Selectively remove C preprocessor conditionals
+      directory: contrib/unifdef
+      version: 2.12
+      upstream: Tony Finch
+      homepage: https://dotat.at/prog/unifdef
+      source: https://dotat.at/cgi/git/unifdef.git/tree/3a5ba6f9ecaadef4f3a118b35d0c89233609161d
+      license: BSD-2-Clause AND BSD-3-Clause
+      security:
         - build
-      - plan: fix
+      plan: fix
   - Internal:
     libc:
-      - description: FreeBSD libc
-      - directory:
+      description: FreeBSD libc
+      directory:
         - lib/libc
         - lib/libc_nonshared
-      - version: 14.3
-      - upstream: FreeBSD
-      - homepage: https://www.FreeBSD.org
-      - license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
-      - source: https://cgit.freebsd.org/src/tree/lib/libc
+      version: 14.3
+      upstream: FreeBSD
+      homepage: https://www.FreeBSD.org
+      license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+      source: https://cgit.freebsd.org/src/tree/lib/libc
     lyaml:
-      - description: LibYAML binding for Lua
-      - directory: contrib/lyaml
-      - version: 6.2.8
-      - upstream: Gary V. Vaughan
-      - homepage: https://gvvaughan.github.io/lyaml/
-      - license: MIT
-      - source: https://github.com/gvvaughan/lyaml
-      - depends:
+      description: LibYAML binding for Lua
+      directory: contrib/lyaml
+      version: 6.2.8
+      upstream: Gary V. Vaughan
+      homepage: https://gvvaughan.github.io/lyaml/
+      license: MIT
+      source: https://github.com/gvvaughan/lyaml
+      depends:
         - Lua
         - LibYAML
-      - plan: fix
+      plan: fix
     mkuzip:
-      - description: Compress disk image for use with geom_uzip(4) class
-      - directory: usr.bin
-      - version: 14.3
-      - upstream: FreeBSD
-      - homepage: https://www.FreeBSD.org
-      - license: BSD-2-Clause
-      - source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip
+      description: Compress disk image for use with geom_uzip(4) class
+      directory: usr.bin
+      version: 14.3
+      upstream: FreeBSD
+      homepage: https://www.FreeBSD.org
+      license: BSD-2-Clause
+      source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip
   - Kernel:
     acpi(4):
-      - description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
-      - directory: sys/contrib/dev/acpica
-      - version: 20250807
-      - upstream: Intel
-      - homepage: https://github.com/acpica/acpica
-      - source: https://github.com/acpica/acpica/tree/20250807
-      - security:
+      description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
+      directory: sys/contrib/dev/acpica
+      version: 20250807
+      upstream: Intel
+      homepage: https://github.com/acpica/acpica
+      source: https://github.com/acpica/acpica/tree/20250807
+      security:
         - build
         - firmware
         - kernel
-      - plan: fix
+      plan: fix
     ice(4):
-      - description: Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).
-      - directory: sys/contrib/dev/ice
-      - version: 1.3.41.0
-      - upstream: Intel
-      - homepage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
-      - source: https://www.intel.com/content/www/us/en/download/19660/772040/intel-ethernet-800-series-dynamic-device-personalization-ddp-for-telecommunication-comms-package.html
-      - security:
+      description: Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).
+      directory: sys/contrib/dev/ice
+      version: 1.3.41.0
+      upstream: Intel
+      homepage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
+      source: https://www.intel.com/content/www/us/en/download/19660/772040/intel-ethernet-800-series-dynamic-device-personalization-ddp-for-telecommunication-comms-package.html
+      security:
         - kernel
         - network
-      - plan: fix
-      - owner: erj@
+      plan: fix
+      owner: erj@
     ipfilter(4):
-      - description: IP Filter
-      - directory: sys/netpfil/ipfilter
-      - version: 5.1.2
-      - upstream: Phil Dibowitz
-      - homepage: https://www.phildev.net/ipf/
-      - security:
+      description: IP Filter
+      directory: sys/netpfil/ipfilter
+      version: 5.1.2
+      upstream: Phil Dibowitz
+      homepage: https://www.phildev.net/ipf/
+      security:
         - kernel
         - network
-      - plan: fork
-      - owner: cy@
+      plan: fork
+      owner: cy@
     pf(4):
-      - directory: sys/netpfil/pf
-      - upstream: OpenBSD
-      - homepage: https://openbsd.org
-      - security:
+      directory: sys/netpfil/pf
+      upstream: OpenBSD
+      homepage: https://openbsd.org
+      security:
         - kernel
         - network
-      - plan: fork
-      - owner:
+      plan: fork
+      owner:
         - glebius@
         - kp@
     umb(4):
-      - directory: sys/dev/usb/net
-      - upstream: OpenBSD
-      - homepage: https://openbsd.org
-      - security:
+      directory: sys/dev/usb/net
+      upstream: OpenBSD
+      homepage: https://openbsd.org
+      security:
         - kernel
         - network
-      - plan: fork
+      plan: fork
     ZFS:
-      - description: Open-source storage platform
-      - directory:
+      description: Open-source storage platform
+      directory:
         - sys/contrib/openzfs
         - cddl
-      - version: 2.4.0-rc3
-      - upstream: OpenZFS
-      - homepage: https://openzfs.org/wiki/Main_Page
-      - license: CDDL-1.0
-      - security:
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
         - crypto
         - firmware
         - kernel
         - network
-      - plan: fix
+      plan: fix
     zstd:
-      - description: Zstandard is a fast compression algorithm
-      - directory: sys/contrib/zstd
-      - version: 1.5.2
-      - upstream: Meta
-      - homepage: https://facebook.github.io/zstd/
-      - license: BSD-3-Clause
-      - source: https://github.com/facebook/zstd
-      - security:
+      description: Zstandard is a fast compression algorithm
+      directory: sys/contrib/zstd
+      version: 1.5.2
+      upstream: Meta
+      homepage: https://facebook.github.io/zstd/
+      license: BSD-3-Clause
+      source: https://github.com/facebook/zstd
+      security:
         - firmware
         - kernel
         - user
-      - plan: fix
+      plan: fix
   - Network Libraries:
     bsnmp:
-      - description: mini SNMP daemon
-      - directory: contrib/bsnmp
-      - version: 1.14
-      - upstream: Hartmut Brandt
-      - homepage: https://people.freebsd.org/~harti/bsnmp/
-      - license: BSD-2-Clause
-      - security:
+      description: mini SNMP daemon
+      directory: contrib/bsnmp
+      version: 1.14
+      upstream: Hartmut Brandt
+      homepage: https://people.freebsd.org/~harti/bsnmp/
+      license: BSD-2-Clause
+      security:
         - network
-      - plan: fix
+      plan: fix
     ldns:
-      - description: LDNS is a DNS library that facilitates DNS tool programming
-      - directory: contrib/ldns
-      - version: 1.8.3
-      - upstream: NLnet Labs
-      - homepage: https://github.com/NLnetLabs/ldns
-      - license: BSD-3-Clause
-      - security:
+      description: LDNS is a DNS library that facilitates DNS tool programming
+      directory: contrib/ldns
+      version: 1.8.3
+      upstream: NLnet Labs
+      homepage: https://github.com/NLnetLabs/ldns
+      license: BSD-3-Clause
+      security:
         - network
-      - plan: fix
+      plan: fix
     libpcap:
-      - description: Platform-independent network traffic capture library
-      - directory: contrib/libpcap
-      - version: 1.10.5
-      - upstream: TCPdump
-      - homepage: https://www.tcpdump.org
-      - license: BSD-3-Clause
-      - source: https://www.tcpdump.org/release/libpcap-1.10.5.tar.xz
-      - security:
+      description: Platform-independent network traffic capture library
+      directory: contrib/libpcap
+      version: 1.10.5
+      upstream: TCPdump
+      homepage: https://www.tcpdump.org
+      license: BSD-3-Clause
+      source: https://www.tcpdump.org/release/libpcap-1.10.5.tar.xz
+      security:
         - network
-      - plan: fix
+      plan: fix
   - Network Services:
     blocklist:
-      - description: Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.
-      - directory: contrib/blocklist
-      - version: 2025-04-28
-      - upstream: NetBSD
-      - homepage: https://www.NetBSD.org
-      - license: BSD-2-Clause
-      - source: https://github.com/zoulasc/blocklist/tree/8aa81bf70073715a749b1673884e84ac82cfce9f
-      - security:
+      description: Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.
+      directory: contrib/blocklist
+      version: 2025-04-28
+      upstream: NetBSD
+      homepage: https://www.NetBSD.org
+      license: BSD-2-Clause
+      source: https://github.com/zoulasc/blocklist/tree/8aa81bf70073715a749b1673884e84ac82cfce9f
+      security:
         - network
         - system
-      - plan: fix
+      plan: fix
     dma:
-      - description: DragonFly Mail Agent (DMA)
-      - directory: contrib/dma
-      - version: 2022-01-27
-      - upstream: DragonFly BSD
-      - homepage: https://www.dragonflybsd.org/handbook/mta/
-      - license: BSD-3-Clause AND BSD-2-Clause
-      - source: https://github.com/corecode/dma
-      - security:
+      description: DragonFly Mail Agent (DMA)
+      directory: contrib/dma
+      version: 2022-01-27
+      upstream: DragonFly BSD
+      homepage: https://www.dragonflybsd.org/handbook/mta/
+      license: BSD-3-Clause AND BSD-2-Clause
+      source: https://github.com/corecode/dma
+      security:
         - network
-      - plan: fix
+      plan: fix
     NTP:
-      - description: Network Time Protocol (NTP)
-      - directory: contrib/ntp
-      - version: 4.2.8p18
-      - upstream: NTP Project
-      - homepage: https://www.ntp.org
-      - source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
-      - security:
+      description: Network Time Protocol (NTP)
+      directory: contrib/ntp
+      version: 4.2.8p18
+      upstream: NTP Project
+      homepage: https://www.ntp.org
+      source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
+      security:
         - network
         - system
-      - plan: fix
+      plan: fix
     OpenSSH:
-      - description: Connectivity tool for remote login with the SSH protocol
-      - directory: crypto/openssh
-      - version: 10.0p2
-      - upstream: OpenBSD
-      - homepage: https://openssh.com
-      - license: SSH-OpenSSH
-      - source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
-      - security:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
         - auth
         - crypto
         - network
-      - plan: fix
-      - owner: des@
+      plan: fix
+      owner: des@
     Sendmail:
-      - description: General purpose internetwork email routing application
-      - directory: contrib/sendmail
-      - version: 8.18.1
-      - upstream: Proofpoint
-      - homepage: https://ftp.sendmail.org
-      - license: Sendmail
-      - source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
-      - security:
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
         - network
-      - depends:
+      depends:
         - OpenSSL
-      - plan: fix
-      - owner: gshapiro@
+      plan: fix
+      owner: gshapiro@
     Unbound:
-      - description: Validating, recursive, and caching DNS resolver
-      - directory: contrib/unbound
-      - version: 1.24.1
-      - upstream: NLnet Labs
-      - homepage: https://github.com/NLnetLabs/unbound
-      - license: BSD-3-Clause
-      - source: https://github.com/NLnetLabs/unbound/tree/release-1.23.1
-      - security:
+      description: Validating, recursive, and caching DNS resolver
+      directory: contrib/unbound
+      version: 1.24.1
+      upstream: NLnet Labs
+      homepage: https://github.com/NLnetLabs/unbound
+      license: BSD-3-Clause
+      source: https://github.com/NLnetLabs/unbound/tree/release-1.23.1
+      security:
         - network
-      - depends:
+      depends:
         - flex
         - libexpat
         - OpenSSL
-      - plan: fix
+      plan: fix
     WireGuard:
-      - description: Tools for configuring WireGuard
-      - directory: contrib/wireguard-tools
-      - version: 1.0.20250521
-      - upstream: WireGuard
-      - homepage: https://git.zx2c4.com/wireguard-tools/
-      - license: GPL-2.0
-      - source: https://git.zx2c4.com/wireguard-tools/tag/?h=v1.0.20250521
-      - security:
+      description: Tools for configuring WireGuard
+      directory: contrib/wireguard-tools
+      version: 1.0.20250521
+      upstream: WireGuard
+      homepage: https://git.zx2c4.com/wireguard-tools/
+      license: GPL-2.0
+      source: https://git.zx2c4.com/wireguard-tools/tag/?h=v1.0.20250521
+      security:
         - auth
         - crypto
         - kernel
         - network
-      - plan: fix
+      plan: fix
     wpa_supplicant:
-      - description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
-      - directory: contrib/wpa
-      - version: 2.11
-      - upstream: Jouni Malinen
-      - homepage: https://w1.fi/wpa_supplicant/
-      - license: BSD-3-Clause
-      - source: https://w1.fi/releases/hostapd-2.11.tar.gz
-      - security:
+      description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
+      directory: contrib/wpa
+      version: 2.11
+      upstream: Jouni Malinen
+      homepage: https://w1.fi/wpa_supplicant/
+      license: BSD-3-Clause
+      source: https://w1.fi/releases/hostapd-2.11.tar.gz
+      security:
         - kernel
         - network
-      - depends:
+      depends:
         - OpenSSL
-      - plan: fix
+      plan: fix
   - Network Tools:
     lib9p:
-      - description: BSD-licensed 9P2000.u/.L server library
-      - directory: contrib/lib9p
-      - version: 9d5aee77b
-      - upstream: Conclusive Engineering
-      - homepage: https://github.com/conclusiveeng/lib9p
-      - license: BSD-2-Clause AND MIT
-      - source: https://github.com/conclusiveeng/lib9p/tree/9d5aee77bcc1bf0e79b0a3bfefff5fdf2146283c
-      - security:
+      description: BSD-licensed 9P2000.u/.L server library
+      directory: contrib/lib9p
+      version: 9d5aee77b
+      upstream: Conclusive Engineering
+      homepage: https://github.com/conclusiveeng/lib9p
+      license: BSD-2-Clause AND MIT
+      source: https://github.com/conclusiveeng/lib9p/tree/9d5aee77bcc1bf0e79b0a3bfefff5fdf2146283c
+      security:
         - network
-      - plan: fix
+      plan: fix
     tcpdump:
-      - description: Powerful command-line packet analyzer
-      - directory: contrib/tcpdump
-      - version: 4.99.5
-      - upstream: TCPdump
-      - homepage: https://www.tcpdump.org
-      - license: BSD-3-Clause
-      - source: https://fossies.org/linux/misc/tcpdump-4.99.5.tar.gz
-      - security:
+      description: Powerful command-line packet analyzer
+      directory: contrib/tcpdump
+      version: 4.99.5
+      upstream: TCPdump
+      homepage: https://www.tcpdump.org
+      license: BSD-3-Clause
+      source: https://fossies.org/linux/misc/tcpdump-4.99.5.tar.gz
+      security:
         - network
-      - depends: libpcap
-      - plan: fix
+      depends: libpcap
+      plan: fix
   - Security Infrastructure:
     BearSSL:
-      - description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
-      - directory: contrib/bearssl
-      - version: 20220417
-      - upstream: BearSSL
-      - homepage: https://bearssl.org
-      - license: MIT
-      - source: https://bearssl.org/gitweb/?p=BearSSL;a=tree;h=d40d23b60cf1a42188a441b59226db35da234fea;hb=d40d23b60cf1a42188a441b59226db35da234fea
-      - security:
+      description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
+      directory: contrib/bearssl
+      version: 20220417
+      upstream: BearSSL
+      homepage: https://bearssl.org
+      license: MIT
+      source: https://bearssl.org/gitweb/?p=BearSSL;a=tree;h=d40d23b60cf1a42188a441b59226db35da234fea;hb=d40d23b60cf1a42188a441b59226db35da234fea
+      security:
         - crypto
         - network
         - user
-      - plan: fix
+      plan: fix
     OpenSSL:
-      - description: OpenSSL cryptography library
-      - directory: crypto/openssl
-      - version: 3.5.4
-      - upstream: OpenSSL
-      - homepage: https://openssl-library.org
-      - license: Apache-2.0
-      - source: https://github.com/openssl/openssl/tree/openssl-3.5.3
-      - security:
+      description: OpenSSL cryptography library
+      directory: crypto/openssl
+      version: 3.5.4
+      upstream: OpenSSL
+      homepage: https://openssl-library.org
+      license: Apache-2.0
+      source: https://github.com/openssl/openssl/tree/openssl-3.5.3
+      security:
         - crypto
         - kernel
         - network
         - user
-      - plan: fix
-      - owner:
+      plan: fix
+      owner:
         - khorben@
         - ngie@
   - System Libraries:
     arm-optimized-routines:
-      - description: Optimized implementations of various library functions for ARM architecture processors
-      - directory: contrib/arm-optimized-routines
-      - version: 25.01
-      - upstream: Arm
-      - homepage: https://github.com/ARM-software/optimized-routines
-      - license: MIT OR LLVM-exception
-      - source: https://github.com/ARM-software/optimized-routines/tree/v25.01
-      - security:
+      description: Optimized implementations of various library functions for ARM architecture processors
+      directory: contrib/arm-optimized-routines
+      version: 25.01
+      upstream: Arm
+      homepage: https://github.com/ARM-software/optimized-routines
+      license: MIT OR LLVM-exception
+      source: https://github.com/ARM-software/optimized-routines/tree/v25.01
+      security:
         - system
-      - plan: fix
+      plan: fix
     bionic-x86_64-string:
-      - description: Android's C library, math library, and dynamic linker
-      - directory: contrib/bionic-x86_64-string
-      - upstream: Intel
-      - homepage: https://android.googlesource.com/platform/bionic
-      - security:
+      description: Android's C library, math library, and dynamic linker
+      directory: contrib/bionic-x86_64-string
+      upstream: Intel
+      homepage: https://android.googlesource.com/platform/bionic
+      security:
         - system
-      - plan: fix
+      plan: fix
     bsddialog:
-      - description: Utility and a library to build scripts and tools with TUI dialogs and widgets
-      - directory: contrib/bsddialog
-      - version: 1.1
-      - upstream: Alfonso Siciliano
-      - homepage: https://gitlab.com/alfix/bsddialog
-      - license: BSD-2-Clause
-      - source: https://gitlab.com/alfix/bsddialog/-/tree/1.1
-      - security:
+      description: Utility and a library to build scripts and tools with TUI dialogs and widgets
+      directory: contrib/bsddialog
+      version: 1.1
+      upstream: Alfonso Siciliano
+      homepage: https://gitlab.com/alfix/bsddialog
+      license: BSD-2-Clause
+      source: https://gitlab.com/alfix/bsddialog/-/tree/1.1
+      security:
         - user
-      - plan: fix
+      plan: fix
     bzip2:
-      - description: High-quality data compressor
-      - directory: contrib/bzip2
-      - version: 1.0.8
-      - upstream: Julian Seward
-      - homepage: https://sourceware.org/bzip2/
-      - license: bzip2-1.0.6
-      - source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
-      - security:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
         - user
-      - plan: fix
+      plan: fix
     flex:
-      - description: Fast lexical analyzer generator
-      - directory: contrib/flex
-      - version: 2.6.4
-      - upstream: Will Estes
-      - homepage: https://github.com/westes/flex
-      - license: BSD-2-Clause
-      - source: https://github.com/westes/flex/tree/v2.6.4
-      - security:
+      description: Fast lexical analyzer generator
+      directory: contrib/flex
+      version: 2.6.4
+      upstream: Will Estes
+      homepage: https://github.com/westes/flex
+      license: BSD-2-Clause
+      source: https://github.com/westes/flex/tree/v2.6.4
+      security:
         - build
         - user
-      - plan: fix
+      plan: fix
     gdtoa:
-      - description: Library of binary -> decimal and decimal -> binary conversion routines
-      - directory: contrib/gdtoa
-      - version: 20110304
-      - upstream: David M. Gay
-      - homepage: https://www.netlib.org/fp/
-      - license: SMLNJ
-      - security:
+      description: Library of binary -> decimal and decimal -> binary conversion routines
+      directory: contrib/gdtoa
+      version: 20110304
+      upstream: David M. Gay
+      homepage: https://www.netlib.org/fp/
+      license: SMLNJ
+      security:
         - runtime
-      - plan: fork
+      plan: fork
     Heimdal Kerberos:
-      - description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
-      - directory:
+      description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
+      directory:
         - crypto/heimdal
         - contrib/com_err
-      - version: 1.5.1
-      - upstream: Heimdal Software
-      - homepage: https://www.heimdal.software
-      - license: BSD-3-Clause
-      - security:
+      version: 1.5.1
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
         - auth
         - crypto
         - network
-      - plan: fix
+      plan: fix
     jemalloc:
-      - description: Meta fork of the OG Jemalloc project
-      - directory: contrib/jemalloc
-      - version: 5.3.0
-      - upstream: facebook
-      - homepage: https://github.com/facebook/jemalloc
-      - license: BSD-2-Clause
-      - source: https://github.com/facebook/jemalloc/tree/5.3.0
-      - security:
+      description: Meta fork of the OG Jemalloc project
+      directory: contrib/jemalloc
+      version: 5.3.0
+      upstream: facebook
+      homepage: https://github.com/facebook/jemalloc
+      license: BSD-2-Clause
+      source: https://github.com/facebook/jemalloc/tree/5.3.0
+      security:
         - runtime
         - user
-      - plan: fix
+      plan: fix
     libarchive:
-      - description: Multi-format archive and compression library
-      - directory: contrib/libarchive
-      - version: 3.8.2
-      - upstream: libarchive
-      - homepage: https://libarchive.org
-      - license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
-      - source: https://github.com/libarchive/libarchive/tree/v3.8.2
-      - security:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
         - user
-      - plan: fix
+      plan: fix
     libbegemot:
-      - description: Begemot utility function library. It is needed to build most of the begemot tools
-      - directory: contrib/libbegemot
-      - version: 1.14
-      - upstream: Hartmut Brandt
-      - homepage: https://people.freebsd.org/~harti/libbegemot/
-      - license: BSD-2-Clause
-      - security:
+      description: Begemot utility function library. It is needed to build most of the begemot tools
+      directory: contrib/libbegemot
+      version: 1.14
+      upstream: Hartmut Brandt
+      homepage: https://people.freebsd.org/~harti/libbegemot/
+      license: BSD-2-Clause
+      security:
         - network
         - user
-      - plan: fix
+      plan: fix
     libcbor:
-      - description: CBOR protocol implementation for C
-      - directory: contrib/libcbor
-      - version: 0.11.0
-      - upstream: Pavel Kalvoda
-      - homepage: https://github.com/PJK/libcbor
-      - license: MIT
-      - source: https://github.com/PJK/libcbor/tree/v0.11.0
-      - security:
+      description: CBOR protocol implementation for C
+      directory: contrib/libcbor
+      version: 0.11.0
+      upstream: Pavel Kalvoda
+      homepage: https://github.com/PJK/libcbor
+      license: MIT
+      source: https://github.com/PJK/libcbor/tree/v0.11.0
+      security:
         - crypto
         - system
         - user
-      - plan: fix
+      plan: fix
     libdialog:
-      - description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
-      - directory: contrib/libdialog
-      - upstream: invisible-island
-      - homepage: https://invisible-island.net/dialog/
-      - security:
+      description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
+      directory: contrib/libdialog
+      upstream: invisible-island
+      homepage: https://invisible-island.net/dialog/
+      security:
         - user
-      - plan: forego
+      plan: forego
     libdiff:
-      - directory: contrib/libdiff
-      - upstream: Game of Trees
-      - homepage: https://www.gameoftrees.org
-      - security:
+      directory: contrib/libdiff
+      upstream: Game of Trees
+      homepage: https://www.gameoftrees.org
+      security:
         - build
         - user
-      - plan: fork
+      plan: fork
     libedit:
-      - description: NetBSD Editline library (libedit)
-      - directory: contrib/libedit
-      - version: 2025-01-03
-      - upstream: NetBSD
-      - homepage: https://www.NetBSD.org
-      - license: BSD-3-Clause
-      - source: https://github.com/NetBSD/src/commit/2cf0b469b9d048aeccdc6451da18d68a11366991
-      - security:
+      description: NetBSD Editline library (libedit)
+      directory: contrib/libedit
+      version: 2025-01-03
+      upstream: NetBSD
+      homepage: https://www.NetBSD.org
+      license: BSD-3-Clause
+      source: https://github.com/NetBSD/src/commit/2cf0b469b9d048aeccdc6451da18d68a11366991
+      security:
         - user
-      - plan: fix
+      plan: fix
     libevent:
-      - description: API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
-      - directory: contrib/libevent
-      - version: 2.1.12
-      - upstream: libevent
-      - homepage: https://libevent.org
-      - license: BSD-3-Clause AND 0BSD AND MIT
-      - source: https://github.com/libevent/libevent/tree/release-2.1.12-stable
-      - security:
+      description: API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
+      directory: contrib/libevent
+      version: 2.1.12
+      upstream: libevent
+      homepage: https://libevent.org
+      license: BSD-3-Clause AND 0BSD AND MIT
+      source: https://github.com/libevent/libevent/tree/release-2.1.12-stable
+      security:
         - system
         - user
-      - plan: fix
+      plan: fix
     libexecinfo:
-      - directory: contrib/libexecinfo
-      - upstream: Maxim Sobolev
-      - homepage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
-      - license: BSD-2-Clause
-      - source: https://github.com/NetBSD/src/tree/1c512be1f7a3bda2d36a9790dcaa63d0161b1ed7/lib/libexecinfo
-      - security:
+      directory: contrib/libexecinfo
+      upstream: Maxim Sobolev
+      homepage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
+      license: BSD-2-Clause
+      source: https://github.com/NetBSD/src/tree/1c512be1f7a3bda2d36a9790dcaa63d0161b1ed7/lib/libexecinfo
+      security:
         - user
-      - plan: fix
+      plan: fix
     libexpat:
-      - description: XML 1.0 parser written in C
-      - directory:
+      description: XML 1.0 parser written in C
+      directory:
         - contrib/expat
         - lib/libexpat
-      - version: 2.7.3
-      - upstream: expat
-      - homepage: https://github.com/libexpat/libexpat
-      - license: MIT
-      - source: https://github.com/libexpat/libexpat/tree/R_2_7_3
-      - security:
+      version: 2.7.3
+      upstream: expat
+      homepage: https://github.com/libexpat/libexpat
+      license: MIT
+      source: https://github.com/libexpat/libexpat/tree/R_2_7_3
+      security:
         - user
-      - plan: fix
+      plan: fix
     libfido2:
-      - description: library functionality for FIDO2, including communication with a device over USB or NFC
-      - directory: contrib/libfido2
-      - version: 1.14.0
-      - upstream: Yubico
-      - homepage: https://github.com/Yubico/libfido2
-      - license: BSD-2-Clause
-      - source: https://github.com/Yubico/libfido2/tree/1.14.0
-      - security:
+      description: library functionality for FIDO2, including communication with a device over USB or NFC
+      directory: contrib/libfido2
+      version: 1.14.0
+      upstream: Yubico
+      homepage: https://github.com/Yubico/libfido2
+      license: BSD-2-Clause
+      source: https://github.com/Yubico/libfido2/tree/1.14.0
+      security:
         - auth
         - crypto
         - system
         - user
-      - plan: fix
+      plan: fix
     liblzma:
-      - description: General purpose data compression library
-      - directory: contrib/xz
-      - version: 5.8.1
-      - upstream: Tukaani
-      - homepage: https://tukaani.org/xz/
-      - license: 0BSD
-      - source: https://github.com/tukaani-project/xz
-      - security:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
         - firmware
         - user
-      - plan: fix
+      plan: fix
     libmagic (file):
-      - description: Magic number recognition library
-      - directory: contrib/file
-      - version: 5.46
-      - upstream: Ian Darwin
-      - homepage: https://www.darwinsys.com/file/
-      - license: BSD-2-Clause
-      - source: http://ftp.astron.com/pub/file/file-5.46.tar.gz
-      - security:
+      description: Magic number recognition library
+      directory: contrib/file
+      version: 5.46
+      upstream: Ian Darwin
+      homepage: https://www.darwinsys.com/file/
+      license: BSD-2-Clause
+      source: http://ftp.astron.com/pub/file/file-5.46.tar.gz
+      security:
         - user
-      - plan: fix
+      plan: fix
     libucl:
-      - description: Universal configuration library parser
-      - directory: contrib/libucl
-      - version: 0.9.2
-      - upstream: Vsevolod Stakhov
-      - homepage: https://github.com/vstakhov/libucl
-      - license: BSD-2-Clause
-      - source: https://github.com/vstakhov/libucl
-      - security:
+      description: Universal configuration library parser
+      directory: contrib/libucl
+      version: 0.9.2
+      upstream: Vsevolod Stakhov
+      homepage: https://github.com/vstakhov/libucl
+      license: BSD-2-Clause
+      source: https://github.com/vstakhov/libucl
+      security:
         - system
         - user
-      - plan: fix
+      plan: fix
     libxo:
-      - description: Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.
-      - directory: contrib/libxo
-      - version: 1.4.0
-      - upstream: Juniper
-      - homepage: https://github.com/Juniper/libxo
-      - license: BSD-2-Clause
-      - source: https://github.com/Juniper/libxo/tree/1.4.0
-      - security:
+      description: Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.
+      directory: contrib/libxo
+      version: 1.4.0
+      upstream: Juniper
+      homepage: https://github.com/Juniper/libxo
+      license: BSD-2-Clause
+      source: https://github.com/Juniper/libxo/tree/1.4.0
+      security:
         - user
-      - plan: fix
+      plan: fix
     LibYAML:
-      - description: C library for parsing and emitting YAML
-      - directory: contrib/libyaml
-      - version: 0.2.5
-      - upstream: LibYAML
-      - homepage: https://pyyaml.org/wiki/LibYAML
-      - licence: MIT
-      - source: https://github.com/yaml/libyaml/tree/0.2.5
-      - plan: fix
+      description: C library for parsing and emitting YAML
+      directory: contrib/libyaml
+      version: 0.2.5
+      upstream: LibYAML
+      homepage: https://pyyaml.org/wiki/LibYAML
+      licence: MIT
+      source: https://github.com/yaml/libyaml/tree/0.2.5
+      plan: fix
     mandoc:
-      - description: UNIX manpage compiler toolset
-      - directory: contrib/mandoc
-      - version: 2025-09-26
-      - upstream: Ingo Schwarze
-      - homepage: https://mandoc.bsd.lv
-      - security:
+      description: UNIX manpage compiler toolset
+      directory: contrib/mandoc
+      version: 2025-09-26
+      upstream: Ingo Schwarze
+      homepage: https://mandoc.bsd.lv
+      security:
         - build
         - user
-      - plan: fix
+      plan: fix
     ncurses:
-      - description: clone of System V curses
-      - directory: contrib/ncurses
-      - version: 6.5
-      - upstream: invisible-island
-      - homepage: https://invisible-island.net/ncurses
-      - license: X11
-      - source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
-      - security:
+      description: clone of System V curses
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
         - user
-      - plan: fix
+      plan: fix
     OpenPAM:
-      - description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
-      - directory: contrib/openpam
-      - version: 20250531
-      - upstream: Dag-Erling Smørgrav
-      - homepage: https://openpam.org
-      - license: BSD-3-Clause
-      - source: https://git.des.dev/OpenPAM/OpenPAM/src/commit/7a0660d699c4f82aa234524256b5b9f5a7cba786
-      - security:
+      description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
+      directory: contrib/openpam
+      version: 20250531
+      upstream: Dag-Erling Smørgrav
+      homepage: https://openpam.org
+      license: BSD-3-Clause
+      source: https://git.des.dev/OpenPAM/OpenPAM/src/commit/7a0660d699c4f82aa234524256b5b9f5a7cba786
+      security:
         - auth
         - system
         - user
-      - plan: fix
-      - owner: des@
+      plan: fix
+      owner: des@
     SQLite:
-      - description: SQLite database engine
-      - directory: contrib/sqlite3
-      - version: 3.50.2
-      - upstream: SQLite
-      - homepage: https://sqlite.org/src
-      - source: https://github.com/sqlite/sqlite/tree/version-3.50.2
-      - security:
+      description: SQLite database engine
+      directory: contrib/sqlite3
+      version: 3.50.2
+      upstream: SQLite
+      homepage: https://sqlite.org/src
+      source: https://github.com/sqlite/sqlite/tree/version-3.50.2
+      security:
         - user
-      - plan: fix
+      plan: fix
     Time Zone Database:
-      - description: Time Zone Database
-      - directory:
+      description: Time Zone Database
+      directory:
         - contrib/tzcode
         - contrib/tzdata
-      - version: 2025b
-      - upstream: IANA
-      - homepage: https://www.iana.org/time-zones
-      - source: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
-      - security:
+      version: 2025b
+      upstream: IANA
+      homepage: https://www.iana.org/time-zones
+      source: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
+      security:
         - system
         - user
-      - plan: fix
+      plan: fix
     zlib:
-      - description: zlib compression library
-      - directory: contrib/zlib
-      - version: 1.3.1
-      - upstream: zlib
-      - homepage: https://zlib.net
-      - license: Zlib
-      - source: https://github.com/madler/zlib/tree/develop
-      - security:
+      description: zlib compression library
+      directory: contrib/zlib
+      version: 1.3.1
+      upstream: zlib
+      homepage: https://zlib.net
+      license: Zlib
+      source: https://github.com/madler/zlib/tree/develop
+      security:
         - firmware
         - system
         - user
-      - plan: fix
+      plan: fix
   - System Tools:
     awk:
-      - description: One true awk
-      - directory: contrib/one-true-awk
-      - version: 20250804
-      - upstream: One True Awk
-      - homepage: https://github.com/onetrueawk/awk
-      - license: SMLNJ
-      - source: https://github.com/onetrueawk/awk/tree/d7f37646965ee26214da0e1d97f3c1d54349ae2d
-      - security:
+      description: One true awk
+      directory: contrib/one-true-awk
+      version: 20250804
+      upstream: One True Awk
+      homepage: https://github.com/onetrueawk/awk
+      license: SMLNJ
+      source: https://github.com/onetrueawk/awk/tree/d7f37646965ee26214da0e1d97f3c1d54349ae2d
+      security:
         - build
         - user
-      - plan: fix
+      plan: fix
     bc:
-      - description: Implementation of the POSIX bc calculator with GNU extensions and dc
-      - version: 7.1.0
-      - directory: contrib/bc
-      - upstream: Gavin D. Howard
-      - homepage: https://gavinhoward.com/tag/bc/
-      - license: BSD-2-clause
-      - source: https://github.com/gavinhoward/bc/tree/7.1.0
-      - security:
+      description: Implementation of the POSIX bc calculator with GNU extensions and dc
+      version: 7.1.0
+      directory: contrib/bc
+      upstream: Gavin D. Howard
+      homepage: https://gavinhoward.com/tag/bc/
+      license: BSD-2-clause
+      source: https://github.com/gavinhoward/bc/tree/7.1.0
+      security:
         - user
-      - plan: fix
+      plan: fix
     diff:
-      - description: GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files
-      - directory: contrib/diff
-      - version: 2.8.7
-      - upstream: GNU
-      - homepage: https://www.gnu.org/software/diffutils/
-      - license: GPL-3.0
-      - source: https://cgit.git.savannah.gnu.org/cgit/diffutils.git/tag/?h=v2.8.7
-      - security:
+      description: GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files
+      directory: contrib/diff
+      version: 2.8.7
+      upstream: GNU
+      homepage: https://www.gnu.org/software/diffutils/
+      license: GPL-3.0
+      source: https://cgit.git.savannah.gnu.org/cgit/diffutils.git/tag/?h=v2.8.7
+      security:
         - build
         - user
-      - plan: fork
+      plan: fork
     ee:
-      - description: Easy Editor
-      - directory: contrib/ee
-      - version: 1.5.0
-      - upstream: Hugh Mahon
-      - homepage: 
-      - license: BSD-2-Clause
-      - security:
+      description: Easy Editor
+      directory: contrib/ee
+      version: 1.5.0
+      upstream: Hugh Mahon
+      homepage: 
+      license: BSD-2-Clause
+      security:
         - user
-      - depends:
+      depends:
         - ncurses
-      - plan: fork
+      plan: fork
     hyperv:
-      - description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
-      - directory: contrib/hyperv
-      - upstream: Microsoft
-      - homepage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
-      - security:
+      description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
+      directory: contrib/hyperv
+      upstream: Microsoft
+      homepage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
+      security:
         - system
-      - plan: fix
+      plan: fix
     less:
-      - description: Open-source file pager
-      - directory: contrib/less
-      - version: 679
-      - upstream: Mark Nudelman
-      - homepage: https://www.greenwoodsoftware.com/less/
-      - license: BSD-2-Clause
-      - source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
-      - security:
+      description: Open-source file pager
+      directory: contrib/less
+      version: 679
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
         - user
-      - depends:
+      depends:
         - ncurses
-      - plan: fix
+      plan: fix
     Lua:
-      - description: Embeddable scripting language
-      - directory: contrib/lua
-      - version: 5.4.8
-      - upstream: Lua
-      - homepage: https://www.lua.org
-      - source: https://github.com/Lua/lua
-      - license: MIT
-      - source: https://github.com/lua/lua/tree/v5.4.8
-      - security:
+      description: Embeddable scripting language
+      directory: contrib/lua
+      version: 5.4.8
+      upstream: Lua
+      homepage: https://www.lua.org
+      source: https://github.com/Lua/lua
+      license: MIT
+      source: https://github.com/lua/lua/tree/v5.4.8
+      security:
         - firmware
         - runtime
         - user
-      - plan: fix
-      - owner: kevans@
+      plan: fix
+      owner: kevans@
     patch:
-      - directory: usr.bin/patch
-      - version: 2.0-12u11
-      - upstream: GNU
-      - homepage: https://www.gnu.org/software/patch/
-      - source: https://git.savannah.gnu.org/git/patch.git
-      - security:
+      directory: usr.bin/patch
+      version: 2.0-12u11
+      upstream: GNU
+      homepage: https://www.gnu.org/software/patch/
+      source: https://git.savannah.gnu.org/git/patch.git
+      security:
         - build
         - user
-      - plan: fork
+      plan: fork
     pkg:
-      - description: Package manager for FreeBSD
-      - directory: usr.sbin/pkg
-      - version: 2.3.1
-      - upstream: FreeBSD (GitHub)
-      - homepage: https://github.com/FreeBSD/pkg
-      - license: BSD-2-Clause
-      - source: https://github.com/FreeBSD/pkg
-      - security:
+      description: Package manager for FreeBSD
+      directory: usr.sbin/pkg
+      version: 2.3.1
+      upstream: FreeBSD (GitHub)
+      homepage: https://github.com/FreeBSD/pkg
+      license: BSD-2-Clause
+      source: https://github.com/FreeBSD/pkg
+      security:
         - build
         - crypto
         - network
         - user
-      - depends:
+      depends:
         - OpenSSL
-      - plan: import
-      - owner: "#pkg"
+      plan: import
+      owner: "#pkg"
   - Test Infrastructure:
     ATF:
-      - description: Libraries to write tests in C, C++ and shell
-      - directory: contrib/atf
-      - version: 0.22
-      - upstream: FreeBSD (GitHub)
-      - homepage: https://github.com/FreeBSD/atf
-      - license: BSD-3-Clause and BSD-2-Clause
-      - source: https://github.com/FreeBSD/atf
-      - security:
+      description: Libraries to write tests in C, C++ and shell
+      directory: contrib/atf
+      version: 0.22
+      upstream: FreeBSD (GitHub)
+      homepage: https://github.com/FreeBSD/atf
+      license: BSD-3-Clause and BSD-2-Clause
+      source: https://github.com/FreeBSD/atf
+      security:
         - user
-      - depends:
+      depends:
         - libcxxrt
-      - plan: fork
-      - owner: ngie@
+      plan: fork
+      owner: ngie@
     capsicum-test:
-      - description: Practical capabilities for UNIX
-      - directory: contrib/capsicum-test
-      - upstream: University of Cambridge
-      - homepage: https://www.cl.cam.ac.uk/research/security/capsicum/
-      - license: BSD-2-Clause
-      - security:
+      description: Practical capabilities for UNIX
+      directory: contrib/capsicum-test
+      upstream: University of Cambridge
+      homepage: https://www.cl.cam.ac.uk/research/security/capsicum/
+      license: BSD-2-Clause
+      security:
         - kernel
         - user
-      - plan: fix
+      plan: fix
     GoogleTest:
-      - description: Google’s C++ testing and mocking framework
-      - directory: contrib/googletest
-      - version: 1.15.2
-      - upstream: Google
-      - homepage: https://google.github.io/googletest/
-      - license: BSD-3-Clause
-      - source: https://github.com/google/googletest/releases/tag/v1.15.2
-      - security:
+      description: Google’s C++ testing and mocking framework
+      directory: contrib/googletest
+      version: 1.15.2
+      upstream: Google
+      homepage: https://google.github.io/googletest/
+      license: BSD-3-Clause
+      source: https://github.com/google/googletest/releases/tag/v1.15.2
+      security:
         - user
-      - plan: fix
-      - owner: ngie@
+      plan: fix
+      owner: ngie@
     kyua:
-      - description: Port/Package build and test system
-      - directory: contrib/kyua
-      - version: 0.13
-      - upstream: FreeBSD (GitHub)
-      - homepage: https://github.com/FreeBSD/kyua
-      - license: BSD-3-Clause
-      - security:
+      description: Port/Package build and test system
+      directory: contrib/kyua
+      version: 0.13
+      upstream: FreeBSD (GitHub)
+      homepage: https://github.com/FreeBSD/kyua
+      license: BSD-3-Clause
+      security:
         - user
-      - depends:
+      depends:
         - libcxxrt
         - Lua
         - SQLite
-      - plan: fork
+      plan: fork
     NetBSD tests:
-      - description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
-      - directory: contrib/netbsd-tests
-      - upstream: NetBSD
-      - homepage: https://www.NetBSD.org
-      - license: BSD-2-Clause
-      - source: https://cvsweb.netbsd.org/bsdweb.cgi/src/tests/
-      - security:
+      description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
+      directory: contrib/netbsd-tests
+      upstream: NetBSD
+      homepage: https://www.NetBSD.org
+      license: BSD-2-Clause
+      source: https://cvsweb.netbsd.org/bsdweb.cgi/src/tests/
+      security:
         - user
-      - plan: fix
-      - owner: ngie@
+      plan: fix
+      owner: ngie@
     pjdfstest:
-      - description: File system test suite
-      - directory: contrib/pjdfstest
-      - version: 0.1
-      - upstream: pjdfstest
-      - homepage: https://github.com/pjd/pjdfstest
-      - license: BSD-2-Clause
-      - source: https://github.com/pjd/pjdfstest/tree/0.1
-      - security:
+      description: File system test suite
+      directory: contrib/pjdfstest
+      version: 0.1
+      upstream: pjdfstest
+      homepage: https://github.com/pjd/pjdfstest
+      license: BSD-2-Clause
+      source: https://github.com/pjd/pjdfstest/tree/0.1
+      security:
         - user
-      - plan: fix
-      - owner:
+      plan: fix
+      owner:
         - asomers@
         - ngie@
         - pjd@
