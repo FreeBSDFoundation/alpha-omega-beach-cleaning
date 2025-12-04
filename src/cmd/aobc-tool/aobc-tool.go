@@ -220,7 +220,7 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 							if v.Content[k].Value == sectionIgnore {
 								break
 							}
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var owners, directories []string
 							var values map[string]string
 
@@ -231,27 +231,26 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 
 							//collect the owners and paths
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											if col.key == "owner" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													for _, w := range entry.Content[m+1].Content {
-														owners = append(owners, w.Value)
-													}
-												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
-													owners = append(owners, entry.Content[m+1].Value)
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										if col.key == "owner" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												for _, w := range entry.Content[m+1].Content {
+													owners = append(owners, w.Value)
 												}
-										} else if col.key == "directory" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													for _, w := range entry.Content[m+1].Content {
-														directories = append(directories, w.Value)
-													}
-												} else if entry.Content[m+1].Kind == yaml.ScalarNode {
-													directories = append(directories, entry.Content[m+1].Value)
+											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+												owners = append(owners, entry.Content[m+1].Value)
+											}
+									} else if col.key == "directory" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												for _, w := range entry.Content[m+1].Content {
+													directories = append(directories, w.Value)
 												}
+											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
+												directories = append(directories, entry.Content[m+1].Value)
 											}
 										}
 									}
@@ -318,7 +317,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -326,28 +325,27 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 							//XXX hard-coded
 							values["title"] = v.Content[k].Value
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											//special case: directory
-											if col.key == "directory" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													var str []string
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										//special case: directory
+										if col.key == "directory" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												var str []string
 
-													for _, w := range entry.Content[m+1].Content {
-														str = append(str, w.Value)
-													}
-													values[col.key] = "`" + strings.Join(str, "`, `") + "`"
-													break
+												for _, w := range entry.Content[m+1].Content {
+													str = append(str, w.Value)
 												}
-												values[col.key] = "`" + entry.Content[m+1].Value + "`"
-												break
-											} else if entry.Content[m].Value == col.key {
-												//general case
-												values[col.key] = entry.Content[m+1].Value
+												values[col.key] = "`" + strings.Join(str, "`, `") + "`"
 												break
 											}
+											values[col.key] = "`" + entry.Content[m+1].Value + "`"
+											break
+										} else if entry.Content[m].Value == col.key {
+											//general case
+											values[col.key] = entry.Content[m+1].Value
+											break
 										}
 									}
 								}
@@ -395,7 +393,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							} else {
 								prefix = ""
 							}
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -412,23 +410,22 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							defer ofile.Close()
 
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											//special cases: depends, owner
-											if (col.key == "depends" || col.key == "owner") &&
-												entry.Content[m].Value == col.key &&
-												entry.Content[m+1].Kind == yaml.SequenceNode {
-												var str []string
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										//special cases: depends, owner
+										if (col.key == "depends" || col.key == "owner") &&
+											entry.Content[m].Value == col.key &&
+											entry.Content[m+1].Kind == yaml.SequenceNode {
+											var str []string
 
-												for _, w := range entry.Content[m+1].Content {
-													str = append(str, w.Value)
-												}
-												values[col.key] = strings.Join(str, ", ")
-											} else if entry.Content[m].Value == col.key {
-												values[col.key] = entry.Content[m+1].Value
-												break
+											for _, w := range entry.Content[m+1].Content {
+												str = append(str, w.Value)
 											}
+											values[col.key] = strings.Join(str, ", ")
+										} else if entry.Content[m].Value == col.key {
+											values[col.key] = entry.Content[m+1].Value
+											break
 										}
 									}
 								}
@@ -488,7 +485,7 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -496,14 +493,13 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 							//XXX hard-coded
 							values["title"] = v.Content[k].Value
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											if entry.Content[m].Value == col.key {
-												//general case
-												values[col.key] = entry.Content[m+1].Value
-												break
-											}
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										if entry.Content[m].Value == col.key {
+											//general case
+											values[col.key] = entry.Content[m+1].Value
+											break
 										}
 									}
 								}
@@ -557,7 +553,7 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 								fmt.Fprintf(ofile, " |")
 							}
 							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.SequenceNode {
+						} else if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -565,30 +561,29 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 							//XXX hard-coded
 							values["title"] = v.Content[k].Value
 							for _, col := range columns {
-								for _, entry := range v.Content[k+1].Content {
-									if entry.Kind == yaml.MappingNode {
-										for m := 0; m < len(entry.Content); m += 2 {
-											//special case: security
-											if col.key == "security" &&
-												entry.Content[m].Value == col.key {
-												if entry.Content[m+1].Kind == yaml.SequenceNode {
-													var str []string
+								entry := v.Content[k+1]
+								if entry.Kind == yaml.MappingNode {
+									for m := 0; m < len(entry.Content); m += 2 {
+										//special case: security
+										if col.key == "security" &&
+											entry.Content[m].Value == col.key {
+											if entry.Content[m+1].Kind == yaml.SequenceNode {
+												var str []string
 
-													for _, w := range entry.Content[m+1].Content {
-														str = append(str, w.Value)
-													}
-													values[col.key] = strings.Join(str, ", ")
-													values["score"] = fmt.Sprintf("%d", len(str))
-													break
+												for _, w := range entry.Content[m+1].Content {
+													str = append(str, w.Value)
 												}
-												values[col.key] = entry.Content[m+1].Value
-												values["score"] = fmt.Sprintf("%d", 1)
-												break
-											} else if entry.Content[m].Value == col.key {
-												//general case
-												values[col.key] = entry.Content[m+1].Value
+												values[col.key] = strings.Join(str, ", ")
+												values["score"] = fmt.Sprintf("%d", len(str))
 												break
 											}
+											values[col.key] = entry.Content[m+1].Value
+											values["score"] = fmt.Sprintf("%d", 1)
+											break
+										} else if entry.Content[m].Value == col.key {
+											//general case
+											values[col.key] = entry.Content[m+1].Value
+											break
 										}
 									}
 								}
