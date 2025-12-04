@@ -126,7 +126,572 @@ Sections:
         - dim@
         - emaste@
         - jhb@
-    unifdef:
+    bugpoint:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Automatic test case reduction tool
+      directory: usr.bin/clang/bugpoint
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    clang:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - ncurses
+        - tinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llc:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM static compiler
+      directory: usr.bin/clang/llc
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    lldb:
+      depends:
+        - csu
+        - libclang
+        - liblldb
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libedit
+        - libexecinfo
+        - libkvm
+        - liblua
+        - liblzma
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - ncurses
+        - panel
+        - tinfo
+      description: LLDB Documentation
+      directory: usr.bin/clang/lldb
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    lldb-server:
+      depends:
+        - csu
+        - libclang
+        - liblldb
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libedit
+        - libexecinfo
+        - liblua
+        - liblzma
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - ncurses
+        - panel
+        - tinfo
+      description: LLDB Documentation
+      directory: usr.bin/clang/lldb-server
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    lli:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Directly execute programs from LLVM bitcode
+      directory: usr.bin/clang/lli
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-addr2line:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: A drop-in replacement for addr2line
+      directory: usr.bin/clang/llvm-symbolizer
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-ar:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM archiver
+      directory: usr.bin/clang/llvm-ar
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-as:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM assembler
+      directory: usr.bin/clang/llvm-as
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-bcanalyzer:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM bitcode analyzer
+      directory: usr.bin/clang/llvm-bcanalyzer
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-cov:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Emit coverage information
+      directory: usr.bin/clang/llvm-cov
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-cxxfilt:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM symbol name demangler
+      directory: usr.bin/clang/llvm-cxxfilt
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-diff:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM structural 'diff'
+      directory: usr.bin/clang/llvm-diff
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=llvm-diff(1)
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-dis:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - msun
+        - ncursesw
+      description: LLVM disassembler
+      directory: usr.bin/clang/llvm-dis
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-dwarfdump:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Dump and verify DWARF debug information
+      directory: usr.bin/clang/llvm-dwarfdump
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-dwarfutil:
+      description: A tool to copy and manipulate debug info
+      directory: usr.bin/clang/llvm-dwarfutil
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-extract:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Extract a function from an LLVM module
+      directory: usr.bin/clang/llvm-extract
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-link:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM bitcode linker
+      directory: usr.bin/clang/llvm-link
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-mca:
+      description: LLVM Machine Code Analyzer
+      directory: usr.bin/clang/llvm-mca
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/llvm-mca
+      upstream: FreeBSD project
+      version: '15.0'
+    llvm-nm:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: List LLVM bitcode and object file's symbol table
+      directory: usr.bin/clang/llvm-nm
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-objcopy:
+      description: Object copying and editing tool
+      directory: usr.bin/clang/llvm-objcopy
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-objdump:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - tinfo
+      description: LLVM's object file dumper
+      directory: usr.bin/clang/llvm-objdump
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-pdbutil:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - msun
+        - ncursesw
+      description: PDB File forensics and diagnostics
+      directory: usr.bin/clang/llvm-pdbutil
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-profdata:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Profile data tool
+      directory: usr.bin/clang/llvm-profdata
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-ranlib:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Generates an archive index
+      directory: usr.bin/clang/llvm-ar
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-readelf:
+      description: GNU-style LLVM Object Reader
+      directory: usr.bin/clang/llvm-readobj
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-readobj:
+      description: LLVM Object Reader
+      directory: usr.bin/clang/llvm-readobj
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-size:
+      description: Print size information
+      directory: usr.bin/clang/llvm-size
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-strings:
+      description: Print strings
+      directory: usr.bin/clang/llvm-strings
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-symbolizer:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: Convert addresses into source code locations
+      directory: usr.bin/clang/llvm-symbolizer
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    opt:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - ncursesw
+      description: LLVM optimizer
+      directory: usr.bin/clang/opt
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e    unifdef:
       description: Selectively remove C preprocessor conditionals
       directory: contrib/unifdef
       version: 2.12
