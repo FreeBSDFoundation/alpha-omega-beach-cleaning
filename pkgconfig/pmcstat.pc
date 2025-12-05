@@ -1,0 +1,7 @@
+Name: pmcstat
+Description: Performance measurement with performance monitoring hardware
+URL: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pmcstat
+Requires: csu, libc, libc++, libcompiler\_rt, libcxxrt, libelf, libkvm, libpmc, libpmcstat, msun, ncurses, tinfo

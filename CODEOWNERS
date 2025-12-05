@@ -18,22 +18,2101 @@
 # LLVM
 /contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
 
+# bugpoint
+/usr.bin/clang/bugpoint
+
+# clang
+/usr.bin/clang/clang
+
+# llc
+/usr.bin/clang/llc
+
+# lldb
+/usr.bin/clang/lldb
+
+# lldb-server
+/usr.bin/clang/lldb-server
+
+# lli
+/usr.bin/clang/lli
+
+# llvm-addr2line
+/usr.bin/clang/llvm-symbolizer
+
+# llvm-ar
+/usr.bin/clang/llvm-ar
+
+# llvm-as
+/usr.bin/clang/llvm-as
+
+# llvm-bcanalyzer
+/usr.bin/clang/llvm-bcanalyzer
+
+# llvm-cov
+/usr.bin/clang/llvm-cov
+
+# llvm-cxxfilt
+/usr.bin/clang/llvm-cxxfilt
+
+# llvm-diff
+/usr.bin/clang/llvm-diff
+
+# llvm-dis
+/usr.bin/clang/llvm-dis
+
+# llvm-dwarfdump
+/usr.bin/clang/llvm-dwarfdump
+
+# llvm-dwarfutil
+/usr.bin/clang/llvm-dwarfutil
+
+# llvm-extract
+/usr.bin/clang/llvm-extract
+
+# llvm-link
+/usr.bin/clang/llvm-link
+
+# llvm-mca
+/usr.bin/clang/llvm-mca
+
+# llvm-nm
+/usr.bin/clang/llvm-nm
+
+# llvm-objcopy
+/usr.bin/clang/llvm-objcopy
+
+# llvm-objdump
+/usr.bin/clang/llvm-objdump
+
+# llvm-pdbutil
+/usr.bin/clang/llvm-pdbutil
+
+# llvm-profdata
+/usr.bin/clang/llvm-profdata
+
+# llvm-ranlib
+/usr.bin/clang/llvm-ar
+
+# llvm-readelf
+/usr.bin/clang/llvm-readobj
+
+# llvm-readobj
+/usr.bin/clang/llvm-readobj
+
+# llvm-size
+/usr.bin/clang/llvm-size
+
+# llvm-strings
+/usr.bin/clang/llvm-strings
+
+# llvm-symbolizer
+/usr.bin/clang/llvm-symbolizer
+
+# opt
+/usr.bin/clang/opt
+
 # unifdef
 /contrib/unifdef
 
-# acpi(4)
+# apply
+/usr.bin/apply
+
+# ar
+/usr.bin/ar
+
+# asa
+/usr.bin/asa
+
+# basename
+/usr.bin/basename
+
+# beep
+/usr.bin/beep
+
+# biff
+/usr.bin/biff
+
+# bintrans
+/usr.bin/bintrans
+
+# brandelf
+/usr.bin/brandelf
+
+# bsdiff
+/usr.bin/bsdiff/bsdiff
+
+# bsnmpget
+/usr.sbin/bsnmpd/tools/bsnmptools
+
+# bspatch
+/usr.bin/bsdiff/bspatch
+
+# bthost
+/usr.bin/bluetooth/bthost
+
+# btsockstat
+/usr.bin/bluetooth/btsockstat
+
+# c89
+/usr.bin/c89
+
+# c99
+/usr.bin/c99
+
+# calendar
+/usr.bin/calendar
+
+# cap_mkdb
+/usr.bin/cap_mkdb
+
+# cat
+/bin/cat
+
+# cdcontrol
+/usr.sbin/cdcontrol
+
+# chflags
+/bin/chflags
+
+# chgrp
+/usr.sbin/chown
+
+# chio
+/bin/chio
+
+# chmod
+/bin/chmod
+
+# chpass
+/usr.bin/chpass
+
+# ckdist
+/usr.sbin/ckdist
+
+# cksum
+/usr.bin/cksum
+
+# cmp
+/usr.bin/cmp
+
+# col
+/usr.bin/col
+
+# colrm
+/usr.bin/colrm
+
+# column
+/usr.bin/column
+
+# comm
+/usr.bin/comm
+
+# compress
+/usr.bin/compress
+
+# cp
+/bin/cp
+
+# cpuset
+/bin/cpuset
+
+# crontab
+/usr.sbin/cron/crontab
+
+# crunchgen
+/usr.sbin/crunch/crunchgen
+
+# crunchide
+/usr.sbin/crunch/crunchide
+
+# csplit
+/usr.bin/csplit
+
+# ctags
+/usr.bin/ctags
+
+# cu
+/usr.bin/tip/tip
+
+# cut
+/usr.bin/cut
+
+# date
+/bin/date
+
+# dd
+/bin/dd
+
+# df
+/bin/df
+
+# diff3
+/usr.bin/diff3
+
+# domainname
+/bin/domainname
+
+# dpv
+/usr.bin/dpv
+
+# du
+/usr.bin/du
+
+# echo
+/bin/echo
+
+# ed
+/bin/ed
+
+# elfctl
+/usr.bin/elfctl
+
+# elfdump
+/usr.bin/elfdump
+
+# enigma
+/usr.bin/enigma
+
+# env
+/usr.bin/env
+
+# etdump
+/usr.bin/etdump
+
+# expand
+/usr.bin/expand
+
+# expr
+/bin/expr
+
+# false
+/usr.bin/false
+
+# fdread
+/usr.sbin/fdread
+
+# fdwrite
+/usr.sbin/fdwrite
+
+# fetch
+/usr.bin/fetch
+
+# fifolog
+/usr.sbin/fifolog/fifolog_create
+
+# file2c
+/usr.bin/file2c
+
+# find
+/usr.bin/find
+
+# finger
+/usr.bin/finger
+
+# flua
+/libexec/flua
+
+# fmt
+/usr.bin/fmt
+
+# fold
+/usr.bin/fold
+
+# freebsd-version
+/bin/freebsd-version
+
+# from
+/usr.bin/from
+
+# fstat
+/usr.bin/fstat
+
+# fsync
+/usr.bin/fsync
+
+# fuser
+/usr.bin/fstat
+
+# gcore
+/usr.bin/gcore
+
+# gencat
+/usr.bin/gencat
+
+# genl
+/usr.bin/genl
+
+# getaddrinfo
+/usr.bin/getaddrinfo
+
+# getconf
+/usr.bin/getconf
+
+# getent
+/usr.bin/getent
+
+# getfacl
+/bin/getfacl
+
+# getopt
+/usr.bin/getopt
+
+# gprof
+/usr.bin/gprof
+
+# grep
+/usr.bin/grep
+
+# groups
+/usr.bin/id
+
+# gzexe
+/usr.bin/gzip
+
+# gzip
+/usr.bin/gzip
+
+# head
+/usr.bin/head
+
+# hesinfo
+/usr.bin/hesinfo
+
+# hexdump
+/usr.bin/hexdump
+
+# hostname
+/bin/hostname
+
+# iconv
+/usr.bin/iconv
+
+# id
+/usr.bin/id
+
+# ident
+/usr.bin/ident
+
+# indent
+/usr.bin/indent
+
+# install
+/usr.bin/xinstall
+
+# ipcrm
+/usr.bin/ipcrm
+
+# ipcs
+/usr.bin/ipcs
+
+# ipftest
+/sbin/ipf/ipftest
+
+# ipnat
+/sbin/ipf/ipnat
+
+# ipresend
+/sbin/ipf/ipsend
+
+# ipsend
+/sbin/ipf/ipsend
+
+# iptest
+/sbin/ipf/ipsend
+
+# join
+/usr.bin/join
+
+# jot
+/usr.bin/jot
+
+# kbdcontrol
+/usr.sbin/kbdcontrol
+
+# kbdmap
+/usr.sbin/kbdmap
+
+# kdump
+/usr.bin/kdump
+
+# kenv
+/bin/kenv
+
+# kill
+/bin/kill
+
+# killall
+/usr.bin/killall
+
+# ktrace
+/usr.bin/ktrace
+
+# lam
+/usr.bin/lam
+
+# last
+/usr.bin/last
+
+# lastcomm
+/usr.bin/lastcomm
+
+# ldd
+/usr.bin/ldd
+
+# leave
+/usr.bin/leave
+
+# lex
+/usr.bin/lex
+
+# limits
+/usr.bin/limits
+
+# ln
+/bin/ln
+
+# locale
+/usr.bin/locale
+
+# localedef
+/usr.bin/localedef
+
+# locate
+/usr.bin/locate/locate
+
+# lock
+/usr.bin/lock
+
+# lockf
+/usr.bin/lockf
+
+# logger
+/usr.bin/logger
+
+# login
+/usr.bin/login
+
+# logins
+/usr.bin/logins
+
+# logname
+/usr.bin/logname
+
+# look
+/usr.bin/look
+
+# lorder
+/usr.bin/lorder
+
+# lp
+/usr.sbin/lpr/lp
+
+# lpq
+/usr.sbin/lpr/lpq
+
+# lpr
+/usr.sbin/lpr/lpr
+
+# lprm
+/usr.sbin/lpr/lprm
+
+# lptest
+/usr.sbin/lpr/lptest
+
+# ls
+/bin/ls
+
+# lsvfs
+/usr.bin/lsvfs
+
+# m4
+/usr.bin/m4
+
+# mail
+/usr.bin/mail
+
+# man
+/usr.bin/man
+
+# manpath
+/usr.bin/man
+
+# md5
+/sbin/md5
+
+# mdo
+/usr.bin/mdo
+
+# mesg
+/usr.bin/mesg
+
+# mididump
+/usr.bin/mididump
+
+# ministat
+/usr.bin/ministat
+
+# mkcsmapper
+/usr.bin/mkcsmapper
+
+# mkdep
+/usr.bin/mkdep
+
+# mkdir
+/bin/mkdir
+
+# mkesdb
+/usr.bin/mkesdb
+
+# mkfifo
+/usr.bin/mkfifo
+
+# mkimg
+/usr.bin/mkimg
+
+# mkstr
+/usr.bin/mkstr
+
+# mktemp
+/usr.bin/mktemp
+
+# mptable
+/usr.sbin/mptable
+
+# msgs
+/usr.bin/msgs
+
+# mt
+/usr.bin/mt
+
+# mv
+/bin/mv
+
+# ncal
+/usr.bin/ncal
+
+# netstat
+/usr.bin/netstat
+
+# newgrp
+/usr.bin/newgrp
+
+# nfsstat
+/usr.bin/nfsstat
+
+# nice
+/usr.bin/nice
+
+# nl
+/usr.bin/nl
+
+# nohup
+/usr.bin/nohup
+
+# nproc
+/bin/nproc
+
+# od
+/usr.bin/hexdump
+
+# opt
+/usr.bin/clang/opt
+
+# pagesize
+/usr.bin/pagesize
+
+# passwd
+/usr.bin/passwd
+
+# paste
+/usr.bin/paste
+
+# pathchk
+/usr.bin/pathchk
+
+# pax
+/bin/pax
+
+# perror
+/usr.bin/perror
+
+# pkill
+/bin/pkill
+
+# posixmqcontrol
+/usr.bin/posixmqcontrol
+
+# posixshmcontrol
+/usr.bin/posixshmcontrol
+
+# pr
+/usr.bin/pr
+
+# printenv
+/usr.bin/printenv
+
+# printf
+/usr.bin/printf
+
+# proccontrol
+/usr.bin/proccontrol
+
+# procstat
+/usr.bin/procstat
+
+# protect
+/usr.bin/protect
+
+# ps
+/bin/ps
+
+# pwait
+/bin/pwait
+
+# pwd
+/bin/pwd
+
+# quota
+/usr.bin/quota
+
+# realpath
+/bin/realpath
+
+# recoverdisk
+/sbin/recoverdisk
+
+# resizewin
+/usr.bin/resizewin
+
+# rev
+/usr.bin/rev
+
+# revoke
+/usr.bin/revoke
+
+# rfcomm_sppd
+/usr.bin/bluetooth/rfcomm_sppd
+
+# rm
+/bin/rm
+
+# rmdir
+/bin/rmdir
+
+# rpcgen
+/usr.bin/rpcgen
+
+# rs
+/usr.bin/rs
+
+# rtld
+/libexec/rtld-elf
+
+# rtprio
+/usr.sbin/rtprio
+
+# runat
+/usr.bin/runat
+
+# rup
+/usr.bin/rup
+
+# ruptime
+/usr.bin/ruptime
+
+# rusers
+/usr.bin/rusers
+
+# rwall
+/usr.bin/rwall
+
+# rwho
+/usr.bin/rwho
+
+# script
+/usr.bin/script
+
+# sdiff
+/usr.bin/sdiff
+
+# sed
+/usr.bin/sed
+
+# seq
+/usr.bin/seq
+
+# setfacl
+/bin/setfacl
+
+# setfib
+/usr.sbin/setfib
+
+# sh
+/bin/sh
+
+# sleep
+/bin/sleep
+
+# sockstat
+/usr.bin/sockstat
+
+# soelim
+/usr.bin/soelim
+
+# split
+/usr.bin/split
+
+# ssh-copy-id
+/usr.bin/ssh-copy-id
+
+# stat
+/usr.bin/stat
+
+# stdbuf
+/usr.bin/stdbuf
+
+# stty
+/bin/stty
+
+# su
+/usr.bin/su
+
+# systat
+/usr.bin/systat
+
+# tabs
+/usr.bin/tabs
+
+# tail
+/usr.bin/tail
+
+# talk
+/usr.bin/talk
+
+# tcopy
+/usr.bin/tcopy
+
+# tee
+/usr.bin/tee
+
+# test
+/bin/test
+
+# tftp
+/usr.bin/tftp
+
+# time
+/usr.bin/time
+
+# timeout
+/bin/timeout
+
+# tip
+/usr.bin/tip/tip
+
+# top
+/usr.bin/top
+
+# touch
+/usr.bin/touch
+
+# tr
+/usr.bin/tr
+
+# true
+/usr.bin/true
+
+# truncate
+/usr.bin/truncate
+
+# truss
+/usr.bin/truss
+
+# tsort
+/usr.bin/tsort
+
+# tty
+/usr.bin/tty
+
+# uhsoctl
+/usr.sbin/uhsoctl
+
+# ul
+/usr.bin/ul
+
+# uname
+/usr.bin/uname
+
+# uniq
+/usr.bin/uniq
+
+# units
+/usr.bin/units
+
+# uptime
+/usr.bin/w
+
+# usbhidaction
+/usr.bin/usbhidaction
+
+# usbhidctl
+/usr.bin/usbhidctl
+
+# users
+/usr.bin/users
+
+# uuidgen
+/bin/uuidgen
+
+# vgrind
+/usr.bin/vgrind
+
+# vidcontrol
+/usr.sbin/vidcontrol
+
+# w
+/usr.bin/w
+
+# wall
+/usr.bin/wall
+
+# wc
+/usr.bin/wc
+
+# what
+/usr.bin/what
+
+# whereis
+/usr.bin/whereis
+
+# which
+/usr.bin/which
+
+# who
+/usr.bin/who
+
+# whoami
+/usr.bin/id
+
+# whois
+/usr.bin/whois
+
+# write
+/usr.bin/write
+
+# xargs
+/usr.bin/xargs
+
+# xstr
+/usr.bin/xstr
+
+# yes
+/usr.bin/yes
+
+# ypcat
+/usr.bin/ypcat
+
+# ypmatch
+/usr.bin/ypmatch
+
+# ypwhich
+/usr.bin/ypwhich
+
+# zdiff
+/usr.bin/gzip
+
+# zforce
+/usr.bin/gzip
+
+# zgrep
+/usr.bin/grep
+
+# zmore
+/usr.bin/gzip
+
+# znew
+/usr.bin/gzip
+
+# nuageinit
+/libexec/nuageinit
+
+# re_format
+/lib/libc/regex
+
+# symlink
+/bin/ln
+
+# ac
+/usr.sbin/ac
+
+# accton
+/usr.sbin/accton
+
+# acpiconf
+/usr.sbin/acpi/acpiconf
+
+# acpidb
+/usr.sbin/acpi/acpidb
+
+# acpidump
+/usr.sbin/acpi/acpidump
+
+# adduser
+/usr.sbin/adduser
+
+# adjkerntz
+/sbin/adjkerntz
+
+# apm
+/usr.sbin/apm
+
+# apmd
+/usr.sbin/apmd
+
+# arp
+/usr.sbin/arp
+
+# ath3kfw
+/usr.sbin/bluetooth/ath3kfw
+
+# automount
+/usr.sbin/autofs
+
+# automountd
+/usr.sbin/autofs
+
+# autounmountd
+/usr.sbin/autofs
+
+# backlight
+/usr.bin/backlight
+
+# bcmfw
+/usr.sbin/bluetooth/bcmfw
+
+# bectl
+/sbin/bectl
+
+# bhyve
+/usr.sbin/bhyve
+
+# bhyvectl
+/usr.sbin/bhyvectl
+
+# bhyveload
+/usr.sbin/bhyveload
+
+# binmiscctl
+/usr.sbin/binmiscctl
+
+# bluetooth-config
+/usr.sbin/bluetooth/bluetooth-config
+
+# boot0cfg
+/usr.sbin/boot0cfg
+
+# boot_i386
+/sbin/reboot
+
+# bootparamd
+/usr.sbin/bootparamd/bootparamd
+
+# bootpd
+/libexec/bootpd
+
+# bootpef
+/libexec/bootpd/tools/bootpef
+
+# bootptest
+/libexec/bootpd/tools/bootptest
+
+# boottrace
+/usr.sbin/boottrace
+
+# bsdconfig
+/usr.sbin/bsdconfig
+
+# bsdinstall
+/usr.sbin/bsdinstall
+
+# bsdlabel
+/sbin/bsdlabel
+
+# bthidcontrol
+/usr.sbin/bluetooth/bthidcontrol
+
+# bthidd
+/usr.sbin/bluetooth/bthidd
+
+# btpand
+/usr.sbin/bluetooth/btpand
+
+# btxld
+/usr.sbin/btxld
+
+# camcontrol
+/sbin/camcontrol
+
+# camdd
+/usr.sbin/camdd
+
+# ccdconfig
+/sbin/ccdconfig
+
+# certctl
+/usr.sbin/certctl
+
+# chat
+/usr.bin/chat
+
+# chkgrp
+/usr.sbin/chkgrp
+
+# chkprintcap
+/usr.sbin/lpr/chkprintcap
+
+# chown
+/usr.sbin/chown
+
+# chroot
+/usr.sbin/chroot
+
+# clear_locks
+/usr.sbin/clear_locks
+
+# clri
+/sbin/clri
+
+# comcontrol
+/sbin/comcontrol
+
+# comsat
+/libexec/comsat
+
+# config
+/usr.sbin/config
+
+# conscontrol
+/sbin/conscontrol
+
+# cpucontrol
+/usr.sbin/cpucontrol
+
+# crashinfo
+/usr.sbin/crashinfo
+
+# cron
+/usr.sbin/cron/cron
+
+# ctladm
+/usr.sbin/ctladm
+
+# ctld
+/usr.sbin/ctld
+
+# ctlstat
+/usr.bin/ctlstat
+
+# cxgbetool
+/usr.sbin/cxgbetool
+
+# daemon
+/usr.sbin/daemon
+
+# dconschat
+/usr.sbin/dconschat
+
+# ddb
+/sbin/ddb
+
+# decryptcore
+/sbin/decryptcore
+
+# devctl
+/usr.sbin/devctl
+
+# devd
+/sbin/devd
+
+# devfs
+/sbin/devfs
+
+# devinfo
+/usr.sbin/devinfo
+
+# devmatch
+/sbin/devmatch
+
+# dhclient
+/sbin/dhclient
+
+# dhclient-script
+/sbin/dhclient
+
+# diskinfo
+/usr.sbin/diskinfo
+
+# dmesg
+/sbin/dmesg
+
+# dump
+/sbin/dump
+
+# dumpcis
+/usr.sbin/dumpcis
+
+# dumpfs
+/sbin/dumpfs
+
+# dumpon
+/sbin/dumpon
+
+# edquota
+/usr.sbin/edquota
+
+# efibootmgr
+/usr.sbin/efibootmgr
+
+# efidp
+/usr.sbin/efidp
+
+# efitable
+/usr.sbin/efitable
+
+# efivar
+/usr.sbin/efivar
+
+# efiwake
+/usr.sbin/efiwake
+
+# etcupdate
+/usr.sbin/etcupdate
+
+# etherswitchcfg
+/sbin/etherswitchcfg
+
+# extattrctl
+/usr.sbin/extattrctl
+
+# fdcontrol
+/usr.sbin/fdcontrol
+
+# fdformat
+/usr.sbin/fdformat
+
+# fdisk
+/sbin/fdisk
+
+# ffsinfo
+/sbin/ffsinfo
+
+# fingerd
+/libexec/fingerd
+
+# flowctl
+/usr.sbin/flowctl
+
+# freebsd-update
+/usr.sbin/freebsd-update
+
+# fsck
+/sbin/fsck
+
+# fsck_ffs
+/sbin/fsck_ffs
+
+# fsck_msdosfs
+/sbin/fsck_msdosfs
+
+# fsdb
+/sbin/fsdb
+
+# fsirand
+/sbin/fsirand
+
+# fstyp
+/usr.sbin/fstyp
+
+# fwcontrol
+/usr.sbin/fwcontrol
+
+# fwget
+/usr.sbin/fwget
+
+# gcache
+/lib/geom/cache
+
+# gconcat
+/lib/geom/concat
+
+# geli
+/lib/geom/eli
+
+# geom
+/sbin/geom/core
+
+# getfmac
+/usr.sbin/getfmac
+
+# getpmac
+/usr.sbin/getpmac
+
+# getty
+/libexec/getty
+
+# ggatec
+/sbin/ggate/ggatec
+
+# ggated
+/sbin/ggate/ggated
+
+# ggatel
+/sbin/ggate/ggatel
+
+# gjournal
+/lib/geom/journal
+
+# glabel
+/lib/geom/label
+
+# gmirror
+/lib/geom/mirror
+
+# gmountver
+/lib/geom/mountver
+
+# gmultipath
+/lib/geom/multipath
+
+# gnop
+/lib/geom/nop
+
+# gpart
+/lib/geom/part
+
+# gpioctl
+/usr.sbin/gpioctl
+
+# graid
+/lib/geom/raid
+
+# graid3
+/lib/geom/raid3
+
+# growfs
+/sbin/growfs
+
+# gshsec
+/lib/geom/shsec
+
+# gssd
+/usr.sbin/gssd
+
+# gstat
+/usr.sbin/gstat
+
+# gstripe
+/lib/geom/stripe
+
+# gunion
+/lib/geom/union
+
+# gvirstor
+/lib/geom/virstor
+
+# hastctl
+/sbin/hastctl
+
+# hastd
+/sbin/hastd
+
+# hccontrol
+/usr.sbin/bluetooth/hccontrol
+
+# hcsecd
+/usr.sbin/bluetooth/hcsecd
+
+# hostapd
+/usr.sbin/wpa/hostapd
+
+# hostapd_cli
+/usr.sbin/wpa/hostapd_cli
+
+# i2c
+/usr.sbin/i2c
+
+# iasl
+/usr.sbin/acpi/iasl
+
+# ifconfig
+/sbin/ifconfig
+
+# ifmcstat
+/usr.sbin/ifmcstat
+
+# inetd
+/usr.sbin/inetd
+
+# init
+/sbin/init
+
+# iostat
+/usr.sbin/iostat
+
+# iovctl
+/usr.sbin/iovctl
+
+# ip6addrctl
+/usr.sbin/ip6addrctl
+
+# ipf
+/sbin/ipf/ipf
+
+# ipfs
+/sbin/ipf/ipfs
+
+# ipfstat
+/sbin/ipf/ipfstat
+
+# ipfw
+/sbin/ipfw
+
+# ipfwpcap
+/usr.sbin/ipfwpcap
+
+# ipmon
+/sbin/ipf/ipmon
+
+# ippool
+/sbin/ipf/ippool
+
+# ipscan
+/sbin/ipf/ipscan
+
+# iscsictl
+/usr.bin/iscsictl
+
+# iscsid
+/usr.sbin/iscsid
+
+# iwmbtfw
+/usr.sbin/bluetooth/iwmbtfw
+
+# jail
+/usr.sbin/jail
+
+# jexec
+/usr.sbin/jexec
+
+# jls
+/usr.sbin/jls
+
+# kldconfig
+/sbin/kldconfig
+
+# kldload
+/sbin/kldload
+
+# kldstat
+/sbin/kldstat
+
+# kldunload
+/sbin/kldunload
+
+# kldxref
+/usr.sbin/kldxref
+
+# ktrdump
+/usr.bin/ktrdump
+
+# l2control
+/usr.sbin/bluetooth/l2control
+
+# l2ping
+/usr.sbin/bluetooth/l2ping
+
+# lastlogin
+/usr.sbin/lastlogin
+
+# ldconfig
+/sbin/ldconfig
+
+# locate.updatedb
+/usr.bin/locate/locate
+
+# lpc
+/usr.sbin/lpr/lpc
+
+# lpd
+/usr.sbin/lpr/lpd
+
+# lptcontrol
+/usr.sbin/lptcontrol
+
+# mailwrapper
+/usr.sbin/mailwrapper
+
+# makefs
+/usr.sbin/makefs
+
+# makewhatis.local
+/libexec/makewhatis.local
+
+# manctl
+/usr.sbin/manctl
+
+# mdconfig
+/sbin/mdconfig
+
+# mdmfs
+/sbin/mdmfs
+
+# memcontrol
+/usr.sbin/memcontrol
+
+# mfiutil
+/usr.sbin/mfiutil
+
+# mixer
+/usr.sbin/mixer
+
+# mknetid
+/libexec/mknetid
+
+# mknod
+/sbin/mknod
+
+# mksnap_ffs
+/sbin/mksnap_ffs
+
+# mld6query
+/usr.sbin/mld6query
+
+# mlx5tool
+/usr.sbin/mlx5tool
+
+# mlxcontrol
+/usr.sbin/mlxcontrol
+
+# mount
+/sbin/mount
+
+# mount_cd9660
+/sbin/mount_cd9660
+
+# mount_fusefs
+/sbin/mount_fusefs
+
+# mount_msdosfs
+/sbin/mount_msdosfs
+
+# mount_nfs
+/sbin/mount_nfs
+
+# mount_nullfs
+/sbin/mount_nullfs
+
+# mount_udf
+/sbin/mount_udf
+
+# mount_unionfs
+/sbin/mount_unionfs
+
+# mountd
+/usr.sbin/mountd
+
+# moused
+/usr.sbin/moused/moused
+
+# mpsutil
+/usr.sbin/mpsutil
+
+# mptutil
+/usr.sbin/mptutil
+
+# msconvd
+/usr.sbin/moused/msconvd
+
+# mtest
+/usr.sbin/mtest
+
+# natd
+/sbin/natd
+
+# ndp
+/usr.sbin/ndp
+
+# newfs
+/sbin/newfs
+
+# newfs_msdos
+/sbin/newfs_msdos
+
+# newsyslog
+/usr.sbin/newsyslog
+
+# nextboot
+/sbin/reboot
+
+# nfscbd
+/usr.sbin/nfscbd
+
+# nfsd
+/usr.sbin/nfsd
+
+# nfsdumpstate
+/usr.sbin/nfsdumpstate
+
+# nfsiod
+/sbin/nfsiod
+
+# nfsrevoke
+/usr.sbin/nfsrevoke
+
+# nfsuserd
+/usr.sbin/nfsuserd
+
+# ngctl
+/usr.sbin/ngctl
+
+# nghook
+/usr.sbin/nghook
+
+# nologin
+/usr.sbin/nologin
+
+# nos-tun
+/sbin/nos-tun
+
+# nscd
+/usr.sbin/nscd
+
+# nss_tacplus
+/lib/nss_tacplus
+
+# ntpdate
+/usr.sbin/ntp/doc
+
+# ntptime
+/usr.sbin/ntp/doc
+
+# ntptrace
+/usr.sbin/ntp/doc
+
+# nvmecontrol
+/sbin/nvmecontrol
+
+# nvram
+/usr.sbin/nvram
+
+# ofwdump
+/usr.sbin/ofwdump
+
+# pac
+/usr.sbin/lpr/pac
+
+# pam-krb5
+/lib/libpam/modules/pam_krb5
+
+# pam_chroot
+/lib/libpam/modules/pam_chroot
+
+# pam_deny
+/lib/libpam/modules/pam_deny
+
+# pam_echo
+/lib/libpam/modules/pam_echo
+
+# pam_exec
+/lib/libpam/modules/pam_exec
+
+# pam_ftpusers
+/lib/libpam/modules/pam_ftpusers
+
+# pam_group
+/lib/libpam/modules/pam_group
+
+# pam_guest
+/lib/libpam/modules/pam_guest
+
+# pam_krb5
+/lib/libpam/modules/pam_krb5
+
+# pam_ksu
+/lib/libpam/modules/pam_ksu
+
+# pam_lastlog
+/lib/libpam/modules/pam_lastlog
+
+# pam_login_access
+/lib/libpam/modules/pam_login_access
+
+# pam_nologin
+/lib/libpam/modules/pam_nologin
+
+# pam_passwdqc
+/lib/libpam/modules/pam_passwdqc
+
+# pam_permit
+/lib/libpam/modules/pam_permit
+
+# pam_radius
+/lib/libpam/modules/pam_radius
+
+# pam_rhosts
+/lib/libpam/modules/pam_rhosts
+
+# pam_rootok
+/lib/libpam/modules/pam_rootok
+
+# pam_securetty
+/lib/libpam/modules/pam_securetty
+
+# pam_self
+/lib/libpam/modules/pam_self
+
+# pam_ssh
+/lib/libpam/modules/pam_ssh
+
+# pam_tacplus
+/lib/libpam/modules/pam_tacplus
+
+# pam_unix
+/lib/libpam/modules/pam_unix
+
+# pam_xdg
+/lib/libpam/modules/pam_xdg
+
+# pciconf
+/usr.sbin/pciconf
+
+# periodic
+/usr.sbin/periodic
+
+# pfctl
+/sbin/pfctl
+
+# pfilctl
+/sbin/pfilctl
+
+# pflowctl
+/sbin/pflowctl
+
+# phttpget
+/libexec/phttpget
+
+# ping
+/sbin/ping
+
+# pmcannotate
+/usr.sbin/pmcannotate
+
+# pmccontrol
+/usr.sbin/pmccontrol
+
+# pmcstat
+/usr.sbin/pmcstat
+
+# pmcstudy
+/usr.sbin/pmcstudy
+
+# pnfsdscopymr
+/usr.sbin/pnfsdscopymr
+
+# pnfsdsfile
+/usr.sbin/pnfsdsfile
+
+# pnfsdskill
+/usr.sbin/pnfsdskill
+
+# powerd
+/usr.sbin/powerd
+
+# ppp
+/usr.sbin/ppp
+
+# pppctl
+/usr.sbin/pppctl
+
+# pppoed
+/libexec/pppoed
+
+# prometheus_sysctl_exporter
+/usr.sbin/prometheus_sysctl_exporter
+
+# pstat
+/usr.sbin/pstat
+
+# pw
+/usr.sbin/pw
+
+# pwd_mkdb
+/usr.sbin/pwd_mkdb
+
+# pwm
+/usr.sbin/pwm
+
+# quot
+/usr.sbin/quot
+
+# quotacheck
+/sbin/quotacheck
+
+# quotaon
+/usr.sbin/quotaon
+
+# rarpd
+/usr.sbin/rarpd
+
+# rbootd
+/libexec/rbootd
+
+# rcorder
+/sbin/rcorder
+
+# rctl
+/usr.bin/rctl
+
+# reboot
+/sbin/reboot
+
+# renice
+/usr.bin/renice
+
+# repquota
+/usr.sbin/repquota
+
+# restore
+/sbin/restore
+
+# revnetgroup
+/libexec/revnetgroup
+
+# rfcomm_pppd
+/usr.sbin/bluetooth/rfcomm_pppd
+
+# rip6query
+/usr.sbin/rip6query
+
+# rmextattr
+/usr.sbin/extattr
+
+# rmt
+/usr.sbin/rmt
+
+# rmuser
+/usr.sbin/adduser
+
+# route
+/sbin/route
+
+# route6d
+/usr.sbin/route6d
+
+# routed
+/sbin/routed
+
+# rpc.lockd
+/usr.sbin/rpc.lockd
+
+# rpc.rquotad
+/libexec/rpc.rquotad
+
+# rpc.rstatd
+/libexec/rpc.rstatd
+
+# rpc.rusersd
+/libexec/rpc.rusersd
+
+# rpc.rwalld
+/libexec/rpc.rwalld
+
+# rpc.sprayd
+/libexec/rpc.sprayd
+
+# rpc.statd
+/usr.sbin/rpc.statd
+
+# rpc.tlsclntd
+/usr.sbin/rpc.tlsclntd
+
+# rpc.tlsservd
+/usr.sbin/rpc.tlsservd
+
+# rpc.umntall
+/usr.sbin/rpc.umntall
+
+# rpc.yppasswdd
+/usr.sbin/rpc.yppasswdd
+
+# rpc.ypxfrd
+/usr.sbin/rpc.ypxfrd
+
+# rpcbind
+/usr.sbin/rpcbind
+
+# rpcinfo
+/usr.bin/rpcinfo
+
+# rrenumd
+/usr.sbin/rrenumd
+
+# rtadvctl
+/usr.sbin/rtadvctl
+
+# rtadvd
+/usr.sbin/rtadvd
+
+# rtlbtfw
+/usr.sbin/bluetooth/rtlbtfw
+
+# rtquery
+/sbin/routed/rtquery
+
+# rtsold
+/usr.sbin/rtsold
+
+# rwhod
+/usr.sbin/rwhod
+
+# sa
+/usr.sbin/sa
+
+# sade
+/usr.sbin/bsdinstall/partedit
+
+# save-entropy
+/libexec/save-entropy
+
+# savecore
+/sbin/savecore
+
+# sdpcontrol
+/usr.sbin/bluetooth/sdpcontrol
+
+# sdpd
+/usr.sbin/bluetooth/sdpd
+
+# service
+/usr.sbin/service
+
+# services_mkdb
+/usr.sbin/services_mkdb
+
+# sesutil
+/usr.sbin/sesutil
+
+# setaudit
+/usr.sbin/setaudit
+
+# setfmac
+/usr.sbin/setfmac
+
+# setfsmac
+/usr.sbin/setfmac
+
+# setkey
+/sbin/setkey
+
+# setpmac
+/usr.sbin/setpmac
+
+# showmount
+/usr.bin/showmount
+
+# shutdown
+/sbin/shutdown
+
+# smbmsg
+/usr.sbin/smbmsg
+
+# snapinfo
+/usr.sbin/snapinfo
+
+# sndctl
+/usr.sbin/sndctl
+
+# spi
+/usr.sbin/spi
+
+# spkrtest
+/usr.sbin/spkrtest
+
+# spray
+/usr.sbin/spray
+
+# strfile
+/usr.bin/fortune/strfile
+
+# swapon
+/sbin/swapon
+
+# sync
+/bin/sync
+
+# sysctl
+/sbin/sysctl
+
+# syslogd
+/usr.sbin/syslogd
+
+# sysrc
+/usr.sbin/sysrc
+
+# talkd
+/libexec/talkd
+
+# tcpdrop
+/usr.sbin/tcpdrop
+
+# tcpsso
+/usr.sbin/tcpsso
+
+# tftpd
+/libexec/tftpd
+
+# traceroute
+/usr.sbin/traceroute
+
+# traceroute6
+/usr.sbin/traceroute6
+
+# trim
+/usr.sbin/trim
+
+# tunefs
+/sbin/tunefs
+
+# tzsetup
+/usr.sbin/tzsetup
+
+# uathload
+/usr.sbin/uathload
+
+# uefisign
+/usr.sbin/uefisign
+
+# ugidfw
+/usr.sbin/ugidfw
+
+# umbctl
+/sbin/umbctl
+
+# umount
+/sbin/umount
+
+# usbconfig
+/usr.sbin/usbconfig
+
+# usbdump
+/usr.sbin/usbdump
+
+# utx
+/usr.sbin/utx
+
+# valectl
+/usr.sbin/valectl
+
+# veriexec
+/sbin/veriexec
+
+# vigr
+/usr.sbin/vigr
+
+# vipw
+/usr.sbin/vipw
+
+# virtual_bt_speaker
+/usr.sbin/virtual_oss/virtual_bt_speaker
+
+# virtual_equalizer
+/usr.sbin/virtual_oss/virtual_equalizer
+
+# virtual_oss
+/usr.sbin/virtual_oss/virtual_oss
+
+# virtual_oss_cmd
+/usr.sbin/virtual_oss/virtual_oss_cmd
+
+# vmstat
+/usr.bin/vmstat
+
+# vtfontcvt
+/usr.bin/vtfontcvt
+
+# wake
+/usr.sbin/wake
+
+# watch
+/usr.sbin/watch
+
+# watchdog
+/usr.sbin/watchdogd
+
+# watchdogd
+/usr.sbin/watchdogd
+
+# wlandebug
+/usr.sbin/wlandebug
+
+# wlanstat
+/usr.sbin/wlanstat
+
+# wpa_cli
+/usr.sbin/wpa/wpa_cli
+
+# wpa_passphrase
+/usr.sbin/wpa/wpa_passphrase
+
+# yp_mkdb
+/usr.sbin/yp_mkdb
+
+# ypbind
+/usr.sbin/ypbind
+
+# ypinit
+/usr.sbin/ypserv
+
+# ypldap
+/usr.sbin/ypldap
+
+# yppoll
+/usr.sbin/yppoll
+
+# yppush
+/usr.sbin/yppush
+
+# ypserv
+/usr.sbin/ypserv
+
+# ypset
+/usr.sbin/ypset
+
+# ypxfr
+/libexec/ypxfr
+
+# zfsbootcfg
+/sbin/zfsbootcfg
+
+# zonectl
+/usr.sbin/zonectl
+
+# zzz
+/usr.sbin/zzz
+
+# acpi
 /sys/contrib/dev/acpica
 
-# ice(4)
+# ice
 /sys/contrib/dev/ice erj@FreeBSD.org
 
-# ipfilter(4)
+# ipfilter
 /sys/netpfil/ipfilter cy@FreeBSD.org
 
-# pf(4)
+# pf
 /sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
 
-# umb(4)
+# umb
 /sys/dev/usb/net
 
 # ZFS
@@ -147,7 +2226,7 @@
 # liblzma
 /contrib/xz
 
-# libmagic (file)
+# libmagic
 /contrib/file
 
 # libucl

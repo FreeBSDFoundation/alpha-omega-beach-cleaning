@@ -1,0 +1,7 @@
+Name: ipf
+Description: Alters packet filtering lists for IP packet input and output
+URL: https://man.freebsd.org/cgi/man.cgi?query=ipf(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ipf
+Requires: csu, libc, libcompiler\_rt, libkvm, libpcap

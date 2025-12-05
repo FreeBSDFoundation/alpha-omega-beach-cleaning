@@ -1,0 +1,7 @@
+Name: install
+Description: Install binaries
+URL: https://man.freebsd.org/cgi/man.cgi?query=install(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/install
+Requires: csu, libc, libcompiler\_rt, libmd, libutil

@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-ssh-copy-idC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: ssh-copy-id@15.0
+
+PackageName: ssh-copy-id@15.0
+SPDXID: SPDXRef-Package-ssh-copy-idC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=ssh-copy-id(1)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Copy public keys to a remote host</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ssh-copy-idC6415.0

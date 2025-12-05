@@ -1,0 +1,7 @@
+Name: conscontrol
+Description: Control physical system video console devices
+URL: https://man.freebsd.org/cgi/man.cgi?query=conscontrol(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/conscontrol
+Requires: csu, libc, libcompiler\_rt

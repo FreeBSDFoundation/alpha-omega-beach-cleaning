@@ -9,12 +9,15 @@
 | libcxxrt | fix |
 | LLVM | fix |
 | unifdef | fix |
+| __General Commands__ | |
+| __Macros and Conventions__ | |
+| __Maintenance Commands__ | |
 | __Kernel__ | |
-| acpi(4) | fix |
-| ice(4) | fix |
-| ipfilter(4) | fork |
-| pf(4) | fork |
-| umb(4) | fork |
+| acpi | fix |
+| ice | fix |
+| ipfilter | fork |
+| pf | fork |
+| umb | fork |
 | ZFS | fix |
 | zstd | fix |
 | __Network Libraries__ | |
@@ -56,7 +59,7 @@
 | libexpat | fix |
 | libfido2 | fix |
 | liblzma | fix |
-| libmagic (file) | fix |
+| libmagic | fix |
 | libucl | fix |
 | libxo | fix |
 | LibYAML | fix |

@@ -1,0 +1,7 @@
+Name: swapon
+Description: Specify devices for paging and swapping
+URL: https://man.freebsd.org/cgi/man.cgi?query=swapon(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/swapon
+Requires: csu, libc, libcompiler\_rt, libutil

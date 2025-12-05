@@ -1,0 +1,7 @@
+Name: tzsetup
+Description: Set local timezone
+URL: https://man.freebsd.org/cgi/man.cgi?query=tzsetup(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/tzsetup
+Requires: csu, libbsddialog, libc, libcompiler\_rt

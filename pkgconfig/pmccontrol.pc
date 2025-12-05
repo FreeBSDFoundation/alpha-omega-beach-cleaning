@@ -1,0 +1,7 @@
+Name: pmccontrol
+Description: Control hardware performance monitoring counters
+URL: https://man.freebsd.org/cgi/man.cgi?query=pmccontrol(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pmccontrol
+Requires: csu, libc, libc++, libcompiler\_rt, libcxxrt, libpmc, msun

@@ -1,0 +1,6 @@
+Name: ntptrace
+Description: Trace peers of an NTP server
+URL: https://man.freebsd.org/cgi/man.cgi?query=ntptrace(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ntptrace

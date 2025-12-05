@@ -1,0 +1,7 @@
+Name: symlink
+Description: Symbolic link handling
+URL: https://man.freebsd.org/cgi/man.cgi?query=symlink(7)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/symlink
+Requires: csu, libc, libcompiler\_rt

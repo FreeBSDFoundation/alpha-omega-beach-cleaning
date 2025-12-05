@@ -1,0 +1,7 @@
+Name: ggatel
+Description: GEOM Gate local control utility
+URL: https://man.freebsd.org/cgi/man.cgi?query=ggatel(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ggatel
+Requires: csu, libc, libcompiler\_rt, libgeom, libutil

@@ -1,0 +1,6 @@
+Name: pagesize
+Description: Print system page size
+URL: https://man.freebsd.org/cgi/man.cgi?query=pagesize(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pagesize

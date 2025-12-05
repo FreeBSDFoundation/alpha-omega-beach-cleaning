@@ -1,0 +1,7 @@
+Name: revoke
+Description: Revoke a character device
+URL: https://man.freebsd.org/cgi/man.cgi?query=revoke(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/revoke
+Requires: csu, libc, libcompiler\_rt

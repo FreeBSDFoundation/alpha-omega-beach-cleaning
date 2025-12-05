@@ -1,0 +1,7 @@
+Name: nscd
+Description: Name service caching daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=nscd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nscd
+Requires: csu, libc, libcompiler\_rt, libthr, libutil, msun

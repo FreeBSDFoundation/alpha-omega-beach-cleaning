@@ -1,0 +1,7 @@
+Name: pnfsdsfile
+Description: Display a pNFS data storage file's location(s) and/or modify the “pnfsd.dsfile” extended attribute for them
+URL: https://man.freebsd.org/cgi/man.cgi?query=pnfsdsfile(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pnfsdsfile
+Requires: csu, libc, libcompiler\_rt

@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-llvm-objcopyC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: llvm-objcopy@19.x-llvmorg-19.1.4-0-gaadaa00de76e
+
+PackageName: llvm-objcopy@19.x-llvmorg-19.1.4-0-gaadaa00de76e
+SPDXID: SPDXRef-Package-llvm-objcopyC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
+PackageVersion: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://llvm.org
+PackageLicenseDeclared: Apache-2.0
+PackageSummary: <text>Object copying and editing tool</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-llvm-objcopyC6419.x-llvmorg-19.1.4-0-gaadaa00de76e

@@ -1,0 +1,7 @@
+Name: tip
+Description: Connect to a remote system
+URL: https://man.freebsd.org/cgi/man.cgi?query=tip(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/tip
+Requires: csu, libc, libcompiler\_rt

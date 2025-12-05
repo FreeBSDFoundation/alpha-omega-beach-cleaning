@@ -1,0 +1,7 @@
+Name: rmextattr
+Description: Manipulate extended attributes
+URL: https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rmextattr
+Requires: csu, libc, libcompiler\_rt, libsbuf, libutil

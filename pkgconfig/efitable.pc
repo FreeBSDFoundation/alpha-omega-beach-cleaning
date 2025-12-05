@@ -1,0 +1,7 @@
+Name: efitable
+Description: Dump UEFI tables
+URL: https://man.freebsd.org/cgi/man.cgi?query=efitable(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/efitable
+Requires: csu, libc, libcompiler\_rt, libxo

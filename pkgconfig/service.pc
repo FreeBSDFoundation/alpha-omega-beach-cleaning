@@ -1,0 +1,6 @@
+Name: service
+Description: Control (start/stop/etc.) or list system services
+URL: https://man.freebsd.org/cgi/man.cgi?query=service(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/service

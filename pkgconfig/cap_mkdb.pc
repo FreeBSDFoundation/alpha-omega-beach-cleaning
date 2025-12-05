@@ -1,0 +1,7 @@
+Name: cap\_mkdb
+Description: Create capability database
+URL: https://man.freebsd.org/cgi/man.cgi?query=cap\_mkdb(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/cap\_mkdb
+Requires: csu, libc, libcompiler\_rt

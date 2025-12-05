@@ -1,0 +1,7 @@
+Name: jexec
+Description: Execute a command inside an existing jail
+URL: https://man.freebsd.org/cgi/man.cgi?query=jexec(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/jexec
+Requires: csu, libc, libcompiler\_rt, libjail, libutil

@@ -1,0 +1,7 @@
+Name: getconf
+Description: Retrieve standard configuration variables
+URL: https://man.freebsd.org/cgi/man.cgi?query=getconf(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/getconf
+Requires: csu, libc, libcompiler\_rt

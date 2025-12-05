@@ -1,0 +1,7 @@
+Name: nfscbd
+Description: NFSv4 client side callback daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=nfscbd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nfscbd
+Requires: csu, libc, libcompiler\_rt

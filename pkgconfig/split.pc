@@ -1,0 +1,7 @@
+Name: split
+Description: Split a file into pieces
+URL: https://man.freebsd.org/cgi/man.cgi?query=split(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/split
+Requires: csu, libc, libcompiler\_rt, libutil

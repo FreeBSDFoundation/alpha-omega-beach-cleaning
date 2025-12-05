@@ -1,0 +1,7 @@
+Name: ipfwpcap
+Description: Copy diverted packets to a file in tcpdump format
+URL: https://man.freebsd.org/cgi/man.cgi?query=ipfwpcap(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ipfwpcap
+Requires: csu, libc, libcompiler\_rt, libpcap

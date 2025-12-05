@@ -1,0 +1,7 @@
+Name: nice
+Description: Execute a utility at an altered scheduling priority
+URL: https://man.freebsd.org/cgi/man.cgi?query=nice(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nice
+Requires: csu, libc, libcompiler\_rt

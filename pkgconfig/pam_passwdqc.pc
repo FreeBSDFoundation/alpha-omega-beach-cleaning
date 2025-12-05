@@ -1,0 +1,7 @@
+Name: pam\_passwdqc
+Description: Password quality-control PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_passwdqc(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_passwdqc
+Requires: csu, libc, libcompiler\_rt, libcrypt, libpam

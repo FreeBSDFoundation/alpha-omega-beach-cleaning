@@ -1,0 +1,7 @@
+Name: gprof
+Description: Display call graph profile data
+URL: https://man.freebsd.org/cgi/man.cgi?query=gprof(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/gprof
+Requires: csu, libc, libcompiler\_rt

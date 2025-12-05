@@ -1,0 +1,7 @@
+Name: lastcomm
+Description: Show last commands executed
+URL: https://man.freebsd.org/cgi/man.cgi?query=lastcomm(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lastcomm
+Requires: csu, libc, libcompiler\_rt

@@ -1,0 +1,7 @@
+Name: mptable
+Description: Display MP configuration table
+URL: https://man.freebsd.org/cgi/man.cgi?query=mptable(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mptable
+Requires: csu, libc, libcompiler\_rt

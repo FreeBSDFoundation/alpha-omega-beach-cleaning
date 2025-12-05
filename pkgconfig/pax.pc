@@ -1,0 +1,7 @@
+Name: pax
+Description: Read and write file archives and copy directory hierarchies
+URL: https://man.freebsd.org/cgi/man.cgi?query=pax(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pax
+Requires: csu, libc, libcompiler\_rt

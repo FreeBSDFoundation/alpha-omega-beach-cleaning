@@ -64,8 +64,8 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 
 	//obtain the columns
 	columns := [2]tuple{
-		{ "owner", "Owner" },
-		{ "directory", "Directory" },
+		{"owner", "Owner"},
+		{"directory", "Directory"},
 	}
 
 	switch top.Kind {
@@ -75,15 +75,15 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				v := section.Content[j+1]
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				}
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var owners, directories []string
 							var values map[string]string
 
@@ -106,7 +106,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
 												owners = append(owners, entry.Content[m+1].Value)
 											}
-									} else if col.key == "directory" &&
+										} else if col.key == "directory" &&
 											entry.Content[m].Value == col.key {
 											if entry.Content[m+1].Kind == yaml.SequenceNode {
 												for _, w := range entry.Content[m+1].Content {
@@ -120,7 +120,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 								}
 							}
 							for _, v := range directories {
-								if matched := strings.HasPrefix(path + "/", v + "/"); matched {
+								if matched := strings.HasPrefix(path+"/", v+"/"); matched {
 									fmt.Printf("Owner(s) for %s: (%s in %s)\n", values["title"], path, v)
 									for _, v := range owners {
 										fmt.Printf("- %s\n", v)
@@ -139,7 +139,7 @@ func aobcBlamePath(dec *yaml.Decoder, root yaml.Node, path string) error {
 	return err
 }
 
-func aobcGenerate(reports[] string) error {
+func aobcGenerate(reports []string) error {
 	var err error
 	var root yaml.Node
 
@@ -182,7 +182,7 @@ func aobcGenerate(reports[] string) error {
 }
 
 func aobcGenerateAll() error {
-	reports := []string{"codeowners", "dependencies", "plan", "securityreview", "pkgconfig" }
+	reports := []string{"codeowners", "dependencies", "plan", "securityreview", "pkgconfig"}
 
 	return aobcGenerate(reports)
 }
@@ -200,8 +200,8 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 
 	//obtain the columns
 	columns := [2]tuple{
-		{ "owner", "Owner" },
-		{ "directory", "Directory" },
+		{"owner", "Owner"},
+		{"directory", "Directory"},
 	}
 
 	switch top.Kind {
@@ -211,15 +211,15 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				v := section.Content[j+1]
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				}
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var owners, directories []string
 							var values map[string]string
 
@@ -242,7 +242,7 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 											} else if entry.Content[m+1].Kind == yaml.ScalarNode {
 												owners = append(owners, entry.Content[m+1].Value)
 											}
-									} else if col.key == "directory" &&
+										} else if col.key == "directory" &&
 											entry.Content[m].Value == col.key {
 											if entry.Content[m+1].Kind == yaml.SequenceNode {
 												for _, w := range entry.Content[m+1].Content {
@@ -303,20 +303,20 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				v := section.Content[j+1]
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				}
+				fmt.Fprintf(ofile, "| __%s__", textEscape(section.Content[j].Value))
+				for range columns {
+					fmt.Fprintf(ofile, " |")
+				}
+				fmt.Fprintf(ofile, "\n")
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for range columns {
-								fmt.Fprintf(ofile, " |")
-							}
-							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -382,17 +382,17 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					prefix = "FreeBSD-"
+				} else {
+					prefix = ""
+				}
+				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								prefix = "FreeBSD-"
-							} else {
-								prefix = ""
-							}
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -471,20 +471,21 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				} else {
+					fmt.Fprintf(ofile, "| __%s__", textEscape(section.Content[j].Value))
+					for range columns {
+						fmt.Fprintf(ofile, " |")
+					}
+					fmt.Fprintf(ofile, "\n")
+				}
+				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for range columns {
-								fmt.Fprintf(ofile, " |")
-							}
-							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -503,7 +504,10 @@ func aobcGeneratePlan(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							reportRow(ofile, columns, values)
+							//XXX hard-coded
+							if _, exists := values["plan"]; exists && len(values["plan"]) > 0 {
+								reportRow(ofile, columns, values)
+							}
 						}
 					}
 				}
@@ -539,20 +543,20 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 				continue
 			}
 			section := top.Content[i+1]
-			for _, v := range section.Content {
+			for j := 0; j < len(section.Content); j += 2 {
+				//new section
+				if section.Content[j].Value == sectionIgnore {
+					continue
+				}
+				fmt.Fprintf(ofile, "| __%s__", textEscape(section.Content[j].Value))
+				for range columns {
+					fmt.Fprintf(ofile, " |")
+				}
+				fmt.Fprintf(ofile, "\n")
+				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
-						if v.Content[k+1].Kind == yaml.ScalarNode {
-							//new section
-							if v.Content[k].Value == sectionIgnore {
-								break
-							}
-							fmt.Fprintf(ofile, "| __%s__", textEscape(v.Content[k].Value))
-							for range columns {
-								fmt.Fprintf(ofile, " |")
-							}
-							fmt.Fprintf(ofile, "\n")
-						} else if v.Content[k+1].Kind == yaml.MappingNode {
+						if v.Content[k+1].Kind == yaml.MappingNode {
 							var values map[string]string
 
 							//new entry
@@ -587,7 +591,9 @@ func aobcGenerateSecurityReview(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							reportRow(ofile, columns, values)
+							if _, exists := values["score"]; exists && len(values["score"]) > 0 {
+								reportRow(ofile, columns, values)
+							}
 						}
 					}
 				}
@@ -610,13 +616,13 @@ func databaseGetColumns(root yaml.Node, label string) []tuple {
 				continue
 			}
 			column := top.Content[i+1]
-			for _, v := range column.Content {
-				if v.Kind == yaml.MappingNode {
-					for k := 0; k < len(v.Content); k += 2 {
-						columns = append(columns, tuple{v.Content[k].Value,
-							v.Content[k+1].Value})
-					}
-				}
+			if column.Kind != yaml.MappingNode {
+				continue
+			}
+			for j := 0; j < len(column.Content); j += 2 {
+				v := column
+				columns = append(columns, tuple{v.Content[j].Value,
+					v.Content[j+1].Value})
 			}
 		}
 	}

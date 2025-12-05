@@ -1,0 +1,7 @@
+Name: pam\_krb5
+Description: Kerberos 5 PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_krb5(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_krb5
+Requires: csu, libc, libcom\_err, libcompiler\_rt, libpam

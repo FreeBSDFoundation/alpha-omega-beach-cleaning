@@ -1,0 +1,7 @@
+Name: hastd
+Description: Highly Available Storage daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/hastd
+Requires: csu, libc, libcompiler\_rt, libgeom, libmd, libthr, libutil, libz

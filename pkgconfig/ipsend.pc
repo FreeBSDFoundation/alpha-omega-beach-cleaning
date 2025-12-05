@@ -1,0 +1,6 @@
+Name: ipsend
+Description: Sends IP packets
+URL: https://man.freebsd.org/cgi/man.cgi?query=ipsend(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ipsend

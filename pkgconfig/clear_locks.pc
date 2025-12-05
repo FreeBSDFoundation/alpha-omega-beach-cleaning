@@ -1,0 +1,7 @@
+Name: clear\_locks
+Description: Clear locks held on behalf of an NFS client
+URL: https://man.freebsd.org/cgi/man.cgi?query=clear\_locks(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/clear\_locks
+Requires: csu, libc, libcompiler\_rt, librpcsvc

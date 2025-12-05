@@ -1,0 +1,7 @@
+Name: phttpget
+Description: Retrieve multiple files via pipelined HTTP
+URL: https://man.freebsd.org/cgi/man.cgi?query=phttpget(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/phttpget
+Requires: csu, libc, libcompiler\_rt

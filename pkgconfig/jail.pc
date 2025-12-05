@@ -1,0 +1,7 @@
+Name: jail
+Description: Manage system jails
+URL: https://man.freebsd.org/cgi/man.cgi?query=jail(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/jail
+Requires: csu, libc, libcompiler\_rt, libjail, libkvm, libutil

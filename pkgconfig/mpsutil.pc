@@ -1,0 +1,7 @@
+Name: mpsutil
+Description: Utility for managing LSI Fusion-MPT 2/3 controllers
+URL: https://man.freebsd.org/cgi/man.cgi?query=mpsutil(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mpsutil
+Requires: csu, libc, libcompiler\_rt

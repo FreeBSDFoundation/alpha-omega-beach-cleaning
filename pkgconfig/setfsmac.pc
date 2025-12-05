@@ -1,0 +1,7 @@
+Name: setfsmac
+Description: Set MAC label for a file hierarchy
+URL: https://man.freebsd.org/cgi/man.cgi?query=setfsmac(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/setfsmac
+Requires: csu, libc, libcompiler\_rt

@@ -1,0 +1,7 @@
+Name: apmd
+Description: Advanced Power Management monitor daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=apmd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/apmd
+Requires: csu, libc, libcompiler\_rt

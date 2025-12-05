@@ -1,0 +1,7 @@
+Name: stat
+Description: Display file status
+URL: https://man.freebsd.org/cgi/man.cgi?query=stat(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/stat
+Requires: csu, libc, libcompiler\_rt

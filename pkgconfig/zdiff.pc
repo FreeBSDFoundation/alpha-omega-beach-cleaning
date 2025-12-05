@@ -1,0 +1,7 @@
+Name: zdiff
+Description: Compare compressed files
+URL: https://man.freebsd.org/cgi/man.cgi?query=zdiff(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/zdiff
+Requires: csu, libc, libcompiler\_rt, liblzma, libz, libzstd

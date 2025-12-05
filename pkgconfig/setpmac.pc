@@ -1,0 +1,7 @@
+Name: setpmac
+Description: Run a command with a different MAC process label
+URL: https://man.freebsd.org/cgi/man.cgi?query=setpmac(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/setpmac
+Requires: csu, libc, libcompiler\_rt

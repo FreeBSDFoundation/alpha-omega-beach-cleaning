@@ -1,0 +1,7 @@
+Name: rpcbind
+Description: Universal addresses to RPC program number mapper
+URL: https://man.freebsd.org/cgi/man.cgi?query=rpcbind(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/rpcbind
+Requires: csu, libc, libcompiler\_rt, libutil

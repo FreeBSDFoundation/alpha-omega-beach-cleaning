@@ -1,0 +1,7 @@
+Name: gpart
+Description: Control utility for the disk partitioning GEOM class
+URL: https://man.freebsd.org/cgi/man.cgi?query=gpart(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/gpart
+Requires: csu, libc, libcompiler\_rt, libgeom, libutil

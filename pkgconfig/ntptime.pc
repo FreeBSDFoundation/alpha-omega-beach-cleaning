@@ -1,0 +1,6 @@
+Name: ntptime
+Description: Read kernel time variables
+URL: https://man.freebsd.org/cgi/man.cgi?query=ntptime(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ntptime

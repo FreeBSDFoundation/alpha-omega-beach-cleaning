@@ -1,0 +1,7 @@
+Name: ggated
+Description: GEOM Gate network daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=ggated(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ggated
+Requires: csu, libc, libcompiler\_rt, libgeom, libthr, libutil

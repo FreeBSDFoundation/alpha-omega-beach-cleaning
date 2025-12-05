@@ -1,0 +1,7 @@
+Name: lpd
+Description: Line printer spooler daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=lpd(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lpd
+Requires: csu, libc, libcompiler\_rt

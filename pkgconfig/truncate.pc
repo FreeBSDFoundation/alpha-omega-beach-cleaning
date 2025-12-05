@@ -1,0 +1,7 @@
+Name: truncate
+Description: Resize files or manage file space
+URL: https://man.freebsd.org/cgi/man.cgi?query=truncate(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/truncate
+Requires: csu, libc, libcompiler\_rt, libutil

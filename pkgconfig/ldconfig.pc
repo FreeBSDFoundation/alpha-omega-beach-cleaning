@@ -1,0 +1,7 @@
+Name: ldconfig
+Description: Configure the dynamic linker search path for shared libraries
+URL: https://man.freebsd.org/cgi/man.cgi?query=ldconfig(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ldconfig
+Requires: csu, libc, libcompiler\_rt

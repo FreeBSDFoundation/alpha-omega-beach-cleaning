@@ -1,0 +1,7 @@
+Name: hostapd\_cli
+Description: Text-based frontend program for interacting with hostapd(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=hostapd\_cli(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/hostapd\_cli
+Requires: csu, libc, libcompiler\_rt, libutil

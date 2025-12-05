@@ -1,5 +1,0 @@
-Name: pf(4)
-Description:
-URL: https://openbsd.org
-Version:
-Maintainer: glebius@, kp@

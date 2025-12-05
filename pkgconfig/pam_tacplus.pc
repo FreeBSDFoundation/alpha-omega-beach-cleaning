@@ -1,0 +1,7 @@
+Name: pam\_tacplus
+Description: TACACS+ authentication PAM module
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_tacplus(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pam\_tacplus
+Requires: csu, libc, libcompiler\_rt, libpam, libtacplus

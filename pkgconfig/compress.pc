@@ -1,0 +1,7 @@
+Name: compress
+Description: Compress and expand data
+URL: https://man.freebsd.org/cgi/man.cgi?query=compress(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/compress
+Requires: csu, libc, libcompiler\_rt

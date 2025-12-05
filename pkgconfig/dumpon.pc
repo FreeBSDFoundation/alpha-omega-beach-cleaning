@@ -1,0 +1,7 @@
+Name: dumpon
+Description: Specify a device for crash dumps
+URL: https://man.freebsd.org/cgi/man.cgi?query=dumpon(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/dumpon
+Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt

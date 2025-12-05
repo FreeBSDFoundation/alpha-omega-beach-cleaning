@@ -1,0 +1,7 @@
+Name: spray
+Description: Send many packets to host
+URL: https://man.freebsd.org/cgi/man.cgi?query=spray(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/spray
+Requires: csu, libc, libcompiler\_rt, librpcsvc

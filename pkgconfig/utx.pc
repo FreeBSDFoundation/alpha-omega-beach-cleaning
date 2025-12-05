@@ -1,0 +1,7 @@
+Name: utx
+Description: Manage the user accounting database
+URL: https://man.freebsd.org/cgi/man.cgi?query=utx(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/utx
+Requires: csu, libc, libcompiler\_rt

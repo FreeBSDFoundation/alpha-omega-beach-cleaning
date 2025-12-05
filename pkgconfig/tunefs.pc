@@ -1,0 +1,7 @@
+Name: tunefs
+Description: Tune up an existing UFS file system
+URL: https://man.freebsd.org/cgi/man.cgi?query=tunefs(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/tunefs
+Requires: csu, libc, libcompiler\_rt, libufs

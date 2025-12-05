@@ -1,0 +1,7 @@
+Name: lpr
+Description: Off line print
+URL: https://man.freebsd.org/cgi/man.cgi?query=lpr(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lpr
+Requires: csu, libc, libcompiler\_rt

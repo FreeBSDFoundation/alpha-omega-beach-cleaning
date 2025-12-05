@@ -1,0 +1,7 @@
+Name: dhclient
+Description: Dynamic Host Configuration Protocol (DHCP) client
+URL: https://man.freebsd.org/cgi/man.cgi?query=dhclient(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/dhclient
+Requires: csu, libc, libcapsicum, libcompiler\_rt, libutil

@@ -1,0 +1,7 @@
+Name: uniq
+Description: Report or filter out repeated lines in a file
+URL: https://man.freebsd.org/cgi/man.cgi?query=uniq(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/uniq
+Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt

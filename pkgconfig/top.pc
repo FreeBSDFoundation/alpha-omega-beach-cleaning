@@ -1,0 +1,7 @@
+Name: top
+Description: Display and update information about the top cpu processes
+URL: https://man.freebsd.org/cgi/man.cgi?query=top(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/top
+Requires: csu, libc, libcompiler\_rt, libjail, libkvm, libsbuf, libutil, msun, tinfo

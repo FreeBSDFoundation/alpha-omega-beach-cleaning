@@ -1,0 +1,7 @@
+Name: shutdown
+Description: Close down the system at a given time
+URL: https://man.freebsd.org/cgi/man.cgi?query=shutdown(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/shutdown
+Requires: csu, libc, libcompiler\_rt

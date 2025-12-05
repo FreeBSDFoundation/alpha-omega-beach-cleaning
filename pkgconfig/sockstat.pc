@@ -1,0 +1,7 @@
+Name: sockstat
+Description: List open sockets
+URL: https://man.freebsd.org/cgi/man.cgi?query=sockstat(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/sockstat
+Requires: csu, libc, libcapsicum, libcasper, cap\_net, cap\_netdb, cap\_pwd, cap\_sysctl, libcompiler\_rt, libjail

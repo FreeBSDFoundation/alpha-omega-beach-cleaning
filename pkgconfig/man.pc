@@ -1,0 +1,6 @@
+Name: man
+Description: Display online manual documentation pages
+URL: https://man.freebsd.org/cgi/man.cgi?query=man(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/man

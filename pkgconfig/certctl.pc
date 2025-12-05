@@ -1,0 +1,6 @@
+Name: certctl
+Description: Tool for managing trusted and untrusted TLS certificates
+URL: https://man.freebsd.org/cgi/man.cgi?query=certctl(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/certctl

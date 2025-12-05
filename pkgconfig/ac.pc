@@ -1,0 +1,7 @@
+Name: ac
+Description: Connect time accounting
+URL: https://man.freebsd.org/cgi/man.cgi?query=ac(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ac
+Requires: csu, libc, libcompiler\_rt

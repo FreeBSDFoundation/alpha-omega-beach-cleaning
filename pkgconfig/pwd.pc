@@ -1,0 +1,7 @@
+Name: pwd
+Description: Return working directory name
+URL: https://man.freebsd.org/cgi/man.cgi?query=pwd(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pwd
+Requires: csu, libc, libcompiler\_rt

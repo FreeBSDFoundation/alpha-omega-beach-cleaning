@@ -1,0 +1,7 @@
+Name: extattrctl
+Description: Manage UFS1 extended attributes
+URL: https://man.freebsd.org/cgi/man.cgi?query=extattrctl(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/extattrctl
+Requires: csu, libc, libcompiler\_rt, libutil

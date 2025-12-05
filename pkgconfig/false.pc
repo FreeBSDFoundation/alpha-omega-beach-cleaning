@@ -1,0 +1,7 @@
+Name: false
+Description: Return false value
+URL: https://man.freebsd.org/cgi/man.cgi?query=false(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/false
+Requires: csu, libc, libcompiler\_rt

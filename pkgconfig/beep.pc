@@ -1,0 +1,6 @@
+Name: beep
+Description: Play a beep sound
+URL: https://man.freebsd.org/cgi/man.cgi?query=beep(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/beep

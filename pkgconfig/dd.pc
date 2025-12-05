@@ -1,0 +1,7 @@
+Name: dd
+Description: Convert and copy a file
+URL: https://man.freebsd.org/cgi/man.cgi?query=dd(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/dd
+Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, libutil

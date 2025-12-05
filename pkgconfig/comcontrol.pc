@@ -1,0 +1,7 @@
+Name: comcontrol
+Description: Control a special tty device
+URL: https://man.freebsd.org/cgi/man.cgi?query=comcontrol(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/comcontrol
+Requires: csu, libc, libcompiler\_rt

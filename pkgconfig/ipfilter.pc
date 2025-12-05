@@ -1,0 +1,5 @@
+Name: ipfilter
+Description: IP Filter
+URL: https://www.phildev.net/ipf/
+Version: 5.1.2
+Maintainer: cy@

@@ -1,0 +1,7 @@
+Name: ypbind
+Description: NIS domain binding daemon
+URL: https://man.freebsd.org/cgi/man.cgi?query=ypbind(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ypbind
+Requires: csu, libc, libcompiler\_rt

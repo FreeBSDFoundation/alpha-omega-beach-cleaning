@@ -1,0 +1,7 @@
+Name: graid3
+Description: Control utility for RAID3 devices
+URL: https://man.freebsd.org/cgi/man.cgi?query=graid3(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/graid3
+Requires: csu, libc, libcompiler\_rt, libgeom, libmd

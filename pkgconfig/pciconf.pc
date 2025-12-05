@@ -1,0 +1,7 @@
+Name: pciconf
+Description: Diagnostic utility for the PCI bus
+URL: https://man.freebsd.org/cgi/man.cgi?query=pciconf(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/pciconf
+Requires: csu, libc, libcompiler\_rt

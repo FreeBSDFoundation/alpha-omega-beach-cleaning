@@ -1,0 +1,7 @@
+Name: glabel
+Description: Disk labelization control utility
+URL: https://man.freebsd.org/cgi/man.cgi?query=glabel(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/glabel
+Requires: csu, libc, libcompiler\_rt, libgeom

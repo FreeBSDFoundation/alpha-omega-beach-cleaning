@@ -1,0 +1,7 @@
+Name: m4
+Description: Macro language processor
+URL: https://man.freebsd.org/cgi/man.cgi?query=m4(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/m4
+Requires: csu, libc, libcompiler\_rt, libopenbsd, msun

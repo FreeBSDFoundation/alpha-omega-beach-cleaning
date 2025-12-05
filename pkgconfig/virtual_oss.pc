@@ -1,0 +1,6 @@
+Name: virtual\_oss
+Description: Daemon to multiplex and demultiplex an OSS device
+URL: https://man.freebsd.org/cgi/man.cgi?query=virtual\_oss(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/virtual\_oss

@@ -1,0 +1,7 @@
+Name: mksnap\_ffs
+Description: Take a file system snapshot
+URL: https://man.freebsd.org/cgi/man.cgi?query=mksnap\_ffs(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/mksnap\_ffs
+Requires: csu, libc, libcompiler\_rt

@@ -1,0 +1,7 @@
+Name: ccdconfig
+Description: Configuration utility for the concatenated disk driver
+URL: https://man.freebsd.org/cgi/man.cgi?query=ccdconfig(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ccdconfig
+Requires: csu, libc, libcompiler\_rt, libgeom

@@ -1,0 +1,7 @@
+Name: ipfw
+Description: User interface for firewall, traffic shaper, packet scheduler, in-kernel NAT.
+URL: https://man.freebsd.org/cgi/man.cgi?query=ipfw(8)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ipfw
+Requires: csu, libalias, libc, libcompiler\_rt, libjail, libutil

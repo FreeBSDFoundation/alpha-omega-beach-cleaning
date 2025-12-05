@@ -1,0 +1,7 @@
+Name: date
+Description: Display or set date and time
+URL: https://man.freebsd.org/cgi/man.cgi?query=date(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/date
+Requires: csu, libc, libcompiler\_rt

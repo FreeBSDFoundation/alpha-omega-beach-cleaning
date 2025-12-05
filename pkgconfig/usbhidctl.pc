@@ -1,0 +1,7 @@
+Name: usbhidctl
+Description: Manipulate USB HID devices
+URL: https://man.freebsd.org/cgi/man.cgi?query=usbhidctl(1)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/usbhidctl
+Requires: csu, libc, libcompiler\_rt, libusbhid
