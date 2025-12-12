@@ -2160,87 +2160,87 @@
 /contrib/wpa cy@FreeBSD.org
 
 # lib9p
-/contrib/lib9p
+/contrib/lib9p jceel@FreeBSD.org
 
 # tcpdump
-/contrib/tcpdump
+/contrib/tcpdump cy@FreeBSD.org emaste@FreeBSD.org jrm@FreeBSD.org
 
 # BearSSL
-/contrib/bearssl
+/contrib/bearssl sjg@FreeBSD.org
 
 # OpenSSL
 /crypto/openssl khorben@FreeBSD.org ngie@FreeBSD.org
 
 # arm-optimized-routines
-/contrib/arm-optimized-routines
+/contrib/arm-optimized-routines andrew@FreeBSD.org arichardson@FreeBSD.org
 
 # bionic-x86_64-string
-/contrib/bionic-x86_64-string
+/contrib/bionic-x86_64-string emaste@FreeBSD.org
 
 # bsddialog
-/contrib/bsddialog
+/contrib/bsddialog asiciliano@FreeBSD.org bapt@FreeBSD.org kevans@FreeBSD.org
 
 # bzip2
-/contrib/bzip2
+/contrib/bzip2 delphij@FreeBSD.org obrien@FreeBSD.org sobomax@FreeBSD.org
 
 # flex
-/contrib/flex
+/contrib/flex jkim@FreeBSD.org
 
 # gdtoa
-/contrib/gdtoa
+/contrib/gdtoa das@FreeBSD.org
 
 # Heimdal Kerberos
-/crypto/heimdal
-/contrib/com_err
+/crypto/heimdal dfr@FreeBSD.org dim@FreeBSD.org
+/contrib/com_err dfr@FreeBSD.org dim@FreeBSD.org
 
 # jemalloc
-/contrib/jemalloc
+/contrib/jemalloc imp@FreeBSD.org jasone@FreeBSD.org vangyzen@FreeBSD.org
 
 # libarchive
-/contrib/libarchive
+/contrib/libarchive mm@FreeBSD.org
 
 # libbegemot
-/contrib/libbegemot
+/contrib/libbegemot harti@FreeBSD.org trhodes@FreeBSD.org
 
 # libcbor
-/contrib/libcbor
+/contrib/libcbor emaste@FreeBSD.org
 
 # libdialog
 /contrib/libdialog
 
 # libdiff
-/contrib/libdiff
+/contrib/libdiff des@FreeBSD.org
 
 # libedit
-/contrib/libedit
+/contrib/libedit bapt@FreeBSD.org
 
 # libevent
-/contrib/libevent
+/contrib/libevent cy@FreeBSD.org emaste@FreeBSD.org
 
 # libexecinfo
-/contrib/libexecinfo
+/contrib/libexecinfo cem@FreeBSD.org emaste@FreeBSD.org
 
 # libexpat
-/contrib/expat
-/lib/libexpat
+/contrib/expat delphij@FreeBSD.org ngie@FreeBSD.org philip@FreeBSD.org vangyzen@FreeBSD.org
+/lib/libexpat delphij@FreeBSD.org ngie@FreeBSD.org philip@FreeBSD.org vangyzen@FreeBSD.org
 
 # libfido2
-/contrib/libfido2
+/contrib/libfido2 emaste@FreeBSD.org
 
 # liblzma
-/contrib/xz
+/contrib/xz delphij@FreeBSD.org mm@FreeBSD.org rpaulo@FreeBSD.org
 
 # libmagic
-/contrib/file
+/contrib/file delphij@FreeBSD.org gordon@FreeBSD.org
 
 # libucl
-/contrib/libucl
+/contrib/libucl bapt@FreeBSD.org bofh@FreeBSD.org
 
 # libxo
-/contrib/libxo
+/contrib/libxo marcel@FreeBSD.org ngie@FreeBSD.org phil@FreeBSD.org
 
 # LibYAML
-/contrib/libyaml
+/contrib/libyaml bapt@FreeBSD.org
 
 # mandoc
 /contrib/mandoc

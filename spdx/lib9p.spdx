@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-lib9pC649d5aee77b
 PackageVersion: 9d5aee77b
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: jceel@
 PackageHomePage: https://github.com/conclusiveeng/lib9p
 PackageLicenseDeclared: BSD-2-Clause AND MIT
 PackageSummary: <text>BSD-licensed 9P2000.u/.L server library</text>

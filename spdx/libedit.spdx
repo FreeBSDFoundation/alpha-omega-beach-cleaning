@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libeditC642025-01-03
 PackageVersion: 2025-01-03
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@
 PackageHomePage: https://www.NetBSD.org
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>NetBSD Editline library (libedit)</text>

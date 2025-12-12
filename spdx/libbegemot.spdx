@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libbegemotC641.14
 PackageVersion: 1.14
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: harti@, trhodes@
 PackageHomePage: https://people.freebsd.org/~harti/libbegemot/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Begemot utility function library. It is needed to build most of the begemot tools</text>

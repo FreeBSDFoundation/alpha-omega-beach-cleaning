@@ -4,3 +4,4 @@ URL: https://github.com/Yubico/libfido2
 Version: 1.14.0
 License: BSD-2-Clause
 Source: https://github.com/Yubico/libfido2/tree/1.14.0
+Maintainer: emaste@

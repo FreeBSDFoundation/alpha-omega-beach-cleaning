@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-bsddialogC641.1
 PackageVersion: 1.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: asiciliano@, bapt@, kevans@
 PackageHomePage: https://gitlab.com/alfix/bsddialog
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Utility and a library to build scripts and tools with TUI dialogs and widgets</text>

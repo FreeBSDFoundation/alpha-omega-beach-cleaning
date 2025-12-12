@@ -4,3 +4,4 @@ URL: https://gitlab.com/alfix/bsddialog
 Version: 1.1
 License: BSD-2-Clause
 Source: https://gitlab.com/alfix/bsddialog/-/tree/1.1
+Maintainer: asiciliano@, bapt@, kevans@

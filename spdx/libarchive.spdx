@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libarchiveC643.8.2
 PackageVersion: 3.8.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: mm@
 PackageHomePage: https://libarchive.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
 PackageSummary: <text>Multi-format archive and compression library</text>

@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libexecinfoC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cem@, emaste@
 PackageHomePage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text></text>

@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-arm-optimized-routinesC6425.01
 PackageVersion: 25.01
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: andrew@, arichardson@
 PackageHomePage: https://github.com/ARM-software/optimized-routines
 PackageLicenseDeclared: MIT OR LLVM-exception
 PackageSummary: <text>Optimized implementations of various library functions for ARM architecture processors</text>

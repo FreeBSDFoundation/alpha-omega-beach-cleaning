@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-jemallocC645.3.0
 PackageVersion: 5.3.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: imp@, jasone@, vangyzen@
 PackageHomePage: https://github.com/facebook/jemalloc
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Meta fork of the OG Jemalloc project</text>

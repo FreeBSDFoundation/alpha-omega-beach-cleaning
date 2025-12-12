@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libmagicC645.46
 PackageVersion: 5.46
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@, gordon@
 PackageHomePage: https://www.darwinsys.com/file/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Magic number recognition library</text>

@@ -4,3 +4,4 @@ URL: https://github.com/conclusiveeng/lib9p
 Version: 9d5aee77b
 License: BSD-2-Clause AND MIT
 Source: https://github.com/conclusiveeng/lib9p/tree/9d5aee77bcc1bf0e79b0a3bfefff5fdf2146283c
+Maintainer: jceel@

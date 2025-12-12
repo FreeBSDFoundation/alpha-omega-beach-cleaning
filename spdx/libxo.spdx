@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libxoC641.4.0
 PackageVersion: 1.4.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: marcel@, ngie@, phil@
 PackageHomePage: https://github.com/Juniper/libxo
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.</text>

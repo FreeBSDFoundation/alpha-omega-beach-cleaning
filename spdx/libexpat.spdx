@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libexpatC642.7.3
 PackageVersion: 2.7.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@, ngie@, philip@, vangyzen@
 PackageHomePage: https://github.com/libexpat/libexpat
 PackageLicenseDeclared: MIT
 PackageSummary: <text>XML 1.0 parser written in C</text>

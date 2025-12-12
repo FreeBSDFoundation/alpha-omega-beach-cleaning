@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-libdiffC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: des@
 PackageHomePage: https://www.gameoftrees.org
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text></text>

@@ -26,6 +26,7 @@ SPDXID: SPDXRef-Package-flexC642.6.4
 PackageVersion: 2.6.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: jkim@
 PackageHomePage: https://github.com/westes/flex
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Fast lexical analyzer generator</text>
@@ -38,6 +39,7 @@ SPDXID: SPDXRef-Package-libexpatC642.7.3
 PackageVersion: 2.7.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@, ngie@, philip@, vangyzen@
 PackageHomePage: https://github.com/libexpat/libexpat
 PackageLicenseDeclared: MIT
 PackageSummary: <text>XML 1.0 parser written in C</text>

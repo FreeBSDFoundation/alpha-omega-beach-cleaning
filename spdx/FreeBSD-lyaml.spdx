@@ -39,6 +39,7 @@ SPDXID: SPDXRef-Package-LibYAMLC640.2.5
 PackageVersion: 0.2.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@
 PackageHomePage: https://pyyaml.org/wiki/LibYAML
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>C library for parsing and emitting YAML</text>

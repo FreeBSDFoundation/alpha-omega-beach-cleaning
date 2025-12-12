@@ -4,3 +4,4 @@ URL: https://github.com/vstakhov/libucl
 Version: 0.9.2
 License: BSD-2-Clause
 Source: https://github.com/vstakhov/libucl
+Maintainer: bapt@, bofh@

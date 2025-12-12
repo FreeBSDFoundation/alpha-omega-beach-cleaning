@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-tcpdumpC644.99.5
 PackageVersion: 4.99.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@, emaste@, jrm@
 PackageHomePage: https://www.tcpdump.org
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Powerful command-line packet analyzer</text>

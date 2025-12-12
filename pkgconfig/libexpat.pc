@@ -4,3 +4,4 @@ URL: https://github.com/libexpat/libexpat
 Version: 2.7.3
 License: MIT
 Source: https://github.com/libexpat/libexpat/tree/R\_2\_7\_3
+Maintainer: delphij@, ngie@, philip@, vangyzen@

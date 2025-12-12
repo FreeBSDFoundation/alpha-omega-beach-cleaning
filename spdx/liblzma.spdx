@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-liblzmaC645.8.1
 PackageVersion: 5.8.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@, mm@, rpaulo@
 PackageHomePage: https://tukaani.org/xz/
 PackageLicenseDeclared: 0BSD
 PackageSummary: <text>General purpose data compression library</text>

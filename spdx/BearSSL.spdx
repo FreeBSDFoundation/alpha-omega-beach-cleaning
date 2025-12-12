@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-BearSSLC6420220417
 PackageVersion: 20220417
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: sjg@
 PackageHomePage: https://bearssl.org
 PackageLicenseDeclared: MIT
 PackageSummary: <text>Implementation of the SSL/TLS protocol (RFC 5246) written in C</text>

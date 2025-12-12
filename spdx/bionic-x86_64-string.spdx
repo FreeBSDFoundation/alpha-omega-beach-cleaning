@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-bionic-x86_64-stringC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: emaste@
 PackageHomePage: https://android.googlesource.com/platform/bionic
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Android's C library, math library, and dynamic linker</text>

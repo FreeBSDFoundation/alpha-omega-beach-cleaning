@@ -4,3 +4,4 @@ URL: https://libevent.org
 Version: 2.1.12
 License: BSD-3-Clause AND 0BSD AND MIT
 Source: https://github.com/libevent/libevent/tree/release-2.1.12-stable
+Maintainer: cy@, emaste@
