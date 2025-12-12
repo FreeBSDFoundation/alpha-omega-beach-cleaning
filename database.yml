@@ -46,6 +46,7 @@ Sections:
       security:
         - build
       plan: fix
+      owner: sjg@
     byacc:
       description: Parser generator designed to be compatible with Yacc
       directory: contrib/byacc
@@ -56,6 +57,9 @@ Sections:
       security:
         - build
       plan: fix
+      owner:
+        - bapt@
+        - jkim@
     dtc:
       description: FreeBSD Device Tree Compiler
       directory: usr.bin/dtc
@@ -70,6 +74,10 @@ Sections:
       depends:
         - libcxxrt
       plan: fix
+      owner:
+        - jlduran@
+        - jrtc27@
+        - kevans@
     elftoolchain:
       description: BSD licensed ELF toolchain
       directory: contrib/elftoolchain
@@ -77,10 +85,14 @@ Sections:
       license: BSD-2-Clause
       upstream: elftoolchain
       homepage: https://sourceforge.net/projects/elftoolchain/
-      source: https://sourceforge.net/p/elftoolchain/code/4192/tree/
+      source: https://sourceforge.net/p/elftoolchain/code/
       security:
         - build
       plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
     Git:
       description: Distributed Version Control System
       upstream: Git
@@ -108,7 +120,9 @@ Sections:
         - emaste@
     LLVM:
       description: Collection of modular and reusable compiler and toolchain technologies
-      directory: contrib/llvm-project
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
       version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
       upstream: LLVM
       homepage: https://llvm.org
@@ -703,6 +717,7 @@ Sections:
       security:
         - build
       plan: fix
+      owner: des@
   General Commands:
     apply:
       depends:
@@ -9746,6 +9761,7 @@ Sections:
         - Lua
         - LibYAML
       plan: fix
+      owner: bapt@
     mkuzip:
       description: Compress disk image for use with geom_uzip(4) class
       directory: usr.bin
@@ -9767,6 +9783,21 @@ Sections:
         - firmware
         - kernel
       plan: fix
+      owner: jkim@
+    athk:
+      description: Common code for ath1?k drivers
+      directory: sys/contrib/dev/athk
+      version: 6.5
+      upstream: Linux
+      homepage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
+      licence: ISC
+      source: https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git/
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fix
+      owner: bz@
     ice:
       description: Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).
       directory: sys/contrib/dev/ice
@@ -9813,6 +9844,7 @@ Sections:
         - network
       section:
       plan: fork
+      owner: khorben@
     ZFS:
       description: Open-source storage platform
       directory:
@@ -9828,6 +9860,7 @@ Sections:
         - kernel
         - network
       plan: fix
+      owner: mm@
     zstd:
       description: Zstandard is a fast compression algorithm
       directory: sys/contrib/zstd
@@ -9841,6 +9874,9 @@ Sections:
         - kernel
         - user
       plan: fix
+      owner:
+        - allanjude@
+        - cem@
   Network Libraries:
     bsnmp:
       description: mini SNMP daemon
@@ -9852,6 +9888,9 @@ Sections:
       security:
         - network
       plan: fix
+      owners:
+        - glebius@
+        - harti@
     ldns:
       description: LDNS is a DNS library that facilitates DNS tool programming
       directory: contrib/ldns
@@ -9862,6 +9901,7 @@ Sections:
       security:
         - network
       plan: fix
+      owner: des@
     libpcap:
       description: Platform-independent network traffic capture library
       directory: contrib/libpcap
@@ -9873,6 +9913,9 @@ Sections:
       security:
         - network
       plan: fix
+      owner:
+        - cy@
+        - jrm@
   Network Services:
     blocklist:
       description: Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.
@@ -9886,6 +9929,9 @@ Sections:
         - network
         - system
       plan: fix
+      owner:
+        - emaste@
+        - lidl@
     dma:
       description: DragonFly Mail Agent (DMA)
       directory: contrib/dma
@@ -9897,6 +9943,9 @@ Sections:
       security:
         - network
       plan: fix
+      owner:
+        - bapt@
+        - emaste@
     NTP:
       description: Network Time Protocol (NTP)
       directory: contrib/ntp
@@ -9908,6 +9957,7 @@ Sections:
         - network
         - system
       plan: fix
+      owner: cy@
     OpenSSH:
       description: Connectivity tool for remote login with the SSH protocol
       directory: crypto/openssh
@@ -9951,6 +10001,9 @@ Sections:
         - libexpat
         - OpenSSL
       plan: fix
+      owner:
+        - cy@
+        - des@
     WireGuard:
       description: Tools for configuring WireGuard
       directory: contrib/wireguard-tools
@@ -9965,6 +10018,7 @@ Sections:
         - kernel
         - network
       plan: fix
+      owner: kevans@
     wpa_supplicant:
       description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
       directory: contrib/wpa
@@ -9979,6 +10033,7 @@ Sections:
       depends:
         - OpenSSL
       plan: fix
+      owner: cy@
   Network Tools:
     lib9p:
       description: BSD-licensed 9P2000.u/.L server library
