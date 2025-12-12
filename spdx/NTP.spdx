@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-NTPC644.2.8p18
 PackageVersion: 4.2.8p18
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@
 PackageHomePage: https://www.ntp.org
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Network Time Protocol (NTP)</text>

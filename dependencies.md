@@ -7,7 +7,7 @@
 | elftoolchain | `contrib/elftoolchain` | elftoolchain | https://sourceforge.net/projects/elftoolchain/ |
 | Git |  | Git | https://git-scm.com |
 | libcxxrt | `contrib/libcxxrt` |  | https://github.com/libcxxrt/libcxxrt |
-| LLVM | `contrib/llvm-project` | LLVM | https://llvm.org |
+| LLVM | `contrib/llvm-project`, `usr.bin/clang` | LLVM | https://llvm.org |
 | bugpoint | `usr.bin/clang/bugpoint` | LLVM | https://llvm.org |
 | clang | `usr.bin/clang/clang` | LLVM | https://llvm.org |
 | llc | `usr.bin/clang/llc` | LLVM | https://llvm.org |
@@ -707,6 +707,7 @@
 | zzz | `usr.sbin/zzz` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zzz(8) |
 | __Kernel__ | | | |
 | acpi | `sys/contrib/dev/acpica` | Intel | https://github.com/acpica/acpica |
+| athk | `sys/contrib/dev/athk` | Linux | https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html |
 | ice | `sys/contrib/dev/ice` | Intel | https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/ |
 | ipfilter | `sys/netpfil/ipfilter` | Phil Dibowitz | https://www.phildev.net/ipf/ |
 | pf | `sys/netpfil/pf` | OpenBSD | https://openbsd.org |

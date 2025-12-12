@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-dmaC642022-01-27
 PackageVersion: 2022-01-27
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@, emaste@
 PackageHomePage: https://www.dragonflybsd.org/handbook/mta/
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>DragonFly Mail Agent (DMA)</text>

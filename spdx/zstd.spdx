@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-zstdC641.5.2
 PackageVersion: 1.5.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: allanjude@, cem@
 PackageHomePage: https://facebook.github.io/zstd/
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Zstandard is a fast compression algorithm</text>

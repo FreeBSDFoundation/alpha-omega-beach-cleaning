@@ -14,6 +14,7 @@
 | __Maintenance Commands__ | |
 | __Kernel__ | |
 | acpi | fix |
+| athk | fix |
 | ice | fix |
 | ipfilter | fork |
 | pf | fork |

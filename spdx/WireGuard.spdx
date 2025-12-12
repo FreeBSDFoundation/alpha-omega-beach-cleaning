@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-WireGuardC641.0.20250521
 PackageVersion: 1.0.20250521
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: kevans@
 PackageHomePage: https://git.zx2c4.com/wireguard-tools/
 PackageLicenseDeclared: GPL-2.0
 PackageSummary: <text>Tools for configuring WireGuard</text>

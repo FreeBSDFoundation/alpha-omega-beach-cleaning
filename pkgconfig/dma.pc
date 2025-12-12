@@ -4,3 +4,4 @@ URL: https://www.dragonflybsd.org/handbook/mta/
 Version: 2022-01-27
 License: BSD-3-Clause AND BSD-2-Clause
 Source: https://github.com/corecode/dma
+Maintainer: bapt@, emaste@

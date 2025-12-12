@@ -14,6 +14,7 @@
 | __Maintenance Commands__ | | |
 | __Kernel__ | | |
 | acpi | build, firmware, kernel | 3 |
+| athk | kernel, network | 2 |
 | ice | kernel, network | 2 |
 | ipfilter | kernel, network | 2 |
 | pf | kernel, network | 2 |

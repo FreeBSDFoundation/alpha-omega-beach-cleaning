@@ -4,3 +4,4 @@ URL: https://www.NetBSD.org
 Version: 20250804
 License: BSD-3-Clause
 Source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
+Maintainer: sjg@

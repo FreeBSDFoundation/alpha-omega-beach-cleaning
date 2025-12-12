@@ -5,3 +5,4 @@ Version: 2.11
 License: BSD-3-Clause
 Source: https://w1.fi/releases/hostapd-2.11.tar.gz
 Requires: OpenSSL
+Maintainer: cy@

@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-unifdefC642.12
 PackageVersion: 2.12
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: des@
 PackageHomePage: https://dotat.at/prog/unifdef
 PackageLicenseDeclared: BSD-2-Clause AND BSD-3-Clause
 PackageSummary: <text>Selectively remove C preprocessor conditionals</text>

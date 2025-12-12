@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-dtcC6423387dd
 PackageVersion: 23387dd
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: jlduran@, jrtc27@, kevans@
 PackageHomePage: https://github.com/davidchisnall/dtc
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>FreeBSD Device Tree Compiler</text>

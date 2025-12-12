@@ -1,14 +1,14 @@
 # bmake
-/contrib/bmake
+/contrib/bmake sjg@FreeBSD.org
 
 # byacc
-/contrib/byacc
+/contrib/byacc bapt@FreeBSD.org jkim@FreeBSD.org
 
 # dtc
-/usr.bin/dtc
+/usr.bin/dtc jlduran@FreeBSD.org jrtc27@FreeBSD.org kevans@FreeBSD.org
 
 # elftoolchain
-/contrib/elftoolchain
+/contrib/elftoolchain emaste@FreeBSD.org jkoshy@FreeBSD.org kaiw@FreeBSD.org
 
 # Git
 
@@ -17,6 +17,7 @@
 
 # LLVM
 /contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
+/usr.bin/clang dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
 
 # bugpoint
 /usr.bin/clang/bugpoint
@@ -112,7 +113,7 @@
 /usr.bin/clang/opt
 
 # unifdef
-/contrib/unifdef
+/contrib/unifdef des@FreeBSD.org
 
 # apply
 /usr.bin/apply
@@ -2101,7 +2102,10 @@
 /usr.sbin/zzz
 
 # acpi
-/sys/contrib/dev/acpica
+/sys/contrib/dev/acpica jkim@FreeBSD.org
+
+# athk
+/sys/contrib/dev/athk bz@FreeBSD.org
 
 # ice
 /sys/contrib/dev/ice erj@FreeBSD.org
@@ -2113,32 +2117,32 @@
 /sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
 
 # umb
-/sys/dev/usb/net
+/sys/dev/usb/net khorben@FreeBSD.org
 
 # ZFS
-/sys/contrib/openzfs
-/cddl
+/sys/contrib/openzfs mm@FreeBSD.org
+/cddl mm@FreeBSD.org
 
 # zstd
-/sys/contrib/zstd
+/sys/contrib/zstd allanjude@FreeBSD.org cem@FreeBSD.org
 
 # bsnmp
 /contrib/bsnmp
 
 # ldns
-/contrib/ldns
+/contrib/ldns des@FreeBSD.org
 
 # libpcap
-/contrib/libpcap
+/contrib/libpcap cy@FreeBSD.org jrm@FreeBSD.org
 
 # blocklist
-/contrib/blocklist
+/contrib/blocklist emaste@FreeBSD.org lidl@FreeBSD.org
 
 # dma
-/contrib/dma
+/contrib/dma bapt@FreeBSD.org emaste@FreeBSD.org
 
 # NTP
-/contrib/ntp
+/contrib/ntp cy@FreeBSD.org
 
 # OpenSSH
 /crypto/openssh des@FreeBSD.org
@@ -2147,13 +2151,13 @@
 /contrib/sendmail gshapiro@FreeBSD.org
 
 # Unbound
-/contrib/unbound
+/contrib/unbound cy@FreeBSD.org des@FreeBSD.org
 
 # WireGuard
-/contrib/wireguard-tools
+/contrib/wireguard-tools kevans@FreeBSD.org
 
 # wpa_supplicant
-/contrib/wpa
+/contrib/wpa cy@FreeBSD.org
 
 # lib9p
 /contrib/lib9p

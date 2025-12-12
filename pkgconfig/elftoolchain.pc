@@ -3,4 +3,5 @@ Description: BSD licensed ELF toolchain
 URL: https://sourceforge.net/projects/elftoolchain/
 Version: r4912
 License: BSD-2-Clause
-Source: https://sourceforge.net/p/elftoolchain/code/4192/tree/
+Source: https://sourceforge.net/p/elftoolchain/code/
+Maintainer: emaste@, jkoshy@, kaiw@

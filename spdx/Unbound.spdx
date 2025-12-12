@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-UnboundC641.24.1
 PackageVersion: 1.24.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@, des@
 PackageHomePage: https://github.com/NLnetLabs/unbound
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Validating, recursive, and caching DNS resolver</text>

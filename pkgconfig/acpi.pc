@@ -3,3 +3,4 @@ Description: The ACPI Component Architecture (ACPICA) project provides an open-s
 URL: https://github.com/acpica/acpica
 Version: 20250807
 Source: https://github.com/acpica/acpica/tree/20250807
+Maintainer: jkim@

@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-bmakeC6420250804
 PackageVersion: 20250804
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: sjg@
 PackageHomePage: https://www.NetBSD.org
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Program designed to simplify the maintenance of other programs</text>

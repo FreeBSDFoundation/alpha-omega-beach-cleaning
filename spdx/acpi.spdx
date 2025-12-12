@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-acpiC6420250807
 PackageVersion: 20250807
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: jkim@
 PackageHomePage: https://github.com/acpica/acpica
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)</text>

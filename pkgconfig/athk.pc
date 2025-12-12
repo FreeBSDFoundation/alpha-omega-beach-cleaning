@@ -1,0 +1,6 @@
+Name: athk
+Description: Common code for ath1?k drivers
+URL: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
+Version: 6.5
+Source: https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git/
+Maintainer: bz@

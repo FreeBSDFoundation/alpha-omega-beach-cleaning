@@ -25,6 +25,7 @@ SPDXID: SPDXRef-Package-libpcapC641.10.5
 PackageVersion: 1.10.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@, jrm@
 PackageHomePage: https://www.tcpdump.org
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Platform-independent network traffic capture library</text>

@@ -5,3 +5,4 @@ Version: 6.2.8
 License: MIT
 Source: https://github.com/gvvaughan/lyaml
 Requires: Lua, LibYAML
+Maintainer: bapt@

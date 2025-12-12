@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-elftoolchainC64r4912
 PackageVersion: r4912
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: emaste@, jkoshy@, kaiw@
 PackageHomePage: https://sourceforge.net/projects/elftoolchain/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>BSD licensed ELF toolchain</text>

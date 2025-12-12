@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-byaccC6420240109
 PackageVersion: 20240109
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@, jkim@
 PackageHomePage: https://invisible-island.net/byacc/
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Parser generator designed to be compatible with Yacc</text>
