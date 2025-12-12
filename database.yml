@@ -10046,6 +10046,7 @@ Sections:
       security:
         - network
       plan: fix
+      owner: jceel@
     tcpdump:
       description: Powerful command-line packet analyzer
       directory: contrib/tcpdump
@@ -10058,6 +10059,10 @@ Sections:
         - network
       depends: libpcap
       plan: fix
+      owner:
+        - cy@
+        - emaste@
+        - jrm@
   Security Infrastructure:
     BearSSL:
       description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
@@ -10072,6 +10077,8 @@ Sections:
         - network
         - user
       plan: fix
+      owner:
+        - sjg@
     OpenSSL:
       description: OpenSSL cryptography library
       directory: crypto/openssl
@@ -10101,6 +10108,9 @@ Sections:
       security:
         - system
       plan: fix
+      owner:
+        - andrew@
+        - arichardson@
     bionic-x86_64-string:
       description: Android's C library, math library, and dynamic linker
       directory: contrib/bionic-x86_64-string
@@ -10109,6 +10119,7 @@ Sections:
       security:
         - system
       plan: fix
+      owner: emaste@
     bsddialog:
       description: Utility and a library to build scripts and tools with TUI dialogs and widgets
       directory: contrib/bsddialog
@@ -10120,6 +10131,10 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - asiciliano@
+        - bapt@
+        - kevans@
     bzip2:
       description: High-quality data compressor
       directory: contrib/bzip2
@@ -10131,6 +10146,10 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - delphij@
+        - obrien@
+        - sobomax@
     flex:
       description: Fast lexical analyzer generator
       directory: contrib/flex
@@ -10143,6 +10162,7 @@ Sections:
         - build
         - user
       plan: fix
+      owner: jkim@
     gdtoa:
       description: Library of binary -> decimal and decimal -> binary conversion routines
       directory: contrib/gdtoa
@@ -10153,12 +10173,13 @@ Sections:
       security:
         - runtime
       plan: fork
+      owner: das@
     Heimdal Kerberos:
       description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
       directory:
         - crypto/heimdal
         - contrib/com_err
-      version: 1.5.1
+      version: 1.5.2
       upstream: Heimdal Software
       homepage: https://www.heimdal.software
       license: BSD-3-Clause
@@ -10167,6 +10188,9 @@ Sections:
         - crypto
         - network
       plan: fix
+      owner:
+        - dfr@
+        - dim@
     jemalloc:
       description: Meta fork of the OG Jemalloc project
       directory: contrib/jemalloc
@@ -10179,6 +10203,10 @@ Sections:
         - runtime
         - user
       plan: fix
+      owner:
+        - imp@
+        - jasone@
+        - vangyzen@
     libarchive:
       description: Multi-format archive and compression library
       directory: contrib/libarchive
@@ -10190,6 +10218,7 @@ Sections:
       security:
         - user
       plan: fix
+      owner: mm@
     libbegemot:
       description: Begemot utility function library. It is needed to build most of the begemot tools
       directory: contrib/libbegemot
@@ -10201,6 +10230,9 @@ Sections:
         - network
         - user
       plan: fix
+      owner:
+        - harti@
+        - trhodes@
     libcbor:
       description: CBOR protocol implementation for C
       directory: contrib/libcbor
@@ -10214,6 +10246,7 @@ Sections:
         - system
         - user
       plan: fix
+      owner: emaste@
     libdialog:
       description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
       directory: contrib/libdialog
@@ -10230,6 +10263,7 @@ Sections:
         - build
         - user
       plan: fork
+      owner: des@
     libedit:
       description: NetBSD Editline library (libedit)
       directory: contrib/libedit
@@ -10241,6 +10275,8 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - bapt@
     libevent:
       description: API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
       directory: contrib/libevent
@@ -10253,6 +10289,9 @@ Sections:
         - system
         - user
       plan: fix
+      owner:
+        - cy@
+        - emaste@
     libexecinfo:
       directory: contrib/libexecinfo
       upstream: Maxim Sobolev
@@ -10262,6 +10301,9 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - cem@
+        - emaste@
     libexpat:
       description: XML 1.0 parser written in C
       directory:
@@ -10275,6 +10317,11 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - delphij@
+        - ngie@
+        - philip@
+        - vangyzen@
     libfido2:
       description: library functionality for FIDO2, including communication with a device over USB or NFC
       directory: contrib/libfido2
@@ -10289,6 +10336,7 @@ Sections:
         - system
         - user
       plan: fix
+      owner: emaste@
     liblzma:
       description: General purpose data compression library
       directory: contrib/xz
@@ -10301,6 +10349,10 @@ Sections:
         - firmware
         - user
       plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
     libmagic:
       description: Magic number recognition library
       directory: contrib/file
@@ -10312,6 +10364,9 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - delphij@
+        - gordon@
     libucl:
       description: Universal configuration library parser
       directory: contrib/libucl
@@ -10324,6 +10379,9 @@ Sections:
         - system
         - user
       plan: fix
+      owner:
+        - bapt@
+        - bofh@
     libxo:
       description: Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.
       directory: contrib/libxo
@@ -10335,6 +10393,10 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - marcel@
+        - ngie@
+        - phil@
     LibYAML:
       description: C library for parsing and emitting YAML
       directory: contrib/libyaml
@@ -10344,6 +10406,8 @@ Sections:
       licence: MIT
       source: https://github.com/yaml/libyaml/tree/0.2.5
       plan: fix
+      owner:
+        - bapt@
     mandoc:
       description: UNIX manpage compiler toolset
       directory: contrib/mandoc
