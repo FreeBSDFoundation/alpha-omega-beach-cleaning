@@ -17,11 +17,17 @@ _debug() {
 	"$@"
 }
 
+ret=0
 $DEBUG $MKDIR spdx &&
 	cd spdx &&
 	$DEBUG $FIND ../pkgconfig -type f -a -name '*.pc' -print | while read filename; do
-	pkgconfig=${filename#../pkgconfig/}
-	pkgconfig=${pkgconfig%.pc}
-	spdx="$pkgconfig.spdx"
-	PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx" || $RM -- "$spdx"
-done
+		pkgconfig=${filename#../pkgconfig/}
+		pkgconfig=${pkgconfig%.pc}
+		spdx="$pkgconfig.spdx"
+		PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx"
+		if [ $? -ne 0 ]; then
+			$RM -- "$spdx"
+			ret=2
+		fi
+	done
+exit $ret
