@@ -27,7 +27,7 @@ int main(void)
 			break;
 		}
 	}
-	fclose(fp);
+	pclose(fp);
 	if(strlen(version) == 0)
 		return 3;
 	_report("System Libraries", "Heimdal Kerberos", version);
