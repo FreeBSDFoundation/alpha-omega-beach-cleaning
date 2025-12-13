@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-kyuaC640.13
 PackageVersion: 0.13
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: brooks@
 PackageHomePage: https://github.com/FreeBSD/kyua
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Port/Package build and test system</text>
@@ -51,6 +52,7 @@ SPDXID: SPDXRef-Package-SQLiteC643.50.2
 PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@, cy@
 PackageHomePage: https://sqlite.org/src
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>SQLite database engine</text>

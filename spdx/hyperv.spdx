@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-hypervC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@
 PackageHomePage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server</text>

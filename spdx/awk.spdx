@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-awkC6420250804
 PackageVersion: 20250804
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: imp@
 PackageHomePage: https://github.com/onetrueawk/awk
 PackageLicenseDeclared: SMLNJ
 PackageSummary: <text>One true awk</text>

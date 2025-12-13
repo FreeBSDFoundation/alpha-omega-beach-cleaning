@@ -713,6 +713,7 @@
 | pf | `sys/netpfil/pf` | OpenBSD | https://openbsd.org |
 | umb | `sys/dev/usb/net` | OpenBSD | https://openbsd.org |
 | ZFS | `sys/contrib/openzfs`, `cddl` | OpenZFS | https://openzfs.org/wiki/Main\_Page |
+| zlib | `sys/contrib/zlib` | zlib | https://zlib.net |
 | zstd | `sys/contrib/zstd` | Meta | https://facebook.github.io/zstd/ |
 | __Network Libraries__ | | | |
 | bsnmp | `contrib/bsnmp` | Hartmut Brandt | https://people.freebsd.org/~harti/bsnmp/ |
@@ -762,7 +763,6 @@
 | OpenPAM | `contrib/openpam` | Dag-Erling Smørgrav | https://openpam.org |
 | SQLite | `contrib/sqlite3` | SQLite | https://sqlite.org/src |
 | Time Zone Database | `contrib/tzcode`, `contrib/tzdata` | IANA | https://www.iana.org/time-zones |
-| zlib | `contrib/zlib` | zlib | https://zlib.net |
 | __System Tools__ | | | |
 | awk | `contrib/one-true-awk` | One True Awk | https://github.com/onetrueawk/awk |
 | bc | `contrib/bc` | Gavin D. Howard | https://gavinhoward.com/tag/bc/ |

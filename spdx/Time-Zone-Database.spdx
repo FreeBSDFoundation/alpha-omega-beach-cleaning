@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-Time-Zone-DatabaseC642025b
 PackageVersion: 2025b
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: des@, philip@
 PackageHomePage: https://www.iana.org/time-zones
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Time Zone Database</text>

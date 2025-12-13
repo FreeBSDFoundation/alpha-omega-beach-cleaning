@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-capsicum-testC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: arichardson@, ngie@
 PackageHomePage: https://www.cl.cam.ac.uk/research/security/capsicum/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Practical capabilities for UNIX</text>

@@ -3,3 +3,4 @@ Description: Practical capabilities for UNIX
 URL: https://www.cl.cam.ac.uk/research/security/capsicum/
 Version:
 License: BSD-2-Clause
+Maintainer: arichardson@, ngie@

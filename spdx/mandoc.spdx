@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-mandocC642025-09-26
 PackageVersion: 2025-09-26
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@, ziaee@
 PackageHomePage: https://mandoc.bsd.lv
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>UNIX manpage compiler toolset</text>

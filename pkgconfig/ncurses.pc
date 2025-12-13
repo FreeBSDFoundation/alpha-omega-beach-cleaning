@@ -4,3 +4,4 @@ URL: https://invisible-island.net/ncurses
 Version: 6.5
 License: X11
 Source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+Maintainer: bapt@

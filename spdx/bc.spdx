@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-bcC647.1.0
 PackageVersion: 7.1.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: se@
 PackageHomePage: https://gavinhoward.com/tag/bc/
 PackageLicenseDeclared: BSD-2-clause
 PackageSummary: <text>Implementation of the POSIX bc calculator with GNU extensions and dc</text>

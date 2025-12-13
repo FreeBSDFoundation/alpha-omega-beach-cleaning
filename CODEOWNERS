@@ -2123,6 +2123,9 @@
 /sys/contrib/openzfs mm@FreeBSD.org
 /cddl mm@FreeBSD.org
 
+# zlib
+/sys/contrib/zlib delphij@FreeBSD.org
+
 # zstd
 /sys/contrib/zstd allanjude@FreeBSD.org cem@FreeBSD.org
 
@@ -2243,66 +2246,29 @@
 /contrib/libyaml bapt@FreeBSD.org
 
 # mandoc
-/contrib/mandoc
+/contrib/mandoc bapt@FreeBSD.org ziaee@FreeBSD.org
 
 # ncurses
-/contrib/ncurses
+/contrib/ncurses bapt@FreeBSD.org
 
 # OpenPAM
 /contrib/openpam des@FreeBSD.org
 
 # SQLite
-/contrib/sqlite3
+/contrib/sqlite3 bapt@FreeBSD.org cy@FreeBSD.org
 
 # Time Zone Database
-/contrib/tzcode
-/contrib/tzdata
-
-# zlib
-/contrib/zlib
+/contrib/tzcode des@FreeBSD.org philip@FreeBSD.org
+/contrib/tzdata des@FreeBSD.org philip@FreeBSD.org
 
 # awk
-/contrib/one-true-awk
+/contrib/one-true-awk imp@FreeBSD.org
 
 # bc
-/contrib/bc
+/contrib/bc se@FreeBSD.org
 
 # diff
 /contrib/diff
 
 # ee
 /contrib/ee
-
-# hyperv
-/contrib/hyperv
-
-# less
-/contrib/less
-
-# Lua
-/contrib/lua kevans@FreeBSD.org
-
-# patch
-/usr.bin/patch
-
-# pkg
-/usr.sbin/pkg @FreeBSD/pkg
-
-# ATF
-/contrib/atf ngie@FreeBSD.org
-
-# capsicum-test
-/contrib/capsicum-test
-
-# GoogleTest
-/contrib/googletest ngie@FreeBSD.org
-
-# kyua
-/contrib/kyua
-
-# NetBSD tests
-/contrib/netbsd-tests ngie@FreeBSD.org
-
-# pjdfstest
-/contrib/pjdfstest asomers@FreeBSD.org ngie@FreeBSD.org pjd@FreeBSD.org @FreeBSD/test
-

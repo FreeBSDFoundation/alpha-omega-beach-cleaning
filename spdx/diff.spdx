@@ -14,7 +14,7 @@ PackageVersion: 2.8.7
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/diffutils/
-PackageLicenseDeclared: GPL-3.0
+PackageLicenseDeclared: GPL-2.0
 PackageSummary: <text>GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files</text>
 
 

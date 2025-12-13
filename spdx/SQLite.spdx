@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-SQLiteC643.50.2
 PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@, cy@
 PackageHomePage: https://sqlite.org/src
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>SQLite database engine</text>

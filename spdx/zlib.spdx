@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-zlibC641.3.1
 PackageVersion: 1.3.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@
 PackageHomePage: https://zlib.net
 PackageLicenseDeclared: Zlib
 PackageSummary: <text>zlib compression library</text>

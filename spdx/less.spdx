@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-lessC64679
 PackageVersion: 679
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@
 PackageHomePage: https://www.greenwoodsoftware.com/less/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Open-source file pager</text>
@@ -25,6 +26,7 @@ SPDXID: SPDXRef-Package-ncursesC646.5
 PackageVersion: 6.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@
 PackageHomePage: https://invisible-island.net/ncurses
 PackageLicenseDeclared: X11
 PackageSummary: <text>clone of System V curses</text>

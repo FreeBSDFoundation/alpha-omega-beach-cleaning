@@ -20,6 +20,7 @@
 | pf | kernel, network | 2 |
 | umb | kernel, network | 2 |
 | ZFS | crypto, firmware, kernel, network | 4 |
+| zlib | firmware, kernel, system, user | 4 |
 | zstd | firmware, kernel, user | 3 |
 | __Network Libraries__ | | |
 | bsnmp | network | 1 |
@@ -68,7 +69,6 @@
 | OpenPAM | auth, system, user | 3 |
 | SQLite | user | 1 |
 | Time Zone Database | system, user | 2 |
-| zlib | firmware, system, user | 3 |
 | __System Tools__ | | |
 | awk | build, user | 2 |
 | bc | user | 1 |

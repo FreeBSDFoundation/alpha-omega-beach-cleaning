@@ -20,6 +20,7 @@
 | pf | fork |
 | umb | fork |
 | ZFS | fix |
+| zlib | fix |
 | zstd | fix |
 | __Network Libraries__ | |
 | bsnmp | fix |
@@ -69,7 +70,6 @@
 | OpenPAM | fix |
 | SQLite | fix |
 | Time Zone Database | fix |
-| zlib | fix |
 | __System Tools__ | |
 | awk | fix |
 | bc | fix |
