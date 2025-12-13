@@ -9861,6 +9861,21 @@ Sections:
         - network
       plan: fix
       owner: mm@
+    zlib:
+      description: zlib compression library
+      directory: sys/contrib/zlib
+      version: 1.3.1
+      upstream: zlib
+      homepage: https://zlib.net
+      license: Zlib
+      source: https://github.com/madler/zlib/tree/develop
+      security:
+        - firmware
+        - kernel
+        - system
+        - user
+      plan: fix
+      owner: delphij@
     zstd:
       description: Zstandard is a fast compression algorithm
       directory: sys/contrib/zstd
@@ -10418,6 +10433,9 @@ Sections:
         - build
         - user
       plan: fix
+      owner:
+        - bapt@
+        - ziaee@
     ncurses:
       description: clone of System V curses
       directory: contrib/ncurses
@@ -10429,6 +10447,7 @@ Sections:
       security:
         - user
       plan: fix
+      owner: bapt@
     OpenPAM:
       description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
       directory: contrib/openpam
@@ -10453,6 +10472,9 @@ Sections:
       security:
         - user
       plan: fix
+      owner:
+        - bapt@
+        - cy@
     Time Zone Database:
       description: Time Zone Database
       directory:
@@ -10466,19 +10488,9 @@ Sections:
         - system
         - user
       plan: fix
-    zlib:
-      description: zlib compression library
-      directory: contrib/zlib
-      version: 1.3.1
-      upstream: zlib
-      homepage: https://zlib.net
-      license: Zlib
-      source: https://github.com/madler/zlib/tree/develop
-      security:
-        - firmware
-        - system
-        - user
-      plan: fix
+      owner:
+        - des@
+        - philip@
   System Tools:
     awk:
       description: One true awk
@@ -10492,6 +10504,7 @@ Sections:
         - build
         - user
       plan: fix
+      owner: imp@
     bc:
       description: Implementation of the POSIX bc calculator with GNU extensions and dc
       version: 7.1.0
@@ -10503,13 +10516,14 @@ Sections:
       security:
         - user
       plan: fix
+      owner: se@
     diff:
       description: GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files
       directory: contrib/diff
       version: 2.8.7
       upstream: GNU
       homepage: https://www.gnu.org/software/diffutils/
-      license: GPL-3.0
+      license: GPL-2.0
       source: https://cgit.git.savannah.gnu.org/cgit/diffutils.git/tag/?h=v2.8.7
       security:
         - build
@@ -10527,6 +10541,7 @@ Sections:
       depends:
         - ncurses
       plan: fork
+      owner:
     hyperv:
       description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
       directory: contrib/hyperv
@@ -10535,6 +10550,7 @@ Sections:
       security:
         - system
       plan: fix
+      owner: delphij@
     less:
       description: Open-source file pager
       directory: contrib/less
@@ -10548,6 +10564,7 @@ Sections:
       depends:
         - ncurses
       plan: fix
+      owner: delphij@
     Lua:
       description: Embeddable scripting language
       directory: contrib/lua
@@ -10615,6 +10632,9 @@ Sections:
         - kernel
         - user
       plan: fix
+      owner:
+        - arichardson@
+        - ngie@
     GoogleTest:
       description: Google’s C++ testing and mocking framework
       directory: contrib/googletest
@@ -10641,6 +10661,7 @@ Sections:
         - Lua
         - SQLite
       plan: fork
+      owner: brooks@
     NetBSD tests:
       description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
       directory: contrib/netbsd-tests
