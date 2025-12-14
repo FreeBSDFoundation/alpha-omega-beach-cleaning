@@ -26,8 +26,5 @@ int main(void)
 		}
 	}
 	pclose(fp);
-	if(strlen(version) == 0)
-		return 3;
-	_report("Test Infrastructure", progname, version);
-	return 0;
+	return _report("Test Infrastructure", progname, version);
 }

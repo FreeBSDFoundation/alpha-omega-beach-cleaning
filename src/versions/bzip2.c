@@ -29,8 +29,5 @@ int main(void)
 		}
 	}
 	fclose(fp);
-	if(strlen(version) == 0)
-		return 3;
-	_report("System  Libraries", progname, version);
-	return 0;
+	return _report("System  Libraries", progname, version);
 }

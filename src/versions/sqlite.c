@@ -3,6 +3,5 @@
 
 int main(void)
 {
-	_report("System Libraries", "SQLite", SQLITE_VERSION);
-	return 0;
+	return _report("System Libraries", "SQLite", SQLITE_VERSION);
 }

@@ -24,6 +24,5 @@ int main(void)
 	}
 	if((p = strchr(u.release, '-')) != NULL)
 		*p = '\0';
-	_report(SECTION, PROGNAME, u.release);
-	return 0;
+	return _report(SECTION, PROGNAME, u.release);
 }

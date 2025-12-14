@@ -3,6 +3,5 @@
 
 int main(void)
 {
-	_report("System Libraries", "libdialog", dialog_version());
-	return 0;
+	return _report("System Libraries", "libdialog", dialog_version());
 }

@@ -11,6 +11,5 @@ int main(void)
 	snprintf(version, sizeof(version), "%u.%u.%u",
 			xev.major, xev.minor, xev.micro);
 	version[sizeof(version) - 1] = '\0';
-	_report("System Libraries", "libexpat", version);
-	return 0;
+	return _report("System Libraries", "libexpat", version);
 }

@@ -28,8 +28,5 @@ int main(void)
 		}
 	}
 	pclose(fp);
-	if(strlen(version) == 0)
-		return 3;
-	_report("System Libraries", "Heimdal Kerberos", version);
-	return 0;
+	return _report("System Libraries", "Heimdal Kerberos", version);
 }

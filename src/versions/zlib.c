@@ -3,6 +3,5 @@
 
 int main(void)
 {
-	_report("Kernel", "zlib", ZLIB_VERSION);
-	return 0;
+	return _report("Kernel", "zlib", ZLIB_VERSION);
 }

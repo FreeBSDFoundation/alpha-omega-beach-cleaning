@@ -12,6 +12,5 @@ int main(void)
 	major = (ARCHIVE_VERSION_NUMBER - (minor * 1000) - revision) / 1000000;
 	snprintf(version, sizeof(version), "%d.%d.%d", major, minor, revision);
 	version[sizeof(version) - 1] = '\0';
-	_report("System Libraries", "libarchive", version);
-	return 0;
+	return _report("System Libraries", "libarchive", version);
 }

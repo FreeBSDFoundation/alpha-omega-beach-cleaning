@@ -5,6 +5,5 @@
 
 int main(void)
 {
-	_report("System Libraries", "OpenPAM", TO_STRING(OPENPAM_VERSION));
-	return 0;
+	return _report("System Libraries", "OpenPAM", TO_STRING(OPENPAM_VERSION));
 }

@@ -26,8 +26,5 @@ int main(void)
 		}
 	}
 	pclose(fp);
-	if(strlen(version) == 0)
-		return 3;
-	_report("System Tools", "Lua", version);
-	return 0;
+	return _report("System Tools", "Lua", version);
 }

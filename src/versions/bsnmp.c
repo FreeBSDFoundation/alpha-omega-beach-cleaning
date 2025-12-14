@@ -9,6 +9,5 @@ int main(void)
 
 	snprintf(version, sizeof(version), "%u.%u", BSNMP_MAJOR, BSNMP_MINOR);
 	version[sizeof(version) - 1] = '\0';
-	_report("Network Libraries", "bsnmp", version);
-	return 0;
+	return _report("Network Libraries", "bsnmp", version);
 }
