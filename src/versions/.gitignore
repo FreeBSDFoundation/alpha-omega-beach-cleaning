@@ -9,7 +9,6 @@
 /diff
 /dma
 /dtc
-/file
 /flex
 /heimdal
 /ipfilter
@@ -22,6 +21,7 @@
 /libevent
 /libexpat
 /liblzma
+/libmagic
 /libpcap
 /libxo
 /llvm
