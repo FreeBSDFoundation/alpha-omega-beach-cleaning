@@ -28,6 +28,6 @@ int main(void)
 	pclose(fp);
 	if(strlen(version) == 0)
 		return 3;
-	_report("Kernel", "ipfilter(4)", version);
+	_report("Kernel", "ipfilter", version);
 	return 0;
 }
