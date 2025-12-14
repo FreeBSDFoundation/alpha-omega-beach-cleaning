@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 static int _report(char const * section, char const * name,
 		char const * version)
