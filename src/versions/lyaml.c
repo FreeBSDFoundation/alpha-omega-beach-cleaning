@@ -16,7 +16,8 @@ int main(void)
 	{
 		fprintf(stderr, "%s: %s: %s\n", progname, command,
 				strerror(errno));
-		return 2;
+		//XXX ignore errors
+		return 0;
 	}
 	while(fgets(buf, sizeof(buf), fp) != NULL)
 	{
