@@ -6,7 +6,7 @@
 int main(void)
 {
 	const char * progname = "sendmail";
-	const char * command = "/usr/libexec/sendmail/sendmail -d /dev/null";
+	const char * command = "/usr/libexec/sendmail/sendmail -d /dev/null < /dev/null";
 	FILE * fp;
 	char buf[1024];
 	char version[16] = "";
