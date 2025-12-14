@@ -259,7 +259,7 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 							for _, v := range directories {
 								fmt.Fprintf(ofile, "/%s", v)
 								for _, v := range owners {
-									if v[0] == '#' {
+									if len(v) > 0 && v[0] == '#' {
 										fmt.Fprintf(ofile, " @FreeBSD/%s", v[1:])
 									} else {
 										fmt.Fprintf(ofile, " %sFreeBSD.org", v)
