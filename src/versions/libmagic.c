@@ -26,5 +26,5 @@ int main(void)
 		}
 	}
 	pclose(fp);
-	return _report("System Libraries", "libmagic (file)", version);
+	return _report("System Libraries", "libmagic", version);
 }
