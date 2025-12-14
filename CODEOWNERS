@@ -2271,4 +2271,38 @@
 /contrib/diff
 
 # ee
-/contrib/ee
+/contrib/ee FreeBSD.org
+
+# hyperv
+/contrib/hyperv delphij@FreeBSD.org
+
+# less
+/contrib/less delphij@FreeBSD.org
+
+# Lua
+/contrib/lua kevans@FreeBSD.org
+
+# patch
+/usr.bin/patch
+
+# pkg
+/usr.sbin/pkg @FreeBSD/pkg
+
+# ATF
+/contrib/atf ngie@FreeBSD.org
+
+# capsicum-test
+/contrib/capsicum-test arichardson@FreeBSD.org ngie@FreeBSD.org
+
+# GoogleTest
+/contrib/googletest ngie@FreeBSD.org
+
+# kyua
+/contrib/kyua brooks@FreeBSD.org
+
+# NetBSD tests
+/contrib/netbsd-tests ngie@FreeBSD.org
+
+# pjdfstest
+/contrib/pjdfstest asomers@FreeBSD.org ngie@FreeBSD.org pjd@FreeBSD.org @FreeBSD/test
+
