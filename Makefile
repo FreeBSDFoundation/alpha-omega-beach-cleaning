@@ -51,7 +51,7 @@ spdx: tools/spdx.sh pkgconfig
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
 
 $(OBJDIR)versions.yml: all
-	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./lyaml; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zstd; ./bsnmp; ./ldns; ./libpcap; ./dma; ./ntp; ./openssh; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./libexpat; ./liblzma; ./libxo; ./file; ./ncurses; ./openpam; ./sqlite; ./tzdata; ./zlib; ./awk; ./bc; ./diff; ./less; ./lua; ./patch; ./pkg; ./kyua) > versions.yml
+	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./lyaml; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zlib; ./zstd; ./bsnmp; ./ldns; ./libpcap; ./dma; ./ntp; ./openssh; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./libexpat; ./liblzma; ./libxo; ./file; ./ncurses; ./openpam; ./sqlite; ./tzdata; ./awk; ./bc; ./diff; ./less; ./lua; ./patch; ./pkg; ./kyua) > versions.yml
 
 clean:
 	@for i in $(SUBDIRS); do (cd "$$i" && \
@@ -88,7 +88,6 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/diff.c \
 		$(PACKAGE)-$(VERSION)/src/versions/dma.c \
 		$(PACKAGE)-$(VERSION)/src/versions/dtc.c \
-		$(PACKAGE)-$(VERSION)/src/versions/file.c \
 		$(PACKAGE)-$(VERSION)/src/versions/flex.c \
 		$(PACKAGE)-$(VERSION)/src/versions/heimdal.c \
 		$(PACKAGE)-$(VERSION)/src/versions/ipfilter.c \
@@ -103,6 +102,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/src/versions/libevent.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libexpat.c \
 		$(PACKAGE)-$(VERSION)/src/versions/liblzma.c \
+		$(PACKAGE)-$(VERSION)/src/versions/libmagic.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libpcap.c \
 		$(PACKAGE)-$(VERSION)/src/versions/libxo.c \
 		$(PACKAGE)-$(VERSION)/src/versions/llvm.c \
