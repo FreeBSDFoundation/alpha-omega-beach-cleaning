@@ -21,5 +21,5 @@ jobs:
           
 
           run: |
-            pkg install -y go
-            make versions.yml
+            pkg install -y go go-yq
+            make merge-versions
