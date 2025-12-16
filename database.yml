@@ -9916,7 +9916,9 @@ Sections:
       security:
         - network
       plan: fix
-      owner: des@
+      owner:
+        - cy@
+        - des@
     libpcap:
       description: Platform-independent network traffic capture library
       directory: contrib/libpcap
@@ -9986,7 +9988,9 @@ Sections:
         - crypto
         - network
       plan: fix
-      owner: des@
+      owner:
+        - des@
+        - emaste@
     Sendmail:
       description: General purpose internetwork email routing application
       directory: contrib/sendmail
