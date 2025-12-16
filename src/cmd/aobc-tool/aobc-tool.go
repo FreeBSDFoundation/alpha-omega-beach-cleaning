@@ -268,8 +268,8 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 									}
 									fmt.Fprintf(ofile, "\n")
 								}
+								fmt.Fprintf(ofile, "\n")
 							}
-							fmt.Fprintf(ofile, "\n")
 						}
 					}
 				}
