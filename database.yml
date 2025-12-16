@@ -139,7 +139,6 @@ Sections:
       owner:
         - dim@
         - emaste@
-        - jhb@
     bugpoint:
       depends:
         - csu
@@ -10385,7 +10384,6 @@ Sections:
       plan: fix
       owner:
         - delphij@
-        - gordon@
     libucl:
       description: Universal configuration library parser
       directory: contrib/libucl
