@@ -9835,7 +9835,10 @@ Sections:
         - glebius@
         - kp@
     umb:
-      directory: sys/dev/usb/net
+      directory:
+        - sbin/umbctl
+        - sys/dev/usb/net
+        - sys/modules/usb/umb
       upstream: OpenBSD
       homepage: https://openbsd.org
       security:
