@@ -9950,7 +9950,6 @@ Sections:
       plan: fix
       owner:
         - emaste@
-        - lidl@
     dma:
       description: DragonFly Mail Agent (DMA)
       directory: contrib/dma
@@ -10170,7 +10169,6 @@ Sections:
       owner:
         - delphij@
         - obrien@
-        - sobomax@
     flex:
       description: Fast lexical analyzer generator
       directory: contrib/flex
@@ -10194,7 +10192,6 @@ Sections:
       security:
         - runtime
       plan: fork
-      owner: das@
     Heimdal Kerberos:
       description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
       directory:
@@ -10567,7 +10564,7 @@ Sections:
       security:
         - system
       plan: fix
-      owner: delphij@
+      owner: whu@
     less:
       description: Open-source file pager
       directory: contrib/less
