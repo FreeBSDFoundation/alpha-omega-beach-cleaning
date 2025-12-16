@@ -255,17 +255,19 @@ func aobcGenerateCodeOwners(dec *yaml.Decoder, root yaml.Node) error {
 									}
 								}
 							}
-							fmt.Fprintf(ofile, "# %s\n", values["title"])
-							for _, v := range directories {
-								fmt.Fprintf(ofile, "/%s", v)
-								for _, v := range owners {
-									if len(v) > 0 && v[0] == '#' {
-										fmt.Fprintf(ofile, " @FreeBSD/%s", v[1:])
-									} else {
-										fmt.Fprintf(ofile, " %sFreeBSD.org", v)
+							if len(owners) > 0 {
+								fmt.Fprintf(ofile, "# %s\n", values["title"])
+								for _, v := range directories {
+									fmt.Fprintf(ofile, "/%s", v)
+									for _, v := range owners {
+										if len(v) > 0 && v[0] == '#' {
+											fmt.Fprintf(ofile, " @FreeBSD/%s", v[1:])
+										} else {
+											fmt.Fprintf(ofile, " %sFreeBSD.org", v)
+										}
 									}
+									fmt.Fprintf(ofile, "\n")
 								}
-								fmt.Fprintf(ofile, "\n")
 							}
 							fmt.Fprintf(ofile, "\n")
 						}
