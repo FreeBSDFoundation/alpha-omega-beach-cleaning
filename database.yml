@@ -10479,10 +10479,23 @@ Sections:
       owner:
         - bapt@
         - cy@
+    Time Zone Code:
+      description: Time Zone Code
+      directory:
+        - contrib/tzcode
+      version: 2025b
+      upstream: IANA
+      homepage: https://www.iana.org/time-zones
+      source: https://data.iana.org/time-zones/releases/tzcode2025b.tar.gz
+      security:
+        - system
+        - user
+      plan: fix
+      owner:
+        - des@
     Time Zone Database:
       description: Time Zone Database
       directory:
-        - contrib/tzcode
         - contrib/tzdata
       version: 2025b
       upstream: IANA
@@ -10493,7 +10506,6 @@ Sections:
         - user
       plan: fix
       owner:
-        - des@
         - philip@
   System Tools:
     awk:
