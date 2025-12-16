@@ -23,8 +23,12 @@
 # acpi
 /sys/contrib/dev/acpica jkim@FreeBSD.org
 
-# athk
+# LinuxKPI based wireless drivers
 /sys/contrib/dev/athk bz@FreeBSD.org
+/sys/contrib/dev/iwlwifi bz@FreeBSD.org
+/sys/contrib/dev/mediatek/mt76 bz@FreeBSD.org
+/sys/contrib/dev/rtw88 bz@FreeBSD.org
+/sys/contrib/dev/rtw89 bz@FreeBSD.org
 
 # ice
 /sys/contrib/dev/ice erj@FreeBSD.org
