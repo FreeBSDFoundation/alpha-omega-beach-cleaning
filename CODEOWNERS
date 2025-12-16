@@ -33,7 +33,8 @@
 /sys/netpfil/ipfilter cy@FreeBSD.org
 
 # pf
-/sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
+/sys/netpfil/pf kp@FreeBSD.org ks@FreeBSD.org
+/sbin/pfctl kp@FreeBSD.org ks@FreeBSD.org
 
 # umb
 /sys/dev/usb/net khorben@FreeBSD.org
