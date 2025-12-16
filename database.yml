@@ -10579,7 +10579,9 @@ Sections:
         - runtime
         - user
       plan: fix
-      owner: kevans@
+      owner:
+        - imp@
+        - kevans@
     patch:
       directory: usr.bin/patch
       version: 2.0-12u11
