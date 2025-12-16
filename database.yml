@@ -716,7 +716,7 @@ Sections:
       license: BSD-2-Clause AND BSD-3-Clause
       security:
         - build
-      plan: fix
+      plan: fork
       owner: des@
   General Commands:
     apply:
