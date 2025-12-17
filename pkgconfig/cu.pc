@@ -2,6 +2,6 @@ Name: cu
 Description: Call UNIX over a serial line
 URL: https://man.freebsd.org/cgi/man.cgi?query=cu(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/cu
 Requires: csu, libc, libcompiler\_rt

@@ -14,8 +14,8 @@
 /contrib/libcxxrt dim@FreeBSD.org emaste@FreeBSD.org
 
 # LLVM
-/contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
-/usr.bin/clang dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
+/contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org
+/usr.bin/clang dim@FreeBSD.org emaste@FreeBSD.org
 
 # unifdef
 /contrib/unifdef des@FreeBSD.org
@@ -36,7 +36,9 @@
 /sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
 
 # umb
+/sbin/umbctl khorben@FreeBSD.org
 /sys/dev/usb/net khorben@FreeBSD.org
+/sys/modules/usb/umb khorben@FreeBSD.org
 
 # ZFS
 /sys/contrib/openzfs mm@FreeBSD.org
@@ -49,13 +51,13 @@
 /sys/contrib/zstd allanjude@FreeBSD.org cem@FreeBSD.org
 
 # ldns
-/contrib/ldns des@FreeBSD.org
+/contrib/ldns cy@FreeBSD.org des@FreeBSD.org
 
 # libpcap
 /contrib/libpcap cy@FreeBSD.org jrm@FreeBSD.org
 
 # blocklist
-/contrib/blocklist emaste@FreeBSD.org lidl@FreeBSD.org
+/contrib/blocklist emaste@FreeBSD.org
 
 # dma
 /contrib/dma bapt@FreeBSD.org emaste@FreeBSD.org
@@ -64,7 +66,7 @@
 /contrib/ntp cy@FreeBSD.org
 
 # OpenSSH
-/crypto/openssh des@FreeBSD.org
+/crypto/openssh des@FreeBSD.org emaste@FreeBSD.org
 
 # Sendmail
 /contrib/sendmail gshapiro@FreeBSD.org
@@ -100,13 +102,10 @@
 /contrib/bsddialog asiciliano@FreeBSD.org bapt@FreeBSD.org kevans@FreeBSD.org
 
 # bzip2
-/contrib/bzip2 delphij@FreeBSD.org obrien@FreeBSD.org sobomax@FreeBSD.org
+/contrib/bzip2 delphij@FreeBSD.org obrien@FreeBSD.org
 
 # flex
 /contrib/flex jkim@FreeBSD.org
-
-# gdtoa
-/contrib/gdtoa das@FreeBSD.org
 
 # Heimdal Kerberos
 /crypto/heimdal dfr@FreeBSD.org dim@FreeBSD.org
@@ -147,7 +146,7 @@
 /contrib/xz delphij@FreeBSD.org mm@FreeBSD.org rpaulo@FreeBSD.org
 
 # libmagic
-/contrib/file delphij@FreeBSD.org gordon@FreeBSD.org
+/contrib/file delphij@FreeBSD.org
 
 # libucl
 /contrib/libucl bapt@FreeBSD.org bofh@FreeBSD.org
@@ -170,9 +169,11 @@
 # SQLite
 /contrib/sqlite3 bapt@FreeBSD.org cy@FreeBSD.org
 
+# Time Zone Code
+/contrib/tzcode des@FreeBSD.org
+
 # Time Zone Database
-/contrib/tzcode des@FreeBSD.org philip@FreeBSD.org
-/contrib/tzdata des@FreeBSD.org philip@FreeBSD.org
+/contrib/tzdata philip@FreeBSD.org
 
 # awk
 /contrib/one-true-awk imp@FreeBSD.org
@@ -184,13 +185,13 @@
 /contrib/ee FreeBSD.org
 
 # hyperv
-/contrib/hyperv delphij@FreeBSD.org
+/contrib/hyperv whu@FreeBSD.org
 
 # less
 /contrib/less delphij@FreeBSD.org
 
 # Lua
-/contrib/lua kevans@FreeBSD.org
+/contrib/lua imp@FreeBSD.org kevans@FreeBSD.org
 
 # pkg
 /usr.sbin/pkg @FreeBSD/pkg

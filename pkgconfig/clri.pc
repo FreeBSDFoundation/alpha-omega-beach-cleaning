@@ -2,6 +2,6 @@ Name: clri
 Description: Clear an inode
 URL: https://man.freebsd.org/cgi/man.cgi?query=clri(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/clri
 Requires: csu, libc, libcompiler\_rt, libufs

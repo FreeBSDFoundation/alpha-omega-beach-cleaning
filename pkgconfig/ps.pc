@@ -2,6 +2,6 @@ Name: ps
 Description: Process status
 URL: https://man.freebsd.org/cgi/man.cgi?query=ps(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/ps
 Requires: csu, libc, libcompiler\_rt, libjail, libkvm, libxo, msun

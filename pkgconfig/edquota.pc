@@ -2,6 +2,6 @@ Name: edquota
 Description: Edit user quotas
 URL: https://man.freebsd.org/cgi/man.cgi?query=edquota(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/edquota
 Requires: csu, libc, libcompiler\_rt, libutil

@@ -2,6 +2,6 @@ Name: quotacheck
 Description: File system quota consistency checker
 URL: https://man.freebsd.org/cgi/man.cgi?query=quotacheck(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/quotacheck
 Requires: csu, libc, libcompiler\_rt, libufs, libutil

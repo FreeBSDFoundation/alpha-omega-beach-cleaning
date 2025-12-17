@@ -2,5 +2,5 @@ Name: boottrace
 Description: Trace command execution with boottrace(4)
 URL: https://man.freebsd.org/cgi/man.cgi?query=boottrace(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/boottrace

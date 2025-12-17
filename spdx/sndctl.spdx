@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=sndctl(8)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>List and modify soundcard properties</text>
 
 

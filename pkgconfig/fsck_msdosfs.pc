@@ -2,6 +2,6 @@ Name: fsck\_msdosfs
 Description: DOS/Windows (FAT) file system consistency checker
 URL: https://man.freebsd.org/cgi/man.cgi?query=fsck\_msdosfs(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/fsck\_msdosfs
 Requires: csu, libc, libcompiler\_rt, libutil

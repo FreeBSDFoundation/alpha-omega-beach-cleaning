@@ -2,6 +2,6 @@ Name: hcsecd
 Description: Control link keys and PIN codes for Bluetooth devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=hcsecd(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/hcsecd
 Requires: csu, libbluetooth, libc, libcompiler\_rt

@@ -2,6 +2,6 @@ Name: finger
 Description: User information lookup program
 URL: https://man.freebsd.org/cgi/man.cgi?query=finger(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/finger
 Requires: csu, libc, libcompiler\_rt

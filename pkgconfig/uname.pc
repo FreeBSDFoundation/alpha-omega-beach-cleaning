@@ -2,6 +2,6 @@ Name: uname
 Description: Display information about the system
 URL: https://man.freebsd.org/cgi/man.cgi?query=uname(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause
 Source: https://cgit.freebsd.org/src/tree/uname
 Requires: csu, libc, libcompiler\_rt

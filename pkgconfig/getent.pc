@@ -2,6 +2,6 @@ Name: getent
 Description: Get entries from administrative database
 URL: https://man.freebsd.org/cgi/man.cgi?query=getent(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/getent
 Requires: csu, libc, libcompiler\_rt

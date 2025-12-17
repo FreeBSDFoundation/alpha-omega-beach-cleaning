@@ -2,6 +2,6 @@ Name: inetd
 Description: Internet “super-server”
 URL: https://man.freebsd.org/cgi/man.cgi?query=inetd(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/inetd
 Requires: csu, libc, libcompiler\_rt, libipsec, libutil

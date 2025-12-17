@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=boottrace(8)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>Trace command execution with boottrace(4)</text>
 
 

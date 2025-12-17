@@ -2,6 +2,6 @@ Name: btpand
 Description: Bluetooth PAN daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=btpand(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/btpand
 Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp, libutil

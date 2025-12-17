@@ -14,7 +14,7 @@ PackageVersion: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://llvm.org
-PackageLicenseDeclared: Apache-2.0
+PackageLicenseDeclared: Apache-2.0 WITH LLVM-exception
 PackageSummary: <text>Object copying and editing tool</text>
 
 

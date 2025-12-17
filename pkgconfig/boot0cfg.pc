@@ -2,6 +2,6 @@ Name: boot0cfg
 Description: Boot manager installation/configuration utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=boot0cfg(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause AND BSD-1-Clause
 Source: https://cgit.freebsd.org/src/tree/boot0cfg
 Requires: csu, libc, libcompiler\_rt, libgeom

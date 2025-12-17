@@ -2,5 +2,5 @@ Name: umbctl
 Description: Display or set MBIM cellular modem interface parameters (4G/LTE)
 URL: https://man.freebsd.org/cgi/man.cgi?query=umbctl(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/umbctl

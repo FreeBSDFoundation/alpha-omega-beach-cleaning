@@ -2,6 +2,6 @@ Name: rpc.yppasswdd
 Description: Server for updating NIS passwords
 URL: https://man.freebsd.org/cgi/man.cgi?query=rpc.yppasswdd(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause
 Source: https://cgit.freebsd.org/src/tree/rpc.yppasswdd
 Requires: csu, libc, libcompiler\_rt, libcrypt, librpcsvc, libutil

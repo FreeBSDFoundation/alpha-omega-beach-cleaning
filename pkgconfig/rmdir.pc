@@ -2,6 +2,6 @@ Name: rmdir
 Description: Remove directories
 URL: https://man.freebsd.org/cgi/man.cgi?query=rmdir(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/rmdir
 Requires: csu, libc, libcompiler\_rt

@@ -2,6 +2,6 @@ Name: kbdcontrol
 Description: System video console keyboard control/configuration utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=kbdcontrol(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/kbdcontrol
 Requires: csu, libc, libcompiler\_rt

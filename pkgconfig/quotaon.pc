@@ -2,6 +2,6 @@ Name: quotaon
 Description: Turn file system quotas on and off
 URL: https://man.freebsd.org/cgi/man.cgi?query=quotaon(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/quotaon
 Requires: csu, libc, libcompiler\_rt, libutil

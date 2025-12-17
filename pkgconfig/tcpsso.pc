@@ -2,6 +2,6 @@ Name: tcpsso
 Description: Set a socket option on a TCP endpoint
 URL: https://man.freebsd.org/cgi/man.cgi?query=tcpsso(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/tcpsso
 Requires: csu, libc, libcompiler\_rt

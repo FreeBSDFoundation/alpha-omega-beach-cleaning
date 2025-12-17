@@ -2,6 +2,6 @@ Name: chmod
 Description: Change file modes
 URL: https://man.freebsd.org/cgi/man.cgi?query=chmod(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/chmod
 Requires: csu, libc, libcompiler\_rt

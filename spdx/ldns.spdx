@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-ldnsC641.8.3
 PackageVersion: 1.8.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: des@
+PackageSupplier: Person: cy@, des@
 PackageHomePage: https://github.com/NLnetLabs/ldns
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>LDNS is a DNS library that facilitates DNS tool programming</text>

@@ -2,6 +2,6 @@ Name: rusers
 Description: Who is logged in to machines on local network
 URL: https://man.freebsd.org/cgi/man.cgi?query=rusers(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/rusers
 Requires: csu, libc, libcompiler\_rt, librpcsvc

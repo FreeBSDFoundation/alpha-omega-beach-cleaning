@@ -2,6 +2,6 @@ Name: ypset
 Description: Tell ypbind(8) which NIS server process to use
 URL: https://man.freebsd.org/cgi/man.cgi?query=ypset(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/ypset
 Requires: csu, libc, libcompiler\_rt

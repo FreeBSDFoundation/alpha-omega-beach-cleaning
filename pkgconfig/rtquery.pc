@@ -2,6 +2,6 @@ Name: rtquery
 Description: Query routing daemons for their routing tables
 URL: https://man.freebsd.org/cgi/man.cgi?query=rtquery(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/rtquery
 Requires: csu, libc, libcompiler\_rt, libmd

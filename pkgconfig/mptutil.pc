@@ -2,6 +2,6 @@ Name: mptutil
 Description: Utility for managing LSI Fusion-MPT controllers
 URL: https://man.freebsd.org/cgi/man.cgi?query=mptutil(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/mptutil
 Requires: csu, libc, libcam, libcompiler\_rt, libutil

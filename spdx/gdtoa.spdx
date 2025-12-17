@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-gdtoaC6420110304
 PackageVersion: 20110304
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: das@
 PackageHomePage: https://www.netlib.org/fp/
 PackageLicenseDeclared: SMLNJ
 PackageSummary: <text>Library of binary -> decimal and decimal -> binary conversion routines</text>

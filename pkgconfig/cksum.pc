@@ -2,6 +2,6 @@ Name: cksum
 Description: Display file checksums and block counts
 URL: https://man.freebsd.org/cgi/man.cgi?query=cksum(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/cksum
 Requires: csu, libc, libcompiler\_rt

@@ -2,6 +2,6 @@ Name: veriexec
 Description: Manipulate state of mac\_veriexec
 URL: https://man.freebsd.org/cgi/man.cgi?query=veriexec(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/veriexec
 Requires: csu, libbearssl, libc, libcompiler\_rt, libveriexec

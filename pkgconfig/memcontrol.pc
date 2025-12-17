@@ -2,6 +2,6 @@ Name: memcontrol
 Description: Control system cache behaviour with respect to memory
 URL: https://man.freebsd.org/cgi/man.cgi?query=memcontrol(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/memcontrol
 Requires: csu, libc, libcompiler\_rt

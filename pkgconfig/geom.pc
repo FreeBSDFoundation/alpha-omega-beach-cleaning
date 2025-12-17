@@ -2,6 +2,6 @@ Name: geom
 Description: Universal control utility for GEOM classes
 URL: https://man.freebsd.org/cgi/man.cgi?query=geom(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/geom
 Requires: csu, libc, libcompiler\_rt, libexpat, libgeom, libsbuf, libutil

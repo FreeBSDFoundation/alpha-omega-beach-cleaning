@@ -2,6 +2,6 @@ Name: dump
 Description: File system backup
 URL: https://man.freebsd.org/cgi/man.cgi?query=dump(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/dump
 Requires: csu, libc, libcompiler\_rt, libufs

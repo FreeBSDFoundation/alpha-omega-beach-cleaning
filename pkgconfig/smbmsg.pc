@@ -2,6 +2,6 @@ Name: smbmsg
 Description: Send or receive messages over an SMBus
 URL: https://man.freebsd.org/cgi/man.cgi?query=smbmsg(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/smbmsg
 Requires: csu, libc, libcompiler\_rt

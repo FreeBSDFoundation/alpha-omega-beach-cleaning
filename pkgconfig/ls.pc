@@ -2,6 +2,6 @@ Name: ls
 Description: List directory contents
 URL: https://man.freebsd.org/cgi/man.cgi?query=ls(1)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/ls
 Requires: csu, libc, libcompiler\_rt, libutil, tinfo

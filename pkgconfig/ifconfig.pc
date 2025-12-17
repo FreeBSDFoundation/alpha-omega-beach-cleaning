@@ -2,6 +2,6 @@ Name: ifconfig
 Description: Configure network interface parameters
 URL: https://man.freebsd.org/cgi/man.cgi?query=ifconfig(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause-FreeBSD AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/ifconfig
 Requires: csu, libc, libcompiler\_rt, libifconfig, libnv, libutil, msun

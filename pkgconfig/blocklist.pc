@@ -4,4 +4,4 @@ URL: https://www.NetBSD.org
 Version: 2025-04-28
 License: BSD-2-Clause
 Source: https://github.com/zoulasc/blocklist/tree/8aa81bf70073715a749b1673884e84ac82cfce9f
-Maintainer: emaste@, lidl@
+Maintainer: emaste@

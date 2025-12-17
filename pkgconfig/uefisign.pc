@@ -2,6 +2,6 @@ Name: uefisign
 Description: UEFI Secure Boot signing utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=uefisign(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/uefisign
 Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt

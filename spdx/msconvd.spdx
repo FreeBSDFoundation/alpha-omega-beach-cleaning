@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=msconvd(8)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-4-Clause AND BSD-2-Clause
 PackageSummary: <text>Mouse protocol conversion daemon</text>
 
 

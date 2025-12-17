@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-blocklistC642025-04-28
 PackageVersion: 2025-04-28
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: emaste@, lidl@
+PackageSupplier: Person: emaste@
 PackageHomePage: https://www.NetBSD.org
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.</text>

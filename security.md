@@ -68,6 +68,7 @@
 | ncurses | user | 1 |
 | OpenPAM | auth, system, user | 3 |
 | SQLite | user | 1 |
+| Time Zone Code | system, user | 2 |
 | Time Zone Database | system, user | 2 |
 | __System Tools__ | | |
 | awk | build, user | 2 |

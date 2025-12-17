@@ -3,4 +3,4 @@ Description: Time Zone Database
 URL: https://www.iana.org/time-zones
 Version: 2025b
 Source: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
-Maintainer: des@, philip@
+Maintainer: philip@

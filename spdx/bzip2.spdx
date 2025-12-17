@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-bzip2C641.0.8
 PackageVersion: 1.0.8
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: delphij@, obrien@, sobomax@
+PackageSupplier: Person: delphij@, obrien@
 PackageHomePage: https://sourceware.org/bzip2/
 PackageLicenseDeclared: bzip2-1.0.6
 PackageSummary: <text>High-quality data compressor</text>

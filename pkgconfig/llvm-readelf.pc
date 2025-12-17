@@ -2,5 +2,5 @@ Name: llvm-readelf
 Description: GNU-style LLVM Object Reader
 URL: https://llvm.org
 Version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
-License: Apache-2.0
+License: Apache-2.0 WITH LLVM-exception
 Source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang

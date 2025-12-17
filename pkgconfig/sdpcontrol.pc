@@ -2,6 +2,6 @@ Name: sdpcontrol
 Description: Bluetooth Service Discovery Protocol query utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=sdpcontrol(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/sdpcontrol
 Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp

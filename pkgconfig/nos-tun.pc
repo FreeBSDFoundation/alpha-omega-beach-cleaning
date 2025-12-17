@@ -2,6 +2,6 @@ Name: nos-tun
 Description: Implement ``nos'' or ``ka9q'' style IP over IP tunnel
 URL: https://man.freebsd.org/cgi/man.cgi?query=nos-tun(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/nos-tun
 Requires: csu, libc, libcompiler\_rt
