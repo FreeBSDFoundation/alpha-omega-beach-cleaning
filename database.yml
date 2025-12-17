@@ -543,7 +543,7 @@ Sections:
       description: Object copying and editing tool
       directory: usr.bin/clang/llvm-objcopy
       homepage: https://llvm.org
-      license: Apache-2.0
+      license: Apache-2.0 WITH LLVM-exception
       section: 1
       source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       upstream: LLVM
@@ -633,7 +633,7 @@ Sections:
       description: GNU-style LLVM Object Reader
       directory: usr.bin/clang/llvm-readobj
       homepage: https://llvm.org
-      license: Apache-2.0
+      license: Apache-2.0 WITH LLVM-exception
       section: 1
       source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       upstream: LLVM
@@ -651,7 +651,7 @@ Sections:
       description: Print size information
       directory: usr.bin/clang/llvm-size
       homepage: https://llvm.org
-      license: Apache-2.0
+      license: Apache-2.0 WITH LLVM-exception
       section: 1
       source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       upstream: LLVM
@@ -770,7 +770,7 @@ Sections:
       description: Return filename or directory portion of pathname
       directory: usr.bin/basename
       homepage: https://man.freebsd.org/cgi/man.cgi?query=basename(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/basename
       upstream: FreeBSD project
@@ -805,7 +805,7 @@ Sections:
       description: Encode / decode a binary file
       directory: usr.bin/bintrans
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bintrans(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bintrans
       upstream: FreeBSD project
@@ -833,7 +833,7 @@ Sections:
       description: Generate a patch between two binary files
       directory: usr.bin/bsdiff/bsdiff
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdiff(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bsdiff
       upstream: FreeBSD project
@@ -875,7 +875,7 @@ Sections:
       description: Look up Bluetooth host names and Protocol Service Multiplexor values
       directory: usr.bin/bluetooth/bthost
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bthost(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bthost
       upstream: FreeBSD project
@@ -931,7 +931,7 @@ Sections:
       description: Reminder service
       directory: usr.bin/calendar
       homepage: https://man.freebsd.org/cgi/man.cgi?query=calendar(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/calendar
       upstream: FreeBSD project
@@ -961,7 +961,7 @@ Sections:
       description: Concatenate and print files
       directory: bin/cat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cat(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/cat
       upstream: FreeBSD project
@@ -1027,7 +1027,7 @@ Sections:
       description: Change file modes
       directory: bin/chmod
       homepage: https://man.freebsd.org/cgi/man.cgi?query=chmod(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/chmod
       upstream: FreeBSD project
@@ -1042,7 +1042,7 @@ Sections:
       description: Add or change user database information
       directory: usr.bin/chpass
       homepage: https://man.freebsd.org/cgi/man.cgi?query=chpass(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/chpass
       upstream: FreeBSD project
@@ -1056,7 +1056,7 @@ Sections:
       description: Check software distributions
       directory: usr.sbin/ckdist
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ckdist(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ckdist
       upstream: FreeBSD project
@@ -1069,7 +1069,7 @@ Sections:
       description: Display file checksums and block counts
       directory: usr.bin/cksum
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cksum(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/cksum
       upstream: FreeBSD project
@@ -1085,7 +1085,7 @@ Sections:
       description: Compare two files
       directory: usr.bin/cmp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cmp(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/cmp
       upstream: FreeBSD project
@@ -1100,7 +1100,7 @@ Sections:
       description: Filter reverse line feeds from input
       directory: usr.bin/col
       homepage: https://man.freebsd.org/cgi/man.cgi?query=col(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/col
       upstream: FreeBSD project
@@ -1113,7 +1113,7 @@ Sections:
       description: Remove columns from a file
       directory: usr.bin/colrm
       homepage: https://man.freebsd.org/cgi/man.cgi?query=colrm(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/colrm
       upstream: FreeBSD project
@@ -1126,7 +1126,7 @@ Sections:
       description: Columnate lists
       directory: usr.bin/column
       homepage: https://man.freebsd.org/cgi/man.cgi?query=column(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/column
       upstream: FreeBSD project
@@ -1139,7 +1139,7 @@ Sections:
       description: Select or reject lines common to two files
       directory: usr.bin/comm
       homepage: https://man.freebsd.org/cgi/man.cgi?query=comm(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/comm
       upstream: FreeBSD project
@@ -1152,7 +1152,7 @@ Sections:
       description: Compress and expand data
       directory: usr.bin/compress
       homepage: https://man.freebsd.org/cgi/man.cgi?query=compress(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/compress
       upstream: FreeBSD project
@@ -1165,7 +1165,7 @@ Sections:
       description: Copy files
       directory: bin/cp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cp(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/cp
       upstream: FreeBSD project
@@ -1220,7 +1220,7 @@ Sections:
       description: Hides symbol names from ld, for crunching programs together
       directory: usr.sbin/crunch/crunchide
       homepage: https://man.freebsd.org/cgi/man.cgi?query=crunchide(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/crunchide
       upstream: FreeBSD project
@@ -1246,7 +1246,7 @@ Sections:
       description: Create a tags file
       directory: usr.bin/ctags
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ctags(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ctags
       upstream: FreeBSD project
@@ -1259,7 +1259,7 @@ Sections:
       description: Call UNIX over a serial line
       directory: usr.bin/tip/tip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cu(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/cu
       upstream: FreeBSD project
@@ -1301,7 +1301,7 @@ Sections:
       description: Convert and copy a file
       directory: bin/dd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dd(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/dd
       upstream: FreeBSD project
@@ -1385,7 +1385,7 @@ Sections:
       description: Write arguments to the standard output
       directory: bin/echo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=echo(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/echo
       upstream: FreeBSD project
@@ -1450,7 +1450,7 @@ Sections:
       description: Set environment and execute command, or print environment
       directory: usr.bin/env
       homepage: https://man.freebsd.org/cgi/man.cgi?query=env(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/env
       upstream: FreeBSD project
@@ -1498,7 +1498,7 @@ Sections:
       description: Return false value
       directory: usr.bin/false
       homepage: https://man.freebsd.org/cgi/man.cgi?query=false(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/false
       upstream: FreeBSD project
@@ -1511,7 +1511,7 @@ Sections:
       description: Read floppy disks
       directory: usr.sbin/fdread
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fdread(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/fdread
       upstream: FreeBSD project
@@ -1579,7 +1579,7 @@ Sections:
       description: Walk a file hierarchy
       directory: usr.bin/find
       homepage: https://man.freebsd.org/cgi/man.cgi?query=find(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/find
       upstream: FreeBSD project
@@ -1592,7 +1592,7 @@ Sections:
       description: User information lookup program
       directory: usr.bin/finger
       homepage: https://man.freebsd.org/cgi/man.cgi?query=finger(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/finger
       upstream: FreeBSD project
@@ -1663,7 +1663,7 @@ Sections:
       description: Identify active files
       directory: usr.bin/fstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fstat(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/fstat
       upstream: FreeBSD project
@@ -1705,7 +1705,7 @@ Sections:
       description: Get core images of running process
       directory: usr.bin/gcore
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gcore(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/gcore
       upstream: FreeBSD project
@@ -1718,7 +1718,7 @@ Sections:
       description: NLS catalog compiler
       directory: usr.bin/gencat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gencat(1)
-      license: NOASSERTION
+      license: ISC AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/gencat
       upstream: FreeBSD project
@@ -1727,7 +1727,7 @@ Sections:
       description: Generic netlink
       directory: usr.bin/genl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=genl(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/genl
       upstream: FreeBSD project
@@ -1768,7 +1768,7 @@ Sections:
       description: Get entries from administrative database
       directory: usr.bin/getent
       homepage: https://man.freebsd.org/cgi/man.cgi?query=getent(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/getent
       upstream: FreeBSD project
@@ -1809,7 +1809,7 @@ Sections:
       description: Display call graph profile data
       directory: usr.bin/gprof
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gprof(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/gprof
       upstream: FreeBSD project
@@ -1922,7 +1922,7 @@ Sections:
       description: Set or print the name of current host system
       directory: bin/hostname
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hostname(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/hostname
       upstream: FreeBSD project
@@ -1980,7 +1980,7 @@ Sections:
       description: Indent and format C program source
       directory: usr.bin/indent
       homepage: https://man.freebsd.org/cgi/man.cgi?query=indent(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/indent
       upstream: FreeBSD project
@@ -2023,7 +2023,7 @@ Sections:
       description: Report System V interprocess communication facilities status
       directory: usr.bin/ipcs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ipcs(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ipcs
       upstream: FreeBSD project
@@ -2107,7 +2107,7 @@ Sections:
       description: Print sequential or random data
       directory: usr.bin/jot
       homepage: https://man.freebsd.org/cgi/man.cgi?query=jot(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/jot
       upstream: FreeBSD project
@@ -2120,7 +2120,7 @@ Sections:
       description: System video console keyboard control/configuration utility
       directory: usr.sbin/kbdcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=kbdcontrol(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/kbdcontrol
       upstream: FreeBSD project
@@ -2134,7 +2134,7 @@ Sections:
       description: System video console keyboard map/font dialog utilities
       directory: usr.sbin/kbdmap
       homepage: https://man.freebsd.org/cgi/man.cgi?query=kbdmap(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/kbdmap
       upstream: FreeBSD project
@@ -2149,7 +2149,7 @@ Sections:
       description: Display kernel trace data
       directory: usr.bin/kdump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=kdump(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/kdump
       upstream: FreeBSD project
@@ -2202,7 +2202,7 @@ Sections:
       description: Enable kernel process tracing
       directory: usr.bin/ktrace
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ktrace(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ktrace
       upstream: FreeBSD project
@@ -2233,7 +2233,7 @@ Sections:
       description: Indicate last logins of users and ttys
       directory: usr.bin/last
       homepage: https://man.freebsd.org/cgi/man.cgi?query=last(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/last
       upstream: FreeBSD project
@@ -2246,7 +2246,7 @@ Sections:
       description: Show last commands executed
       directory: usr.bin/lastcomm
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lastcomm(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/lastcomm
       upstream: FreeBSD project
@@ -2313,7 +2313,7 @@ Sections:
       description: Link files
       directory: bin/ln
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ln(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ln
       upstream: FreeBSD project
@@ -2353,7 +2353,7 @@ Sections:
       description: Find filenames quickly
       directory: usr.bin/locate/locate
       homepage: https://man.freebsd.org/cgi/man.cgi?query=locate(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/locate
       upstream: FreeBSD project
@@ -2367,7 +2367,7 @@ Sections:
       description: Reserve a terminal
       directory: usr.bin/lock
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lock(1)
-      license: NOASSERTION
+      license: Beerware AND BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/lock
       upstream: FreeBSD project
@@ -2396,7 +2396,7 @@ Sections:
       description: Make entries in the system log
       directory: usr.bin/logger
       homepage: https://man.freebsd.org/cgi/man.cgi?query=logger(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/logger
       upstream: FreeBSD project
@@ -2411,7 +2411,7 @@ Sections:
       description: Log into the computer
       directory: usr.bin/login
       homepage: https://man.freebsd.org/cgi/man.cgi?query=login(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/login
       upstream: FreeBSD project
@@ -2424,7 +2424,7 @@ Sections:
       description: Display account information
       directory: usr.bin/logins
       homepage: https://man.freebsd.org/cgi/man.cgi?query=logins(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/logins
       upstream: FreeBSD project
@@ -2452,7 +2452,7 @@ Sections:
       description: Display lines beginning with a given string
       directory: usr.bin/look
       homepage: https://man.freebsd.org/cgi/man.cgi?query=look(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/look
       upstream: FreeBSD project
@@ -2522,7 +2522,7 @@ Sections:
       description: Generate lineprinter ripple pattern
       directory: usr.sbin/lpr/lptest
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lptest(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/lptest
       upstream: FreeBSD project
@@ -2537,7 +2537,7 @@ Sections:
       description: List directory contents
       directory: bin/ls
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ls(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ls
       upstream: FreeBSD project
@@ -2565,7 +2565,7 @@ Sections:
       description: Macro language processor
       directory: usr.bin/m4
       homepage: https://man.freebsd.org/cgi/man.cgi?query=m4(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/m4
       upstream: FreeBSD project
@@ -2578,7 +2578,7 @@ Sections:
       description: Send and receive mail
       directory: usr.bin/mail
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mail(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/mail
       upstream: FreeBSD project
@@ -2635,7 +2635,7 @@ Sections:
       description: Display (do not display) messages from other users
       directory: usr.bin/mesg
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mesg(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/mesg
       upstream: FreeBSD project
@@ -2644,7 +2644,7 @@ Sections:
       description: Dump MIDI events
       directory: usr.bin/mididump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mididump(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/mididump
       upstream: FreeBSD project
@@ -2721,7 +2721,7 @@ Sections:
       description: Make fifos
       directory: usr.bin/mkfifo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mkfifo(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/mkfifo
       upstream: FreeBSD project
@@ -2788,7 +2788,7 @@ Sections:
       description: System messages and junk mail program
       directory: usr.bin/msgs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=msgs(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/msgs
       upstream: FreeBSD project
@@ -2831,7 +2831,7 @@ Sections:
       description: Displays a calendar and the date of Easter
       directory: usr.bin/ncal
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ncal(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ncal
       upstream: FreeBSD project
@@ -2848,7 +2848,7 @@ Sections:
       description: Show network status and statistics
       directory: usr.bin/netstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=netstat(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/netstat
       upstream: FreeBSD project
@@ -2918,7 +2918,7 @@ Sections:
       description: Invoke a utility immune to hangups
       directory: usr.bin/nohup
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nohup(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/nohup
       upstream: FreeBSD project
@@ -2946,7 +2946,7 @@ Sections:
       description: Octal, decimal, hex, ASCII dump
       directory: usr.bin/hexdump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=od(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/od
       upstream: FreeBSD project
@@ -3015,7 +3015,7 @@ Sections:
       description: Check pathnames
       directory: usr.bin/pathchk
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pathchk(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/pathchk
       upstream: FreeBSD project
@@ -3028,7 +3028,7 @@ Sections:
       description: Read and write file archives and copy directory hierarchies
       directory: bin/pax
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pax(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/pax
       upstream: FreeBSD project
@@ -3087,7 +3087,7 @@ Sections:
       description: Print files
       directory: usr.bin/pr
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pr(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/pr
       upstream: FreeBSD project
@@ -3145,7 +3145,7 @@ Sections:
       description: Get detailed process information
       directory: usr.bin/procstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=procstat(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/procstat
       upstream: FreeBSD project
@@ -3175,7 +3175,7 @@ Sections:
       description: Process status
       directory: bin/ps
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ps(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ps
       upstream: FreeBSD project
@@ -3216,7 +3216,7 @@ Sections:
       description: Display disk usage and limits
       directory: usr.bin/quota
       homepage: https://man.freebsd.org/cgi/man.cgi?query=quota(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/quota
       upstream: FreeBSD project
@@ -3229,7 +3229,7 @@ Sections:
       description: Return resolved physical path
       directory: bin/realpath
       homepage: https://man.freebsd.org/cgi/man.cgi?query=realpath(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/realpath
       upstream: FreeBSD project
@@ -3298,7 +3298,7 @@ Sections:
       description: RFCOMM Serial Port Profile daemon
       directory: usr.bin/bluetooth/rfcomm_sppd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rfcomm_sppd(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/rfcomm_sppd
       upstream: FreeBSD project
@@ -3324,7 +3324,7 @@ Sections:
       description: Remove directories
       directory: bin/rmdir
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rmdir(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/rmdir
       upstream: FreeBSD project
@@ -3353,7 +3353,7 @@ Sections:
       description: Reshape a data array
       directory: usr.bin/rs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rs(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/rs
       upstream: FreeBSD project
@@ -3416,7 +3416,7 @@ Sections:
       description: Show host status of local machines
       directory: usr.bin/ruptime
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ruptime(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/ruptime
       upstream: FreeBSD project
@@ -3430,7 +3430,7 @@ Sections:
       description: Who is logged in to machines on local network
       directory: usr.bin/rusers
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rusers(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/rusers
       upstream: FreeBSD project
@@ -3498,7 +3498,7 @@ Sections:
       description: Stream editor
       directory: usr.bin/sed
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sed(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/sed
       upstream: FreeBSD project
@@ -3512,7 +3512,7 @@ Sections:
       description: Print sequences of numbers
       directory: usr.bin/seq
       homepage: https://man.freebsd.org/cgi/man.cgi?query=seq(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/seq
       upstream: FreeBSD project
@@ -3552,7 +3552,7 @@ Sections:
       description: Command interpreter (shell)
       directory: bin/sh
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/sh
       upstream: FreeBSD project
@@ -3588,7 +3588,7 @@ Sections:
       description: List open sockets
       directory: usr.bin/sockstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sockstat(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/sockstat
       upstream: FreeBSD project
@@ -3615,7 +3615,7 @@ Sections:
       description: Split a file into pieces
       directory: usr.bin/split
       homepage: https://man.freebsd.org/cgi/man.cgi?query=split(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/split
       upstream: FreeBSD project
@@ -3637,7 +3637,7 @@ Sections:
       description: Display file status
       directory: usr.bin/stat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=stat(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/stat
       upstream: FreeBSD project
@@ -3650,7 +3650,7 @@ Sections:
       description: Change standard streams initial buffering
       directory: usr.bin/stdbuf
       homepage: https://man.freebsd.org/cgi/man.cgi?query=stdbuf(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/stdbuf
       upstream: FreeBSD project
@@ -3698,7 +3698,7 @@ Sections:
       description: Display system statistics
       directory: usr.bin/systat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=systat(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/systat
       upstream: FreeBSD project
@@ -3727,7 +3727,7 @@ Sections:
       description: Display the last part of a file
       directory: usr.bin/tail
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tail(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/tail
       upstream: FreeBSD project
@@ -3742,7 +3742,7 @@ Sections:
       description: Talk to another user
       directory: usr.bin/talk
       homepage: https://man.freebsd.org/cgi/man.cgi?query=talk(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/talk
       upstream: FreeBSD project
@@ -3797,7 +3797,7 @@ Sections:
       description: Trivial file transfer program
       directory: usr.bin/tftp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tftp(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/tftp
       upstream: FreeBSD project
@@ -3810,7 +3810,7 @@ Sections:
       description: Time command execution
       directory: usr.bin/time
       homepage: https://man.freebsd.org/cgi/man.cgi?query=time(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/time
       upstream: FreeBSD project
@@ -3883,7 +3883,7 @@ Sections:
       description: Translate characters
       directory: usr.bin/tr
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tr(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/tr
       upstream: FreeBSD project
@@ -3910,7 +3910,7 @@ Sections:
       description: Resize files or manage file space
       directory: usr.bin/truncate
       homepage: https://man.freebsd.org/cgi/man.cgi?query=truncate(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/truncate
       upstream: FreeBSD project
@@ -3924,7 +3924,7 @@ Sections:
       description: Trace system calls
       directory: usr.bin/truss
       homepage: https://man.freebsd.org/cgi/man.cgi?query=truss(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/truss
       upstream: FreeBSD project
@@ -3950,7 +3950,7 @@ Sections:
       description: Return user's terminal name
       directory: usr.bin/tty
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tty(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/tty
       upstream: FreeBSD project
@@ -3964,7 +3964,7 @@ Sections:
       description: Connection utility for Option based devices
       directory: usr.sbin/uhsoctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=uhsoctl(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/uhsoctl
       upstream: FreeBSD project
@@ -3991,7 +3991,7 @@ Sections:
       description: Display information about the system
       directory: usr.bin/uname
       homepage: https://man.freebsd.org/cgi/man.cgi?query=uname(1)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/uname
       upstream: FreeBSD project
@@ -4022,7 +4022,7 @@ Sections:
       description: Conversion calculator
       directory: usr.bin/units
       homepage: https://man.freebsd.org/cgi/man.cgi?query=units(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/units
       upstream: FreeBSD project
@@ -4053,7 +4053,7 @@ Sections:
       description: Perform actions according to USB HID controls
       directory: usr.bin/usbhidaction
       homepage: https://man.freebsd.org/cgi/man.cgi?query=usbhidaction(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usbhidaction
       upstream: FreeBSD project
@@ -4067,7 +4067,7 @@ Sections:
       description: Manipulate USB HID devices
       directory: usr.bin/usbhidctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=usbhidctl(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usbhidctl
       upstream: FreeBSD project
@@ -4113,7 +4113,7 @@ Sections:
       description: Grind nice listings of programs
       directory: usr.bin/vgrind
       homepage: https://man.freebsd.org/cgi/man.cgi?query=vgrind(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/vgrind
       upstream: FreeBSD project
@@ -4126,7 +4126,7 @@ Sections:
       description: System video console control and configuration utility
       directory: usr.sbin/vidcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=vidcontrol(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/vidcontrol
       upstream: FreeBSD project
@@ -4143,7 +4143,7 @@ Sections:
       description: Display who is logged in and what they are doing
       directory: usr.bin/w
       homepage: https://man.freebsd.org/cgi/man.cgi?query=w(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND Apache-2.0 WITH LLVM-exception
       section: 1
       source: https://cgit.freebsd.org/src/tree/w
       upstream: FreeBSD project
@@ -4156,7 +4156,7 @@ Sections:
       description: Write a message to users
       directory: usr.bin/wall
       homepage: https://man.freebsd.org/cgi/man.cgi?query=wall(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/wall
       upstream: FreeBSD project
@@ -4197,7 +4197,7 @@ Sections:
       description: Locate programs
       directory: usr.bin/whereis
       homepage: https://man.freebsd.org/cgi/man.cgi?query=whereis(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/whereis
       upstream: FreeBSD project
@@ -4210,7 +4210,7 @@ Sections:
       description: Locate a program file in the user's path
       directory: usr.bin/which
       homepage: https://man.freebsd.org/cgi/man.cgi?query=which(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/which
       upstream: FreeBSD project
@@ -4223,7 +4223,7 @@ Sections:
       description: Display who is on the system
       directory: usr.bin/who
       homepage: https://man.freebsd.org/cgi/man.cgi?query=who(1)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/who
       upstream: FreeBSD project
@@ -4249,7 +4249,7 @@ Sections:
       description: Internet domain name and network number directory service
       directory: usr.bin/whois
       homepage: https://man.freebsd.org/cgi/man.cgi?query=whois(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/whois
       upstream: FreeBSD project
@@ -4264,7 +4264,7 @@ Sections:
       description: Send a message to another user
       directory: usr.bin/write
       homepage: https://man.freebsd.org/cgi/man.cgi?query=write(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/write
       upstream: FreeBSD project
@@ -4277,7 +4277,7 @@ Sections:
       description: Construct argument list(s) and execute utility
       directory: usr.bin/xargs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=xargs(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/xargs
       upstream: FreeBSD project
@@ -4290,7 +4290,7 @@ Sections:
       description: Extract strings from C programs to implement shared strings
       directory: usr.bin/xstr
       homepage: https://man.freebsd.org/cgi/man.cgi?query=xstr(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/xstr
       upstream: FreeBSD project
@@ -4305,7 +4305,7 @@ Sections:
       description: Be repetitively affirmative
       directory: usr.bin/yes
       homepage: https://man.freebsd.org/cgi/man.cgi?query=yes(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/yes
       upstream: FreeBSD project
@@ -4392,7 +4392,7 @@ Sections:
       description: Grep compressed files
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zgrep(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/zgrep
       upstream: FreeBSD project
@@ -4408,7 +4408,7 @@ Sections:
       description: View compressed files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zmore(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/zmore
       upstream: FreeBSD project
@@ -4483,7 +4483,7 @@ Sections:
       description: Enable/disable system accounting
       directory: usr.sbin/accton
       homepage: https://man.freebsd.org/cgi/man.cgi?query=accton(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/accton
       upstream: FreeBSD project
@@ -4510,7 +4510,7 @@ Sections:
       description: ACPI DSDT debugger
       directory: usr.sbin/acpi/acpidb
       homepage: https://man.freebsd.org/cgi/man.cgi?query=acpidb(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/acpidb
       upstream: FreeBSD project
@@ -4523,7 +4523,7 @@ Sections:
       description: Dump ACPI tables and ASL
       directory: usr.sbin/acpi/acpidump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=acpidump(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/acpidump
       upstream: FreeBSD project
@@ -4545,7 +4545,7 @@ Sections:
       description: Adjust real-time clock (rtc) and kernel timezone offset
       directory: sbin/adjkerntz
       homepage: https://man.freebsd.org/cgi/man.cgi?query=adjkerntz(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/adjkerntz
       upstream: FreeBSD project
@@ -4571,7 +4571,7 @@ Sections:
       description: Advanced Power Management monitor daemon
       directory: usr.sbin/apmd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=apmd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/apmd
       upstream: FreeBSD project
@@ -4641,7 +4641,7 @@ Sections:
       description: Daemon unmounting automounted filesystems
       directory: usr.sbin/autofs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=autounmountd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/autounmountd
       upstream: FreeBSD project
@@ -4650,7 +4650,7 @@ Sections:
       description: Configure backlight hardware
       directory: usr.bin/backlight
       homepage: https://man.freebsd.org/cgi/man.cgi?query=backlight(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/backlight
       upstream: FreeBSD project
@@ -4680,7 +4680,7 @@ Sections:
       description: Manage ZFS boot environments
       directory: sbin/bectl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
-      license: NOASSERTION
+      license: Beerware AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bectl
       upstream: FreeBSD project
@@ -4704,7 +4704,7 @@ Sections:
       description: Run a guest operating system inside a virtual machine
       directory: usr.sbin/bhyve
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyve(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bhyve
       upstream: FreeBSD project
@@ -4719,7 +4719,7 @@ Sections:
       description: Control utility for bhyve instances
       directory: usr.sbin/bhyvectl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyvectl(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bhyvectl
       upstream: FreeBSD project
@@ -4735,7 +4735,7 @@ Sections:
       description: Load a FreeBSD guest inside a bhyve virtual machine
       directory: usr.sbin/bhyveload
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyveload(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bhyveload
       upstream: FreeBSD project
@@ -4771,7 +4771,7 @@ Sections:
       description: Boot manager installation/configuration utility
       directory: usr.sbin/boot0cfg
       homepage: https://man.freebsd.org/cgi/man.cgi?query=boot0cfg(8)
-      license: NOASSERTION
+      license: BSD-2-Clause AND BSD-1-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/boot0cfg
       upstream: FreeBSD project
@@ -4845,7 +4845,7 @@ Sections:
       description: Trace command execution with boottrace(4)
       directory: usr.sbin/boottrace
       homepage: https://man.freebsd.org/cgi/man.cgi?query=boottrace(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/boottrace
       upstream: FreeBSD project
@@ -4877,7 +4877,7 @@ Sections:
       description: Read and write BSD label
       directory: sbin/bsdlabel
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdlabel(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bsdlabel
       upstream: FreeBSD project
@@ -4893,7 +4893,7 @@ Sections:
       description: Bluetooth HID control utility
       directory: usr.sbin/bluetooth/bthidcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bthidcontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bthidcontrol
       upstream: FreeBSD project
@@ -4908,7 +4908,7 @@ Sections:
       description: Bluetooth HID daemon
       directory: usr.sbin/bluetooth/bthidd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bthidd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/bthidd
       upstream: FreeBSD project
@@ -4924,7 +4924,7 @@ Sections:
       description: Bluetooth PAN daemon
       directory: usr.sbin/bluetooth/btpand
       homepage: https://man.freebsd.org/cgi/man.cgi?query=btpand(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/btpand
       upstream: FreeBSD project
@@ -4937,7 +4937,7 @@ Sections:
       description: Link editor for BTX clients
       directory: usr.sbin/btxld
       homepage: https://man.freebsd.org/cgi/man.cgi?query=btxld(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/btxld
       upstream: FreeBSD project
@@ -4954,7 +4954,7 @@ Sections:
       description: CAM control program
       directory: sbin/camcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=camcontrol(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/camcontrol
       upstream: FreeBSD project
@@ -4987,7 +4987,7 @@ Sections:
       description: Configuration utility for the concatenated disk driver
       directory: sbin/ccdconfig
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ccdconfig(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ccdconfig
       upstream: FreeBSD project
@@ -4996,7 +4996,7 @@ Sections:
       description: Tool for managing trusted and untrusted TLS certificates
       directory: usr.sbin/certctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=certctl(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/certctl
       upstream: FreeBSD project
@@ -5035,7 +5035,7 @@ Sections:
       description: Check validity of entries in the print spooler database
       directory: usr.sbin/lpr/chkprintcap
       homepage: https://man.freebsd.org/cgi/man.cgi?query=chkprintcap(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/chkprintcap
       upstream: FreeBSD project
@@ -5089,7 +5089,7 @@ Sections:
       description: Clear an inode
       directory: sbin/clri
       homepage: https://man.freebsd.org/cgi/man.cgi?query=clri(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/clri
       upstream: FreeBSD project
@@ -5131,7 +5131,7 @@ Sections:
       description: Build system configuration files
       directory: usr.sbin/config
       homepage: https://man.freebsd.org/cgi/man.cgi?query=config(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/config
       upstream: FreeBSD project
@@ -5144,7 +5144,7 @@ Sections:
       description: Control physical system video console devices
       directory: sbin/conscontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=conscontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/conscontrol
       upstream: FreeBSD project
@@ -5157,7 +5157,7 @@ Sections:
       description: Control utility for the cpuctl(4) device
       directory: usr.sbin/cpucontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cpucontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/cpucontrol
       upstream: FreeBSD project
@@ -5181,7 +5181,7 @@ Sections:
       description: Daemon to execute scheduled commands (Vixie Cron)
       directory: usr.sbin/cron/cron
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cron(8)
-      license: NOASSERTION
+      license: BSD-4.3TAHOE AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/cron
       upstream: FreeBSD project
@@ -5199,7 +5199,7 @@ Sections:
       description: CAM Target Layer control utility
       directory: usr.sbin/ctladm
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ctladm(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ctladm
       upstream: FreeBSD project
@@ -5222,7 +5222,7 @@ Sections:
       description: CAM Target Layer / iSCSI target daemon
       directory: usr.sbin/ctld
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ctld(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ctld
       upstream: FreeBSD project
@@ -5237,7 +5237,7 @@ Sections:
       description: CAM Target Layer statistics utility
       directory: usr.bin/ctlstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ctlstat(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ctlstat
       upstream: FreeBSD project
@@ -5251,7 +5251,7 @@ Sections:
       description: Userspace companion to Chelsio cxgbe Ethernet driver
       directory: usr.sbin/cxgbetool
       homepage: https://man.freebsd.org/cgi/man.cgi?query=cxgbetool(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/cxgbetool
       upstream: FreeBSD project
@@ -5265,7 +5265,7 @@ Sections:
       description: Run detached from the controlling terminal
       directory: usr.sbin/daemon
       homepage: https://man.freebsd.org/cgi/man.cgi?query=daemon(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/daemon
       upstream: FreeBSD project
@@ -5279,7 +5279,7 @@ Sections:
       description: User interface to dcons(4)
       directory: usr.sbin/dconschat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dconschat(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/dconschat
       upstream: FreeBSD project
@@ -5293,7 +5293,7 @@ Sections:
       description: Configure DDB kernel debugger properties
       directory: sbin/ddb
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ddb(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ddb
       upstream: FreeBSD project
@@ -5340,7 +5340,7 @@ Sections:
       description: Device state change daemon
       directory: sbin/devd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=devd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/devd
       upstream: FreeBSD project
@@ -5353,7 +5353,7 @@ Sections:
       description: DEVFS control
       directory: sbin/devfs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=devfs(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/devfs
       upstream: FreeBSD project
@@ -5396,7 +5396,7 @@ Sections:
       description: Dynamic Host Configuration Protocol (DHCP) client
       directory: sbin/dhclient
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dhclient(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/dhclient
       upstream: FreeBSD project
@@ -5425,7 +5425,7 @@ Sections:
       description: Get information about disk device
       directory: usr.sbin/diskinfo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=diskinfo(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/diskinfo
       upstream: FreeBSD project
@@ -5439,7 +5439,7 @@ Sections:
       description: Display the system message buffer
       directory: sbin/dmesg
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dmesg(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/dmesg
       upstream: FreeBSD project
@@ -5453,7 +5453,7 @@ Sections:
       description: File system backup
       directory: sbin/dump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dump(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/dump
       upstream: FreeBSD project
@@ -5466,7 +5466,7 @@ Sections:
       description: PC Card and Cardbus (PCMCIA) CIS display tool
       directory: usr.sbin/dumpcis
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dumpcis(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/dumpcis
       upstream: FreeBSD project
@@ -5509,7 +5509,7 @@ Sections:
       description: Edit user quotas
       directory: usr.sbin/edquota
       homepage: https://man.freebsd.org/cgi/man.cgi?query=edquota(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/edquota
       upstream: FreeBSD project
@@ -5603,7 +5603,7 @@ Sections:
       description: Configure a built-in Ethernet switch
       directory: sbin/etherswitchcfg
       homepage: https://man.freebsd.org/cgi/man.cgi?query=etherswitchcfg(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/etherswitchcfg
       upstream: FreeBSD project
@@ -5657,7 +5657,7 @@ Sections:
       description: PC slice table maintenance utility
       directory: sbin/fdisk
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fdisk(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fdisk
       upstream: FreeBSD project
@@ -5671,7 +5671,7 @@ Sections:
       description: Dump all meta information of an existing ufs file system
       directory: sbin/ffsinfo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ffsinfo(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ffsinfo
       upstream: FreeBSD project
@@ -5721,7 +5721,7 @@ Sections:
       description: File system consistency check and interactive repair
       directory: sbin/fsck
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fsck
       upstream: FreeBSD project
@@ -5735,7 +5735,7 @@ Sections:
       description: File system consistency check and interactive repair
       directory: sbin/fsck_ffs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_ffs(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fsck_ffs
       upstream: FreeBSD project
@@ -5749,7 +5749,7 @@ Sections:
       description: DOS/Windows (FAT) file system consistency checker
       directory: sbin/fsck_msdosfs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_msdosfs(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fsck_msdosfs
       upstream: FreeBSD project
@@ -5764,7 +5764,7 @@ Sections:
       description: FFS debugging/editing tool
       directory: sbin/fsdb
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fsdb(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fsdb
       upstream: FreeBSD project
@@ -5809,7 +5809,7 @@ Sections:
       description: FireWire control utility
       directory: usr.sbin/fwcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fwcontrol(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/fwcontrol
       upstream: FreeBSD project
@@ -5878,7 +5878,7 @@ Sections:
       description: Universal control utility for GEOM classes
       directory: sbin/geom/core
       homepage: https://man.freebsd.org/cgi/man.cgi?query=geom(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/geom
       upstream: FreeBSD project
@@ -5904,7 +5904,7 @@ Sections:
       description: Print process-related MAC labels
       directory: usr.sbin/getpmac
       homepage: https://man.freebsd.org/cgi/man.cgi?query=getpmac(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/getpmac
       upstream: FreeBSD project
@@ -5950,7 +5950,7 @@ Sections:
       description: GEOM Gate network daemon
       directory: sbin/ggate/ggated
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ggated(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ggated
       upstream: FreeBSD project
@@ -6126,7 +6126,7 @@ Sections:
       description: Expand an existing UFS file system
       directory: sbin/growfs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=growfs(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/growfs
       upstream: FreeBSD project
@@ -6231,7 +6231,7 @@ Sections:
       description: Highly Available Storage control utility
       directory: sbin/hastctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastctl(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/hastctl
       upstream: FreeBSD project
@@ -6249,7 +6249,7 @@ Sections:
       description: Highly Available Storage daemon
       directory: sbin/hastd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/hastd
       upstream: FreeBSD project
@@ -6263,7 +6263,7 @@ Sections:
       description: Bluetooth HCI configuration utility
       directory: usr.sbin/bluetooth/hccontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hccontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/hccontrol
       upstream: FreeBSD project
@@ -6277,7 +6277,7 @@ Sections:
       description: Control link keys and PIN codes for Bluetooth devices
       directory: usr.sbin/bluetooth/hcsecd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hcsecd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/hcsecd
       upstream: FreeBSD project
@@ -6349,7 +6349,7 @@ Sections:
       description: Configure network interface parameters
       directory: sbin/ifconfig
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ifconfig(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause-FreeBSD AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ifconfig
       upstream: FreeBSD project
@@ -6362,7 +6362,7 @@ Sections:
       description: Dump multicast group management statistics per interface
       directory: usr.sbin/ifmcstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ifmcstat(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ifmcstat
       upstream: FreeBSD project
@@ -6377,7 +6377,7 @@ Sections:
       description: Internet “super-server”
       directory: usr.sbin/inetd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=inetd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/inetd
       upstream: FreeBSD project
@@ -6392,7 +6392,7 @@ Sections:
       description: Process control initialization
       directory: sbin/init
       homepage: https://man.freebsd.org/cgi/man.cgi?query=init(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/init
       upstream: FreeBSD project
@@ -6408,7 +6408,7 @@ Sections:
       description: Report I/O statistics
       directory: usr.sbin/iostat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=iostat(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/iostat
       upstream: FreeBSD project
@@ -6500,7 +6500,7 @@ Sections:
         NAT.
       directory: sbin/ipfw
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfw(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ipfw
       upstream: FreeBSD project
@@ -6567,7 +6567,7 @@ Sections:
       description: ISCSI initiator management utility
       directory: usr.bin/iscsictl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=iscsictl(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/iscsictl
       upstream: FreeBSD project
@@ -6585,7 +6585,7 @@ Sections:
       description: ISCSI initiator daemon
       directory: usr.sbin/iscsid
       homepage: https://man.freebsd.org/cgi/man.cgi?query=iscsid(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/iscsid
       upstream: FreeBSD project
@@ -6599,7 +6599,7 @@ Sections:
       description: Load firmware for Intel Wireless AC Bluetooth USB devices
       directory: usr.sbin/bluetooth/iwmbtfw
       homepage: https://man.freebsd.org/cgi/man.cgi?query=iwmbtfw(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/iwmbtfw
       upstream: FreeBSD project
@@ -6615,7 +6615,7 @@ Sections:
       description: Manage system jails
       directory: usr.sbin/jail
       homepage: https://man.freebsd.org/cgi/man.cgi?query=jail(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/jail
       upstream: FreeBSD project
@@ -6630,7 +6630,7 @@ Sections:
       description: Execute a command inside an existing jail
       directory: usr.sbin/jexec
       homepage: https://man.freebsd.org/cgi/man.cgi?query=jexec(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/jexec
       upstream: FreeBSD project
@@ -6645,7 +6645,7 @@ Sections:
       description: List jails
       directory: usr.sbin/jls
       homepage: https://man.freebsd.org/cgi/man.cgi?query=jls(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/jls
       upstream: FreeBSD project
@@ -6685,7 +6685,7 @@ Sections:
       description: Display status of dynamic kernel linker
       directory: sbin/kldstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=kldstat(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/kldstat
       upstream: FreeBSD project
@@ -6698,7 +6698,7 @@ Sections:
       description: Unload a file from the kernel
       directory: sbin/kldunload
       homepage: https://man.freebsd.org/cgi/man.cgi?query=kldunload(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/kldunload
       upstream: FreeBSD project
@@ -6728,7 +6728,7 @@ Sections:
       description: Print kernel ktr trace buffer
       directory: usr.bin/ktrdump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ktrdump(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ktrdump
       upstream: FreeBSD project
@@ -6742,7 +6742,7 @@ Sections:
       description: L2CAP configuration utility
       directory: usr.sbin/bluetooth/l2control
       homepage: https://man.freebsd.org/cgi/man.cgi?query=l2control(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/l2control
       upstream: FreeBSD project
@@ -6783,7 +6783,7 @@ Sections:
       description: Configure the dynamic linker search path for shared libraries
       directory: sbin/ldconfig
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ldconfig(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ldconfig
       upstream: FreeBSD project
@@ -6810,7 +6810,7 @@ Sections:
       description: Line printer control program
       directory: usr.sbin/lpr/lpc
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lpc(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/lpc
       upstream: FreeBSD project
@@ -6823,7 +6823,7 @@ Sections:
       description: Line printer spooler daemon
       directory: usr.sbin/lpr/lpd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lpd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/lpd
       upstream: FreeBSD project
@@ -6836,7 +6836,7 @@ Sections:
       description: A utility for manipulating the lpt printer driver
       directory: usr.sbin/lptcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lptcontrol(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/lptcontrol
       upstream: FreeBSD project
@@ -6850,7 +6850,7 @@ Sections:
       description: Invoke appropriate MTA software based on configuration file
       directory: usr.sbin/mailwrapper
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mailwrapper(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mailwrapper
       upstream: FreeBSD project
@@ -6866,7 +6866,7 @@ Sections:
       description: Create a file system image from a directory tree or a mtree manifest
       directory: usr.sbin/makefs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=makefs(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/makefs
       upstream: FreeBSD project
@@ -6929,7 +6929,7 @@ Sections:
       description: Control system cache behaviour with respect to memory
       directory: usr.sbin/memcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=memcontrol(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/memcontrol
       upstream: FreeBSD project
@@ -6943,7 +6943,7 @@ Sections:
       description: Utility for managing LSI MegaRAID SAS controllers
       directory: usr.sbin/mfiutil
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mfiutil(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mfiutil
       upstream: FreeBSD project
@@ -7035,7 +7035,7 @@ Sections:
       description: Mylex DAC-family RAID management utility
       directory: usr.sbin/mlxcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mlxcontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mlxcontrol
       upstream: FreeBSD project
@@ -7050,7 +7050,7 @@ Sections:
       description: Mount file systems
       directory: sbin/mount
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mount(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mount
       upstream: FreeBSD project
@@ -7092,7 +7092,7 @@ Sections:
       description: Mount an MS-DOS (FAT) file system
       directory: sbin/mount_msdosfs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_msdosfs(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mount_msdosfs
       upstream: FreeBSD project
@@ -7161,7 +7161,7 @@ Sections:
       description: Service remote NFS mount requests
       directory: usr.sbin/mountd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mountd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mountd
       upstream: FreeBSD project
@@ -7183,7 +7183,7 @@ Sections:
       description: Utility for managing LSI Fusion-MPT 2/3 controllers
       directory: usr.sbin/mpsutil
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mpsutil(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mpsutil
       upstream: FreeBSD project
@@ -7198,7 +7198,7 @@ Sections:
       description: Utility for managing LSI Fusion-MPT controllers
       directory: usr.sbin/mptutil
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mptutil(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/mptutil
       upstream: FreeBSD project
@@ -7207,7 +7207,7 @@ Sections:
       description: Mouse protocol conversion daemon
       directory: usr.sbin/moused/msconvd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=msconvd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/msconvd
       upstream: FreeBSD project
@@ -7248,7 +7248,7 @@ Sections:
       description: Control/diagnose IPv6 neighbor discovery protocol
       directory: usr.sbin/ndp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ndp(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ndp
       upstream: FreeBSD project
@@ -7263,7 +7263,7 @@ Sections:
       description: Construct a new UFS1/UFS2 file system
       directory: sbin/newfs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=newfs(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/newfs
       upstream: FreeBSD project
@@ -7439,7 +7439,7 @@ Sections:
       description: Implement ``nos'' or ``ka9q'' style IP over IP tunnel
       directory: sbin/nos-tun
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nos-tun(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/nos-tun
       upstream: FreeBSD project
@@ -7506,7 +7506,7 @@ Sections:
       description: NVM Express control utility
       directory: sbin/nvmecontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nvmecontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/nvmecontrol
       upstream: FreeBSD project
@@ -7894,7 +7894,7 @@ Sections:
       description: Diagnostic utility for the PCI bus
       directory: usr.sbin/pciconf
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pciconf(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pciconf
       upstream: FreeBSD project
@@ -7920,7 +7920,7 @@ Sections:
       description: Control the packet filter (PF) device
       directory: sbin/pfctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pfctl(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pfctl
       upstream: FreeBSD project
@@ -7942,7 +7942,7 @@ Sections:
       description: Control pflow data export
       directory: sbin/pflowctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pflowctl(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pflowctl
       upstream: FreeBSD project
@@ -7972,7 +7972,7 @@ Sections:
       description: Send ICMP or ICMPv6 ECHO_REQUEST packets to network hosts
       directory: sbin/ping
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ping(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ping
       upstream: FreeBSD project
@@ -8024,7 +8024,7 @@ Sections:
       description: Performance measurement with performance monitoring hardware
       directory: usr.sbin/pmcstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pmcstat
       upstream: FreeBSD project
@@ -8078,7 +8078,7 @@ Sections:
       description: Disables a pNFS data storage server (DS)
       directory: usr.sbin/pnfsdskill
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pnfsdskill(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pnfsdskill
       upstream: FreeBSD project
@@ -8112,7 +8112,7 @@ Sections:
       description: Point to Point Protocol (a.k.a. user-ppp)
       directory: usr.sbin/ppp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
-      license: NOASSERTION
+      license: BSD-4.3TAHOE AND BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ppp
       upstream: FreeBSD project
@@ -8127,7 +8127,7 @@ Sections:
       description: PPP control program
       directory: usr.sbin/pppctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pppctl(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pppctl
       upstream: FreeBSD project
@@ -8171,7 +8171,7 @@ Sections:
       description: Display system data structures
       directory: usr.sbin/pstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pstat(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pstat
       upstream: FreeBSD project
@@ -8186,7 +8186,7 @@ Sections:
       description: Create, remove, modify & display system users and groups
       directory: usr.sbin/pw
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pw(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/pw
       upstream: FreeBSD project
@@ -8222,7 +8222,7 @@ Sections:
       description: Display disk space occupied by each user
       directory: usr.sbin/quot
       homepage: https://man.freebsd.org/cgi/man.cgi?query=quot(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/quot
       upstream: FreeBSD project
@@ -8237,7 +8237,7 @@ Sections:
       description: File system quota consistency checker
       directory: sbin/quotacheck
       homepage: https://man.freebsd.org/cgi/man.cgi?query=quotacheck(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/quotacheck
       upstream: FreeBSD project
@@ -8251,7 +8251,7 @@ Sections:
       description: Turn file system quotas on and off
       directory: usr.sbin/quotaon
       homepage: https://man.freebsd.org/cgi/man.cgi?query=quotaon(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/quotaon
       upstream: FreeBSD project
@@ -8292,7 +8292,7 @@ Sections:
       description: Print a dependency ordering of interdependent files
       directory: sbin/rcorder
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rcorder(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rcorder
       upstream: FreeBSD project
@@ -8359,7 +8359,7 @@ Sections:
       description: Restore files or file systems from backups made with dump
       directory: sbin/restore
       homepage: https://man.freebsd.org/cgi/man.cgi?query=restore(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/restore
       upstream: FreeBSD project
@@ -8464,7 +8464,7 @@ Sections:
       description: RIP6 Routing Daemon
       directory: usr.sbin/route6d
       homepage: https://man.freebsd.org/cgi/man.cgi?query=route6d(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/route6d
       upstream: FreeBSD project
@@ -8478,7 +8478,7 @@ Sections:
       description: Network RIP and router discovery routing daemon
       directory: sbin/routed
       homepage: https://man.freebsd.org/cgi/man.cgi?query=routed(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/routed
       upstream: FreeBSD project
@@ -8493,7 +8493,7 @@ Sections:
       description: NFS file locking daemon
       directory: usr.sbin/rpc.lockd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.lockd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.lockd
       upstream: FreeBSD project
@@ -8580,7 +8580,7 @@ Sections:
       description: Host status monitoring daemon
       directory: usr.sbin/rpc.statd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.statd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.statd
       upstream: FreeBSD project
@@ -8589,7 +8589,7 @@ Sections:
       description: Sun RPC over TLS Client Daemon
       directory: usr.sbin/rpc.tlsclntd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.tlsclntd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.tlsclntd
       upstream: FreeBSD project
@@ -8598,7 +8598,7 @@ Sections:
       description: Sun RPC over TLS Server Daemon
       directory: usr.sbin/rpc.tlsservd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.tlsservd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.tlsservd
       upstream: FreeBSD project
@@ -8611,7 +8611,7 @@ Sections:
       description: Notify NFS servers about unmounted NFS file systems
       directory: usr.sbin/rpc.umntall
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.umntall(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.umntall
       upstream: FreeBSD project
@@ -8627,7 +8627,7 @@ Sections:
       description: Server for updating NIS passwords
       directory: usr.sbin/rpc.yppasswdd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.yppasswdd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.yppasswdd
       upstream: FreeBSD project
@@ -8641,7 +8641,7 @@ Sections:
       description: NIS map transfer server
       directory: usr.sbin/rpc.ypxfrd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpc.ypxfrd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpc.ypxfrd
       upstream: FreeBSD project
@@ -8655,7 +8655,7 @@ Sections:
       description: Universal addresses to RPC program number mapper
       directory: usr.sbin/rpcbind
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rpcbind(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rpcbind
       upstream: FreeBSD project
@@ -8682,7 +8682,7 @@ Sections:
       description: Router renumbering daemon
       directory: usr.sbin/rrenumd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rrenumd(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rrenumd
       upstream: FreeBSD project
@@ -8709,7 +8709,7 @@ Sections:
       description: Router advertisement daemon
       directory: usr.sbin/rtadvd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtadvd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rtadvd
       upstream: FreeBSD project
@@ -8718,7 +8718,7 @@ Sections:
       description: Load firmware for Realtek 87XX/88XX Bluetooth USB devices
       directory: usr.sbin/bluetooth/rtlbtfw
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtlbtfw(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rtlbtfw
       upstream: FreeBSD project
@@ -8732,7 +8732,7 @@ Sections:
       description: Query routing daemons for their routing tables
       directory: sbin/routed/rtquery
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtquery(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rtquery
       upstream: FreeBSD project
@@ -8747,7 +8747,7 @@ Sections:
       description: Router solicitation daemon
       directory: usr.sbin/rtsold
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtsold(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/rtsold
       upstream: FreeBSD project
@@ -8775,7 +8775,7 @@ Sections:
       description: Print system accounting statistics
       directory: usr.sbin/sa
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sa(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sa
       upstream: FreeBSD project
@@ -8791,7 +8791,7 @@ Sections:
       description: Sysadmins disk editor
       directory: usr.sbin/bsdinstall/partedit
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sade(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sade
       upstream: FreeBSD project
@@ -8832,7 +8832,7 @@ Sections:
       description: Bluetooth Service Discovery Protocol query utility
       directory: usr.sbin/bluetooth/sdpcontrol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sdpcontrol(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sdpcontrol
       upstream: FreeBSD project
@@ -8847,7 +8847,7 @@ Sections:
       description: Bluetooth Service Discovery Protocol daemon
       directory: usr.sbin/bluetooth/sdpd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sdpd(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sdpd
       upstream: FreeBSD project
@@ -8870,7 +8870,7 @@ Sections:
       description: Generate the services database
       directory: usr.sbin/services_mkdb
       homepage: https://man.freebsd.org/cgi/man.cgi?query=services_mkdb(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/services_mkdb
       upstream: FreeBSD project
@@ -8906,7 +8906,7 @@ Sections:
       description: Set MAC label for a file system object
       directory: usr.sbin/setfmac
       homepage: https://man.freebsd.org/cgi/man.cgi?query=setfmac(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/setfmac
       upstream: FreeBSD project
@@ -8933,7 +8933,7 @@ Sections:
       description: Manually manipulate the IPsec SA/SP database
       directory: sbin/setkey
       homepage: https://man.freebsd.org/cgi/man.cgi?query=setkey(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/setkey
       upstream: FreeBSD project
@@ -8985,7 +8985,7 @@ Sections:
       description: Send or receive messages over an SMBus
       directory: usr.sbin/smbmsg
       homepage: https://man.freebsd.org/cgi/man.cgi?query=smbmsg(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/smbmsg
       upstream: FreeBSD project
@@ -9008,7 +9008,7 @@ Sections:
       description: List and modify soundcard properties
       directory: usr.sbin/sndctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sndctl(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sndctl
       upstream: FreeBSD project
@@ -9017,7 +9017,7 @@ Sections:
       description: Communicate on SPI bus with slave devices
       directory: usr.sbin/spi
       homepage: https://man.freebsd.org/cgi/man.cgi?query=spi(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/spi
       upstream: FreeBSD project
@@ -9040,7 +9040,7 @@ Sections:
       description: Send many packets to host
       directory: usr.sbin/spray
       homepage: https://man.freebsd.org/cgi/man.cgi?query=spray(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/spray
       upstream: FreeBSD project
@@ -9093,7 +9093,7 @@ Sections:
       description: Get or set kernel state
       directory: sbin/sysctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sysctl(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sysctl
       upstream: FreeBSD project
@@ -9107,7 +9107,7 @@ Sections:
       description: Log systems messages
       directory: usr.sbin/syslogd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=syslogd(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/syslogd
       upstream: FreeBSD project
@@ -9155,7 +9155,7 @@ Sections:
       description: Set a socket option on a TCP endpoint
       directory: usr.sbin/tcpsso
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tcpsso(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/tcpsso
       upstream: FreeBSD project
@@ -9200,7 +9200,7 @@ Sections:
       description: Print the route IPv6 packets will take to a network node
       directory: usr.sbin/traceroute6
       homepage: https://man.freebsd.org/cgi/man.cgi?query=traceroute6(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/traceroute6
       upstream: FreeBSD project
@@ -9209,7 +9209,7 @@ Sections:
       description: Erase device blocks that have no needed contents
       directory: usr.sbin/trim
       homepage: https://man.freebsd.org/cgi/man.cgi?query=trim(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/trim
       upstream: FreeBSD project
@@ -9223,7 +9223,7 @@ Sections:
       description: Tune up an existing UFS file system
       directory: sbin/tunefs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tunefs(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/tunefs
       upstream: FreeBSD project
@@ -9265,7 +9265,7 @@ Sections:
       description: UEFI Secure Boot signing utility
       directory: usr.sbin/uefisign
       homepage: https://man.freebsd.org/cgi/man.cgi?query=uefisign(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/uefisign
       upstream: FreeBSD project
@@ -9288,7 +9288,7 @@ Sections:
       description: Display or set MBIM cellular modem interface parameters (4G/LTE)
       directory: sbin/umbctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=umbctl(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/umbctl
       upstream: FreeBSD project
@@ -9315,7 +9315,7 @@ Sections:
       description: Configure the USB subsystem
       directory: usr.sbin/usbconfig
       homepage: https://man.freebsd.org/cgi/man.cgi?query=usbconfig(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usbconfig
       upstream: FreeBSD project
@@ -9328,7 +9328,7 @@ Sections:
       description: Dump traffic on USB host controller
       directory: usr.sbin/usbdump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=usbdump(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usbdump
       upstream: FreeBSD project
@@ -9370,7 +9370,7 @@ Sections:
       description: Manipulate state of mac_veriexec
       directory: sbin/veriexec
       homepage: https://man.freebsd.org/cgi/man.cgi?query=veriexec(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/veriexec
       upstream: FreeBSD project
@@ -9393,7 +9393,7 @@ Sections:
       description: Edit the password file
       directory: usr.sbin/vipw
       homepage: https://man.freebsd.org/cgi/man.cgi?query=vipw(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/vipw
       upstream: FreeBSD project
@@ -9473,7 +9473,7 @@ Sections:
       description: Send Wake on LAN frames to hosts on a local Ethernet network
       directory: usr.sbin/wake
       homepage: https://man.freebsd.org/cgi/man.cgi?query=wake(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/wake
       upstream: FreeBSD project
@@ -9598,7 +9598,7 @@ Sections:
       description: NIS domain binding daemon
       directory: usr.sbin/ypbind
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ypbind(8)
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ypbind
       upstream: FreeBSD project
@@ -9641,7 +9641,7 @@ Sections:
       description: Ask version of NIS map from NIS server
       directory: usr.sbin/yppoll
       homepage: https://man.freebsd.org/cgi/man.cgi?query=yppoll(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/yppoll
       upstream: FreeBSD project
@@ -9680,7 +9680,7 @@ Sections:
       description: Tell ypbind(8) which NIS server process to use
       directory: usr.sbin/ypset
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ypset(8)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/ypset
       upstream: FreeBSD project
