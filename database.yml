@@ -38,7 +38,7 @@ Sections:
     bmake:
       description: Program designed to simplify the maintenance of other programs
       directory: contrib/bmake
-      version: 20250804
+      version: '20250804'
       license: BSD-3-Clause
       upstream: NetBSD
       homepage: https://www.NetBSD.org
@@ -50,7 +50,7 @@ Sections:
     byacc:
       description: Parser generator designed to be compatible with Yacc
       directory: contrib/byacc
-      version: 20240109
+      version: '20240109'
       upstream: invisible-island
       homepage: https://invisible-island.net/byacc/
       source: https://invisible-island.net/datafiles/release/byacc.tar.gz
@@ -96,6 +96,7 @@ Sections:
     Git:
       description: Distributed Version Control System
       upstream: Git
+      version: unknown
       homepage: https://git-scm.com
       source: https://git.kernel.org/pub/scm/git/git.git
       security:
@@ -9764,7 +9765,7 @@ Sections:
     mkuzip:
       description: Compress disk image for use with geom_uzip(4) class
       directory: usr.bin
-      version: 14.3
+      version: '15.0'
       upstream: FreeBSD
       homepage: https://www.FreeBSD.org
       license: BSD-2-Clause
@@ -9773,7 +9774,7 @@ Sections:
     acpi:
       description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
       directory: sys/contrib/dev/acpica
-      version: 20250807
+      version: '20250807'
       upstream: Intel
       homepage: https://github.com/acpica/acpica
       source: https://github.com/acpica/acpica/tree/20250807
@@ -9825,6 +9826,7 @@ Sections:
     pf:
       directory: sys/netpfil/pf
       upstream: OpenBSD
+      version: unknown
       homepage: https://openbsd.org
       security:
         - kernel
@@ -9840,6 +9842,7 @@ Sections:
         - sys/dev/usb/net
         - sys/modules/usb/umb
       upstream: OpenBSD
+      version: unknown
       homepage: https://openbsd.org
       security:
         - kernel
@@ -9939,7 +9942,7 @@ Sections:
     blocklist:
       description: Library that can be used by network daemons to communicate with a packet filter via a daemon to enforce opening and closing ports dynamically based on policy.
       directory: contrib/blocklist
-      version: 2025-04-28
+      version: '2025-04-28'
       upstream: NetBSD
       homepage: https://www.NetBSD.org
       license: BSD-2-Clause
@@ -9953,7 +9956,7 @@ Sections:
     dma:
       description: DragonFly Mail Agent (DMA)
       directory: contrib/dma
-      version: 2022-01-27
+      version: '2022-01-27'
       upstream: DragonFly BSD
       homepage: https://www.dragonflybsd.org/handbook/mta/
       license: BSD-3-Clause AND BSD-2-Clause
@@ -10087,7 +10090,7 @@ Sections:
     BearSSL:
       description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
       directory: contrib/bearssl
-      version: 20220417
+      version: '20220417'
       upstream: BearSSL
       homepage: https://bearssl.org
       license: MIT
@@ -10134,6 +10137,7 @@ Sections:
     bionic-x86_64-string:
       description: Android's C library, math library, and dynamic linker
       directory: contrib/bionic-x86_64-string
+      version: unknown
       upstream: Intel
       homepage: https://android.googlesource.com/platform/bionic
       security:
@@ -10185,7 +10189,7 @@ Sections:
     gdtoa:
       description: Library of binary -> decimal and decimal -> binary conversion routines
       directory: contrib/gdtoa
-      version: 20110304
+      version: '20110304'
       upstream: David M. Gay
       homepage: https://www.netlib.org/fp/
       license: SMLNJ
@@ -10268,6 +10272,7 @@ Sections:
     libdialog:
       description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
       directory: contrib/libdialog
+      version: unknown
       upstream: invisible-island
       homepage: https://invisible-island.net/dialog/
       security:
@@ -10276,6 +10281,7 @@ Sections:
     libdiff:
       directory: contrib/libdiff
       upstream: Game of Trees
+      version: unknown
       homepage: https://www.gameoftrees.org
       security:
         - build
@@ -10285,7 +10291,7 @@ Sections:
     libedit:
       description: NetBSD Editline library (libedit)
       directory: contrib/libedit
-      version: 2025-01-03
+      version: '2025-01-03'
       upstream: NetBSD
       homepage: https://www.NetBSD.org
       license: BSD-3-Clause
@@ -10313,6 +10319,7 @@ Sections:
     libexecinfo:
       directory: contrib/libexecinfo
       upstream: Maxim Sobolev
+      version: unknown
       homepage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
       license: BSD-2-Clause
       source: https://github.com/NetBSD/src/tree/1c512be1f7a3bda2d36a9790dcaa63d0161b1ed7/lib/libexecinfo
@@ -10428,7 +10435,7 @@ Sections:
     mandoc:
       description: UNIX manpage compiler toolset
       directory: contrib/mandoc
-      version: 2025-09-26
+      version: '2025-09-26'
       upstream: Ingo Schwarze
       homepage: https://mandoc.bsd.lv
       security:
@@ -10453,7 +10460,7 @@ Sections:
     OpenPAM:
       description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
       directory: contrib/openpam
-      version: 20250531
+      version: '20250531'
       upstream: Dag-Erling Smørgrav
       homepage: https://openpam.org
       license: BSD-3-Clause
@@ -10509,7 +10516,7 @@ Sections:
     awk:
       description: One true awk
       directory: contrib/one-true-awk
-      version: 20250804
+      version: '20250804'
       upstream: One True Awk
       homepage: https://github.com/onetrueawk/awk
       license: SMLNJ
@@ -10559,6 +10566,7 @@ Sections:
     hyperv:
       description: Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server
       directory: contrib/hyperv
+      version: unknown
       upstream: Microsoft
       homepage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
       security:
@@ -10568,7 +10576,7 @@ Sections:
     less:
       description: Open-source file pager
       directory: contrib/less
-      version: 679
+      version: '679'
       upstream: Mark Nudelman
       homepage: https://www.greenwoodsoftware.com/less/
       license: BSD-2-Clause
@@ -10641,6 +10649,7 @@ Sections:
     capsicum-test:
       description: Practical capabilities for UNIX
       directory: contrib/capsicum-test
+      version: unknown
       upstream: University of Cambridge
       homepage: https://www.cl.cam.ac.uk/research/security/capsicum/
       license: BSD-2-Clause
@@ -10681,6 +10690,7 @@ Sections:
     NetBSD tests:
       description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
       directory: contrib/netbsd-tests
+      version: unknown
       upstream: NetBSD
       homepage: https://www.NetBSD.org
       license: BSD-2-Clause
