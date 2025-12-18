@@ -10080,7 +10080,8 @@ Sections:
       source: https://fossies.org/linux/misc/tcpdump-4.99.5.tar.gz
       security:
         - network
-      depends: libpcap
+      depends:
+        - libpcap
       plan: fix
       owner:
         - cy@
