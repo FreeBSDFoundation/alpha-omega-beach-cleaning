@@ -4,10 +4,17 @@
 #
 # This software was developed by Pierre Pronchery <pierre@defora.net> at Defora
 # Networks GmbH under sponsorship from the FreeBSD Foundation.
-
+#
+# Portions of this software was developed by Tuukka Pasanen <tuukka.pasanen@ilmi.fi>
+# under sponsorship from the FreeBSD Foundation.
 
 #variables
-BOMTOOL="bomtool"
+if [[ ! -v BOMTOOL ]]; then
+	BOMTOOL="bomtool"
+fi
+if [[ ! -v FILE_SUFFIX ]]; then
+	FILE_SUFFIX="spdx"
+fi
 DEBUG="_debug"
 FIND="find"
 MKDIR="mkdir -p"
@@ -29,7 +36,7 @@ _spdx() {
 		$DEBUG $FIND ../pkgconfig -type f -a -name '*.pc' -print | while read filename; do
 			pkgconfig=${filename#../pkgconfig/}
 			pkgconfig=${pkgconfig%.pc}
-			spdx="$pkgconfig.spdx"
+			spdx="$pkgconfig.${FILE_SUFFIX}"
 			PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx"
 			if [ $? -ne 0 ]; then
 				$RM -- "$spdx"
