@@ -148,9 +148,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Automatic test case reduction tool
       directory: usr.bin/clang/bugpoint
       homepage: https://llvm.org
@@ -170,11 +170,11 @@ Sections:
         - libcxxrt
         - libexecinfo
         - libthr
-        - libz
-        - libzstd
+        - zlib
+        - zstd
         - msun
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: The Clang C, C++, and Objective-C compiler
       directory: usr.bin/clang/clang
       homepage: https://llvm.org
@@ -192,9 +192,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM static compiler
       directory: usr.bin/clang/llc
       homepage: https://llvm.org
@@ -219,12 +219,12 @@ Sections:
         - liblua
         - liblzma
         - libthr
-        - libz
-        - libzstd
+        - zlib
+        - zstd
         - msun
         - ncurses
-        - panel
-        - tinfo
+        - ncurses.panel
+        - ncurses.tinfo
       description: LLDB Documentation
       directory: usr.bin/clang/lldb
       homepage: https://llvm.org
@@ -248,12 +248,12 @@ Sections:
         - liblua
         - liblzma
         - libthr
-        - libz
-        - libzstd
+        - zlib
+        - zstd
         - msun
         - ncurses
-        - panel
-        - tinfo
+        - ncurses.panel
+        - ncurses.tinfo
       description: LLDB Documentation
       directory: usr.bin/clang/lldb-server
       homepage: https://llvm.org
@@ -271,9 +271,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Directly execute programs from LLVM bitcode
       directory: usr.bin/clang/lli
       homepage: https://llvm.org
@@ -291,9 +291,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: A drop-in replacement for addr2line
       directory: usr.bin/clang/llvm-symbolizer
       homepage: https://llvm.org
@@ -311,9 +311,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM archiver
       directory: usr.bin/clang/llvm-ar
       homepage: https://llvm.org
@@ -331,9 +331,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM assembler
       directory: usr.bin/clang/llvm-as
       homepage: https://llvm.org
@@ -351,9 +351,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM bitcode analyzer
       directory: usr.bin/clang/llvm-bcanalyzer
       homepage: https://llvm.org
@@ -371,9 +371,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Emit coverage information
       directory: usr.bin/clang/llvm-cov
       homepage: https://llvm.org
@@ -391,9 +391,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM symbol name demangler
       directory: usr.bin/clang/llvm-cxxfilt
       homepage: https://llvm.org
@@ -411,9 +411,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM structural 'diff'
       directory: usr.bin/clang/llvm-diff
       homepage: https://man.freebsd.org/cgi/man.cgi?query=llvm-diff(1)
@@ -432,7 +432,7 @@ Sections:
         - libcxxrt
         - libthr
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM disassembler
       directory: usr.bin/clang/llvm-dis
       homepage: https://llvm.org
@@ -450,9 +450,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Dump and verify DWARF debug information
       directory: usr.bin/clang/llvm-dwarfdump
       homepage: https://llvm.org
@@ -479,9 +479,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Extract a function from an LLVM module
       directory: usr.bin/clang/llvm-extract
       homepage: https://llvm.org
@@ -499,9 +499,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM bitcode linker
       directory: usr.bin/clang/llvm-link
       homepage: https://llvm.org
@@ -528,9 +528,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: List LLVM bitcode and object file's symbol table
       directory: usr.bin/clang/llvm-nm
       homepage: https://llvm.org
@@ -558,10 +558,10 @@ Sections:
         - libcxxrt
         - libexecinfo
         - libthr
-        - libz
-        - libzstd
+        - zlib
+        - zstd
         - msun
-        - tinfo
+        - ncurses.tinfo
       description: LLVM's object file dumper
       directory: usr.bin/clang/llvm-objdump
       homepage: https://llvm.org
@@ -580,7 +580,7 @@ Sections:
         - libcxxrt
         - libthr
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: PDB File forensics and diagnostics
       directory: usr.bin/clang/llvm-pdbutil
       homepage: https://llvm.org
@@ -598,9 +598,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Profile data tool
       directory: usr.bin/clang/llvm-profdata
       homepage: https://llvm.org
@@ -618,9 +618,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Generates an archive index
       directory: usr.bin/clang/llvm-ar
       homepage: https://llvm.org
@@ -674,9 +674,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: Convert addresses into source code locations
       directory: usr.bin/clang/llvm-symbolizer
       homepage: https://llvm.org
@@ -694,9 +694,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM optimizer
       directory: usr.bin/clang/opt
       homepage: https://llvm.org
@@ -912,17 +912,6 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/libbe
       upstream: FreeBSD project
       version: '15.0'
-    libbearssl:
-      depends:
-        - csu
-        - libc
-        - libcompiler_rt
-      description: Library missing description
-      directory: lib/libbearssl
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/libbearssl
-      upstream: FreeBSD project
-      version: '15.0'
     libblocklist:
       depends:
         - csu
@@ -963,7 +952,7 @@ Sections:
         - libc
         - libcompiler_rt
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libbsddialog
       license: NOASSERTION
@@ -1198,7 +1187,7 @@ Sections:
       depends:
         - libc++
         - libmd
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libclang_rt/asan
       license: NOASSERTION
@@ -1230,7 +1219,7 @@ Sections:
         - libcxxrt
         - libmd
         - msun
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libclang_rt/asan_dynamic
       license: NOASSERTION
@@ -1259,7 +1248,7 @@ Sections:
       depends:
         - libc++
         - libmd
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libclang_rt/stats
       license: NOASSERTION
@@ -1279,7 +1268,7 @@ Sections:
       depends:
         - libc++
         - libmd
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libclang_rt/ubsan_standalone
       license: NOASSERTION
@@ -1393,7 +1382,7 @@ Sections:
         - libutil
         - msun
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libdpv
       license: NOASSERTION
@@ -1406,7 +1395,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libelf
-        - libz
+        - zlib
       description: Library missing description
       directory: lib/libdwarf
       license: NOASSERTION
@@ -1592,10 +1581,10 @@ Sections:
         - libexecinfo
         - libkvm
         - liblzma
-        - libz
+        - zlib
         - msun
-        - panel
-        - tinfo
+        - ncurses.panel
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/clang/liblldb
       license: NOASSERTION
@@ -1606,7 +1595,7 @@ Sections:
       depends:
         - libc++
         - libexecinfo
-        - libz
+        - zlib
         - msun
       description: Library missing description
       directory: lib/clang/libllvm
@@ -1867,7 +1856,7 @@ Sections:
         - libprocstat
         - librtld_db
         - libutil
-        - libz
+        - zlib
       description: Library missing description
       directory: lib/libproc
       license: NOASSERTION
@@ -2009,21 +1998,21 @@ Sections:
         - libbsdstat
         - libbsm
         - libbsnmp
-        - libbz2
+        - bzip2
         - libc
         - libc++
         - libcalendar
         - libcam
         - libcapsicum
         - libcasper
-        - cap_dns
-        - cap_fileargs
-        - cap_grp
-        - cap_net
-        - cap_netdb
-        - cap_pwd
-        - cap_sysctl
-        - cap_syslog
+        - libcasper.services.cap_dns
+        - libcasper.services.cap_fileargs
+        - libcasper.services.cap_grp
+        - libcasper.services.cap_net
+        - libcasper.services.cap_netdb
+        - libcasper.services.cap_pwd
+        - libcasper.services.cap_sysctl
+        - libcasper.services.cap_syslog
         - libcom_err
         - libcompiler_rt
         - libcuse
@@ -2034,7 +2023,7 @@ Sections:
         - libdpv
         - libdwarf
         - libedit
-        - readline
+        - libedit.readline
         - libefivar
         - libelf
         - libevent1
@@ -2065,7 +2054,7 @@ Sections:
         - librss
         - librtld_db
         - libsdp
-        - libsqlite3
+        - SQLite
         - libstdthreads
         - libtacplus
         - libthread_db
@@ -2082,13 +2071,13 @@ Sections:
         - libwrap
         - libxo
         - libypclnt
-        - libz
-        - libzstd
+        - zlib
+        - zstd
         - msun
-        - form
-        - menu
-        - panel
-        - tinfo
+        - ncurses.form
+        - ncurses.menu
+        - ncurses.panel
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/libsysdecode
       license: NOASSERTION
@@ -2273,7 +2262,7 @@ Sections:
         - libc
         - libcompiler_rt
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/ncurses/form
       license: NOASSERTION
@@ -2286,7 +2275,7 @@ Sections:
         - libc
         - libcompiler_rt
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/ncurses/menu
       license: NOASSERTION
@@ -2298,7 +2287,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/ncurses/ncurses
       license: NOASSERTION
@@ -2311,7 +2300,7 @@ Sections:
         - libc
         - libcompiler_rt
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Library missing description
       directory: lib/ncurses/panel
       license: NOASSERTION
@@ -2439,7 +2428,7 @@ Sections:
     bsdiff:
       depends:
         - csu
-        - libbz2
+        - bzip2
         - libc
         - libcompiler_rt
       description: Generate a patch between two binary files
@@ -2467,7 +2456,7 @@ Sections:
     bspatch:
       depends:
         - csu
-        - libbz2
+        - bzip2
         - libc
         - libcompiler_rt
       description: Apply a patch built with bsdiff(1)
@@ -2567,8 +2556,8 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
-        - cap_net
+        - libcasper.services.cap_fileargs
+        - libcasper.services.cap_net
         - libcompiler_rt
       description: Concatenate and print files
       directory: bin/cat
@@ -2963,7 +2952,7 @@ Sections:
         - libdpv
         - libfigpar
         - msun
-        - tinfo
+        - ncurses.tinfo
       description: Stream data from stdin or multiple paths with dialog progress view
       directory: usr.bin/dpv
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dpv(1)
@@ -3161,7 +3150,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libutil
-        - libz
+        - zlib
       description: Initialize, write, seek and extract data from a fifolog
       directory: usr.sbin/fifolog/fifolog_create
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog(1)
@@ -3429,11 +3418,11 @@ Sections:
     grep:
       depends:
         - csu
-        - libbz2
+        - bzip2
         - libc
         - libcompiler_rt
         - libregex
-        - libz
+        - zlib
       description: File pattern searcher
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=grep(1)
@@ -3461,8 +3450,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Create auto-decompressing executables
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzexe(1)
@@ -3477,8 +3466,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
@@ -4003,7 +3992,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_syslog
+        - libcasper.services.cap_syslog
         - libcompiler_rt
       description: Make entries in the system log
       directory: usr.bin/logger
@@ -4145,7 +4134,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libutil
-        - tinfo
+        - ncurses.tinfo
       description: List directory contents
       directory: bin/ls
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ls(1)
@@ -4219,7 +4208,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message-digest fingerprint (checksum) for a file
@@ -4396,7 +4385,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: System messages and junk mail program
       directory: usr.bin/msgs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=msgs(1)
@@ -4439,7 +4428,7 @@ Sections:
         - libc
         - libcalendar
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: Displays a calendar and the date of Easter
       directory: usr.bin/ncal
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ncal(1)
@@ -4572,9 +4561,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - libz
+        - zlib
         - msun
-        - ncursesw
+        - ncurses.ncursesw
       description: LLVM optimizer
       directory: usr.bin/clang/opt
       homepage: https://man.freebsd.org/cgi/man.cgi?query=opt(1)
@@ -5191,10 +5180,10 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_net
-        - cap_netdb
-        - cap_pwd
-        - cap_sysctl
+        - libcasper.services.cap_net
+        - libcasper.services.cap_netdb
+        - libcasper.services.cap_pwd
+        - libcasper.services.cap_sysctl
         - libcompiler_rt
         - libjail
       description: List open sockets
@@ -5306,7 +5295,7 @@ Sections:
         - libutil
         - msun
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Display system statistics
       directory: usr.bin/systat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=systat(1)
@@ -5320,7 +5309,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: Set terminal tabs
       directory: usr.bin/tabs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tabs(1)
@@ -5350,7 +5339,7 @@ Sections:
         - libc
         - libcompiler_rt
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Talk to another user
       directory: usr.bin/talk
       homepage: https://man.freebsd.org/cgi/man.cgi?query=talk(1)
@@ -5463,7 +5452,7 @@ Sections:
         - libsbuf
         - libutil
         - msun
-        - tinfo
+        - ncurses.tinfo
       description: Display and update information about the top cpu processes
       directory: usr.bin/top
       homepage: https://man.freebsd.org/cgi/man.cgi?query=top(1)
@@ -5586,7 +5575,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: Do underlining
       directory: usr.bin/ul
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ul(1)
@@ -5967,8 +5956,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Compare compressed files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zdiff(1)
@@ -5983,8 +5972,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Force gzip files to have a .gz suffix
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zforce(1)
@@ -5996,11 +5985,11 @@ Sections:
     zgrep:
       depends:
         - csu
-        - libbz2
+        - bzip2
         - libc
         - libcompiler_rt
         - libregex
-        - libz
+        - zlib
       description: Grep compressed files
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zgrep(1)
@@ -6015,8 +6004,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: View compressed files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zmore(1)
@@ -6031,8 +6020,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Convert compressed files to gzipped files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=znew(1)
@@ -6312,7 +6301,7 @@ Sections:
         - libthr
         - libutil
         - libvmmapi
-        - libz
+        - zlib
       description: Run a guest operating system inside a virtual machine
       directory: usr.sbin/bhyve
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyve(8)
@@ -6581,7 +6570,7 @@ Sections:
         - libmt
         - libthr
         - libutil
-        - libz
+        - zlib
       description: CAM data transfer utility
       directory: usr.sbin/camdd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=camdd(8)
@@ -7781,7 +7770,7 @@ Sections:
         - libgeom
         - libkvm
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Print statistics about GEOM disks
       directory: usr.sbin/gstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gstat(8)
@@ -7839,7 +7828,7 @@ Sections:
         - libcompiler_rt
         - libmd
         - libutil
-        - libz
+        - zlib
       description: Highly Available Storage control utility
       directory: sbin/hastctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastctl(8)
@@ -7857,7 +7846,7 @@ Sections:
         - libmd
         - libthr
         - libutil
-        - libz
+        - zlib
       description: Highly Available Storage daemon
       directory: sbin/hastd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
@@ -8090,7 +8079,7 @@ Sections:
         - libcompiler_rt
         - libkvm
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Reports on packet filter statistics and filter list
       directory: sbin/ipf/ipfstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfstat(8)
@@ -9632,7 +9621,7 @@ Sections:
         - libpmcstat
         - msun
         - ncurses
-        - tinfo
+        - ncurses.tinfo
       description: Performance measurement with performance monitoring hardware
       directory: usr.sbin/pmcstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
@@ -9720,7 +9709,7 @@ Sections:
         - libpam
         - libradius
         - libutil
-        - libz
+        - zlib
       description: Point to Point Protocol (a.k.a. user-ppp)
       directory: usr.sbin/ppp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
@@ -9763,7 +9752,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - libz
+        - zlib
         - msun
       description: Print kernel state as Prometheus metrics
       directory: usr.sbin/prometheus_sysctl_exporter
@@ -10424,8 +10413,8 @@ Sections:
         - libcapsicum
         - libcompiler_rt
         - libxo
-        - libz
-        - libzstd
+        - zlib
+        - zstd
       description: Save a core dump of the operating system
       directory: sbin/savecore
       homepage: https://man.freebsd.org/cgi/man.cgi?query=savecore(8)
@@ -10806,7 +10795,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_dns
+        - libcasper.services.cap_dns
         - libcompiler_rt
         - libipsec
       description: Print the route IPv6 packets will take to a network node
@@ -10975,7 +10964,7 @@ Sections:
     veriexec:
       depends:
         - csu
-        - libbearssl
+        - BearSSL
         - libc
         - libcompiler_rt
         - libveriexec
@@ -11095,7 +11084,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - tinfo
+        - ncurses.tinfo
       description: Snoop on another tty line
       directory: usr.sbin/watch
       homepage: https://man.freebsd.org/cgi/man.cgi?query=watch(8)
