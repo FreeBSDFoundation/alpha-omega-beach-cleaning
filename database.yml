@@ -11800,7 +11800,8 @@ Sections:
       security:
         - runtime
       plan: fork
-    Heimdal Kerberos:
+    Heimdal-Kerberos:
+      owner: das@
       description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
       directory:
         - crypto/heimdal
@@ -12088,7 +12089,7 @@ Sections:
       owner:
         - bapt@
         - cy@
-    Time Zone Code:
+    Time-Zone-Code:
       description: Time Zone Code
       directory:
         - contrib/tzcode
@@ -12102,7 +12103,7 @@ Sections:
       plan: fix
       owner:
         - des@
-    Time Zone Database:
+    Time-Zone-Database:
       description: Time Zone Database
       directory:
         - contrib/tzdata
@@ -12291,7 +12292,7 @@ Sections:
         - SQLite
       plan: fork
       owner: brooks@
-    NetBSD tests:
+    NetBSD-tests:
       description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
       directory: contrib/netbsd-tests
       version: unknown
