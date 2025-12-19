@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:53:56Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+            "simplelicensing_licenseExpression": "Could not parse value"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/time-zone-database",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/time-zone-database"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/time-zone-database",
+            "name": "time-zone-database",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "2025b"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/time-zone-database",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/time-zone-database",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/time-zone-database"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+                "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/time-zone-database/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/time-zone-database",
+                "https://github.com/pkgconf/pkgconf/Package/time-zone-database"
+            ]
+        }
+    ]
+}
+
