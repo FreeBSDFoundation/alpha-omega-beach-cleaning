@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-mandocC642025-09-26
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: mandoc@2025-09-26
@@ -13,9 +13,8 @@ SPDXID: SPDXRef-Package-mandocC642025-09-26
 PackageVersion: 2025-09-26
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: bapt@, ziaee@
 PackageHomePage: https://mandoc.bsd.lv
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>UNIX manpage compiler toolset</text>
 
 

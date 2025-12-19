@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-luaC645.4.8
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: lua@5.4.8
+
+PackageName: lua@5.4.8
+SPDXID: SPDXRef-Package-luaC645.4.8
+PackageVersion: 5.4.8
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.lua.org
+PackageLicenseDeclared: MIT
+PackageSummary: <text>Embeddable scripting language</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-luaC645.4.8

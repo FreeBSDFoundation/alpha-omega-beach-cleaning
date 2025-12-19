@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libbegemotC641.14
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libbegemot@1.14
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-libbegemotC641.14
 PackageVersion: 1.14
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: harti@, trhodes@
 PackageHomePage: https://people.freebsd.org/~harti/libbegemot/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Begemot utility function library. It is needed to build most of the begemot tools</text>

@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-acpiC6420250807
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: acpi@20250807
@@ -13,9 +13,8 @@ SPDXID: SPDXRef-Package-acpiC6420250807
 PackageVersion: 20250807
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: jkim@
 PackageHomePage: https://github.com/acpica/acpica
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)</text>
 
 

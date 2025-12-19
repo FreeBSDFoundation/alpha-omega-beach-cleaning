@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-opensshC6410.0p2
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: openssh@10.0p2
+
+PackageName: openssh@10.0p2
+SPDXID: SPDXRef-Package-opensshC6410.0p2
+PackageVersion: 10.0p2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openssh.com
+PackageLicenseDeclared: SSH-OpenSSH
+PackageSummary: <text>Connectivity tool for remote login with the SSH protocol</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-opensshC6410.0p2

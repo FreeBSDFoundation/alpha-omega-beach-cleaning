@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libarchiveC643.8.2
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libarchive@3.8.2
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-libarchiveC643.8.2
 PackageVersion: 3.8.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: mm@
 PackageHomePage: https://libarchive.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
 PackageSummary: <text>Multi-format archive and compression library</text>

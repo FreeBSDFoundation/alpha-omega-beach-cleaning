@@ -1,0 +1,128 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-savecoreC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: savecore@15.0
+
+PackageName: savecore@15.0
+SPDXID: SPDXRef-Package-savecoreC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=savecore(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Save a core dump of the operating system</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcapsicum@15.0
+
+PackageName: libcapsicum@15.0
+SPDXID: SPDXRef-Package-libcapsicumC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libxo@1.4.0
+
+PackageName: libxo@1.4.0
+SPDXID: SPDXRef-Package-libxoC641.4.0
+PackageVersion: 1.4.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/Juniper/libxo
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.</text>
+
+
+##### Package: zlib@1.3.1
+
+PackageName: zlib@1.3.1
+SPDXID: SPDXRef-Package-zlibC641.3.1
+PackageVersion: 1.3.1
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://zlib.net
+PackageLicenseDeclared: Zlib
+PackageSummary: <text>zlib compression library</text>
+
+
+##### Package: zstd@1.5.2
+
+PackageName: zstd@1.5.2
+SPDXID: SPDXRef-Package-zstdC641.5.2
+PackageVersion: 1.5.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://facebook.github.io/zstd/
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Zstandard is a fast compression algorithm</text>
+
+
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-Package-libcapsicumC6415.0 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-libxoC641.4.0
+Relationship: SPDXRef-Package-libxoC641.4.0 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-Package-zlibC641.3.1 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-Package-savecoreC6415.0 DEPENDS_ON SPDXRef-Package-zstdC641.5.2
+Relationship: SPDXRef-Package-zstdC641.5.2 DEPENDENCY_OF SPDXRef-Package-savecoreC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-savecoreC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libxoC641.4.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zstdC641.5.2

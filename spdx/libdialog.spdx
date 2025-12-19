@@ -1,21 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-libdialogC64
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentName: SBOM-SPDX-libdialogC64unknown
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
-##### Package: libdialog@
+##### Package: libdialog@unknown
 
-PackageName: libdialog@
-SPDXID: SPDXRef-Package-libdialogC64
-PackageVersion: 
+PackageName: libdialog@unknown
+SPDXID: SPDXRef-Package-libdialogC64unknown
+PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/dialog/
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdialogC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdialogC64unknown

@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-bsddialogC641.1
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: bsddialog@1.1
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-bsddialogC641.1
 PackageVersion: 1.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: asiciliano@, bapt@, kevans@
 PackageHomePage: https://gitlab.com/alfix/bsddialog
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Utility and a library to build scripts and tools with TUI dialogs and widgets</text>

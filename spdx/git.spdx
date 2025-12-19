@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-gitC64unknown
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: git@unknown
+
+PackageName: git@unknown
+SPDXID: SPDXRef-Package-gitC64unknown
+PackageVersion: unknown
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://git-scm.com
+PackageLicenseDeclared: Could not parse value
+PackageSummary: <text>Distributed Version Control System</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-gitC64unknown

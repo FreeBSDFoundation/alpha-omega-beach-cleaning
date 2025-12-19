@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-jemallocC645.3.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: jemalloc@5.3.0
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-jemallocC645.3.0
 PackageVersion: 5.3.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: imp@, jasone@, vangyzen@
 PackageHomePage: https://github.com/facebook/jemalloc
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Meta fork of the OG Jemalloc project</text>

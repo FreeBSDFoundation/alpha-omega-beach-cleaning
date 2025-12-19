@@ -1,0 +1,114 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-initC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: init@15.0
+
+PackageName: init@15.0
+SPDXID: SPDXRef-Package-initC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=init(8)
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Process control initialization</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcrypt@15.0
+
+PackageName: libcrypt@15.0
+SPDXID: SPDXRef-Package-libcryptC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libutil@15.0
+
+PackageName: libutil@15.0
+SPDXID: SPDXRef-Package-libutilC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+Relationship: SPDXRef-Package-initC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-initC6415.0
+Relationship: SPDXRef-Package-initC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-initC6415.0
+Relationship: SPDXRef-Package-initC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-initC6415.0
+Relationship: SPDXRef-Package-initC6415.0 DEPENDS_ON SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDENCY_OF SPDXRef-Package-initC6415.0
+Relationship: SPDXRef-Package-initC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-initC6415.0
+
+
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+
+
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-initC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

@@ -1,0 +1,113 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-zforceC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: zforce@15.0
+
+PackageName: zforce@15.0
+SPDXID: SPDXRef-Package-zforceC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=zforce(1)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Force gzip files to have a .gz suffix</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: liblzma@5.8.1
+
+PackageName: liblzma@5.8.1
+SPDXID: SPDXRef-Package-liblzmaC645.8.1
+PackageVersion: 5.8.1
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://tukaani.org/xz/
+PackageLicenseDeclared: 0BSD
+PackageSummary: <text>General purpose data compression library</text>
+
+
+##### Package: zlib@1.3.1
+
+PackageName: zlib@1.3.1
+SPDXID: SPDXRef-Package-zlibC641.3.1
+PackageVersion: 1.3.1
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://zlib.net
+PackageLicenseDeclared: Zlib
+PackageSummary: <text>zlib compression library</text>
+
+
+##### Package: zstd@1.5.2
+
+PackageName: zstd@1.5.2
+SPDXID: SPDXRef-Package-zstdC641.5.2
+PackageVersion: 1.5.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://facebook.github.io/zstd/
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Zstandard is a fast compression algorithm</text>
+
+
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-liblzmaC645.8.1
+Relationship: SPDXRef-Package-liblzmaC645.8.1 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-Package-zlibC641.3.1 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-Package-zforceC6415.0 DEPENDS_ON SPDXRef-Package-zstdC641.5.2
+Relationship: SPDXRef-Package-zstdC641.5.2 DEPENDENCY_OF SPDXRef-Package-zforceC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zforceC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-liblzmaC645.8.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zstdC641.5.2

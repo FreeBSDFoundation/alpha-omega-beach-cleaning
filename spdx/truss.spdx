@@ -1,0 +1,2342 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-trussC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: truss@15.0
+
+PackageName: truss@15.0
+SPDXID: SPDXRef-Package-trussC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=truss(1)
+PackageLicenseDeclared: BSD-4-Clause AND BSD-2-Clause
+PackageSummary: <text>Trace system calls</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libsysdecode@15.0
+
+PackageName: libsysdecode@15.0
+SPDXID: SPDXRef-Package-libsysdecodeC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libatf-c@15.0
+
+PackageName: libatf-c@15.0
+SPDXID: SPDXRef-Package-libatf-cC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: lib80211@15.0
+
+PackageName: lib80211@15.0
+SPDXID: SPDXRef-Package-lib80211C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libexpat@2.7.3
+
+PackageName: libexpat@2.7.3
+SPDXID: SPDXRef-Package-libexpatC642.7.3
+PackageVersion: 2.7.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/libexpat/libexpat
+PackageLicenseDeclared: MIT
+PackageSummary: <text>XML 1.0 parser written in C</text>
+
+
+##### Package: libsbuf@15.0
+
+PackageName: libsbuf@15.0
+SPDXID: SPDXRef-Package-libsbufC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: lib9p@9d5aee77b
+
+PackageName: lib9p@9d5aee77b
+SPDXID: SPDXRef-Package-lib9pC649d5aee77b
+PackageVersion: 9d5aee77b
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/conclusiveeng/lib9p
+PackageLicenseDeclared: BSD-2-Clause AND MIT
+PackageSummary: <text>BSD-licensed 9P2000.u/.L server library</text>
+
+
+##### Package: libalias@15.0
+
+PackageName: libalias@15.0
+SPDXID: SPDXRef-Package-libaliasC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libarchive@3.8.2
+
+PackageName: libarchive@3.8.2
+SPDXID: SPDXRef-Package-libarchiveC643.8.2
+PackageVersion: 3.8.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://libarchive.org
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
+PackageSummary: <text>Multi-format archive and compression library</text>
+
+
+##### Package: libbe@15.0
+
+PackageName: libbe@15.0
+SPDXID: SPDXRef-Package-libbeC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbegemot@1.14
+
+PackageName: libbegemot@1.14
+SPDXID: SPDXRef-Package-libbegemotC641.14
+PackageVersion: 1.14
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://people.freebsd.org/~harti/libbegemot/
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Begemot utility function library. It is needed to build most of the begemot tools</text>
+
+
+##### Package: libblocklist@15.0
+
+PackageName: libblocklist@15.0
+SPDXID: SPDXRef-Package-libblocklistC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libthr@15.0
+
+PackageName: libthr@15.0
+SPDXID: SPDXRef-Package-libthrC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libsys@15.0
+
+PackageName: libsys@15.0
+SPDXID: SPDXRef-Package-libsysC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libblocksruntime@15.0
+
+PackageName: libblocksruntime@15.0
+SPDXID: SPDXRef-Package-libblocksruntimeC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbluetooth@15.0
+
+PackageName: libbluetooth@15.0
+SPDXID: SPDXRef-Package-libbluetoothC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbsddialog@15.0
+
+PackageName: libbsddialog@15.0
+SPDXID: SPDXRef-Package-libbsddialogC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: ncurses@6.5
+
+PackageName: ncurses@6.5
+SPDXID: SPDXRef-Package-ncursesC646.5
+PackageVersion: 6.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: X11
+PackageSummary: <text>clone of System V curses</text>
+
+
+##### Package: ncurses.tinfo@15.0
+
+PackageName: ncurses.tinfo@15.0
+SPDXID: SPDXRef-Package-ncurses.tinfoC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbsdstat@15.0
+
+PackageName: libbsdstat@15.0
+SPDXID: SPDXRef-Package-libbsdstatC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbsm@15.0
+
+PackageName: libbsm@15.0
+SPDXID: SPDXRef-Package-libbsmC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libbsnmp@15.0
+
+PackageName: libbsnmp@15.0
+SPDXID: SPDXRef-Package-libbsnmpC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: bzip2@1.0.8
+
+PackageName: bzip2@1.0.8
+SPDXID: SPDXRef-Package-bzip2C641.0.8
+PackageVersion: 1.0.8
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://sourceware.org/bzip2/
+PackageLicenseDeclared: bzip2-1.0.6
+PackageSummary: <text>High-quality data compressor</text>
+
+
+##### Package: libc++@15.0
+
+PackageName: libc++@15.0
+SPDXID: SPDXRef-Package-libc++C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcxxrt@6f2fdfebcd62
+
+PackageName: libcxxrt@6f2fdfebcd62
+SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
+PackageVersion: 6f2fdfebcd62
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/libcxxrt/libcxxrt
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
+
+
+##### Package: msun@15.0
+
+PackageName: msun@15.0
+SPDXID: SPDXRef-Package-msunC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcalendar@15.0
+
+PackageName: libcalendar@15.0
+SPDXID: SPDXRef-Package-libcalendarC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcam@15.0
+
+PackageName: libcam@15.0
+SPDXID: SPDXRef-Package-libcamC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcapsicum@15.0
+
+PackageName: libcapsicum@15.0
+SPDXID: SPDXRef-Package-libcapsicumC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper@15.0
+
+PackageName: libcasper@15.0
+SPDXID: SPDXRef-Package-libcasperC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libnv@15.0
+
+PackageName: libnv@15.0
+SPDXID: SPDXRef-Package-libnvC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_dns@15.0
+
+PackageName: libcasper.services.cap_dns@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_fileargs@15.0
+
+PackageName: libcasper.services.cap_fileargs@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_grp@15.0
+
+PackageName: libcasper.services.cap_grp@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_grpC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_net@15.0
+
+PackageName: libcasper.services.cap_net@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_netC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_netdb@15.0
+
+PackageName: libcasper.services.cap_netdb@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_pwd@15.0
+
+PackageName: libcasper.services.cap_pwd@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_sysctl@15.0
+
+PackageName: libcasper.services.cap_sysctl@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper.services.cap_syslog@15.0
+
+PackageName: libcasper.services.cap_syslog@15.0
+SPDXID: SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcom_err@15.0
+
+PackageName: libcom_err@15.0
+SPDXID: SPDXRef-Package-libcom_errC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcuse@15.0
+
+PackageName: libcuse@15.0
+SPDXID: SPDXRef-Package-libcuseC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdevctl@15.0
+
+PackageName: libdevctl@15.0
+SPDXID: SPDXRef-Package-libdevctlC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdevdctl@15.0
+
+PackageName: libdevdctl@15.0
+SPDXID: SPDXRef-Package-libdevdctlC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdevinfo@15.0
+
+PackageName: libdevinfo@15.0
+SPDXID: SPDXRef-Package-libdevinfoC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdevstat@15.0
+
+PackageName: libdevstat@15.0
+SPDXID: SPDXRef-Package-libdevstatC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libkvm@15.0
+
+PackageName: libkvm@15.0
+SPDXID: SPDXRef-Package-libkvmC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libelf@15.0
+
+PackageName: libelf@15.0
+SPDXID: SPDXRef-Package-libelfC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdpv@15.0
+
+PackageName: libdpv@15.0
+SPDXID: SPDXRef-Package-libdpvC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libfigpar@15.0
+
+PackageName: libfigpar@15.0
+SPDXID: SPDXRef-Package-libfigparC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libutil@15.0
+
+PackageName: libutil@15.0
+SPDXID: SPDXRef-Package-libutilC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libdwarf@15.0
+
+PackageName: libdwarf@15.0
+SPDXID: SPDXRef-Package-libdwarfC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: zlib@1.3.1
+
+PackageName: zlib@1.3.1
+SPDXID: SPDXRef-Package-zlibC641.3.1
+PackageVersion: 1.3.1
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://zlib.net
+PackageLicenseDeclared: Zlib
+PackageSummary: <text>zlib compression library</text>
+
+
+##### Package: libedit@2025-01-03
+
+PackageName: libedit@2025-01-03
+SPDXID: SPDXRef-Package-libeditC642025-01-03
+PackageVersion: 2025-01-03
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.NetBSD.org
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>NetBSD Editline library (libedit)</text>
+
+
+##### Package: libedit.readline@15.0
+
+PackageName: libedit.readline@15.0
+SPDXID: SPDXRef-Package-libedit.readlineC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libefivar@15.0
+
+PackageName: libefivar@15.0
+SPDXID: SPDXRef-Package-libefivarC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libgeom@15.0
+
+PackageName: libgeom@15.0
+SPDXID: SPDXRef-Package-libgeomC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libevent1@15.0
+
+PackageName: libevent1@15.0
+SPDXID: SPDXRef-Package-libevent1C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libexecinfo@unknown
+
+PackageName: libexecinfo@unknown
+SPDXID: SPDXRef-Package-libexecinfoC64unknown
+PackageVersion: unknown
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Could not parse value</text>
+
+
+##### Package: libfetch@15.0
+
+PackageName: libfetch@15.0
+SPDXID: SPDXRef-Package-libfetchC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libgpio@15.0
+
+PackageName: libgpio@15.0
+SPDXID: SPDXRef-Package-libgpioC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libjail@15.0
+
+PackageName: libjail@15.0
+SPDXID: SPDXRef-Package-libjailC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: liblzma@5.8.1
+
+PackageName: liblzma@5.8.1
+SPDXID: SPDXRef-Package-liblzmaC645.8.1
+PackageVersion: 5.8.1
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://tukaani.org/xz/
+PackageLicenseDeclared: 0BSD
+PackageSummary: <text>General purpose data compression library</text>
+
+
+##### Package: libmagic@5.46
+
+PackageName: libmagic@5.46
+SPDXID: SPDXRef-Package-libmagicC645.46
+PackageVersion: 5.46
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.darwinsys.com/file/
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Magic number recognition library</text>
+
+
+##### Package: libmd@15.0
+
+PackageName: libmd@15.0
+SPDXID: SPDXRef-Package-libmdC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmemstat@15.0
+
+PackageName: libmemstat@15.0
+SPDXID: SPDXRef-Package-libmemstatC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmilter@15.0
+
+PackageName: libmilter@15.0
+SPDXID: SPDXRef-Package-libmilterC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmixer@15.0
+
+PackageName: libmixer@15.0
+SPDXID: SPDXRef-Package-libmixerC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmp@15.0
+
+PackageName: libmp@15.0
+SPDXID: SPDXRef-Package-libmpC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmt@15.0
+
+PackageName: libmt@15.0
+SPDXID: SPDXRef-Package-libmtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libnetgraph@15.0
+
+PackageName: libnetgraph@15.0
+SPDXID: SPDXRef-Package-libnetgraphC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libpam@15.0
+
+PackageName: libpam@15.0
+SPDXID: SPDXRef-Package-libpamC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libpathconv@15.0
+
+PackageName: libpathconv@15.0
+SPDXID: SPDXRef-Package-libpathconvC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libpcap@1.10.5
+
+PackageName: libpcap@1.10.5
+SPDXID: SPDXRef-Package-libpcapC641.10.5
+PackageVersion: 1.10.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.tcpdump.org
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Platform-independent network traffic capture library</text>
+
+
+##### Package: libpmc@15.0
+
+PackageName: libpmc@15.0
+SPDXID: SPDXRef-Package-libpmcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libproc@15.0
+
+PackageName: libproc@15.0
+SPDXID: SPDXRef-Package-libprocC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libprocstat@15.0
+
+PackageName: libprocstat@15.0
+SPDXID: SPDXRef-Package-libprocstatC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: zfs@2.4.0-rc3
+
+PackageName: zfs@2.4.0-rc3
+SPDXID: SPDXRef-Package-zfsC642.4.0-rc3
+PackageVersion: 2.4.0-rc3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openzfs.org/wiki/Main_Page
+PackageLicenseDeclared: CDDL-1.0
+PackageSummary: <text>Open-source storage platform</text>
+
+
+##### Package: librtld_db@15.0
+
+PackageName: librtld_db@15.0
+SPDXID: SPDXRef-Package-librtld_dbC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libradius@15.0
+
+PackageName: libradius@15.0
+SPDXID: SPDXRef-Package-libradiusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: librss@15.0
+
+PackageName: librss@15.0
+SPDXID: SPDXRef-Package-librssC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libsdp@15.0
+
+PackageName: libsdp@15.0
+SPDXID: SPDXRef-Package-libsdpC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: sqlite@3.50.2
+
+PackageName: sqlite@3.50.2
+SPDXID: SPDXRef-Package-sqliteC643.50.2
+PackageVersion: 3.50.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://sqlite.org/src
+PackageLicenseDeclared: Could not parse value
+PackageSummary: <text>SQLite database engine</text>
+
+
+##### Package: libstdthreads@15.0
+
+PackageName: libstdthreads@15.0
+SPDXID: SPDXRef-Package-libstdthreadsC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libtacplus@15.0
+
+PackageName: libtacplus@15.0
+SPDXID: SPDXRef-Package-libtacplusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libthread_db@15.0
+
+PackageName: libthread_db@15.0
+SPDXID: SPDXRef-Package-libthread_dbC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libucl@0.9.2
+
+PackageName: libucl@0.9.2
+SPDXID: SPDXRef-Package-libuclC640.9.2
+PackageVersion: 0.9.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/vstakhov/libucl
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Universal configuration library parser</text>
+
+
+##### Package: libufs@15.0
+
+PackageName: libufs@15.0
+SPDXID: SPDXRef-Package-libufsC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libugidfw@15.0
+
+PackageName: libugidfw@15.0
+SPDXID: SPDXRef-Package-libugidfwC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libulog@15.0
+
+PackageName: libulog@15.0
+SPDXID: SPDXRef-Package-libulogC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libusb@15.0
+
+PackageName: libusb@15.0
+SPDXID: SPDXRef-Package-libusbC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libusbhid@15.0
+
+PackageName: libusbhid@15.0
+SPDXID: SPDXRef-Package-libusbhidC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libveriexec@15.0
+
+PackageName: libveriexec@15.0
+SPDXID: SPDXRef-Package-libveriexecC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libvgl@15.0
+
+PackageName: libvgl@15.0
+SPDXID: SPDXRef-Package-libvglC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libvmmapi@15.0
+
+PackageName: libvmmapi@15.0
+SPDXID: SPDXRef-Package-libvmmapiC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libwrap@15.0
+
+PackageName: libwrap@15.0
+SPDXID: SPDXRef-Package-libwrapC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libxo@1.4.0
+
+PackageName: libxo@1.4.0
+SPDXID: SPDXRef-Package-libxoC641.4.0
+PackageVersion: 1.4.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/Juniper/libxo
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.</text>
+
+
+##### Package: libypclnt@15.0
+
+PackageName: libypclnt@15.0
+SPDXID: SPDXRef-Package-libypclntC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: zstd@1.5.2
+
+PackageName: zstd@1.5.2
+SPDXID: SPDXRef-Package-zstdC641.5.2
+PackageVersion: 1.5.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://facebook.github.io/zstd/
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Zstandard is a fast compression algorithm</text>
+
+
+##### Package: ncurses.form@15.0
+
+PackageName: ncurses.form@15.0
+SPDXID: SPDXRef-Package-ncurses.formC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: ncurses.menu@15.0
+
+PackageName: ncurses.menu@15.0
+SPDXID: SPDXRef-Package-ncurses.menuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: ncurses.panel@15.0
+
+PackageName: ncurses.panel@15.0
+SPDXID: SPDXRef-Package-ncurses.panelC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+Relationship: SPDXRef-Package-trussC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-trussC6415.0
+Relationship: SPDXRef-Package-trussC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-trussC6415.0
+Relationship: SPDXRef-Package-trussC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-trussC6415.0
+Relationship: SPDXRef-Package-trussC6415.0 DEPENDS_ON SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDENCY_OF SPDXRef-Package-trussC6415.0
+
+
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libatf-cC6415.0
+Relationship: SPDXRef-Package-libatf-cC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-lib9pC649d5aee77b
+Relationship: SPDXRef-Package-lib9pC649d5aee77b DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libaliasC6415.0
+Relationship: SPDXRef-Package-libaliasC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libarchiveC643.8.2
+Relationship: SPDXRef-Package-libarchiveC643.8.2 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbeC6415.0
+Relationship: SPDXRef-Package-libbeC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbegemotC641.14
+Relationship: SPDXRef-Package-libbegemotC641.14 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libblocklistC6415.0
+Relationship: SPDXRef-Package-libblocklistC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libblocksruntimeC6415.0
+Relationship: SPDXRef-Package-libblocksruntimeC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbluetoothC6415.0
+Relationship: SPDXRef-Package-libbluetoothC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbsdstatC6415.0
+Relationship: SPDXRef-Package-libbsdstatC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbsmC6415.0
+Relationship: SPDXRef-Package-libbsmC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libbsnmpC6415.0
+Relationship: SPDXRef-Package-libbsnmpC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-bzip2C641.0.8
+Relationship: SPDXRef-Package-bzip2C641.0.8 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcalendarC6415.0
+Relationship: SPDXRef-Package-libcalendarC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcamC6415.0
+Relationship: SPDXRef-Package-libcamC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-Package-libcapsicumC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libcuseC6415.0
+Relationship: SPDXRef-Package-libcuseC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdevctlC6415.0
+Relationship: SPDXRef-Package-libdevctlC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdevinfoC6415.0
+Relationship: SPDXRef-Package-libdevinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdevstatC6415.0
+Relationship: SPDXRef-Package-libdevstatC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libeditC642025-01-03
+Relationship: SPDXRef-Package-libeditC642025-01-03 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libedit.readlineC6415.0
+Relationship: SPDXRef-Package-libedit.readlineC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libefivarC6415.0
+Relationship: SPDXRef-Package-libefivarC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libevent1C6415.0
+Relationship: SPDXRef-Package-libevent1C6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libexecinfoC64unknown
+Relationship: SPDXRef-Package-libexecinfoC64unknown DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libfetchC6415.0
+Relationship: SPDXRef-Package-libfetchC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libfigparC6415.0
+Relationship: SPDXRef-Package-libfigparC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libgpioC6415.0
+Relationship: SPDXRef-Package-libgpioC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libjailC6415.0
+Relationship: SPDXRef-Package-libjailC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-liblzmaC645.8.1
+Relationship: SPDXRef-Package-liblzmaC645.8.1 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmagicC645.46
+Relationship: SPDXRef-Package-libmagicC645.46 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmemstatC6415.0
+Relationship: SPDXRef-Package-libmemstatC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmilterC6415.0
+Relationship: SPDXRef-Package-libmilterC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmixerC6415.0
+Relationship: SPDXRef-Package-libmixerC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libnetgraphC6415.0
+Relationship: SPDXRef-Package-libnetgraphC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libpathconvC6415.0
+Relationship: SPDXRef-Package-libpathconvC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libpcapC641.10.5
+Relationship: SPDXRef-Package-libpcapC641.10.5 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-librssC6415.0
+Relationship: SPDXRef-Package-librssC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libsdpC6415.0
+Relationship: SPDXRef-Package-libsdpC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-sqliteC643.50.2
+Relationship: SPDXRef-Package-sqliteC643.50.2 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libstdthreadsC6415.0
+Relationship: SPDXRef-Package-libstdthreadsC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libthread_dbC6415.0
+Relationship: SPDXRef-Package-libthread_dbC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libuclC640.9.2
+Relationship: SPDXRef-Package-libuclC640.9.2 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libufsC6415.0
+Relationship: SPDXRef-Package-libufsC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libugidfwC6415.0
+Relationship: SPDXRef-Package-libugidfwC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libulogC6415.0
+Relationship: SPDXRef-Package-libulogC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libusbC6415.0
+Relationship: SPDXRef-Package-libusbC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libusbhidC6415.0
+Relationship: SPDXRef-Package-libusbhidC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libveriexecC6415.0
+Relationship: SPDXRef-Package-libveriexecC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libvglC6415.0
+Relationship: SPDXRef-Package-libvglC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libwrapC6415.0
+Relationship: SPDXRef-Package-libwrapC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libxoC641.4.0
+Relationship: SPDXRef-Package-libxoC641.4.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-libypclntC6415.0
+Relationship: SPDXRef-Package-libypclntC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-Package-zlibC641.3.1 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-zstdC641.5.2
+Relationship: SPDXRef-Package-zstdC641.5.2 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-Package-libsysdecodeC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysdecodeC6415.0
+
+
+Relationship: SPDXRef-Package-libatf-cC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libatf-cC6415.0
+Relationship: SPDXRef-Package-libatf-cC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libatf-cC6415.0
+Relationship: SPDXRef-Package-libatf-cC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libatf-cC6415.0
+
+
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-Package-lib80211C6415.0 DEPENDS_ON SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDENCY_OF SPDXRef-Package-lib80211C6415.0
+
+
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libsbufC6415.0
+
+
+Relationship: SPDXRef-Package-libaliasC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libaliasC6415.0
+Relationship: SPDXRef-Package-libaliasC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libaliasC6415.0
+Relationship: SPDXRef-Package-libaliasC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libaliasC6415.0
+
+
+Relationship: SPDXRef-Package-libbeC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbeC6415.0
+Relationship: SPDXRef-Package-libbeC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbeC6415.0
+Relationship: SPDXRef-Package-libbeC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbeC6415.0
+
+
+Relationship: SPDXRef-Package-libblocklistC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libblocklistC6415.0
+Relationship: SPDXRef-Package-libblocklistC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libblocklistC6415.0
+Relationship: SPDXRef-Package-libblocklistC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libblocklistC6415.0
+Relationship: SPDXRef-Package-libblocklistC6415.0 DEPENDS_ON SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDENCY_OF SPDXRef-Package-libblocklistC6415.0
+
+
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDS_ON SPDXRef-Package-libsysC6415.0
+Relationship: SPDXRef-Package-libsysC6415.0 DEPENDENCY_OF SPDXRef-Package-libthrC6415.0
+
+
+Relationship: SPDXRef-Package-libsysC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysC6415.0
+Relationship: SPDXRef-Package-libsysC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libsysC6415.0
+
+
+Relationship: SPDXRef-Package-libblocksruntimeC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libblocksruntimeC6415.0
+Relationship: SPDXRef-Package-libblocksruntimeC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libblocksruntimeC6415.0
+Relationship: SPDXRef-Package-libblocksruntimeC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libblocksruntimeC6415.0
+
+
+Relationship: SPDXRef-Package-libbluetoothC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbluetoothC6415.0
+Relationship: SPDXRef-Package-libbluetoothC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbluetoothC6415.0
+Relationship: SPDXRef-Package-libbluetoothC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbluetoothC6415.0
+
+
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-Package-libbsddialogC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsddialogC6415.0
+
+
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.tinfoC6415.0
+
+
+Relationship: SPDXRef-Package-libbsdstatC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsdstatC6415.0
+Relationship: SPDXRef-Package-libbsdstatC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbsdstatC6415.0
+Relationship: SPDXRef-Package-libbsdstatC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsdstatC6415.0
+
+
+Relationship: SPDXRef-Package-libbsmC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsmC6415.0
+Relationship: SPDXRef-Package-libbsmC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbsmC6415.0
+Relationship: SPDXRef-Package-libbsmC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsmC6415.0
+
+
+Relationship: SPDXRef-Package-libbsnmpC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsnmpC6415.0
+Relationship: SPDXRef-Package-libbsnmpC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libbsnmpC6415.0
+Relationship: SPDXRef-Package-libbsnmpC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libbsnmpC6415.0
+
+
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+
+
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+
+
+Relationship: SPDXRef-Package-libcalendarC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcalendarC6415.0
+Relationship: SPDXRef-Package-libcalendarC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcalendarC6415.0
+Relationship: SPDXRef-Package-libcalendarC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcalendarC6415.0
+
+
+Relationship: SPDXRef-Package-libcamC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcamC6415.0
+Relationship: SPDXRef-Package-libcamC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcamC6415.0
+Relationship: SPDXRef-Package-libcamC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcamC6415.0
+Relationship: SPDXRef-Package-libcamC6415.0 DEPENDS_ON SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDENCY_OF SPDXRef-Package-libcamC6415.0
+
+
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+
+
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_dnsC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_fileargsC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_grpC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_grpC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_netdbC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_pwdC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_sysctlC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+
+
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-Package-libcasper.services.cap_syslogC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+
+
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+
+
+Relationship: SPDXRef-Package-libcuseC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcuseC6415.0
+Relationship: SPDXRef-Package-libcuseC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcuseC6415.0
+Relationship: SPDXRef-Package-libcuseC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcuseC6415.0
+Relationship: SPDXRef-Package-libcuseC6415.0 DEPENDS_ON SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDENCY_OF SPDXRef-Package-libcuseC6415.0
+
+
+Relationship: SPDXRef-Package-libdevctlC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevctlC6415.0
+Relationship: SPDXRef-Package-libdevctlC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdevctlC6415.0
+Relationship: SPDXRef-Package-libdevctlC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevctlC6415.0
+
+
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevdctlC6415.0
+
+
+Relationship: SPDXRef-Package-libdevinfoC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevinfoC6415.0
+Relationship: SPDXRef-Package-libdevinfoC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdevinfoC6415.0
+Relationship: SPDXRef-Package-libdevinfoC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevinfoC6415.0
+
+
+Relationship: SPDXRef-Package-libdevstatC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevstatC6415.0
+Relationship: SPDXRef-Package-libdevstatC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdevstatC6415.0
+Relationship: SPDXRef-Package-libdevstatC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevstatC6415.0
+Relationship: SPDXRef-Package-libdevstatC6415.0 DEPENDS_ON SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDENCY_OF SPDXRef-Package-libdevstatC6415.0
+
+
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libkvmC6415.0
+
+
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+
+
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-libfigparC6415.0
+Relationship: SPDXRef-Package-libfigparC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-Package-libdpvC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-libdpvC6415.0
+
+
+Relationship: SPDXRef-Package-libfigparC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libfigparC6415.0
+Relationship: SPDXRef-Package-libfigparC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libfigparC6415.0
+Relationship: SPDXRef-Package-libfigparC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libfigparC6415.0
+
+
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+
+
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-Package-libdwarfC6415.0 DEPENDS_ON SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-Package-zlibC641.3.1 DEPENDENCY_OF SPDXRef-Package-libdwarfC6415.0
+
+
+Relationship: SPDXRef-Package-libefivarC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libefivarC6415.0
+Relationship: SPDXRef-Package-libefivarC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libefivarC6415.0
+Relationship: SPDXRef-Package-libefivarC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libefivarC6415.0
+Relationship: SPDXRef-Package-libefivarC6415.0 DEPENDS_ON SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDENCY_OF SPDXRef-Package-libefivarC6415.0
+
+
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-Package-libgeomC6415.0 DEPENDS_ON SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDENCY_OF SPDXRef-Package-libgeomC6415.0
+
+
+Relationship: SPDXRef-Package-libevent1C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libevent1C6415.0
+Relationship: SPDXRef-Package-libevent1C6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libevent1C6415.0
+Relationship: SPDXRef-Package-libevent1C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libevent1C6415.0
+
+
+Relationship: SPDXRef-Package-libfetchC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libfetchC6415.0
+Relationship: SPDXRef-Package-libfetchC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libfetchC6415.0
+Relationship: SPDXRef-Package-libfetchC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libfetchC6415.0
+
+
+Relationship: SPDXRef-Package-libgpioC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libgpioC6415.0
+Relationship: SPDXRef-Package-libgpioC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libgpioC6415.0
+Relationship: SPDXRef-Package-libgpioC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libgpioC6415.0
+
+
+Relationship: SPDXRef-Package-libjailC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libjailC6415.0
+Relationship: SPDXRef-Package-libjailC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libjailC6415.0
+Relationship: SPDXRef-Package-libjailC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libjailC6415.0
+
+
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+
+
+Relationship: SPDXRef-Package-libmemstatC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmemstatC6415.0
+Relationship: SPDXRef-Package-libmemstatC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmemstatC6415.0
+Relationship: SPDXRef-Package-libmemstatC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmemstatC6415.0
+Relationship: SPDXRef-Package-libmemstatC6415.0 DEPENDS_ON SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDENCY_OF SPDXRef-Package-libmemstatC6415.0
+
+
+Relationship: SPDXRef-Package-libmilterC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmilterC6415.0
+Relationship: SPDXRef-Package-libmilterC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmilterC6415.0
+Relationship: SPDXRef-Package-libmilterC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmilterC6415.0
+
+
+Relationship: SPDXRef-Package-libmixerC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmixerC6415.0
+Relationship: SPDXRef-Package-libmixerC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmixerC6415.0
+Relationship: SPDXRef-Package-libmixerC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmixerC6415.0
+
+
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+
+
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDS_ON SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-Package-libexpatC642.7.3 DEPENDENCY_OF SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-Package-libmtC6415.0 DEPENDS_ON SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-Package-libsbufC6415.0 DEPENDENCY_OF SPDXRef-Package-libmtC6415.0
+
+
+Relationship: SPDXRef-Package-libnetgraphC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libnetgraphC6415.0
+Relationship: SPDXRef-Package-libnetgraphC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libnetgraphC6415.0
+Relationship: SPDXRef-Package-libnetgraphC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libnetgraphC6415.0
+
+
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+
+
+Relationship: SPDXRef-Package-libpathconvC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpathconvC6415.0
+Relationship: SPDXRef-Package-libpathconvC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libpathconvC6415.0
+Relationship: SPDXRef-Package-libpathconvC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libpathconvC6415.0
+
+
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+
+
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-Package-libprocC6415.0 DEPENDS_ON SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-Package-zlibC641.3.1 DEPENDENCY_OF SPDXRef-Package-libprocC6415.0
+
+
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-Package-libkvmC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-zfsC642.4.0-rc3
+Relationship: SPDXRef-Package-zfsC642.4.0-rc3 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libprocstatC6415.0
+
+
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-Package-libprocstatC6415.0 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-Package-librtld_dbC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-librtld_dbC6415.0
+
+
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+
+
+Relationship: SPDXRef-Package-librssC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-librssC6415.0
+Relationship: SPDXRef-Package-librssC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-librssC6415.0
+Relationship: SPDXRef-Package-librssC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-librssC6415.0
+
+
+Relationship: SPDXRef-Package-libsdpC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libsdpC6415.0
+Relationship: SPDXRef-Package-libsdpC6415.0 DEPENDS_ON SPDXRef-Package-libbluetoothC6415.0
+Relationship: SPDXRef-Package-libbluetoothC6415.0 DEPENDENCY_OF SPDXRef-Package-libsdpC6415.0
+Relationship: SPDXRef-Package-libsdpC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libsdpC6415.0
+Relationship: SPDXRef-Package-libsdpC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libsdpC6415.0
+
+
+Relationship: SPDXRef-Package-libstdthreadsC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libstdthreadsC6415.0
+Relationship: SPDXRef-Package-libstdthreadsC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libstdthreadsC6415.0
+Relationship: SPDXRef-Package-libstdthreadsC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libstdthreadsC6415.0
+Relationship: SPDXRef-Package-libstdthreadsC6415.0 DEPENDS_ON SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDENCY_OF SPDXRef-Package-libstdthreadsC6415.0
+
+
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+
+
+Relationship: SPDXRef-Package-libthread_dbC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libthread_dbC6415.0
+Relationship: SPDXRef-Package-libthread_dbC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libthread_dbC6415.0
+Relationship: SPDXRef-Package-libthread_dbC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libthread_dbC6415.0
+
+
+Relationship: SPDXRef-Package-libufsC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libufsC6415.0
+Relationship: SPDXRef-Package-libufsC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libufsC6415.0
+Relationship: SPDXRef-Package-libufsC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libufsC6415.0
+
+
+Relationship: SPDXRef-Package-libugidfwC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libugidfwC6415.0
+Relationship: SPDXRef-Package-libugidfwC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libugidfwC6415.0
+Relationship: SPDXRef-Package-libugidfwC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libugidfwC6415.0
+
+
+Relationship: SPDXRef-Package-libulogC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libulogC6415.0
+Relationship: SPDXRef-Package-libulogC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libulogC6415.0
+Relationship: SPDXRef-Package-libulogC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libulogC6415.0
+Relationship: SPDXRef-Package-libulogC6415.0 DEPENDS_ON SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDENCY_OF SPDXRef-Package-libulogC6415.0
+
+
+Relationship: SPDXRef-Package-libusbC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libusbC6415.0
+Relationship: SPDXRef-Package-libusbC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libusbC6415.0
+Relationship: SPDXRef-Package-libusbC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libusbC6415.0
+Relationship: SPDXRef-Package-libusbC6415.0 DEPENDS_ON SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-Package-libthrC6415.0 DEPENDENCY_OF SPDXRef-Package-libusbC6415.0
+
+
+Relationship: SPDXRef-Package-libusbhidC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libusbhidC6415.0
+Relationship: SPDXRef-Package-libusbhidC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libusbhidC6415.0
+Relationship: SPDXRef-Package-libusbhidC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libusbhidC6415.0
+
+
+Relationship: SPDXRef-Package-libveriexecC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libveriexecC6415.0
+Relationship: SPDXRef-Package-libveriexecC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libveriexecC6415.0
+Relationship: SPDXRef-Package-libveriexecC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libveriexecC6415.0
+
+
+Relationship: SPDXRef-Package-libvglC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libvglC6415.0
+Relationship: SPDXRef-Package-libvglC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libvglC6415.0
+Relationship: SPDXRef-Package-libvglC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libvglC6415.0
+
+
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-Package-libcapsicumC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+
+
+Relationship: SPDXRef-Package-libwrapC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libwrapC6415.0
+Relationship: SPDXRef-Package-libwrapC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libwrapC6415.0
+Relationship: SPDXRef-Package-libwrapC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libwrapC6415.0
+
+
+Relationship: SPDXRef-Package-libypclntC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libypclntC6415.0
+Relationship: SPDXRef-Package-libypclntC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libypclntC6415.0
+Relationship: SPDXRef-Package-libypclntC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libypclntC6415.0
+
+
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-Package-ncurses.formC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.formC6415.0
+
+
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-Package-ncurses.menuC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.menuC6415.0
+
+
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-Package-ncurses.panelC6415.0 DEPENDS_ON SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-Package-ncurses.tinfoC6415.0 DEPENDENCY_OF SPDXRef-Package-ncurses.panelC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-trussC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libsysdecodeC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libatf-cC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-lib80211C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-lib9pC649d5aee77b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libaliasC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libarchiveC643.8.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbeC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbegemotC641.14
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libblocklistC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libblocksruntimeC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbsddialogC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbsdstatC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbsmC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbsnmpC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bzip2C641.0.8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcalendarC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcamC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_dnsC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_fileargsC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_grpC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_netC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_netdbC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_pwdC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_sysctlC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasper.services.cap_syslogC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcuseC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdevctlC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdevdctlC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdevinfoC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdevstatC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdpvC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libdwarfC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libeditC642025-01-03
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libedit.readlineC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libefivarC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libevent1C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libexecinfoC64unknown
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libfetchC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libfigparC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libgeomC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libgpioC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libjailC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-liblzmaC645.8.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmagicC645.46
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmemstatC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmilterC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmixerC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmtC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libexpatC642.7.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libsbufC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libnetgraphC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpathconvC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpcapC641.10.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libprocC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-librssC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-librtld_dbC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libprocstatC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libkvmC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zfsC642.4.0-rc3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libsdpC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libbluetoothC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-sqliteC643.50.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libstdthreadsC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libthread_dbC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libuclC640.9.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libufsC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libugidfwC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libulogC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libusbC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libthrC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libsysC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libusbhidC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libveriexecC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libvglC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libwrapC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libxoC641.4.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libypclntC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zlibC641.3.1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-zstdC641.5.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncurses.formC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncurses.menuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncurses.panelC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncurses.tinfoC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

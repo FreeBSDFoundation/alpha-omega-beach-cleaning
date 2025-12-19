@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-wireguardC641.0.20250521
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: wireguard@1.0.20250521
+
+PackageName: wireguard@1.0.20250521
+SPDXID: SPDXRef-Package-wireguardC641.0.20250521
+PackageVersion: 1.0.20250521
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://git.zx2c4.com/wireguard-tools/
+PackageLicenseDeclared: GPL-2.0
+PackageSummary: <text>Tools for configuring WireGuard</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-wireguardC641.0.20250521

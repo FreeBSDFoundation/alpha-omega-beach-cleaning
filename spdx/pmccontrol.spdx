@@ -1,0 +1,185 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-pmccontrolC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: pmccontrol@15.0
+
+PackageName: pmccontrol@15.0
+SPDXID: SPDXRef-Package-pmccontrolC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pmccontrol(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Control hardware performance monitoring counters</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libc++@15.0
+
+PackageName: libc++@15.0
+SPDXID: SPDXRef-Package-libc++C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcxxrt@6f2fdfebcd62
+
+PackageName: libcxxrt@6f2fdfebcd62
+SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
+PackageVersion: 6f2fdfebcd62
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://github.com/libcxxrt/libcxxrt
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
+
+
+##### Package: msun@15.0
+
+PackageName: msun@15.0
+SPDXID: SPDXRef-Package-msunC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libpmc@15.0
+
+PackageName: libpmc@15.0
+SPDXID: SPDXRef-Package-libpmcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libelf@15.0
+
+PackageName: libelf@15.0
+SPDXID: SPDXRef-Package-libelfC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-Package-pmccontrolC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-pmccontrolC6415.0
+
+
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libc++C6415.0
+
+
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+
+
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-Package-libc++C6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-Package-libpmcC6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-libpmcC6415.0
+
+
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-Package-libelfC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libelfC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pmccontrolC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpmcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libc++C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcxxrtC646f2fdfebcd62
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libelfC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

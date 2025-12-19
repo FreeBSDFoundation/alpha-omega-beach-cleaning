@@ -1,22 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-capsicum-testC64
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentName: SBOM-SPDX-capsicum-testC64unknown
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
-##### Package: capsicum-test@
+##### Package: capsicum-test@unknown
 
-PackageName: capsicum-test@
-SPDXID: SPDXRef-Package-capsicum-testC64
-PackageVersion: 
+PackageName: capsicum-test@unknown
+SPDXID: SPDXRef-Package-capsicum-testC64unknown
+PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: arichardson@, ngie@
 PackageHomePage: https://www.cl.cam.ac.uk/research/security/capsicum/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Practical capabilities for UNIX</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-capsicum-testC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-capsicum-testC64unknown

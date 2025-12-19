@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-athkC646.5
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: athk@6.5
@@ -13,9 +13,8 @@ SPDXID: SPDXRef-Package-athkC646.5
 PackageVersion: 6.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: bz@
 PackageHomePage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>Common code for ath1?k drivers</text>
 
 

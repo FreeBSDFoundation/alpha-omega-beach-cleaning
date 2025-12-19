@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-kyuaC640.13
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: kyua@0.13
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-kyuaC640.13
 PackageVersion: 0.13
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: brooks@
 PackageHomePage: https://github.com/FreeBSD/kyua
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Port/Package build and test system</text>
@@ -26,47 +25,44 @@ SPDXID: SPDXRef-Package-libcxxrtC646f2fdfebcd62
 PackageVersion: 6f2fdfebcd62
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: dim@, emaste@
 PackageHomePage: https://github.com/libcxxrt/libcxxrt
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
 
 
-##### Package: Lua@5.4.8
+##### Package: lua@5.4.8
 
-PackageName: Lua@5.4.8
-SPDXID: SPDXRef-Package-LuaC645.4.8
+PackageName: lua@5.4.8
+SPDXID: SPDXRef-Package-luaC645.4.8
 PackageVersion: 5.4.8
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: imp@, kevans@
 PackageHomePage: https://www.lua.org
 PackageLicenseDeclared: MIT
 PackageSummary: <text>Embeddable scripting language</text>
 
 
-##### Package: SQLite@3.50.2
+##### Package: sqlite@3.50.2
 
-PackageName: SQLite@3.50.2
-SPDXID: SPDXRef-Package-SQLiteC643.50.2
+PackageName: sqlite@3.50.2
+SPDXID: SPDXRef-Package-sqliteC643.50.2
 PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: bapt@, cy@
 PackageHomePage: https://sqlite.org/src
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>SQLite database engine</text>
 
 
 Relationship: SPDXRef-Package-kyuaC640.13 DEPENDS_ON SPDXRef-Package-libcxxrtC646f2fdfebcd62
 Relationship: SPDXRef-Package-libcxxrtC646f2fdfebcd62 DEPENDENCY_OF SPDXRef-Package-kyuaC640.13
-Relationship: SPDXRef-Package-kyuaC640.13 DEPENDS_ON SPDXRef-Package-LuaC645.4.8
-Relationship: SPDXRef-Package-LuaC645.4.8 DEPENDENCY_OF SPDXRef-Package-kyuaC640.13
-Relationship: SPDXRef-Package-kyuaC640.13 DEPENDS_ON SPDXRef-Package-SQLiteC643.50.2
-Relationship: SPDXRef-Package-SQLiteC643.50.2 DEPENDENCY_OF SPDXRef-Package-kyuaC640.13
+Relationship: SPDXRef-Package-kyuaC640.13 DEPENDS_ON SPDXRef-Package-luaC645.4.8
+Relationship: SPDXRef-Package-luaC645.4.8 DEPENDENCY_OF SPDXRef-Package-kyuaC640.13
+Relationship: SPDXRef-Package-kyuaC640.13 DEPENDS_ON SPDXRef-Package-sqliteC643.50.2
+Relationship: SPDXRef-Package-sqliteC643.50.2 DEPENDENCY_OF SPDXRef-Package-kyuaC640.13
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-kyuaC640.13
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcxxrtC646f2fdfebcd62
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-LuaC645.4.8
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-SQLiteC643.50.2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-luaC645.4.8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-sqliteC643.50.2

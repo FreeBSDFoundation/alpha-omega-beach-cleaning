@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-pkgC642.3.1
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: pkg@2.3.1
@@ -13,28 +13,26 @@ SPDXID: SPDXRef-Package-pkgC642.3.1
 PackageVersion: 2.3.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: 
 PackageHomePage: https://github.com/FreeBSD/pkg
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
 
 
-##### Package: OpenSSL@3.5.4
+##### Package: openssl@3.5.4
 
-PackageName: OpenSSL@3.5.4
-SPDXID: SPDXRef-Package-OpenSSLC643.5.4
+PackageName: openssl@3.5.4
+SPDXID: SPDXRef-Package-opensslC643.5.4
 PackageVersion: 3.5.4
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: khorben@, ngie@
 PackageHomePage: https://openssl-library.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>
 
 
-Relationship: SPDXRef-Package-pkgC642.3.1 DEPENDS_ON SPDXRef-Package-OpenSSLC643.5.4
-Relationship: SPDXRef-Package-OpenSSLC643.5.4 DEPENDENCY_OF SPDXRef-Package-pkgC642.3.1
+Relationship: SPDXRef-Package-pkgC642.3.1 DEPENDS_ON SPDXRef-Package-opensslC643.5.4
+Relationship: SPDXRef-Package-opensslC643.5.4 DEPENDENCY_OF SPDXRef-Package-pkgC642.3.1
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pkgC642.3.1
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-OpenSSLC643.5.4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-opensslC643.5.4

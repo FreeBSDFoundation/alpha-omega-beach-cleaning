@@ -1,0 +1,725 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-libpam.static_libpamC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: libpam.static_libpam@15.0
+
+PackageName: libpam.static_libpam@15.0
+SPDXID: SPDXRef-Package-libpam.static_libpamC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_chroot@15.0
+
+PackageName: pam_chroot@15.0
+SPDXID: SPDXRef-Package-pam_chrootC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_chroot(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Chroot PAM module</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libpam@15.0
+
+PackageName: libpam@15.0
+SPDXID: SPDXRef-Package-libpamC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_deny@15.0
+
+PackageName: pam_deny@15.0
+SPDXID: SPDXRef-Package-pam_denyC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_deny(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Deny PAM module</text>
+
+
+##### Package: pam_echo@15.0
+
+PackageName: pam_echo@15.0
+SPDXID: SPDXRef-Package-pam_echoC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_echo(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Echo PAM module</text>
+
+
+##### Package: pam_exec@15.0
+
+PackageName: pam_exec@15.0
+SPDXID: SPDXRef-Package-pam_execC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_exec(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Exec PAM module</text>
+
+
+##### Package: pam_ftpusers@15.0
+
+PackageName: pam_ftpusers@15.0
+SPDXID: SPDXRef-Package-pam_ftpusersC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ftpusers(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Ftpusers PAM module</text>
+
+
+##### Package: pam_group@15.0
+
+PackageName: pam_group@15.0
+SPDXID: SPDXRef-Package-pam_groupC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_group(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Group PAM module</text>
+
+
+##### Package: pam_guest@15.0
+
+PackageName: pam_guest@15.0
+SPDXID: SPDXRef-Package-pam_guestC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_guest(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Guest PAM module</text>
+
+
+##### Package: pam_krb5@15.0
+
+PackageName: pam_krb5@15.0
+SPDXID: SPDXRef-Package-pam_krb5C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_krb5(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Kerberos 5 PAM module</text>
+
+
+##### Package: libcom_err@15.0
+
+PackageName: libcom_err@15.0
+SPDXID: SPDXRef-Package-libcom_errC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_ksu@15.0
+
+PackageName: pam_ksu@15.0
+SPDXID: SPDXRef-Package-pam_ksuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ksu(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Kerberos 5 SU PAM module</text>
+
+
+##### Package: pam_lastlog@15.0
+
+PackageName: pam_lastlog@15.0
+SPDXID: SPDXRef-Package-pam_lastlogC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_lastlog(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Login accounting PAM module</text>
+
+
+##### Package: pam_login_access@15.0
+
+PackageName: pam_login_access@15.0
+SPDXID: SPDXRef-Package-pam_login_accessC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_login_access(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Login.access PAM module</text>
+
+
+##### Package: pam_nologin@15.0
+
+PackageName: pam_nologin@15.0
+SPDXID: SPDXRef-Package-pam_nologinC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_nologin(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>NoLogin PAM module</text>
+
+
+##### Package: libutil@15.0
+
+PackageName: libutil@15.0
+SPDXID: SPDXRef-Package-libutilC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_passwdqc@15.0
+
+PackageName: pam_passwdqc@15.0
+SPDXID: SPDXRef-Package-pam_passwdqcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_passwdqc(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Password quality-control PAM module</text>
+
+
+##### Package: libcrypt@15.0
+
+PackageName: libcrypt@15.0
+SPDXID: SPDXRef-Package-libcryptC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_permit@15.0
+
+PackageName: pam_permit@15.0
+SPDXID: SPDXRef-Package-pam_permitC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_permit(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Promiscuous PAM module</text>
+
+
+##### Package: pam_radius@15.0
+
+PackageName: pam_radius@15.0
+SPDXID: SPDXRef-Package-pam_radiusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_radius(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>RADIUS authentication PAM module</text>
+
+
+##### Package: libradius@15.0
+
+PackageName: libradius@15.0
+SPDXID: SPDXRef-Package-libradiusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_rootok@15.0
+
+PackageName: pam_rootok@15.0
+SPDXID: SPDXRef-Package-pam_rootokC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_rootok(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>RootOK PAM module</text>
+
+
+##### Package: pam_self@15.0
+
+PackageName: pam_self@15.0
+SPDXID: SPDXRef-Package-pam_selfC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_self(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Self PAM module</text>
+
+
+##### Package: pam_ssh@15.0
+
+PackageName: pam_ssh@15.0
+SPDXID: SPDXRef-Package-pam_sshC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ssh(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Authentication and session management with SSH private keys</text>
+
+
+##### Package: pam_tacplus@15.0
+
+PackageName: pam_tacplus@15.0
+SPDXID: SPDXRef-Package-pam_tacplusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_tacplus(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>TACACS+ authentication PAM module</text>
+
+
+##### Package: libtacplus@15.0
+
+PackageName: libtacplus@15.0
+SPDXID: SPDXRef-Package-libtacplusC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libmd@15.0
+
+PackageName: libmd@15.0
+SPDXID: SPDXRef-Package-libmdC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: pam_unix@15.0
+
+PackageName: pam_unix@15.0
+SPDXID: SPDXRef-Package-pam_unixC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_unix(8)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>UNIX PAM module</text>
+
+
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_chrootC6415.0
+Relationship: SPDXRef-Package-pam_chrootC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_denyC6415.0
+Relationship: SPDXRef-Package-pam_denyC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_echoC6415.0
+Relationship: SPDXRef-Package-pam_echoC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_execC6415.0
+Relationship: SPDXRef-Package-pam_execC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_ftpusersC6415.0
+Relationship: SPDXRef-Package-pam_ftpusersC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_groupC6415.0
+Relationship: SPDXRef-Package-pam_groupC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_guestC6415.0
+Relationship: SPDXRef-Package-pam_guestC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_ksuC6415.0
+Relationship: SPDXRef-Package-pam_ksuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_lastlogC6415.0
+Relationship: SPDXRef-Package-pam_lastlogC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_login_accessC6415.0
+Relationship: SPDXRef-Package-pam_login_accessC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_permitC6415.0
+Relationship: SPDXRef-Package-pam_permitC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_rootokC6415.0
+Relationship: SPDXRef-Package-pam_rootokC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_selfC6415.0
+Relationship: SPDXRef-Package-pam_selfC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_sshC6415.0
+Relationship: SPDXRef-Package-pam_sshC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDENCY_OF SPDXRef-Package-libpam.static_libpamC6415.0
+
+
+Relationship: SPDXRef-Package-pam_chrootC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_chrootC6415.0
+Relationship: SPDXRef-Package-pam_chrootC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_chrootC6415.0
+Relationship: SPDXRef-Package-pam_chrootC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_chrootC6415.0
+Relationship: SPDXRef-Package-pam_chrootC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_chrootC6415.0
+
+
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libpamC6415.0
+
+
+Relationship: SPDXRef-Package-pam_denyC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_denyC6415.0
+Relationship: SPDXRef-Package-pam_denyC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_denyC6415.0
+Relationship: SPDXRef-Package-pam_denyC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_denyC6415.0
+Relationship: SPDXRef-Package-pam_denyC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_denyC6415.0
+
+
+Relationship: SPDXRef-Package-pam_echoC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_echoC6415.0
+Relationship: SPDXRef-Package-pam_echoC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_echoC6415.0
+Relationship: SPDXRef-Package-pam_echoC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_echoC6415.0
+Relationship: SPDXRef-Package-pam_echoC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_echoC6415.0
+
+
+Relationship: SPDXRef-Package-pam_execC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_execC6415.0
+Relationship: SPDXRef-Package-pam_execC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_execC6415.0
+Relationship: SPDXRef-Package-pam_execC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_execC6415.0
+Relationship: SPDXRef-Package-pam_execC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_execC6415.0
+
+
+Relationship: SPDXRef-Package-pam_ftpusersC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ftpusersC6415.0
+Relationship: SPDXRef-Package-pam_ftpusersC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_ftpusersC6415.0
+Relationship: SPDXRef-Package-pam_ftpusersC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ftpusersC6415.0
+Relationship: SPDXRef-Package-pam_ftpusersC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ftpusersC6415.0
+
+
+Relationship: SPDXRef-Package-pam_groupC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_groupC6415.0
+Relationship: SPDXRef-Package-pam_groupC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_groupC6415.0
+Relationship: SPDXRef-Package-pam_groupC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_groupC6415.0
+Relationship: SPDXRef-Package-pam_groupC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_groupC6415.0
+
+
+Relationship: SPDXRef-Package-pam_guestC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_guestC6415.0
+Relationship: SPDXRef-Package-pam_guestC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_guestC6415.0
+Relationship: SPDXRef-Package-pam_guestC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_guestC6415.0
+Relationship: SPDXRef-Package-pam_guestC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_guestC6415.0
+
+
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDS_ON SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-Package-pam_krb5C6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_krb5C6415.0
+
+
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-Package-libcom_errC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcom_errC6415.0
+
+
+Relationship: SPDXRef-Package-pam_ksuC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ksuC6415.0
+Relationship: SPDXRef-Package-pam_ksuC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_ksuC6415.0
+Relationship: SPDXRef-Package-pam_ksuC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ksuC6415.0
+Relationship: SPDXRef-Package-pam_ksuC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_ksuC6415.0
+
+
+Relationship: SPDXRef-Package-pam_lastlogC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_lastlogC6415.0
+Relationship: SPDXRef-Package-pam_lastlogC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_lastlogC6415.0
+Relationship: SPDXRef-Package-pam_lastlogC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_lastlogC6415.0
+Relationship: SPDXRef-Package-pam_lastlogC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_lastlogC6415.0
+
+
+Relationship: SPDXRef-Package-pam_login_accessC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_login_accessC6415.0
+Relationship: SPDXRef-Package-pam_login_accessC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_login_accessC6415.0
+Relationship: SPDXRef-Package-pam_login_accessC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_login_accessC6415.0
+Relationship: SPDXRef-Package-pam_login_accessC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_login_accessC6415.0
+
+
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-Package-pam_nologinC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_nologinC6415.0
+
+
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+
+
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDS_ON SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-Package-pam_passwdqcC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_passwdqcC6415.0
+
+
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcryptC6415.0
+
+
+Relationship: SPDXRef-Package-pam_permitC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_permitC6415.0
+Relationship: SPDXRef-Package-pam_permitC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_permitC6415.0
+Relationship: SPDXRef-Package-pam_permitC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_permitC6415.0
+Relationship: SPDXRef-Package-pam_permitC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_permitC6415.0
+
+
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-Package-pam_radiusC6415.0 DEPENDS_ON SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_radiusC6415.0
+
+
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-Package-libradiusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libradiusC6415.0
+
+
+Relationship: SPDXRef-Package-pam_rootokC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_rootokC6415.0
+Relationship: SPDXRef-Package-pam_rootokC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_rootokC6415.0
+Relationship: SPDXRef-Package-pam_rootokC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_rootokC6415.0
+Relationship: SPDXRef-Package-pam_rootokC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_rootokC6415.0
+
+
+Relationship: SPDXRef-Package-pam_selfC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_selfC6415.0
+Relationship: SPDXRef-Package-pam_selfC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_selfC6415.0
+Relationship: SPDXRef-Package-pam_selfC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_selfC6415.0
+Relationship: SPDXRef-Package-pam_selfC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_selfC6415.0
+
+
+Relationship: SPDXRef-Package-pam_sshC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_sshC6415.0
+Relationship: SPDXRef-Package-pam_sshC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_sshC6415.0
+Relationship: SPDXRef-Package-pam_sshC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_sshC6415.0
+Relationship: SPDXRef-Package-pam_sshC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_sshC6415.0
+
+
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_tacplusC6415.0
+
+
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-Package-libtacplusC6415.0 DEPENDS_ON SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDENCY_OF SPDXRef-Package-libtacplusC6415.0
+
+
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-Package-libmdC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmdC6415.0
+
+
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-Package-libcryptC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-Package-libpamC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-Package-pam_unixC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-pam_unixC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpam.static_libpamC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_chrootC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_denyC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_echoC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_execC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_ftpusersC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_groupC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_guestC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_krb5C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcom_errC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_ksuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_lastlogC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_login_accessC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_nologinC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_passwdqcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_permitC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_radiusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libradiusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_rootokC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_selfC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_sshC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_tacplusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libtacplusC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmdC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-pam_unixC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcryptC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpamC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

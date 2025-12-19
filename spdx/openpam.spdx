@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-openpamC6420250531
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: openpam@20250531
+
+PackageName: openpam@20250531
+SPDXID: SPDXRef-Package-openpamC6420250531
+PackageVersion: 20250531
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://openpam.org
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Open source PAM library that focuses on simplicity, correctness, and cleanliness.</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-openpamC6420250531

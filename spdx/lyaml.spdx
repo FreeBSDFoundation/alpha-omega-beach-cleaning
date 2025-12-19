@@ -1,0 +1,53 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-lyamlC646.2.8
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: lyaml@6.2.8
+
+PackageName: lyaml@6.2.8
+SPDXID: SPDXRef-Package-lyamlC646.2.8
+PackageVersion: 6.2.8
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://gvvaughan.github.io/lyaml/
+PackageLicenseDeclared: MIT
+PackageSummary: <text>LibYAML binding for Lua</text>
+
+
+##### Package: lua@5.4.8
+
+PackageName: lua@5.4.8
+SPDXID: SPDXRef-Package-luaC645.4.8
+PackageVersion: 5.4.8
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.lua.org
+PackageLicenseDeclared: MIT
+PackageSummary: <text>Embeddable scripting language</text>
+
+
+##### Package: libyaml@0.2.5
+
+PackageName: libyaml@0.2.5
+SPDXID: SPDXRef-Package-libyamlC640.2.5
+PackageVersion: 0.2.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://pyyaml.org/wiki/LibYAML
+PackageLicenseDeclared: Could not parse value
+PackageSummary: <text>C library for parsing and emitting YAML</text>
+
+
+Relationship: SPDXRef-Package-lyamlC646.2.8 DEPENDS_ON SPDXRef-Package-luaC645.4.8
+Relationship: SPDXRef-Package-luaC645.4.8 DEPENDENCY_OF SPDXRef-Package-lyamlC646.2.8
+Relationship: SPDXRef-Package-lyamlC646.2.8 DEPENDS_ON SPDXRef-Package-libyamlC640.2.5
+Relationship: SPDXRef-Package-libyamlC640.2.5 DEPENDENCY_OF SPDXRef-Package-lyamlC646.2.8
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-lyamlC646.2.8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-luaC645.4.8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libyamlC640.2.5

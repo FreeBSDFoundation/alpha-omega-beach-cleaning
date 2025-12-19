@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libfido2C641.14.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libfido2@1.14.0
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-libfido2C641.14.0
 PackageVersion: 1.14.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: emaste@
 PackageHomePage: https://github.com/Yubico/libfido2
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>library functionality for FIDO2, including communication with a device over USB or NFC</text>

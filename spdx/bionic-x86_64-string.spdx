@@ -1,22 +1,21 @@
 SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
-DocumentName: SBOM-SPDX-bionic-x86_64-stringC64
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentName: SBOM-SPDX-bionic-x86_64-stringC64unknown
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
-##### Package: bionic-x86_64-string@
+##### Package: bionic-x86_64-string@unknown
 
-PackageName: bionic-x86_64-string@
-SPDXID: SPDXRef-Package-bionic-x86_64-stringC64
-PackageVersion: 
+PackageName: bionic-x86_64-string@unknown
+SPDXID: SPDXRef-Package-bionic-x86_64-stringC64unknown
+PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: emaste@
 PackageHomePage: https://android.googlesource.com/platform/bionic
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: Could not parse value
 PackageSummary: <text>Android's C library, math library, and dynamic linker</text>
 
 
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bionic-x86_64-stringC64
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bionic-x86_64-stringC64unknown

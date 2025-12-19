@@ -1,0 +1,179 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-bhyveloadC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: bhyveload@15.0
+
+PackageName: bhyveload@15.0
+SPDXID: SPDXRef-Package-bhyveloadC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=bhyveload(8)
+PackageLicenseDeclared: BSD-2-Clause
+PackageSummary: <text>Load a FreeBSD guest inside a bhyve virtual machine</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@14.3
+
+PackageName: libc@14.3
+SPDXID: SPDXRef-Package-libcC6414.3
+PackageVersion: 14.3
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcapsicum@15.0
+
+PackageName: libcapsicum@15.0
+SPDXID: SPDXRef-Package-libcapsicumC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcasper@15.0
+
+PackageName: libcasper@15.0
+SPDXID: SPDXRef-Package-libcasperC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libnv@15.0
+
+PackageName: libnv@15.0
+SPDXID: SPDXRef-Package-libnvC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libvmmapi@15.0
+
+PackageName: libvmmapi@15.0
+SPDXID: SPDXRef-Package-libvmmapiC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libutil@15.0
+
+PackageName: libutil@15.0
+SPDXID: SPDXRef-Package-libutilC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: Could not parse value
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-Package-libcapsicumC6415.0 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-Package-bhyveloadC6415.0 DEPENDS_ON SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDENCY_OF SPDXRef-Package-bhyveloadC6415.0
+
+
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDS_ON SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDENCY_OF SPDXRef-Package-libcasperC6415.0
+
+
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-Package-libnvC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libnvC6415.0
+
+
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-Package-libcapsicumC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-Package-libcasperC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-Package-libvmmapiC6415.0 DEPENDS_ON SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDENCY_OF SPDXRef-Package-libvmmapiC6415.0
+
+
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-Package-libcC6414.3 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-Package-libutilC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libutilC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-bhyveloadC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libvmmapiC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcapsicumC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcasperC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libnvC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libutilC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6414.3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

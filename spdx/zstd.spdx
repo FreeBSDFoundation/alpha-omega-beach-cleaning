@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-zstdC641.5.2
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: zstd@1.5.2
@@ -13,7 +13,6 @@ SPDXID: SPDXRef-Package-zstdC641.5.2
 PackageVersion: 1.5.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: allanjude@, cem@
 PackageHomePage: https://facebook.github.io/zstd/
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Zstandard is a fast compression algorithm</text>
