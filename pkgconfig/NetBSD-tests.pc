@@ -1,7 +1,0 @@
-Name: NetBSD tests
-Description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
-URL: https://www.NetBSD.org
-Version:
-License: BSD-2-Clause
-Source: https://cvsweb.netbsd.org/bsdweb.cgi/src/tests/
-Maintainer: ngie@

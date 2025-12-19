@@ -1,7 +1,0 @@
-Name: Lua
-Description: Embeddable scripting language
-URL: https://www.lua.org
-Version: 5.4.8
-License: MIT
-Source: https://github.com/Lua/lua
-Maintainer: imp@, kevans@
