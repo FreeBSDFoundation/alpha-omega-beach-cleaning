@@ -718,6 +718,1618 @@ Sections:
         - build
       plan: fork
       owner: des@
+  Extra libraries:
+    csu:
+      description: Library missing description
+      directory: lib/csu
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/csu
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.aarch64:
+      description: Library missing description
+      directory: lib/csu/aarch64
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/aarch64
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.amd64:
+      description: Library missing description
+      directory: lib/csu/amd64
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/amd64
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.arm:
+      description: Library missing description
+      directory: lib/csu/arm
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/arm
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.i386:
+      description: Library missing description
+      directory: lib/csu/i386
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/i386
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.powerpc:
+      description: Library missing description
+      directory: lib/csu/powerpc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/powerpc
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.powerpc64:
+      description: Library missing description
+      directory: lib/csu/powerpc64
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/powerpc64
+      upstream: FreeBSD project
+      version: '15.0'
+    csu.riscv:
+      description: Library missing description
+      directory: lib/csu/riscv
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/riscv
+      upstream: FreeBSD project
+      version: '15.0'
+    lib80211:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libsbuf
+      description: Library missing description
+      directory: lib/lib80211
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/lib80211
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/libalias
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libalias
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.dummy:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/dummy
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/dummy
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.ftp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/ftp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/ftp
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.irc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/irc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/irc
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.nbt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/nbt
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/nbt
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.pptp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/pptp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/pptp
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.skinny:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/skinny
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/skinny
+      upstream: FreeBSD project
+      version: '15.0'
+    libalias.modules.smedia:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libalias/modules/smedia
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/smedia
+      upstream: FreeBSD project
+      version: '15.0'
+    libatf-c:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/atf/libatf-c
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libatf-c
+      upstream: FreeBSD project
+      version: '15.0'
+    libatf-c++:
+      depends:
+        - csu
+        - libatf-c
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - msun
+      description: Library missing description
+      directory: lib/atf/libatf-c++
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libatf-c++
+      upstream: FreeBSD project
+      version: '15.0'
+    libbe:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbe
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbe
+      upstream: FreeBSD project
+      version: '15.0'
+    libbearssl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbearssl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbearssl
+      upstream: FreeBSD project
+      version: '15.0'
+    libblocklist:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Library missing description
+      directory: lib/libblocklist
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libblocklist
+      upstream: FreeBSD project
+      version: '15.0'
+    libblocksruntime:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libblocksruntime
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libblocksruntime
+      upstream: FreeBSD project
+      version: '15.0'
+    libbluetooth:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbluetooth
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbluetooth
+      upstream: FreeBSD project
+      version: '15.0'
+    libbsddialog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - ncurses
+        - tinfo
+      description: Library missing description
+      directory: lib/libbsddialog
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbsddialog
+      upstream: FreeBSD project
+      version: '15.0'
+    libbsdstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbsdstat
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbsdstat
+      upstream: FreeBSD project
+      version: '15.0'
+    libbsm:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbsm
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbsm
+      upstream: FreeBSD project
+      version: '15.0'
+    libbsnmp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libbsnmp/libbsnmp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libbsnmp
+      upstream: FreeBSD project
+      version: '15.0'
+    libc++:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcxxrt
+        - msun
+      description: Library missing description
+      directory: lib/libc++
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libc++
+      upstream: FreeBSD project
+      version: '15.0'
+    libc++experimental:
+      description: Library missing description
+      directory: lib/libc++experimental
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libc++experimental
+      upstream: FreeBSD project
+      version: '15.0'
+    libc_nonshared:
+      description: Library missing description
+      directory: lib/libc_nonshared
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libc_nonshared
+      upstream: FreeBSD project
+      version: '15.0'
+    libcalendar:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libcalendar
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcalendar
+      upstream: FreeBSD project
+      version: '15.0'
+    libcam:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+      description: Library missing description
+      directory: lib/libcam
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcam
+      upstream: FreeBSD project
+      version: '15.0'
+    libcapsicum:
+      description: Library missing description
+      directory: lib/libcapsicum
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcapsicum
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/libcasper
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcasper
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services:
+      description: Library missing description
+      directory: lib/libcasper/services
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/services
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_dns:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_dns
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_dns
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_fileargs:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_fileargs
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_fileargs
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_grp:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_grp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_grp
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_net:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_net
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_net
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_netdb:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_netdb
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_netdb
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_pwd:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_pwd
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_pwd
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_sysctl:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_sysctl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_sysctl
+      upstream: FreeBSD project
+      version: '15.0'
+    libcasper.services.cap_syslog:
+      depends:
+        - csu
+        - libc
+        - libcasper
+        - libcompiler_rt
+        - libnv
+      description: Library missing description
+      directory: lib/libcasper/services/cap_syslog
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/cap_syslog
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang:
+      depends:
+        - libllvm
+        - libc++
+        - msun
+      description: Library missing description
+      directory: lib/clang/libclang
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libclang
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.asan:
+      depends:
+        - libc++
+        - libmd
+        - tinfo
+      description: Library missing description
+      directory: lib/libclang_rt/asan
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/asan
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.asan-preinit:
+      description: Library missing description
+      directory: lib/libclang_rt/asan-preinit
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/asan-preinit
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.asan_cxx:
+      depends:
+        - libc++
+      description: Library missing description
+      directory: lib/libclang_rt/asan_cxx
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/asan_cxx
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.asan_dynamic:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libmd
+        - msun
+        - tinfo
+      description: Library missing description
+      directory: lib/libclang_rt/asan_dynamic
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/asan_dynamic
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.profile:
+      depends:
+        - libc++
+      description: Library missing description
+      directory: lib/libclang_rt/profile
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/profile
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.safestack:
+      depends:
+        - libc++
+      description: Library missing description
+      directory: lib/libclang_rt/safestack
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/safestack
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.stats:
+      depends:
+        - libc++
+        - libmd
+        - tinfo
+      description: Library missing description
+      directory: lib/libclang_rt/stats
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/stats
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.stats_client:
+      depends:
+        - libc++
+      description: Library missing description
+      directory: lib/libclang_rt/stats_client
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/stats_client
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.ubsan_standalone:
+      depends:
+        - libc++
+        - libmd
+        - tinfo
+      description: Library missing description
+      directory: lib/libclang_rt/ubsan_standalone
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/ubsan_standalone
+      upstream: FreeBSD project
+      version: '15.0'
+    libclang_rt.ubsan_standalone_cxx:
+      depends:
+        - libc++
+      description: Library missing description
+      directory: lib/libclang_rt/ubsan_standalone_cxx
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/ubsan_standalone_cxx
+      upstream: FreeBSD project
+      version: '15.0'
+    libcom_err:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libcom_err
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcom_err
+      upstream: FreeBSD project
+      version: '15.0'
+    libcompiler_rt:
+      description: Library missing description
+      directory: lib/libcompiler_rt
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcompiler_rt
+      upstream: FreeBSD project
+      version: '15.0'
+    libcrypt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libcrypt
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcrypt
+      upstream: FreeBSD project
+      version: '15.0'
+    libcuse:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Library missing description
+      directory: lib/libcuse
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libcuse
+      upstream: FreeBSD project
+      version: '15.0'
+    libdevctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libdevctl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdevctl
+      upstream: FreeBSD project
+      version: '15.0'
+    libdevdctl:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - msun
+      description: Library missing description
+      directory: lib/libdevdctl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdevdctl
+      upstream: FreeBSD project
+      version: '15.0'
+    libdevinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libdevinfo
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdevinfo
+      upstream: FreeBSD project
+      version: '15.0'
+    libdevstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Library missing description
+      directory: lib/libdevstat
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdevstat
+      upstream: FreeBSD project
+      version: '15.0'
+    libdpv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libfigpar
+        - libutil
+        - msun
+        - ncurses
+        - tinfo
+      description: Library missing description
+      directory: lib/libdpv
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdpv
+      upstream: FreeBSD project
+      version: '15.0'
+    libdwarf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+        - libz
+      description: Library missing description
+      directory: lib/libdwarf
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libdwarf
+      upstream: FreeBSD project
+      version: '15.0'
+    libedit.readline:
+      description: Library missing description
+      directory: lib/libedit/readline
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/readline
+      upstream: FreeBSD project
+      version: '15.0'
+    libefivar:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Library missing description
+      directory: lib/libefivar
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libefivar
+      upstream: FreeBSD project
+      version: '15.0'
+    libelf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libelf
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libelf
+      upstream: FreeBSD project
+      version: '15.0'
+    libelftc:
+      depends:
+        - libelf
+      description: Library missing description
+      directory: lib/libelftc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libelftc
+      upstream: FreeBSD project
+      version: '15.0'
+    libevent1:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libevent1
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libevent1
+      upstream: FreeBSD project
+      version: '15.0'
+    libfetch:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libfetch
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libfetch
+      upstream: FreeBSD project
+      version: '15.0'
+    libfigpar:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libfigpar
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libfigpar
+      upstream: FreeBSD project
+      version: '15.0'
+    libgeom:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libsbuf
+      description: Library missing description
+      directory: lib/libgeom
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libgeom
+      upstream: FreeBSD project
+      version: '15.0'
+    libgpio:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libgpio
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libgpio
+      upstream: FreeBSD project
+      version: '15.0'
+    libgssapi:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libgssapi
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libgssapi
+      upstream: FreeBSD project
+      version: '15.0'
+    libifconfig:
+      depends:
+        - msun
+      description: Library missing description
+      directory: lib/libifconfig
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libifconfig
+      upstream: FreeBSD project
+      version: '15.0'
+    libipsec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libipsec
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libipsec
+      upstream: FreeBSD project
+      version: '15.0'
+    libiscsiutil:
+      depends:
+        - libmd
+      description: Library missing description
+      directory: lib/libiscsiutil
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libiscsiutil
+      upstream: FreeBSD project
+      version: '15.0'
+    libjail:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libjail
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libjail
+      upstream: FreeBSD project
+      version: '15.0'
+    libkiconv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libkiconv
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libkiconv
+      upstream: FreeBSD project
+      version: '15.0'
+    libkvm:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+      description: Library missing description
+      directory: lib/libkvm
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libkvm
+      upstream: FreeBSD project
+      version: '15.0'
+    liblldb:
+      depends:
+        - libclang
+        - libllvm
+        - libc++
+        - libedit
+        - libexecinfo
+        - libkvm
+        - liblzma
+        - libz
+        - msun
+        - panel
+        - tinfo
+      description: Library missing description
+      directory: lib/clang/liblldb
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/liblldb
+      upstream: FreeBSD project
+      version: '15.0'
+    libllvm:
+      depends:
+        - libc++
+        - libexecinfo
+        - libz
+        - msun
+      description: Library missing description
+      directory: lib/clang/libllvm
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libllvm
+      upstream: FreeBSD project
+      version: '15.0'
+    libllvmminimal:
+      depends:
+        - libc++
+        - libexecinfo
+        - msun
+      description: Library missing description
+      directory: lib/clang/libllvmminimal
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libllvmminimal
+      upstream: FreeBSD project
+      version: '15.0'
+    liblua:
+      depends:
+        - msun
+      description: Library missing description
+      directory: lib/liblua
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/liblua
+      upstream: FreeBSD project
+      version: '15.0'
+    libmd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libmd
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmd
+      upstream: FreeBSD project
+      version: '15.0'
+    libmemstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+      description: Library missing description
+      directory: lib/libmemstat
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmemstat
+      upstream: FreeBSD project
+      version: '15.0'
+    libmilter:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libmilter
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmilter
+      upstream: FreeBSD project
+      version: '15.0'
+    libmixer:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libmixer
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmixer
+      upstream: FreeBSD project
+      version: '15.0'
+    libmp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libmp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmp
+      upstream: FreeBSD project
+      version: '15.0'
+    libmt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libsbuf
+      description: Library missing description
+      directory: lib/libmt
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libmt
+      upstream: FreeBSD project
+      version: '15.0'
+    libnetbsd:
+      description: Library missing description
+      directory: lib/libnetbsd
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libnetbsd
+      upstream: FreeBSD project
+      version: '15.0'
+    libnetgraph:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libnetgraph
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libnetgraph
+      upstream: FreeBSD project
+      version: '15.0'
+    libnetmap:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libnetmap
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libnetmap
+      upstream: FreeBSD project
+      version: '15.0'
+    libnv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libnv
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libnv
+      upstream: FreeBSD project
+      version: '15.0'
+    libnvmf:
+      description: Library missing description
+      directory: lib/libnvmf
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libnvmf
+      upstream: FreeBSD project
+      version: '15.0'
+    libopenbsd:
+      description: Library missing description
+      directory: lib/libopenbsd
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libopenbsd
+      upstream: FreeBSD project
+      version: '15.0'
+    libpam:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libpam/libpam
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpam
+      upstream: FreeBSD project
+      version: '15.0'
+    libpam.static_libpam:
+      depends:
+        - pam_chroot
+        - pam_deny
+        - pam_echo
+        - pam_exec
+        - pam_ftpusers
+        - pam_group
+        - pam_guest
+        - pam_krb5
+        - pam_ksu
+        - pam_lastlog
+        - pam_login_access
+        - pam_nologin
+        - pam_passwdqc
+        - pam_permit
+        - pam_radius
+        - pam_rootok
+        - pam_self
+        - pam_ssh
+        - pam_tacplus
+        - pam_unix
+      description: Library missing description
+      directory: lib/libpam/static_libpam
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/static_libpam
+      upstream: FreeBSD project
+      version: '15.0'
+    libpathconv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libpathconv
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpathconv
+      upstream: FreeBSD project
+      version: '15.0'
+    libpfctl:
+      description: Library missing description
+      directory: lib/libpfctl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpfctl
+      upstream: FreeBSD project
+      version: '15.0'
+    libpjdlog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Library missing description
+      directory: lib/libpjdlog
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpjdlog
+      upstream: FreeBSD project
+      version: '15.0'
+    libpmc:
+      depends:
+        - csu
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libelf
+        - msun
+      description: Library missing description
+      directory: lib/libpmc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpmc
+      upstream: FreeBSD project
+      version: '15.0'
+    libpmc.pmu-events:
+      description: Library missing description
+      directory: lib/libpmc/pmu-events
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/pmu-events
+      upstream: FreeBSD project
+      version: '15.0'
+    libpmcstat:
+      depends:
+        - libelf
+        - libpmc
+      description: Library missing description
+      directory: lib/libpmcstat
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libpmcstat
+      upstream: FreeBSD project
+      version: '15.0'
+    libproc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+        - libprocstat
+        - librtld_db
+        - libutil
+        - libz
+      description: Library missing description
+      directory: lib/libproc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libproc
+      upstream: FreeBSD project
+      version: '15.0'
+    libprocstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+        - libkvm
+        - zfs
+        - libutil
+      description: Library missing description
+      directory: lib/libprocstat
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libprocstat
+      upstream: FreeBSD project
+      version: '15.0'
+    libradius:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libradius
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libradius
+      upstream: FreeBSD project
+      version: '15.0'
+    libregex:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libregex
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libregex
+      upstream: FreeBSD project
+      version: '15.0'
+    librpcsvc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/librpcsvc
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/librpcsvc
+      upstream: FreeBSD project
+      version: '15.0'
+    librss:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/librss
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/librss
+      upstream: FreeBSD project
+      version: '15.0'
+    librtld_db:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+        - libprocstat
+        - libutil
+      description: Library missing description
+      directory: lib/librtld_db
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/librtld_db
+      upstream: FreeBSD project
+      version: '15.0'
+    libsbuf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libsbuf
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libsbuf
+      upstream: FreeBSD project
+      version: '15.0'
+    libsdp:
+      depends:
+        - csu
+        - libbluetooth
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libsdp
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libsdp
+      upstream: FreeBSD project
+      version: '15.0'
+    libstdthreads:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Library missing description
+      directory: lib/libstdthreads
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libstdthreads
+      upstream: FreeBSD project
+      version: '15.0'
+    libsys:
+      depends:
+        - csu
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libsys
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libsys
+      upstream: FreeBSD project
+      version: '15.0'
+    libsysdecode:
+      depends:
+        - csu
+        - libatf-c
+        - lib80211
+        - lib9p
+        - libalias
+        - libarchive
+        - libbe
+        - libbegemot
+        - libblocklist
+        - libblocksruntime
+        - libbluetooth
+        - libbsddialog
+        - libbsdstat
+        - libbsm
+        - libbsnmp
+        - libbz2
+        - libc
+        - libc++
+        - libcalendar
+        - libcam
+        - libcapsicum
+        - libcasper
+        - cap_dns
+        - cap_fileargs
+        - cap_grp
+        - cap_net
+        - cap_netdb
+        - cap_pwd
+        - cap_sysctl
+        - cap_syslog
+        - libcom_err
+        - libcompiler_rt
+        - libcuse
+        - libdevctl
+        - libdevdctl
+        - libdevinfo
+        - libdevstat
+        - libdpv
+        - libdwarf
+        - libedit
+        - readline
+        - libefivar
+        - libelf
+        - libevent1
+        - libexecinfo
+        - libexpat
+        - libfetch
+        - libfigpar
+        - libgeom
+        - libgpio
+        - libjail
+        - libkvm
+        - liblzma
+        - libmagic
+        - libmd
+        - libmemstat
+        - libmilter
+        - libmixer
+        - libmp
+        - libmt
+        - libnetgraph
+        - libpam
+        - libpathconv
+        - libpcap
+        - libpmc
+        - libproc
+        - libprocstat
+        - libradius
+        - librss
+        - librtld_db
+        - libsdp
+        - libsqlite3
+        - libstdthreads
+        - libtacplus
+        - libthread_db
+        - libucl
+        - libufs
+        - libugidfw
+        - libulog
+        - libusb
+        - libusbhid
+        - libutil
+        - libveriexec
+        - libvgl
+        - libvmmapi
+        - libwrap
+        - libxo
+        - libypclnt
+        - libz
+        - libzstd
+        - msun
+        - form
+        - menu
+        - panel
+        - tinfo
+      description: Library missing description
+      directory: lib/libsysdecode
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libsysdecode
+      upstream: FreeBSD project
+      version: '15.0'
+    libtacplus:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+      description: Library missing description
+      directory: lib/libtacplus
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libtacplus
+      upstream: FreeBSD project
+      version: '15.0'
+    libthr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsys
+      description: Library missing description
+      directory: lib/libthr
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libthr
+      upstream: FreeBSD project
+      version: '15.0'
+    libthread_db:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libthread_db
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libthread_db
+      upstream: FreeBSD project
+      version: '15.0'
+    libufs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libufs
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libufs
+      upstream: FreeBSD project
+      version: '15.0'
+    libugidfw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libugidfw
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libugidfw
+      upstream: FreeBSD project
+      version: '15.0'
+    libulog:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libmd
+      description: Library missing description
+      directory: lib/libulog
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libulog
+      upstream: FreeBSD project
+      version: '15.0'
+    libusb:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Library missing description
+      directory: lib/libusb
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libusb
+      upstream: FreeBSD project
+      version: '15.0'
+    libusbhid:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libusbhid
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libusbhid
+      upstream: FreeBSD project
+      version: '15.0'
+    libutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libutil
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libutil
+      upstream: FreeBSD project
+      version: '15.0'
+    libveriexec:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libveriexec
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libveriexec
+      upstream: FreeBSD project
+      version: '15.0'
+    libvgl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libvgl
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libvgl
+      upstream: FreeBSD project
+      version: '15.0'
+    libvmmapi:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - libutil
+      description: Library missing description
+      directory: lib/libvmmapi
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libvmmapi
+      upstream: FreeBSD project
+      version: '15.0'
+    libwrap:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libwrap
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libwrap
+      upstream: FreeBSD project
+      version: '15.0'
+    libypclnt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/libypclnt
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/libypclnt
+      upstream: FreeBSD project
+      version: '15.0'
+    msun:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/msun
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/msun
+      upstream: FreeBSD project
+      version: '15.0'
+    ncurses.form:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - ncurses
+        - tinfo
+      description: Library missing description
+      directory: lib/ncurses/form
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/form
+      upstream: FreeBSD project
+      version: '15.0'
+    ncurses.menu:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - ncurses
+        - tinfo
+      description: Library missing description
+      directory: lib/ncurses/menu
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/menu
+      upstream: FreeBSD project
+      version: '15.0'
+    ncurses.ncursesw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - tinfo
+      description: Library missing description
+      directory: lib/ncurses/ncurses
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/ncursesw
+      upstream: FreeBSD project
+      version: '15.0'
+    ncurses.panel:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - ncurses
+        - tinfo
+      description: Library missing description
+      directory: lib/ncurses/panel
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/panel
+      upstream: FreeBSD project
+      version: '15.0'
+    ncurses.tinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Library missing description
+      directory: lib/ncurses/tinfo
+      license: NOASSERTION
+      source: https://cgit.freebsd.org/src/tree/tinfo
+      upstream: FreeBSD project
+      version: '15.0'
   General Commands:
     apply:
       depends:
