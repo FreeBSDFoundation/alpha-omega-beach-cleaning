@@ -38,8 +38,8 @@ format:
 merge-versions: versions.yml
 	(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
 
-pkgconfig: $(OBJDIR)src/aobc-tool database.yml
-	$(OBJDIR)src/aobc-tool generate pkgconfig
+pkgconfig: database.yml tools/create_pc_files.lua
+	@LUA_PATH="./tools/lua/?.lua;;" ./tools/create_pc_files.lua database.yml pkgconf
 
 $(OBJDIR)plan.md: $(OBJDIR)src/aobc-tool database.yml
 	$(OBJDIR)src/aobc-tool generate plan
@@ -47,7 +47,7 @@ $(OBJDIR)plan.md: $(OBJDIR)src/aobc-tool database.yml
 $(OBJDIR)security.md: $(OBJDIR)src/aobc-tool database.yml
 	$(OBJDIR)src/aobc-tool generate securityreview
 
-spdx: tools/spdx.sh pkgconfig
+spdx: pkgconfig tools/spdx.sh
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
 
 $(OBJDIR)versions.yml: all
@@ -135,6 +135,8 @@ dist:
 		$(PACKAGE)-$(VERSION)/README.md \
 		$(PACKAGE)-$(VERSION)/database.yml \
 		$(PACKAGE)-$(VERSION)/tools/spdx.sh \
+		$(PACKAGE)-$(VERSION)/tools/create_pc_files.lua \
+		$(PACKAGE)-$(VERSION)/tools/lua/pkgconf.lua \
 		$(PACKAGE)-$(VERSION)/project.conf
 	$(RM) -- $(OBJDIR)$(PACKAGE)-$(VERSION)
 
