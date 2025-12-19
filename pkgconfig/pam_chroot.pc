@@ -1,7 +1,11 @@
-Name: pam\_chroot
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_chroot
 Description: Chroot PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_chroot(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_chroot(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_chroot
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_chroot
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

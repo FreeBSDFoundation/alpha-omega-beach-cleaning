@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: llvm-mca
 Description: LLVM Machine Code Analyzer
 URL: https://llvm.org

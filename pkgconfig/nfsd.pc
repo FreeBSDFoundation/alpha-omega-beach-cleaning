@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nfsd
 Description: Remote NFS server
 URL: https://man.freebsd.org/cgi/man.cgi?query=nfsd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nfsd
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nfsd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

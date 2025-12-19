@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bthost
 Description: Look up Bluetooth host names and Protocol Service Multiplexor values
 URL: https://man.freebsd.org/cgi/man.cgi?query=bthost(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/bthost
-Requires: csu, libbluetooth, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/bluetooth/bthost
+Requires: csu \
+	libbluetooth \
+	libc \
+	libcompiler_rt

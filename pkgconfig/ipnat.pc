@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ipnat
 Description: User interface to the NAT
 URL: https://man.freebsd.org/cgi/man.cgi?query=ipnat(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ipnat
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipnat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

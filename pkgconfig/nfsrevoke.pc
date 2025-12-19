@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nfsrevoke
 Description: Revoke NFS V4 client
 URL: https://man.freebsd.org/cgi/man.cgi?query=nfsrevoke(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nfsrevoke
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nfsrevoke
+Requires: csu \
+	libc \
+	libcompiler_rt

@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: llvm-readobj
 Description: LLVM Object Reader
 URL: https://llvm.org

@@ -1,7 +1,12 @@
-Name: wpa\_cli
-Description: Console utility for WiFi authentication with wpa\_supplicant
-URL: https://man.freebsd.org/cgi/man.cgi?query=wpa\_cli(8)
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: wpa_cli
+Description: Console utility for WiFi authentication with wpa_supplicant
+URL: https://man.freebsd.org/cgi/man.cgi?query=wpa_cli(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/wpa\_cli
-Requires: csu, libc, libcompiler\_rt, libpcap, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_cli
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpcap \
+	libutil

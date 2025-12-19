@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: lastcomm
 Description: Show last commands executed
 URL: https://man.freebsd.org/cgi/man.cgi?query=lastcomm(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/lastcomm
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/lastcomm
+Requires: csu \
+	libc \
+	libcompiler_rt

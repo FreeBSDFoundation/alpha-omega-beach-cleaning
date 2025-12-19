@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: stat
 Description: Display file status
 URL: https://man.freebsd.org/cgi/man.cgi?query=stat(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/stat
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/stat
+Requires: csu \
+	libc \
+	libcompiler_rt

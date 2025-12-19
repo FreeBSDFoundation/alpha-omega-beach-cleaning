@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: dconschat
 Description: User interface to dcons(4)
 URL: https://man.freebsd.org/cgi/man.cgi?query=dconschat(8)
 Version: 15.0
 License: BSD-4-Clause
-Source: https://cgit.freebsd.org/src/tree/dconschat
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/dconschat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

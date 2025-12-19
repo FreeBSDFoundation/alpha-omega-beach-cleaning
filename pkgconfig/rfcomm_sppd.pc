@@ -1,7 +1,13 @@
-Name: rfcomm\_sppd
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: rfcomm_sppd
 Description: RFCOMM Serial Port Profile daemon
-URL: https://man.freebsd.org/cgi/man.cgi?query=rfcomm\_sppd(1)
+URL: https://man.freebsd.org/cgi/man.cgi?query=rfcomm_sppd(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/rfcomm\_sppd
-Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.bin/bluetooth/rfcomm_sppd
+Requires: csu \
+	libbluetooth \
+	libc \
+	libcompiler_rt \
+	libsdp \
+	libutil

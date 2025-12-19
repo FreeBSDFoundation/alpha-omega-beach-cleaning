@@ -1,8 +1,8 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pkg
 Description: Package manager for FreeBSD
 URL: https://github.com/FreeBSD/pkg
 Version: 2.3.1
 License: BSD-2-Clause
 Source: https://github.com/FreeBSD/pkg
-Requires: OpenSSL
-Maintainer: #pkg
+Requires: openssl

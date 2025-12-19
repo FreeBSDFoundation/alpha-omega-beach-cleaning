@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nologin
 Description: Politely refuse a login
 URL: https://man.freebsd.org/cgi/man.cgi?query=nologin(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nologin
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nologin
+Requires: csu \
+	libc \
+	libcompiler_rt

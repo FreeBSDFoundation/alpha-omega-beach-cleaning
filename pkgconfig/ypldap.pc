@@ -1,7 +1,14 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ypldap
 Description: YP map server using LDAP backend
 URL: https://man.freebsd.org/cgi/man.cgi?query=ypldap(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ypldap
-Requires: csu, libc, libcompiler\_rt, libevent1, libopenbsd, librpcsvc, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/ypldap
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libevent1 \
+	libopenbsd \
+	librpcsvc \
+	libutil

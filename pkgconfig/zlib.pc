@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: zlib
 Description: zlib compression library
 URL: https://zlib.net
 Version: 1.3.1
 License: Zlib
 Source: https://github.com/madler/zlib/tree/develop
-Maintainer: delphij@

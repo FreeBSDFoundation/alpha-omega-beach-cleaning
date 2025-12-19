@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: proccontrol
 Description: Control some process execution aspects
 URL: https://man.freebsd.org/cgi/man.cgi?query=proccontrol(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/proccontrol
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/proccontrol
+Requires: csu \
+	libc \
+	libcompiler_rt

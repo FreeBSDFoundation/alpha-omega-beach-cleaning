@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: iwmbtfw
 Description: Load firmware for Intel Wireless AC Bluetooth USB devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=iwmbtfw(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/iwmbtfw
-Requires: csu, libc, libcompiler\_rt, libusb
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/iwmbtfw
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libusb

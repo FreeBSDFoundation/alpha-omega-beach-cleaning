@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: libnv
+Description: Library missing description
+URL: Could not parse value
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lib/libnv
+Requires: csu \
+	libc \
+	libcompiler_rt

@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: smbmsg
 Description: Send or receive messages over an SMBus
 URL: https://man.freebsd.org/cgi/man.cgi?query=smbmsg(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/smbmsg
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/smbmsg
+Requires: csu \
+	libc \
+	libcompiler_rt

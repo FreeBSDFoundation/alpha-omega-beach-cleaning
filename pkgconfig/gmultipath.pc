@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: gmultipath
 Description: Disk multipath control utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=gmultipath(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gmultipath
-Requires: csu, libc, libcompiler\_rt, libgeom
+Source: https://cgit.freebsd.org/src/tree/lib/geom/multipath
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libgeom

@@ -1,5 +1,8 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ee
 Description: Easy Editor
+URL: 
 Version: 1.5.0
 License: BSD-2-Clause
+Source: Could not parse value
 Requires: ncurses

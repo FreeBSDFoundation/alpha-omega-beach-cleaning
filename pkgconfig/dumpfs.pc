@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: dumpfs
 Description: Dump UFS file system information
 URL: https://man.freebsd.org/cgi/man.cgi?query=dumpfs(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/dumpfs
-Requires: csu, libc, libcompiler\_rt, libufs
+Source: https://cgit.freebsd.org/src/tree/sbin/dumpfs
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libufs

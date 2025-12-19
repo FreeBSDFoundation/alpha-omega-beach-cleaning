@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: libbegemot
 Description: Begemot utility function library. It is needed to build most of the begemot tools
 URL: https://people.freebsd.org/~harti/libbegemot/
 Version: 1.14
 License: BSD-2-Clause
-Maintainer: harti@, trhodes@
+Source: Could not parse value

@@ -1,7 +1,15 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: iscsid
 Description: ISCSI initiator daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=iscsid(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/iscsid
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, libiscsiutil, libmd, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/iscsid
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	libiscsiutil \
+	libmd \
+	libutil

@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ggated
 Description: GEOM Gate network daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=ggated(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/ggated
-Requires: csu, libc, libcompiler\_rt, libgeom, libthr, libutil
+Source: https://cgit.freebsd.org/src/tree/sbin/ggate/ggated
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libgeom \
+	libthr \
+	libutil

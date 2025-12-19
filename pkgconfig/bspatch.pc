@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bspatch
 Description: Apply a patch built with bsdiff(1)
 URL: https://man.freebsd.org/cgi/man.cgi?query=bspatch(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bspatch
-Requires: csu, libbz2, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/bsdiff/bspatch
+Requires: csu \
+	bzip2 \
+	libc \
+	libcompiler_rt

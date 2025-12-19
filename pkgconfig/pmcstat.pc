@@ -1,7 +1,19 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pmcstat
 Description: Performance measurement with performance monitoring hardware
 URL: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/pmcstat
-Requires: csu, libc, libc++, libcompiler\_rt, libcxxrt, libelf, libkvm, libpmc, libpmcstat, msun, ncurses, tinfo
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/pmcstat
+Requires: csu \
+	libc \
+	libc++ \
+	libcompiler_rt \
+	libcxxrt \
+	libelf \
+	libkvm \
+	libpmc \
+	libpmcstat \
+	msun \
+	ncurses \
+	ncurses.tinfo

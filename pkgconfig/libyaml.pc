@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: libyaml
+Description: C library for parsing and emitting YAML
+URL: https://pyyaml.org/wiki/LibYAML
+Version: 0.2.5
+License: Could not parse value
+Source: https://github.com/yaml/libyaml/tree/0.2.5

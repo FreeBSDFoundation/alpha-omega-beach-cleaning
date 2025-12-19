@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: grep
 Description: File pattern searcher
 URL: https://man.freebsd.org/cgi/man.cgi?query=grep(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/grep
-Requires: csu, libbz2, libc, libcompiler\_rt, libregex, libz
+Source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+Requires: csu \
+	bzip2 \
+	libc \
+	libcompiler_rt \
+	libregex \
+	zlib

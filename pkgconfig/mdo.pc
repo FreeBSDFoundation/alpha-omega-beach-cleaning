@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mdo
 Description: Execute commands as another user
 URL: https://man.freebsd.org/cgi/man.cgi?query=mdo(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mdo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/mdo

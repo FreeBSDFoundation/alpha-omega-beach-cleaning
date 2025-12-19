@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: tftpd
 Description: Internet Trivial File Transfer Protocol server
 URL: https://man.freebsd.org/cgi/man.cgi?query=tftpd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/tftpd
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/libexec/tftpd
+Requires: csu \
+	libc \
+	libcompiler_rt

@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: uniq
 Description: Report or filter out repeated lines in a file
 URL: https://man.freebsd.org/cgi/man.cgi?query=uniq(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/uniq
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/uniq
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt

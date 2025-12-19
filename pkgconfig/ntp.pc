@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: ntp
+Description: Network Time Protocol (NTP)
+URL: https://www.ntp.org
+Version: 4.2.8p18
+License: Could not parse value
+Source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz

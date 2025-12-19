@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: llvm-objcopy
 Description: Object copying and editing tool
 URL: https://llvm.org

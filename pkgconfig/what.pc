@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: what
 Description: Show what versions of object modules were used to construct a file
 URL: https://man.freebsd.org/cgi/man.cgi?query=what(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/what
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/what
+Requires: csu \
+	libc \
+	libcompiler_rt

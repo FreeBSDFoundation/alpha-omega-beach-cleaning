@@ -1,7 +1,17 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: llvm-ranlib
 Description: Generates an archive index
 URL: https://llvm.org
 Version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
 License: Apache-2.0
 Source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
-Requires: csu, libllvm, libc, libc++, libcompiler\_rt, libcxxrt, libthr, libz, msun, ncursesw
+Requires: csu \
+	libllvm \
+	libc \
+	libc++ \
+	libcompiler_rt \
+	libcxxrt \
+	libthr \
+	zlib \
+	msun \
+	ncurses.ncursesw

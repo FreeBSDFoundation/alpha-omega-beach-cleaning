@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: athk
 Description: Common code for ath1?k drivers
 URL: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
 Version: 6.5
+License: Could not parse value
 Source: https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git/
-Maintainer: bz@

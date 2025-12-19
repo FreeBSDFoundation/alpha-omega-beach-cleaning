@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: newfs
 Description: Construct a new UFS1/UFS2 file system
 URL: https://man.freebsd.org/cgi/man.cgi?query=newfs(8)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/newfs
-Requires: csu, libc, libcompiler\_rt, libufs, libutil
+Source: https://cgit.freebsd.org/src/tree/sbin/newfs
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libufs \
+	libutil

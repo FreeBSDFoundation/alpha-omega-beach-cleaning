@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: libevent
 Description: API provides a mechanism to execute a callback function when a specific event occurs on a file descriptor or after a timeout has been reached
 URL: https://libevent.org
 Version: 2.1.12
 License: BSD-3-Clause AND 0BSD AND MIT
 Source: https://github.com/libevent/libevent/tree/release-2.1.12-stable
-Maintainer: cy@, emaste@

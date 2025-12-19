@@ -1,7 +1,12 @@
-Name: pam\_passwdqc
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_passwdqc
 Description: Password quality-control PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_passwdqc(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_passwdqc(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_passwdqc
-Requires: csu, libc, libcompiler\_rt, libcrypt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_passwdqc
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libcrypt \
+	libpam

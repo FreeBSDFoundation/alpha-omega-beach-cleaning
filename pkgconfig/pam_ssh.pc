@@ -1,7 +1,11 @@
-Name: pam\_ssh
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_ssh
 Description: Authentication and session management with SSH private keys
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_ssh(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_ssh(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_ssh
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_ssh
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

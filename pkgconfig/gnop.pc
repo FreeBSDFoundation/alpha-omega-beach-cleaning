@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: gnop
 Description: Control utility for NOP GEOM class
 URL: https://man.freebsd.org/cgi/man.cgi?query=gnop(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gnop
-Requires: csu, libc, libcompiler\_rt, libgeom
+Source: https://cgit.freebsd.org/src/tree/lib/geom/nop
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libgeom

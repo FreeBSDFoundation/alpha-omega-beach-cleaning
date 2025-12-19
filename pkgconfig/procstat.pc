@@ -1,7 +1,14 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: procstat
 Description: Get detailed process information
 URL: https://man.freebsd.org/cgi/man.cgi?query=procstat(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/procstat
-Requires: csu, libc, libcompiler\_rt, libprocstat, libsbuf, libutil, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/procstat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libprocstat \
+	libsbuf \
+	libutil \
+	libxo

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: fuser
 Description: List IDs of all processes that have one or more files open
 URL: https://man.freebsd.org/cgi/man.cgi?query=fuser(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/fuser
-Requires: csu, libc, libcompiler\_rt, libprocstat
+Source: https://cgit.freebsd.org/src/tree/usr.bin/fstat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libprocstat

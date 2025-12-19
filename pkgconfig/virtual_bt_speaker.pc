@@ -1,6 +1,7 @@
-Name: virtual\_bt\_speaker
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: virtual_bt_speaker
 Description: Virtual bluetooth speaker
-URL: https://man.freebsd.org/cgi/man.cgi?query=virtual\_bt\_speaker(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=virtual_bt_speaker(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/virtual\_bt\_speaker
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/virtual_oss/virtual_bt_speaker

@@ -1,5 +1,7 @@
-Name: bionic-x86\_64-string
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: bionic-x86_64-string
 Description: Android's C library, math library, and dynamic linker
 URL: https://android.googlesource.com/platform/bionic
-Version:
-Maintainer: emaste@
+Version: unknown
+License: Could not parse value
+Source: Could not parse value

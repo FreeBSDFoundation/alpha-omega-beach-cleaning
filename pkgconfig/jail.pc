@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: jail
 Description: Manage system jails
 URL: https://man.freebsd.org/cgi/man.cgi?query=jail(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/jail
-Requires: csu, libc, libcompiler\_rt, libjail, libkvm, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/jail
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libjail \
+	libkvm \
+	libutil

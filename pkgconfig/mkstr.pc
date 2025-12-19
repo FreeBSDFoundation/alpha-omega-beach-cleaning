@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mkstr
 Description: Create an error message file by massaging C source
 URL: https://man.freebsd.org/cgi/man.cgi?query=mkstr(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mkstr
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/mkstr
+Requires: csu \
+	libc \
+	libcompiler_rt

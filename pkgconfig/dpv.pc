@@ -1,7 +1,14 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: dpv
 Description: Stream data from stdin or multiple paths with dialog progress view
 URL: https://man.freebsd.org/cgi/man.cgi?query=dpv(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/dpv
-Requires: csu, libc, libcompiler\_rt, libdpv, libfigpar, msun, tinfo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/dpv
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libdpv \
+	libfigpar \
+	msun \
+	ncurses.tinfo

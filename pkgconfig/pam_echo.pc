@@ -1,7 +1,11 @@
-Name: pam\_echo
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_echo
 Description: Echo PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_echo(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_echo(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_echo
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_echo
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

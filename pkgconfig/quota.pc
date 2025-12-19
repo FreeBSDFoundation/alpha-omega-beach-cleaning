@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: quota
 Description: Display disk usage and limits
 URL: https://man.freebsd.org/cgi/man.cgi?query=quota(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/quota
-Requires: csu, libc, libcompiler\_rt, librpcsvc, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.bin/quota
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	librpcsvc \
+	libutil

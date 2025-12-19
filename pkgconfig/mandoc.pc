@@ -1,5 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mandoc
 Description: UNIX manpage compiler toolset
 URL: https://mandoc.bsd.lv
 Version: 2025-09-26
-Maintainer: bapt@, ziaee@
+License: Could not parse value
+Source: Could not parse value

@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: sleep
 Description: Suspend execution for an interval of time
 URL: https://man.freebsd.org/cgi/man.cgi?query=sleep(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/sleep
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, msun
+Source: https://cgit.freebsd.org/src/tree/bin/sleep
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	msun

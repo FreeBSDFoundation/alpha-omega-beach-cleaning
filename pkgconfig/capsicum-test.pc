@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: capsicum-test
 Description: Practical capabilities for UNIX
 URL: https://www.cl.cam.ac.uk/research/security/capsicum/
-Version:
+Version: unknown
 License: BSD-2-Clause
-Maintainer: arichardson@, ngie@
+Source: Could not parse value

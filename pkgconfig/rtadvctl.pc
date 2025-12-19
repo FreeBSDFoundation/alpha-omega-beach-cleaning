@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rtadvctl
 Description: Control program for rtadvd(8) daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=rtadvctl(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rtadvctl
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rtadvctl
+Requires: csu \
+	libc \
+	libcompiler_rt

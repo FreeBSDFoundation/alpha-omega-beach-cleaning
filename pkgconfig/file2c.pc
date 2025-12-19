@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: file2c
 Description: Convert file to c-source
 URL: https://man.freebsd.org/cgi/man.cgi?query=file2c(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/file2c
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/file2c
+Requires: csu \
+	libc \
+	libcompiler_rt

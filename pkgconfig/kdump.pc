@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: kdump
 Description: Display kernel trace data
 URL: https://man.freebsd.org/cgi/man.cgi?query=kdump(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/kdump
-Requires: csu, libc, libcapsicum, libcompiler\_rt, libsysdecode
+Source: https://cgit.freebsd.org/src/tree/usr.bin/kdump
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcompiler_rt \
+	libsysdecode

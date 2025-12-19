@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nfscbd
 Description: NFSv4 client side callback daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=nfscbd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nfscbd
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nfscbd
+Requires: csu \
+	libc \
+	libcompiler_rt

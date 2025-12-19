@@ -1,7 +1,11 @@
-Name: hostapd\_cli
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: hostapd_cli
 Description: Text-based frontend program for interacting with hostapd(8)
-URL: https://man.freebsd.org/cgi/man.cgi?query=hostapd\_cli(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=hostapd_cli(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/hostapd\_cli
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/hostapd_cli
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

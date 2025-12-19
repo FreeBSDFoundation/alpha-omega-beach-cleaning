@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ipresend
 Description: Resend IP packets out to network
 URL: https://man.freebsd.org/cgi/man.cgi?query=ipresend(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ipresend
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipsend

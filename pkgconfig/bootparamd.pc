@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bootparamd
 Description: Boot parameter server
 URL: https://man.freebsd.org/cgi/man.cgi?query=bootparamd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bootparamd
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bootparamd/bootparamd
+Requires: csu \
+	libc \
+	libcompiler_rt

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: apply
 Description: Apply a command to a set of arguments
 URL: https://man.freebsd.org/cgi/man.cgi?query=apply(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/apply
-Requires: csu, libc, libcompiler\_rt, libsbuf
+Source: https://cgit.freebsd.org/src/tree/usr.bin/apply
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libsbuf

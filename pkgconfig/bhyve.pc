@@ -1,7 +1,21 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bhyve
 Description: Run a guest operating system inside a virtual machine
 URL: https://man.freebsd.org/cgi/man.cgi?query=bhyve(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/bhyve
-Requires: csu, lib9p, libc, libcam, libcapsicum, libcasper, libcompiler\_rt, libnetgraph, libnv, libsbuf, libthr, libutil, libvmmapi, libz
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bhyve
+Requires: csu \
+	lib9p \
+	libc \
+	libcam \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	libnetgraph \
+	libnv \
+	libsbuf \
+	libthr \
+	libutil \
+	libvmmapi \
+	zlib

@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: genl
 Description: Generic netlink
 URL: https://man.freebsd.org/cgi/man.cgi?query=genl(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/genl
+Source: https://cgit.freebsd.org/src/tree/usr.bin/genl

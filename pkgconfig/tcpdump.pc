@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: tcpdump
 Description: Powerful command-line packet analyzer
 URL: https://www.tcpdump.org
@@ -5,4 +6,3 @@ Version: 4.99.5
 License: BSD-3-Clause
 Source: https://fossies.org/linux/misc/tcpdump-4.99.5.tar.gz
 Requires: libpcap
-Maintainer: cy@, emaste@, jrm@

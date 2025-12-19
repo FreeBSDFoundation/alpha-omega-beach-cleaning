@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: kldconfig
 Description: Display or modify the kernel module search path
 URL: https://man.freebsd.org/cgi/man.cgi?query=kldconfig(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/kldconfig
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/kldconfig
+Requires: csu \
+	libc \
+	libcompiler_rt

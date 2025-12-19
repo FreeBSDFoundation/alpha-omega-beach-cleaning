@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mlx5tool
 Description: Utility for managing Connect-X 4/5/6 Mellanox network adapters
 URL: https://man.freebsd.org/cgi/man.cgi?query=mlx5tool(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mlx5tool
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/mlx5tool
+Requires: csu \
+	libc \
+	libcompiler_rt

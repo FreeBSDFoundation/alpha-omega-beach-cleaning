@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: paste
 Description: Merge corresponding or subsequent lines of files
 URL: https://man.freebsd.org/cgi/man.cgi?query=paste(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/paste
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/paste
+Requires: csu \
+	libc \
+	libcompiler_rt

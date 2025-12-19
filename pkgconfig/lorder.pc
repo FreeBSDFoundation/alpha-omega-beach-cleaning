@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: lorder
 Description: List dependencies for object files
 URL: https://man.freebsd.org/cgi/man.cgi?query=lorder(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lorder
+Source: https://cgit.freebsd.org/src/tree/usr.bin/lorder

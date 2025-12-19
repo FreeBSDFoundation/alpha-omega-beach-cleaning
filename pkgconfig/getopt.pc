@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: getopt
 Description: Parse command options
 URL: https://man.freebsd.org/cgi/man.cgi?query=getopt(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/getopt
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/getopt
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt

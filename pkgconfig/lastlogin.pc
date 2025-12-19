@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: lastlogin
 Description: Indicate last login time of users
 URL: https://man.freebsd.org/cgi/man.cgi?query=lastlogin(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lastlogin
-Requires: csu, libc, libcompiler\_rt, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/lastlogin
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libxo

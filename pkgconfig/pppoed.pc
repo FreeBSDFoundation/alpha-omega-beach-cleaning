@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pppoed
 Description: Handle incoming PPP over Ethernet connections
 URL: https://man.freebsd.org/cgi/man.cgi?query=pppoed(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pppoed
-Requires: csu, libc, libcompiler\_rt, libnetgraph
+Source: https://cgit.freebsd.org/src/tree/libexec/pppoed
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libnetgraph

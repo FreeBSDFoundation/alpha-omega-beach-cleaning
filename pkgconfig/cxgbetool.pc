@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: cxgbetool
 Description: Userspace companion to Chelsio cxgbe Ethernet driver
 URL: https://man.freebsd.org/cgi/man.cgi?query=cxgbetool(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/cxgbetool
-Requires: csu, libc, libcompiler\_rt, libpcap
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/cxgbetool
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpcap

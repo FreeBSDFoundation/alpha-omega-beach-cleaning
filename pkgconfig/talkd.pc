@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: talkd
 Description: Remote user communication server
 URL: https://man.freebsd.org/cgi/man.cgi?query=talkd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/talkd
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/libexec/talkd
+Requires: csu \
+	libc \
+	libcompiler_rt

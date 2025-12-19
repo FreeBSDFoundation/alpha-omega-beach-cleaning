@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ippool
 Description: User interface to the IPFilter pools
 URL: https://man.freebsd.org/cgi/man.cgi?query=ippool(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ippool
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ippool
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

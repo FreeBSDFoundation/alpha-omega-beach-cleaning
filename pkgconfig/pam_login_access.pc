@@ -1,7 +1,11 @@
-Name: pam\_login\_access
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_login_access
 Description: Login.access PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_login\_access(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_login_access(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_login\_access
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_login_access
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

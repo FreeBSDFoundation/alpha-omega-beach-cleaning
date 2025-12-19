@@ -1,7 +1,12 @@
-Name: pam\_nologin
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_nologin
 Description: NoLogin PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_nologin(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_nologin(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_nologin
-Requires: csu, libc, libcompiler\_rt, libpam, libutil
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_nologin
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam \
+	libutil

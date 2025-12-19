@@ -1,5 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bsnmp
 Description: mini SNMP daemon
 URL: https://people.freebsd.org/~harti/bsnmp/
 Version: 1.14
 License: BSD-2-Clause
+Source: Could not parse value

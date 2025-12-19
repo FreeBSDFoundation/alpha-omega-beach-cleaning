@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: devinfo
 Description: Print information about system device configuration
 URL: https://man.freebsd.org/cgi/man.cgi?query=devinfo(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/devinfo
-Requires: csu, libc, libcompiler\_rt, libdevinfo
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/devinfo
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libdevinfo

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ath3kfw
 Description: Load firmware for Atheros AR3011/AR3012 Bluetooth USB devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=ath3kfw(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ath3kfw
-Requires: csu, libc, libcompiler\_rt, libusb
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/ath3kfw
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libusb

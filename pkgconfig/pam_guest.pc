@@ -1,7 +1,11 @@
-Name: pam\_guest
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_guest
 Description: Guest PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_guest(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_guest(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_guest
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_guest
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

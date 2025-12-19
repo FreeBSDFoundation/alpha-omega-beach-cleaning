@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rctl
 Description: Display and update resource limits database
 URL: https://man.freebsd.org/cgi/man.cgi?query=rctl(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rctl
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.bin/rctl
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

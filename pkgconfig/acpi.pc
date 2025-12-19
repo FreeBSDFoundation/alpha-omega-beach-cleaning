@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: acpi
 Description: The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)
 URL: https://github.com/acpica/acpica
 Version: 20250807
+License: Could not parse value
 Source: https://github.com/acpica/acpica/tree/20250807
-Maintainer: jkim@

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: libcasper.services.cap_fileargs
+Description: Library missing description
+URL: Could not parse value
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_fileargs
+Requires: csu \
+	libc \
+	libcasper \
+	libcompiler_rt \
+	libnv

@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: byacc
 Description: Parser generator designed to be compatible with Yacc
 URL: https://invisible-island.net/byacc/
 Version: 20240109
+License: Could not parse value
 Source: https://invisible-island.net/datafiles/release/byacc.tar.gz
-Maintainer: bapt@, jkim@

@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bhyveload
 Description: Load a FreeBSD guest inside a bhyve virtual machine
 URL: https://man.freebsd.org/cgi/man.cgi?query=bhyveload(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/bhyveload
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, libvmmapi
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bhyveload
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	libvmmapi

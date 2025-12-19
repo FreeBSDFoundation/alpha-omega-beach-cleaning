@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: enigma
 Description: Very simple file encryption
 URL: https://man.freebsd.org/cgi/man.cgi?query=enigma(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/enigma
-Requires: csu, libc, libcompiler\_rt, libcrypt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/enigma
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libcrypt

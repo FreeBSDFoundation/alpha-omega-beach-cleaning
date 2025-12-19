@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mkfifo
 Description: Make fifos
 URL: https://man.freebsd.org/cgi/man.cgi?query=mkfifo(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/mkfifo
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/mkfifo
+Requires: csu \
+	libc \
+	libcompiler_rt

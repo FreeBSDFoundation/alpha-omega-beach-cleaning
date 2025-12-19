@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: googletest
+Description: Google’s C++ testing and mocking framework
+URL: https://google.github.io/googletest/
+Version: 1.15.2
+License: BSD-3-Clause
+Source: https://github.com/google/googletest/releases/tag/v1.15.2

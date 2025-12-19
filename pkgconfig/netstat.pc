@@ -1,7 +1,14 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: netstat
 Description: Show network status and statistics
 URL: https://man.freebsd.org/cgi/man.cgi?query=netstat(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/netstat
-Requires: csu, libc, libcompiler\_rt, libkvm, libmemstat, libutil, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/netstat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm \
+	libmemstat \
+	libutil \
+	libxo

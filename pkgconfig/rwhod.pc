@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rwhod
 Description: System status server
 URL: https://man.freebsd.org/cgi/man.cgi?query=rwhod(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rwhod
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rwhod
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt

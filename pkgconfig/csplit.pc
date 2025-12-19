@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: csplit
 Description: Split files based on context
 URL: https://man.freebsd.org/cgi/man.cgi?query=csplit(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/csplit
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/csplit
+Requires: csu \
+	libc \
+	libcompiler_rt

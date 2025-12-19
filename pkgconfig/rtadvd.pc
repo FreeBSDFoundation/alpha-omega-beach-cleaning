@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rtadvd
 Description: Router advertisement daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=rtadvd(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/rtadvd
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rtadvd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

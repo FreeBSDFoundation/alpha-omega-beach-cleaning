@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: locate.updatedb
 Description: Update locate database
 URL: https://man.freebsd.org/cgi/man.cgi?query=locate.updatedb(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/locate.updatedb
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/locate/locate
+Requires: csu \
+	libc \
+	libcompiler_rt

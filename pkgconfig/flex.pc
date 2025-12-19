@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: flex
 Description: Fast lexical analyzer generator
 URL: https://github.com/westes/flex
 Version: 2.6.4
 License: BSD-2-Clause
 Source: https://github.com/westes/flex/tree/v2.6.4
-Maintainer: jkim@

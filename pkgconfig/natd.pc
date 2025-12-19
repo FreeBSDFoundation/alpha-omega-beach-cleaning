@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: natd
 Description: Network Address Translation daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=natd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/natd
-Requires: csu, libalias, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/natd
+Requires: csu \
+	libalias \
+	libc \
+	libcompiler_rt

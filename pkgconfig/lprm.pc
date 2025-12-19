@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: lprm
 Description: Remove jobs from the line printer spooling queue
 URL: https://man.freebsd.org/cgi/man.cgi?query=lprm(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lprm
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/lpr/lprm
+Requires: csu \
+	libc \
+	libcompiler_rt

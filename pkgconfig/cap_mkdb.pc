@@ -1,7 +1,10 @@
-Name: cap\_mkdb
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: cap_mkdb
 Description: Create capability database
-URL: https://man.freebsd.org/cgi/man.cgi?query=cap\_mkdb(1)
+URL: https://man.freebsd.org/cgi/man.cgi?query=cap_mkdb(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/cap\_mkdb
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/cap_mkdb
+Requires: csu \
+	libc \
+	libcompiler_rt

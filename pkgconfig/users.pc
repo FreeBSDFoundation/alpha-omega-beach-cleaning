@@ -1,7 +1,15 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: users
 Description: List current users
 URL: https://man.freebsd.org/cgi/man.cgi?query=users(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/users
-Requires: csu, libc, libc++, libcapsicum, libcasper, libcompiler\_rt, libcxxrt, msun
+Source: https://cgit.freebsd.org/src/tree/usr.bin/users
+Requires: csu \
+	libc \
+	libc++ \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	libcxxrt \
+	msun

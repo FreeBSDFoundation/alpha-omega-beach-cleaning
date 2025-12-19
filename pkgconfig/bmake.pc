@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bmake
 Description: Program designed to simplify the maintenance of other programs
 URL: https://www.NetBSD.org
 Version: 20250804
 License: BSD-3-Clause
 Source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
-Maintainer: sjg@

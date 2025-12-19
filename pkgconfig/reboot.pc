@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: reboot
 Description: Stopping and restarting the system
 URL: https://man.freebsd.org/cgi/man.cgi?query=reboot(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/reboot
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/reboot
+Requires: csu \
+	libc \
+	libcompiler_rt

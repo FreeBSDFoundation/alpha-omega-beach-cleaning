@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: llvm-dwarfutil
 Description: A tool to copy and manipulate debug info
 URL: https://llvm.org

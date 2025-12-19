@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: libcbor
 Description: CBOR protocol implementation for C
 URL: https://github.com/PJK/libcbor
 Version: 0.11.0
 License: MIT
 Source: https://github.com/PJK/libcbor/tree/v0.11.0
-Maintainer: emaste@

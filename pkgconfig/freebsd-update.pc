@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: freebsd-update
 Description: Fetch and install binary updates to FreeBSD
 URL: https://man.freebsd.org/cgi/man.cgi?query=freebsd-update(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/freebsd-update
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/freebsd-update

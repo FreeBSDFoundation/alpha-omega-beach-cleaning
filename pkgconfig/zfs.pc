@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: zfs
+Description: Open-source storage platform
+URL: https://openzfs.org/wiki/Main_Page
+Version: 2.4.0-rc3
+License: CDDL-1.0
+Source: Could not parse value

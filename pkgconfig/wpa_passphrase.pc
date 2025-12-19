@@ -1,7 +1,11 @@
-Name: wpa\_passphrase
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: wpa_passphrase
 Description: Utility for generating a 256-bit pre-shared WPA key from an ASCII passphrase
-URL: https://man.freebsd.org/cgi/man.cgi?query=wpa\_passphrase(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=wpa_passphrase(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/wpa\_passphrase
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_passphrase
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

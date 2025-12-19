@@ -1,8 +1,8 @@
-Name: wpa\_supplicant
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: wpa_supplicant
 Description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
-URL: https://w1.fi/wpa\_supplicant/
+URL: https://w1.fi/wpa_supplicant/
 Version: 2.11
 License: BSD-3-Clause
 Source: https://w1.fi/releases/hostapd-2.11.tar.gz
-Requires: OpenSSL
-Maintainer: cy@
+Requires: openssl

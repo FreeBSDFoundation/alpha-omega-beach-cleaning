@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: libfido2
 Description: library functionality for FIDO2, including communication with a device over USB or NFC
 URL: https://github.com/Yubico/libfido2
 Version: 1.14.0
 License: BSD-2-Clause
 Source: https://github.com/Yubico/libfido2/tree/1.14.0
-Maintainer: emaste@

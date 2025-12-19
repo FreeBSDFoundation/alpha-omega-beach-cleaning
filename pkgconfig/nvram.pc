@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nvram
 Description: Display or modify contents of the EEPROM or NVRAM
 URL: https://man.freebsd.org/cgi/man.cgi?query=nvram(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nvram
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nvram

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: hcsecd
 Description: Control link keys and PIN codes for Bluetooth devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=hcsecd(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/hcsecd
-Requires: csu, libbluetooth, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/hcsecd
+Requires: csu \
+	libbluetooth \
+	libc \
+	libcompiler_rt

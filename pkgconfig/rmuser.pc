@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rmuser
 Description: Remove users from the system
 URL: https://man.freebsd.org/cgi/man.cgi?query=rmuser(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rmuser
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/adduser

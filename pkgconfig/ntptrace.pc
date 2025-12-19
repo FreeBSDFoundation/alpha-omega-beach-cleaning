@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ntptrace
 Description: Trace peers of an NTP server
 URL: https://man.freebsd.org/cgi/man.cgi?query=ntptrace(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ntptrace
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/ntp/doc

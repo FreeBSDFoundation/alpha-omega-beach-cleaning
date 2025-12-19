@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: backlight
 Description: Configure backlight hardware
 URL: https://man.freebsd.org/cgi/man.cgi?query=backlight(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/backlight
+Source: https://cgit.freebsd.org/src/tree/usr.bin/backlight

@@ -1,7 +1,12 @@
-Name: pam\_radius
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_radius
 Description: RADIUS authentication PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_radius(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_radius(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_radius
-Requires: csu, libc, libcompiler\_rt, libpam, libradius
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_radius
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam \
+	libradius

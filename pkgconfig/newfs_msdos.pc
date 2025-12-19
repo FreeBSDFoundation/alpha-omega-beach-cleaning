@@ -1,7 +1,10 @@
-Name: newfs\_msdos
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: newfs_msdos
 Description: Construct a new MS-DOS (FAT) file system
-URL: https://man.freebsd.org/cgi/man.cgi?query=newfs\_msdos(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=newfs_msdos(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/newfs\_msdos
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/newfs_msdos
+Requires: csu \
+	libc \
+	libcompiler_rt

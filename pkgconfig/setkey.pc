@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: setkey
 Description: Manually manipulate the IPsec SA/SP database
 URL: https://man.freebsd.org/cgi/man.cgi?query=setkey(8)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/setkey
-Requires: csu, libc, libcompiler\_rt, libipsec
+Source: https://cgit.freebsd.org/src/tree/sbin/setkey
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libipsec

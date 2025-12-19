@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: unifdef
 Description: Selectively remove C preprocessor conditionals
 URL: https://dotat.at/prog/unifdef
 Version: 2.12
 License: BSD-2-Clause AND BSD-3-Clause
 Source: https://dotat.at/cgi/git/unifdef.git/tree/3a5ba6f9ecaadef4f3a118b35d0c89233609161d
-Maintainer: des@

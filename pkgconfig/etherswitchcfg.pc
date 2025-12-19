@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: etherswitchcfg
 Description: Configure a built-in Ethernet switch
 URL: https://man.freebsd.org/cgi/man.cgi?query=etherswitchcfg(8)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/etherswitchcfg
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/etherswitchcfg
+Requires: csu \
+	libc \
+	libcompiler_rt

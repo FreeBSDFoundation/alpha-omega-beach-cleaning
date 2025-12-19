@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: unbound
+Description: Validating, recursive, and caching DNS resolver
+URL: https://github.com/NLnetLabs/unbound
+Version: 1.24.1
+License: BSD-3-Clause
+Source: https://github.com/NLnetLabs/unbound/tree/release-1.23.1
+Requires: flex \
+	libexpat \
+	openssl

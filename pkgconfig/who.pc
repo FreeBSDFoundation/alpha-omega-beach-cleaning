@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: who
 Description: Display who is on the system
 URL: https://man.freebsd.org/cgi/man.cgi?query=who(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/who
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/who
+Requires: csu \
+	libc \
+	libcompiler_rt

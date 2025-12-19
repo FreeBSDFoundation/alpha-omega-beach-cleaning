@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: zgrep
 Description: Grep compressed files
 URL: https://man.freebsd.org/cgi/man.cgi?query=zgrep(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/zgrep
-Requires: csu, libbz2, libc, libcompiler\_rt, libregex, libz
+Source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+Requires: csu \
+	bzip2 \
+	libc \
+	libcompiler_rt \
+	libregex \
+	zlib

@@ -1,7 +1,14 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: w
 Description: Display who is logged in and what they are doing
 URL: https://man.freebsd.org/cgi/man.cgi?query=w(1)
 Version: 15.0
 License: BSD-3-Clause AND Apache-2.0 WITH LLVM-exception
-Source: https://cgit.freebsd.org/src/tree/w
-Requires: csu, libc, libcompiler\_rt, libkvm, libsbuf, libutil, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/w
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm \
+	libsbuf \
+	libutil \
+	libxo

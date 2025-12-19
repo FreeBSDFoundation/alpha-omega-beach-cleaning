@@ -1,7 +1,10 @@
-Name: mount\_nullfs
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: mount_nullfs
 Description: Mount a loopback file system sub-tree; demonstrate the use of a null file system layer
-URL: https://man.freebsd.org/cgi/man.cgi?query=mount\_nullfs(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=mount_nullfs(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mount\_nullfs
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/sbin/mount_nullfs
+Requires: csu \
+	libc \
+	libcompiler_rt

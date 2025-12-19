@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: passwd
 Description: Modify a user's password
 URL: https://man.freebsd.org/cgi/man.cgi?query=passwd(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/passwd
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/usr.bin/passwd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rpcinfo
 Description: Report RPC information
 URL: https://man.freebsd.org/cgi/man.cgi?query=rpcinfo(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rpcinfo
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/rpcinfo
+Requires: csu \
+	libc \
+	libcompiler_rt

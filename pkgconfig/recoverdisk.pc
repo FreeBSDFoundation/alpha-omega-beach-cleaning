@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: recoverdisk
 Description: Recover data from disk-like devices.
 URL: https://man.freebsd.org/cgi/man.cgi?query=recoverdisk(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/recoverdisk
-Requires: csu, libc, libcompiler\_rt, msun
+Source: https://cgit.freebsd.org/src/tree/sbin/recoverdisk
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	msun

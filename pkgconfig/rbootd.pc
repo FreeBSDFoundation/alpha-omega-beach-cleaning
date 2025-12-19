@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rbootd
 Description: HP remote boot server
 URL: https://man.freebsd.org/cgi/man.cgi?query=rbootd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rbootd
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/libexec/rbootd
+Requires: csu \
+	libc \
+	libcompiler_rt

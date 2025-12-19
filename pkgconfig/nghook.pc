@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nghook
 Description: Connect to a netgraph(4) node
 URL: https://man.freebsd.org/cgi/man.cgi?query=nghook(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nghook
-Requires: csu, libc, libcompiler\_rt, libnetgraph
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nghook
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libnetgraph

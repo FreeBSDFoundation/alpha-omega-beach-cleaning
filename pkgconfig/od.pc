@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: od
 Description: Octal, decimal, hex, ASCII dump
 URL: https://man.freebsd.org/cgi/man.cgi?query=od(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/od
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/hexdump
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt

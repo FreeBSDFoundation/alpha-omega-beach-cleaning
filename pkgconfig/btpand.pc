@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: btpand
 Description: Bluetooth PAN daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=btpand(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/btpand
-Requires: csu, libbluetooth, libc, libcompiler\_rt, libsdp, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/btpand
+Requires: csu \
+	libbluetooth \
+	libc \
+	libcompiler_rt \
+	libsdp \
+	libutil

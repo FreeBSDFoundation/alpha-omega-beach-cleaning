@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: indent
 Description: Indent and format C program source
 URL: https://man.freebsd.org/cgi/man.cgi?query=indent(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/indent
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/indent
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: lock
 Description: Reserve a terminal
 URL: https://man.freebsd.org/cgi/man.cgi?query=lock(1)
 Version: 15.0
 License: Beerware AND BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/lock
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/usr.bin/lock
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

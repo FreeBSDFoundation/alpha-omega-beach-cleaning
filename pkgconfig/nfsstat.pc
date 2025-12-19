@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: nfsstat
 Description: Display NFS statistics
 URL: https://man.freebsd.org/cgi/man.cgi?query=nfsstat(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nfsstat
-Requires: csu, libc, libcompiler\_rt, libdevstat, libkvm, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/nfsstat
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libdevstat \
+	libkvm \
+	libxo

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rpcbind
 Description: Universal addresses to RPC program number mapper
 URL: https://man.freebsd.org/cgi/man.cgi?query=rpcbind(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/rpcbind
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rpcbind
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

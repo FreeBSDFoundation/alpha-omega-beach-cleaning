@@ -1,7 +1,17 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ppp
 Description: Point to Point Protocol (a.k.a. user-ppp)
 URL: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
 Version: 15.0
 License: BSD-4.3TAHOE AND BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/ppp
-Requires: csu, libalias, libc, libcompiler\_rt, libmd, libnetgraph, libpam, libradius, libutil, libz
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/ppp
+Requires: csu \
+	libalias \
+	libc \
+	libcompiler_rt \
+	libmd \
+	libnetgraph \
+	libpam \
+	libradius \
+	libutil \
+	zlib

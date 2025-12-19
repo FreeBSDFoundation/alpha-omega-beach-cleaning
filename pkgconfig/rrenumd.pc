@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rrenumd
 Description: Router renumbering daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=rrenumd(8)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/rrenumd
-Requires: csu, libc, libcompiler\_rt, libipsec
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rrenumd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libipsec

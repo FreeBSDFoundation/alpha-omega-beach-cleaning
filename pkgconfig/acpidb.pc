@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: acpidb
 Description: ACPI DSDT debugger
 URL: https://man.freebsd.org/cgi/man.cgi?query=acpidb(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/acpidb
-Requires: csu, libc, libcompiler\_rt, libthr
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/acpi/acpidb
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libthr

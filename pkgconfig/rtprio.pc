@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rtprio
 Description: Execute, examine or modify a utility's or process's realtime or idletime scheduling priority
 URL: https://man.freebsd.org/cgi/man.cgi?query=rtprio(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rtprio
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rtprio
+Requires: csu \
+	libc \
+	libcompiler_rt

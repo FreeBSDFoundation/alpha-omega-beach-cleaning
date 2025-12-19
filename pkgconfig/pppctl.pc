@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pppctl
 Description: PPP control program
 URL: https://man.freebsd.org/cgi/man.cgi?query=pppctl(8)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/pppctl
-Requires: csu, libc, libcompiler\_rt, libedit, libthr
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/pppctl
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libedit \
+	libthr

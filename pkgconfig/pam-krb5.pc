@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pam-krb5
 Description: Kerberos PAM module
 URL: https://man.freebsd.org/cgi/man.cgi?query=pam-krb5(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam-krb5
-Requires: csu, libc, libcom\_err, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_krb5
+Requires: csu \
+	libc \
+	libcom_err \
+	libcompiler_rt \
+	libpam

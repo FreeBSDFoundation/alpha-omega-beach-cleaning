@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: newgrp
 Description: Change to a new group
 URL: https://man.freebsd.org/cgi/man.cgi?query=newgrp(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/newgrp
-Requires: csu, libc, libcompiler\_rt, libcrypt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.bin/newgrp
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libcrypt \
+	libutil

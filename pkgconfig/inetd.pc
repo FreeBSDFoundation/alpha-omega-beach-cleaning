@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: inetd
 Description: Internet “super-server”
 URL: https://man.freebsd.org/cgi/man.cgi?query=inetd(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/inetd
-Requires: csu, libc, libcompiler\_rt, libipsec, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/inetd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libipsec \
+	libutil

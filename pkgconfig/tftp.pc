@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: tftp
 Description: Trivial file transfer program
 URL: https://man.freebsd.org/cgi/man.cgi?query=tftp(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/tftp
-Requires: csu, libc, libcompiler\_rt, libedit
+Source: https://cgit.freebsd.org/src/tree/usr.bin/tftp
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libedit

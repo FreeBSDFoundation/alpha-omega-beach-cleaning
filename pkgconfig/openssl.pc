@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: openssl
+Description: OpenSSL cryptography library
+URL: https://openssl-library.org
+Version: 3.5.4
+License: Apache-2.0
+Source: https://github.com/openssl/openssl/tree/openssl-3.5.3

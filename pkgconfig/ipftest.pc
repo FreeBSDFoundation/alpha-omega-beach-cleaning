@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ipftest
 Description: Test packet filter rules with arbitrary input.
 URL: https://man.freebsd.org/cgi/man.cgi?query=ipftest(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ipftest
-Requires: csu, libc, libcompiler\_rt, libelf, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipftest
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libelf \
+	libkvm

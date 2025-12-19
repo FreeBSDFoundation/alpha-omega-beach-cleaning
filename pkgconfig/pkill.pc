@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: pkill
 Description: Find or signal processes by name
 URL: https://man.freebsd.org/cgi/man.cgi?query=pkill(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pkill
-Requires: csu, libc, libcompiler\_rt, libjail, libkvm
+Source: https://cgit.freebsd.org/src/tree/bin/pkill
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libjail \
+	libkvm

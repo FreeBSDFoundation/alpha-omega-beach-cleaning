@@ -1,7 +1,11 @@
-Name: mount\_cd9660
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: mount_cd9660
 Description: Mount an ISO-9660 file system
-URL: https://man.freebsd.org/cgi/man.cgi?query=mount\_cd9660(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=mount_cd9660(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mount\_cd9660
-Requires: csu, libc, libcompiler\_rt, libkiconv
+Source: https://cgit.freebsd.org/src/tree/sbin/mount_cd9660
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkiconv

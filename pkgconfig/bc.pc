@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bc
 Description: Implementation of the POSIX bc calculator with GNU extensions and dc
 URL: https://gavinhoward.com/tag/bc/
 Version: 7.1.0
 License: BSD-2-clause
 Source: https://github.com/gavinhoward/bc/tree/7.1.0
-Maintainer: se@

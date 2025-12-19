@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: look
 Description: Display lines beginning with a given string
 URL: https://man.freebsd.org/cgi/man.cgi?query=look(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/look
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/look
+Requires: csu \
+	libc \
+	libcompiler_rt

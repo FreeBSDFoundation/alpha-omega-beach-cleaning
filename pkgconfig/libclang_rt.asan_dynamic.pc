@@ -1,0 +1,15 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: libclang_rt.asan_dynamic
+Description: Library missing description
+URL: Could not parse value
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/lib/libclang_rt/asan_dynamic
+Requires: csu \
+	libc \
+	libc++ \
+	libcompiler_rt \
+	libcxxrt \
+	libmd \
+	msun \
+	ncurses.tinfo

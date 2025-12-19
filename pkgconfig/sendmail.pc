@@ -1,0 +1,8 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: sendmail
+Description: General purpose internetwork email routing application
+URL: https://ftp.sendmail.org
+Version: 8.18.1
+License: Sendmail
+Source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+Requires: openssl

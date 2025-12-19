@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: bhyvectl
 Description: Control utility for bhyve instances
 URL: https://man.freebsd.org/cgi/man.cgi?query=bhyvectl(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/bhyvectl
-Requires: csu, libc, libcompiler\_rt, libutil, libvmmapi
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bhyvectl
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil \
+	libvmmapi

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: autounmountd
 Description: Daemon unmounting automounted filesystems
 URL: https://man.freebsd.org/cgi/man.cgi?query=autounmountd(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/autounmountd
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/autofs
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

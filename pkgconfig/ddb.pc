@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ddb
 Description: Configure DDB kernel debugger properties
 URL: https://man.freebsd.org/cgi/man.cgi?query=ddb(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/ddb
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/ddb
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

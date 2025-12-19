@@ -1,7 +1,15 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: hastd
 Description: Highly Available Storage daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/hastd
-Requires: csu, libc, libcompiler\_rt, libgeom, libmd, libthr, libutil, libz
+Source: https://cgit.freebsd.org/src/tree/sbin/hastd
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libgeom \
+	libmd \
+	libthr \
+	libutil \
+	zlib

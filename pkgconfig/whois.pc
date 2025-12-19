@@ -1,7 +1,10 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: whois
 Description: Internet domain name and network number directory service
 URL: https://man.freebsd.org/cgi/man.cgi?query=whois(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/whois
-Requires: csu, libc, libcompiler\_rt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/whois
+Requires: csu \
+	libc \
+	libcompiler_rt

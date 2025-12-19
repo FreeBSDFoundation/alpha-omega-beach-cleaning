@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: mailwrapper
 Description: Invoke appropriate MTA software based on configuration file
 URL: https://man.freebsd.org/cgi/man.cgi?query=mailwrapper(8)
 Version: 15.0
 License: BSD-4-Clause
-Source: https://cgit.freebsd.org/src/tree/mailwrapper
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/mailwrapper
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

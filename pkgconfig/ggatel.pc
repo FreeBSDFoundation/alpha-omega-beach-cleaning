@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ggatel
 Description: GEOM Gate local control utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=ggatel(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ggatel
-Requires: csu, libc, libcompiler\_rt, libgeom, libutil
+Source: https://cgit.freebsd.org/src/tree/sbin/ggate/ggatel
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libgeom \
+	libutil

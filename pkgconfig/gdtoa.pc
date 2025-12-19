@@ -1,5 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: gdtoa
 Description: Library of binary -> decimal and decimal -> binary conversion routines
 URL: https://www.netlib.org/fp/
 Version: 20110304
 License: SMLNJ
+Source: Could not parse value

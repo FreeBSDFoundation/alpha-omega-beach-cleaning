@@ -1,7 +1,11 @@
-Name: pam\_securetty
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: pam_securetty
 Description: SecureTTY PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_securetty(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_securetty(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_securetty
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_securetty
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libpam

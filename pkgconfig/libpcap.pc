@@ -1,7 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: libpcap
 Description: Platform-independent network traffic capture library
 URL: https://www.tcpdump.org
 Version: 1.10.5
 License: BSD-3-Clause
 Source: https://www.tcpdump.org/release/libpcap-1.10.5.tar.xz
-Maintainer: cy@, jrm@

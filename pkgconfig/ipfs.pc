@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ipfs
 Description: Saves and restores information for NAT and state tables.
 URL: https://man.freebsd.org/cgi/man.cgi?query=ipfs(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ipfs
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipfs
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: fetch
 Description: Retrieve a file by Uniform Resource Locator
 URL: https://man.freebsd.org/cgi/man.cgi?query=fetch(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/fetch
-Requires: csu, libc, libcompiler\_rt, libfetch
+Source: https://cgit.freebsd.org/src/tree/usr.bin/fetch
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libfetch

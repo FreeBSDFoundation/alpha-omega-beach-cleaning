@@ -1,6 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: wlanstat
 Description: Query 802.11 wireless network statistics
 URL: https://man.freebsd.org/cgi/man.cgi?query=wlanstat(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/wlanstat
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wlanstat

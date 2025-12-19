@@ -1,0 +1,7 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: wireguard
+Description: Tools for configuring WireGuard
+URL: https://git.zx2c4.com/wireguard-tools/
+Version: 1.0.20250521
+License: GPL-2.0
+Source: https://git.zx2c4.com/wireguard-tools/tag/?h=v1.0.20250521

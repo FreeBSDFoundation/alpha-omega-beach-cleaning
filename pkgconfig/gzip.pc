@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: gzip
 Description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
 URL: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gzip
-Requires: csu, libc, libcompiler\_rt, liblzma, libz, libzstd
+Source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	liblzma \
+	zlib \
+	zstd

@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: ncal
 Description: Displays a calendar and the date of Easter
 URL: https://man.freebsd.org/cgi/man.cgi?query=ncal(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/ncal
-Requires: csu, libc, libcalendar, libcompiler\_rt, tinfo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/ncal
+Requires: csu \
+	libc \
+	libcalendar \
+	libcompiler_rt \
+	ncurses.tinfo

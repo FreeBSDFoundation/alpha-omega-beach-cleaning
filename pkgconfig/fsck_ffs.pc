@@ -1,7 +1,11 @@
-Name: fsck\_ffs
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: fsck_ffs
 Description: File system consistency check and interactive repair
-URL: https://man.freebsd.org/cgi/man.cgi?query=fsck\_ffs(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=fsck_ffs(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/fsck\_ffs
-Requires: csu, libc, libcompiler\_rt, libufs
+Source: https://cgit.freebsd.org/src/tree/sbin/fsck_ffs
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libufs

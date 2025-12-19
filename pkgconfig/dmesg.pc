@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: dmesg
 Description: Display the system message buffer
 URL: https://man.freebsd.org/cgi/man.cgi?query=dmesg(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/dmesg
-Requires: csu, libc, libcompiler\_rt, libkvm
+Source: https://cgit.freebsd.org/src/tree/sbin/dmesg
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libkvm

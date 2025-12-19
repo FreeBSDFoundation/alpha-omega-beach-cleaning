@@ -1,7 +1,11 @@
-Name: clear\_locks
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
+Name: clear_locks
 Description: Clear locks held on behalf of an NFS client
-URL: https://man.freebsd.org/cgi/man.cgi?query=clear\_locks(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=clear_locks(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/clear\_locks
-Requires: csu, libc, libcompiler\_rt, librpcsvc
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/clear_locks
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	librpcsvc

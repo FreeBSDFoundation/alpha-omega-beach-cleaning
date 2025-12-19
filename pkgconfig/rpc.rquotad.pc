@@ -1,7 +1,12 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: rpc.rquotad
 Description: Remote quota server
 URL: https://man.freebsd.org/cgi/man.cgi?query=rpc.rquotad(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rpc.rquotad
-Requires: csu, libc, libcompiler\_rt, librpcsvc, libutil
+Source: https://cgit.freebsd.org/src/tree/libexec/rpc.rquotad
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	librpcsvc \
+	libutil

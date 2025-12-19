@@ -1,7 +1,16 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: camdd
 Description: CAM data transfer utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=camdd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/camdd
-Requires: csu, libc, libcam, libcompiler\_rt, libexpat, libmt, libthr, libutil, libz
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/camdd
+Requires: csu \
+	libc \
+	libcam \
+	libcompiler_rt \
+	libexpat \
+	libmt \
+	libthr \
+	libutil \
+	zlib

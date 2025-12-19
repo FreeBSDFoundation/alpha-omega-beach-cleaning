@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: diskinfo
 Description: Get information about disk device
 URL: https://man.freebsd.org/cgi/man.cgi?query=diskinfo(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/diskinfo
-Requires: csu, libc, libcompiler\_rt, libutil
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/diskinfo
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libutil

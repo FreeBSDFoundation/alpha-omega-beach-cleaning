@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: route
 Description: Manually manipulate the routing tables
 URL: https://man.freebsd.org/cgi/man.cgi?query=route(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/route
-Requires: csu, libc, libcompiler\_rt, libjail
+Source: https://cgit.freebsd.org/src/tree/sbin/route
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libjail

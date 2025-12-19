@@ -1,7 +1,11 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: usbhidaction
 Description: Perform actions according to USB HID controls
 URL: https://man.freebsd.org/cgi/man.cgi?query=usbhidaction(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/usbhidaction
-Requires: csu, libc, libcompiler\_rt, libusbhid
+Source: https://cgit.freebsd.org/src/tree/usr.bin/usbhidaction
+Requires: csu \
+	libc \
+	libcompiler_rt \
+	libusbhid

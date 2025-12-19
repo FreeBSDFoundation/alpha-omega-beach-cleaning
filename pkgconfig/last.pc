@@ -1,7 +1,13 @@
+# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM
 Name: last
 Description: Indicate last logins of users and ttys
 URL: https://man.freebsd.org/cgi/man.cgi?query=last(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/last
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt, libxo
+Source: https://cgit.freebsd.org/src/tree/usr.bin/last
+Requires: csu \
+	libc \
+	libcapsicum \
+	libcasper \
+	libcompiler_rt \
+	libxo
