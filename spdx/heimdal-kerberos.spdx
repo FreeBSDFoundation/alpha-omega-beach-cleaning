@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-heimdal-kerberosC641.5.2
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: heimdal-kerberos@1.5.2
+
+PackageName: heimdal-kerberos@1.5.2
+SPDXID: SPDXRef-Package-heimdal-kerberosC641.5.2
+PackageVersion: 1.5.2
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.heimdal.software
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-heimdal-kerberosC641.5.2
