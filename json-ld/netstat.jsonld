@@ -1,0 +1,770 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:25Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+            "simplelicensing_licenseExpression": "NOASSERTION"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-2-Clause"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/netstat",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/netstat"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libkvm",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libmemstat",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libxo",
+                "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "name": "netstat",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libkvm",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libkvm"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libmemstat",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libmemstat"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libutil",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libutil"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libxo",
+            "from": "https://github.com/pkgconf/pkgconf/Package/netstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libxo"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "name": "csu",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "name": "libc",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "14.3"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "name": "libcompiler_rt",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libkvm",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libkvm"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libelf",
+                "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "name": "libkvm",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libelf",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libkvm",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libelf"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libelf",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libelf"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "name": "libelf",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libelf",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libmemstat",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libmemstat"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libkvm",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "name": "libmemstat",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libkvm",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libkvm"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libutil"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "name": "libutil",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libxo",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libxo"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libxo",
+            "name": "libxo",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "1.4.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libxo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libxo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/netstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libkvm",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libelf",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libmemstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libxo"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libkvm",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libmemstat",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Releationship/netstat/dependsOn/libxo",
+                "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/netstat/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libkvm/dependsOn/libelf",
+                "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libkvm/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libelf/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libelf/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmemstat/dependsOn/libkvm",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmemstat/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libxo/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/netstat",
+                "https://github.com/pkgconf/pkgconf/Package/netstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/Package/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/Package/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libkvm",
+                "https://github.com/pkgconf/pkgconf/Package/libkvm",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libelf",
+                "https://github.com/pkgconf/pkgconf/Package/libelf",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libmemstat",
+                "https://github.com/pkgconf/pkgconf/Package/libmemstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+                "https://github.com/pkgconf/pkgconf/Package/libutil",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libxo",
+                "https://github.com/pkgconf/pkgconf/Package/libxo"
+            ]
+        }
+    ]
+}
+

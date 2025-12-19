@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:38Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+            "simplelicensing_licenseExpression": "Could not parse value"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/mandoc",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/mandoc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/mandoc",
+            "name": "mandoc",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "2025-09-26"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/mandoc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/mandoc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/mandoc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+                "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/mandoc/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/mandoc",
+                "https://github.com/pkgconf/pkgconf/Package/mandoc"
+            ]
+        }
+    ]
+}
+

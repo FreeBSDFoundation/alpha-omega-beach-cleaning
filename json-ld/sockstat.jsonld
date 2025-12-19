@@ -1,0 +1,1144 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:30Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-2-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+            "simplelicensing_licenseExpression": "NOASSERTION"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/sockstat",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/sockstat"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcapsicum",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_net",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_netdb",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_pwd",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_sysctl",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libjail",
+                "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "name": "sockstat",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcapsicum",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcapsicum"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_net",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_netdb",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_pwd",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_sysctl",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libjail",
+            "from": "https://github.com/pkgconf/pkgconf/Package/sockstat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libjail"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "name": "csu",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "name": "libc",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "14.3"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcapsicum",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcapsicum"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcapsicum",
+            "name": "libcapsicum",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcapsicum",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcapsicum",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "name": "libcasper",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libnv",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "name": "libcompiler_rt",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libnv",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "name": "libnv",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libnv",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_net",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "name": "libcasper.services.cap_net",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcasper",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libnv",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_netdb",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "name": "libcasper.services.cap_netdb",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcasper",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libnv",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_pwd",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "name": "libcasper.services.cap_pwd",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcasper",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libnv",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_sysctl",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "name": "libcasper.services.cap_sysctl",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcasper",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcasper"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libnv",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libnv"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libjail",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libjail"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "name": "libjail",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libjail",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/sockstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcapsicum",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libnv",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_net",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_netdb",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_pwd",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_sysctl",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libjail"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcapsicum",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_net",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_netdb",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_pwd",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcasper.services.cap_sysctl",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/sockstat/dependsOn/libjail",
+                "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/sockstat/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcapsicum/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libnv/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libnv/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_net/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_net/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_netdb/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_netdb/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_pwd/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_pwd/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcasper",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcasper.services.cap_sysctl/dependsOn/libnv",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcasper.services.cap_sysctl/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libjail/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libjail/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/sockstat",
+                "https://github.com/pkgconf/pkgconf/Package/sockstat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/Package/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/Package/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcapsicum",
+                "https://github.com/pkgconf/pkgconf/Package/libcapsicum",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper",
+                "https://github.com/pkgconf/pkgconf/Package/libcasper",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libnv",
+                "https://github.com/pkgconf/pkgconf/Package/libnv",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_net",
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_net",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_netdb",
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_netdb",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_pwd",
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_pwd",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcasper.services.cap_sysctl",
+                "https://github.com/pkgconf/pkgconf/Package/libcasper.services.cap_sysctl",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libjail",
+                "https://github.com/pkgconf/pkgconf/Package/libjail"
+            ]
+        }
+    ]
+}
+

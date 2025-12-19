@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:25Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/bzip2-1.0.6",
+            "simplelicensing_licenseExpression": "bzip2-1.0.6"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/bzip2",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/bzip2"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/bzip2",
+            "name": "bzip2",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "1.0.8"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/bzip2",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/bzip2-1.0.6"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/bzip2",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/bzip2-1.0.6"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/bzip2"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/bzip2-1.0.6",
+                "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/bzip2/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/bzip2",
+                "https://github.com/pkgconf/pkgconf/Package/bzip2"
+            ]
+        }
+    ]
+}
+

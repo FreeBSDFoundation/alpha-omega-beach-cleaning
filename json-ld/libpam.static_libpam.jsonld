@@ -1,0 +1,3174 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:38Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+            "simplelicensing_licenseExpression": "NOASSERTION"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libpam.static_libpam",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_chroot",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_deny",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_echo",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_exec",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ftpusers",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_group",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_guest",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_krb5",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ksu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_lastlog",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_login_access",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_nologin",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_passwdqc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_permit",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_radius",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_rootok",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_self",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ssh",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_tacplus",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_unix",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "name": "libpam.static_libpam",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_chroot",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_chroot"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_deny",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_deny"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_echo",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_echo"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_exec",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_exec"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ftpusers",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_group",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_group"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_guest",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_guest"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_krb5",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_krb5"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ksu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ksu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_lastlog",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_lastlog"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_login_access",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_login_access"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_nologin",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_nologin"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_passwdqc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_permit",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_permit"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_radius",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_radius"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_rootok",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_rootok"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_self",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_self"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ssh",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ssh"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_tacplus",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_tacplus"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_unix",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_unix"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_chroot",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_chroot"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "name": "pam_chroot",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "name": "csu",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/csu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "name": "libc",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "14.3"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "name": "libcompiler_rt",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libpam",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "name": "libpam",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libpam",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_deny",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_deny"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "name": "pam_deny",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_echo",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_echo"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "name": "pam_echo",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_exec",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_exec"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "name": "pam_exec",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ftpusers",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "name": "pam_ftpusers",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_group",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_group"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "name": "pam_group",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_group",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_guest",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_guest"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "name": "pam_guest",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_krb5",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_krb5"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcom_err",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "name": "pam_krb5",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcom_err",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcom_err"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcom_err",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcom_err"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "name": "libcom_err",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ksu",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ksu"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "name": "pam_ksu",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_lastlog",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_lastlog"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "name": "pam_lastlog",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_login_access",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_login_access"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "name": "pam_login_access",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_nologin",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_nologin"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "name": "pam_nologin",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libutil",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libutil"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libutil"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "name": "libutil",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libutil",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_passwdqc",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcrypt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "name": "pam_passwdqc",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcrypt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcrypt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcrypt",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcrypt"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "name": "libcrypt",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_permit",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_permit"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "name": "pam_permit",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_radius",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_radius"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libradius",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "name": "pam_radius",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libradius",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libradius"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libradius",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libradius"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "name": "libradius",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libradius",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_rootok",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_rootok"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "name": "pam_rootok",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_self",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_self"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "name": "pam_self",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_self",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ssh",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_ssh"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "name": "pam_ssh",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_tacplus",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_tacplus"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libtacplus",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "name": "pam_tacplus",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libtacplus",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libtacplus"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libtacplus",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libtacplus"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libmd",
+                "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "name": "libtacplus",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libmd",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libmd"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libmd",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libmd"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "name": "libmd",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libmd",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/pam_unix",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/pam_unix"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcrypt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "name": "pam_unix",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "15.0"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/csu",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/csu"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libc",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libc"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcompiler_rt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcrypt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcrypt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libpam",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libpam"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libutil",
+            "from": "https://github.com/pkgconf/pkgconf/Package/pam_unix",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libutil"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libpam.static_libpam",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_chroot",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libpam",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_deny",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_echo",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_exec",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ftpusers",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_group",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_guest",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_krb5",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcom_err",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ksu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_lastlog",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_login_access",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_nologin",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_passwdqc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcrypt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_permit",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_radius",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libradius",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_rootok",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_self",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ssh",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_tacplus",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libtacplus",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libmd",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_unix"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_chroot",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_deny",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_echo",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_exec",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ftpusers",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_group",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_guest",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_krb5",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ksu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_lastlog",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_login_access",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_nologin",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_passwdqc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_permit",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_radius",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_rootok",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_self",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_ssh",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_tacplus",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam.static_libpam/dependsOn/pam_unix",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam.static_libpam/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_chroot/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_chroot/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/csu/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcompiler_rt/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libpam/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libpam/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_deny/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_deny/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_echo/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_echo/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_exec/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_exec/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ftpusers/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ftpusers/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_group/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_group/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_guest/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_guest/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcom_err",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_krb5/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_krb5/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcom_err/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcom_err/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ksu/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ksu/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_lastlog/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_lastlog/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_login_access/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_login_access/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_nologin/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_nologin/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libutil/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libutil/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libcrypt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_passwdqc/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_passwdqc/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libcrypt/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcrypt/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_permit/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_permit/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_radius/dependsOn/libradius",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_radius/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libradius/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libradius/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_rootok/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_rootok/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_self/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_self/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_ssh/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_ssh/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_tacplus/dependsOn/libtacplus",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_tacplus/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/libtacplus/dependsOn/libmd",
+                "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libtacplus/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/libmd/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libmd/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/csu",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libc",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libcrypt",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libpam",
+                "https://github.com/pkgconf/pkgconf/Releationship/pam_unix/dependsOn/libutil",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/pam_unix/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libpam.static_libpam",
+                "https://github.com/pkgconf/pkgconf/Package/libpam.static_libpam",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_chroot",
+                "https://github.com/pkgconf/pkgconf/Package/pam_chroot",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/csu",
+                "https://github.com/pkgconf/pkgconf/Package/csu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libc",
+                "https://github.com/pkgconf/pkgconf/Package/libc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/Package/libcompiler_rt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libpam",
+                "https://github.com/pkgconf/pkgconf/Package/libpam",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_deny",
+                "https://github.com/pkgconf/pkgconf/Package/pam_deny",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_echo",
+                "https://github.com/pkgconf/pkgconf/Package/pam_echo",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_exec",
+                "https://github.com/pkgconf/pkgconf/Package/pam_exec",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ftpusers",
+                "https://github.com/pkgconf/pkgconf/Package/pam_ftpusers",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_group",
+                "https://github.com/pkgconf/pkgconf/Package/pam_group",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_guest",
+                "https://github.com/pkgconf/pkgconf/Package/pam_guest",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_krb5",
+                "https://github.com/pkgconf/pkgconf/Package/pam_krb5",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcom_err",
+                "https://github.com/pkgconf/pkgconf/Package/libcom_err",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ksu",
+                "https://github.com/pkgconf/pkgconf/Package/pam_ksu",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_lastlog",
+                "https://github.com/pkgconf/pkgconf/Package/pam_lastlog",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_login_access",
+                "https://github.com/pkgconf/pkgconf/Package/pam_login_access",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_nologin",
+                "https://github.com/pkgconf/pkgconf/Package/pam_nologin",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libutil",
+                "https://github.com/pkgconf/pkgconf/Package/libutil",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_passwdqc",
+                "https://github.com/pkgconf/pkgconf/Package/pam_passwdqc",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcrypt",
+                "https://github.com/pkgconf/pkgconf/Package/libcrypt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_permit",
+                "https://github.com/pkgconf/pkgconf/Package/pam_permit",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_radius",
+                "https://github.com/pkgconf/pkgconf/Package/pam_radius",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libradius",
+                "https://github.com/pkgconf/pkgconf/Package/libradius",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_rootok",
+                "https://github.com/pkgconf/pkgconf/Package/pam_rootok",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_self",
+                "https://github.com/pkgconf/pkgconf/Package/pam_self",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_ssh",
+                "https://github.com/pkgconf/pkgconf/Package/pam_ssh",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_tacplus",
+                "https://github.com/pkgconf/pkgconf/Package/pam_tacplus",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libtacplus",
+                "https://github.com/pkgconf/pkgconf/Package/libtacplus",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libmd",
+                "https://github.com/pkgconf/pkgconf/Package/libmd",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/pam_unix",
+                "https://github.com/pkgconf/pkgconf/Package/pam_unix"
+            ]
+        }
+    ]
+}
+

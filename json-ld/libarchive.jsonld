@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:34Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0",
+            "simplelicensing_licenseExpression": "BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libarchive",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libarchive"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libarchive",
+            "name": "libarchive",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "3.8.2"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libarchive",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libarchive",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libarchive"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0",
+                "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libarchive/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libarchive",
+                "https://github.com/pkgconf/pkgconf/Package/libarchive"
+            ]
+        }
+    ]
+}
+

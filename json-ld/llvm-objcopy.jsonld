@@ -1,0 +1,89 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2025-12-19T12:03:38Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0 WITH LLVM-exception",
+            "simplelicensing_licenseExpression": "Apache-2.0 WITH LLVM-exception"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/llvm-objcopy",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/llvm-objcopy"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/llvm-objcopy",
+            "name": "llvm-objcopy",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "19.x-llvmorg-19.1.4-0-gaadaa00de76e"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/llvm-objcopy",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0 WITH LLVM-exception"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/llvm-objcopy",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0 WITH LLVM-exception"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/llvm-objcopy"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0 WITH LLVM-exception",
+                "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/llvm-objcopy/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/llvm-objcopy",
+                "https://github.com/pkgconf/pkgconf/Package/llvm-objcopy"
+            ]
+        }
+    ]
+}
+
