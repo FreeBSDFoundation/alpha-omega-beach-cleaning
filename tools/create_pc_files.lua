@@ -10,18 +10,24 @@
 -- Generates .pc files to directories from FreeBSD-files.csv
 --
 -- Example using for this would be with normal Lua 5.4:
--- LUA_PATH="tools/lua/?.lua;;" lua tools/create_pc_files.lua database.yml
+-- LUA_PATH="./tools/lua/?.lua;;" tools/create_pc_files.lua database.yml pkgconf subdir
+-- LUA_PATH="./tools/lua/?.lua;;" tools/create_pc_files.lua database.yml markdown
 --
 
 local pkgconf = require("pkgconf")
 
-if #arg == 0 then
-	print("Usage:\tcrate_sbom_pc_files.lua FreeBSD-apps.csv [OUTPUT-CSV]\n")
-	print("\t\tParses CSV and creates pkfconfig files to subdirs\n")
+if #arg <= 1 then
+	print("Usage:\tcreate_pc_files.lua database.yml [pkgconf|markdown|deps] [subdir]\n")
+	print("\tParses database.yml and creates pkfconfig files to pkgconfig or subdir\n")
+	print("\tpkgconf  - write pkgconf files under pkgconfig dir or if parameter subdir under package['directory']")
+	print("\t           which means for example usr.bin/accton/usr.bin.accton.pc or pkgconfig/accton.pc")
+	print("\tmarkdown - Export Database information as Markdown table for for placing it to Github for example")
+	print("\tdeps     - Check is all deps in database.yml are correct and they can be found inside YAML structure")
 	os.exit(1)
 end
 
 local input_name = arg[1]
+
 local yaml_obj, whole_packages = pkgconf.parse_database(input_name, false)
 
 if yaml_obj == nil or whole_packages == nil then
@@ -29,19 +35,34 @@ if yaml_obj == nil or whole_packages == nil then
 	os.exit(1)
 end
 
+local is_pc_subdir = false
+
+-- If subdir is in command line paramters
+-- then .pc files are not placed under pkgconfig.
+-- They are placed under directory-key directory
+-- and named like usr.bin.accton.pc
+if arg[3] ~= nil and arg[3] == "subdir" then
+	is_pc_subdir = true
+end
+
 if arg[2] == nil or arg[2] == "pkgconf" then
 	local meta_package = {}
 
 	for key, value in pairs(whole_packages) do
-		-- local dir_name = value["directory"]
 		local dir_name = "pkgconfig"
+		if is_pc_subdir then
+			dir_name = value["directory"]
+		end
 		local name_str = key
 
-		-- local output_filename = string.gsub(dir_name, "/", ".") .. ".pc"
 		local output_filename = name_str .. ".pc"
+		if is_pc_subdir then
+			output_filename = string.gsub(dir_name, "/", ".") .. ".pc"
+		end
 		local output_full = dir_name .. "/" .. output_filename
 		table.insert(meta_package, string.lower(name_str))
 
+		print("Write to PC-file to '" .. output_full .. "'")
 		pkgconf.write_pkgconfig(
 			output_full,
 			name_str,
@@ -66,36 +87,78 @@ if arg[2] == nil or arg[2] == "pkgconf" then
 		"https://cgit.freebsd.org/src/",
 		meta_package
 	)
-elseif arg[2] ~= nil and arg[2] == "csv" then
-	print("# Name\tDescription\tVersion\tLicense\tDirectory\tHomepage\tSection\tSource\tUpstream\tDepends")
-	local csv_table = {}
+elseif arg[2] ~= nil and arg[2] == "markdown" then
+	local markdown_license_table = {}
+	local markdown_noassertion_table = {}
+	local markdown_what_license_table = {}
+	local markdown_license_count = 0
+	local markdown_noassertion_count = 0
 
 	for key, value in pairs(whole_packages) do
-		local csv_str = '"' .. key .. '"'
-		csv_str = pkgconf.add_value(csv_str, "Description", value["description"], true)
-		csv_str = pkgconf.add_value(csv_str, "Version", value["version"], true)
-		csv_str = pkgconf.add_value(csv_str, "License", value["license"], true)
-		csv_str = pkgconf.add_value(csv_str, "Directory", value["directory"], true)
-		csv_str = pkgconf.add_value(csv_str, "Homepage", value["homepage"], true)
-		csv_str = pkgconf.add_value(csv_str, "Section", value["section"], true)
-		csv_str = pkgconf.add_value(csv_str, "Source", value["source"], true)
-		csv_str = pkgconf.add_value(csv_str, "Upstream", value["upstream"], true)
-		csv_str = csv_str .. "\t" .. pkgconf.depends_from_table(value["depends"], true)
-		table.insert(csv_table, csv_str)
+		local markdown_str = "| " .. key .. " | "
+		markdown_str = pkgconf.add_value(markdown_str, "Description", value["description"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Version", value["version"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "License", value["license"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Directory", value["directory"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Homepage", value["homepage"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Section", value["section"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Source", value["source"], true)
+		markdown_str = pkgconf.add_value(markdown_str, "Upstream", value["upstream"], true)
+		markdown_str = markdown_str .. pkgconf.depends_from_table(value["depends"], true)
+
+		if value["license"] ~= "NOASSERTION" then
+			table.insert(markdown_license_table, markdown_str)
+			markdown_license_count = markdown_license_count + 1
+			local license_str = value["license"]
+			if license_str ~= nil and type(license_str) == "string" then
+					if markdown_what_license_table[license_str] == nil then
+						markdown_what_license_table[license_str] = 0
+					end
+					markdown_what_license_table[license_str] = markdown_what_license_table[license_str] + 1
+			else
+				print("License nil or table in: " .. key)
+			end
+		else
+			table.insert(markdown_noassertion_table, markdown_str)
+			markdown_noassertion_count = markdown_noassertion_count + 1
+		end
 	end
 
-	table.sort(csv_table)
-	print(table.concat(csv_table, "\n"))
+	sorted_key_table = 	{}
+	for key, count in pairs(markdown_what_license_table) do
+		table.insert(sorted_key_table, key)
+	end
+
+	table.sort(sorted_key_table)
+	print("# FreeBSD current licenses in files which have SPDX-License-Identifier (count: " .. markdown_license_count .. ")")
+	print("| License or combination | count |")
+	print("| :--------------------: | :---: |")
+	for num, key in ipairs(sorted_key_table) do
+		print("| " .. key .. " | " .. markdown_what_license_table[key] .. " |")
+	end
+
+	print("\n")
+
+	print("# FreeBSD tools with license information (count: " .. markdown_license_count .. ")")
+	print("| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends |")
+	print("| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: |")
+
+	table.sort(markdown_noassertion_table)
+	table.sort(markdown_license_table)
+	print(table.concat(markdown_license_table, "\n"))
+
+	print("\n# FreeBSD tools without license information but have man page (count: " .. markdown_noassertion_count .. ")")
+	print("| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends |")
+	print("| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: |")
+	print(table.concat(markdown_noassertion_table, "\n"))
 elseif arg[2] ~= nil and arg[2] == "deps" then
 	for key, value in pairs(whole_packages) do
 		if type(value["depends"]) == "string" then
 			print("Depends is string not table: '" .. key .. "'")
 		elseif value ~= value["depends"] and type(value["depends"]) == "table" then
 			for _, subvalue in ipairs(value["depends"]) do
-				-- print(key, subvalue)
 				local lower_string = string.lower(subvalue)
 				if whole_packages[lower_string] == nil then
-					-- print("Depend for '" .. key .. "': " .. subvalue)
 					print(subvalue)
 				end
 			end

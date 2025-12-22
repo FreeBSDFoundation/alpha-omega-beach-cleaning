@@ -28,12 +28,12 @@ local pkgconf = {}
 -- @param value Value for parameter
 -- @return Concated string with new 'Param: value' added
 -------------------------------------------------------------------------------
-function pkgconf.add_value(orig_str, name, value, is_cvs)
+function pkgconf.add_value(orig_str, name, value, is_markdown)
 	local local_name = name
 	local local_value = value
 
-	if is_cvs == nil then
-		is_cvs = false
+	if is_markdown == nil then
+		is_markdown = false
 	end
 
 	if local_name == nil then
@@ -50,11 +50,8 @@ function pkgconf.add_value(orig_str, name, value, is_cvs)
 
 	local rtn_str = orig_str .. local_name .. ": " .. local_value .. "\n"
 
-	if is_cvs then
-		if type(local_value) == "string" then
-			local_value = '"' .. local_value .. '"'
-		end
-		rtn_str = orig_str .. "\t" .. local_value
+	if is_markdown then
+		rtn_str = orig_str .. " " .. local_value .. " |"
 	end
 	return rtn_str
 end
@@ -235,13 +232,13 @@ end
 -- @param name Package name
 -- @return Return parsed Makefile.depend as pkgconfig Requires
 -------------------------------------------------------------------------------
-function pkgconf.depends_from_table(deps_table, is_cvs)
-	if is_cvs == nil then
-		is_cvs = false
+function pkgconf.depends_from_table(deps_table, is_markdown)
+	if is_markdown == nil then
+		is_markdown = false
 	end
 
 	local separator = " \\\n\t"
-	if is_cvs then
+	if is_markdown then
 		separator = ","
 	end
 
@@ -253,12 +250,12 @@ function pkgconf.depends_from_table(deps_table, is_cvs)
 	end
 
 	if require_str == nil then
-		return '"none"'
+		return " none"
 	end
 	local rtn_str = "Requires: " .. string.lower(require_str) .. "\n"
 
-	if is_cvs then
-		rtn_str = require_str
+	if is_markdown then
+		rtn_str = " " .. require_str
 	end
 
 	return rtn_str
