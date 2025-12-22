@@ -5,10 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libpmc
-Requires: csu \
-	libc \
-	libc++ \
-	libcompiler_rt \
-	libcxxrt \
-	libelf \
-	msun
+Requires: csu, libc, libc++, libcompiler_rt, libcxxrt, libelf, msun

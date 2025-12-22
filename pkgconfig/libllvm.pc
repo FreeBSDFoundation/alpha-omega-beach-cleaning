@@ -5,7 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/clang/libllvm
-Requires: libc++ \
-	libexecinfo \
-	zlib \
-	msun
+Requires: libc++, libexecinfo, zlib, msun

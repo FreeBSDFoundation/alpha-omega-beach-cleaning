@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=prometheus_sysctl_exporter(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.sbin/prometheus_sysctl_exporter
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	zlib \
-	msun
+Requires: csu, libc, libcompiler_rt, zlib, msun

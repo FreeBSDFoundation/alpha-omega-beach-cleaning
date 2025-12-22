@@ -5,6 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/clang/libllvmminimal
-Requires: libc++ \
-	libexecinfo \
-	msun
+Requires: libc++, libexecinfo, msun

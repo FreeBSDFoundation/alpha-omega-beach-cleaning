@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pam-krb5(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_krb5
-Requires: csu \
-	libc \
-	libcom_err \
-	libcompiler_rt \
-	libpam
+Requires: csu, libc, libcom_err, libcompiler_rt, libpam

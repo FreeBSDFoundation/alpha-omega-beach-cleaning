@@ -5,9 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ipfw(8)
 Version: 15.0
 License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/sbin/ipfw
-Requires: csu \
-	libalias \
-	libc \
-	libcompiler_rt \
-	libjail \
-	libutil
+Requires: csu, libalias, libc, libcompiler_rt, libjail, libutil

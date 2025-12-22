@@ -5,13 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=systat(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.bin/systat
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libdevstat \
-	libkvm \
-	libprocstat \
-	libutil \
-	msun \
-	ncurses \
-	ncurses.tinfo
+Requires: csu, libc, libcompiler_rt, libdevstat, libkvm, libprocstat, libutil, msun, ncurses, ncurses.tinfo

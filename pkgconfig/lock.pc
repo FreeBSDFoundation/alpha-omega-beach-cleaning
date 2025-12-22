@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=lock(1)
 Version: 15.0
 License: Beerware AND BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.bin/lock
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libpam
+Requires: csu, libc, libcompiler_rt, libpam

@@ -5,11 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=users(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.bin/users
-Requires: csu \
-	libc \
-	libc++ \
-	libcapsicum \
-	libcasper \
-	libcompiler_rt \
-	libcxxrt \
-	msun
+Requires: csu, libc, libc++, libcapsicum, libcasper, libcompiler_rt, libcxxrt, msun

@@ -5,9 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=logger(1)
 Version: 15.0
 License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.bin/logger
-Requires: csu \
-	libc \
-	libcapsicum \
-	libcasper \
-	libcasper.services.cap_syslog \
-	libcompiler_rt
+Requires: csu, libc, libcapsicum, libcasper, libcasper.services.cap_syslog, libcompiler_rt

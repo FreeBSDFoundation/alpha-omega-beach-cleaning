@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ofwdump(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.sbin/ofwdump
-Requires: csu \
-	libc \
-	libc_nonshared \
-	libcompiler_rt
+Requires: csu, libc, libc_nonshared, libcompiler_rt

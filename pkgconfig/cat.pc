@@ -5,10 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=cat(1)
 Version: 15.0
 License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/bin/cat
-Requires: csu \
-	libc \
-	libcapsicum \
-	libcasper \
-	libcasper.services.cap_fileargs \
-	libcasper.services.cap_net \
-	libcompiler_rt
+Requires: csu, libc, libcapsicum, libcasper, libcasper.services.cap_fileargs, libcasper.services.cap_net, libcompiler_rt

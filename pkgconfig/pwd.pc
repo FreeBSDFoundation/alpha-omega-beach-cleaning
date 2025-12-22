@@ -5,6 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pwd(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/bin/pwd
-Requires: csu \
-	libc \
-	libcompiler_rt
+Requires: csu, libc, libcompiler_rt

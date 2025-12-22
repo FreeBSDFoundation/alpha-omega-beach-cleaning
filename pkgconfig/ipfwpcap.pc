@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ipfwpcap(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.sbin/ipfwpcap
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libpcap
+Requires: csu, libc, libcompiler_rt, libpcap

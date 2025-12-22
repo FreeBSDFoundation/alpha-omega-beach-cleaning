@@ -5,6 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=printf(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.bin/printf
-Requires: csu \
-	libc \
-	libcompiler_rt
+Requires: csu, libc, libcompiler_rt

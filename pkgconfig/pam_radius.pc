@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pam_radius(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_radius
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libpam \
-	libradius
+Requires: csu, libc, libcompiler_rt, libpam, libradius

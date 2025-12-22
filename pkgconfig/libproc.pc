@@ -5,11 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libproc
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libelf \
-	libprocstat \
-	librtld_db \
-	libutil \
-	zlib
+Requires: csu, libc, libcompiler_rt, libelf, libprocstat, librtld_db, libutil, zlib

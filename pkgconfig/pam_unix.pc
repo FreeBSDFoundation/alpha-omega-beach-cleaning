@@ -5,9 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pam_unix(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_unix
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libcrypt \
-	libpam \
-	libutil
+Requires: csu, libc, libcompiler_rt, libcrypt, libpam, libutil

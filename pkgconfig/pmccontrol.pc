@@ -5,10 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pmccontrol(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.sbin/pmccontrol
-Requires: csu \
-	libc \
-	libc++ \
-	libcompiler_rt \
-	libcxxrt \
-	libpmc \
-	msun
+Requires: csu, libc, libc++, libcompiler_rt, libcxxrt, libpmc, msun

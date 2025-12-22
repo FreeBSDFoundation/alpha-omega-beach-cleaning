@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=wc(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.bin/wc
-Requires: csu \
-	libc \
-	libcapsicum \
-	libcompiler_rt \
-	libxo
+Requires: csu, libc, libcapsicum, libcompiler_rt, libxo

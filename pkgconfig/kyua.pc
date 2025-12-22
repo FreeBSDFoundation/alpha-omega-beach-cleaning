@@ -5,6 +5,5 @@ URL: https://github.com/FreeBSD/kyua
 Version: 0.13
 License: BSD-3-Clause
 Source: Could not parse value
-Requires: libcxxrt \
-	lua \
-	sqlite
+Maintainer: brooks@
+Requires: libcxxrt, lua, sqlite

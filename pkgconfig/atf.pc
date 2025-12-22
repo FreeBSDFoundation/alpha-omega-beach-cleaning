@@ -5,4 +5,5 @@ URL: https://github.com/FreeBSD/atf
 Version: 0.22
 License: BSD-3-Clause AND BSD-2-Clause
 Source: https://github.com/FreeBSD/atf
+Maintainer: ngie@
 Requires: libcxxrt

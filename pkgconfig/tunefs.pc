@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=tunefs(8)
 Version: 15.0
 License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/sbin/tunefs
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libufs
+Requires: csu, libc, libcompiler_rt, libufs

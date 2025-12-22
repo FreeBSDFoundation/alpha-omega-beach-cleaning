@@ -5,4 +5,5 @@ URL: https://www.greenwoodsoftware.com/less/
 Version: 679
 License: BSD-2-Clause
 Source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+Maintainer: delphij@
 Requires: ncurses

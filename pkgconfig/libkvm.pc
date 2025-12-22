@@ -5,7 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libkvm
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libelf
+Requires: csu, libc, libcompiler_rt, libelf

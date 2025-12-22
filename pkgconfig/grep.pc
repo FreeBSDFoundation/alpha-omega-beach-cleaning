@@ -5,9 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=grep(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/usr.bin/grep
-Requires: csu \
-	bzip2 \
-	libc \
-	libcompiler_rt \
-	libregex \
-	zlib
+Requires: csu, bzip2, libc, libcompiler_rt, libregex, zlib

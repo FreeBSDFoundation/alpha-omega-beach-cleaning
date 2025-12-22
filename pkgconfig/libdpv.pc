@@ -5,11 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libdpv
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libfigpar \
-	libutil \
-	msun \
-	ncurses \
-	ncurses.tinfo
+Requires: csu, libc, libcompiler_rt, libfigpar, libutil, msun, ncurses, ncurses.tinfo

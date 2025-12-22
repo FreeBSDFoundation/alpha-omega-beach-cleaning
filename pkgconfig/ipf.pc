@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ipf(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipf
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libkvm \
-	libpcap
+Requires: csu, libc, libcompiler_rt, libkvm, libpcap

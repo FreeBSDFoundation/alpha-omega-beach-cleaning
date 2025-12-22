@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=m4(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.bin/m4
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libopenbsd \
-	msun
+Requires: csu, libc, libcompiler_rt, libopenbsd, msun

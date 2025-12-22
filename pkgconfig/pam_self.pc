@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=pam_self(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_self
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libpam
+Requires: csu, libc, libcompiler_rt, libpam

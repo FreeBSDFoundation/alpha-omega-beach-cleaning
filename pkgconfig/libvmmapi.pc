@@ -5,9 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libvmmapi
-Requires: csu \
-	libc \
-	libcapsicum \
-	libcasper \
-	libcompiler_rt \
-	libutil
+Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt, libutil

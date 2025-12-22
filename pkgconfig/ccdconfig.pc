@@ -5,7 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ccdconfig(8)
 Version: 15.0
 License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/sbin/ccdconfig
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libgeom
+Requires: csu, libc, libcompiler_rt, libgeom

@@ -5,8 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_netdb
-Requires: csu \
-	libc \
-	libcasper \
-	libcompiler_rt \
-	libnv
+Requires: csu, libc, libcasper, libcompiler_rt, libnv

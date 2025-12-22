@@ -5,5 +5,5 @@ URL: https://gvvaughan.github.io/lyaml/
 Version: 6.2.8
 License: MIT
 Source: https://github.com/gvvaughan/lyaml
-Requires: lua \
-	libyaml
+Maintainer: bapt@
+Requires: lua, libyaml

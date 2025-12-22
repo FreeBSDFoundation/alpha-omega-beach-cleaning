@@ -5,8 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=graid3(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/geom/raid3
-Requires: csu \
-	libc \
-	libcompiler_rt \
-	libgeom \
-	libmd
+Requires: csu, libc, libcompiler_rt, libgeom, libmd

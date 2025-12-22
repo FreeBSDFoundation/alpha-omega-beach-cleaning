@@ -5,10 +5,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=savecore(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/sbin/savecore
-Requires: csu \
-	libc \
-	libcapsicum \
-	libcompiler_rt \
-	libxo \
-	zlib \
-	zstd
+Requires: csu, libc, libcapsicum, libcompiler_rt, libxo, zlib, zstd

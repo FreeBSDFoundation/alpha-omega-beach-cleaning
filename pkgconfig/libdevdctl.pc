@@ -5,9 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libdevdctl
-Requires: csu \
-	libc \
-	libc++ \
-	libcompiler_rt \
-	libcxxrt \
-	msun
+Requires: csu, libc, libc++, libcompiler_rt, libcxxrt, msun

@@ -5,6 +5,4 @@ URL: Could not parse value
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lib/libclang_rt/stats
-Requires: libc++ \
-	libmd \
-	ncurses.tinfo
+Requires: libc++, libmd, ncurses.tinfo
