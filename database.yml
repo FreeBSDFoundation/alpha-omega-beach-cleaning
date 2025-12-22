@@ -11372,7 +11372,7 @@ Sections:
         - bapt@
     mkuzip:
       description: Compress disk image for use with geom_uzip(4) class
-      directory: usr.bin
+      directory: usr.bin/mkuzip
       version: '15.0'
       upstream: FreeBSD
       homepage: https://www.FreeBSD.org
@@ -11906,7 +11906,7 @@ Sections:
         - emaste@
     libdialog:
       description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
-      directory: contrib/libdialog
+      directory: contrib/dialog
       version: unknown
       upstream: invisible-island
       homepage: https://invisible-island.net/dialog/
