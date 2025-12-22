@@ -71,7 +71,8 @@ if arg[2] == nil or arg[2] == "pkgconf" then
 			value["version"],
 			value["license"],
 			value["source"],
-			value["depends"]
+			value["depends"],
+			value["owner"]
 		)
 	end
 	-- Write FreeBSD metapackage which holds every pkgconfig and make sure that
@@ -104,17 +105,30 @@ elseif arg[2] ~= nil and arg[2] == "markdown" then
 		markdown_str = pkgconf.add_value(markdown_str, "Section", value["section"], true)
 		markdown_str = pkgconf.add_value(markdown_str, "Source", value["source"], true)
 		markdown_str = pkgconf.add_value(markdown_str, "Upstream", value["upstream"], true)
-		markdown_str = markdown_str .. pkgconf.depends_from_table(value["depends"], true)
+
+		local add_str = pkgconf.depends_from_table(value["depends"], true)
+		if add_str ~= nil then
+			markdown_str = markdown_str .. add_str
+		else
+			markdown_str = markdown_str .. " | none"
+		end
+
+		add_str = pkgconf.maintainer_from_table(value["owner"], true)
+		if add_str ~= nil then
+			markdown_str = markdown_str .. " | " .. add_str .. " |"
+		else
+			markdown_str = markdown_str .. " | none |"
+		end
 
 		if value["license"] ~= "NOASSERTION" then
 			table.insert(markdown_license_table, markdown_str)
 			markdown_license_count = markdown_license_count + 1
 			local license_str = value["license"]
 			if license_str ~= nil and type(license_str) == "string" then
-					if markdown_what_license_table[license_str] == nil then
-						markdown_what_license_table[license_str] = 0
-					end
-					markdown_what_license_table[license_str] = markdown_what_license_table[license_str] + 1
+				if markdown_what_license_table[license_str] == nil then
+					markdown_what_license_table[license_str] = 0
+				end
+				markdown_what_license_table[license_str] = markdown_what_license_table[license_str] + 1
 			else
 				print("License nil or table in: " .. key)
 			end
@@ -124,32 +138,46 @@ elseif arg[2] ~= nil and arg[2] == "markdown" then
 		end
 	end
 
-	sorted_key_table = 	{}
-	for key, count in pairs(markdown_what_license_table) do
+	local sorted_key_table = {}
+	for key, _ in pairs(markdown_what_license_table) do
 		table.insert(sorted_key_table, key)
 	end
 
 	table.sort(sorted_key_table)
-	print("# FreeBSD current licenses in files which have SPDX-License-Identifier (count: " .. markdown_license_count .. ")")
+	print(
+		"# FreeBSD current licenses in files which have SPDX-License-Identifier (count: "
+			.. markdown_license_count
+			.. ")"
+	)
 	print("| License or combination | count |")
 	print("| :--------------------: | :---: |")
-	for num, key in ipairs(sorted_key_table) do
+	for _, key in ipairs(sorted_key_table) do
 		print("| " .. key .. " | " .. markdown_what_license_table[key] .. " |")
 	end
 
 	print("\n")
 
 	print("# FreeBSD tools with license information (count: " .. markdown_license_count .. ")")
-	print("| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends |")
-	print("| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: |")
+	print(
+		"| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends | Owner |"
+	)
+	print(
+		"| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: | :---: |"
+	)
 
 	table.sort(markdown_noassertion_table)
 	table.sort(markdown_license_table)
 	print(table.concat(markdown_license_table, "\n"))
 
-	print("\n# FreeBSD tools without license information but have man page (count: " .. markdown_noassertion_count .. ")")
-	print("| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends |")
-	print("| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: |")
+	print(
+		"\n# FreeBSD tools without license information but have man page (count: " .. markdown_noassertion_count .. ")"
+	)
+	print(
+		"| Name | Description | Version | License | Directory | Homepage | Section | Source | Upstream | Depends | Owner |"
+	)
+	print(
+		"| :--: | :---------: | :-----: | :-----: | :-------: | :------: | :-----: | :----: | :------: | :-----: | :---: |"
+	)
 	print(table.concat(markdown_noassertion_table, "\n"))
 elseif arg[2] ~= nil and arg[2] == "deps" then
 	for key, value in pairs(whole_packages) do

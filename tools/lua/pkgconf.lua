@@ -67,7 +67,7 @@ end
 -- @param deps_table Table of depends
 -- @return Concated string or nil if problem
 -------------------------------------------------------------------------------
-function pkgconf.pkgconfig(name, description, url, version, license, source, deps_table)
+function pkgconf.pkgconfig(name, description, url, version, license, source, deps_table, maintainer_table)
 	local pc_str = "# SPDX-License-Identifier: FreeBSD-DOC and LicenseRef-FreeBSD-SBOM\n"
 	pc_str = pkgconf.add_value(pc_str, "Name", name)
 	pc_str = pkgconf.add_value(pc_str, "Description", description)
@@ -75,7 +75,12 @@ function pkgconf.pkgconfig(name, description, url, version, license, source, dep
 	pc_str = pkgconf.add_value(pc_str, "Version", version)
 	pc_str = pkgconf.add_value(pc_str, "License", license)
 	pc_str = pkgconf.add_value(pc_str, "Source", source)
-	if deps_table ~= nil then
+
+	if deps_table ~= nil and type(maintainer_table) == "table" and #maintainer_table > 0 then
+		pc_str = pc_str .. pkgconf.maintainer_from_table(maintainer_table)
+	end
+
+	if deps_table ~= nil and type(deps_table) == "table" and #deps_table then
 		pc_str = pc_str .. pkgconf.depends_from_table(deps_table)
 	end
 
@@ -94,8 +99,18 @@ end
 -- @param deps_table Table of depends
 -- @return Concated string or nil if problem
 -------------------------------------------------------------------------------
-function pkgconf.write_pkgconfig(location, name, description, url, version, license, source, deps_table)
-	local pc_str = pkgconf.pkgconfig(name, description, url, version, license, source, deps_table)
+function pkgconf.write_pkgconfig(
+	location,
+	name,
+	description,
+	url,
+	version,
+	license,
+	source,
+	deps_table,
+	maintainer_table
+)
+	local pc_str = pkgconf.pkgconfig(name, description, url, version, license, source, deps_table, maintainer_table)
 	if type(location) == "string" then
 		local output_handle = io.open(location, "w")
 
@@ -218,7 +233,7 @@ function pkgconf.depends(dir, name)
 	local require_str = ""
 
 	if type(deps_table) == "table" and #deps_table then
-		require_str = table.concat(deps_table, " \\\n\t")
+		require_str = table.concat(deps_table, ", ")
 	elseif type(deps_table) == "string" then
 		require_str = deps_table
 	end
@@ -227,38 +242,76 @@ function pkgconf.depends(dir, name)
 end
 
 -------------------------------------------------------------------------------
--- Parse Makefile.depend file and return it as pkgconfig 'Requires'
--- @param dir Where to find Makefile.depend
--- @param name Package name
--- @return Return parsed Makefile.depend as pkgconfig Requires
+-- Helper function to create comma separated value from table
+-- @param cur_table Current table to print
+-- @return Return formated table as string or nil if something goes wrong
 -------------------------------------------------------------------------------
-function pkgconf.depends_from_table(deps_table, is_markdown)
+local function pkgconf_string_from_table(cur_table)
+	local separator = ", "
+	local rtn_str = ""
+
+	if type(cur_table) == "table" and #cur_table then
+		rtn_str = table.concat(cur_table, separator)
+	else
+		rtn_str = cur_table
+	end
+
+	return rtn_str
+end
+
+-------------------------------------------------------------------------------
+-- Helper function to print table with or without name
+-- @param name Name for this pkgconfig entry
+-- @param cur_table Current table to print
+-- @param is_lowercase Should be put entry as lowercase
+-- @param is_markdown Is entry for markdown or not
+-- @return Return formated table as string or nil if something goes wrong
+-------------------------------------------------------------------------------
+local function pkgconf_pkgconfig_string(name, cur_table, is_lowercase, is_markdown)
 	if is_markdown == nil then
 		is_markdown = false
 	end
 
-	local separator = " \\\n\t"
-	if is_markdown then
-		separator = ","
+	if is_lowercase == nil then
+		is_lowercase = false
 	end
 
-	local require_str = ""
-	if type(deps_table) == "table" and #deps_table then
-		require_str = table.concat(deps_table, separator)
+	local table_str = pkgconf_string_from_table(cur_table)
+
+	if table_str == nil then
+		return nil
+	end
+
+	if is_lowercase then
+		table_str = string.lower(table_str)
+	end
+
+	if is_markdown then
+		return table_str
 	else
-		require_str = deps_table
+		return name .. ": " .. table_str .. "\n"
 	end
+end
 
-	if require_str == nil then
-		return " none"
-	end
-	local rtn_str = "Requires: " .. string.lower(require_str) .. "\n"
 
-	if is_markdown then
-		rtn_str = " " .. require_str
-	end
+-------------------------------------------------------------------------------
+-- Print correctly maintainer from them table
+-- @param maint_table Table to print
+-- @param is_markdown Is this markdown string or Pkgconfig output
+-- @return Maintainer table as string
+-------------------------------------------------------------------------------
+function pkgconf.maintainer_from_table(maint_table, is_markdown)
+	return pkgconf_pkgconfig_string("Maintainer", maint_table, false, is_markdown)
+end
 
-	return rtn_str
+-------------------------------------------------------------------------------
+-- Print correctly depend from them table
+-- @param deps_table Table to print
+-- @param is_markdown Is this markdown string or Pkgconfig output
+-- @return Depends table as string
+-------------------------------------------------------------------------------
+function pkgconf.depends_from_table(deps_table, is_markdown)
+	return pkgconf_pkgconfig_string("Requires", deps_table, true, is_markdown)
 end
 
 -------------------------------------------------------------------------------
