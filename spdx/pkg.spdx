@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-pkgC642.3.1
 PackageVersion: 2.3.1
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: 
 PackageHomePage: https://github.com/FreeBSD/pkg
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>

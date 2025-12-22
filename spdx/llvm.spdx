@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-llvmC6419.x-llvmorg-19.1.4-0-gaadaa00de76e
 PackageVersion: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: dim@, emaste@
 PackageHomePage: https://llvm.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>Collection of modular and reusable compiler and toolchain technologies</text>

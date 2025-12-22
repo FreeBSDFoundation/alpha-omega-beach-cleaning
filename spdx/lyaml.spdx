@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-lyamlC646.2.8
 PackageVersion: 6.2.8
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@
 PackageHomePage: https://gvvaughan.github.io/lyaml/
 PackageLicenseDeclared: MIT
 PackageSummary: <text>LibYAML binding for Lua</text>

@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-lessC64679
 PackageVersion: 679
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: delphij@
 PackageHomePage: https://www.greenwoodsoftware.com/less/
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Open-source file pager</text>

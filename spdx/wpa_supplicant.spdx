@@ -13,6 +13,7 @@ SPDXID: SPDXRef-Package-wpa_supplicantC642.11
 PackageVersion: 2.11
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: cy@
 PackageHomePage: https://w1.fi/wpa_supplicant/
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.</text>
