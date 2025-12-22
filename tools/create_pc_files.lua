@@ -52,6 +52,14 @@ if arg[2] == nil or arg[2] == "pkgconf" then
 		local dir_name = "pkgconfig"
 		if is_pc_subdir then
 			dir_name = value["directory"]
+
+			if dir_name == nil then
+				dir_name = "./"
+			end
+
+			if type(dir_name) == "table" then
+				dir_name = value["directory"][1]
+			end
 		end
 		local name_str = key
 
