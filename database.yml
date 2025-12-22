@@ -53,6 +53,7 @@ Sections:
       version: '20240109'
       upstream: invisible-island
       homepage: https://invisible-island.net/byacc/
+      license: NOASSERTION
       source: https://invisible-island.net/datafiles/release/byacc.tar.gz
       security:
         - build
@@ -97,6 +98,7 @@ Sections:
       description: Distributed Version Control System
       upstream: Git
       homepage: https://git-scm.com
+      license: GPL-2.0
       source: https://git.kernel.org/pub/scm/git/git.git
       security:
         - build
@@ -712,7 +714,7 @@ Sections:
       upstream: Tony Finch
       homepage: https://dotat.at/prog/unifdef
       source: https://dotat.at/cgi/git/unifdef.git/tree/3a5ba6f9ecaadef4f3a118b35d0c89233609161d
-      license: BSD-2-Clause AND BSD-3-Clause
+      license: BSD-3-Clause AND BSD-2-Clause
       security:
         - build
       plan: fork
@@ -11348,7 +11350,7 @@ Sections:
       version: '15.0'
       upstream: FreeBSD
       homepage: https://www.FreeBSD.org
-      license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+      license: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libc
     lyaml:
       description: LibYAML binding for Lua
@@ -11378,6 +11380,7 @@ Sections:
       version: '20250807'
       upstream: Intel
       homepage: https://github.com/acpica/acpica
+      license: NOASSERTION
       source: https://github.com/acpica/acpica/tree/20250807
       security:
         - build
@@ -11391,7 +11394,8 @@ Sections:
       version: 6.5
       upstream: Linux
       homepage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
-      licence: ISC
+      license: NOASSERTION
+      license: ISC
       source: https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git/
       security:
         - kernel
@@ -11405,6 +11409,7 @@ Sections:
       version: 1.3.41.0
       upstream: Intel
       homepage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
+      license: NOASSERTION
       source: https://www.intel.com/content/www/us/en/download/19660/772040/intel-ethernet-800-series-dynamic-device-personalization-ddp-for-telecommunication-comms-package.html
       security:
         - kernel
@@ -11418,6 +11423,7 @@ Sections:
       version: 5.1.2
       upstream: Phil Dibowitz
       homepage: https://www.phildev.net/ipf/
+      license: NOASSERTION
       security:
         - kernel
         - network
@@ -11428,6 +11434,7 @@ Sections:
       directory: sys/netpfil/pf
       upstream: OpenBSD
       homepage: https://openbsd.org
+      license: NOASSERTION
       security:
         - kernel
         - network
@@ -11444,6 +11451,7 @@ Sections:
       version: '15.0'
       upstream: OpenBSD
       homepage: https://openbsd.org
+      license: NOASSERTION
       security:
         - kernel
         - network
@@ -11574,6 +11582,7 @@ Sections:
       version: 4.2.8p18
       upstream: NTP Project
       homepage: https://www.ntp.org
+      license: NOASSERTION
       source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
       security:
         - network
@@ -11740,6 +11749,7 @@ Sections:
       directory: contrib/bionic-x86_64-string
       upstream: Intel
       homepage: https://android.googlesource.com/platform/bionic
+      license: NOASSERTION
       security:
         - system
       plan: fix
@@ -11874,6 +11884,7 @@ Sections:
       directory: contrib/libdialog
       upstream: invisible-island
       homepage: https://invisible-island.net/dialog/
+      license: NOASSERTION
       security:
         - user
       plan: forego
@@ -11881,6 +11892,7 @@ Sections:
       directory: contrib/libdiff
       upstream: Game of Trees
       homepage: https://www.gameoftrees.org
+      license: NOASSERTION
       security:
         - build
         - user
@@ -12024,7 +12036,7 @@ Sections:
       version: 0.2.5
       upstream: LibYAML
       homepage: https://pyyaml.org/wiki/LibYAML
-      licence: MIT
+      license: MIT
       source: https://github.com/yaml/libyaml/tree/0.2.5
       plan: fix
       owner:
@@ -12035,6 +12047,7 @@ Sections:
       version: '2025-09-26'
       upstream: Ingo Schwarze
       homepage: https://mandoc.bsd.lv
+      license: BSD-3-Clause AND BSD-2-Clause AND 0BSD
       security:
         - build
         - user
@@ -12074,6 +12087,7 @@ Sections:
       version: 3.50.2
       upstream: SQLite
       homepage: https://sqlite.org/src
+      license: NOASSERTION
       source: https://github.com/sqlite/sqlite/tree/version-3.50.2
       security:
         - user
@@ -12102,6 +12116,7 @@ Sections:
       version: 2025b
       upstream: IANA
       homepage: https://www.iana.org/time-zones
+      license: NOASSERTION
       source: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
       security:
         - system
@@ -12129,7 +12144,7 @@ Sections:
       directory: contrib/bc
       upstream: Gavin D. Howard
       homepage: https://gavinhoward.com/tag/bc/
-      license: BSD-2-clause
+      license: BSD-2-Clause
       source: https://github.com/gavinhoward/bc/tree/7.1.0
       security:
         - user
@@ -12165,6 +12180,7 @@ Sections:
       directory: contrib/hyperv
       upstream: Microsoft
       homepage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
+      license: NOASSERTION
       security:
         - system
       plan: fix
@@ -12203,9 +12219,10 @@ Sections:
     patch:
       directory: usr.bin/patch
       version: 2.0-12u11
-      upstream: GNU
+      upstream: GPL-3.0-or-later
       homepage: https://www.gnu.org/software/patch/
       source: https://git.savannah.gnu.org/git/patch.git
+      license: NOASSERTION
       security:
         - build
         - user
@@ -12234,7 +12251,7 @@ Sections:
       version: 0.22
       upstream: FreeBSD (GitHub)
       homepage: https://github.com/FreeBSD/atf
-      license: BSD-3-Clause and BSD-2-Clause
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://github.com/FreeBSD/atf
       security:
         - user
