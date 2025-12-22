@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:53:51Z",
+            "created": "2025-12-22T09:44:58Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
@@ -31,8 +31,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
-            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
         },
         {
             "@type": "simplelicensing_LicenseExpression",
@@ -93,12 +93,6 @@
             "creationInfo": "_:creationinfo_1",
             "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/CDDL-1.0",
             "simplelicensing_licenseExpression": "CDDL-1.0"
-        },
-        {
-            "@type": "simplelicensing_LicenseExpression",
-            "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
-            "simplelicensing_licenseExpression": "Could not parse value"
         },
         {
             "@type": "software_Sbom",
@@ -268,7 +262,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -278,7 +272,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -7835,7 +7829,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sqlite/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/sqlite",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -7845,7 +7839,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sqlite/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/sqlite",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -9508,7 +9502,7 @@
                 "https://github.com/pkgconf/pkgconf/Agent/default",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-4-Clause AND BSD-2-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause AND MIT",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0",
@@ -9519,7 +9513,6 @@
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/0BSD",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/CDDL-1.0",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
                 "https://github.com/pkgconf/pkgconf/Releationship/truss/dependsOn/csu",
                 "https://github.com/pkgconf/pkgconf/Releationship/truss/dependsOn/libc",
                 "https://github.com/pkgconf/pkgconf/Releationship/truss/dependsOn/libcompiler_rt",

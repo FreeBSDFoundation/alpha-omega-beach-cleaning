@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:53:49Z",
+            "created": "2025-12-22T09:44:56Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
@@ -19,8 +19,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause and BSD-2-Clause",
-            "simplelicensing_licenseExpression": "BSD-3-Clause and BSD-2-Clause"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause AND BSD-2-Clause"
         },
         {
             "@type": "simplelicensing_LicenseExpression",
@@ -61,7 +61,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/atf/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/atf",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause and BSD-2-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -71,7 +71,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/atf/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/atf",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause and BSD-2-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -141,7 +141,7 @@
             ],
             "element": [
                 "https://github.com/pkgconf/pkgconf/Agent/default",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause and BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
                 "https://github.com/pkgconf/pkgconf/Releationship/atf/dependsOn/libcxxrt",
                 "https://github.com/pkgconf/pkgconf/Relationship/atf/hasDeclaredLicense",

@@ -14,7 +14,7 @@ PackageVersion: 0.22
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/atf
-PackageLicenseDeclared: BSD-3-Clause and BSD-2-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>Libraries to write tests in C, C++ and shell</text>
 
 

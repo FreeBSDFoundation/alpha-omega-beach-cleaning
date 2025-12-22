@@ -14,7 +14,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/dialog/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets</text>
 
 

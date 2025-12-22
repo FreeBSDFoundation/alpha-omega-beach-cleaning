@@ -14,7 +14,7 @@ PackageVersion: 5.1.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.phildev.net/ipf/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>IP Filter</text>
 
 

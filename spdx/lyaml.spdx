@@ -38,7 +38,7 @@ PackageVersion: 0.2.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://pyyaml.org/wiki/LibYAML
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: MIT
 PackageSummary: <text>C library for parsing and emitting YAML</text>
 
 

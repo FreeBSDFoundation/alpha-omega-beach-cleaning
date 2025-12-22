@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:53:55Z",
+            "created": "2025-12-22T09:45:02Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
@@ -19,8 +19,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
-            "simplelicensing_licenseExpression": "Could not parse value"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+            "simplelicensing_licenseExpression": "MIT"
         },
         {
             "@type": "software_Sbom",
@@ -54,7 +54,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libyaml/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libyaml",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -64,7 +64,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libyaml/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libyaml",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -77,7 +77,7 @@
             ],
             "element": [
                 "https://github.com/pkgconf/pkgconf/Agent/default",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
                 "https://github.com/pkgconf/pkgconf/Relationship/libyaml/hasDeclaredLicense",
                 "https://github.com/pkgconf/pkgconf/Relationship/libyaml/hasConcludedLicense",
                 "https://github.com/pkgconf/pkgconf/software_Sbom/libyaml",

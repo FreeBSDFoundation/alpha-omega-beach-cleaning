@@ -10,17 +10,11 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:53:56Z",
+            "created": "2025-12-22T09:45:03Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
             "specVersion": "3.0.1"
-        },
-        {
-            "@type": "simplelicensing_LicenseExpression",
-            "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0",
-            "simplelicensing_licenseExpression": "Apache-2.0"
         },
         {
             "@type": "simplelicensing_LicenseExpression",
@@ -31,8 +25,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
-            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
         },
         {
             "@type": "simplelicensing_LicenseExpression",
@@ -80,7 +74,7 @@
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
             "software_copyrightText": "NOASSERTION",
-            "software_packageVersion": "19.x-llvmorg-19.1.4-0-gaadaa00de76e"
+            "software_packageVersion": "15.0"
         },
         {
             "@type": "Relationship",
@@ -88,7 +82,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/opt/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/opt",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -98,7 +92,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/opt/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/opt",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -471,7 +465,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -481,7 +475,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -1097,9 +1091,8 @@
             ],
             "element": [
                 "https://github.com/pkgconf/pkgconf/Agent/default",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Zlib",
                 "https://github.com/pkgconf/pkgconf/Releationship/opt/dependsOn/csu",

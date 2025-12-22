@@ -14,7 +14,7 @@ PackageVersion: 2025-09-26
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://mandoc.bsd.lv
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND 0BSD
 PackageSummary: <text>UNIX manpage compiler toolset</text>
 
 

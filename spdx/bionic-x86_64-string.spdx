@@ -14,7 +14,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://android.googlesource.com/platform/bionic
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Android's C library, math library, and dynamic linker</text>
 
 

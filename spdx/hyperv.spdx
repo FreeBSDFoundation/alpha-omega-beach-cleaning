@@ -14,7 +14,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server</text>
 
 

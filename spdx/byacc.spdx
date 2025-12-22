@@ -14,7 +14,7 @@ PackageVersion: 20240109
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/byacc/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Parser generator designed to be compatible with Yacc</text>
 
 

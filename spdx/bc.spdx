@@ -14,7 +14,7 @@ PackageVersion: 7.1.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://gavinhoward.com/tag/bc/
-PackageLicenseDeclared: BSD-2-clause
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Implementation of the POSIX bc calculator with GNU extensions and dc</text>
 
 

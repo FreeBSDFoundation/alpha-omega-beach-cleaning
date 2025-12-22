@@ -26,7 +26,7 @@ PackageVersion: 14.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
-PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
 
 

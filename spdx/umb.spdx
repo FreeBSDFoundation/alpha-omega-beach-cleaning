@@ -14,7 +14,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openbsd.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 

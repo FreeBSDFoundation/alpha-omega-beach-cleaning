@@ -14,7 +14,7 @@ PackageVersion: 2025b
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.iana.org/time-zones
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Time Zone Database</text>
 
 

@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:54:00Z",
+            "created": "2025-12-22T09:45:06Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
@@ -37,8 +37,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
-            "simplelicensing_licenseExpression": "Could not parse value"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+            "simplelicensing_licenseExpression": "NOASSERTION"
         },
         {
             "@type": "software_Sbom",
@@ -243,7 +243,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sqlite/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/sqlite",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -253,7 +253,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/sqlite/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/sqlite",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -272,7 +272,7 @@
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Could not parse value",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
                 "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/libcxxrt",
                 "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/lua",
                 "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/sqlite",

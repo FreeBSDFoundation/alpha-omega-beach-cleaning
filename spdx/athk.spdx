@@ -14,7 +14,7 @@ PackageVersion: 6.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: ISC
 PackageSummary: <text>Common code for ath1?k drivers</text>
 
 

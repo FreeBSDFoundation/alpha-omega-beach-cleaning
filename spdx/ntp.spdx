@@ -14,7 +14,7 @@ PackageVersion: 4.2.8p18
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.ntp.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Network Time Protocol (NTP)</text>
 
 

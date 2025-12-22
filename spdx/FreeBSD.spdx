@@ -50,7 +50,7 @@ PackageVersion: 14.3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
-PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
 
 
@@ -86,7 +86,7 @@ PackageVersion: 20250807
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/acpica/acpica
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>The ACPI Component Architecture (ACPICA) project provides an open-source operating system-independent implementation of the Advanced Configuration and Power Interface specification (ACPI)</text>
 
 
@@ -314,7 +314,7 @@ PackageVersion: 0.22
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://github.com/FreeBSD/atf
-PackageLicenseDeclared: BSD-3-Clause and BSD-2-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>Libraries to write tests in C, C++ and shell</text>
 
 
@@ -362,7 +362,7 @@ PackageVersion: 6.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: ISC
 PackageSummary: <text>Common code for ath1?k drivers</text>
 
 
@@ -494,7 +494,7 @@ PackageVersion: 7.1.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://gavinhoward.com/tag/bc/
-PackageLicenseDeclared: BSD-2-clause
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Implementation of the POSIX bc calculator with GNU extensions and dc</text>
 
 
@@ -710,7 +710,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://android.googlesource.com/platform/bionic
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Android's C library, math library, and dynamic linker</text>
 
 
@@ -1202,7 +1202,7 @@ PackageVersion: 20240109
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/byacc/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Parser generator designed to be compatible with Yacc</text>
 
 
@@ -3410,7 +3410,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://git-scm.com
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: GPL-2.0
 PackageSummary: <text>Distributed Version Control System</text>
 
 
@@ -3890,7 +3890,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Hyper-V is Microsoft's enterprise-grade hypervisor technology built into Windows Server</text>
 
 
@@ -3926,7 +3926,7 @@ PackageVersion: 1.3.41.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).</text>
 
 
@@ -4142,7 +4142,7 @@ PackageVersion: 5.1.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.phildev.net/ipf/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>IP Filter</text>
 
 
@@ -4850,7 +4850,7 @@ PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://sqlite.org/src
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>SQLite database engine</text>
 
 
@@ -5558,7 +5558,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://invisible-island.net/dialog/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets</text>
 
 
@@ -5570,7 +5570,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gameoftrees.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 
@@ -5978,7 +5978,7 @@ PackageVersion: 0.2.5
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://pyyaml.org/wiki/LibYAML
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: MIT
 PackageSummary: <text>C library for parsing and emitting YAML</text>
 
 
@@ -6722,7 +6722,7 @@ PackageVersion: 2025-09-26
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://mandoc.bsd.lv
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND 0BSD
 PackageSummary: <text>UNIX manpage compiler toolset</text>
 
 
@@ -7586,7 +7586,7 @@ PackageVersion: 4.2.8p18
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.ntp.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Network Time Protocol (NTP)</text>
 
 
@@ -7838,7 +7838,7 @@ PackageVersion: 2.0-12u11
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/patch/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 
@@ -7910,7 +7910,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openbsd.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 
@@ -9794,7 +9794,7 @@ PackageVersion: 2025b
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.iana.org/time-zones
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Time Zone Database</text>
 
 
@@ -10046,7 +10046,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://openbsd.org
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 
@@ -10106,7 +10106,7 @@ PackageVersion: 2.12
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://dotat.at/prog/unifdef
-PackageLicenseDeclared: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>Selectively remove C preprocessor conditionals</text>
 
 

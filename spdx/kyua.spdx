@@ -50,7 +50,7 @@ PackageVersion: 3.50.2
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://sqlite.org/src
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>SQLite database engine</text>
 
 

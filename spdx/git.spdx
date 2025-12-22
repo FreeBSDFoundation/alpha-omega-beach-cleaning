@@ -14,7 +14,7 @@ PackageVersion: unknown
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://git-scm.com
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: GPL-2.0
 PackageSummary: <text>Distributed Version Control System</text>
 
 

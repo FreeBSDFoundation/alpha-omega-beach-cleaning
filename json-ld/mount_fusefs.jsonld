@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2025-12-19T12:53:49Z",
+            "created": "2025-12-22T09:44:55Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],
@@ -25,8 +25,8 @@
         {
             "@type": "simplelicensing_LicenseExpression",
             "creationInfo": "_:creationinfo_1",
-            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
-            "simplelicensing_licenseExpression": "BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
         },
         {
             "@type": "software_Sbom",
@@ -185,7 +185,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasDeclaredLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasDeclaredLicense"
         },
@@ -195,7 +195,7 @@
             "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libc/hasConcludedLicense",
             "from": "https://github.com/pkgconf/pkgconf/Package/libc",
             "to": [
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause"
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause"
             ],
             "relationshipType": "hasConcludedLicense"
         },
@@ -258,7 +258,7 @@
             "element": [
                 "https://github.com/pkgconf/pkgconf/Agent/default",
                 "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
-                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause",
                 "https://github.com/pkgconf/pkgconf/Releationship/mount_fusefs/dependsOn/csu",
                 "https://github.com/pkgconf/pkgconf/Releationship/mount_fusefs/dependsOn/libc",
                 "https://github.com/pkgconf/pkgconf/Releationship/mount_fusefs/dependsOn/libcompiler_rt",

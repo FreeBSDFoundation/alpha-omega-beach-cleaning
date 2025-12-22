@@ -14,7 +14,7 @@ PackageVersion: 2.0-12u11
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.gnu.org/software/patch/
-PackageLicenseDeclared: Could not parse value
+PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Could not parse value</text>
 
 
