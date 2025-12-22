@@ -3,6 +3,6 @@ Name: atf
 Description: Libraries to write tests in C, C++ and shell
 URL: https://github.com/FreeBSD/atf
 Version: 0.22
-License: BSD-3-Clause and BSD-2-Clause
+License: BSD-3-Clause AND BSD-2-Clause
 Source: https://github.com/FreeBSD/atf
 Requires: libcxxrt

@@ -3,5 +3,5 @@ Name: bc
 Description: Implementation of the POSIX bc calculator with GNU extensions and dc
 URL: https://gavinhoward.com/tag/bc/
 Version: 7.1.0
-License: BSD-2-clause
+License: BSD-2-Clause
 Source: https://github.com/gavinhoward/bc/tree/7.1.0

@@ -3,5 +3,5 @@ Name: git
 Description: Distributed Version Control System
 URL: https://git-scm.com
 Version: unknown
-License: Could not parse value
+License: GPL-2.0
 Source: https://git.kernel.org/pub/scm/git/git.git

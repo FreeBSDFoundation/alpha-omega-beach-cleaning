@@ -3,5 +3,5 @@ Name: patch
 Description: Could not parse value
 URL: https://www.gnu.org/software/patch/
 Version: 2.0-12u11
-License: Could not parse value
+License: NOASSERTION
 Source: https://git.savannah.gnu.org/git/patch.git

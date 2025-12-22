@@ -3,5 +3,5 @@ Name: libdialog
 Description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
 URL: https://invisible-island.net/dialog/
 Version: unknown
-License: Could not parse value
+License: NOASSERTION
 Source: Could not parse value
