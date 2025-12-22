@@ -46,7 +46,8 @@ Sections:
       security:
         - build
       plan: fix
-      owner: sjg@
+      owner:
+        - sjg@
     byacc:
       description: Parser generator designed to be compatible with Yacc
       directory: contrib/byacc
@@ -719,7 +720,8 @@ Sections:
       security:
         - build
       plan: fork
-      owner: des@
+      owner:
+        - des@
   Extra libraries:
   Extra libraries:
     csu:
@@ -11366,7 +11368,8 @@ Sections:
         - Lua
         - LibYAML
       plan: fix
-      owner: bapt@
+      owner:
+        - bapt@
     mkuzip:
       description: Compress disk image for use with geom_uzip(4) class
       directory: usr.bin
@@ -11389,7 +11392,8 @@ Sections:
         - firmware
         - kernel
       plan: fix
-      owner: jkim@
+      owner:
+        - jkim@
     athk:
       description: Common code for ath1?k drivers
       directory: sys/contrib/dev/athk
@@ -11404,7 +11408,8 @@ Sections:
         - network
       section: 4
       plan: fix
-      owner: bz@
+      owner:
+        - bz@
     ice:
       description: Devices based on the Intel® Ethernet 800 Series require a Dynamic Device Personalization (DDP) package file to enable advanced features (such as dynamic tunneling, Intel Ethernet Flow Director, RSS, and ADQ).
       directory: sys/contrib/dev/ice
@@ -11418,7 +11423,8 @@ Sections:
         - network
       section: 4
       plan: fix
-      owner: erj@
+      owner:
+        - erj@
     ipfilter:
       description: IP Filter
       directory: sys/netpfil/ipfilter
@@ -11431,7 +11437,8 @@ Sections:
         - network
       section: 4
       plan: fork
-      owner: cy@
+      owner:
+        - cy@
     pf:
       directory: sys/netpfil/pf
       upstream: OpenBSD
@@ -11460,7 +11467,8 @@ Sections:
         - network
       section:
       plan: fork
-      owner: khorben@
+      owner:
+        - khorben@
     ZFS:
       description: Open-source storage platform
       directory:
@@ -11476,7 +11484,8 @@ Sections:
         - kernel
         - network
       plan: fix
-      owner: mm@
+      owner:
+        - mm@
     zlib:
       description: zlib compression library
       directory: sys/contrib/zlib
@@ -11491,7 +11500,8 @@ Sections:
         - system
         - user
       plan: fix
-      owner: delphij@
+      owner:
+        - delphij@
     zstd:
       description: Zstandard is a fast compression algorithm
       directory: sys/contrib/zstd
@@ -11519,7 +11529,7 @@ Sections:
       security:
         - network
       plan: fix
-      owners:
+      owner:
         - glebius@
         - harti@
     ldns:
@@ -11590,7 +11600,8 @@ Sections:
         - network
         - system
       plan: fix
-      owner: cy@
+      owner:
+        - cy@
     OpenSSH:
       description: Connectivity tool for remote login with the SSH protocol
       directory: crypto/openssh
@@ -11620,7 +11631,8 @@ Sections:
       depends:
         - OpenSSL
       plan: fix
-      owner: gshapiro@
+      owner:
+        - gshapiro@
     Unbound:
       description: Validating, recursive, and caching DNS resolver
       directory: contrib/unbound
@@ -11653,7 +11665,8 @@ Sections:
         - kernel
         - network
       plan: fix
-      owner: kevans@
+      owner:
+        - kevans@
     wpa_supplicant:
       description: WPA Supplicant for Linux, BSD, Mac OS X, and Windows with support for WPA, WPA2 (IEEE 802.11i / RSN), and WPA3.
       directory: contrib/wpa
@@ -11668,7 +11681,8 @@ Sections:
       depends:
         - OpenSSL
       plan: fix
-      owner: cy@
+      owner:
+        - cy@
   Network Tools:
     lib9p:
       description: BSD-licensed 9P2000.u/.L server library
@@ -11681,7 +11695,8 @@ Sections:
       security:
         - network
       plan: fix
-      owner: jceel@
+      owner:
+        - jceel@
     tcpdump:
       description: Powerful command-line packet analyzer
       directory: contrib/tcpdump
@@ -11757,7 +11772,8 @@ Sections:
       security:
         - system
       plan: fix
-      owner: emaste@
+      owner:
+        - emaste@
     bsddialog:
       description: Utility and a library to build scripts and tools with TUI dialogs and widgets
       directory: contrib/bsddialog
@@ -11799,7 +11815,8 @@ Sections:
         - build
         - user
       plan: fix
-      owner: jkim@
+      owner:
+        - jkim@
     gdtoa:
       description: Library of binary -> decimal and decimal -> binary conversion routines
       directory: contrib/gdtoa
@@ -11811,7 +11828,8 @@ Sections:
         - runtime
       plan: fork
     Heimdal-Kerberos:
-      owner: das@
+      owner:
+        - das@
       description: Heimdal is an implementation of ASN.1/DER, PKIX, and Kerberos.
       directory:
         - crypto/heimdal
@@ -11855,7 +11873,8 @@ Sections:
       security:
         - user
       plan: fix
-      owner: mm@
+      owner:
+        - mm@
     libbegemot:
       description: Begemot utility function library. It is needed to build most of the begemot tools
       directory: contrib/libbegemot
@@ -11883,7 +11902,8 @@ Sections:
         - system
         - user
       plan: fix
-      owner: emaste@
+      owner:
+        - emaste@
     libdialog:
       description: Though similar in style to CDK, it is different, being a script-interpreter which provides a set of curses widgets
       directory: contrib/libdialog
@@ -11904,7 +11924,8 @@ Sections:
         - build
         - user
       plan: fork
-      owner: des@
+      owner:
+        - des@
     libedit:
       description: NetBSD Editline library (libedit)
       directory: contrib/libedit
@@ -11978,7 +11999,8 @@ Sections:
         - system
         - user
       plan: fix
-      owner: emaste@
+      owner:
+        - emaste@
     liblzma:
       description: General purpose data compression library
       directory: contrib/xz
@@ -12074,7 +12096,8 @@ Sections:
       security:
         - user
       plan: fix
-      owner: bapt@
+      owner:
+        - bapt@
     OpenPAM:
       description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
       directory: contrib/openpam
@@ -12088,7 +12111,8 @@ Sections:
         - system
         - user
       plan: fix
-      owner: des@
+      owner:
+        - des@
     SQLite:
       description: SQLite database engine
       directory: contrib/sqlite3
@@ -12145,7 +12169,8 @@ Sections:
         - build
         - user
       plan: fix
-      owner: imp@
+      owner:
+        - imp@
     bc:
       description: Implementation of the POSIX bc calculator with GNU extensions and dc
       version: 7.1.0
@@ -12157,7 +12182,8 @@ Sections:
       security:
         - user
       plan: fix
-      owner: se@
+      owner:
+        - se@
     diff:
       description: GNU diffutils are comprised of diff, diff3, sdiff, and cmp, utilities for showing differences between files
       directory: contrib/diff
@@ -12193,7 +12219,8 @@ Sections:
       security:
         - system
       plan: fix
-      owner: whu@
+      owner:
+        - whu@
     less:
       description: Open-source file pager
       directory: contrib/less
@@ -12207,7 +12234,8 @@ Sections:
       depends:
         - ncurses
       plan: fix
-      owner: delphij@
+      owner:
+        - delphij@
     Lua:
       description: Embeddable scripting language
       directory: contrib/lua
@@ -12252,7 +12280,8 @@ Sections:
       depends:
         - OpenSSL
       plan: import
-      owner: "#pkg"
+      owner:
+        - "#pkg"
   Test Infrastructure:
     ATF:
       description: Libraries to write tests in C, C++ and shell
@@ -12267,7 +12296,8 @@ Sections:
       depends:
         - libcxxrt
       plan: fork
-      owner: ngie@
+      owner:
+        - ngie@
     capsicum-test:
       description: Practical capabilities for UNIX
       directory: contrib/capsicum-test
@@ -12293,7 +12323,8 @@ Sections:
       security:
         - user
       plan: fix
-      owner: ngie@
+      owner:
+        - ngie@
     kyua:
       description: Port/Package build and test system
       directory: contrib/kyua
@@ -12308,7 +12339,8 @@ Sections:
         - Lua
         - SQLite
       plan: fork
-      owner: brooks@
+      owner:
+        - brooks@
     NetBSD-tests:
       description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
       directory: contrib/netbsd-tests
@@ -12320,7 +12352,8 @@ Sections:
       security:
         - user
       plan: fix
-      owner: ngie@
+      owner:
+        - ngie@
     pjdfstest:
       description: File system test suite
       directory: contrib/pjdfstest
