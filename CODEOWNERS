@@ -27,7 +27,7 @@
 /sys/contrib/dev/athk bz@FreeBSD.org
 
 # ice
-/sys/contrib/dev/ice erj@FreeBSD.org
+/sys/contrib/dev/ice kgalazka@FreeBSD.org
 
 # ipfilter
 /sys/netpfil/ipfilter cy@FreeBSD.org
