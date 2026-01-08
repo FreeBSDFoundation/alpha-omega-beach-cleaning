@@ -205,9 +205,6 @@
 # GoogleTest
 /contrib/googletest ngie@FreeBSD.org
 
-# kyua
-/contrib/kyua brooks@FreeBSD.org
-
 # NetBSD tests
 /contrib/netbsd-tests ngie@FreeBSD.org
 
