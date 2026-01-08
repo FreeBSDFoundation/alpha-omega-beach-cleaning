@@ -30,5 +30,5 @@ int main(void)
 		}
 	}
 	fclose(fp);
-	return _report("System  Libraries", "Time Zone Database", version);
+	return _report("System Libraries", "Time Zone Database", version);
 }
