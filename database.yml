@@ -9809,7 +9809,7 @@ Sections:
         - network
       section: 4
       plan: fix
-      owner: erj@
+      owner: kgalazka@
     ipfilter:
       description: IP Filter
       directory: sys/netpfil/ipfilter
