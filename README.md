@@ -120,27 +120,27 @@ $ for component in awk bc less libmagic zlib; do (cd src/versions &&
   make $component && ./$component); done
 cc    -W -Wall -g -O2 -fstack-protector -o awk.o -c awk.c
 cc -o awk awk.o  -Wl,-z,relro -Wl,-z,now
-  - System Tools:
+  System Tools:
     awk:
       version: 20200816
 cc    -W -Wall -g -O2 -fstack-protector -o bc.o -c bc.c
 cc -o bc bc.o  -Wl,-z,relro -Wl,-z,now
-  - System Tools:
+  System Tools:
     bc:
       version: 6.7.6
 cc    -W -Wall -g -O2 -fstack-protector -o less.o -c less.c
 cc -o less less.o  -Wl,-z,relro -Wl,-z,now
-  - System Tools:
+  System Tools:
     less:
       version: 581.2
 cc    -W -Wall -g -O2 -fstack-protector -o libmagic.o -c libmagic.c
 cc -o libmagic libmagic.o  -Wl,-z,relro -Wl,-z,now
-  - System Libraries:
+  System Libraries:
     libmagic:
       version: 5.41
 cc    -W -Wall -g -O2 -fstack-protector -o zlib.o -c zlib.c
 cc -o zlib zlib.o  -Wl,-z,relro -Wl,-z,now
-  - Kernel:
+  Kernel:
     zlib:
       version: 1.2.12
 ```
