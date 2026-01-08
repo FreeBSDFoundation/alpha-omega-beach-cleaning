@@ -36,7 +36,7 @@ The current timeline is set as follows:
 | Security risk assessments      | 08/09/2025 | 21/09/2025 | Done        | [Deliverable](security.md)        |
 | Propose list of priorities     | 22/09/2025 | 28/09/2025 | In progress | Continuous review and adjustments |
 | Plan the respective actions    | 29/09/2025 | 26/10/2025 | Done        | [Deliverable](plan.md)            |
-| Formalize code owners          | 27/10/2025 | 30/11/2025 |             | [Deliverable](owners.md)          |
+| Formalize code owners          | 27/10/2025 | 30/11/2025 | Done        | [Deliverable](CODEOWNERS)         |
 | Integrate review methodologies |      _continuous_      ||             | See [^1]                          |
 | Plan execution & coordination  |      _continuous_      ||             |                                   |
 | Final report                   | 09/03/2026 | 30/03/2026 |             |                                   |
