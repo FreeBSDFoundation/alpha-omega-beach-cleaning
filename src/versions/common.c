@@ -9,7 +9,7 @@ static int _report(char const * section, char const * name,
 		fprintf(stderr, "%s: %s\n", name, "version not found");
 		return 3;
 	}
-	printf("  - %s:\n", section);
+	printf("  %s:\n", section);
 	printf("    %s:\n", name);
 	printf("      version: %s\n", version);
 	return 0;
