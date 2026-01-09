@@ -11441,6 +11441,7 @@ Sections:
         - sbin/umbctl
         - sys/dev/usb/net
         - sys/modules/usb/umb
+      version: '15.0'
       upstream: OpenBSD
       homepage: https://openbsd.org
       security:
