@@ -30,7 +30,7 @@ _spdx() {
 			pkgconfig=${filename#../pkgconfig/}
 			pkgconfig=${pkgconfig%.pc}
 			spdx="$pkgconfig.spdx"
-			PKG_CONFIG_LIBDIR="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx"
+			PKG_CONFIG_PATH="$PWD/../pkgconfig" $DEBUG $BOMTOOL -- "$pkgconfig" > "$spdx"
 			if [ $? -ne 0 ]; then
 				$RM -- "$spdx"
 				ret=2
