@@ -1,0 +1,6 @@
+Name: libclang_rt.ubsan_standalone_cxx
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/ubsan_standalone_cxx
+Requires: libc++

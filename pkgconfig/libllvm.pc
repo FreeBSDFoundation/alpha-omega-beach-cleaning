@@ -1,0 +1,6 @@
+Name: libllvm
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libllvm
+Requires: libc++, libexecinfo, libz, msun

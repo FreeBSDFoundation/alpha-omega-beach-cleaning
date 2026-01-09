@@ -1,6 +1,6 @@
 Name: mkuzip
 Description: Compress disk image for use with geom_uzip(4) class
 URL: https://www.FreeBSD.org
-Version: 14.3
+Version: 15.0
 License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.bin/mkuzip

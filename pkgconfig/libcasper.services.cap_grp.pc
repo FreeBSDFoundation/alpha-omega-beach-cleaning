@@ -1,0 +1,6 @@
+Name: libcasper.services.cap_grp
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/cap_grp
+Requires: csu, libc, libcasper, libcompiler_rt, libnv

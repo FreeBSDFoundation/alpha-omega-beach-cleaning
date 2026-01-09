@@ -1,0 +1,6 @@
+Name: ncurses.tinfo
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/tinfo
+Requires: csu, libc, libcompiler_rt

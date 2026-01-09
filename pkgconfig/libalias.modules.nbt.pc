@@ -1,0 +1,6 @@
+Name: libalias.modules.nbt
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/nbt
+Requires: csu, libc, libcompiler_rt

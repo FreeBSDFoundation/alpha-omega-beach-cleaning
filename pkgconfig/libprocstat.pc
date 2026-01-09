@@ -1,0 +1,6 @@
+Name: libprocstat
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libprocstat
+Requires: csu, libc, libcompiler_rt, libelf, libkvm, zfs, libutil

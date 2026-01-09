@@ -1,0 +1,6 @@
+Name: libclang_rt.stats_client
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/stats_client
+Requires: libc++

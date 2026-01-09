@@ -1,0 +1,6 @@
+Name: libclang
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libclang
+Requires: libllvm, libc++, msun

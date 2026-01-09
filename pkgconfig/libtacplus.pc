@@ -1,0 +1,6 @@
+Name: libtacplus
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libtacplus
+Requires: csu, libc, libcompiler_rt, libmd

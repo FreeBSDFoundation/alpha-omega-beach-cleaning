@@ -1,0 +1,6 @@
+Name: libmd
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libmd
+Requires: csu, libc, libcompiler_rt

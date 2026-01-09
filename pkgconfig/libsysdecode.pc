@@ -1,0 +1,6 @@
+Name: libsysdecode
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/libsysdecode
+Requires: csu, libatf-c, lib80211, lib9p, libalias, libarchive, libbe, libbegemot, libblocklist, libblocksruntime, libbluetooth, libbsddialog, libbsdstat, libbsm, libbsnmp, libbz2, libc, libc++, libcalendar, libcam, libcapsicum, libcasper, cap_dns, cap_fileargs, cap_grp, cap_net, cap_netdb, cap_pwd, cap_sysctl, cap_syslog, libcom_err, libcompiler_rt, libcuse, libdevctl, libdevdctl, libdevinfo, libdevstat, libdpv, libdwarf, libedit, readline, libefivar, libelf, libevent1, libexecinfo, libexpat, libfetch, libfigpar, libgeom, libgpio, libjail, libkvm, liblzma, libmagic, libmd, libmemstat, libmilter, libmixer, libmp, libmt, libnetgraph, libpam, libpathconv, libpcap, libpmc, libproc, libprocstat, libradius, librss, librtld_db, libsdp, libsqlite3, libstdthreads, libtacplus, libthread_db, libucl, libufs, libugidfw, libulog, libusb, libusbhid, libutil, libveriexec, libvgl, libvmmapi, libwrap, libxo, libypclnt, libz, libzstd, msun, form, menu, panel, tinfo

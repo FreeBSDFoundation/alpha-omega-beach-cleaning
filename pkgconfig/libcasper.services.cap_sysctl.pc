@@ -1,0 +1,6 @@
+Name: libcasper.services.cap_sysctl
+Description: Library missing description
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/cap_sysctl
+Requires: csu, libc, libcasper, libcompiler_rt, libnv
