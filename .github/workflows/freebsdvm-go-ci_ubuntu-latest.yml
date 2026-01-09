@@ -7,19 +7,26 @@ on:
     branches: [ main ]
 
 jobs: 
-  re-generate:
+  test-all:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-      - name: Test in FreeBSD
-        id: test
-        uses: vmactions/freebsd-vm@v1
-        with:
-          usesh: true
-          prepare: |
-          
+    - uses: actions/checkout@v4
+    - name: bootstrap libSystem
+      run: git clone https://github.com/DeforaOS/libSystem.git libSystem && for dir in include data src; do (cd libSystem/$dir && make PREFIX="$HOME/opt/DeforaOS" install); done
+    - name: bootstrap configure
+      run: git clone https://github.com/DeforaOS/configure.git configure && for dir in data src; do (cd configure/$dir && PKG_CONFIG_PATH="$HOME/opt/DeforaOS/lib/pkgconfig" make PREFIX="$HOME/opt/DeforaOS" install); done
+    - name: configure
+      run: $HOME/opt/DeforaOS/bin/configure -O FreeBSD -p "$HOME/opt/DeforaOS"
+    - name: Test in FreeBSD
+      id: test
+      uses: vmactions/freebsd-vm@v1
+      with:
+        usesh: true
+        prepare: |
+        
 
-          run: |
-            pkg install -y go go-yq
-            make merge-versions
+        run: |
+          pkg install -y go go-yq
+          make CODEOWNERS dependencies.md plan.md security.md
+          make pkgconfig spdx
+          make versions.yml merge-versions
