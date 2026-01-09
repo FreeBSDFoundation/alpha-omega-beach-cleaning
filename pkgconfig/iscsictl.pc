@@ -3,5 +3,5 @@ Description: ISCSI initiator management utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=iscsictl(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/iscsictl
+Source: https://cgit.freebsd.org/src/tree/usr.bin/iscsictl
 Requires: csu, libc, libcam, libcompiler_rt, libutil, libxo

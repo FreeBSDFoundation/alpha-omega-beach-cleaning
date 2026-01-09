@@ -3,5 +3,5 @@ Description: Configure address selection policy for IPv6 and IPv4
 URL: https://man.freebsd.org/cgi/man.cgi?query=ip6addrctl(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ip6addrctl
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/ip6addrctl
 Requires: csu, libc, libcompiler_rt

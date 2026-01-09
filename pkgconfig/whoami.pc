@@ -3,5 +3,5 @@ Description: Display effective user id
 URL: https://man.freebsd.org/cgi/man.cgi?query=whoami(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/whoami
+Source: https://cgit.freebsd.org/src/tree/usr.bin/id
 Requires: csu, libc, libcompiler_rt

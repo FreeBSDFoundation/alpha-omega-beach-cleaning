@@ -3,5 +3,5 @@ Description: Automated conversational script with a modem
 URL: https://man.freebsd.org/cgi/man.cgi?query=chat(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/chat
+Source: https://cgit.freebsd.org/src/tree/usr.bin/chat
 Requires: csu, libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: Execute a utility with an altered default network view
 URL: https://man.freebsd.org/cgi/man.cgi?query=setfib(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/setfib
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/setfib
 Requires: csu, libc, libcompiler_rt

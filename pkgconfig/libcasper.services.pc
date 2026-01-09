@@ -2,4 +2,4 @@ Name: libcasper.services
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/services
+Source: https://cgit.freebsd.org/src/tree/lib/libcasper/services

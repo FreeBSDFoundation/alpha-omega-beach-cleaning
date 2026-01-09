@@ -3,5 +3,5 @@ Description: Display user's login name
 URL: https://man.freebsd.org/cgi/man.cgi?query=logname(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/logname
+Source: https://cgit.freebsd.org/src/tree/usr.bin/logname
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

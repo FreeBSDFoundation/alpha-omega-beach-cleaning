@@ -3,4 +3,4 @@ Description: Audio equalizer
 URL: https://man.freebsd.org/cgi/man.cgi?query=virtual_equalizer(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/virtual_equalizer
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/virtual_oss/virtual_equalizer

@@ -3,5 +3,5 @@ Description: Dump ACPI tables and ASL
 URL: https://man.freebsd.org/cgi/man.cgi?query=acpidump(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/acpidump
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/acpi/acpidump
 Requires: csu, libc, libcompiler_rt

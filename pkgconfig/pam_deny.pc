@@ -3,5 +3,5 @@ Description: Deny PAM module
 URL: https://man.freebsd.org/cgi/man.cgi?query=pam_deny(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam_deny
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_deny
 Requires: csu, libc, libcompiler_rt, libpam

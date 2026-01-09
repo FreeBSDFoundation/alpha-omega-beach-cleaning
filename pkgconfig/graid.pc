@@ -3,5 +3,5 @@ Description: Control utility for software RAID devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=graid(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/graid
+Source: https://cgit.freebsd.org/src/tree/lib/geom/raid
 Requires: csu, libc, libcompiler_rt, libgeom, libmd

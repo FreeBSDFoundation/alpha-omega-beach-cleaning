@@ -3,4 +3,4 @@ Description: Configure PWM (Pulse Width Modulation) hardware
 URL: https://man.freebsd.org/cgi/man.cgi?query=pwm(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pwm
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/pwm

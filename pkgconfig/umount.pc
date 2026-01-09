@@ -3,5 +3,5 @@ Description: Unmount file systems
 URL: https://man.freebsd.org/cgi/man.cgi?query=umount(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/umount
+Source: https://cgit.freebsd.org/src/tree/sbin/umount
 Requires: csu, libc, libcompiler_rt

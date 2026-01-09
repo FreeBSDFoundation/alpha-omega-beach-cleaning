@@ -3,5 +3,5 @@ Description: Display disk usage and limits
 URL: https://man.freebsd.org/cgi/man.cgi?query=quota(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/quota
+Source: https://cgit.freebsd.org/src/tree/usr.bin/quota
 Requires: csu, libc, libcompiler_rt, librpcsvc, libutil

@@ -3,5 +3,5 @@ Description: Mount a UDF file system
 URL: https://man.freebsd.org/cgi/man.cgi?query=mount_udf(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mount_udf
+Source: https://cgit.freebsd.org/src/tree/sbin/mount_udf
 Requires: csu, libc, libcompiler_rt, libkiconv

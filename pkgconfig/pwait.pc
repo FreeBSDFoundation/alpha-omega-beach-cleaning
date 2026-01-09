@@ -3,5 +3,5 @@ Description: Wait for processes to terminate
 URL: https://man.freebsd.org/cgi/man.cgi?query=pwait(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pwait
+Source: https://cgit.freebsd.org/src/tree/bin/pwait
 Requires: csu, libc, libcompiler_rt

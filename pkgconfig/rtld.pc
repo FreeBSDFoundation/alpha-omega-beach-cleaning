@@ -3,5 +3,5 @@ Description: Run-time link-editor
 URL: https://man.freebsd.org/cgi/man.cgi?query=rtld(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rtld
+Source: https://cgit.freebsd.org/src/tree/libexec/rtld-elf
 Requires: libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: Print the number of processors
 URL: https://man.freebsd.org/cgi/man.cgi?query=nproc(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nproc
+Source: https://cgit.freebsd.org/src/tree/bin/nproc
 Requires: csu, libc, libcompiler_rt

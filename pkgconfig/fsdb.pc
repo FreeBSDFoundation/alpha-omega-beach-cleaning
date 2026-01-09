@@ -3,5 +3,5 @@ Description: FFS debugging/editing tool
 URL: https://man.freebsd.org/cgi/man.cgi?query=fsdb(8)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/fsdb
+Source: https://cgit.freebsd.org/src/tree/sbin/fsdb
 Requires: csu, libc, libcompiler_rt, libedit, libufs

@@ -3,5 +3,5 @@ Description: Generates hashed conversion data for iconv(3)
 URL: https://man.freebsd.org/cgi/man.cgi?query=mkcsmapper(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mkcsmapper
+Source: https://cgit.freebsd.org/src/tree/usr.bin/mkcsmapper
 Requires: csu, libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: User interface to the IPFilter pools
 URL: https://man.freebsd.org/cgi/man.cgi?query=ippool(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ippool
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ippool
 Requires: csu, libc, libcompiler_rt, libkvm

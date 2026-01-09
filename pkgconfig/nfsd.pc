@@ -3,5 +3,5 @@ Description: Remote NFS server
 URL: https://man.freebsd.org/cgi/man.cgi?query=nfsd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nfsd
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/nfsd
 Requires: csu, libc, libcompiler_rt, libutil

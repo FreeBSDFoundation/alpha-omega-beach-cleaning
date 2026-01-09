@@ -2,5 +2,5 @@ Name: libelf
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libelf
+Source: https://cgit.freebsd.org/src/tree/lib/libelf
 Requires: csu, libc, libcompiler_rt

@@ -2,4 +2,4 @@ Name: libcompiler_rt
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libcompiler_rt
+Source: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt

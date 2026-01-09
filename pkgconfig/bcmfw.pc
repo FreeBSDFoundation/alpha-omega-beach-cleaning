@@ -3,5 +3,5 @@ Description: Load firmware for Broadcom BCM2033 Bluetooth USB devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=bcmfw(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bcmfw
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/bcmfw
 Requires: csu, libc, libcompiler_rt, libnetgraph

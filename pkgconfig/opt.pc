@@ -3,5 +3,5 @@ Description: LLVM optimizer
 URL: https://man.freebsd.org/cgi/man.cgi?query=opt(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/opt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/clang/opt
 Requires: csu, libllvm, libc, libc++, libcompiler_rt, libcxxrt, libthr, zlib, msun, ncurses.ncursesw

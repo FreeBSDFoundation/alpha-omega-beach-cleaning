@@ -3,5 +3,5 @@ Description: Ftpusers PAM module
 URL: https://man.freebsd.org/cgi/man.cgi?query=pam_ftpusers(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam_ftpusers
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_ftpusers
 Requires: csu, libc, libcompiler_rt, libpam

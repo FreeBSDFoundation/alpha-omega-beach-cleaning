@@ -2,5 +2,5 @@ Name: libsdp
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libsdp
+Source: https://cgit.freebsd.org/src/tree/lib/libsdp
 Requires: csu, libbluetooth, libc, libcompiler_rt

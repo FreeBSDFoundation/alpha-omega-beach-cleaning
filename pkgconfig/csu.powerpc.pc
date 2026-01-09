@@ -2,4 +2,4 @@ Name: csu.powerpc
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/powerpc
+Source: https://cgit.freebsd.org/src/tree/lib/csu/powerpc

@@ -2,5 +2,5 @@ Name: libcasper
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libcasper
+Source: https://cgit.freebsd.org/src/tree/lib/libcasper/libcasper
 Requires: csu, libc, libcompiler_rt, libnv

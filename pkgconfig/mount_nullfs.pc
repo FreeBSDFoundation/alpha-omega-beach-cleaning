@@ -3,5 +3,5 @@ Description: Mount a loopback file system sub-tree; demonstrate the use of a nul
 URL: https://man.freebsd.org/cgi/man.cgi?query=mount_nullfs(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mount_nullfs
+Source: https://cgit.freebsd.org/src/tree/sbin/mount_nullfs
 Requires: csu, libc, libcompiler_rt

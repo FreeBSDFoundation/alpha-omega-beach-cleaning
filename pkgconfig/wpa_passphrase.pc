@@ -3,5 +3,5 @@ Description: Utility for generating a 256-bit pre-shared WPA key from an ASCII p
 URL: https://man.freebsd.org/cgi/man.cgi?query=wpa_passphrase(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/wpa_passphrase
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_passphrase
 Requires: csu, libc, libcompiler_rt, libutil

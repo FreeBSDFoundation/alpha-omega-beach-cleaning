@@ -3,5 +3,5 @@ Description: Set ACL information
 URL: https://man.freebsd.org/cgi/man.cgi?query=setfacl(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/setfacl
+Source: https://cgit.freebsd.org/src/tree/bin/setfacl
 Requires: csu, libc, libcompiler_rt

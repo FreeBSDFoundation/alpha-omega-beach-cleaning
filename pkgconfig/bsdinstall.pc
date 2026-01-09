@@ -3,4 +3,4 @@ Description: System installer
 URL: https://man.freebsd.org/cgi/man.cgi?query=bsdinstall(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bsdinstall
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bsdinstall

@@ -2,5 +2,5 @@ Name: libclang_rt.stats
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/stats
+Source: https://cgit.freebsd.org/src/tree/lib/libclang_rt/stats
 Requires: libc++, libmd, ncurses.tinfo

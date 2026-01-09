@@ -3,5 +3,5 @@ Description: Link editor for BTX clients
 URL: https://man.freebsd.org/cgi/man.cgi?query=btxld(8)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/btxld
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/btxld
 Requires: csu, libc, libcompiler_rt

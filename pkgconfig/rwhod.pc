@@ -3,5 +3,5 @@ Description: System status server
 URL: https://man.freebsd.org/cgi/man.cgi?query=rwhod(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rwhod
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rwhod
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

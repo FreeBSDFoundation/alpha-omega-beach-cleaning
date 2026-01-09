@@ -3,5 +3,5 @@ Description: Mount union file systems
 URL: https://man.freebsd.org/cgi/man.cgi?query=mount_unionfs(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mount_unionfs
+Source: https://cgit.freebsd.org/src/tree/sbin/mount_unionfs
 Requires: csu, libc, libcompiler_rt

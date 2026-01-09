@@ -3,5 +3,5 @@ Description: Create a tags file
 URL: https://man.freebsd.org/cgi/man.cgi?query=ctags(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/ctags
+Source: https://cgit.freebsd.org/src/tree/usr.bin/ctags
 Requires: csu, libc, libcompiler_rt

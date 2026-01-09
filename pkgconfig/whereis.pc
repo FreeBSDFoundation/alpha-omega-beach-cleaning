@@ -3,5 +3,5 @@ Description: Locate programs
 URL: https://man.freebsd.org/cgi/man.cgi?query=whereis(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/whereis
+Source: https://cgit.freebsd.org/src/tree/usr.bin/whereis
 Requires: csu, libc, libcompiler_rt

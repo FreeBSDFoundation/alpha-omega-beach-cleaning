@@ -3,5 +3,5 @@ Description: Define locale environment
 URL: https://man.freebsd.org/cgi/man.cgi?query=localedef(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/localedef
+Source: https://cgit.freebsd.org/src/tree/usr.bin/localedef
 Requires: csu, libc, libcompiler_rt

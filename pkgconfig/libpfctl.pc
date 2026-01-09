@@ -2,4 +2,4 @@ Name: libpfctl
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libpfctl
+Source: https://cgit.freebsd.org/src/tree/lib/libpfctl

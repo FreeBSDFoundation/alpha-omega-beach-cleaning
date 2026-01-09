@@ -3,5 +3,5 @@ Description: Remove directory entries
 URL: https://man.freebsd.org/cgi/man.cgi?query=rm(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rm
+Source: https://cgit.freebsd.org/src/tree/bin/rm
 Requires: csu, libc, libcompiler_rt

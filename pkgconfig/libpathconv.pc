@@ -2,5 +2,5 @@ Name: libpathconv
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libpathconv
+Source: https://cgit.freebsd.org/src/tree/lib/libpathconv
 Requires: csu, libc, libcompiler_rt

@@ -2,5 +2,5 @@ Name: libpmcstat
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libpmcstat
+Source: https://cgit.freebsd.org/src/tree/lib/libpmcstat
 Requires: libelf, libpmc

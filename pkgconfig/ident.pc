@@ -3,5 +3,5 @@ Description: Identify RCS keyword string in files
 URL: https://man.freebsd.org/cgi/man.cgi?query=ident(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ident
+Source: https://cgit.freebsd.org/src/tree/usr.bin/ident
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

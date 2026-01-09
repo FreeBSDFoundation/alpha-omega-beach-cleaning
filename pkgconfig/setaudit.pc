@@ -3,4 +3,4 @@ Description: Specify audit configurations on a process
 URL: https://man.freebsd.org/cgi/man.cgi?query=setaudit(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/setaudit
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/setaudit

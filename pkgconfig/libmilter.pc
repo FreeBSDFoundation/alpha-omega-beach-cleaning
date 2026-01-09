@@ -2,5 +2,5 @@ Name: libmilter
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libmilter
+Source: https://cgit.freebsd.org/src/tree/lib/libmilter
 Requires: csu, libc, libcompiler_rt

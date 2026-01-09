@@ -3,5 +3,5 @@ Description: Manage ZFS boot environments
 URL: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
 Version: 15.0
 License: Beerware AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/bectl
+Source: https://cgit.freebsd.org/src/tree/sbin/bectl
 Requires: csu, libbe, libc, libcompiler_rt, libjail, libutil

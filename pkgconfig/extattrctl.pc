@@ -3,5 +3,5 @@ Description: Manage UFS1 extended attributes
 URL: https://man.freebsd.org/cgi/man.cgi?query=extattrctl(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/extattrctl
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/extattrctl
 Requires: csu, libc, libcompiler_rt, libutil

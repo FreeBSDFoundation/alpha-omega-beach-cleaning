@@ -2,5 +2,5 @@ Name: ncurses.menu
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/menu
+Source: https://cgit.freebsd.org/src/tree/lib/ncurses/menu
 Requires: csu, libc, libcompiler_rt, ncurses, ncurses.tinfo

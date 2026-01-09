@@ -3,5 +3,5 @@ Description: Manage the user accounting database
 URL: https://man.freebsd.org/cgi/man.cgi?query=utx(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/utx
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/utx
 Requires: csu, libc, libcompiler_rt

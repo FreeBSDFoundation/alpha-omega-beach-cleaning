@@ -3,5 +3,5 @@ Description: Boot parameter server
 URL: https://man.freebsd.org/cgi/man.cgi?query=bootparamd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bootparamd
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bootparamd/bootparamd
 Requires: csu, libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: Display and modify floppy disk parameters
 URL: https://man.freebsd.org/cgi/man.cgi?query=fdcontrol(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/fdcontrol
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/fdcontrol
 Requires: csu, libc, libcompiler_rt

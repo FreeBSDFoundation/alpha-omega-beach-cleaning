@@ -3,5 +3,5 @@ Description: HP remote boot server
 URL: https://man.freebsd.org/cgi/man.cgi?query=rbootd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rbootd
+Source: https://cgit.freebsd.org/src/tree/libexec/rbootd
 Requires: csu, libc, libcompiler_rt

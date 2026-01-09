@@ -3,5 +3,5 @@ Description: Print statistics about GEOM disks
 URL: https://man.freebsd.org/cgi/man.cgi?query=gstat(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gstat
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/gstat
 Requires: csu, libc, libcompiler_rt, libdevstat, libedit, libgeom, libkvm, ncurses, ncurses.tinfo

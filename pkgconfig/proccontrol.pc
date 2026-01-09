@@ -3,5 +3,5 @@ Description: Control some process execution aspects
 URL: https://man.freebsd.org/cgi/man.cgi?query=proccontrol(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/proccontrol
+Source: https://cgit.freebsd.org/src/tree/usr.bin/proccontrol
 Requires: csu, libc, libcompiler_rt

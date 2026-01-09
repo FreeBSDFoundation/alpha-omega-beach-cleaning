@@ -3,5 +3,5 @@ Description: Authenticator for IEEE 802.11 networks
 URL: https://man.freebsd.org/cgi/man.cgi?query=hostapd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/hostapd
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/hostapd
 Requires: csu, libc, libcompiler_rt, libpcap, libutil

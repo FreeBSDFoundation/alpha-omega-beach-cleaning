@@ -3,5 +3,5 @@ Description: Highly Available Storage daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/hastd
+Source: https://cgit.freebsd.org/src/tree/sbin/hastd
 Requires: csu, libc, libcompiler_rt, libgeom, libmd, libthr, libutil, zlib

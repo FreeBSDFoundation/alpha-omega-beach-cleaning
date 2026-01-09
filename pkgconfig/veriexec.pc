@@ -3,5 +3,5 @@ Description: Manipulate state of mac_veriexec
 URL: https://man.freebsd.org/cgi/man.cgi?query=veriexec(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/veriexec
+Source: https://cgit.freebsd.org/src/tree/sbin/veriexec
 Requires: csu, BearSSL, libc, libcompiler_rt, libveriexec

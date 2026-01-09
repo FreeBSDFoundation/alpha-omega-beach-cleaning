@@ -3,5 +3,5 @@ Description: Show Bluetooth sockets information
 URL: https://man.freebsd.org/cgi/man.cgi?query=btsockstat(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/btsockstat
+Source: https://cgit.freebsd.org/src/tree/usr.bin/bluetooth/btsockstat
 Requires: csu, libbluetooth, libc, libcompiler_rt, libkvm

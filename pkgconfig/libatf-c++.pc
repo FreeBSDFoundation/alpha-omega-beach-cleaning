@@ -2,5 +2,5 @@ Name: libatf-c++
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libatf-c++
+Source: https://cgit.freebsd.org/src/tree/lib/atf/libatf-c++
 Requires: csu, libatf-c, libc, libc++, libcompiler_rt, libcxxrt, msun

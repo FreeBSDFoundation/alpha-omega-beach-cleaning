@@ -3,5 +3,5 @@ Description: Connection utility for Option based devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=uhsoctl(1)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/uhsoctl
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/uhsoctl
 Requires: csu, libc, libcompiler_rt, libutil

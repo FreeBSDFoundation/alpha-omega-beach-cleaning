@@ -3,5 +3,5 @@ Description: Alters packet filtering lists for IP packet input and output
 URL: https://man.freebsd.org/cgi/man.cgi?query=ipf(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/ipf
+Source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipf
 Requires: csu, libc, libcompiler_rt, libkvm, libpcap

@@ -3,5 +3,5 @@ Description: Ng_netflow(4) control utility
 URL: https://man.freebsd.org/cgi/man.cgi?query=flowctl(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/flowctl
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/flowctl
 Requires: csu, libc, libcompiler_rt, libnetgraph

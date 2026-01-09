@@ -3,5 +3,5 @@ Description: Control utility for UNION GEOM class
 URL: https://man.freebsd.org/cgi/man.cgi?query=gunion(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gunion
+Source: https://cgit.freebsd.org/src/tree/lib/geom/union
 Requires: csu, libc, libcompiler_rt, libgeom

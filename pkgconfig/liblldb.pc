@@ -2,5 +2,5 @@ Name: liblldb
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/liblldb
+Source: https://cgit.freebsd.org/src/tree/lib/clang/liblldb
 Requires: libclang, libllvm, libc++, libedit, libexecinfo, libkvm, liblzma, zlib, msun, ncurses.panel, ncurses.tinfo

@@ -3,5 +3,5 @@ Description: Adjust real-time clock (rtc) and kernel timezone offset
 URL: https://man.freebsd.org/cgi/man.cgi?query=adjkerntz(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/adjkerntz
+Source: https://cgit.freebsd.org/src/tree/sbin/adjkerntz
 Requires: csu, libc, libcompiler_rt

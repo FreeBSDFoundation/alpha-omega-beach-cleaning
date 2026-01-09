@@ -2,5 +2,5 @@ Name: libalias.modules.pptp
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pptp
+Source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/pptp
 Requires: csu, libc, libcompiler_rt

@@ -2,4 +2,4 @@ Name: csu.aarch64
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/aarch64
+Source: https://cgit.freebsd.org/src/tree/lib/csu/aarch64

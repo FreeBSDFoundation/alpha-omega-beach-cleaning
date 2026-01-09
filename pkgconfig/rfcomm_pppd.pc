@@ -3,5 +3,5 @@ Description: RFCOMM PPP daemon
 URL: https://man.freebsd.org/cgi/man.cgi?query=rfcomm_pppd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rfcomm_pppd
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/bluetooth/rfcomm_pppd
 Requires: csu, libbluetooth, libc, libcompiler_rt, libsdp

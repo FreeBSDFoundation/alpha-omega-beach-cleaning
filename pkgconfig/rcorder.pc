@@ -3,5 +3,5 @@ Description: Print a dependency ordering of interdependent files
 URL: https://man.freebsd.org/cgi/man.cgi?query=rcorder(8)
 Version: 15.0
 License: BSD-4-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/rcorder
+Source: https://cgit.freebsd.org/src/tree/sbin/rcorder
 Requires: csu, libc, libcompiler_rt, libutil

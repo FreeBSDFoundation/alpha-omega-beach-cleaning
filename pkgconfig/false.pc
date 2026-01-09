@@ -3,5 +3,5 @@ Description: Return false value
 URL: https://man.freebsd.org/cgi/man.cgi?query=false(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/false
+Source: https://cgit.freebsd.org/src/tree/usr.bin/false
 Requires: csu, libc, libcompiler_rt

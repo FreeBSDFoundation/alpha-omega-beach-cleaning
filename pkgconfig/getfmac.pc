@@ -3,5 +3,5 @@ Description: Print MAC label for a file system object
 URL: https://man.freebsd.org/cgi/man.cgi?query=getfmac(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/getfmac
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/getfmac
 Requires: csu, libc, libcompiler_rt

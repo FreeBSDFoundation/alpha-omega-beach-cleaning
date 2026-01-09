@@ -3,5 +3,5 @@ Description: Simple text formatter
 URL: https://man.freebsd.org/cgi/man.cgi?query=fmt(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/fmt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/fmt
 Requires: csu, libc, libcompiler_rt

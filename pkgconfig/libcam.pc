@@ -2,5 +2,5 @@ Name: libcam
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libcam
+Source: https://cgit.freebsd.org/src/tree/lib/libcam
 Requires: csu, libc, libcompiler_rt, libsbuf

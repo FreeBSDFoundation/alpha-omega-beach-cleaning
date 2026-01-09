@@ -3,5 +3,5 @@ Description: Log into the computer
 URL: https://man.freebsd.org/cgi/man.cgi?query=login(1)
 Version: 15.0
 License: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/login
+Source: https://cgit.freebsd.org/src/tree/usr.bin/login
 Requires: csu, libc, libcompiler_rt, libpam, libutil

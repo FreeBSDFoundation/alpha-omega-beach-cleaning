@@ -3,5 +3,5 @@ Description: Generate universally unique identifiers
 URL: https://man.freebsd.org/cgi/man.cgi?query=uuidgen(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/uuidgen
+Source: https://cgit.freebsd.org/src/tree/bin/uuidgen
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

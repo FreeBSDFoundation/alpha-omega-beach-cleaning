@@ -3,5 +3,5 @@ Description: Format and write floppy disks
 URL: https://man.freebsd.org/cgi/man.cgi?query=fdwrite(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/fdwrite
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/fdwrite
 Requires: csu, libc, libcompiler_rt

@@ -2,4 +2,4 @@ Name: libpmc.pmu-events
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pmu-events
+Source: https://cgit.freebsd.org/src/tree/lib/libpmc/pmu-events

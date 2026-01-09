@@ -3,5 +3,5 @@ Description: Construct a new MS-DOS (FAT) file system
 URL: https://man.freebsd.org/cgi/man.cgi?query=newfs_msdos(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/newfs_msdos
+Source: https://cgit.freebsd.org/src/tree/sbin/newfs_msdos
 Requires: csu, libc, libcompiler_rt

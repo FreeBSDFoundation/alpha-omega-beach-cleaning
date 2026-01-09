@@ -3,5 +3,5 @@ Description: Test I2C bus and slave devices
 URL: https://man.freebsd.org/cgi/man.cgi?query=i2c(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/i2c
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/i2c
 Requires: csu, libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: Send a message to users logged on a host
 URL: https://man.freebsd.org/cgi/man.cgi?query=rwall(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rwall
+Source: https://cgit.freebsd.org/src/tree/usr.bin/rwall
 Requires: csu, libc, libcompiler_rt

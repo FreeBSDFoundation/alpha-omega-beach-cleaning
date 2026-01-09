@@ -3,4 +3,4 @@ Description: Modify a running virtual_oss(8) instance's options
 URL: https://man.freebsd.org/cgi/man.cgi?query=virtual_oss_cmd(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/virtual_oss_cmd
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/virtual_oss/virtual_oss_cmd

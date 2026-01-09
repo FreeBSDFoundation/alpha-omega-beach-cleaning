@@ -3,5 +3,5 @@ Description: Display first lines of a file
 URL: https://man.freebsd.org/cgi/man.cgi?query=head(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/head
+Source: https://cgit.freebsd.org/src/tree/usr.bin/head
 Requires: csu, libc, libcapsicum, libcompiler_rt, libutil

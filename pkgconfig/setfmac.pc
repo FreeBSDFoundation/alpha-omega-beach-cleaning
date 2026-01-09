@@ -3,5 +3,5 @@ Description: Set MAC label for a file system object
 URL: https://man.freebsd.org/cgi/man.cgi?query=setfmac(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/setfmac
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/setfmac
 Requires: csu, libc, libcompiler_rt

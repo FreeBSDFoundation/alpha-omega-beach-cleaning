@@ -3,4 +3,4 @@ Description: Control POSIX mqueuefs message queues
 URL: https://man.freebsd.org/cgi/man.cgi?query=posixmqcontrol(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/posixmqcontrol
+Source: https://cgit.freebsd.org/src/tree/usr.bin/posixmqcontrol

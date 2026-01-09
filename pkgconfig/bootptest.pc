@@ -3,5 +3,5 @@ Description: Send BOOTP queries and print responses
 URL: https://man.freebsd.org/cgi/man.cgi?query=bootptest(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/bootptest
+Source: https://cgit.freebsd.org/src/tree/libexec/bootpd/tools/bootptest
 Requires: csu, libc, libcompiler_rt

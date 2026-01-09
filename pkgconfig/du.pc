@@ -3,5 +3,5 @@ Description: Display disk usage statistics
 URL: https://man.freebsd.org/cgi/man.cgi?query=du(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/du
+Source: https://cgit.freebsd.org/src/tree/usr.bin/du
 Requires: csu, libc, libcompiler_rt, libutil, libxo

@@ -3,5 +3,5 @@ Description: SecureTTY PAM module
 URL: https://man.freebsd.org/cgi/man.cgi?query=pam_securetty(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam_securetty
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_securetty
 Requires: csu, libc, libcompiler_rt, libpam

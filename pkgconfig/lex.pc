@@ -3,5 +3,5 @@ Description: Fast lexical analyzer generator
 URL: https://man.freebsd.org/cgi/man.cgi?query=lex(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lex
+Source: https://cgit.freebsd.org/src/tree/usr.bin/lex
 Requires: csu, libc, libcompiler_rt

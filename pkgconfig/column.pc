@@ -3,5 +3,5 @@ Description: Columnate lists
 URL: https://man.freebsd.org/cgi/man.cgi?query=column(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/column
+Source: https://cgit.freebsd.org/src/tree/usr.bin/column
 Requires: csu, libc, libcompiler_rt

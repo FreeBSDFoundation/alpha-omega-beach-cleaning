@@ -3,5 +3,5 @@ Description: Indicate last logins of users and ttys
 URL: https://man.freebsd.org/cgi/man.cgi?query=last(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/last
+Source: https://cgit.freebsd.org/src/tree/usr.bin/last
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt, libxo

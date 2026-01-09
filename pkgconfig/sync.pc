@@ -3,5 +3,5 @@ Description: Force completion of pending disk writes (flush cache)
 URL: https://man.freebsd.org/cgi/man.cgi?query=sync(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/sync
+Source: https://cgit.freebsd.org/src/tree/bin/sync
 Requires: csu, libc, libcompiler_rt

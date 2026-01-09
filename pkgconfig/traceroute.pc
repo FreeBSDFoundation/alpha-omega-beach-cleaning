@@ -3,5 +3,5 @@ Description: Print the route packets take to network host
 URL: https://man.freebsd.org/cgi/man.cgi?query=traceroute(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/traceroute
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/traceroute
 Requires: csu, libc, libcapsicum, libcompiler_rt, libipsec

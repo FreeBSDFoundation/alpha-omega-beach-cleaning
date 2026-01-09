@@ -3,4 +3,4 @@ Description: Run periodic system functions
 URL: https://man.freebsd.org/cgi/man.cgi?query=periodic(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/periodic
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/periodic

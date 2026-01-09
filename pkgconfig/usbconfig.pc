@@ -3,5 +3,5 @@ Description: Configure the USB subsystem
 URL: https://man.freebsd.org/cgi/man.cgi?query=usbconfig(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/usbconfig
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/usbconfig
 Requires: csu, libc, libcompiler_rt, libusb

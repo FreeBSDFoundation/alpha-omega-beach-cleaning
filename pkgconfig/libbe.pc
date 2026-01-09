@@ -2,5 +2,5 @@ Name: libbe
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libbe
+Source: https://cgit.freebsd.org/src/tree/lib/libbe
 Requires: csu, libc, libcompiler_rt

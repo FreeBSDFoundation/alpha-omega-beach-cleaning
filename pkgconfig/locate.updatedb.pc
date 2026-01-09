@@ -3,5 +3,5 @@ Description: Update locate database
 URL: https://man.freebsd.org/cgi/man.cgi?query=locate.updatedb(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/locate.updatedb
+Source: https://cgit.freebsd.org/src/tree/usr.bin/locate/locate
 Requires: csu, libc, libcompiler_rt

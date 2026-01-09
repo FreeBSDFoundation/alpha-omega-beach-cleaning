@@ -3,5 +3,5 @@ Description: Control utility for the cpuctl(4) device
 URL: https://man.freebsd.org/cgi/man.cgi?query=cpucontrol(8)
 Version: 15.0
 License: BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/cpucontrol
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/cpucontrol
 Requires: csu, libc, libcompiler_rt

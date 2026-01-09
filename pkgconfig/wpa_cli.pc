@@ -3,5 +3,5 @@ Description: Console utility for WiFi authentication with wpa_supplicant
 URL: https://man.freebsd.org/cgi/man.cgi?query=wpa_cli(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/wpa_cli
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_cli
 Requires: csu, libc, libcompiler_rt, libpcap, libutil

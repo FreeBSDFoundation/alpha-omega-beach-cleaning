@@ -2,5 +2,5 @@ Name: libdevctl
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libdevctl
+Source: https://cgit.freebsd.org/src/tree/lib/libdevctl
 Requires: csu, libc, libcompiler_rt

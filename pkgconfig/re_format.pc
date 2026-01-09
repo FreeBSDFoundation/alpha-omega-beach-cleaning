@@ -3,4 +3,4 @@ Description: POSIX 1003.2 regular expressions
 URL: https://man.freebsd.org/cgi/man.cgi?query=re_format(7)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/re_format
+Source: https://cgit.freebsd.org/src/tree/lib/libc/regex

@@ -3,5 +3,5 @@ Description: RIPng debugging tool
 URL: https://man.freebsd.org/cgi/man.cgi?query=rip6query(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/rip6query
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/rip6query
 Requires: csu, libc, libcompiler_rt

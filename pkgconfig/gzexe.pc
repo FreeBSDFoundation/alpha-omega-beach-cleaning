@@ -3,5 +3,5 @@ Description: Create auto-decompressing executables
 URL: https://man.freebsd.org/cgi/man.cgi?query=gzexe(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/gzexe
+Source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
 Requires: csu, libc, libcompiler_rt, liblzma, zlib, zstd

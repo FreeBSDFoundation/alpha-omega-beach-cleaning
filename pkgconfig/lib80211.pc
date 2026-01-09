@@ -2,5 +2,5 @@ Name: lib80211
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lib80211
+Source: https://cgit.freebsd.org/src/tree/lib/lib80211
 Requires: csu, libc, libcompiler_rt, libexpat, libsbuf

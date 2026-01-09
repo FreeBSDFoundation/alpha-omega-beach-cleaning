@@ -3,5 +3,5 @@ Description: Set or display process resource limits
 URL: https://man.freebsd.org/cgi/man.cgi?query=limits(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/limits
+Source: https://cgit.freebsd.org/src/tree/usr.bin/limits
 Requires: csu, libc, libcompiler_rt, libutil

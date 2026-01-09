@@ -3,5 +3,5 @@ Description: Specify a device for crash dumps
 URL: https://man.freebsd.org/cgi/man.cgi?query=dumpon(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/dumpon
+Source: https://cgit.freebsd.org/src/tree/sbin/dumpon
 Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

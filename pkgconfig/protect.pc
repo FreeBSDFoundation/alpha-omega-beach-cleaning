@@ -3,5 +3,5 @@ Description: Protect processes from being killed when swap space is exhausted
 URL: https://man.freebsd.org/cgi/man.cgi?query=protect(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/protect
+Source: https://cgit.freebsd.org/src/tree/usr.bin/protect
 Requires: csu, libc, libcompiler_rt

@@ -3,5 +3,5 @@ Description: Chroot PAM module
 URL: https://man.freebsd.org/cgi/man.cgi?query=pam_chroot(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam_chroot
+Source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_chroot
 Requires: csu, libc, libcompiler_rt, libpam

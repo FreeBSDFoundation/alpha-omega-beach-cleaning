@@ -3,5 +3,5 @@ Description: Show how long system has been running
 URL: https://man.freebsd.org/cgi/man.cgi?query=uptime(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/uptime
+Source: https://cgit.freebsd.org/src/tree/usr.bin/w
 Requires: csu, libc, libcompiler_rt, libkvm, libsbuf, libutil, libxo

@@ -3,5 +3,5 @@ Description: Change file flags
 URL: https://man.freebsd.org/cgi/man.cgi?query=chflags(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/chflags
+Source: https://cgit.freebsd.org/src/tree/bin/chflags
 Requires: csu, libc, libcompiler_rt

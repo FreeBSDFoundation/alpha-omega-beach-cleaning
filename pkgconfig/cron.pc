@@ -3,5 +3,5 @@ Description: Daemon to execute scheduled commands (Vixie Cron)
 URL: https://man.freebsd.org/cgi/man.cgi?query=cron(8)
 Version: 15.0
 License: BSD-4.3TAHOE AND BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/cron
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/cron/cron
 Requires: csu, libc, libcompiler_rt, libpam, libutil

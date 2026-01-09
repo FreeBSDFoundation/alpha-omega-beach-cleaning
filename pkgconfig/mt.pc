@@ -3,5 +3,5 @@ Description: Magnetic tape manipulating program
 URL: https://man.freebsd.org/cgi/man.cgi?query=mt(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/mt
+Source: https://cgit.freebsd.org/src/tree/usr.bin/mt
 Requires: csu, libc, libcompiler_rt, libexpat, libmt

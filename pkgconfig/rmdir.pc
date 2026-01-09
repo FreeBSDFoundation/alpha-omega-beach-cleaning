@@ -3,5 +3,5 @@ Description: Remove directories
 URL: https://man.freebsd.org/cgi/man.cgi?query=rmdir(1)
 Version: 15.0
 License: BSD-3-Clause
-Source: https://cgit.freebsd.org/src/tree/rmdir
+Source: https://cgit.freebsd.org/src/tree/bin/rmdir
 Requires: csu, libc, libcompiler_rt

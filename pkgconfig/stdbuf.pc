@@ -3,5 +3,5 @@ Description: Change standard streams initial buffering
 URL: https://man.freebsd.org/cgi/man.cgi?query=stdbuf(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/stdbuf
+Source: https://cgit.freebsd.org/src/tree/usr.bin/stdbuf
 Requires: csu, libc, libcompiler_rt

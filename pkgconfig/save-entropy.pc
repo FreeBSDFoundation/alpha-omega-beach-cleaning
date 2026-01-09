@@ -3,4 +3,4 @@ Description: Save bits of entropy to feed /dev/random at startup
 URL: https://man.freebsd.org/cgi/man.cgi?query=save-entropy(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/save-entropy
+Source: https://cgit.freebsd.org/src/tree/libexec/save-entropy

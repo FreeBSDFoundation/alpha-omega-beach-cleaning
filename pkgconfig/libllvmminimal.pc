@@ -2,5 +2,5 @@ Name: libllvmminimal
 Description: Library missing description
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/libllvmminimal
+Source: https://cgit.freebsd.org/src/tree/lib/clang/libllvmminimal
 Requires: libc++, libexecinfo, msun

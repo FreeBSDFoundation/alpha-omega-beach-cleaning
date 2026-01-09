@@ -3,5 +3,5 @@ Description: Spool queue examination program
 URL: https://man.freebsd.org/cgi/man.cgi?query=lpq(1)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/lpq
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/lpr/lpq
 Requires: csu, libc, libcompiler_rt

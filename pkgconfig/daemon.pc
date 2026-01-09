@@ -3,5 +3,5 @@ Description: Run detached from the controlling terminal
 URL: https://man.freebsd.org/cgi/man.cgi?query=daemon(8)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/daemon
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/daemon
 Requires: csu, libc, libcompiler_rt, libutil

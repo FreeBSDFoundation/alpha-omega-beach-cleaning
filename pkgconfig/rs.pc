@@ -3,5 +3,5 @@ Description: Reshape a data array
 URL: https://man.freebsd.org/cgi/man.cgi?query=rs(1)
 Version: 15.0
 License: BSD-3-Clause AND BSD-2-Clause
-Source: https://cgit.freebsd.org/src/tree/rs
+Source: https://cgit.freebsd.org/src/tree/usr.bin/rs
 Requires: csu, libc, libc++, libcompiler_rt, libcxxrt, msun
