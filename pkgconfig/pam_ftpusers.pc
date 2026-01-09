@@ -1,7 +1,7 @@
-Name: pam\_ftpusers
+Name: pam_ftpusers
 Description: Ftpusers PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_ftpusers(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_ftpusers(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_ftpusers
-Requires: csu, libc, libcompiler\_rt, libpam
+Source: https://cgit.freebsd.org/src/tree/pam_ftpusers
+Requires: csu, libc, libcompiler_rt, libpam

@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=gssd(8)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/gssd
-Requires: csu, libc, libcompiler\_rt, libgssapi
+Requires: csu, libc, libcompiler_rt, libgssapi

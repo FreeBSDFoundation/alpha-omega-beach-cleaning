@@ -1,6 +1,6 @@
-Name: nss\_tacplus
+Name: nss_tacplus
 Description: TACACS+ nsswitch module
-URL: https://man.freebsd.org/cgi/man.cgi?query=nss\_tacplus(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=nss_tacplus(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/nss\_tacplus
+Source: https://cgit.freebsd.org/src/tree/nss_tacplus

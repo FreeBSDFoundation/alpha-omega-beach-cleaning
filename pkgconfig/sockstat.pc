@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=sockstat(1)
 Version: 15.0
 License: BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/sockstat
-Requires: csu, libc, libcapsicum, libcasper, cap\_net, cap\_netdb, cap\_pwd, cap\_sysctl, libcompiler\_rt, libjail
+Requires: csu, libc, libcapsicum, libcasper, cap_net, cap_netdb, cap_pwd, cap_sysctl, libcompiler_rt, libjail

@@ -1,6 +1,6 @@
-Name: pam\_xdg
+Name: pam_xdg
 Description: XDG PAM module
-URL: https://man.freebsd.org/cgi/man.cgi?query=pam\_xdg(8)
+URL: https://man.freebsd.org/cgi/man.cgi?query=pam_xdg(8)
 Version: 15.0
 License: NOASSERTION
-Source: https://cgit.freebsd.org/src/tree/pam\_xdg
+Source: https://cgit.freebsd.org/src/tree/pam_xdg

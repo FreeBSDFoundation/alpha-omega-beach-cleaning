@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=config(8)
 Version: 15.0
 License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/config
-Requires: csu, libc, libc++, libcompiler\_rt, libcxxrt, msun
+Requires: csu, libc, libc++, libcompiler_rt, libcxxrt, msun

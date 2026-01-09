@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=lam(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/lam
-Requires: csu, libc, libcapsicum, libcasper, libcompiler\_rt
+Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt

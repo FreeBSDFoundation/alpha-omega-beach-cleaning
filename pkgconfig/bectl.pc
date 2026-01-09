@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
 Version: 15.0
 License: Beerware AND BSD-2-Clause
 Source: https://cgit.freebsd.org/src/tree/bectl
-Requires: csu, libbe, libc, libcompiler\_rt, libjail, libutil
+Requires: csu, libbe, libc, libcompiler_rt, libjail, libutil
