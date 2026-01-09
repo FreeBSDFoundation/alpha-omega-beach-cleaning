@@ -3,4 +3,4 @@ Description: Library missing description
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/ubsan_standalone
-Requires: libc++, libmd, tinfo
+Requires: libc++, libmd, ncurses.tinfo

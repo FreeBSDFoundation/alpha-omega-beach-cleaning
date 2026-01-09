@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ls(1)
 Version: 15.0
 License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/ls
-Requires: csu, libc, libcompiler_rt, libutil, tinfo
+Requires: csu, libc, libcompiler_rt, libutil, ncurses.tinfo

@@ -4,4 +4,4 @@ URL: https://man.freebsd.org/cgi/man.cgi?query=ul(1)
 Version: 15.0
 License: NOASSERTION
 Source: https://cgit.freebsd.org/src/tree/ul
-Requires: csu, libc, libcompiler_rt, tinfo
+Requires: csu, libc, libcompiler_rt, ncurses.tinfo
