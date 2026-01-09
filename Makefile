@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -50,6 +50,9 @@ $(OBJDIR)security.md: $(OBJDIR)src/aobc-tool database.yml
 spdx: tools/spdx.sh pkgconfig
 	./tools/spdx.sh -P "$(PREFIX)" -- "spdx"
 
+$(OBJDIR)src/aobc-tool:
+	cd src && $(MAKE) $(OBJDIR)aobc-tool
+
 $(OBJDIR)versions.yml: all
 	(cd src/versions; echo "Sections:"; ./bmake; ./byacc; ./dtc; ./unifdef; ./libc; ./lyaml; ./mkuzip; ./acpi; ./ipfilter; ./zfs; ./zlib; ./zstd; ./bsnmp; ./ldns; ./libpcap; ./dma; ./ntp; ./openssh; ./sendmail; ./unbound; ./wireguard; ./wpa_supplicant; ./tcpdump; ./openssl; ./bsddialog; ./bzip2; ./flex; ./heimdal; ./libarchive; ./libedit; ./libevent; ./libexpat; ./liblzma; ./libmagic; ./libxo; ./ncurses; ./openpam; ./sqlite; ./tzdata; ./awk; ./bc; ./diff; ./less; ./lua; ./patch; ./pkg; ./kyua) > versions.yml
 
@@ -66,7 +69,7 @@ distclean:
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
 	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
-	$(RM) -- $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)versions.yml
+	$(RM) -- $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
 
 dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
