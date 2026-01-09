@@ -14,7 +14,7 @@ PackageVersion: 2.4.0-rc3
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageSupplier: Person: mm@
-PackageHomePage: https://openzfs.org/wiki/Main\_Page
+PackageHomePage: https://openzfs.org/wiki/Main_Page
 PackageLicenseDeclared: CDDL-1.0
 PackageSummary: <text>Open-source storage platform</text>
 

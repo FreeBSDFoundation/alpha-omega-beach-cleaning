@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-re_formatC6415.0
 PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=re\_format(7)
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=re_format(7)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>POSIX 1003.2 regular expressions</text>
 

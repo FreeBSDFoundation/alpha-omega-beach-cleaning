@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-virtual_ossC6415.0
 PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=virtual\_oss(8)
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=virtual_oss(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Daemon to multiplex and demultiplex an OSS device</text>
 

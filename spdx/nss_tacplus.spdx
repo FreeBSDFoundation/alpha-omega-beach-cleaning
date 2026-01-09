@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-nss_tacplusC6415.0
 PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=nss\_tacplus(8)
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=nss_tacplus(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>TACACS+ nsswitch module</text>
 

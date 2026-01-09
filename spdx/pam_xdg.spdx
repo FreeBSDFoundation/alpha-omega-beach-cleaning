@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-pam_xdgC6415.0
 PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam\_xdg(8)
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_xdg(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>XDG PAM module</text>
 

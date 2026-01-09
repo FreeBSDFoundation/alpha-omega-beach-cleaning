@@ -13,9 +13,9 @@ SPDXID: SPDXRef-Package-virtual_oss_cmdC6415.0
 PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=virtual\_oss\_cmd(8)
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=virtual_oss_cmd(8)
 PackageLicenseDeclared: NOASSERTION
-PackageSummary: <text>Modify a running virtual\_oss(8) instance's options</text>
+PackageSummary: <text>Modify a running virtual_oss(8) instance's options</text>
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-virtual_oss_cmdC6415.0
