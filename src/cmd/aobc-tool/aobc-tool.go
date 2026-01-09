@@ -433,10 +433,9 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							}
 							for _, col := range columns {
 								if len(values[col.key]) > 0 {
-									fmt.Fprintf(ofile, "%s: %s\n", textEscape(col.value),
-										textEscape(values[col.key]))
+									fmt.Fprintf(ofile, "%s: %s\n", col.value, values[col.key])
 								} else if col.key == "description" || col.key == "version" {
-									fmt.Fprintf(ofile, "%s:\n", textEscape(col.value))
+									fmt.Fprintf(ofile, "%s:\n", col.value)
 								}
 							}
 						}
