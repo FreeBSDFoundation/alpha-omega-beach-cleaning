@@ -1,0 +1,65 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-libmpC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
+Creator: Tool: bomtool 2.4.3
+
+
+##### Package: libmp@15.0
+
+PackageName: libmp@15.0
+SPDXID: SPDXRef-Package-libmpC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+##### Package: libc@15.0
+
+PackageName: libc@15.0
+SPDXID: SPDXRef-Package-libcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
+PackageSummary: <text>FreeBSD libc</text>
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+
+
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-Package-libcC6415.0 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-Package-libmpC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-libmpC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libmpC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0
