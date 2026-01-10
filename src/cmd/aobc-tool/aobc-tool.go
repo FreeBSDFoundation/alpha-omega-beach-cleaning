@@ -402,7 +402,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							//XXX hard-coded
 							values["title"] = v.Content[k].Value
 
-							filename = "pkgconfig/" + prefix + values["title"] + ".pc"
+							filename = "pkgconfig/" + prefix + strings.ToLower(values["title"]) + ".pc"
 							filename = strings.ReplaceAll(filename, " ", "-")
 
 							if ofile, err = os.Create(filename); err != nil {
@@ -421,7 +421,11 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 											var str []string
 
 											for _, w := range entry.Content[m+1].Content {
-												str = append(str, w.Value)
+												if col.key == "depends" {
+													str = append(str, strings.ReplaceAll(w.Value, " ", "-"))
+												} else {
+													str = append(str, w.Value)
+												}
 											}
 											values[col.key] = strings.Join(str, ", ")
 										} else if entry.Content[m].Value == col.key {
@@ -432,7 +436,10 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 								}
 							}
 							for _, col := range columns {
-								if len(values[col.key]) > 0 {
+								if len(values[col.key]) > 0 && col.key == "depends" {
+									//special case: Requires
+									fmt.Fprintf(ofile, "%s: %s\n", col.value, strings.ToLower(values[col.key]))
+								} else if len(values[col.key]) > 0 {
 									fmt.Fprintf(ofile, "%s: %s\n", col.value, values[col.key])
 								} else if col.key == "description" || col.key == "version" {
 									fmt.Fprintf(ofile, "%s:\n", col.value)
