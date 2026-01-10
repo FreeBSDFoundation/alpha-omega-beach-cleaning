@@ -11345,7 +11345,7 @@ Sections:
       directory:
         - lib/libc
         - lib/libc_nonshared
-      version: 14.3
+      version: '15.0'
       upstream: FreeBSD
       homepage: https://www.FreeBSD.org
       license: BSD-1-Clause AND BSD-2-Clause AND BSD-3-Clause
