@@ -364,7 +364,7 @@ func aobcGenerateDependencies(dec *yaml.Decoder, root yaml.Node) error {
 
 func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 	var err error
-	var prefix, filename string
+	var filename string
 	var ofile *os.File
 
 	if err = os.MkdirAll("pkgconfig", 0755); err != nil {
@@ -386,11 +386,6 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 			section := top.Content[i+1]
 			for j := 0; j < len(section.Content); j += 2 {
 				//new section
-				if section.Content[j].Value == sectionIgnore {
-					prefix = "FreeBSD-"
-				} else {
-					prefix = ""
-				}
 				v := section.Content[j+1]
 				if v.Kind == yaml.MappingNode {
 					for k := 0; k < len(v.Content); k += 2 {
@@ -402,7 +397,7 @@ func aobcGeneratePkgConfig(dec *yaml.Decoder, root yaml.Node) error {
 							//XXX hard-coded
 							values["title"] = v.Content[k].Value
 
-							filename = "pkgconfig/" + prefix + strings.ToLower(values["title"]) + ".pc"
+							filename = "pkgconfig/" + strings.ToLower(values["title"]) + ".pc"
 							filename = strings.ReplaceAll(filename, " ", "-")
 
 							if ofile, err = os.Create(filename); err != nil {
