@@ -5,7 +5,7 @@
 /contrib/byacc bapt@FreeBSD.org jkim@FreeBSD.org
 
 # dtc
-/usr.bin/dtc jlduran@FreeBSD.org jrtc27@FreeBSD.org kevans@FreeBSD.org
+/usr.bin/dtc jrtc27@FreeBSD.org kevans@FreeBSD.org theraven@FreeBSD.org
 
 # elftoolchain
 /contrib/elftoolchain emaste@FreeBSD.org jkoshy@FreeBSD.org kaiw@FreeBSD.org
@@ -57,7 +57,7 @@
 /contrib/libpcap cy@FreeBSD.org jrm@FreeBSD.org
 
 # blocklist
-/contrib/blocklist emaste@FreeBSD.org
+/contrib/blocklist emaste@FreeBSD.org jlduran@FreeBSD.org
 
 # dma
 /contrib/dma bapt@FreeBSD.org emaste@FreeBSD.org
