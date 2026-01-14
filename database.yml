@@ -75,9 +75,9 @@ Sections:
         - libcxxrt
       plan: fix
       owner:
-        - jlduran@
         - jrtc27@
         - kevans@
+        - theraven@
     elftoolchain:
       description: BSD licensed ELF toolchain
       directory: contrib/elftoolchain
@@ -11553,6 +11553,7 @@ Sections:
       plan: fix
       owner:
         - emaste@
+        - jlduran@
     dma:
       description: DragonFly Mail Agent (DMA)
       directory: contrib/dma
