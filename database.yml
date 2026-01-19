@@ -139,6 +139,7 @@ Sections:
       owner:
         - dim@
         - emaste@
+        - jhb@
     bugpoint:
       depends:
         - csu
@@ -11720,6 +11721,7 @@ Sections:
         - user
       plan: fix
       owner:
+        - jkim@
         - khorben@
         - ngie@
   System Libraries:
@@ -12293,7 +12295,9 @@ Sections:
       security:
         - user
       plan: fix
-      owner: ngie@
+      owner:
+        - jmg@
+        - ngie@
     pjdfstest:
       description: File system test suite
       directory: contrib/pjdfstest
