@@ -14,8 +14,8 @@
 /contrib/libcxxrt dim@FreeBSD.org emaste@FreeBSD.org
 
 # LLVM
-/contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org
-/usr.bin/clang dim@FreeBSD.org emaste@FreeBSD.org
+/contrib/llvm-project dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
+/usr.bin/clang dim@FreeBSD.org emaste@FreeBSD.org jhb@FreeBSD.org
 
 # unifdef
 /contrib/unifdef des@FreeBSD.org
@@ -33,7 +33,8 @@
 /sys/netpfil/ipfilter cy@FreeBSD.org
 
 # pf
-/sys/netpfil/pf glebius@FreeBSD.org kp@FreeBSD.org
+/sys/netpfil/pf kp@FreeBSD.org ks@FreeBSD.org
+/sbin/pfctl kp@FreeBSD.org ks@FreeBSD.org
 
 # umb
 /sbin/umbctl khorben@FreeBSD.org
@@ -90,7 +91,7 @@
 /contrib/bearssl sjg@FreeBSD.org
 
 # OpenSSL
-/crypto/openssl khorben@FreeBSD.org ngie@FreeBSD.org
+/crypto/openssl jkim@FreeBSD.org khorben@FreeBSD.org ngie@FreeBSD.org
 
 # arm-optimized-routines
 /contrib/arm-optimized-routines andrew@FreeBSD.org arichardson@FreeBSD.org
@@ -206,7 +207,7 @@
 /contrib/googletest ngie@FreeBSD.org
 
 # NetBSD tests
-/contrib/netbsd-tests ngie@FreeBSD.org
+/contrib/netbsd-tests jmg@FreeBSD.org ngie@FreeBSD.org
 
 # pjdfstest
 /contrib/pjdfstest asomers@FreeBSD.org ngie@FreeBSD.org pjd@FreeBSD.org @FreeBSD/test

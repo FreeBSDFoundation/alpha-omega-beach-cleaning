@@ -2,4 +2,4 @@ Name: pf
 Description:
 URL: https://openbsd.org
 Version:
-Maintainer: glebius@, kp@
+Maintainer: kp@, ks@
