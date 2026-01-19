@@ -33,6 +33,19 @@ SecurityImpacts:
   network: "remote exposure (threat: network tools and services)"
   runtime: "security of application setup (threat: system, user)"
   user: "security of applications (threat: user)"
+OwnersGitHub:
+  - bz: bzfbd
+  - cy: cschuber
+  - des: dag-erling
+  - dim: DimitryAndric
+  - kp: kprovost
+  - imp: bsdimp
+  - jhb: bsdjhb
+  - jkim: juikim
+  - kevans: kevans91
+  - ngie: ngie-eign
+  - jmg: jmgurney
+  - ziaee: concussious
 Sections:
   Compilation Infrastructure:
     bmake:
