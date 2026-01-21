@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libdevdctlC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libdevdctl@15.0
@@ -15,6 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libdevdctl
 
 
 ##### Package: csu@15.0
@@ -26,6 +27,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: libc@15.0
@@ -38,6 +40,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libc++@15.0
@@ -49,6 +52,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc++
 
 
 ##### Package: libcompiler_rt@15.0
@@ -60,6 +64,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 ##### Package: libcxxrt@6f2fdfebcd62
@@ -73,6 +78,7 @@ PackageSupplier: Person: dim@, emaste@
 PackageHomePage: https://github.com/libcxxrt/libcxxrt
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>C++ ABI implementation providing low-level support for a standard C++ library</text>
+PackageDownloadLocation: https://github.com/libcxxrt/libcxxrt/tree/6f2fdfebcd6291d763de8b17740d636f01761890
 
 
 ##### Package: msun@15.0
@@ -84,6 +90,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/msun
 
 
 Relationship: SPDXRef-Package-libdevdctlC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0

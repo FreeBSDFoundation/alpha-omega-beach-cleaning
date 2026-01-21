@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libpcapC641.10.5
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libpcap@1.10.5
@@ -17,6 +17,7 @@ PackageSupplier: Person: cy@, jrm@
 PackageHomePage: https://www.tcpdump.org
 PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Platform-independent network traffic capture library</text>
+PackageDownloadLocation: https://www.tcpdump.org/release/libpcap-1.10.5.tar.xz
 
 
 Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libpcapC641.10.5

@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-pam_tacplusC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: pam_tacplus@15.0
@@ -16,6 +16,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_tacplus(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>TACACS+ authentication PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_tacplus
 
 
 ##### Package: csu@15.0
@@ -27,6 +28,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: libc@15.0
@@ -39,6 +41,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libcompiler_rt@15.0
@@ -50,6 +53,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 ##### Package: libpam@15.0
@@ -61,6 +65,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/libpam
 
 
 ##### Package: libtacplus@15.0
@@ -72,6 +77,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libtacplus
 
 
 ##### Package: libmd@15.0
@@ -83,6 +89,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libmd
 
 
 Relationship: SPDXRef-Package-pam_tacplusC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0

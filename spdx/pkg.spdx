@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-pkgC642.3.1
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: pkg@2.3.1
@@ -17,6 +17,7 @@ PackageSupplier: Person:
 PackageHomePage: https://github.com/FreeBSD/pkg
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Package manager for FreeBSD</text>
+PackageDownloadLocation: https://github.com/FreeBSD/pkg
 
 
 ##### Package: openssl@3.5.4
@@ -30,6 +31,7 @@ PackageSupplier: Person: khorben@, ngie@
 PackageHomePage: https://openssl-library.org
 PackageLicenseDeclared: Apache-2.0
 PackageSummary: <text>OpenSSL cryptography library</text>
+PackageDownloadLocation: https://github.com/openssl/openssl/tree/openssl-3.5.3
 
 
 Relationship: SPDXRef-Package-pkgC642.3.1 DEPENDS_ON SPDXRef-Package-opensslC643.5.4

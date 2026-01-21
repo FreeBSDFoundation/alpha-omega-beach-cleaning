@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libalias.modules.smediaC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libalias.modules.smedia@15.0
@@ -15,6 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libalias/modules/smedia
 
 
 ##### Package: csu@15.0
@@ -26,6 +27,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: libc@15.0
@@ -38,6 +40,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libcompiler_rt@15.0
@@ -49,6 +52,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 Relationship: SPDXRef-Package-libalias.modules.smediaC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0

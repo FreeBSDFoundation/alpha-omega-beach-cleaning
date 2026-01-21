@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-libpam.static_libpamC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: libpam.static_libpam@15.0
@@ -15,6 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/static_libpam
 
 
 ##### Package: pam_chroot@15.0
@@ -27,6 +28,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_chroot(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Chroot PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_chroot
 
 
 ##### Package: csu@15.0
@@ -38,6 +40,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: libc@15.0
@@ -50,6 +53,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libcompiler_rt@15.0
@@ -61,6 +65,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 ##### Package: libpam@15.0
@@ -72,6 +77,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/libpam
 
 
 ##### Package: pam_deny@15.0
@@ -84,6 +90,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_deny(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Deny PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_deny
 
 
 ##### Package: pam_echo@15.0
@@ -96,6 +103,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_echo(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Echo PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_echo
 
 
 ##### Package: pam_exec@15.0
@@ -108,6 +116,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_exec(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Exec PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_exec
 
 
 ##### Package: pam_ftpusers@15.0
@@ -120,6 +129,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ftpusers(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Ftpusers PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_ftpusers
 
 
 ##### Package: pam_group@15.0
@@ -132,6 +142,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_group(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Group PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_group
 
 
 ##### Package: pam_guest@15.0
@@ -144,6 +155,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_guest(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Guest PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_guest
 
 
 ##### Package: pam_krb5@15.0
@@ -156,6 +168,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_krb5(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Kerberos 5 PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_krb5
 
 
 ##### Package: libcom_err@15.0
@@ -167,6 +180,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcom_err
 
 
 ##### Package: pam_ksu@15.0
@@ -179,6 +193,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ksu(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Kerberos 5 SU PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_ksu
 
 
 ##### Package: pam_lastlog@15.0
@@ -191,6 +206,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_lastlog(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Login accounting PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_lastlog
 
 
 ##### Package: pam_login_access@15.0
@@ -203,6 +219,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_login_access(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Login.access PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_login_access
 
 
 ##### Package: pam_nologin@15.0
@@ -215,6 +232,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_nologin(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>NoLogin PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_nologin
 
 
 ##### Package: libutil@15.0
@@ -226,6 +244,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libutil
 
 
 ##### Package: pam_passwdqc@15.0
@@ -238,6 +257,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_passwdqc(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Password quality-control PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_passwdqc
 
 
 ##### Package: libcrypt@15.0
@@ -249,6 +269,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcrypt
 
 
 ##### Package: pam_permit@15.0
@@ -261,6 +282,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_permit(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Promiscuous PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_permit
 
 
 ##### Package: pam_radius@15.0
@@ -273,6 +295,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_radius(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>RADIUS authentication PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_radius
 
 
 ##### Package: libradius@15.0
@@ -284,6 +307,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libradius
 
 
 ##### Package: pam_rootok@15.0
@@ -296,6 +320,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_rootok(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>RootOK PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_rootok
 
 
 ##### Package: pam_self@15.0
@@ -308,6 +333,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_self(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Self PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_self
 
 
 ##### Package: pam_ssh@15.0
@@ -320,6 +346,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_ssh(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Authentication and session management with SSH private keys</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_ssh
 
 
 ##### Package: pam_tacplus@15.0
@@ -332,6 +359,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_tacplus(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>TACACS+ authentication PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_tacplus
 
 
 ##### Package: libtacplus@15.0
@@ -343,6 +371,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libtacplus
 
 
 ##### Package: libmd@15.0
@@ -354,6 +383,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libmd
 
 
 ##### Package: pam_unix@15.0
@@ -366,6 +396,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pam_unix(8)
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>UNIX PAM module</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_unix
 
 
 Relationship: SPDXRef-Package-libpam.static_libpamC6415.0 DEPENDS_ON SPDXRef-Package-pam_chrootC6415.0

@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-fingerC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: finger@15.0
@@ -16,6 +16,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=finger(1)
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>User information lookup program</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/finger
 
 
 ##### Package: csu@15.0
@@ -27,6 +28,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: libc@15.0
@@ -39,6 +41,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libcompiler_rt@15.0
@@ -50,6 +53,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 Relationship: SPDXRef-Package-fingerC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0

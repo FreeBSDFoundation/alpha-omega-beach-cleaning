@@ -2,8 +2,8 @@ SPDXVersion: SPDX-2.2
 DataLicense: CC0-1.0
 SPDXID: SPDXRef-DOCUMENT
 DocumentName: SBOM-SPDX-zgrepC6415.0
-DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.4.3
-Creator: Tool: bomtool 2.4.3
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
 
 
 ##### Package: zgrep@15.0
@@ -16,6 +16,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=zgrep(1)
 PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Grep compressed files</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/grep
 
 
 ##### Package: csu@15.0
@@ -27,6 +28,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
 
 
 ##### Package: bzip2@1.0.8
@@ -40,6 +42,7 @@ PackageSupplier: Person: delphij@, obrien@
 PackageHomePage: https://sourceware.org/bzip2/
 PackageLicenseDeclared: bzip2-1.0.6
 PackageSummary: <text>High-quality data compressor</text>
+PackageDownloadLocation: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
 
 
 ##### Package: libc@15.0
@@ -52,6 +55,7 @@ PackageVerificationCode: NOASSERTION
 PackageHomePage: https://www.FreeBSD.org
 PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
 PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
 
 
 ##### Package: libcompiler_rt@15.0
@@ -63,6 +67,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
 
 
 ##### Package: libregex@15.0
@@ -74,6 +79,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libregex
 
 
 ##### Package: zlib@1.3.1
@@ -87,6 +93,7 @@ PackageSupplier: Person: delphij@
 PackageHomePage: https://zlib.net
 PackageLicenseDeclared: Zlib
 PackageSummary: <text>zlib compression library</text>
+PackageDownloadLocation: https://github.com/madler/zlib/tree/develop
 
 
 Relationship: SPDXRef-Package-zgrepC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
