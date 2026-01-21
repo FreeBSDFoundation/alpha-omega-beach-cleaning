@@ -883,7 +883,7 @@
 | libarchive | `contrib/libarchive` | libarchive | https://libarchive.org |
 | libbegemot | `contrib/libbegemot` | Hartmut Brandt | https://people.freebsd.org/~harti/libbegemot/ |
 | libcbor | `contrib/libcbor` | Pavel Kalvoda | https://github.com/PJK/libcbor |
-| libdialog | `contrib/libdialog` | invisible-island | https://invisible-island.net/dialog/ |
+| libdialog | `contrib/dialog` | invisible-island | https://invisible-island.net/dialog/ |
 | libdiff | `contrib/libdiff` | Game of Trees | https://www.gameoftrees.org |
 | libedit | `contrib/libedit` | NetBSD | https://www.NetBSD.org |
 | libevent | `contrib/libevent` | libevent | https://libevent.org |
