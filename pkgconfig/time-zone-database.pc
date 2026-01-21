@@ -2,5 +2,6 @@ Name: Time Zone Database
 Description: Time Zone Database
 URL: https://www.iana.org/time-zones
 Version: 2025b
+License: NOASSERTION
 Source: https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz
 Maintainer: philip@

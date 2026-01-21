@@ -14,7 +14,7 @@ PackageVersion:
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://git-scm.com
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: GPL-2.0
 PackageSummary: <text>Distributed Version Control System</text>
 
 

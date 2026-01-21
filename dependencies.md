@@ -909,7 +909,7 @@
 | hyperv | `contrib/hyperv` | Microsoft | https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/overview |
 | less | `contrib/less` | Mark Nudelman | https://www.greenwoodsoftware.com/less/ |
 | Lua | `contrib/lua` | Lua | https://www.lua.org |
-| patch | `usr.bin/patch` | GNU | https://www.gnu.org/software/patch/ |
+| patch | `usr.bin/patch` | GPL-3.0-or-later | https://www.gnu.org/software/patch/ |
 | pkg | `usr.sbin/pkg` | FreeBSD (GitHub) | https://github.com/FreeBSD/pkg |
 | __Test Infrastructure__ | | | |
 | ATF | `contrib/atf` | FreeBSD (GitHub) | https://github.com/FreeBSD/atf |

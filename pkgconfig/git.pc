@@ -2,4 +2,5 @@ Name: Git
 Description: Distributed Version Control System
 URL: https://git-scm.com
 Version:
+License: GPL-2.0
 Source: https://git.kernel.org/pub/scm/git/git.git

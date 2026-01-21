@@ -15,7 +15,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageSupplier: Person: des@
 PackageHomePage: https://dotat.at/prog/unifdef
-PackageLicenseDeclared: BSD-2-Clause AND BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause
 PackageSummary: <text>Selectively remove C preprocessor conditionals</text>
 
 

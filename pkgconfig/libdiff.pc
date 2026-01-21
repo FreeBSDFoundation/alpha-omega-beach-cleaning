@@ -2,4 +2,5 @@ Name: libdiff
 Description:
 URL: https://www.gameoftrees.org
 Version:
+License: NOASSERTION
 Maintainer: des@

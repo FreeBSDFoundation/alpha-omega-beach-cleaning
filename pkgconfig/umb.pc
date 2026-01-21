@@ -2,4 +2,5 @@ Name: umb
 Description:
 URL: https://openbsd.org
 Version: 15.0
+License: NOASSERTION
 Maintainer: khorben@

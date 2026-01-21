@@ -41,7 +41,7 @@ PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageSupplier: Person: bapt@
 PackageHomePage: https://pyyaml.org/wiki/LibYAML
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: MIT
 PackageSummary: <text>C library for parsing and emitting YAML</text>
 
 
