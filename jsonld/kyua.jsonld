@@ -1,0 +1,299 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2026-01-21T23:14:04Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-2-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+            "simplelicensing_licenseExpression": "MIT"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+            "simplelicensing_licenseExpression": "NOASSERTION"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/kyua",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/kyua"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/libcxxrt",
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/Lua",
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/SQLite",
+                "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "name": "kyua",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "0.13"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/libcxxrt",
+            "from": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libcxxrt"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/Lua",
+            "from": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/Lua"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/SQLite",
+            "from": "https://github.com/pkgconf/pkgconf/Package/kyua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/SQLite"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libcxxrt",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libcxxrt"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libcxxrt",
+            "name": "libcxxrt",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "6f2fdfebcd62"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcxxrt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libcxxrt",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/Lua"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "name": "Lua",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "5.4.8"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/SQLite",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/SQLite"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/SQLite",
+            "name": "SQLite",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "3.50.2"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/SQLite",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/SQLite",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/kyua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcxxrt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/SQLite"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/NOASSERTION",
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/libcxxrt",
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/Lua",
+                "https://github.com/pkgconf/pkgconf/Releationship/kyua/dependsOn/SQLite",
+                "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/kyua/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libcxxrt/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/SQLite/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/kyua",
+                "https://github.com/pkgconf/pkgconf/Package/kyua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libcxxrt",
+                "https://github.com/pkgconf/pkgconf/Package/libcxxrt",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+                "https://github.com/pkgconf/pkgconf/Package/Lua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/SQLite",
+                "https://github.com/pkgconf/pkgconf/Package/SQLite"
+            ]
+        }
+    ]
+}
+

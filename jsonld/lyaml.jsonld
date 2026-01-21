@@ -1,0 +1,215 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2026-01-21T23:14:07Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+            "simplelicensing_licenseExpression": "MIT"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/lyaml",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/lyaml"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/Lua",
+                "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/LibYAML",
+                "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/lyaml",
+            "name": "lyaml",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "6.2.8"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/lyaml",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/lyaml",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/Lua",
+            "from": "https://github.com/pkgconf/pkgconf/Package/lyaml",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/Lua"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/LibYAML",
+            "from": "https://github.com/pkgconf/pkgconf/Package/lyaml",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/LibYAML"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/Lua"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "name": "Lua",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "5.4.8"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Lua",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/LibYAML",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/LibYAML"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/LibYAML",
+            "name": "LibYAML",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "0.2.5"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/LibYAML",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/LibYAML",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/lyaml",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/LibYAML"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+                "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/Lua",
+                "https://github.com/pkgconf/pkgconf/Releationship/lyaml/dependsOn/LibYAML",
+                "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/lyaml/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Lua/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/LibYAML/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/lyaml",
+                "https://github.com/pkgconf/pkgconf/Package/lyaml",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Lua",
+                "https://github.com/pkgconf/pkgconf/Package/Lua",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/LibYAML",
+                "https://github.com/pkgconf/pkgconf/Package/LibYAML"
+            ]
+        }
+    ]
+}
+

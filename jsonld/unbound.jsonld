@@ -1,0 +1,299 @@
+{
+    "@context": "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+    "@graph": [
+        {
+            "@type": "Agent",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Agent/default",
+            "name": "Default"
+        },
+        {
+            "@type": "CreationInfo",
+            "@id": "_:creationinfo_1",
+            "created": "2026-01-21T23:14:03Z",
+            "createdBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "specVersion": "3.0.1"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
+            "simplelicensing_licenseExpression": "BSD-3-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+            "simplelicensing_licenseExpression": "BSD-2-Clause"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+            "simplelicensing_licenseExpression": "MIT"
+        },
+        {
+            "@type": "simplelicensing_LicenseExpression",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0",
+            "simplelicensing_licenseExpression": "Apache-2.0"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/Unbound",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/Unbound"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/flex",
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/libexpat",
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/OpenSSL",
+                "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "name": "Unbound",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "1.24.1"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/flex",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/flex"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/libexpat",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/libexpat"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/OpenSSL",
+            "from": "https://github.com/pkgconf/pkgconf/Package/Unbound",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/Package/OpenSSL"
+            ],
+            "relationshipType": "dependsOn"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/flex",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/flex"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/flex/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/flex/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/flex",
+            "name": "flex",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "2.6.4"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/flex/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/flex",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/flex/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/flex",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/libexpat",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/libexpat"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/libexpat",
+            "name": "libexpat",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "2.7.3"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libexpat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/libexpat",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "software_Sbom",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/software_Sbom/OpenSSL",
+            "software_sbomType": [
+                "build"
+            ],
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/Package/OpenSSL"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasConcludedLicense"
+            ]
+        },
+        {
+            "@type": "software_Package",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Package/OpenSSL",
+            "name": "OpenSSL",
+            "originatedBy": [
+                "https://github.com/pkgconf/pkgconf/Agent/default"
+            ],
+            "software_copyrightText": "NOASSERTION",
+            "software_packageVersion": "3.5.4"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasDeclaredLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/OpenSSL",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0"
+            ],
+            "relationshipType": "hasDeclaredLicense"
+        },
+        {
+            "@type": "Relationship",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasConcludedLicense",
+            "from": "https://github.com/pkgconf/pkgconf/Package/OpenSSL",
+            "to": [
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0"
+            ],
+            "relationshipType": "hasConcludedLicense"
+        },
+        {
+            "@type": "SpdxDocument",
+            "creationInfo": "_:creationinfo_1",
+            "spdxId": "https://github.com/pkgconf/pkgconf/spdxDocument/1",
+            "rootElement": [
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Unbound",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/flex",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libexpat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/OpenSSL"
+            ],
+            "element": [
+                "https://github.com/pkgconf/pkgconf/Agent/default",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-3-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/BSD-2-Clause",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/MIT",
+                "https://github.com/pkgconf/pkgconf/simplelicensing_LicenseExpression/Apache-2.0",
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/flex",
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/libexpat",
+                "https://github.com/pkgconf/pkgconf/Releationship/Unbound/dependsOn/OpenSSL",
+                "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/Unbound/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/flex/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/flex/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/libexpat/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasDeclaredLicense",
+                "https://github.com/pkgconf/pkgconf/Relationship/OpenSSL/hasConcludedLicense",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/Unbound",
+                "https://github.com/pkgconf/pkgconf/Package/Unbound",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/flex",
+                "https://github.com/pkgconf/pkgconf/Package/flex",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/libexpat",
+                "https://github.com/pkgconf/pkgconf/Package/libexpat",
+                "https://github.com/pkgconf/pkgconf/software_Sbom/OpenSSL",
+                "https://github.com/pkgconf/pkgconf/Package/OpenSSL"
+            ]
+        }
+    ]
+}
+
