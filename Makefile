@@ -8,7 +8,7 @@ DESTDIR	=
 MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
-TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
+TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format jsonld merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
 RM	= rm -f
 LN	= ln -f
 TAR	= tar
@@ -34,6 +34,9 @@ $(OBJDIR)dependencies.md: $(OBJDIR)src/aobc-tool database.yml
 
 format:
 	go fmt src/cmd/aobc-tool/aobc-tool.go
+
+jsonld: tools/jsonld.sh pkgconfig
+	./tools/jsonld.sh -P "$(PREFIX)" -- "jsonld"
 
 merge-versions: $(OBJDIR)versions.yml
 	@(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
@@ -61,6 +64,7 @@ clean:
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" clean; \
 		else $(MAKE) clean; fi) || exit; done
+	./tools/jsonld.sh -c -P "$(PREFIX)" -- "jsonld"
 	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
 
 distclean:
@@ -68,6 +72,7 @@ distclean:
 		if [ -n "$(OBJDIR)" ]; then \
 		$(MAKE) OBJDIR="$(OBJDIR)$$i/" distclean; \
 		else $(MAKE) distclean; fi) || exit; done
+	./tools/jsonld.sh -c -P "$(PREFIX)" -- "jsonld"
 	./tools/spdx.sh -c -P "$(PREFIX)" -- "spdx"
 	$(RM) -- $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
 
@@ -137,6 +142,7 @@ dist:
 		$(PACKAGE)-$(VERSION)/Makefile \
 		$(PACKAGE)-$(VERSION)/README.md \
 		$(PACKAGE)-$(VERSION)/database.yml \
+		$(PACKAGE)-$(VERSION)/tools/jsonld.sh \
 		$(PACKAGE)-$(VERSION)/tools/spdx.sh \
 		$(PACKAGE)-$(VERSION)/project.conf
 	$(RM) -- $(OBJDIR)$(PACKAGE)-$(VERSION)
@@ -167,4 +173,4 @@ uninstall:
 		else $(MAKE) uninstall; fi) || exit; done
 	$(RM) -- $(DESTDIR)$(PREFIX)/share/doc/$(PACKAGE)/README.md
 
-.PHONY: all subdirs clean distclean dist distcheck install uninstall format merge-versions pkgconfig spdx
+.PHONY: all subdirs clean distclean dist distcheck install uninstall format jsonld merge-versions pkgconfig spdx
