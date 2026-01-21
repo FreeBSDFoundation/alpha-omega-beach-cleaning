@@ -162,3 +162,7 @@ in order to generate SBOM files (Software Bill of Material) in the SPDX format.
 The shell script in `tools/spdx.sh` does exactly that, as called by the `spdx`
 target in the `Makefile`. This target creates a `spdx` folder, populated with
 one file per `.pc` file in the `pkgconfig` folder.
+
+The shell script in `tools/jsonld.sh` does the same, using the new `spdxtool`
+command from the pkgconf project instead. It generates SPDX files in the JSON-LD
+format instead.
