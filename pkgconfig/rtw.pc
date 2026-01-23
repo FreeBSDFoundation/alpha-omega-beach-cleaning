@@ -1,0 +1,5 @@
+Name: rtw
+Description: LinuxKPI driver for Realtek rtw88 and rtw89 wireless
+Version: 6.17
+License: GPL-2.0 OR BSD-3-Clause
+Maintainer: bz@

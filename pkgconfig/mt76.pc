@@ -1,0 +1,6 @@
+Name: mt76
+Description: LinuxKPI driver for MediaTek MT7xxx series
+URL: https://wireless.docs.kernel.org/en/latest/en/users/drivers/mediatek.html
+Version: 6.17
+License: ISC
+Maintainer: bz@

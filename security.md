@@ -18,7 +18,10 @@
 | athk | kernel, network | 2 |
 | ice | kernel, network | 2 |
 | ipfilter | kernel, network | 2 |
+| iwlwifi | kernel, network | 2 |
+| mt76 | kernel, network | 2 |
 | pf | kernel, network | 2 |
+| rtw | kernel, network | 2 |
 | umb | kernel, network | 2 |
 | ZFS | crypto, firmware, kernel, network | 4 |
 | zlib | firmware, kernel, system, user | 4 |

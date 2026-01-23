@@ -13,7 +13,7 @@ SPDXID: SPDXRef-Package-pfC64
 PackageVersion: 
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
-PackageSupplier: Person: glebius@, kp@
+PackageSupplier: Person: kp@, ks@
 PackageHomePage: https://openbsd.org
 PackageLicenseDeclared: NOASSERTION
 PackageSummary: <text></text>

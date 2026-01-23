@@ -1,0 +1,6 @@
+Name: iwlwifi
+Description: LinuxKPI driver for Intel's LinuxCore releases
+URL: https://wireless.docs.kernel.org/en/latest/en/users/drivers/iwlwifi.html
+Version: 6.17
+License: GPL-2.0 OR BSD-3-Clause
+Maintainer: bz@

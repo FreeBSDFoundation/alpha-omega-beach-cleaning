@@ -18,7 +18,10 @@
 | athk | fix |
 | ice | fix |
 | ipfilter | fork |
+| iwlwifi | fix |
+| mt76 | fix |
 | pf | fork |
+| rtw | fix |
 | umb | fork |
 | ZFS | fix |
 | zlib | fix |

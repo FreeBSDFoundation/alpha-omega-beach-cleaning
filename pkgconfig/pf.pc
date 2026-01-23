@@ -3,4 +3,4 @@ Description:
 URL: https://openbsd.org
 Version:
 License: NOASSERTION
-Maintainer: glebius@, kp@
+Maintainer: kp@, ks@
