@@ -11430,6 +11430,32 @@ Sections:
       section: 4
       plan: fork
       owner: cy@
+    iwlwifi:
+      description: LinuxKPI driver for Intel's LinuxCore releases
+      directory: sys/contrib/dev/iwlwifi
+      version: 6.17
+      upstream: Linux
+      homepage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/iwlwifi.html
+      license: GPL-2.0 OR BSD-3-Clause
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fix
+      owner: bz@
+    mt76:
+      description: LinuxKPI driver for MediaTek MT7xxx series
+      directory: sys/contrib/dev/mediatek/mt76
+      version: 6.17
+      upstream: Linux
+      homepage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/mediatek.html
+      license: ISC
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fix
+      owner: bz@
     pf:
       directory:
         - sys/netpfil/pf
@@ -11445,6 +11471,20 @@ Sections:
       owner:
         - kp@
         - ks@
+    rtw:
+      description: LinuxKPI driver for Realtek rtw88 and rtw89 wireless
+      directory:
+        - sys/contrib/dev/rtw88
+        - sys/contrib/dev/rtw89
+      version: 6.17
+      upstream: Linux
+      license: GPL-2.0 OR BSD-3-Clause
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fix
+      owner: bz@
     umb:
       directory:
         - sbin/umbctl
