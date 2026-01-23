@@ -11425,7 +11425,9 @@ Sections:
       plan: fork
       owner: cy@
     pf:
-      directory: sys/netpfil/pf
+      directory:
+        - sys/netpfil/pf
+        - sbin/pfctl
       upstream: OpenBSD
       homepage: https://openbsd.org
       security:
@@ -11434,8 +11436,8 @@ Sections:
       section: 4
       plan: fork
       owner:
-        - glebius@
         - kp@
+        - ks@
     umb:
       directory:
         - sbin/umbctl
