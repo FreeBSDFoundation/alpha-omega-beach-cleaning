@@ -847,7 +847,7 @@
 | athk | `sys/contrib/dev/athk` | Linux | https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html |
 | ice | `sys/contrib/dev/ice` | Intel | https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/ |
 | ipfilter | `sys/netpfil/ipfilter` | Phil Dibowitz | https://www.phildev.net/ipf/ |
-| pf | `sys/netpfil/pf` | OpenBSD | https://openbsd.org |
+| pf | `sys/netpfil/pf`, `sbin/pfctl` | OpenBSD | https://openbsd.org |
 | umb | `sbin/umbctl`, `sys/dev/usb/net`, `sys/modules/usb/umb` | OpenBSD | https://openbsd.org |
 | ZFS | `sys/contrib/openzfs`, `cddl` | OpenZFS | https://openzfs.org/wiki/Main\_Page |
 | zlib | `sys/contrib/zlib` | zlib | https://zlib.net |
