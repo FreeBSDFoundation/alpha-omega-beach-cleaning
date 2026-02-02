@@ -2321,6 +2321,32 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
   General Commands:
+    Mail:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send and receive mail
+      directory: usr.bin/mail
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mail(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/mail
+      upstream: FreeBSD project
+      version: '15.0'
+    '[':
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Condition evaluation utility
+      directory: bin/test
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=[(1)
+      license: LicenseRef-Public-Domain
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/test
+      upstream: FreeBSD project
+      version: '15.0'
     apply:
       depends:
         - csu
@@ -2361,6 +2387,45 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/asa
+      upstream: FreeBSD project
+      version: '15.0'
+    b64decode:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Encode / decode a binary file
+      directory: usr.bin/bintrans
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=b64decode(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
+      upstream: FreeBSD project
+      version: '15.0'
+    b64encode:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Encode / decode a binary file
+      directory: usr.bin/bintrans
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=b64encode(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
+      upstream: FreeBSD project
+      version: '15.0'
+    base64:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Encode / decode a binary file
+      directory: usr.bin/bintrans
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=base64(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
       upstream: FreeBSD project
       version: '15.0'
     basename:
@@ -2498,6 +2563,54 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/bluetooth/btsockstat
       upstream: FreeBSD project
       version: '15.0'
+    bzegrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bzegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    bzfgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bzfgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    bzgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bzgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     c89:
       depends:
         - csu
@@ -2596,6 +2709,21 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/bin/chflags
       upstream: FreeBSD project
       version: '15.0'
+    chfn:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Add or change user database information
+      directory: usr.bin/chpass
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chfn(1)
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
+      upstream: FreeBSD project
+      version: '15.0'
     chgrp:
       depends:
         - csu
@@ -2645,7 +2773,22 @@ Sections:
       description: Add or change user database information
       directory: usr.bin/chpass
       homepage: https://man.freebsd.org/cgi/man.cgi?query=chpass(1)
-      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
+      upstream: FreeBSD project
+      version: '15.0'
+    chsh:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Add or change user database information
+      directory: usr.bin/chpass
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=chsh(1)
+      license: BSD-4-Clause AND BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
       upstream: FreeBSD project
@@ -2828,6 +2971,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/crunch/crunchide
       upstream: FreeBSD project
       version: '15.0'
+    crypt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+      description: Very simple file encryption
+      directory: usr.bin/enigma
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=crypt(1)
+      license: LicenseRef-Public-Domain
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/enigma
+      upstream: FreeBSD project
+      version: '15.0'
     csplit:
       depends:
         - csu
@@ -3001,9 +3158,25 @@ Sections:
       description: Text editor
       directory: bin/ed
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ed(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/ed
+      upstream: FreeBSD project
+      version: '15.0'
+    egrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: File pattern searcher
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=egrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
       upstream: FreeBSD project
       version: '15.0'
     elfctl:
@@ -3039,7 +3212,7 @@ Sections:
       description: Very simple file encryption
       directory: usr.bin/enigma
       homepage: https://man.freebsd.org/cgi/man.cgi?query=enigma(1)
-      license: NOASSERTION
+      license: LicenseRef-Public-Domain
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/enigma
       upstream: FreeBSD project
@@ -3075,7 +3248,7 @@ Sections:
       description: Expand tabs to spaces, and vice versa
       directory: usr.bin/expand
       homepage: https://man.freebsd.org/cgi/man.cgi?query=expand(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/expand
       upstream: FreeBSD project
@@ -3146,6 +3319,22 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/fetch
       upstream: FreeBSD project
       version: '15.0'
+    fgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: File pattern searcher
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     fifolog:
       depends:
         - csu
@@ -3156,9 +3345,54 @@ Sections:
       description: Initialize, write, seek and extract data from a fifolog
       directory: usr.sbin/fifolog/fifolog_create
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.sbin/fifolog/fifolog_create
+      upstream: FreeBSD project
+      version: '15.0'
+    fifolog_create:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - libz
+      description: Initialize, write, seek and extract data from a fifolog
+      directory: usr.sbin/fifolog/fifolog_create
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog_create(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/fifolog/fifolog_create
+      upstream: FreeBSD project
+      version: '15.0'
+    fifolog_reader:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - libz
+      description: Initialize, write, seek and extract data from a fifolog
+      directory: usr.sbin/fifolog/fifolog_reader
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog_reader(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/fifolog/fifolog_reader
+      upstream: FreeBSD project
+      version: '15.0'
+    fifolog_writer:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+        - libz
+      description: Initialize, write, seek and extract data from a fifolog
+      directory: usr.sbin/fifolog/fifolog_writer
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog_writer(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/fifolog/fifolog_writer
       upstream: FreeBSD project
       version: '15.0'
     file2c:
@@ -3428,7 +3662,7 @@ Sections:
       description: File pattern searcher
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=grep(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/grep
       upstream: FreeBSD project
@@ -3446,6 +3680,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/id
       upstream: FreeBSD project
       version: '15.0'
+    gunzip:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
     gzexe:
       depends:
         - csu
@@ -3457,7 +3705,7 @@ Sections:
       description: Create auto-decompressing executables
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzexe(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
       upstream: FreeBSD project
@@ -3473,9 +3721,24 @@ Sections:
       description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    hd:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: ASCII, decimal, hexadecimal, octal dump
+      directory: usr.bin/hexdump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=hd(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/hexdump
       upstream: FreeBSD project
       version: '15.0'
     head:
@@ -3512,7 +3775,7 @@ Sections:
       description: ASCII, decimal, hexadecimal, octal dump
       directory: usr.bin/hexdump
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hexdump(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/hexdump
       upstream: FreeBSD project
@@ -3571,6 +3834,19 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/ident
+      upstream: FreeBSD project
+      version: '15.0'
+    idprio:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Execute, examine or modify a utility's or process's realtime or idletime scheduling priority
+      directory: usr.sbin/rtprio
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=idprio(1)
+      license: BSD-4-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/rtprio
       upstream: FreeBSD project
       version: '15.0'
     indent:
@@ -3908,6 +4184,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/limits
       upstream: FreeBSD project
       version: '15.0'
+    link:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Link files
+      directory: bin/ln
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=link(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/ln
+      upstream: FreeBSD project
+      version: '15.0'
     ln:
       depends:
         - csu
@@ -4158,6 +4447,54 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/lsvfs
       upstream: FreeBSD project
       version: '15.0'
+    lzegrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lzegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    lzfgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lzfgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    lzgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lzgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     m4:
       depends:
         - csu
@@ -4181,6 +4518,19 @@ Sections:
       description: Send and receive mail
       directory: usr.bin/mail
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mail(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/mail
+      upstream: FreeBSD project
+      version: '15.0'
+    mailx:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send and receive mail
+      directory: usr.bin/mail
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mailx(1)
       license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/mail
@@ -4216,7 +4566,24 @@ Sections:
       description: Calculate a message-digest fingerprint (checksum) for a file
       directory: sbin/md5
       homepage: https://man.freebsd.org/cgi/man.cgi?query=md5(1)
-      license: NOASSERTION
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    md5sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=md5sum(1)
+      license: LicenseRef-scancode-rsa-1990
       section: 1
       source: https://cgit.freebsd.org/src/tree/sbin/md5
       upstream: FreeBSD project
@@ -4592,7 +4959,7 @@ Sections:
       description: Modify a user's password
       directory: usr.bin/passwd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=passwd(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/passwd
       upstream: FreeBSD project
@@ -4649,6 +5016,21 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/perror
       upstream: FreeBSD project
       version: '15.0'
+    pgrep:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libkvm
+      description: Find or signal processes by name
+      directory: bin/pkill
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/pkill
+      upstream: FreeBSD project
+      version: '15.0'
     pkill:
       depends:
         - csu
@@ -4659,7 +5041,7 @@ Sections:
       description: Find or signal processes by name
       directory: bin/pkill
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pkill(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/pkill
       upstream: FreeBSD project
@@ -4824,6 +5206,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/quota
       upstream: FreeBSD project
       version: '15.0'
+    readlink:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Display file status
+      directory: usr.bin/stat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=readlink(1)
+      license: BSD-4-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/stat
+      upstream: FreeBSD project
+      version: '15.0'
     realpath:
       depends:
         - csu
@@ -4849,6 +5244,19 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/sbin/recoverdisk
+      upstream: FreeBSD project
+      version: '15.0'
+    red:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Text editor
+      directory: bin/ed
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=red(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/ed
       upstream: FreeBSD project
       version: '15.0'
     resizewin:
@@ -4906,6 +5314,22 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/bluetooth/rfcomm_sppd
       upstream: FreeBSD project
       version: '15.0'
+    rgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: File pattern searcher
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     rm:
       depends:
         - csu
@@ -4914,9 +5338,43 @@ Sections:
       description: Remove directory entries
       directory: bin/rm
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rm(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/rm
+      upstream: FreeBSD project
+      version: '15.0'
+    rmd160:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rmd160(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    rmd160sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rmd160sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
       upstream: FreeBSD project
       version: '15.0'
     rmdir:
@@ -4978,12 +5436,10 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: >-
-        Execute, examine or modify a utility's or process's realtime or idletime
-        scheduling priority
+      description: Execute, examine or modify a utility's or process's realtime or idletime scheduling priority
       directory: usr.sbin/rtprio
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtprio(1)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.sbin/rtprio
       upstream: FreeBSD project
@@ -5160,6 +5616,363 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/bin/sh
       upstream: FreeBSD project
       version: '15.0'
+    sha1:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha1(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha1sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha1sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha224:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha224(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha224sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha224sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha256:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha256(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha256sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha256sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha384:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha384(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha384sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha384sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512t224:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512t224(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512t224sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512t224sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512t256:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512t256(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    sha512t256sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512t256sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    shasum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=shasum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein1024:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein1024(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein1024sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein1024sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein256:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein256(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein256sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein256sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein512:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein512(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
+    skein512sum:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - cap_fileargs
+        - libcompiler_rt
+        - libmd
+      description: Calculate a message- digest fingerprint (checksum) for a file
+      directory: sbin/md5
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=skein512sum(1)
+      license: LicenseRef-scancode-rsa-1990
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/sbin/md5
+      upstream: FreeBSD project
+      version: '15.0'
     sleep:
       depends:
         - csu
@@ -5286,6 +6099,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/su
       upstream: FreeBSD project
       version: '15.0'
+    sum:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Display file checksums and block counts
+      directory: usr.bin/cksum
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sum(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/cksum
+      upstream: FreeBSD project
+      version: '15.0'
     systat:
       depends:
         - csu
@@ -5386,7 +6212,7 @@ Sections:
       description: Condition evaluation utility
       directory: bin/test
       homepage: https://man.freebsd.org/cgi/man.cgi?query=test(1)
-      license: NOASSERTION
+      license: LicenseRef-Public-Domain
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/test
       upstream: FreeBSD project
@@ -5599,6 +6425,32 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/uname
       upstream: FreeBSD project
       version: '15.0'
+    uncompress:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Compress and expand data
+      directory: usr.bin/compress
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=uncompress(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/compress
+      upstream: FreeBSD project
+      version: '15.0'
+    unexpand:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Expand tabs to spaces, and vice versa
+      directory: usr.bin/unexpand
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=unexpand(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/unexpand
+      upstream: FreeBSD project
+      version: '15.0'
     uniq:
       depends:
         - csu
@@ -5628,6 +6480,19 @@ Sections:
       license: BSD-4-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/units
+      upstream: FreeBSD project
+      version: '15.0'
+    unlink:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Remove directory entries
+      directory: bin/rm
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=unlink(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/rm
       upstream: FreeBSD project
       version: '15.0'
     uptime:
@@ -5693,6 +6558,32 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/users
       upstream: FreeBSD project
       version: '15.0'
+    uudecode:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Encode / decode a binary file
+      directory: usr.bin/bintrans
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=uudecode(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
+      upstream: FreeBSD project
+      version: '15.0'
+    uuencode:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Encode / decode a binary file
+      directory: usr.bin/bintrans
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=uuencode(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
+      upstream: FreeBSD project
+      version: '15.0'
     uuidgen:
       depends:
         - csu
@@ -5732,6 +6623,20 @@ Sections:
       license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.sbin/vidcontrol
+      upstream: FreeBSD project
+      version: '15.0'
+    vidfont:
+      depends:
+        - csu
+        - libbsddialog
+        - libc
+        - libcompiler_rt
+      description: System video console keyboard map/font dialog utilities
+      directory: usr.sbin/kbdmap
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vidfont(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/kbdmap
       upstream: FreeBSD project
       version: '15.0'
     w:
@@ -5898,6 +6803,54 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/xstr
       upstream: FreeBSD project
       version: '15.0'
+    xzegrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=xzegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    xzfgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=xzfgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    xzgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=xzgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     'yes':
       depends:
         - csu
@@ -5926,6 +6879,51 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/ypcat
       upstream: FreeBSD project
       version: '15.0'
+    ypchfn:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Add or change user database information
+      directory: usr.bin/chpass
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypchfn(1)
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
+      upstream: FreeBSD project
+      version: '15.0'
+    ypchpass:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Add or change user database information
+      directory: usr.bin/chpass
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypchpass(1)
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
+      upstream: FreeBSD project
+      version: '15.0'
+    ypchsh:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcrypt
+        - libutil
+      description: Add or change user database information
+      directory: usr.bin/chpass
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ypchsh(1)
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/chpass
+      upstream: FreeBSD project
+      version: '15.0'
     ypmatch:
       depends:
         - csu
@@ -5939,6 +6937,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/ypmatch
       upstream: FreeBSD project
       version: '15.0'
+    yppasswd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libpam
+      description: Modify a user's password
+      directory: usr.bin/passwd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=yppasswd(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/passwd
+      upstream: FreeBSD project
+      version: '15.0'
     ypwhich:
       depends:
         - csu
@@ -5950,6 +6962,38 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/ypwhich
+      upstream: FreeBSD project
+      version: '15.0'
+    zcat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zcat(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    zcmp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compare compressed files
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zcmp(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
       upstream: FreeBSD project
       version: '15.0'
     zdiff:
@@ -5968,6 +7012,38 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
       upstream: FreeBSD project
       version: '15.0'
+    zegrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    zfgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zfgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
     zforce:
       depends:
         - csu
@@ -5979,7 +7055,7 @@ Sections:
       description: Force gzip files to have a .gz suffix
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zforce(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
       upstream: FreeBSD project
@@ -5998,6 +7074,22 @@ Sections:
       license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    zless:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: View compressed files
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zless(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
       upstream: FreeBSD project
       version: '15.0'
     zmore:
@@ -6027,9 +7119,57 @@ Sections:
       description: Convert compressed files to gzipped files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=znew(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    zstdegrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zstdegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    zstdfgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zstdfgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+      upstream: FreeBSD project
+      version: '15.0'
+    zstdgrep:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zstdgrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
       upstream: FreeBSD project
       version: '15.0'
   Macros and Conventions:
@@ -6258,6 +7398,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/backlight
       upstream: FreeBSD project
       version: '15.0'
+    banner:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Print large banner on printer
+      directory: usr.bin/banner
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=banner(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/banner
+      upstream: FreeBSD project
+      version: '15.0'
     bcmfw:
       depends:
         - csu
@@ -6387,7 +7540,7 @@ Sections:
       description: System bootstrapping procedures
       directory: sbin/reboot
       homepage: https://man.freebsd.org/cgi/man.cgi?query=boot_i386(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/reboot
       upstream: FreeBSD project
@@ -6543,6 +7696,20 @@ Sections:
       license: BSD-4-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/btxld
+      upstream: FreeBSD project
+      version: '15.0'
+    caesar:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - msun
+      description: Decrypt caesar ciphers
+      directory: usr.bin/caesar
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=caesar(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/caesar
       upstream: FreeBSD project
       version: '15.0'
     camcontrol:
@@ -7047,6 +8214,22 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/sbin/dmesg
       upstream: FreeBSD project
       version: '15.0'
+    dnctl:
+      depends:
+        - csu
+        - libalias
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: User interface for firewall, traffic shaper, packet scheduler, in-kernel NAT.
+      directory: sbin/ipfw
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dnctl(8)
+      license: BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/ipfw
+      upstream: FreeBSD project
+      version: '15.0'
     dump:
       depends:
         - csu
@@ -7225,6 +8408,46 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/extattrctl
       upstream: FreeBSD project
       version: '15.0'
+    factor:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Factor a number, generate primes
+      directory: usr.bin/factor
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=factor(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/factor
+      upstream: FreeBSD project
+      version: '15.0'
+    fastboot:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Stopping and restarting the system
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fastboot(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/reboot
+      upstream: FreeBSD project
+      version: '15.0'
+    fasthalt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Stopping and restarting the system
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fasthalt(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/reboot
+      upstream: FreeBSD project
+      version: '15.0'
     fdcontrol:
       depends:
         - csu
@@ -7307,6 +8530,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/flowctl
       upstream: FreeBSD project
       version: '15.0'
+    fortune:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Print a random, hopefully interesting, adage
+      directory: usr.bin/fortune/fortune
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fortune(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/fortune/fortune
+      upstream: FreeBSD project
+      version: '15.0'
     freebsd-update:
       description: Fetch and install binary updates to FreeBSD
       directory: usr.sbin/freebsd-update
@@ -7355,6 +8591,20 @@ Sections:
       license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/fsck_msdosfs
+      upstream: FreeBSD project
+      version: '15.0'
+    fsck_ufs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: File system consistency check and interactive repair
+      directory: sbin/fsck_ffs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_ufs(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/fsck_ffs
       upstream: FreeBSD project
       version: '15.0'
     fsdb:
@@ -7484,6 +8734,21 @@ Sections:
       license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/geom/core
+      upstream: FreeBSD project
+      version: '15.0'
+    getextattr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+        - libutil
+      description: Manipulate extended attributes
+      directory: usr.sbin/extattr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=getextattr(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
       upstream: FreeBSD project
       version: '15.0'
     getfmac:
@@ -7719,6 +8984,21 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/lib/geom/raid3
       upstream: FreeBSD project
       version: '15.0'
+    grdc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - ncurses
+        - tinfo
+      description: Grand digital clock (curses)
+      directory: usr.bin/grdc
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=grdc(6)
+      license: NOASSERTION
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grdc
+      upstream: FreeBSD project
+      version: '15.0'
     growfs:
       depends:
         - csu
@@ -7821,6 +9101,19 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/lib/geom/virstor
+      upstream: FreeBSD project
+      version: '15.0'
+    halt:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Stopping and restarting the system
+      directory: sbin/reboot
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=halt(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/reboot
       upstream: FreeBSD project
       version: '15.0'
     hastctl:
@@ -8444,6 +9737,21 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/lptcontrol
       upstream: FreeBSD project
       version: '15.0'
+    lsextattr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+        - libutil
+      description: Manipulate extended attributes
+      directory: usr.sbin/extattr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=lsextattr(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
+      upstream: FreeBSD project
+      version: '15.0'
     mailwrapper:
       depends:
         - csu
@@ -8643,6 +9951,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/mlxcontrol
       upstream: FreeBSD project
       version: '15.0'
+    morse:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Reformat input as morse code
+      directory: usr.bin/morse
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=morse(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/morse
+      upstream: FreeBSD project
+      version: '15.0'
     mount:
       depends:
         - csu
@@ -8683,6 +10004,19 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/mount_fusefs
+      upstream: FreeBSD project
+      version: '15.0'
+    mount_mfs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Configure and mount an in-memory file system using the md(4) driver or the tmpfs(4) filesystem
+      directory: sbin/mdmfs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mount_mfs(8)
+      license: BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/mdmfs
       upstream: FreeBSD project
       version: '15.0'
     mount_msdosfs:
@@ -8778,6 +10112,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/moused/moused
       upstream: FreeBSD project
       version: '15.0'
+    mprutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Utility for managing LSI Fusion-MPT 2/3 controllers
+      directory: usr.sbin/mpsutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mprutil(8)
+      license: BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/mpsutil
+      upstream: FreeBSD project
+      version: '15.0'
     mpsutil:
       depends:
         - csu
@@ -8804,6 +10151,20 @@ Sections:
       license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/mptutil
+      upstream: FreeBSD project
+      version: '15.0'
+    mrsasutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Utility for managing LSI MegaRAID SAS controllers
+      directory: usr.sbin/mfiutil
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mrsasutil(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/mfiutil
       upstream: FreeBSD project
       version: '15.0'
     msconvd:
@@ -8906,7 +10267,7 @@ Sections:
       description: Specify an alternate kernel and boot flags for the next reboot
       directory: sbin/reboot
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nextboot(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/reboot
       upstream: FreeBSD project
@@ -9097,6 +10458,19 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/ntp/doc
+      upstream: FreeBSD project
+      version: '15.0'
+    number:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Convert Arabic numerals to English
+      directory: usr.bin/number
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=number(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/number
       upstream: FreeBSD project
       version: '15.0'
     nvmecontrol:
@@ -9686,6 +11060,22 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/pnfsdskill
       upstream: FreeBSD project
       version: '15.0'
+    pom:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+        - msun
+      description: Display the phase of the moon
+      directory: usr.bin/pom
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=pom(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/pom
+      upstream: FreeBSD project
+      version: '15.0'
     powerd:
       depends:
         - csu
@@ -9698,6 +11088,19 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/powerd
+      upstream: FreeBSD project
+      version: '15.0'
+    poweroff:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Close down the system at a given time
+      directory: sbin/shutdown
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=poweroff(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/shutdown
       upstream: FreeBSD project
       version: '15.0'
     ppp:
@@ -9747,6 +11150,20 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/libexec/pppoed
+      upstream: FreeBSD project
+      version: '15.0'
+    primes:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libthr
+      description: Factor a number, generate primes
+      directory: usr.bin/factor
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=primes(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/factor
       upstream: FreeBSD project
       version: '15.0'
     prometheus_sysctl_exporter:
@@ -9845,6 +11262,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/sbin/quotacheck
       upstream: FreeBSD project
       version: '15.0'
+    quotaoff:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Turn file system quotas on and off
+      directory: usr.sbin/quotaon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=quotaoff(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/quotaon
+      upstream: FreeBSD project
+      version: '15.0'
     quotaon:
       depends:
         - csu
@@ -9914,6 +11345,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/rctl
       upstream: FreeBSD project
       version: '15.0'
+    rdump:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: File system backup
+      directory: sbin/dump
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rdump(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/dump
+      upstream: FreeBSD project
+      version: '15.0'
     reboot:
       depends:
         - csu
@@ -9922,7 +11367,7 @@ Sections:
       description: Stopping and restarting the system
       directory: sbin/reboot
       homepage: https://man.freebsd.org/cgi/man.cgi?query=reboot(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/reboot
       upstream: FreeBSD project
@@ -10018,7 +11463,7 @@ Sections:
       description: Manipulate extended attributes
       directory: usr.sbin/extattr
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
       upstream: FreeBSD project
@@ -10043,6 +11488,20 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/adduser
+      upstream: FreeBSD project
+      version: '15.0'
+    rot13:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - msun
+      description: Decrypt caesar ciphers
+      directory: usr.bin/caesar
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rot13(6)
+      license: BSD-3-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/caesar
       upstream: FreeBSD project
       version: '15.0'
     route:
@@ -10290,6 +11749,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/rrenumd
       upstream: FreeBSD project
       version: '15.0'
+    rrestore:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Restore files or file systems from backups made with dump
+      directory: sbin/restore
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rrestore(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/restore
+      upstream: FreeBSD project
+      version: '15.0'
     rtadvctl:
       depends:
         - csu
@@ -10338,6 +11810,21 @@ Sections:
       license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/routed/rtquery
+      upstream: FreeBSD project
+      version: '15.0'
+    rtsol:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libutil
+      description: Router solicitation daemon
+      directory: usr.sbin/rtsold
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=rtsol(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/rtsold
       upstream: FreeBSD project
       version: '15.0'
     rtsold:
@@ -10501,6 +11988,21 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/setaudit
       upstream: FreeBSD project
       version: '15.0'
+    setextattr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libsbuf
+        - libutil
+      description: Manipulate extended attributes
+      directory: usr.sbin/extattr
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=setextattr(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
+      upstream: FreeBSD project
+      version: '15.0'
     setfmac:
       depends:
         - csu
@@ -10575,7 +12077,7 @@ Sections:
       description: Close down the system at a given time
       directory: sbin/shutdown
       homepage: https://man.freebsd.org/cgi/man.cgi?query=shutdown(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/shutdown
       upstream: FreeBSD project
@@ -10656,9 +12158,52 @@ Sections:
       description: Create a random access file for storing strings
       directory: usr.bin/fortune/strfile
       homepage: https://man.freebsd.org/cgi/man.cgi?query=strfile(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.bin/fortune/strfile
+      upstream: FreeBSD project
+      version: '15.0'
+    swapctl:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Specify devices for paging and swapping
+      directory: sbin/swapon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=swapctl(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/swapon
+      upstream: FreeBSD project
+      version: '15.0'
+    swapinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libkvm
+        - libutil
+      description: Display system data structures
+      directory: usr.sbin/pstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=swapinfo(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/pstat
+      upstream: FreeBSD project
+      version: '15.0'
+    swapoff:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Specify devices for paging and swapping
+      directory: sbin/swapon
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=swapoff(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/swapon
       upstream: FreeBSD project
       version: '15.0'
     swapon:
@@ -10670,7 +12215,7 @@ Sections:
       description: Specify devices for paging and swapping
       directory: sbin/swapon
       homepage: https://man.freebsd.org/cgi/man.cgi?query=swapon(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/swapon
       upstream: FreeBSD project
@@ -10907,6 +12452,19 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/umount
+      upstream: FreeBSD project
+      version: '15.0'
+    unstr:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Create a random access file for storing strings
+      directory: usr.bin/fortune/strfile
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=unstr(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.bin/fortune/strfile
       upstream: FreeBSD project
       version: '15.0'
     usbconfig:
@@ -11347,7 +12905,7 @@ Sections:
       directory:
         - lib/libc
         - lib/libc_nonshared
-      version: '15.0'
+      version: 15.0
       upstream: FreeBSD
       homepage: https://www.FreeBSD.org
       license: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
