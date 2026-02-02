@@ -47,13 +47,39 @@ Sections:
         - build
       plan: fix
       owner: sjg@
+    make:
+      description: Program designed to simplify the maintenance of other programs
+      directory: contrib/bmake
+      version: '20250804'
+      license: BSD-3-Clause
+      upstream: NetBSD
+      homepage: https://www.NetBSD.org
+      source: https://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/make/
+      security:
+        - build
+      plan: fix
+      owner: sjg@
+    yacc:
+      description: Parser generator designed to be compatible with Yacc
+      directory: contrib/byacc
+      version: '20240109'
+      upstream: invisible-island
+      homepage: https://invisible-island.net/byacc/
+      license: LicenseRef-scancode-public-domain
+      source: https://invisible-island.net/datafiles/release/byacc.tar.gz
+      security:
+        - build
+      plan: fix
+      owner:
+        - bapt@
+        - jkim@
     byacc:
       description: Parser generator designed to be compatible with Yacc
       directory: contrib/byacc
       version: '20240109'
       upstream: invisible-island
       homepage: https://invisible-island.net/byacc/
-      license: NOASSERTION
+      license: LicenseRef-scancode-public-domain
       source: https://invisible-island.net/datafiles/release/byacc.tar.gz
       security:
         - build
@@ -79,7 +105,148 @@ Sections:
         - jrtc27@
         - kevans@
         - theraven@
+    netcat:
+      description: Arbitrary TCP and UDP connections and listens
+      directory: contrib/netcat
+      version: 5.8
+      license: BSD-3-Clause AND BSD-2-Clause
+      upstream: OpenBSD
+      homepage: https://github.com/openbsd/src/tree/master/usr.bin/nc
+      source: https://github.com/openbsd/src/tree/master/usr.bin/nc
+      security:
+        - build
+      plan: fix
+      owner:
+    nc:
+      description: Arbitrary TCP and UDP connections and listens
+      directory: contrib/netcat
+      version: 5.8
+      license: BSD-3-Clause AND BSD-2-Clause
+      upstream: OpenBSD
+      homepage: https://github.com/openbsd/src/tree/master/usr.bin/nc
+      source: https://github.com/openbsd/src/tree/master/usr.bin/nc
+      security:
+        - build
+      plan: fix
+      owner:
+    netcat:
+      description: Arbitrary TCP and UDP connections and listens
+      directory: contrib/netcat
+      version: 1.5.2
+      license: BSD-2-Clause
+      upstream: NetBSD
+      homepage: https://github.com/NetBSD/pkgsrc/tree/trunk/editors/ee/
+      source: https://archive.netbsd.org/pub/pkgsrc-archive/distfiles/2023Q2/ee-1.5.2/ee-1.5.2.src.tgz
+      security:
+        - build
+      plan: fix
+      owner:
     elftoolchain:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    nm:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    size:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    strings:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    strip:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    elfcopy:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    mcs:
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
+    objcopy:
       description: BSD licensed ELF toolchain
       directory: contrib/elftoolchain
       version: r4912
@@ -136,7 +303,7 @@ Sections:
         - user
       depends:
         - libcxxrt
-        - ncurses
+        - libncurses
       plan: fix
       owner:
         - dim@
@@ -150,9 +317,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Automatic test case reduction tool
       directory: usr.bin/clang/bugpoint
       homepage: https://llvm.org
@@ -172,11 +339,179 @@ Sections:
         - libcxxrt
         - libexecinfo
         - libthr
-        - zlib
-        - zstd
+        - libz
+        - libzstd
         - msun
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    clang-cpp:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    cpp:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    clang++:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    clang-scan-deps:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    CC:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    cc:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
+      description: The Clang C, C++, and Objective-C compiler
+      directory: usr.bin/clang/clang
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    c++:
+      depends:
+        - csu
+        - libclang
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libncurses
+        - libtinfo
       description: The Clang C, C++, and Objective-C compiler
       directory: usr.bin/clang/clang
       homepage: https://llvm.org
@@ -194,9 +529,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM static compiler
       directory: usr.bin/clang/llc
       homepage: https://llvm.org
@@ -221,12 +556,12 @@ Sections:
         - liblua
         - liblzma
         - libthr
-        - zlib
-        - zstd
+        - libz
+        - libzstd
         - msun
-        - ncurses
-        - ncurses.panel
-        - ncurses.tinfo
+        - libncurses
+        - libpanel
+        - libtinfo
       description: LLDB Documentation
       directory: usr.bin/clang/lldb
       homepage: https://llvm.org
@@ -250,12 +585,12 @@ Sections:
         - liblua
         - liblzma
         - libthr
-        - zlib
-        - zstd
+        - libz
+        - libzstd
         - msun
-        - ncurses
-        - ncurses.panel
-        - ncurses.tinfo
+        - libncurses
+        - libpanel
+        - libtinfo
       description: LLDB Documentation
       directory: usr.bin/clang/lldb-server
       homepage: https://llvm.org
@@ -273,9 +608,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Directly execute programs from LLVM bitcode
       directory: usr.bin/clang/lli
       homepage: https://llvm.org
@@ -293,9 +628,29 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
+      description: A drop-in replacement for addr2line
+      directory: usr.bin/clang/llvm-symbolizer
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    addr2line:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
       description: A drop-in replacement for addr2line
       directory: usr.bin/clang/llvm-symbolizer
       homepage: https://llvm.org
@@ -313,9 +668,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM archiver
       directory: usr.bin/clang/llvm-ar
       homepage: https://llvm.org
@@ -333,9 +688,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM assembler
       directory: usr.bin/clang/llvm-as
       homepage: https://llvm.org
@@ -353,9 +708,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM bitcode analyzer
       directory: usr.bin/clang/llvm-bcanalyzer
       homepage: https://llvm.org
@@ -373,9 +728,29 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
+      description: Emit coverage information
+      directory: usr.bin/clang/llvm-cov
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    gcov:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
       description: Emit coverage information
       directory: usr.bin/clang/llvm-cov
       homepage: https://llvm.org
@@ -393,9 +768,29 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
+      description: LLVM symbol name demangler
+      directory: usr.bin/clang/llvm-cxxfilt
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    c++filt:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
       description: LLVM symbol name demangler
       directory: usr.bin/clang/llvm-cxxfilt
       homepage: https://llvm.org
@@ -413,9 +808,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM structural 'diff'
       directory: usr.bin/clang/llvm-diff
       homepage: https://man.freebsd.org/cgi/man.cgi?query=llvm-diff(1)
@@ -434,7 +829,7 @@ Sections:
         - libcxxrt
         - libthr
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM disassembler
       directory: usr.bin/clang/llvm-dis
       homepage: https://llvm.org
@@ -452,9 +847,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Dump and verify DWARF debug information
       directory: usr.bin/clang/llvm-dwarfdump
       homepage: https://llvm.org
@@ -481,9 +876,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Extract a function from an LLVM module
       directory: usr.bin/clang/llvm-extract
       homepage: https://llvm.org
@@ -501,9 +896,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM bitcode linker
       directory: usr.bin/clang/llvm-link
       homepage: https://llvm.org
@@ -530,9 +925,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: List LLVM bitcode and object file's symbol table
       directory: usr.bin/clang/llvm-nm
       homepage: https://llvm.org
@@ -560,10 +955,32 @@ Sections:
         - libcxxrt
         - libexecinfo
         - libthr
-        - zlib
-        - zstd
+        - libz
+        - libzstd
         - msun
-        - ncurses.tinfo
+        - libtinfo
+      description: LLVM's object file dumper
+      directory: usr.bin/clang/llvm-objdump
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    objdump:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libexecinfo
+        - libthr
+        - libz
+        - libzstd
+        - msun
+        - libtinfo
       description: LLVM's object file dumper
       directory: usr.bin/clang/llvm-objdump
       homepage: https://llvm.org
@@ -582,7 +999,7 @@ Sections:
         - libcxxrt
         - libthr
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: PDB File forensics and diagnostics
       directory: usr.bin/clang/llvm-pdbutil
       homepage: https://llvm.org
@@ -600,9 +1017,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Profile data tool
       directory: usr.bin/clang/llvm-profdata
       homepage: https://llvm.org
@@ -620,9 +1037,29 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
+      description: Generates an archive index
+      directory: usr.bin/clang/llvm-ar
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    ranlib:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
       description: Generates an archive index
       directory: usr.bin/clang/llvm-ar
       homepage: https://llvm.org
@@ -632,6 +1069,15 @@ Sections:
       upstream: LLVM
       version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
     llvm-readelf:
+      description: GNU-style LLVM Object Reader
+      directory: usr.bin/clang/llvm-readobj
+      homepage: https://llvm.org
+      license: Apache-2.0 WITH LLVM-exception
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    readelf:
       description: GNU-style LLVM Object Reader
       directory: usr.bin/clang/llvm-readobj
       homepage: https://llvm.org
@@ -667,6 +1113,15 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
       upstream: LLVM
       version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    llvm-strip:
+      description: Strip binary
+      directory: usr.bin/clang/llvm-strings
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
     llvm-symbolizer:
       depends:
         - csu
@@ -676,9 +1131,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: Convert addresses into source code locations
       directory: usr.bin/clang/llvm-symbolizer
       homepage: https://llvm.org
@@ -696,11 +1151,51 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM optimizer
       directory: usr.bin/clang/opt
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    ld:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
+      description: ELF linker from the LLVM project
+      directory: usr.bin/clang/lld
+      homepage: https://llvm.org
+      license: Apache-2.0
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      upstream: LLVM
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+    ld.ldd:
+      depends:
+        - csu
+        - libllvm
+        - libc
+        - libc++
+        - libcompiler_rt
+        - libcxxrt
+        - libthr
+        - libz
+        - msun
+        - libncursesw
+      description: ELF linker from the LLVM project
+      directory: usr.bin/clang/lld
       homepage: https://llvm.org
       license: Apache-2.0
       section: 1
@@ -719,60 +1214,72 @@ Sections:
         - build
       plan: fork
       owner: des@
+    unifdefall:
+      description: Selectively remove C preprocessor conditionals
+      directory: contrib/unifdef
+      version: 2.12
+      upstream: Tony Finch
+      homepage: https://dotat.at/prog/unifdef
+      source: https://dotat.at/cgi/git/unifdef.git/tree/3a5ba6f9ecaadef4f3a118b35d0c89233609161d
+      license: BSD-3-Clause AND BSD-2-Clause
+      security:
+        - build
+      plan: fork
+      owner: des@
   Extra libraries:
     csu:
       description: Library missing description
       directory: lib/csu
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu
       upstream: FreeBSD project
       version: '15.0'
     csu.aarch64:
       description: Library missing description
       directory: lib/csu/aarch64
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/aarch64
       upstream: FreeBSD project
       version: '15.0'
     csu.amd64:
       description: Library missing description
       directory: lib/csu/amd64
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/amd64
       upstream: FreeBSD project
       version: '15.0'
     csu.arm:
       description: Library missing description
       directory: lib/csu/arm
-      license: NOASSERTION
+      license: BSD-4-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/arm
       upstream: FreeBSD project
       version: '15.0'
     csu.i386:
       description: Library missing description
       directory: lib/csu/i386
-      license: NOASSERTION
+      license: BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/i386
       upstream: FreeBSD project
       version: '15.0'
     csu.powerpc:
       description: Library missing description
       directory: lib/csu/powerpc
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/powerpc
       upstream: FreeBSD project
       version: '15.0'
     csu.powerpc64:
       description: Library missing description
       directory: lib/csu/powerpc64
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause AND BSD-1-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/powerpc64
       upstream: FreeBSD project
       version: '15.0'
     csu.riscv:
       description: Library missing description
       directory: lib/csu/riscv
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/csu/riscv
       upstream: FreeBSD project
       version: '15.0'
@@ -785,7 +1292,7 @@ Sections:
         - libsbuf
       description: Library missing description
       directory: lib/lib80211
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/lib80211
       upstream: FreeBSD project
       version: '15.0'
@@ -796,7 +1303,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/libalias
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/libalias
       upstream: FreeBSD project
       version: '15.0'
@@ -807,7 +1314,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/dummy
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/dummy
       upstream: FreeBSD project
       version: '15.0'
@@ -818,7 +1325,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/ftp
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/ftp
       upstream: FreeBSD project
       version: '15.0'
@@ -829,7 +1336,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/irc
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/irc
       upstream: FreeBSD project
       version: '15.0'
@@ -840,7 +1347,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/nbt
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/nbt
       upstream: FreeBSD project
       version: '15.0'
@@ -851,7 +1358,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/pptp
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/pptp
       upstream: FreeBSD project
       version: '15.0'
@@ -862,7 +1369,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/skinny
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/skinny
       upstream: FreeBSD project
       version: '15.0'
@@ -873,7 +1380,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libalias/modules/smedia
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libalias/modules/smedia
       upstream: FreeBSD project
       version: '15.0'
@@ -882,9 +1389,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library to write tests in C
       directory: lib/atf/libatf-c
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/atf/libatf-c
       upstream: FreeBSD project
       version: '15.0'
@@ -897,9 +1404,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - msun
-      description: Library missing description
+      description: Library to write tests in C++
       directory: lib/atf/libatf-c++
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/atf/libatf-c++
       upstream: FreeBSD project
       version: '15.0'
@@ -908,9 +1415,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library for creating, destroying and modifying ZFS boot environments
       directory: lib/libbe
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libbe
       upstream: FreeBSD project
       version: '15.0'
@@ -920,9 +1427,9 @@ Sections:
         - libc
         - libcompiler_rt
         - libthr
-      description: Library missing description
+      description: Blocklistd notification library
       directory: lib/libblocklist
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libblocklist
       upstream: FreeBSD project
       version: '15.0'
@@ -944,21 +1451,8 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libbluetooth
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libbluetooth
-      upstream: FreeBSD project
-      version: '15.0'
-    libbsddialog:
-      depends:
-        - csu
-        - libc
-        - libcompiler_rt
-        - ncurses
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/libbsddialog
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libbsddialog
       upstream: FreeBSD project
       version: '15.0'
     libbsdstat:
@@ -968,7 +1462,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libbsdstat
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libbsdstat
       upstream: FreeBSD project
       version: '15.0'
@@ -977,9 +1471,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Convert from BSM to other formats
       directory: lib/libbsm
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libbsm
       upstream: FreeBSD project
       version: '15.0'
@@ -988,9 +1482,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Begemot SNMP library
       directory: lib/libbsnmp/libbsnmp
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libbsnmp/libbsnmp
       upstream: FreeBSD project
       version: '15.0'
@@ -1001,12 +1495,23 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - msun
-      description: Library missing description
-      directory: lib/libc++
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libc++
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     libc++experimental:
       description: Library missing description
       directory: lib/libc++experimental
@@ -1028,7 +1533,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libcalendar
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcalendar
       upstream: FreeBSD project
       version: '15.0'
@@ -1040,14 +1545,14 @@ Sections:
         - libsbuf
       description: Library missing description
       directory: lib/libcam
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcam
       upstream: FreeBSD project
       version: '15.0'
     libcapsicum:
-      description: Library missing description
+      description: Practical capabilities for UNIX
       directory: lib/libcapsicum
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcapsicum
       upstream: FreeBSD project
       version: '15.0'
@@ -1057,16 +1562,16 @@ Sections:
         - libc
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for mainipulate capability modes
       directory: lib/libcasper/libcasper
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/libcasper
       upstream: FreeBSD project
       version: '15.0'
     libcasper.services:
       description: Library missing description
       directory: lib/libcasper/services
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services
       upstream: FreeBSD project
       version: '15.0'
@@ -1077,9 +1582,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for getting network host entry in capability mode
       directory: lib/libcasper/services/cap_dns
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_dns
       upstream: FreeBSD project
       version: '15.0'
@@ -1090,9 +1595,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for handling files in capability mode
       directory: lib/libcasper/services/cap_fileargs
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_fileargs
       upstream: FreeBSD project
       version: '15.0'
@@ -1103,9 +1608,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for group database operations in capability mode
       directory: lib/libcasper/services/cap_grp
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_grp
       upstream: FreeBSD project
       version: '15.0'
@@ -1116,9 +1621,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for networking in capability mode
       directory: lib/libcasper/services/cap_net
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_net
       upstream: FreeBSD project
       version: '15.0'
@@ -1129,9 +1634,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for getting network proto entry in capability mode
       directory: lib/libcasper/services/cap_netdb
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_netdb
       upstream: FreeBSD project
       version: '15.0'
@@ -1142,9 +1647,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for password database operations in capability mode
       directory: lib/libcasper/services/cap_pwd
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_pwd
       upstream: FreeBSD project
       version: '15.0'
@@ -1155,9 +1660,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for getting or setting system information in capability mode
       directory: lib/libcasper/services/cap_sysctl
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_sysctl
       upstream: FreeBSD project
       version: '15.0'
@@ -1168,9 +1673,9 @@ Sections:
         - libcasper
         - libcompiler_rt
         - libnv
-      description: Library missing description
+      description: Library for syslog in capability mode
       directory: lib/libcasper/services/cap_syslog
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcasper/services/cap_syslog
       upstream: FreeBSD project
       version: '15.0'
@@ -1179,17 +1684,28 @@ Sections:
         - libllvm
         - libc++
         - msun
-      description: Library missing description
-      directory: lib/clang/libclang
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/clang/libclang
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     libclang_rt.asan:
       depends:
         - libc++
         - libmd
-        - ncurses.tinfo
+        - libtinfo
       description: Library missing description
       directory: lib/libclang_rt/asan
       license: NOASSERTION
@@ -1221,7 +1737,7 @@ Sections:
         - libcxxrt
         - libmd
         - msun
-        - ncurses.tinfo
+        - libtinfo
       description: Library missing description
       directory: lib/libclang_rt/asan_dynamic
       license: NOASSERTION
@@ -1250,7 +1766,7 @@ Sections:
       depends:
         - libc++
         - libmd
-        - ncurses.tinfo
+        - libtinfo
       description: Library missing description
       directory: lib/libclang_rt/stats
       license: NOASSERTION
@@ -1270,7 +1786,7 @@ Sections:
       depends:
         - libc++
         - libmd
-        - ncurses.tinfo
+        - libtinfo
       description: Library missing description
       directory: lib/libclang_rt/ubsan_standalone
       license: NOASSERTION
@@ -1291,27 +1807,41 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/libcom_err
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libcom_err
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
     libcompiler_rt:
-      description: Library missing description
       directory: lib/libcompiler_rt
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
-      upstream: FreeBSD project
-      version: '15.0'
+      description: LLVM "compiler-rt" runtime library
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     libcrypt:
       depends:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: function performs password hashing with additional code added to deter key search attempts. Different algorithms can be used to in the hash.
       directory: lib/libcrypt
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcrypt
       upstream: FreeBSD project
       version: '15.0'
@@ -1321,9 +1851,9 @@ Sections:
         - libc
         - libcompiler_rt
         - libthr
-      description: Library missing description
+      description: Userland character device library
       directory: lib/libcuse
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libcuse
       upstream: FreeBSD project
       version: '15.0'
@@ -1357,9 +1887,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Device and resource information utility library
       directory: lib/libdevinfo
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libdevinfo
       upstream: FreeBSD project
       version: '15.0'
@@ -1369,9 +1899,9 @@ Sections:
         - libc
         - libcompiler_rt
         - libkvm
-      description: Library missing description
+      description: Device statistics utility library
       directory: lib/libdevstat
-      license: NOASSERTION
+      license: BSD-3-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libdevstat
       upstream: FreeBSD project
       version: '15.0'
@@ -1383,8 +1913,8 @@ Sections:
         - libfigpar
         - libutil
         - msun
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Library missing description
       directory: lib/libdpv
       license: NOASSERTION
@@ -1397,13 +1927,21 @@ Sections:
         - libc
         - libcompiler_rt
         - libelf
-        - zlib
-      description: Library missing description
-      directory: lib/libdwarf
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libdwarf
-      upstream: FreeBSD project
-      version: '15.0'
+        - libz
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
     libedit.readline:
       description: Library missing description
       directory: lib/libedit/readline
@@ -1428,32 +1966,55 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/libelf
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libelf
-      upstream: FreeBSD project
-      version: '15.0'
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
     libelftc:
       depends:
         - libelf
-      description: Library missing description
-      directory: lib/libelftc
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libelftc
-      upstream: FreeBSD project
-      version: '15.0'
+      description: BSD licensed ELF toolchain
+      directory: contrib/elftoolchain
+      version: r4912
+      license: BSD-2-Clause
+      upstream: elftoolchain
+      homepage: https://sourceforge.net/projects/elftoolchain/
+      source: https://sourceforge.net/p/elftoolchain/code/
+      security:
+        - build
+      plan: fix
+      owner:
+        - emaste@
+        - jkoshy@
+        - kaiw@
     libevent1:
       depends:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/libevent1
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libevent1
-      upstream: FreeBSD project
-      version: '15.0'
+      Description: Event API provides a mechanism to execute a function when a specific event on a file descriptor occurs or after a given time has passed
+      Version: r190640
+      upstream: OpenBSD
+      homepage: https://openbsd.org
+      license: BSD-3-Clause
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fork
+      owner:
+        - kp@
+        - ks@
     libfetch:
       depends:
         - csu
@@ -1461,7 +2022,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libfetch
-      license: NOASSERTION
+      license: BSD-3-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libfetch
       upstream: FreeBSD project
       version: '15.0'
@@ -1483,9 +2044,9 @@ Sections:
         - libcompiler_rt
         - libexpat
         - libsbuf
-      description: Library missing description
+      description: Userland API library for kernel GEOM subsystem
       directory: lib/libgeom
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libgeom
       upstream: FreeBSD project
       version: '15.0'
@@ -1514,9 +2075,9 @@ Sections:
     libifconfig:
       depends:
         - msun
-      description: Library missing description
+      description: Library for configure network interface parameters
       directory: lib/libifconfig
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libifconfig
       upstream: FreeBSD project
       version: '15.0'
@@ -1525,9 +2086,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Create an IPsec policy structure from a human readable string
       directory: lib/libipsec
-      license: NOASSERTION
+      license: BSD-3-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libipsec
       upstream: FreeBSD project
       version: '15.0'
@@ -1536,7 +2097,7 @@ Sections:
         - libmd
       description: Library missing description
       directory: lib/libiscsiutil
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libiscsiutil
       upstream: FreeBSD project
       version: '15.0'
@@ -1545,9 +2106,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Create and manage system jails
       directory: lib/libjail
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libjail
       upstream: FreeBSD project
       version: '15.0'
@@ -1556,9 +2117,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library provides multi-byte character conversion tables for kernel side
       directory: lib/libkiconv
-      license: NOASSERTION
+      license: BSD-4-Clause and BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libkiconv
       upstream: FreeBSD project
       version: '15.0'
@@ -1568,9 +2129,9 @@ Sections:
         - libc
         - libcompiler_rt
         - libelf
-      description: Library missing description
+      description: Kernel memory interface
       directory: lib/libkvm
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libkvm
       upstream: FreeBSD project
       version: '15.0'
@@ -1583,45 +2144,78 @@ Sections:
         - libexecinfo
         - libkvm
         - liblzma
-        - zlib
+        - libz
         - msun
-        - ncurses.panel
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/clang/liblldb
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/clang/liblldb
-      upstream: FreeBSD project
-      version: '15.0'
+        - libpanel
+        - libtinfo
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     libllvm:
       depends:
         - libc++
         - libexecinfo
-        - zlib
+        - libz
         - msun
-      description: Library missing description
-      directory: lib/clang/libllvm
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/clang/libllvm
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     libllvmminimal:
       depends:
         - libc++
         - libexecinfo
         - msun
-      description: Library missing description
-      directory: lib/clang/libllvmminimal
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/clang/libllvmminimal
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Collection of modular and reusable compiler and toolchain technologies
+      directory:
+        - contrib/llvm-project
+        - usr.bin/clang
+      version: 19.x-llvmorg-19.1.4-0-gaadaa00de76e
+      upstream: LLVM
+      homepage: https://llvm.org
+      license: Apache-2.0
+      source: https://cgit.freebsd.org/src/tree/contrib/llvm-project/clang
+      security:
+        - build
+        - runtime
+        - user
+      plan: fix
+      owner:
+        - dim@
+        - emaste@
     liblua:
       depends:
         - msun
       description: Library missing description
       directory: lib/liblua
-      license: NOASSERTION
+      license: MIT
       source: https://cgit.freebsd.org/src/tree/lib/liblua
       upstream: FreeBSD project
       version: '15.0'
@@ -1630,9 +2224,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library for calculating digests
       directory: lib/libmd
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause AND Beeware AND RSA-MD AND
       source: https://cgit.freebsd.org/src/tree/lib/libmd
       upstream: FreeBSD project
       version: '15.0'
@@ -1644,7 +2238,7 @@ Sections:
         - libkvm
       description: Library missing description
       directory: lib/libmemstat
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libmemstat
       upstream: FreeBSD project
       version: '15.0'
@@ -1653,12 +2247,17 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/libmilter
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libmilter
-      upstream: FreeBSD project
-      version: '15.0'
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      plan: fix
+      owner: gshapiro@
     libmixer:
       depends:
         - csu
@@ -1690,14 +2289,14 @@ Sections:
         - libsbuf
       description: Library missing description
       directory: lib/libmt
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libmt
       upstream: FreeBSD project
       version: '15.0'
     libnetbsd:
       description: Library missing description
       directory: lib/libnetbsd
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libnetbsd
       upstream: FreeBSD project
       version: '15.0'
@@ -1728,23 +2327,23 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library permits creating and managing name value pairs
       directory: lib/libnv
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libnv
       upstream: FreeBSD project
       version: '15.0'
     libnvmf:
-      description: Library missing description
+      description: NVMe Over Fabrics library
       directory: lib/libnvmf
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libnvmf
       upstream: FreeBSD project
       version: '15.0'
     libopenbsd:
       description: Library missing description
       directory: lib/libopenbsd
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libopenbsd
       upstream: FreeBSD project
       version: '15.0'
@@ -1753,12 +2352,19 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/libpam/libpam
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/libpam/libpam
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Open source PAM library that focuses on simplicity, correctness, and cleanliness.
+      directory: contrib/openpam
+      version: '20250531'
+      upstream: Dag-Erling Smørgrav
+      homepage: https://openpam.org
+      license: BSD-3-Clause
+      source: https://git.des.dev/OpenPAM/OpenPAM/src/commit/7a0660d699c4f82aa234524256b5b9f5a7cba786
+      security:
+        - auth
+        - system
+        - user
+      plan: fix
+      owner: des@
     libpam.static_libpam:
       depends:
         - pam_chroot
@@ -1799,9 +2405,9 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     libpfctl:
-      description: Library missing description
+      description: Library for interaction with pf
       directory: lib/libpfctl
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libpfctl
       upstream: FreeBSD project
       version: '15.0'
@@ -1813,7 +2419,7 @@ Sections:
         - libutil
       description: Library missing description
       directory: lib/libpjdlog
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libpjdlog
       upstream: FreeBSD project
       version: '15.0'
@@ -1858,7 +2464,7 @@ Sections:
         - libprocstat
         - librtld_db
         - libutil
-        - zlib
+        - libz
       description: Library missing description
       directory: lib/libproc
       license: NOASSERTION
@@ -1876,7 +2482,7 @@ Sections:
         - libutil
       description: Library missing description
       directory: lib/libprocstat
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libprocstat
       upstream: FreeBSD project
       version: '15.0'
@@ -1896,9 +2502,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: FreeBSD libc regex library
       directory: lib/libregex
-      license: NOASSERTION
+      license: BSD-3-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libregex
       upstream: FreeBSD project
       version: '15.0'
@@ -1909,7 +2515,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/librpcsvc
-      license: NOASSERTION
+      license: BSD-4-Clause
       source: https://cgit.freebsd.org/src/tree/lib/librpcsvc
       upstream: FreeBSD project
       version: '15.0'
@@ -1943,9 +2549,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library for manipulating smart buffers
       directory: lib/libsbuf
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libsbuf
       upstream: FreeBSD project
       version: '15.0'
@@ -1957,7 +2563,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libsdp
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libsdp
       upstream: FreeBSD project
       version: '15.0'
@@ -1977,9 +2583,9 @@ Sections:
       depends:
         - csu
         - libcompiler_rt
-      description: Library missing description
+      description: Library to manage system
       directory: lib/libsys
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libsys
       upstream: FreeBSD project
       version: '15.0'
@@ -2056,7 +2662,7 @@ Sections:
         - librss
         - librtld_db
         - libsdp
-        - SQLite
+        - sqlite3
         - libstdthreads
         - libtacplus
         - libthread_db
@@ -2073,16 +2679,16 @@ Sections:
         - libwrap
         - libxo
         - libypclnt
-        - zlib
-        - zstd
+        - libz
+        - libzstd
         - msun
-        - ncurses.form
-        - ncurses.menu
-        - ncurses.panel
-        - ncurses.tinfo
+        - libform
+        - libmenu
+        - libpanel
+        - libtinfo
       description: Library missing description
       directory: lib/libsysdecode
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libsysdecode
       upstream: FreeBSD project
       version: '15.0'
@@ -2104,9 +2710,9 @@ Sections:
         - libc
         - libcompiler_rt
         - libsys
-      description: Library missing description
+      description: 1:1 POSIX threads library
       directory: lib/libthr
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libthr
       upstream: FreeBSD project
       version: '15.0'
@@ -2126,9 +2732,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Library managing UFS
       directory: lib/libufs
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libufs
       upstream: FreeBSD project
       version: '15.0'
@@ -2174,7 +2780,7 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/libusbhid
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libusbhid
       upstream: FreeBSD project
       version: '15.0'
@@ -2183,9 +2789,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: FreeBSD misc util library
       directory: lib/libutil
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause AND LicenseRef-scancode-other-permissive
       source: https://cgit.freebsd.org/src/tree/lib/libutil
       upstream: FreeBSD project
       version: '15.0'
@@ -2194,9 +2800,9 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
+      description: Verified execution routines
       directory: lib/libveriexec
-      license: NOASSERTION
+      license: BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/libveriexec
       upstream: FreeBSD project
       version: '15.0'
@@ -2254,74 +2860,274 @@ Sections:
         - libcompiler_rt
       description: Library missing description
       directory: lib/msun
-      license: NOASSERTION
+      license: BSD-4-Clause AND BSD-2-Clause
       source: https://cgit.freebsd.org/src/tree/lib/msun
       upstream: FreeBSD project
       version: '15.0'
-    ncurses.form:
+    tic:
       depends:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/ncurses/form
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/ncurses/form
-      upstream: FreeBSD project
-      version: '15.0'
-    ncurses.menu:
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    reset:
       depends:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/ncurses/menu
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/ncurses/menu
-      upstream: FreeBSD project
-      version: '15.0'
-    ncurses.ncursesw:
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    clear:
       depends:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/ncurses/ncurses
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/ncurses/ncurses
-      upstream: FreeBSD project
-      version: '15.0'
-    ncurses.panel:
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    infotocap:
       depends:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses
-        - ncurses.tinfo
-      description: Library missing description
-      directory: lib/ncurses/panel
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/ncurses/panel
-      upstream: FreeBSD project
-      version: '15.0'
-    ncurses.tinfo:
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    infocmp:
       depends:
         - csu
         - libc
         - libcompiler_rt
-      description: Library missing description
-      directory: lib/ncurses/tinfo
-      license: NOASSERTION
-      source: https://cgit.freebsd.org/src/tree/lib/ncurses/tinfo
-      upstream: FreeBSD project
-      version: '15.0'
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    captoinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    toc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    toe:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    tput:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    tset:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    libform:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses form library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    libmenu:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libncurses
+        - libtinfo
+      description: clone of System V curses menu library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    libncursesw:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libtinfo
+      description: clone of System V curses curses wide char library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    libtinfo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: clone of System V curses tinfo library
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
   General Commands:
     Mail:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Send and receive mail
+      directory: usr.bin/mail
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mail(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/mail
+      upstream: FreeBSD project
+      version: '15.0'
+    unalias:
       depends:
         - csu
         - libc
@@ -2347,6 +3153,34 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/bin/test
       upstream: FreeBSD project
       version: '15.0'
+    apropos:
+      description: Utilities query manual page databases generated by makewhatis evaluating
+      directory: contrib/mandoc
+      version: '2025-09-26'
+      upstream: Ingo Schwarze
+      homepage: https://mandoc.bsd.lv
+      license: BSD-3-Clause AND BSD-2-Clause AND 0BSD
+      security:
+        - build
+        - user
+      plan: fix
+      owner:
+        - bapt@
+        - ziaee@
+    makewhatis:
+      description: Utilities query manual page databases generated by makewhatis evaluating
+      directory: contrib/mandoc
+      version: '2025-09-26'
+      upstream: Ingo Schwarze
+      homepage: https://mandoc.bsd.lv
+      license: BSD-3-Clause AND BSD-2-Clause AND 0BSD
+      security:
+        - build
+        - user
+      plan: fix
+      owner:
+        - bapt@
+        - ziaee@
     apply:
       depends:
         - csu
@@ -2374,6 +3208,71 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/ar
+      upstream: FreeBSD project
+      version: '15.0'
+    at:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Queue, examine or delete jobs for later execution
+      directory: usr.bin/at
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=at(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/at
+      upstream: FreeBSD project
+      version: '15.0'
+    atq:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Queue, examine or delete jobs for later execution
+      directory: usr.bin/at
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=at(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/at
+      upstream: FreeBSD project
+      version: '15.0'
+    atm:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Queue, examine or delete jobs for later execution
+      directory: usr.bin/at
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=at(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/at
+      upstream: FreeBSD project
+      version: '15.0'
+    atrm:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Queue, examine or delete jobs for later execution
+      directory: usr.bin/at
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=at(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/at
+      upstream: FreeBSD project
+      version: '15.0'
+    batch:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Queue, examine or delete jobs for later execution
+      directory: usr.bin/at
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=at(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/at
       upstream: FreeBSD project
       version: '15.0'
     asa:
@@ -2507,6 +3406,34 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     bsnmpget:
+      depends:
+        - csu
+        - libbsnmp
+        - libc
+        - libcompiler_rt
+      description: Simple tools for querying SNMP agents
+      directory: usr.sbin/bsnmpd/tools/bsnmptools
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsnmpget(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/bsnmpd/tools/bsnmptools
+      upstream: FreeBSD project
+      version: '15.0'
+    bsnmpset:
+      depends:
+        - csu
+        - libbsnmp
+        - libc
+        - libcompiler_rt
+      description: Simple tools for querying SNMP agents
+      directory: usr.sbin/bsnmpd/tools/bsnmptools
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsnmpget(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.sbin/bsnmpd/tools/bsnmptools
+      upstream: FreeBSD project
+      version: '15.0'
+    bsnmpwalk:
       depends:
         - csu
         - libbsnmp
@@ -2890,6 +3817,174 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/comm
       upstream: FreeBSD project
       version: '15.0'
+    dirname:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Return filename or directory portion of pathname
+      directory: usr.bin/dirname
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=dirname(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/dirname
+      upstream: FreeBSD project
+      version: '15.0'
+    compile_et:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    kinit:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    klist:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    kdestroy:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    kadmin:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    kpasswd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    ksu:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    kswitch:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+    ktutil:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libcom_err
+      description: Common error display library
+      directory: contrib/com_err
+      version: 1.5.2
+      upstream: Heimdal Software
+      homepage: https://www.heimdal.software
+      license: BSD-3-Clause
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
     compress:
       depends:
         - csu
@@ -2985,6 +4080,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/enigma
       upstream: FreeBSD project
       version: '15.0'
+    csh:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: C shell with file name completion and command line editing
+      directory: bin/csh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=csh(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/csh
+      upstream: FreeBSD project
+      version: '15.0'
     csplit:
       depends:
         - csu
@@ -3045,7 +4153,7 @@ Sections:
       description: Display or set date and time
       directory: bin/date
       homepage: https://man.freebsd.org/cgi/man.cgi?query=date(1)
-      license: NOASSERTION
+      license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/date
       upstream: FreeBSD project
@@ -3111,7 +4219,7 @@ Sections:
         - libdpv
         - libfigpar
         - msun
-        - ncurses.tinfo
+        - libtinfo
       description: Stream data from stdin or multiple paths with dialog progress view
       directory: usr.bin/dpv
       homepage: https://man.freebsd.org/cgi/man.cgi?query=dpv(1)
@@ -3341,7 +4449,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libutil
-        - zlib
+        - libz
       description: Initialize, write, seek and extract data from a fifolog
       directory: usr.sbin/fifolog/fifolog_create
       homepage: https://man.freebsd.org/cgi/man.cgi?query=fifolog(1)
@@ -3658,7 +4766,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libregex
-        - zlib
+        - libz
       description: File pattern searcher
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=grep(1)
@@ -3680,7 +4788,7 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/id
       upstream: FreeBSD project
       version: '15.0'
-    gunzip:
+    gzexe:
       depends:
         - csu
         - libc
@@ -3688,20 +4796,6 @@ Sections:
         - liblzma
         - libz
         - libzstd
-      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
-      license: BSD-3-Clause AND BSD-2-Clause
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
-      upstream: FreeBSD project
-      version: '15.0'
-    gzexe:
-      depends:
-        - csu
-        - libc
-        - libcompiler_rt
-        - liblzma
-        - zlib
-        - zstd
       description: Create auto-decompressing executables
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzexe(1)
@@ -3716,14 +4810,93 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
       license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    gunzip:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    gzcat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    unxz:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    unzstd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Compression/decompression tool using Lempel-Ziv coding (LZ77)
+      directory: usr.bin/gzip
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=gzip(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    random:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Random lines from a file or random numbers
+      directory: usr.bin/random
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=random(6)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 6
+      source: https://cgit.freebsd.org/src/tree/usr.bin/random
       upstream: FreeBSD project
       version: '15.0'
     hd:
@@ -3808,6 +4981,186 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/iconv
       upstream: FreeBSD project
       version: '15.0'
+    ibv_asyncwatch:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_devices:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_devinfo:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_rc_pingpong:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_srq_pingpong:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_uc_pingpong:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibv_ud_pingpong:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Display asynchronous events
+      directory: contrib/ofed/libibverbs
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    mckey:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: RDMA CM datagram setup and simple ping-pong test
+      directory: contrib/ofed/librdmacm
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    udaddy:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: RDMA CM datagram setup and simple ping-pong test
+      directory: contrib/ofed/librdmacm
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    rping:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: RDMA CM datagram setup and simple ping-pong test
+      directory: contrib/ofed/librdmacm
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ucmatose:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: RDMA CM connection and simple ping-pong test
+      directory: contrib/ofed/librdmacm
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
+    ibstat:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcasper
+        - libcompiler_rt
+      description: Open IB Diagnostics
+      directory: contrib/ofed/librdmacm
+      homepage: https://www.openfabrics.org/ofed-for-linux/
+      source: https://downloads.openfabrics.org/OFED/archive/ofed-1.5.3/OFED-1.5.3.tgz
+      license: GPL-2.0 OR BSD-2-Clause
+      section: 1
+      upstream: FreeBSD project
+      version: 1.5.3
     id:
       depends:
         - csu
@@ -3940,24 +5293,6 @@ Sections:
       description: Resend IP packets out to network
       directory: sbin/ipf/ipsend
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ipresend(1)
-      license: NOASSERTION
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipsend
-      upstream: FreeBSD project
-      version: '15.0'
-    ipsend:
-      description: Sends IP packets
-      directory: sbin/ipf/ipsend
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipsend(1)
-      license: NOASSERTION
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipsend
-      upstream: FreeBSD project
-      version: '15.0'
-    iptest:
-      description: Automatically generate a packets to test IP functionality
-      directory: sbin/ipf/ipsend
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=iptest(1)
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipsend
@@ -4144,6 +5479,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/ldd
       upstream: FreeBSD project
       version: '15.0'
+    ldd32:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libelf
+      description: List dynamic object dependencies
+      directory: usr.bin/ldd
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ldd32(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/ldd32
+      upstream: FreeBSD project
+      version: '15.0'
     leave:
       depends:
         - csu
@@ -4171,6 +5520,20 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     limits:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: Set or display process resource limits
+      directory: usr.bin/limits
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=limits(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/limits
+      upstream: FreeBSD project
+      version: '15.0'
+    ulimit:
       depends:
         - csu
         - libc
@@ -4362,7 +5725,7 @@ Sections:
       description: Front-end to the print spooler
       directory: usr.sbin/lpr/lp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=lp(1)
-      license: NOASSERTION
+      license: BSD-4-Clause-UC AND LicenseRef-scancode-unknown-license-reference
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.sbin/lpr/lp
       upstream: FreeBSD project
@@ -4425,7 +5788,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libutil
-        - ncurses.tinfo
+        - libtinfo
       description: List directory contents
       directory: bin/ls
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ls(1)
@@ -4538,22 +5901,32 @@ Sections:
       version: '15.0'
     man:
       description: Display online manual documentation pages
-      directory: usr.bin/man
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=man(1)
-      license: NOASSERTION
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/usr.bin/man
-      upstream: FreeBSD project
-      version: '15.0'
+      directory: contrib/mandoc
+      version: '2025-09-26'
+      upstream: Ingo Schwarze
+      homepage: https://mandoc.bsd.lv
+      license: BSD-3-Clause AND BSD-2-Clause AND 0BSD
+      security:
+        - build
+        - user
+      plan: fix
+      owner:
+        - bapt@
+        - ziaee@
     manpath:
       description: Display search path for manual pages
-      directory: usr.bin/man
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=manpath(1)
-      license: NOASSERTION
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/usr.bin/man
-      upstream: FreeBSD project
-      version: '15.0'
+      directory: contrib/mandoc
+      version: '2025-09-26'
+      upstream: Ingo Schwarze
+      homepage: https://mandoc.bsd.lv
+      license: BSD-3-Clause AND BSD-2-Clause AND 0BSD
+      security:
+        - build
+        - user
+      plan: fix
+      owner:
+        - bapt@
+        - ziaee@
     md5:
       depends:
         - csu
@@ -4577,7 +5950,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -4592,7 +5965,7 @@ Sections:
       description: Execute commands as another user
       directory: usr.bin/mdo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mdo(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/mdo
       upstream: FreeBSD project
@@ -4652,7 +6025,7 @@ Sections:
       description: Construct Makefile dependency list
       directory: usr.bin/mkdep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=mkdep(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/mkdep
       upstream: FreeBSD project
@@ -4684,6 +6057,19 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     mkfifo:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Make fifos
+      directory: usr.bin/mkfifo
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=mkfifo(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/mkfifo
+      upstream: FreeBSD project
+      version: '15.0'
+    umask:
       depends:
         - csu
         - libc
@@ -4754,7 +6140,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses.tinfo
+        - libtinfo
       description: System messages and junk mail program
       directory: usr.bin/msgs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=msgs(1)
@@ -4797,7 +6183,22 @@ Sections:
         - libc
         - libcalendar
         - libcompiler_rt
-        - ncurses.tinfo
+        - libtinfo
+      description: Displays a calendar and the date of Easter
+      directory: usr.bin/ncal
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ncal(1)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/ncal
+      upstream: FreeBSD project
+      version: '15.0'
+    cal:
+      depends:
+        - csu
+        - libc
+        - libcalendar
+        - libcompiler_rt
+        - libtinfo
       description: Displays a calendar and the date of Easter
       directory: usr.bin/ncal
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ncal(1)
@@ -4901,7 +6302,7 @@ Sections:
       description: Print the number of processors
       directory: bin/nproc
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nproc(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/bin/nproc
       upstream: FreeBSD project
@@ -4930,9 +6331,9 @@ Sections:
         - libcompiler_rt
         - libcxxrt
         - libthr
-        - zlib
+        - libz
         - msun
-        - ncurses.ncursesw
+        - libncursesw
       description: LLVM optimizer
       directory: usr.bin/clang/opt
       homepage: https://man.freebsd.org/cgi/man.cgi?query=opt(1)
@@ -4945,7 +6346,7 @@ Sections:
       description: Print system page size
       directory: usr.bin/pagesize
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pagesize(1)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/pagesize
       upstream: FreeBSD project
@@ -5119,6 +6520,57 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     procstat:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libprocstat
+        - libsbuf
+        - libutil
+        - libxo
+      description: Get detailed process information
+      directory: usr.bin/procstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=procstat(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/procstat
+      upstream: FreeBSD project
+      version: '15.0'
+    pwdx:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libprocstat
+        - libsbuf
+        - libutil
+        - libxo
+      description: Get detailed process information
+      directory: usr.bin/procstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=procstat(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/procstat
+      upstream: FreeBSD project
+      version: '15.0'
+    penv:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libprocstat
+        - libsbuf
+        - libutil
+        - libxo
+      description: Get detailed process information
+      directory: usr.bin/procstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=procstat(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/procstat
+      upstream: FreeBSD project
+      version: '15.0'
+    pargs:
       depends:
         - csu
         - libc
@@ -5349,7 +6801,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5366,7 +6818,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5390,6 +6842,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/bin/rmdir
       upstream: FreeBSD project
       version: '15.0'
+    rmail:
+      description: Postfix to Sendmail compatibility interface
+      directory: bin/rmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      depends:
+        - openssl
+      plan: fix
+      owner: gshapiro@
     rpcgen:
       depends:
         - csu
@@ -5448,7 +6914,7 @@ Sections:
       description: Run a shell command on a named attribute directory
       directory: usr.bin/runat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=runat(1)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/runat
       upstream: FreeBSD project
@@ -5544,7 +7010,7 @@ Sections:
       description: Side-by-side diff
       directory: usr.bin/sdiff
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sdiff(1)
-      license: NOASSERTION
+      license: LicenseRef-scancode-public-domain
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/sdiff
       upstream: FreeBSD project
@@ -5602,6 +7068,160 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/setfib
       upstream: FreeBSD project
       version: '15.0'
+    alias:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Define aliases
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    bg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Background PID
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    cd:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Change dir
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    command:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Run command
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    fc:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: List, edit and reexecute command from history
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    fg:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Foreground PID
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    getopts:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Parse commandline options
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    hash:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Calculate hash value
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    jobs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Print running jobs
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    read:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Read chars from STDIN
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
+    type:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Description of command type
+      directory: bin/sh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sh(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/sh
+      upstream: FreeBSD project
+      version: '15.0'
     sh:
       depends:
         - csu
@@ -5622,7 +7242,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5639,7 +7259,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5656,7 +7276,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5673,7 +7293,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5690,7 +7310,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5707,7 +7327,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5724,7 +7344,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5741,7 +7361,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5758,7 +7378,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5775,7 +7395,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5792,7 +7412,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5809,7 +7429,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5826,7 +7446,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5843,29 +7463,12 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
       directory: sbin/md5
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sha512t256sum(1)
-      license: LicenseRef-scancode-rsa-1990
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/sbin/md5
-      upstream: FreeBSD project
-      version: '15.0'
-    shasum:
-      depends:
-        - csu
-        - libc
-        - libcapsicum
-        - libcasper
-        - cap_fileargs
-        - libcompiler_rt
-        - libmd
-      description: Calculate a message- digest fingerprint (checksum) for a file
-      directory: sbin/md5
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=shasum(1)
       license: LicenseRef-scancode-rsa-1990
       section: 1
       source: https://cgit.freebsd.org/src/tree/sbin/md5
@@ -5877,7 +7480,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5894,7 +7497,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5911,7 +7514,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5928,7 +7531,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5945,7 +7548,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -5962,7 +7565,7 @@ Sections:
         - libc
         - libcapsicum
         - libcasper
-        - cap_fileargs
+        - libcasper.services.cap_fileargs
         - libcompiler_rt
         - libmd
       description: Calculate a message- digest fingerprint (checksum) for a file
@@ -6122,8 +7725,8 @@ Sections:
         - libprocstat
         - libutil
         - msun
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Display system statistics
       directory: usr.bin/systat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=systat(1)
@@ -6137,7 +7740,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses.tinfo
+        - libtinfo
       description: Set terminal tabs
       directory: usr.bin/tabs
       homepage: https://man.freebsd.org/cgi/man.cgi?query=tabs(1)
@@ -6166,8 +7769,8 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Talk to another user
       directory: usr.bin/talk
       homepage: https://man.freebsd.org/cgi/man.cgi?query=talk(1)
@@ -6187,6 +7790,19 @@ Sections:
       license: NOASSERTION
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/tcopy
+      upstream: FreeBSD project
+      version: '15.0'
+    tcsh:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: C shell with file name completion and command line editing
+      directory: bin/csh
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=csh(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/bin/csh
       upstream: FreeBSD project
       version: '15.0'
     tee:
@@ -6229,6 +7845,48 @@ Sections:
       license: BSD-3-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/tftp
+      upstream: FreeBSD project
+      version: '15.0'
+    ftp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Enhanced FTP client for Unix-like operating systems
+      directory: contrib/tnftp
+      homepage: https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/tnftp/
+      upstream: FreeBSD project
+      version: '15.0'
+    gate-ftp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Enhanced FTP client for Unix-like operating systems
+      directory: contrib/tnftp
+      homepage: https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/tnftp/
+      upstream: FreeBSD project
+      version: '15.0'
+    pftp:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libedit
+      description: Enhanced FTP client for Unix-like operating systems
+      directory: contrib/tnftp
+      homepage: https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/contrib/tnftp/
       upstream: FreeBSD project
       version: '15.0'
     time:
@@ -6280,7 +7938,7 @@ Sections:
         - libsbuf
         - libutil
         - msun
-        - ncurses.tinfo
+        - libtinfo
       description: Display and update information about the top cpu processes
       directory: usr.bin/top
       homepage: https://man.freebsd.org/cgi/man.cgi?query=top(1)
@@ -6371,6 +8029,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/tsort
       upstream: FreeBSD project
       version: '15.0'
+    sort:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - msun
+      description: Sort or merge records (lines) of text and binary files
+      directory: usr.bin/sort
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=sort(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/sort
+      upstream: FreeBSD project
+      version: '15.0'
     tty:
       depends:
         - csu
@@ -6403,7 +8075,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses.tinfo
+        - libtinfo
       description: Do underlining
       directory: usr.bin/ul
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ul(1)
@@ -6697,6 +8369,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/what
       upstream: FreeBSD project
       version: '15.0'
+    whatis:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Show what versions of object modules were used to construct a file
+      directory: usr.bin/what
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=what(1)
+      license: NOASSERTION
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/what
+      upstream: FreeBSD project
+      version: '15.0'
     whereis:
       depends:
         - csu
@@ -6777,6 +8462,126 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.bin/write
       upstream: FreeBSD project
       version: '15.0'
+    vi:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    nvi:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    ex:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    nex:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    cl:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    regex:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    view:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
+    nview:
+      depends:
+        - csu
+        - libc
+        - libutil
+        - libncurses
+        - libtinfo
+      description: Multibyte fork of the nvi editor for BSD
+      directory: contrib/nvi
+      homepage: https://github.com/lichray/nvi2
+      license: BSD-3-Clause
+      section: 1
+      source: https://github.com/lichray/nvi2/tree/v2.2.2
+      upstream: FreeBSD project
+      version: 2.2.2
     xargs:
       depends:
         - csu
@@ -7002,8 +8807,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: Compare compressed files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zdiff(1)
@@ -7050,8 +8855,8 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: Force gzip files to have a .gz suffix
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zforce(1)
@@ -7067,7 +8872,7 @@ Sections:
         - libc
         - libcompiler_rt
         - libregex
-        - zlib
+        - libz
       description: Grep compressed files
       directory: usr.bin/grep
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zgrep(1)
@@ -7084,22 +8889,63 @@ Sections:
         - liblzma
         - libz
         - libzstd
-      description: View compressed files
-      directory: usr.bin/gzip
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=zless(1)
-      license: BSD-3-Clause AND BSD-2-Clause
-      section: 1
-      source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
-      upstream: FreeBSD project
-      version: '15.0'
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: delphij@
+    xzless:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: delphij@
+    zstdless:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - liblzma
+        - libz
+        - libzstd
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: delphij@
     zmore:
       depends:
         - csu
         - libc
         - libcompiler_rt
         - liblzma
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: View compressed files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=zmore(1)
@@ -7114,14 +8960,30 @@ Sections:
         - libc
         - libcompiler_rt
         - liblzma
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: Convert compressed files to gzipped files
       directory: usr.bin/gzip
       homepage: https://man.freebsd.org/cgi/man.cgi?query=znew(1)
       license: BSD-3-Clause AND BSD-2-Clause
       section: 1
       source: https://cgit.freebsd.org/src/tree/usr.bin/gzip
+      upstream: FreeBSD project
+      version: '15.0'
+    zstdcat:
+      depends:
+        - csu
+        - libbz2
+        - libc
+        - libcompiler_rt
+        - libregex
+        - libz
+      description: Grep compressed files
+      directory: usr.bin/grep
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=zstdegrep(1)
+      license: BSD-2-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/grep
       upstream: FreeBSD project
       version: '15.0'
     zstdegrep:
@@ -7189,19 +9051,6 @@ Sections:
       license: NOASSERTION
       section: 7
       source: https://cgit.freebsd.org/src/tree/lib/libc/regex
-      upstream: FreeBSD project
-      version: '15.0'
-    symlink:
-      depends:
-        - csu
-        - libc
-        - libcompiler_rt
-      description: Symbolic link handling
-      directory: bin/ln
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=symlink(7)
-      license: NOASSERTION
-      section: 7
-      source: https://cgit.freebsd.org/src/tree/bin/ln
       upstream: FreeBSD project
       version: '15.0'
   Maintenance Commands:
@@ -7441,6 +9290,38 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/sbin/bectl
       upstream: FreeBSD project
       version: '15.0'
+    zfs:
+      depends:
+        - csu
+        - libbe
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: Manage ZFS boot environments
+      directory: sbin/bectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
+      license: Beerware AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/bectl
+      upstream: FreeBSD project
+      version: '15.0'
+    zpool:
+      depends:
+        - csu
+        - libbe
+        - libc
+        - libcompiler_rt
+        - libjail
+        - libutil
+      description: Manage ZFS boot environments
+      directory: sbin/bectl
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bectl(8)
+      license: Beerware AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/bectl
+      upstream: FreeBSD project
+      version: '15.0'
     bhyve:
       depends:
         - csu
@@ -7456,7 +9337,7 @@ Sections:
         - libthr
         - libutil
         - libvmmapi
-        - zlib
+        - libz
       description: Run a guest operating system inside a virtual machine
       directory: usr.sbin/bhyve
       homepage: https://man.freebsd.org/cgi/man.cgi?query=bhyve(8)
@@ -7739,7 +9620,7 @@ Sections:
         - libmt
         - libthr
         - libutil
-        - zlib
+        - libz
       description: CAM data transfer utility
       directory: usr.sbin/camdd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=camdd(8)
@@ -7936,7 +9817,7 @@ Sections:
       description: Analyze a core dump of the operating system
       directory: usr.sbin/crashinfo
       homepage: https://man.freebsd.org/cgi/man.cgi?query=crashinfo(8)
-      license: NOASSERTION
+      license: BSD-3-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/crashinfo
       upstream: FreeBSD project
@@ -8010,6 +9891,47 @@ Sections:
       license: BSD-3-Clause AND BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.bin/ctlstat
+      upstream: FreeBSD project
+      version: '15.0'
+    wait:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libexpat
+        - libsbuf
+      description: CAM Target Layer statistics utility
+      directory: usr.bin/ctlstat
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ctlstat(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/usr.bin/ctlstat
+      upstream: FreeBSD project
+      version: '15.0'
+    vis:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: display non-printable characters in a visual format
+      directory: usr.bin/vis
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=vis(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/vis
+      upstream: FreeBSD project
+      version: '15.0'
+    unvis:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: display non-printable characters in a visual format
+      directory: usr.bin/unvis
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=unvis(1)
+      license: BSD-3-Clause
+      section: 1
+      source: https://cgit.freebsd.org/src/tree/usr.bin/unvis
       upstream: FreeBSD project
       version: '15.0'
     cxgbetool:
@@ -8154,6 +10076,20 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/devmatch
+      upstream: FreeBSD project
+      version: '15.0'
+    disklabel:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libgeom
+      description: Read and write BSD label
+      directory: sbin/bsdlabel
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=bsdlabel(8)
+      license: BSD-4-Clause AND BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/bsdlabel
       upstream: FreeBSD project
       version: '15.0'
     dhclient:
@@ -8376,7 +10312,7 @@ Sections:
       description: Manage updates to system files not updated by installworld
       directory: usr.sbin/etcupdate
       homepage: https://man.freebsd.org/cgi/man.cgi?query=etcupdate(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/etcupdate
       upstream: FreeBSD project
@@ -8547,7 +10483,7 @@ Sections:
       description: Fetch and install binary updates to FreeBSD
       directory: usr.sbin/freebsd-update
       homepage: https://man.freebsd.org/cgi/man.cgi?query=freebsd-update(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/freebsd-update
       upstream: FreeBSD project
@@ -8566,6 +10502,20 @@ Sections:
       upstream: FreeBSD project
       version: '15.0'
     fsck_ffs:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libufs
+      description: File system consistency check and interactive repair
+      directory: sbin/fsck_ffs
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=fsck_ffs(8)
+      license: BSD-3-Clause AND BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/fsck_ffs
+      upstream: FreeBSD project
+      version: '15.0'
+    fsck_4.2bsd:
       depends:
         - csu
         - libc
@@ -8989,8 +10939,8 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses
-        - tinfo
+        - libncurses
+        - libtinfo
       description: Grand digital clock (curses)
       directory: usr.bin/grdc
       homepage: https://man.freebsd.org/cgi/man.cgi?query=grdc(6)
@@ -9051,8 +11001,8 @@ Sections:
         - libedit
         - libgeom
         - libkvm
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Print statistics about GEOM disks
       directory: usr.sbin/gstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=gstat(8)
@@ -9123,7 +11073,7 @@ Sections:
         - libcompiler_rt
         - libmd
         - libutil
-        - zlib
+        - libz
       description: Highly Available Storage control utility
       directory: sbin/hastctl
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastctl(8)
@@ -9141,7 +11091,7 @@ Sections:
         - libmd
         - libthr
         - libutil
-        - zlib
+        - libz
       description: Highly Available Storage daemon
       directory: sbin/hastd
       homepage: https://man.freebsd.org/cgi/man.cgi?query=hastd(8)
@@ -9373,8 +11323,8 @@ Sections:
         - libc
         - libcompiler_rt
         - libkvm
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Reports on packet filter statistics and filter list
       directory: sbin/ipf/ipfstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ipfstat(8)
@@ -9441,15 +11391,6 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/sbin/ipf/ippool
-      upstream: FreeBSD project
-      version: '15.0'
-    ipscan:
-      description: User interface to the IPFilter content scanning
-      directory: sbin/ipf/ipscan
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=ipscan(8)
-      license: NOASSERTION
-      section: 8
-      source: https://cgit.freebsd.org/src/tree/sbin/ipf/ipscan
       upstream: FreeBSD project
       version: '15.0'
     iscsictl:
@@ -10382,19 +12323,6 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/nghook
       upstream: FreeBSD project
       version: '15.0'
-    nologin:
-      depends:
-        - csu
-        - libc
-        - libcompiler_rt
-      description: Politely refuse a login
-      directory: usr.sbin/nologin
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=nologin(8)
-      license: NOASSERTION
-      section: 8
-      source: https://cgit.freebsd.org/src/tree/usr.sbin/nologin
-      upstream: FreeBSD project
-      version: '15.0'
     nos-tun:
       depends:
         - csu
@@ -10428,7 +12356,7 @@ Sections:
       description: TACACS+ nsswitch module
       directory: lib/nss_tacplus
       homepage: https://man.freebsd.org/cgi/man.cgi?query=nss_tacplus(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/lib/nss_tacplus
       upstream: FreeBSD project
@@ -10522,21 +12450,6 @@ Sections:
       license: NOASSERTION
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/lpr/pac
-      upstream: FreeBSD project
-      version: '15.0'
-    pam-krb5:
-      depends:
-        - csu
-        - libc
-        - libcom_err
-        - libcompiler_rt
-        - libpam
-      description: Kerberos PAM module
-      directory: lib/libpam/modules/pam_krb5
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=pam-krb5(8)
-      license: NOASSERTION
-      section: 8
-      source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_krb5
       upstream: FreeBSD project
       version: '15.0'
     pam_chroot:
@@ -10675,7 +12588,7 @@ Sections:
       description: Login accounting PAM module
       directory: lib/libpam/modules/pam_lastlog
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pam_lastlog(8)
-      license: NOASSERTION
+      license: BSD-4-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/lib/libpam/modules/pam_lastlog
       upstream: FreeBSD project
@@ -10954,6 +12867,23 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/sbin/ping
       upstream: FreeBSD project
       version: '15.0'
+    ping6:
+      depends:
+        - csu
+        - libc
+        - libcapsicum
+        - libcompiler_rt
+        - libipsec
+        - libmd
+        - msun
+      description: Send ICMP or ICMPv6 ECHO_REQUEST packets to network hosts
+      directory: sbin/ping
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=ping(8)
+      license: BSD-2-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/ping
+      upstream: FreeBSD project
+      version: '15.0'
     pmcannotate:
       depends:
         - csu
@@ -10996,8 +12926,8 @@ Sections:
         - libpmc
         - libpmcstat
         - msun
-        - ncurses
-        - ncurses.tinfo
+        - libncurses
+        - libtinfo
       description: Performance measurement with performance monitoring hardware
       directory: usr.sbin/pmcstat
       homepage: https://man.freebsd.org/cgi/man.cgi?query=pmcstat(8)
@@ -11114,7 +13044,7 @@ Sections:
         - libpam
         - libradius
         - libutil
-        - zlib
+        - libz
       description: Point to Point Protocol (a.k.a. user-ppp)
       directory: usr.sbin/ppp
       homepage: https://man.freebsd.org/cgi/man.cgi?query=ppp(8)
@@ -11171,7 +13101,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - zlib
+        - libz
         - msun
       description: Print kernel state as Prometheus metrics
       directory: usr.sbin/prometheus_sysctl_exporter
@@ -11304,6 +13234,20 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/usr.sbin/rarpd
       upstream: FreeBSD project
       version: '15.0'
+    resolvconf:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+        - libutil
+      description: /etc/resolv.conf is a file that holds the configuration for the local resolution of domain names
+      directory: sbin/resolvconf
+      homepage: https://roy.marples.name/projects/openresolv
+      license: BSD-2-Clause
+      section: 8
+      source: https://github.com/NetworkConfiguration/openresolv/tree/v3.9.2
+      upstream: FreeBSD project
+      version: 3.9.2
     rbootd:
       depends:
         - csu
@@ -11820,11 +13764,11 @@ Sections:
         - libcompiler_rt
         - libutil
       description: Router solicitation daemon
-      directory: usr.sbin/rtsold
+      directory: sbin/rtsol
       homepage: https://man.freebsd.org/cgi/man.cgi?query=rtsol(8)
       license: BSD-3-Clause AND BSD-2-Clause
       section: 8
-      source: https://cgit.freebsd.org/src/tree/usr.sbin/rtsold
+      source: https://cgit.freebsd.org/src/tree/sbin/rtsol
       upstream: FreeBSD project
       version: '15.0'
     rtsold:
@@ -11902,8 +13846,8 @@ Sections:
         - libcapsicum
         - libcompiler_rt
         - libxo
-        - zlib
-        - zstd
+        - libz
+        - libzstd
       description: Save a core dump of the operating system
       directory: sbin/savecore
       homepage: https://man.freebsd.org/cgi/man.cgi?query=savecore(8)
@@ -12082,6 +14026,19 @@ Sections:
       source: https://cgit.freebsd.org/src/tree/sbin/shutdown
       upstream: FreeBSD project
       version: '15.0'
+    nologin:
+      depends:
+        - csu
+        - libc
+        - libcompiler_rt
+      description: Close down the system at a given time
+      directory: sbin/shutdown
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=shutdown(8)
+      license: BSD-3-Clause
+      section: 8
+      source: https://cgit.freebsd.org/src/tree/sbin/shutdown
+      upstream: FreeBSD project
+      version: '15.0'
     smbmsg:
       depends:
         - csu
@@ -12131,7 +14088,7 @@ Sections:
       description: Test script for the speaker driver
       directory: usr.sbin/spkrtest
       homepage: https://man.freebsd.org/cgi/man.cgi?query=spkrtest(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/spkrtest
       upstream: FreeBSD project
@@ -12264,7 +14221,7 @@ Sections:
       description: Safely edit system rc files
       directory: usr.sbin/sysrc
       homepage: https://man.freebsd.org/cgi/man.cgi?query=sysrc(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/sysrc
       upstream: FreeBSD project
@@ -12524,7 +14481,7 @@ Sections:
     veriexec:
       depends:
         - csu
-        - BearSSL
+        - bearssl
         - libc
         - libcompiler_rt
         - libveriexec
@@ -12540,7 +14497,7 @@ Sections:
       description: Edit the group file
       directory: usr.sbin/vigr
       homepage: https://man.freebsd.org/cgi/man.cgi?query=vigr(8)
-      license: NOASSERTION
+      license: BSD-2-Clause
       section: 8
       source: https://cgit.freebsd.org/src/tree/usr.sbin/vigr
       upstream: FreeBSD project
@@ -12645,7 +14602,7 @@ Sections:
         - csu
         - libc
         - libcompiler_rt
-        - ncurses.tinfo
+        - libtinfo
       description: Snoop on another tty line
       directory: usr.sbin/watch
       homepage: https://man.freebsd.org/cgi/man.cgi?query=watch(8)
@@ -12716,13 +14673,12 @@ Sections:
         - libpcap
         - libutil
       description: Console utility for WiFi authentication with wpa_supplicant
-      directory: usr.sbin/wpa/wpa_cli
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=wpa_cli(8)
-      license: NOASSERTION
-      section: 8
-      source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_cli
-      upstream: FreeBSD project
-      version: '15.0'
+      directory: contrib/wpa
+      version: 2.11
+      upstream: Jouni Malinen
+      homepage: https://w1.fi/wpa_supplicant/
+      license: BSD-3-Clause
+      source: https://w1.fi/releases/hostapd-2.11.tar.gz
     wpa_passphrase:
       depends:
         - csu
@@ -12732,13 +14688,12 @@ Sections:
       description: >-
         Utility for generating a 256-bit pre-shared WPA key from an ASCII
         passphrase
-      directory: usr.sbin/wpa/wpa_passphrase
-      homepage: https://man.freebsd.org/cgi/man.cgi?query=wpa_passphrase(8)
-      license: NOASSERTION
-      section: 8
-      source: https://cgit.freebsd.org/src/tree/usr.sbin/wpa/wpa_passphrase
-      upstream: FreeBSD project
-      version: '15.0'
+      directory: contrib/wpa
+      version: 2.11
+      upstream: Jouni Malinen
+      homepage: https://w1.fi/wpa_supplicant/
+      license: BSD-3-Clause
+      source: https://w1.fi/releases/hostapd-2.11.tar.gz
     yp_mkdb:
       depends:
         - csu
@@ -12952,7 +14907,6 @@ Sections:
       version: 6.5
       upstream: Linux
       homepage: https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html
-      license: NOASSERTION
       license: ISC
       source: https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git/
       security:
@@ -13014,13 +14968,93 @@ Sections:
       section: 4
       plan: fix
       owner: bz@
+    ts:
+      directory: contrib/ts
+      description: Utility prepends a timestamp to each line of standard input and writes it to standard output
+      version: 7.2
+      upstream: OpenBSD
+      homepage: https://github.com/openbsd/src/tree/master/usr.bin/ts
+      source: https://github.com/openbsd/src/tree/master/usr.bin/ts
+      license: BSD-3-Clause
+      security:
+      section: 4
+      plan: fork
+      owner:
+    dtrace:
+      directory: cddl/contrib/opensolaris/cmd/dtrace
+      description: Dynamic tracing compiler and tracing utility
+      version: r178481
+      upstream: FreeBSD
+      homepage: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/cmd/dtrace
+      source: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/cmd/dtrace
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
+    dwatch:
+      directory: cddl/usr.sbin/dwatch
+      description: Watch processes as they trigger a particular DTrace probe.
+      version: '15.0'
+      upstream: BSD-2-Clause
+      homepage: https://cgit.freebsd.org/src/tree/cddl/usr.sbin/dwatch
+      source: https://cgit.freebsd.org/src/tree/cddl/usr.sbin/dwatch
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
+    ctfconvert:
+      directory: cddl/contrib/opensolaris/tools/ctf/cvt
+      description: Utility dumps the contents of the CTF data section present in an ELF binary file.
+      version: r178481
+      upstream: FreeBSD
+      homepage: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      source: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
+    ctfdump:
+      directory: cddl/contrib/opensolaris/tools/ctf/cvt
+      description: Dump the SUNW_ctf section of an ELF file
+      version: r178481
+      upstream: FreeBSD
+      homepage: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      source: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
+    ctfdebug:
+      directory: cddl/contrib/opensolaris/tools/ctf/cvt
+      description: Dump the SUNW_ctf section of an ELF file
+      version: r178481
+      upstream: FreeBSD
+      homepage: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      source: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
+    ctfmerge:
+      directory: cddl/contrib/opensolaris/tools/ctf/cvt
+      description: Dump the SUNW_ctf section of an ELF file
+      version: r178481
+      upstream: FreeBSD
+      homepage: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      source: https://cgit.freebsd.org/src/tree/cddl/contrib/opensolaris/tools/ctf/cvt
+      license: CDDL-1.1
+      section: 1
+      plan:
+      owner:
     pf:
       directory:
         - sys/netpfil/pf
         - sbin/pfctl
+      description: Pf command
+      version: '15.0'
       upstream: OpenBSD
       homepage: https://openbsd.org
-      license: NOASSERTION
+      license: BSD-3-Clause
       security:
         - kernel
         - network
@@ -13029,6 +15063,31 @@ Sections:
       owner:
         - kp@
         - ks@
+    pflogd:
+      directory: sbin/pfctl
+      upstream: OpenBSD
+      description: Pf logging daemon
+      homepage: https://openbsd.org
+      license: BSD-3-Clause
+      version: '15.0'
+      source: https://github.com/openbsd/src/tree/master/sbin/pflogd
+      security:
+        - kernel
+        - network
+      section: 4
+      plan: fork
+      owner:
+        - kp@
+        - ks@
+    ftp-proxy:
+      directory: contrib/pf/ftp-proxy
+      upstream: OpenBSD
+      description: Pf logging daemon
+      homepage: https://openbsd.org
+      license: 0BSD
+      version: '15.0'
+      source: https://github.com/openbsd/src/tree/master/usr.sbin/ftp-proxy
+      section: 4
     rtw:
       description: LinuxKPI driver for Realtek rtw88 and rtw89 wireless
       directory:
@@ -13055,14 +15114,111 @@ Sections:
       security:
         - kernel
         - network
-      section:
       plan: fork
       owner: khorben@
-    ZFS:
+    zfs:
       description: Open-source storage platform
       directory:
         - sys/contrib/openzfs
         - cddl
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zdb:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zfsd:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zhack:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zstream:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zstreamdump:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    zinject:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
+      version: 2.4.0-rc3
+      upstream: OpenZFS
+      homepage: https://openzfs.org/wiki/Main_Page
+      license: CDDL-1.0
+      security:
+        - crypto
+        - firmware
+        - kernel
+        - network
+      plan: fix
+      owner: mm@
+    ztest:
+      description: Open-source storage platform
+      directory: sys/contrib/openzfs
       version: 2.4.0-rc3
       upstream: OpenZFS
       homepage: https://openzfs.org/wiki/Main_Page
@@ -13089,7 +15245,54 @@ Sections:
         - user
       plan: fix
       owner: delphij@
+    libz:
+      description: zlib compression library
+      directory: sys/contrib/zlib
+      version: 1.3.1
+      upstream: zlib
+      homepage: https://zlib.net
+      license: Zlib
+      source: https://github.com/madler/zlib/tree/develop
+      security:
+        - firmware
+        - kernel
+        - system
+        - user
+      plan: fix
+      owner: delphij@
     zstd:
+      description: Zstandard is a fast compression algorithm
+      directory: sys/contrib/zstd
+      version: 1.5.2
+      upstream: Meta
+      homepage: https://facebook.github.io/zstd/
+      license: BSD-3-Clause
+      source: https://github.com/facebook/zstd
+      security:
+        - firmware
+        - kernel
+        - user
+      plan: fix
+      owner:
+        - allanjude@
+        - cem@
+    libzstd:
+      description: Zstandard is a fast compression algorithm
+      directory: sys/contrib/zstd
+      version: 1.5.2
+      upstream: Meta
+      homepage: https://facebook.github.io/zstd/
+      license: BSD-3-Clause
+      source: https://github.com/facebook/zstd
+      security:
+        - firmware
+        - kernel
+        - user
+      plan: fix
+      owner:
+        - allanjude@
+        - cem@
+    zstdmt:
       description: Zstandard is a fast compression algorithm
       directory: sys/contrib/zstd
       version: 1.5.2
@@ -13130,8 +15333,28 @@ Sections:
         - network
       plan: fix
       owner:
-        - cy@
-        - des@
+    drill:
+      description: LDNS is a DNS library that facilitates DNS tool programming
+      directory: contrib/ldns
+      version: 1.8.3
+      upstream: NLnet Labs
+      homepage: https://github.com/NLnetLabs/ldns
+      license: BSD-3-Clause
+      security:
+        - network
+      plan: fix
+      owner:
+    host:
+      description: LDNS is a DNS library that facilitates DNS tool programming
+      directory: contrib/ldns
+      version: 1.8.3
+      upstream: NLnet Labs
+      homepage: https://github.com/NLnetLabs/ldns
+      license: BSD-3-Clause
+      security:
+        - network
+      plan: fix
+      owner:
     libpcap:
       description: Platform-independent network traffic capture library
       directory: contrib/libpcap
@@ -13176,20 +15399,46 @@ Sections:
       owner:
         - bapt@
         - emaste@
-    NTP:
+    ntp:
       description: Network Time Protocol (NTP)
       directory: contrib/ntp
       version: 4.2.8p18
       upstream: NTP Project
       homepage: https://www.ntp.org
-      license: NOASSERTION
+      license: Beerware AND BSD-4-Clause AND BSD-4-Clause-UC AND BSD-3-Clause AND BSD-2-Clause AND BSD-3-Clause AND CC-PDDC AND BSD-4.3TAHOE AND curl AND FSFAP AND GPL-1.0-or-later AND GPL-3.0-or-later WITH Bison-exception-2.2 AND HPND AND ISC LicenseRef-scancode-public-domain AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later OR BSD-3-Clause AND LicenseRef-scancode-historical-ntp AND LicenseRef-scancode-nortel-dasa AND LicenseRef-scancode-other-permissive AND LicenseRef-scancode-philippe-de-muyter AND LicenseRef-scancode-takao-abe AND LicenseRef-scancode-warranty-disclaimer AND LicenseRef-scancode-other-permissive AND MIT AND MIT-CMU AND NTP NTP-0
       source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
       security:
         - network
         - system
       plan: fix
       owner: cy@
-    OpenSSH:
+    ntpq:
+      description: Network Time Protocol (NTP)
+      directory: contrib/ntp
+      version: 4.2.8p18
+      upstream: NTP Project
+      homepage: https://www.ntp.org
+      license: Beerware AND BSD-4-Clause AND BSD-4-Clause-UC AND BSD-3-Clause AND BSD-2-Clause AND BSD-3-Clause AND CC-PDDC AND BSD-4.3TAHOE AND curl AND FSFAP AND GPL-1.0-or-later AND GPL-3.0-or-later WITH Bison-exception-2.2 AND HPND AND ISC LicenseRef-scancode-public-domain AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later OR BSD-3-Clause AND LicenseRef-scancode-historical-ntp AND LicenseRef-scancode-nortel-dasa AND LicenseRef-scancode-other-permissive AND LicenseRef-scancode-philippe-de-muyter AND LicenseRef-scancode-takao-abe AND LicenseRef-scancode-warranty-disclaimer AND LicenseRef-scancode-other-permissive AND MIT AND MIT-CMU AND NTP NTP-0
+      source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
+      security:
+        - network
+        - system
+      plan: fix
+      owner: cy@
+    sntp:
+      description: Network Time Protocol (NTP)
+      directory: contrib/ntp
+      version: 4.2.8p18
+      upstream: NTP Project
+      homepage: https://www.ntp.org
+      license: Beerware AND BSD-4-Clause AND BSD-4-Clause-UC AND BSD-3-Clause AND BSD-2-Clause AND BSD-3-Clause AND CC-PDDC AND BSD-4.3TAHOE AND curl AND FSFAP AND GPL-1.0-or-later AND GPL-3.0-or-later WITH Bison-exception-2.2 AND HPND AND ISC LicenseRef-scancode-public-domain AND LGPL-2.0-or-later AND LGPL-2.1-or-later AND LGPL-3.0-or-later OR BSD-3-Clause AND LicenseRef-scancode-historical-ntp AND LicenseRef-scancode-nortel-dasa AND LicenseRef-scancode-other-permissive AND LicenseRef-scancode-philippe-de-muyter AND LicenseRef-scancode-takao-abe AND LicenseRef-scancode-warranty-disclaimer AND LicenseRef-scancode-other-permissive AND MIT AND MIT-CMU AND NTP NTP-0
+      source: https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz
+      security:
+        - network
+        - system
+      plan: fix
+      owner: cy@
+    openSSH:
       description: Connectivity tool for remote login with the SSH protocol
       directory: crypto/openssh
       version: 10.0p2
@@ -13205,7 +15454,167 @@ Sections:
       owner:
         - des@
         - emaste@
-    Sendmail:
+    ssh:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    sshd:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    ssh-add:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    ssh-agent:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    ssh-copy-id:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    ssh-keygen:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    ssh-keyscan:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    scp:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    sftp:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    slogin:
+      description: Connectivity tool for remote login with the SSH protocol
+      directory: crypto/openssh
+      version: 10.0p2
+      upstream: OpenBSD
+      homepage: https://openssh.com
+      license: SSH-OpenSSH
+      source: https://ftp.openbsd.org/pub/OpenBSD/OpenSSH/openssh-10.0.tar.gz
+      security:
+        - auth
+        - crypto
+        - network
+      plan: fix
+      owner:
+        - des@
+        - emaste@
+    sendmail:
       description: General purpose internetwork email routing application
       directory: contrib/sendmail
       version: 8.18.1
@@ -13216,7 +15625,63 @@ Sections:
       security:
         - network
       depends:
-        - OpenSSL
+        - openssl
+      plan: fix
+      owner: gshapiro@
+    editmap:
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      depends:
+        - openssl
+      plan: fix
+      owner: gshapiro@
+    newaliases:
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      depends:
+        - openssl
+      plan: fix
+      owner: gshapiro@
+    mailq:
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      depends:
+        - openssl
+      plan: fix
+      owner: gshapiro@
+    vacation:
+      description: General purpose internetwork email routing application
+      directory: contrib/sendmail
+      version: 8.18.1
+      upstream: Proofpoint
+      homepage: https://ftp.sendmail.org
+      license: Sendmail
+      source: https://ftp.sendmail.org/sendmail.8.18.1.tar.gz
+      security:
+        - network
+      depends:
+        - openssl
       plan: fix
       owner: gshapiro@
     Unbound:
@@ -13232,12 +15697,27 @@ Sections:
       depends:
         - flex
         - libexpat
-        - OpenSSL
+        - openssl
       plan: fix
       owner:
         - cy@
         - des@
     WireGuard:
+      description: Tools for configuring WireGuard
+      directory: contrib/wireguard-tools
+      version: 1.0.20250521
+      upstream: WireGuard
+      homepage: https://git.zx2c4.com/wireguard-tools/
+      license: GPL-2.0
+      source: https://git.zx2c4.com/wireguard-tools/tag/?h=v1.0.20250521
+      security:
+        - auth
+        - crypto
+        - kernel
+        - network
+      plan: fix
+      owner: kevans@
+    wg:
       description: Tools for configuring WireGuard
       directory: contrib/wireguard-tools
       version: 1.0.20250521
@@ -13264,7 +15744,7 @@ Sections:
         - kernel
         - network
       depends:
-        - OpenSSL
+        - openssl
       plan: fix
       owner: cy@
   Network Tools:
@@ -13297,7 +15777,7 @@ Sections:
         - emaste@
         - jrm@
   Security Infrastructure:
-    BearSSL:
+    bearssl:
       description: Implementation of the SSL/TLS protocol (RFC 5246) written in C
       directory: contrib/bearssl
       version: '20220417'
@@ -13312,14 +15792,14 @@ Sections:
       plan: fix
       owner:
         - sjg@
-    OpenSSL:
-      description: OpenSSL cryptography library
+    openssl:
+      description: openssl cryptography library
       directory: crypto/openssl
       version: 3.5.4
-      upstream: OpenSSL
+      upstream: openssl
       homepage: https://openssl-library.org
       license: Apache-2.0
-      source: https://github.com/openssl/openssl/tree/openssl-3.5.3
+      source: https://github.com/openssl/openssl/tree/openssl-3.5.4
       security:
         - crypto
         - kernel
@@ -13354,6 +15834,21 @@ Sections:
         - system
       plan: fix
       owner: emaste@
+    libbsddialog:
+      description: Utility and a library to build scripts and tools with TUI dialogs and widgets
+      directory: contrib/bsddialog
+      version: 1.1
+      upstream: Alfonso Siciliano
+      homepage: https://gitlab.com/alfix/bsddialog
+      license: BSD-2-Clause
+      source: https://gitlab.com/alfix/bsddialog/-/tree/1.1
+      security:
+        - user
+      plan: fix
+      owner:
+        - asiciliano@
+        - bapt@
+        - kevans@
     bsddialog:
       description: Utility and a library to build scripts and tools with TUI dialogs and widgets
       directory: contrib/bsddialog
@@ -13383,7 +15878,116 @@ Sections:
       owner:
         - delphij@
         - obrien@
+    libbz2:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - obrien@
+    bunzip2:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - obrien@
+    bzcat:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - obrien@
+    bzip2recover:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - obrien@
+    bzless:
+      description: High-quality data compressor
+      directory: contrib/bzip2
+      version: 1.0.8
+      upstream: Julian Seward
+      homepage: https://sourceware.org/bzip2/
+      license: bzip2-1.0.6
+      source: https://sourceware.org/git/?p=bzip2.git;a=commit;h=6a8690fc8d26c815e798c588f796eabe9d684cf0
+      security:
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - obrien@
     flex:
+      description: Fast lexical analyzer generator
+      directory: contrib/flex
+      version: 2.6.4
+      upstream: Will Estes
+      homepage: https://github.com/westes/flex
+      license: BSD-2-Clause
+      source: https://github.com/westes/flex/tree/v2.6.4
+      security:
+        - build
+        - user
+      plan: fix
+      owner: jkim@
+    flex++:
+      description: Fast lexical analyzer generator
+      directory: contrib/flex
+      version: 2.6.4
+      upstream: Will Estes
+      homepage: https://github.com/westes/flex
+      license: BSD-2-Clause
+      source: https://github.com/westes/flex/tree/v2.6.4
+      security:
+        - build
+        - user
+      plan: fix
+      owner: jkim@
+    lex++:
+      description: Fast lexical analyzer generator
+      directory: contrib/flex
+      version: 2.6.4
+      upstream: Will Estes
+      homepage: https://github.com/westes/flex
+      license: BSD-2-Clause
+      source: https://github.com/westes/flex/tree/v2.6.4
+      security:
+        - build
+        - user
+      plan: fix
+      owner: jkim@
+    lex:
       description: Fast lexical analyzer generator
       directory: contrib/flex
       version: 2.6.4
@@ -13423,6 +16027,149 @@ Sections:
       owner:
         - dfr@
         - dim@
+    Fine Free File Command:
+      description: Open source implementation of the file(1) command
+      directory: contrib/file
+      version: 5.46
+      upstream: Ian Darwin
+      homepage: https://www.darwinsys.com/file/
+      source: https://github.com/file/file/tree/FILE5_46
+      license: BSD-2-Clause
+      security:
+      plan:
+      owner:
+    file:
+      description: Open source implementation of the file(1) command
+      directory: contrib/file
+      version: 5.46
+      upstream: Ian Darwin
+      homepage: https://www.darwinsys.com/file/
+      source: https://github.com/file/file/tree/FILE5_46
+      license: BSD-2-Clause
+      security:
+      plan:
+      owner:
+    FreeBSD SMB/CIFS protocol:
+      description: SMB/CIFS protocol and SMB/CIFS file system implementation for FreeBSD
+      directory: contrib/smbfs
+      version: 1.4.1
+      upstream: FreeBSD project
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=smbutil(1)
+      source: https://github.com/freebsd/freebsd-src/tree/main/contrib/smbfs
+      license: BSD-4-Clause
+      security:
+      plan:
+      owner:
+    smbutil:
+      description: SMB/CIFS protocol and SMB/CIFS file system implementation for FreeBSD
+      directory: contrib/smbfs
+      version: 1.4.1
+      upstream: FreeBSD project
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=smbutil(1)
+      source: https://github.com/freebsd/freebsd-src/tree/main/contrib/smbfs
+      license: BSD-4-Clause
+      security:
+      plan:
+      owner:
+    MIT Kerberos:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    kvno:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    sim_server:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    sclient:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    krb5-config:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    gss-client:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    k5srvutil:
+      description: MIT implementation of Kerberos stack
+      directory: crypto/krb5
+      version: 1.2.2
+      upstream: The MIT Kerberos Team
+      homepage: https://web.mit.edu/kerberos/krb5-latest/doc/
+      source: https://github.com/krb5/krb5/tree/krb5-1.22-final
+      license: MIT
+      security:
+      plan:
+      owner:
+    BSD4.2 Telnet:
+      description: User interface to the TELNET protoco
+      directory: contrib/telnet
+      version: 4.2
+      upstream: FreeSD project
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=telnet(1)
+      source: https://github.com/freebsd/freebsd-src/tree/main/contrib/telnet
+      license: BSD-3-Clause and BSD-2-Clause
+      security:
+      plan:
+      owner:
+    telnet:
+      description: User interface to the TELNET protoco
+      directory: contrib/telnet
+      version: 4.2
+      upstream: FreeSD project
+      homepage: https://man.freebsd.org/cgi/man.cgi?query=telnet(1)
+      source: https://github.com/freebsd/freebsd-src/tree/main/contrib/telnet
+      license: BSD-3-Clause and BSD-2-Clause
+      security:
+      plan:
+      owner:
     jemalloc:
       description: Meta fork of the OG Jemalloc project
       directory: contrib/jemalloc
@@ -13445,7 +16192,91 @@ Sections:
       version: 3.8.2
       upstream: libarchive
       homepage: https://libarchive.org
-      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND OpenSSL AND Apache-2.0
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    unzip:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    bsdcat:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    bsdcpio:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    cpio:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    bsdtar:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    tar:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
+      source: https://github.com/libarchive/libarchive/tree/v3.8.2
+      security:
+        - user
+      plan: fix
+      owner: mm@
+    bsdunzip:
+      description: Multi-format archive and compression library
+      directory: contrib/libarchive
+      version: 3.8.2
+      upstream: libarchive
+      homepage: https://libarchive.org
+      license: BSD-3-Clause AND BSD-2-Clause AND CC0-1.0 AND openssl AND Apache-2.0
       source: https://github.com/libarchive/libarchive/tree/v3.8.2
       security:
         - user
@@ -13527,7 +16358,9 @@ Sections:
         - cy@
         - emaste@
     libexecinfo:
+      description: Fill in the backtrace of the currently executing thread
       directory: contrib/libexecinfo
+      version: 1c512be1
       upstream: Maxim Sobolev
       homepage: https://cvsweb.netbsd.org/bsdweb.cgi/src/lib/libexecinfo/
       license: BSD-2-Clause
@@ -13587,6 +16420,166 @@ Sections:
         - delphij@
         - mm@
         - rpaulo@
+    xz:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    lzcat:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    lzdec:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    lzless:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    lzma:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    lzmainfo:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    unlzma:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    xzdiff:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    xzdec:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
+    xzcat:
+      description: General purpose data compression library
+      directory: contrib/xz
+      version: 5.8.1
+      upstream: Tukaani
+      homepage: https://tukaani.org/xz/
+      license: 0BSD
+      source: https://github.com/tukaani-project/xz
+      security:
+        - firmware
+        - user
+      plan: fix
+      owner:
+        - delphij@
+        - mm@
+        - rpaulo@
     libmagic:
       description: Magic number recognition library
       directory: contrib/file
@@ -13630,6 +16623,21 @@ Sections:
         - marcel@
         - ngie@
         - phil@
+    xo:
+      description: Library allows an application to generate text, XML, JSON, and HTML output using a common set of function calls.
+      directory: contrib/libxo
+      version: 1.4.0
+      upstream: Juniper
+      homepage: https://github.com/Juniper/libxo
+      license: BSD-2-Clause
+      source: https://github.com/Juniper/libxo/tree/1.4.0
+      security:
+        - user
+      plan: fix
+      owner:
+        - marcel@
+        - ngie@
+        - phil@
     LibYAML:
       description: C library for parsing and emitting YAML
       directory: contrib/libyaml
@@ -13655,8 +16663,20 @@ Sections:
       owner:
         - bapt@
         - ziaee@
-    ncurses:
+    libncurses:
       description: clone of System V curses
+      directory: contrib/ncurses
+      version: 6.5
+      upstream: invisible-island
+      homepage: https://invisible-island.net/ncurses
+      license: X11
+      source: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+      security:
+        - user
+      plan: fix
+      owner: bapt@
+    libpanel:
+      description: clone of System V curses panel library
       directory: contrib/ncurses
       version: 6.5
       upstream: invisible-island
@@ -13681,13 +16701,13 @@ Sections:
         - user
       plan: fix
       owner: des@
-    SQLite:
-      description: SQLite database engine
+    sqlite3:
+      description: SQLite3 database engine
       directory: contrib/sqlite3
       version: 3.50.2
       upstream: SQLite
       homepage: https://sqlite.org/src
-      license: NOASSERTION
+      license: LicenseRef-scancode-public-domain
       source: https://github.com/sqlite/sqlite/tree/version-3.50.2
       security:
         - user
@@ -13695,10 +16715,57 @@ Sections:
       owner:
         - bapt@
         - cy@
+    TCP Wrappers:
+      description: Host-based networking ACL system
+      directory: contrib/tcp_wrappers
+      version: 7.6
+      upstream: Wietse Venema
+      homepage: https://github.com/tcp-wrappers/code
+      source: https://github.com/tcp-wrappers/code/tree/tcp_wrappers_7.6
+    tcpdchk:
+      description: Host-based networking ACL system
+      directory: contrib/tcp_wrappers
+      version: 7.6
+      upstream: Wietse Venema
+      homepage: https://github.com/tcp-wrappers/code
+      source: https://github.com/tcp-wrappers/code/tree/tcp_wrappers_7.6
+    tcpdmatch:
+      description: Host-based networking ACL system
+      directory: contrib/tcp_wrappers
+      version: 7.6
+      upstream: Wietse Venema
+      homepage: https://github.com/tcp-wrappers/code
+      source: https://github.com/tcp-wrappers/code/tree/tcp_wrappers_7.6
     Time Zone Code:
       description: Time Zone Code
       directory:
         - contrib/tzcode
+      version: 2025b
+      upstream: IANA
+      homepage: https://www.iana.org/time-zones
+      source: https://data.iana.org/time-zones/releases/tzcode2025b.tar.gz
+      security:
+        - system
+        - user
+      plan: fix
+      owner:
+        - des@
+    zdump:
+      description: Time Zone Code
+      directory: contrib/tzcode
+      version: 2025b
+      upstream: IANA
+      homepage: https://www.iana.org/time-zones
+      source: https://data.iana.org/time-zones/releases/tzcode2025b.tar.gz
+      security:
+        - system
+        - user
+      plan: fix
+      owner:
+        - des@
+    zic:
+      description: Time Zone Code
+      directory: contrib/tzcode
       version: 2025b
       upstream: IANA
       homepage: https://www.iana.org/time-zones
@@ -13738,8 +16805,46 @@ Sections:
         - user
       plan: fix
       owner: imp@
+    gawk:
+      description: One true awk
+      directory: contrib/one-true-awk
+      version: '20250804'
+      upstream: One True Awk
+      homepage: https://github.com/onetrueawk/awk
+      license: SMLNJ
+      source: https://github.com/onetrueawk/awk/tree/d7f37646965ee26214da0e1d97f3c1d54349ae2d
+      security:
+        - build
+        - user
+      plan: fix
+      owner: imp@
+    nawk:
+      description: One true awk
+      directory: contrib/one-true-awk
+      version: '20250804'
+      upstream: One True Awk
+      homepage: https://github.com/onetrueawk/awk
+      license: SMLNJ
+      source: https://github.com/onetrueawk/awk/tree/d7f37646965ee26214da0e1d97f3c1d54349ae2d
+      security:
+        - build
+        - user
+      plan: fix
+      owner: imp@
     bc:
       description: Implementation of the POSIX bc calculator with GNU extensions and dc
+      version: 7.1.0
+      directory: contrib/bc
+      upstream: Gavin D. Howard
+      homepage: https://gavinhoward.com/tag/bc/
+      license: BSD-2-Clause
+      source: https://github.com/gavinhoward/bc/tree/7.1.0
+      security:
+        - user
+      plan: fix
+      owner: se@
+    dc:
+      description: Arbitrary-precision decimal reverse-Polish notation calculator
       version: 7.1.0
       directory: contrib/bc
       upstream: Gavin D. Howard
@@ -13767,12 +16872,38 @@ Sections:
       directory: contrib/ee
       version: 1.5.0
       upstream: Hugh Mahon
-      homepage: 
+      homepage: https://cgit.freebsd.org/src/tree/contrib/ee
       license: BSD-2-Clause
       security:
         - user
       depends:
-        - ncurses
+        - libncurses
+      plan: fork
+      owner:
+    edit:
+      description: Easy Editor
+      directory: contrib/ee
+      version: 1.5.0
+      upstream: Hugh Mahon
+      homepage:
+      license: BSD-2-Clause
+      security:
+        - user
+      depends:
+        - libncurses
+      plan: fork
+      owner:
+    ree:
+      description: Easy Editor
+      directory: contrib/ee
+      version: 1.5.0
+      upstream: Hugh Mahon
+      homepage:
+      license: BSD-2-Clause
+      security:
+        - user
+      depends:
+        - libncurses
       plan: fork
       owner:
     hyperv:
@@ -13796,16 +16927,71 @@ Sections:
       security:
         - user
       depends:
-        - ncurses
+        - libncurses
       plan: fix
       owner: delphij@
-    Lua:
+    more:
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      depends:
+        - libncurses
+      plan: fix
+      owner: delphij@
+    lesskey:
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      depends:
+        - libncurses
+      plan: fix
+      owner: delphij@
+    lesspipe.sh:
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      depends:
+        - libncurses
+      plan: fix
+      owner: delphij@
+    lessecho:
+      description: Open-source file pager
+      directory: contrib/less
+      version: '679'
+      upstream: Mark Nudelman
+      homepage: https://www.greenwoodsoftware.com/less/
+      license: BSD-2-Clause
+      source: https://www.greenwoodsoftware.com/less/less-679.tar.gz
+      security:
+        - user
+      depends:
+        - libncurses
+      plan: fix
+      owner: delphij@
+    lua:
       description: Embeddable scripting language
       directory: contrib/lua
       version: 5.4.8
       upstream: Lua
       homepage: https://www.lua.org
-      source: https://github.com/Lua/lua
       license: MIT
       source: https://github.com/lua/lua/tree/v5.4.8
       security:
@@ -13841,7 +17027,7 @@ Sections:
         - network
         - user
       depends:
-        - OpenSSL
+        - openssl
       plan: import
       owner: "#pkg"
   Test Infrastructure:
@@ -13896,7 +17082,7 @@ Sections:
       depends:
         - libcxxrt
         - Lua
-        - SQLite
+        - sqlite3
       plan: fork
     NetBSD tests:
       description: Test suite aids developers in catching bugs and regressions in the code when they are performing modifications to the source tree.
