@@ -32,9 +32,19 @@
 # ipfilter
 /sys/netpfil/ipfilter cy@FreeBSD.org
 
+# iwlwifi
+/sys/contrib/dev/iwlwifi bz@FreeBSD.org
+
+# mt76
+/sys/contrib/dev/mediatek/mt76 bz@FreeBSD.org
+
 # pf
 /sys/netpfil/pf kp@FreeBSD.org ks@FreeBSD.org
 /sbin/pfctl kp@FreeBSD.org ks@FreeBSD.org
+
+# rtw
+/sys/contrib/dev/rtw88 bz@FreeBSD.org
+/sys/contrib/dev/rtw89 bz@FreeBSD.org
 
 # umb
 /sbin/umbctl khorben@FreeBSD.org
