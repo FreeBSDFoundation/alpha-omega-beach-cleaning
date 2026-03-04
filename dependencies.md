@@ -178,9 +178,14 @@
 | ncurses.panel | `lib/ncurses/panel` | FreeBSD project |  |
 | ncurses.tinfo | `lib/ncurses/tinfo` | FreeBSD project |  |
 | __General Commands__ | | | |
+| Mail | `usr.bin/mail` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mail(1) |
+| [ | `bin/test` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=[(1) |
 | apply | `usr.bin/apply` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=apply(1) |
 | ar | `usr.bin/ar` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ar(1) |
 | asa | `usr.bin/asa` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=asa(1) |
+| b64decode | `usr.bin/bintrans` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=b64decode(1) |
+| b64encode | `usr.bin/bintrans` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=b64encode(1) |
+| base64 | `usr.bin/bintrans` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=base64(1) |
 | basename | `usr.bin/basename` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=basename(1) |
 | beep | `usr.bin/beep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=beep(1) |
 | biff | `usr.bin/biff` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=biff(1) |
@@ -191,6 +196,9 @@
 | bspatch | `usr.bin/bsdiff/bspatch` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bspatch(1) |
 | bthost | `usr.bin/bluetooth/bthost` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bthost(1) |
 | btsockstat | `usr.bin/bluetooth/btsockstat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=btsockstat(1) |
+| bzegrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bzegrep(1) |
+| bzfgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bzfgrep(1) |
+| bzgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bzgrep(1) |
 | c89 | `usr.bin/c89` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=c89(1) |
 | c99 | `usr.bin/c99` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=c99(1) |
 | calendar | `usr.bin/calendar` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=calendar(1) |
@@ -198,10 +206,12 @@
 | cat | `bin/cat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=cat(1) |
 | cdcontrol | `usr.sbin/cdcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=cdcontrol(1) |
 | chflags | `bin/chflags` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chflags(1) |
+| chfn | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chfn(1) |
 | chgrp | `usr.sbin/chown` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chgrp(1) |
 | chio | `bin/chio` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chio(1) |
 | chmod | `bin/chmod` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chmod(1) |
 | chpass | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chpass(1) |
+| chsh | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=chsh(1) |
 | ckdist | `usr.sbin/ckdist` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ckdist(1) |
 | cksum | `usr.bin/cksum` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=cksum(1) |
 | cmp | `usr.bin/cmp` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=cmp(1) |
@@ -215,6 +225,7 @@
 | crontab | `usr.sbin/cron/crontab` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=crontab(1) |
 | crunchgen | `usr.sbin/crunch/crunchgen` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=crunchgen(1) |
 | crunchide | `usr.sbin/crunch/crunchide` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=crunchide(1) |
+| crypt | `usr.bin/enigma` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=crypt(1) |
 | csplit | `usr.bin/csplit` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=csplit(1) |
 | ctags | `usr.bin/ctags` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ctags(1) |
 | cu | `usr.bin/tip/tip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=cu(1) |
@@ -228,6 +239,7 @@
 | du | `usr.bin/du` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=du(1) |
 | echo | `bin/echo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=echo(1) |
 | ed | `bin/ed` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ed(1) |
+| egrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=egrep(1) |
 | elfctl | `usr.bin/elfctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=elfctl(1) |
 | elfdump | `usr.bin/elfdump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=elfdump(1) |
 | enigma | `usr.bin/enigma` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=enigma(1) |
@@ -239,7 +251,11 @@
 | fdread | `usr.sbin/fdread` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fdread(1) |
 | fdwrite | `usr.sbin/fdwrite` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fdwrite(1) |
 | fetch | `usr.bin/fetch` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fetch(1) |
+| fgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fgrep(1) |
 | fifolog | `usr.sbin/fifolog/fifolog\_create` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fifolog(1) |
+| fifolog\_create | `usr.sbin/fifolog/fifolog\_create` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fifolog\_create(1) |
+| fifolog\_reader | `usr.sbin/fifolog/fifolog\_reader` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fifolog\_reader(1) |
+| fifolog\_writer | `usr.sbin/fifolog/fifolog\_writer` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fifolog\_writer(1) |
 | file2c | `usr.bin/file2c` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=file2c(1) |
 | find | `usr.bin/find` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=find(1) |
 | finger | `usr.bin/finger` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=finger(1) |
@@ -262,8 +278,10 @@
 | gprof | `usr.bin/gprof` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gprof(1) |
 | grep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=grep(1) |
 | groups | `usr.bin/id` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=groups(1) |
+| gunzip |  | FreeBSD project |  |
 | gzexe | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gzexe(1) |
 | gzip | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gzip(1) |
+| hd | `usr.bin/hexdump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hd(1) |
 | head | `usr.bin/head` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=head(1) |
 | hesinfo | `usr.bin/hesinfo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hesinfo(1) |
 | hexdump | `usr.bin/hexdump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hexdump(1) |
@@ -271,6 +289,7 @@
 | iconv | `usr.bin/iconv` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=iconv(1) |
 | id | `usr.bin/id` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=id(1) |
 | ident | `usr.bin/ident` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ident(1) |
+| idprio | `usr.sbin/rtprio` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=idprio(1) |
 | indent | `usr.bin/indent` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=indent(1) |
 | install | `usr.bin/xinstall` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=install(1) |
 | ipcrm | `usr.bin/ipcrm` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ipcrm(1) |
@@ -296,6 +315,7 @@
 | leave | `usr.bin/leave` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=leave(1) |
 | lex | `usr.bin/lex` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lex(1) |
 | limits | `usr.bin/limits` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=limits(1) |
+| link | `bin/ln` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=link(1) |
 | ln | `bin/ln` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ln(1) |
 | locale | `usr.bin/locale` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=locale(1) |
 | localedef | `usr.bin/localedef` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=localedef(1) |
@@ -315,11 +335,16 @@
 | lptest | `usr.sbin/lpr/lptest` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lptest(1) |
 | ls | `bin/ls` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ls(1) |
 | lsvfs | `usr.bin/lsvfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lsvfs(1) |
+| lzegrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lzegrep(1) |
+| lzfgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lzfgrep(1) |
+| lzgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lzgrep(1) |
 | m4 | `usr.bin/m4` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=m4(1) |
 | mail | `usr.bin/mail` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mail(1) |
+| mailx | `usr.bin/mail` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mailx(1) |
 | man | `usr.bin/man` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=man(1) |
 | manpath | `usr.bin/man` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=manpath(1) |
 | md5 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=md5(1) |
+| md5sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=md5sum(1) |
 | mdo | `usr.bin/mdo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mdo(1) |
 | mesg | `usr.bin/mesg` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mesg(1) |
 | mididump | `usr.bin/mididump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mididump(1) |
@@ -352,6 +377,7 @@
 | pathchk | `usr.bin/pathchk` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pathchk(1) |
 | pax | `bin/pax` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pax(1) |
 | perror | `usr.bin/perror` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=perror(1) |
+| pgrep | `bin/pkill` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pgrep(1) |
 | pkill | `bin/pkill` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pkill(1) |
 | posixmqcontrol | `usr.bin/posixmqcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=posixmqcontrol(1) |
 | posixshmcontrol | `usr.bin/posixshmcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=posixshmcontrol(1) |
@@ -365,13 +391,18 @@
 | pwait | `bin/pwait` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pwait(1) |
 | pwd | `bin/pwd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pwd(1) |
 | quota | `usr.bin/quota` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=quota(1) |
+| readlink | `usr.bin/stat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=readlink(1) |
 | realpath | `bin/realpath` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=realpath(1) |
 | recoverdisk | `sbin/recoverdisk` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=recoverdisk(1) |
+| red | `bin/ed` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=red(1) |
 | resizewin | `usr.bin/resizewin` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=resizewin(1) |
 | rev | `usr.bin/rev` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rev(1) |
 | revoke | `usr.bin/revoke` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=revoke(1) |
 | rfcomm\_sppd | `usr.bin/bluetooth/rfcomm\_sppd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rfcomm\_sppd(1) |
+| rgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rgrep(1) |
 | rm | `bin/rm` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rm(1) |
+| rmd160 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmd160(1) |
+| rmd160sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmd160sum(1) |
 | rmdir | `bin/rmdir` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmdir(1) |
 | rpcgen | `usr.bin/rpcgen` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rpcgen(1) |
 | rs | `usr.bin/rs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rs(1) |
@@ -390,6 +421,27 @@
 | setfacl | `bin/setfacl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setfacl(1) |
 | setfib | `usr.sbin/setfib` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setfib(1) |
 | sh | `bin/sh` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sh(1) |
+| sha1 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha1(1) |
+| sha1sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha1sum(1) |
+| sha224 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha224(1) |
+| sha224sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha224sum(1) |
+| sha256 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha256(1) |
+| sha256sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha256sum(1) |
+| sha384 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha384(1) |
+| sha384sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha384sum(1) |
+| sha512 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512(1) |
+| sha512sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512sum(1) |
+| sha512t224 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512t224(1) |
+| sha512t224sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512t224sum(1) |
+| sha512t256 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512t256(1) |
+| sha512t256sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sha512t256sum(1) |
+| shasum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=shasum(1) |
+| skein1024 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein1024(1) |
+| skein1024sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein1024sum(1) |
+| skein256 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein256(1) |
+| skein256sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein256sum(1) |
+| skein512 | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein512(1) |
+| skein512sum | `sbin/md5` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=skein512sum(1) |
 | sleep | `bin/sleep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sleep(1) |
 | sockstat | `usr.bin/sockstat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sockstat(1) |
 | soelim | `usr.bin/soelim` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=soelim(1) |
@@ -399,6 +451,7 @@
 | stdbuf | `usr.bin/stdbuf` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=stdbuf(1) |
 | stty | `bin/stty` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=stty(1) |
 | su | `usr.bin/su` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=su(1) |
+| sum | `usr.bin/cksum` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sum(1) |
 | systat | `usr.bin/systat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=systat(1) |
 | tabs | `usr.bin/tabs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=tabs(1) |
 | tail | `usr.bin/tail` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=tail(1) |
@@ -421,15 +474,21 @@
 | uhsoctl | `usr.sbin/uhsoctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uhsoctl(1) |
 | ul | `usr.bin/ul` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ul(1) |
 | uname | `usr.bin/uname` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uname(1) |
+| uncompress | `usr.bin/compress` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uncompress(1) |
+| unexpand | `usr.bin/unexpand` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=unexpand(1) |
 | uniq | `usr.bin/uniq` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uniq(1) |
 | units | `usr.bin/units` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=units(1) |
+| unlink | `bin/rm` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=unlink(1) |
 | uptime | `usr.bin/w` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uptime(1) |
 | usbhidaction | `usr.bin/usbhidaction` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=usbhidaction(1) |
 | usbhidctl | `usr.bin/usbhidctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=usbhidctl(1) |
 | users | `usr.bin/users` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=users(1) |
+| uudecode | `usr.bin/bintrans` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uudecode(1) |
+| uuencode | `usr.bin/bintrans` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uuencode(1) |
 | uuidgen | `bin/uuidgen` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=uuidgen(1) |
 | vgrind | `usr.bin/vgrind` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=vgrind(1) |
 | vidcontrol | `usr.sbin/vidcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=vidcontrol(1) |
+| vidfont | `usr.sbin/kbdmap` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=vidfont(1) |
 | w | `usr.bin/w` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=w(1) |
 | wall | `usr.bin/wall` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=wall(1) |
 | wc | `usr.bin/wc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=wc(1) |
@@ -442,15 +501,30 @@
 | write | `usr.bin/write` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=write(1) |
 | xargs | `usr.bin/xargs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=xargs(1) |
 | xstr | `usr.bin/xstr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=xstr(1) |
+| xzegrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=xzegrep(1) |
+| xzfgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=xzfgrep(1) |
+| xzgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=xzgrep(1) |
 | yes | `usr.bin/yes` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=yes(1) |
 | ypcat | `usr.bin/ypcat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypcat(1) |
+| ypchfn | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypchfn(1) |
+| ypchpass | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypchpass(1) |
+| ypchsh | `usr.bin/chpass` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypchsh(1) |
 | ypmatch | `usr.bin/ypmatch` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypmatch(1) |
+| yppasswd | `usr.bin/passwd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=yppasswd(1) |
 | ypwhich | `usr.bin/ypwhich` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ypwhich(1) |
+| zcat | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zcat(1) |
+| zcmp | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zcmp(1) |
 | zdiff | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zdiff(1) |
+| zegrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zegrep(1) |
+| zfgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zfgrep(1) |
 | zforce | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zforce(1) |
 | zgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zgrep(1) |
+| zless | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zless(1) |
 | zmore | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zmore(1) |
 | znew | `usr.bin/gzip` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=znew(1) |
+| zstdegrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zstdegrep(1) |
+| zstdfgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zstdfgrep(1) |
+| zstdgrep | `usr.bin/grep` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=zstdgrep(1) |
 | __Macros and Conventions__ | | | |
 | nuageinit | `libexec/nuageinit` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=nuageinit(7) |
 | re\_format | `lib/libc/regex` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=re\_format(7) |
@@ -471,6 +545,7 @@
 | automountd | `usr.sbin/autofs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=automountd(8) |
 | autounmountd | `usr.sbin/autofs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=autounmountd(8) |
 | backlight | `usr.bin/backlight` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=backlight(8) |
+| banner | `usr.bin/banner` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=banner(6) |
 | bcmfw | `usr.sbin/bluetooth/bcmfw` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bcmfw(8) |
 | bectl | `sbin/bectl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bectl(8) |
 | bhyve | `usr.sbin/bhyve` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bhyve(8) |
@@ -492,6 +567,7 @@
 | bthidd | `usr.sbin/bluetooth/bthidd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=bthidd(8) |
 | btpand | `usr.sbin/bluetooth/btpand` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=btpand(8) |
 | btxld | `usr.sbin/btxld` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=btxld(8) |
+| caesar | `usr.bin/caesar` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=caesar(6) |
 | camcontrol | `sbin/camcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=camcontrol(8) |
 | camdd | `usr.sbin/camdd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=camdd(8) |
 | ccdconfig | `sbin/ccdconfig` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ccdconfig(8) |
@@ -527,6 +603,7 @@
 | dhclient-script | `sbin/dhclient` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dhclient-script(8) |
 | diskinfo | `usr.sbin/diskinfo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=diskinfo(8) |
 | dmesg | `sbin/dmesg` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dmesg(8) |
+| dnctl | `sbin/ipfw` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dnctl(8) |
 | dump | `sbin/dump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dump(8) |
 | dumpcis | `usr.sbin/dumpcis` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dumpcis(8) |
 | dumpfs | `sbin/dumpfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=dumpfs(8) |
@@ -540,16 +617,21 @@
 | etcupdate | `usr.sbin/etcupdate` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=etcupdate(8) |
 | etherswitchcfg | `sbin/etherswitchcfg` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=etherswitchcfg(8) |
 | extattrctl | `usr.sbin/extattrctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=extattrctl(8) |
+| factor | `usr.bin/factor` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=factor(6) |
+| fastboot | `sbin/reboot` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fastboot(8) |
+| fasthalt | `sbin/reboot` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fasthalt(8) |
 | fdcontrol | `usr.sbin/fdcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fdcontrol(8) |
 | fdformat | `usr.sbin/fdformat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fdformat(8) |
 | fdisk | `sbin/fdisk` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fdisk(8) |
 | ffsinfo | `sbin/ffsinfo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ffsinfo(8) |
 | fingerd | `libexec/fingerd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fingerd(8) |
 | flowctl | `usr.sbin/flowctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=flowctl(8) |
+| fortune | `usr.bin/fortune/fortune` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fortune(6) |
 | freebsd-update | `usr.sbin/freebsd-update` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=freebsd-update(8) |
 | fsck | `sbin/fsck` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsck(8) |
 | fsck\_ffs | `sbin/fsck\_ffs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsck\_ffs(8) |
 | fsck\_msdosfs | `sbin/fsck\_msdosfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsck\_msdosfs(8) |
+| fsck\_ufs | `sbin/fsck\_ffs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsck\_ufs(8) |
 | fsdb | `sbin/fsdb` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsdb(8) |
 | fsirand | `sbin/fsirand` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fsirand(8) |
 | fstyp | `usr.sbin/fstyp` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=fstyp(8) |
@@ -559,6 +641,7 @@
 | gconcat | `lib/geom/concat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gconcat(8) |
 | geli | `lib/geom/eli` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=geli(8) |
 | geom | `sbin/geom/core` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=geom(8) |
+| getextattr | `usr.sbin/extattr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=getextattr(8) |
 | getfmac | `usr.sbin/getfmac` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=getfmac(8) |
 | getpmac | `usr.sbin/getpmac` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=getpmac(8) |
 | getty | `libexec/getty` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=getty(8) |
@@ -575,6 +658,7 @@
 | gpioctl | `usr.sbin/gpioctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gpioctl(8) |
 | graid | `lib/geom/raid` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=graid(8) |
 | graid3 | `lib/geom/raid3` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=graid3(8) |
+| grdc | `usr.bin/grdc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=grdc(6) |
 | growfs | `sbin/growfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=growfs(8) |
 | gshsec | `lib/geom/shsec` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gshsec(8) |
 | gssd | `usr.sbin/gssd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gssd(8) |
@@ -582,6 +666,7 @@
 | gstripe | `lib/geom/stripe` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gstripe(8) |
 | gunion | `lib/geom/union` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gunion(8) |
 | gvirstor | `lib/geom/virstor` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=gvirstor(8) |
+| halt | `sbin/reboot` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=halt(8) |
 | hastctl | `sbin/hastctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hastctl(8) |
 | hastd | `sbin/hastd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hastd(8) |
 | hccontrol | `usr.sbin/bluetooth/hccontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=hccontrol(8) |
@@ -625,6 +710,7 @@
 | lpc | `usr.sbin/lpr/lpc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lpc(8) |
 | lpd | `usr.sbin/lpr/lpd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lpd(8) |
 | lptcontrol | `usr.sbin/lptcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lptcontrol(8) |
+| lsextattr | `usr.sbin/extattr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=lsextattr(8) |
 | mailwrapper | `usr.sbin/mailwrapper` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mailwrapper(8) |
 | makefs | `usr.sbin/makefs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=makefs(8) |
 | makewhatis.local | `libexec/makewhatis.local` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=makewhatis.local(8) |
@@ -640,9 +726,11 @@
 | mld6query | `usr.sbin/mld6query` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mld6query(8) |
 | mlx5tool | `usr.sbin/mlx5tool` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mlx5tool(8) |
 | mlxcontrol | `usr.sbin/mlxcontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mlxcontrol(8) |
+| morse | `usr.bin/morse` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=morse(6) |
 | mount | `sbin/mount` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount(8) |
 | mount\_cd9660 | `sbin/mount\_cd9660` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_cd9660(8) |
 | mount\_fusefs | `sbin/mount\_fusefs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_fusefs(8) |
+| mount\_mfs | `sbin/mdmfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_mfs(8) |
 | mount\_msdosfs | `sbin/mount\_msdosfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_msdosfs(8) |
 | mount\_nfs | `sbin/mount\_nfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_nfs(8) |
 | mount\_nullfs | `sbin/mount\_nullfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_nullfs(8) |
@@ -650,8 +738,10 @@
 | mount\_unionfs | `sbin/mount\_unionfs` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mount\_unionfs(8) |
 | mountd | `usr.sbin/mountd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mountd(8) |
 | moused | `usr.sbin/moused/moused` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=moused(8) |
+| mprutil | `usr.sbin/mpsutil` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mprutil(8) |
 | mpsutil | `usr.sbin/mpsutil` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mpsutil(8) |
 | mptutil | `usr.sbin/mptutil` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mptutil(8) |
+| mrsasutil | `usr.sbin/mfiutil` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mrsasutil(8) |
 | msconvd | `usr.sbin/moused/msconvd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=msconvd(8) |
 | mtest | `usr.sbin/mtest` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=mtest(8) |
 | natd | `sbin/natd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=natd(8) |
@@ -675,6 +765,7 @@
 | ntpdate | `usr.sbin/ntp/doc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ntpdate(8) |
 | ntptime | `usr.sbin/ntp/doc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ntptime(8) |
 | ntptrace | `usr.sbin/ntp/doc` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ntptrace(8) |
+| number | `usr.bin/number` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=number(6) |
 | nvmecontrol | `sbin/nvmecontrol` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=nvmecontrol(8) |
 | nvram | `usr.sbin/nvram` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=nvram(8) |
 | ofwdump | `usr.sbin/ofwdump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ofwdump(8) |
@@ -717,10 +808,13 @@
 | pnfsdscopymr | `usr.sbin/pnfsdscopymr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pnfsdscopymr(8) |
 | pnfsdsfile | `usr.sbin/pnfsdsfile` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pnfsdsfile(8) |
 | pnfsdskill | `usr.sbin/pnfsdskill` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pnfsdskill(8) |
+| pom | `usr.bin/pom` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pom(6) |
 | powerd | `usr.sbin/powerd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=powerd(8) |
+| poweroff | `sbin/shutdown` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=poweroff(8) |
 | ppp | `usr.sbin/ppp` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ppp(8) |
 | pppctl | `usr.sbin/pppctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pppctl(8) |
 | pppoed | `libexec/pppoed` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pppoed(8) |
+| primes | `usr.bin/factor` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=primes(6) |
 | prometheus\_sysctl\_exporter | `usr.sbin/prometheus\_sysctl\_exporter` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=prometheus\_sysctl\_exporter(8) |
 | pstat | `usr.sbin/pstat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pstat(8) |
 | pw | `usr.sbin/pw` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pw(8) |
@@ -728,11 +822,13 @@
 | pwm | `usr.sbin/pwm` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=pwm(8) |
 | quot | `usr.sbin/quot` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=quot(8) |
 | quotacheck | `sbin/quotacheck` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=quotacheck(8) |
+| quotaoff | `usr.sbin/quotaon` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=quotaoff(8) |
 | quotaon | `usr.sbin/quotaon` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=quotaon(8) |
 | rarpd | `usr.sbin/rarpd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rarpd(8) |
 | rbootd | `libexec/rbootd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rbootd(8) |
 | rcorder | `sbin/rcorder` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rcorder(8) |
 | rctl | `usr.bin/rctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rctl(8) |
+| rdump | `sbin/dump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rdump(8) |
 | reboot | `sbin/reboot` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=reboot(8) |
 | renice | `usr.bin/renice` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=renice(8) |
 | repquota | `usr.sbin/repquota` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=repquota(8) |
@@ -743,6 +839,7 @@
 | rmextattr | `usr.sbin/extattr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8) |
 | rmt | `usr.sbin/rmt` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmt(8) |
 | rmuser | `usr.sbin/adduser` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rmuser(8) |
+| rot13 | `usr.bin/caesar` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rot13(6) |
 | route | `sbin/route` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=route(8) |
 | route6d | `usr.sbin/route6d` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=route6d(8) |
 | routed | `sbin/routed` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=routed(8) |
@@ -761,10 +858,12 @@
 | rpcbind | `usr.sbin/rpcbind` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rpcbind(8) |
 | rpcinfo | `usr.bin/rpcinfo` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rpcinfo(8) |
 | rrenumd | `usr.sbin/rrenumd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rrenumd(8) |
+| rrestore | `sbin/restore` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rrestore(8) |
 | rtadvctl | `usr.sbin/rtadvctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtadvctl(8) |
 | rtadvd | `usr.sbin/rtadvd` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtadvd(8) |
 | rtlbtfw | `usr.sbin/bluetooth/rtlbtfw` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtlbtfw(8) |
 | rtquery | `sbin/routed/rtquery` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtquery(8) |
+| rtsol | `usr.sbin/rtsold` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtsol(8) |
 | rtsold | `usr.sbin/rtsold` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rtsold(8) |
 | rwhod | `usr.sbin/rwhod` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=rwhod(8) |
 | sa | `usr.sbin/sa` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sa(8) |
@@ -777,6 +876,7 @@
 | services\_mkdb | `usr.sbin/services\_mkdb` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=services\_mkdb(8) |
 | sesutil | `usr.sbin/sesutil` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sesutil(8) |
 | setaudit | `usr.sbin/setaudit` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setaudit(8) |
+| setextattr | `usr.sbin/extattr` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setextattr(8) |
 | setfmac | `usr.sbin/setfmac` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setfmac(8) |
 | setfsmac | `usr.sbin/setfmac` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setfsmac(8) |
 | setkey | `sbin/setkey` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=setkey(8) |
@@ -790,6 +890,9 @@
 | spkrtest | `usr.sbin/spkrtest` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=spkrtest(8) |
 | spray | `usr.sbin/spray` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=spray(8) |
 | strfile | `usr.bin/fortune/strfile` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=strfile(8) |
+| swapctl | `sbin/swapon` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=swapctl(8) |
+| swapinfo | `usr.sbin/pstat` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=swapinfo(8) |
+| swapoff | `sbin/swapon` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=swapoff(8) |
 | swapon | `sbin/swapon` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=swapon(8) |
 | sync | `bin/sync` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sync(8) |
 | sysctl | `sbin/sysctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=sysctl(8) |
@@ -809,6 +912,7 @@
 | ugidfw | `usr.sbin/ugidfw` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=ugidfw(8) |
 | umbctl | `sbin/umbctl` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=umbctl(8) |
 | umount | `sbin/umount` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=umount(8) |
+| unstr | `usr.bin/fortune/strfile` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=unstr(8) |
 | usbconfig | `usr.sbin/usbconfig` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=usbconfig(8) |
 | usbdump | `usr.sbin/usbdump` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=usbdump(8) |
 | utx | `usr.sbin/utx` | FreeBSD project | https://man.freebsd.org/cgi/man.cgi?query=utx(8) |
@@ -847,7 +951,10 @@
 | athk | `sys/contrib/dev/athk` | Linux | https://wireless.docs.kernel.org/en/latest/en/users/drivers/ath10k.html |
 | ice | `sys/contrib/dev/ice` | Intel | https://edc.intel.com/content/www/us/en/design/products/ethernet/adapters-and-devices-user-guide/dynamic-device-personalization-ddp/ |
 | ipfilter | `sys/netpfil/ipfilter` | Phil Dibowitz | https://www.phildev.net/ipf/ |
+| iwlwifi | `sys/contrib/dev/iwlwifi` | Linux | https://wireless.docs.kernel.org/en/latest/en/users/drivers/iwlwifi.html |
+| mt76 | `sys/contrib/dev/mediatek/mt76` | Linux | https://wireless.docs.kernel.org/en/latest/en/users/drivers/mediatek.html |
 | pf | `sys/netpfil/pf`, `sbin/pfctl` | OpenBSD | https://openbsd.org |
+| rtw | `sys/contrib/dev/rtw88`, `sys/contrib/dev/rtw89` | Linux |  |
 | umb | `sbin/umbctl`, `sys/dev/usb/net`, `sys/modules/usb/umb` | OpenBSD | https://openbsd.org |
 | ZFS | `sys/contrib/openzfs`, `cddl` | OpenZFS | https://openzfs.org/wiki/Main\_Page |
 | zlib | `sys/contrib/zlib` | zlib | https://zlib.net |
