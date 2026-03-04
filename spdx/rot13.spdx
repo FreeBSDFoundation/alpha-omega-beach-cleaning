@@ -1,0 +1,93 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-rot13C6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: rot13@15.0
+
+PackageName: rot13@15.0
+SPDXID: SPDXRef-Package-rot13C6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=rot13(6)
+PackageLicenseDeclared: BSD-3-Clause
+PackageSummary: <text>Decrypt caesar ciphers</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/caesar
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
+
+
+##### Package: libc@15.0
+
+PackageName: libc@15.0
+SPDXID: SPDXRef-Package-libcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
+PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
+
+
+##### Package: msun@15.0
+
+PackageName: msun@15.0
+SPDXID: SPDXRef-Package-msunC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/msun
+
+
+Relationship: SPDXRef-Package-rot13C6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-rot13C6415.0
+Relationship: SPDXRef-Package-rot13C6415.0 DEPENDS_ON SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-Package-libcC6415.0 DEPENDENCY_OF SPDXRef-Package-rot13C6415.0
+Relationship: SPDXRef-Package-rot13C6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-rot13C6415.0
+Relationship: SPDXRef-Package-rot13C6415.0 DEPENDS_ON SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDENCY_OF SPDXRef-Package-rot13C6415.0
+
+
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-Package-libcC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-Package-msunC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-msunC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-rot13C6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-msunC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0

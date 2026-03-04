@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=ed(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Text editor</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/bin/ed
 

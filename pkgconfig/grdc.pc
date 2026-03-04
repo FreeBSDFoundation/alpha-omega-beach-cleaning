@@ -1,0 +1,7 @@
+Name: grdc
+Description: Grand digital clock (curses)
+URL: https://man.freebsd.org/cgi/man.cgi?query=grdc(6)
+Version: 15.0
+License: NOASSERTION
+Source: https://cgit.freebsd.org/src/tree/usr.bin/grdc
+Requires: csu, libc, libcompiler_rt, ncurses, tinfo

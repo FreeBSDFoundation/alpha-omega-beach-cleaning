@@ -1,0 +1,7 @@
+Name: number
+Description: Convert Arabic numerals to English
+URL: https://man.freebsd.org/cgi/man.cgi?query=number(6)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/number
+Requires: csu, libc, libcompiler_rt

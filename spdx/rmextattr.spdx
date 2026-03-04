@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Manipulate extended attributes</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
 

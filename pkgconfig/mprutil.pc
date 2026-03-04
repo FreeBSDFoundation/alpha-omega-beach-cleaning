@@ -1,0 +1,7 @@
+Name: mprutil
+Description: Utility for managing LSI Fusion-MPT 2/3 controllers
+URL: https://man.freebsd.org/cgi/man.cgi?query=mprutil(8)
+Version: 15.0
+License: BSD-2-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/mpsutil
+Requires: csu, libc, libcompiler_rt

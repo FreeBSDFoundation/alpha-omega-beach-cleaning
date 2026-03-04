@@ -1,0 +1,7 @@
+Name: [
+Description: Condition evaluation utility
+URL: https://man.freebsd.org/cgi/man.cgi?query=[(1)
+Version: 15.0
+License: LicenseRef-Public-Domain
+Source: https://cgit.freebsd.org/src/tree/bin/test
+Requires: csu, libc, libcompiler_rt

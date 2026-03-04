@@ -1,0 +1,7 @@
+Name: base64
+Description: Encode / decode a binary file
+URL: https://man.freebsd.org/cgi/man.cgi?query=base64(1)
+Version: 15.0
+License: BSD-3-Clause AND BSD-2-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/bintrans
+Requires: csu, libc, libcompiler_rt

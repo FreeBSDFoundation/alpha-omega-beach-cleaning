@@ -1,0 +1,7 @@
+Name: sha512t256
+Description: Calculate a message- digest fingerprint (checksum) for a file
+URL: https://man.freebsd.org/cgi/man.cgi?query=sha512t256(1)
+Version: 15.0
+License: LicenseRef-scancode-rsa-1990
+Source: https://cgit.freebsd.org/src/tree/sbin/md5
+Requires: csu, libc, libcapsicum, libcasper, cap_fileargs, libcompiler_rt, libmd

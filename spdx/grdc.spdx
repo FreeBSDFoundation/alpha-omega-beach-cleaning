@@ -1,0 +1,102 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-grdcC6415.0
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: grdc@15.0
+
+PackageName: grdc@15.0
+SPDXID: SPDXRef-Package-grdcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=grdc(6)
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Grand digital clock (curses)</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/grdc
+
+
+##### Package: csu@15.0
+
+PackageName: csu@15.0
+SPDXID: SPDXRef-Package-csuC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/csu
+
+
+##### Package: libc@15.0
+
+PackageName: libc@15.0
+SPDXID: SPDXRef-Package-libcC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://www.FreeBSD.org
+PackageLicenseDeclared: BSD-3-Clause AND BSD-2-Clause AND BSD-1-Clause
+PackageSummary: <text>FreeBSD libc</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libc
+
+
+##### Package: libcompiler_rt@15.0
+
+PackageName: libcompiler_rt@15.0
+SPDXID: SPDXRef-Package-libcompiler_rtC6415.0
+PackageVersion: 15.0
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>Library missing description</text>
+PackageDownloadLocation: https://cgit.freebsd.org/src/tree/lib/libcompiler_rt
+
+
+##### Package: ncurses@6.5
+
+PackageName: ncurses@6.5
+SPDXID: SPDXRef-Package-ncursesC646.5
+PackageVersion: 6.5
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bapt@
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: X11
+PackageSummary: <text>clone of System V curses</text>
+PackageDownloadLocation: https://invisible-island.net/archives/ncurses/ncurses-6.5.tar.gz
+
+
+##### Package: tinfo@6.5.20240427
+
+PackageName: tinfo@6.5.20240427
+SPDXID: SPDXRef-Package-tinfoC646.5.20240427
+PackageVersion: 6.5.20240427
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageHomePage: https://invisible-island.net/ncurses
+PackageLicenseDeclared: NOASSERTION
+PackageSummary: <text>ncurses 6.5 terminal interface library</text>
+
+
+Relationship: SPDXRef-Package-grdcC6415.0 DEPENDS_ON SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-Package-csuC6415.0 DEPENDENCY_OF SPDXRef-Package-grdcC6415.0
+Relationship: SPDXRef-Package-grdcC6415.0 DEPENDS_ON SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-Package-libcC6415.0 DEPENDENCY_OF SPDXRef-Package-grdcC6415.0
+Relationship: SPDXRef-Package-grdcC6415.0 DEPENDS_ON SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-Package-libcompiler_rtC6415.0 DEPENDENCY_OF SPDXRef-Package-grdcC6415.0
+Relationship: SPDXRef-Package-grdcC6415.0 DEPENDS_ON SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-Package-ncursesC646.5 DEPENDENCY_OF SPDXRef-Package-grdcC6415.0
+Relationship: SPDXRef-Package-grdcC6415.0 DEPENDS_ON SPDXRef-Package-tinfoC646.5.20240427
+Relationship: SPDXRef-Package-tinfoC646.5.20240427 DEPENDENCY_OF SPDXRef-Package-grdcC6415.0
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-grdcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-csuC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-libcompiler_rtC6415.0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-ncursesC646.5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-tinfoC646.5.20240427

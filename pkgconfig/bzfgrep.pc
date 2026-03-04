@@ -1,0 +1,7 @@
+Name: bzfgrep
+Description: Grep compressed files
+URL: https://man.freebsd.org/cgi/man.cgi?query=bzfgrep(1)
+Version: 15.0
+License: BSD-2-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/grep
+Requires: csu, libbz2, libc, libcompiler_rt, libregex, libz

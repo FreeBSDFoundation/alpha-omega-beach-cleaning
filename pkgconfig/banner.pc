@@ -1,0 +1,7 @@
+Name: banner
+Description: Print large banner on printer
+URL: https://man.freebsd.org/cgi/man.cgi?query=banner(6)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/banner
+Requires: csu, libc, libcompiler_rt

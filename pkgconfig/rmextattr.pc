@@ -2,6 +2,6 @@ Name: rmextattr
 Description: Manipulate extended attributes
 URL: https://man.freebsd.org/cgi/man.cgi?query=rmextattr(8)
 Version: 15.0
-License: NOASSERTION
+License: BSD-3-Clause
 Source: https://cgit.freebsd.org/src/tree/usr.sbin/extattr
 Requires: csu, libc, libcompiler_rt, libsbuf, libutil

@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=md5(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: LicenseRef-scancode-rsa-1990
 PackageSummary: <text>Calculate a message-digest fingerprint (checksum) for a file</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/sbin/md5
 

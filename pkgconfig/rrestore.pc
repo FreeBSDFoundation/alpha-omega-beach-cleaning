@@ -1,0 +1,7 @@
+Name: rrestore
+Description: Restore files or file systems from backups made with dump
+URL: https://man.freebsd.org/cgi/man.cgi?query=rrestore(8)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/sbin/restore
+Requires: csu, libc, libcompiler_rt

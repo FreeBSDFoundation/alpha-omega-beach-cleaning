@@ -10,7 +10,7 @@
         {
             "@type": "CreationInfo",
             "@id": "_:creationinfo_1",
-            "created": "2026-01-21T23:14:04Z",
+            "created": "2026-03-04T15:59:30Z",
             "createdBy": [
                 "https://github.com/pkgconf/pkgconf/Agent/default"
             ],

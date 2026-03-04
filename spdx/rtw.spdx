@@ -1,0 +1,21 @@
+SPDXVersion: SPDX-2.2
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: SBOM-SPDX-rtwC646.17
+DocumentNamespace: https://spdx.org/spdxdocs/bomtool-2.5.1
+Creator: Tool: bomtool 2.5.1
+
+
+##### Package: rtw@6.17
+
+PackageName: rtw@6.17
+SPDXID: SPDXRef-Package-rtwC646.17
+PackageVersion: 6.17
+PackageDownloadLocation: NOASSERTION
+PackageVerificationCode: NOASSERTION
+PackageSupplier: Person: bz@
+PackageLicenseDeclared: GPL-2.0 OR BSD-3-Clause
+PackageSummary: <text>LinuxKPI driver for Realtek rtw88 and rtw89 wireless</text>
+
+
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-Package-rtwC646.17

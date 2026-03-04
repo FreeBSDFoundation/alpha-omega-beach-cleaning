@@ -1,0 +1,7 @@
+Name: pom
+Description: Display the phase of the moon
+URL: https://man.freebsd.org/cgi/man.cgi?query=pom(6)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/pom
+Requires: csu, libc, libcapsicum, libcasper, libcompiler_rt, msun

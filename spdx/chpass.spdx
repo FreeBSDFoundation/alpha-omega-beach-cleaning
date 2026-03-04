@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=chpass(1)
-PackageLicenseDeclared: BSD-4-Clause AND BSD-3-Clause AND BSD-2-Clause
+PackageLicenseDeclared: BSD-4-Clause AND BSD-3-Clause
 PackageSummary: <text>Add or change user database information</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/chpass
 

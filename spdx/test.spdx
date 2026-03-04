@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=test(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: LicenseRef-Public-Domain
 PackageSummary: <text>Condition evaluation utility</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/bin/test
 

@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=expand(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Expand tabs to spaces, and vice versa</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/expand
 

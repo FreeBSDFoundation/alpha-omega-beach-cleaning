@@ -1,0 +1,7 @@
+Name: quotaoff
+Description: Turn file system quotas on and off
+URL: https://man.freebsd.org/cgi/man.cgi?query=quotaoff(8)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.sbin/quotaon
+Requires: csu, libc, libcompiler_rt, libutil

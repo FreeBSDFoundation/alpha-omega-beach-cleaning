@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=pkill(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Find or signal processes by name</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/bin/pkill
 

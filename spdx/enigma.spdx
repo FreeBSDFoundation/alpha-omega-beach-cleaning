@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=enigma(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: LicenseRef-Public-Domain
 PackageSummary: <text>Very simple file encryption</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.bin/enigma
 

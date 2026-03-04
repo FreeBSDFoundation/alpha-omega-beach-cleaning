@@ -1,0 +1,7 @@
+Name: primes
+Description: Factor a number, generate primes
+URL: https://man.freebsd.org/cgi/man.cgi?query=primes(6)
+Version: 15.0
+License: BSD-3-Clause
+Source: https://cgit.freebsd.org/src/tree/usr.bin/factor
+Requires: csu, libc, libcompiler_rt, libthr

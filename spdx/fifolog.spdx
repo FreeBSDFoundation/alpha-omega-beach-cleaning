@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=fifolog(1)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-2-Clause
 PackageSummary: <text>Initialize, write, seek and extract data from a fifolog</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/usr.sbin/fifolog/fifolog_create
 

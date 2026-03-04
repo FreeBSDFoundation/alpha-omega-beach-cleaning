@@ -1,0 +1,7 @@
+Name: dnctl
+Description: User interface for firewall, traffic shaper, packet scheduler, in-kernel NAT.
+URL: https://man.freebsd.org/cgi/man.cgi?query=dnctl(8)
+Version: 15.0
+License: BSD-2-Clause
+Source: https://cgit.freebsd.org/src/tree/sbin/ipfw
+Requires: csu, libalias, libc, libcompiler_rt, libjail, libutil

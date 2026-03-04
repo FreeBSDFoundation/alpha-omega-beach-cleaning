@@ -14,7 +14,7 @@ PackageVersion: 15.0
 PackageDownloadLocation: NOASSERTION
 PackageVerificationCode: NOASSERTION
 PackageHomePage: https://man.freebsd.org/cgi/man.cgi?query=shutdown(8)
-PackageLicenseDeclared: NOASSERTION
+PackageLicenseDeclared: BSD-3-Clause
 PackageSummary: <text>Close down the system at a given time</text>
 PackageDownloadLocation: https://cgit.freebsd.org/src/tree/sbin/shutdown
 
