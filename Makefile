@@ -1,7 +1,7 @@
 PACKAGE	= alpha-omega-beach-cleaning
 VERSION	= 20250922
 VENDOR	= FreeBSD-Foundation
-SUBDIRS	= src
+SUBDIRS	= doc src
 OBJDIR	=
 PREFIX	= /usr/local
 DESTDIR	=
@@ -80,6 +80,9 @@ dist:
 	$(RM) -r -- $(OBJDIR)$(PACKAGE)-$(VERSION)
 	$(LN) -s -- "$$PWD" $(OBJDIR)$(PACKAGE)-$(VERSION)
 	@cd $(OBJDIR). && $(TAR) -czvf $(PACKAGE)-$(VERSION)$(TGZEXT) -- \
+		$(PACKAGE)-$(VERSION)/doc/Makefile \
+		$(PACKAGE)-$(VERSION)/doc/final-report.md \
+		$(PACKAGE)-$(VERSION)/doc/project.conf \
 		$(PACKAGE)-$(VERSION)/src/cmd/aobc-tool/aobc-tool.go \
 		$(PACKAGE)-$(VERSION)/src/Makefile \
 		$(PACKAGE)-$(VERSION)/src/go.mod \
