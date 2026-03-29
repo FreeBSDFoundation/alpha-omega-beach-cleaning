@@ -108,6 +108,27 @@ reports or operations:
 By the end of the project, over 1.000 distinct components were listed in the
 database file, of which 73 are imports from third-party projects.
 
+The list of third-party components can be generated with the tool developed for
+the project:
+
+```shell-session
+$ make dependencies.md
+cd src && bmake aobc-tool
+go build   -o aobc-tool cmd/aobc-tool/aobc-tool.go
+aobc-tool generate dependencies
+$ cat dependencies.md
+| Component | Directory | Upstream | Homepage |
+| --- | --- | --- | --- |
+| __Compilation Infrastructure__ | | | |
+| bmake | `contrib/bmake` | NetBSD | https://www.NetBSD.org |
+| byacc | `contrib/byacc` | invisible-island | https://invisible-island.net/byacc/ |
+[...]
+```
+
+The `aobc-tool` itself and accompanying `Makefile` is available in the
+[alpha-omega-beach-cleaning](https://github.com/FreeBSDFoundation/alpha-omega-beach-cleaning)
+repository from the FreeBSD Foundation's GitHub organization.
+
 ### Security Risk Assessments
 
 The software identified in the third-party sources was rated according to a list
@@ -142,6 +163,23 @@ Some components are listed between brackets, for the following reasons:
   update mechanism for the base system, bootstrapping is no longer considered
   sufficient and pkg should be imported to the base system.
 
+The corresponding report was generated with the tool developed for the project,
+as follows:
+
+```shell-session
+$ make security.md
+cd src && bmake aobc-tool
+go build   -o aobc-tool cmd/aobc-tool/aobc-tool.go
+aobc-tool generate securityreview
+$ cat security.md
+| Component | Security impact | Score |
+| --- | --- | --- |
+| __Compilation Infrastructure__ | | |
+| bmake | build | 1 |
+| byacc | build | 1 |
+[...]
+```
+
 ### List of Priorities
 
 Given the observations made above, conversations and meetings were arranged with
@@ -158,3 +196,44 @@ system). As a result, the following list of priorities was established:
 3. Time allowing, providing metrics for version gaps, time since last import,
    test suite integration and coverage, distance from upstream, etc.
 
+The initial list of priorities was generated with the tool developed for the
+project, as illustrated here:
+
+```shell-session
+$ make plan.md
+cd src && bmake aobc-tool
+go build   -o aobc-tool cmd/aobc-tool/aobc-tool.go
+aobc-tool generate plan
+$ cat plan.md
+| Component | Plan |
+| --- | --- |
+| __Compilation Infrastructure__ | |
+| bmake | fix |
+| byacc | fix |
+[...]
+$ grep -v ' fix ' plan.md
+| Component | Plan |
+| --- | --- |
+| __Compilation Infrastructure__ | |
+| Git | import |
+| unifdef | fork |
+| __Kernel__ | |
+| ipfilter | fork |
+| pf | fork |
+| __System Libraries__ | |
+| gdtoa | fork |
+| libdialog | forego |
+| libdiff | fork |
+| __System Tools__ | |
+| diff | fork |
+| ee | fork |
+| patch | fork |
+| pkg | import |
+| __Test Infrastructure__ | |
+| ATF | fork |
+| kyua | fork |
+```
+
+The plans listed above outside of Git, pkg, and pkgconf either document de-facto
+situations ("fork") or reflect events ("forego") that occurred during this
+project.
