@@ -324,5 +324,98 @@ pkg's 2.6.2 release.
 
 ### Plan Execution: Additional Tooling
 
+Different versions of FreeBSD include different versions of third-party
+software. A single database file cannot easily cover the entire history of the
+development, except for making it a relational database, complete with
+timestamps and additional complexity.
+
+Instead, for this project, we have tried to automate the collection of software
+versions used in a working system. Over 50 individual programs have been written
+(one per third-party component) with the simple goal to report the respective
+versions. Unfortunately, this could not be completed in every situation, and
+about 20 components do not report their respective versions this way.
+
+On another hand, this helped with the implementation of a test suite for this
+project, including a GitHub workflow running on a FreeBSD system:
+
+```yaml
+name: Re-generate the deliverables (FreeBSD)
+[...]
+jobs:
+  test-all:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+[...]
+    - name: Test in FreeBSD
+      id: test
+      uses: vmactions/freebsd-vm@v1
+      with:
+        usesh: true
+        prepare: |
+        
+
+        run: |
+          pkg install -y go go-yq pkgconf
+          make CODEOWNERS dependencies.md plan.md security.md
+          make pkgconfig spdx
+          make versions.yml merge-versions
+```
+
+The following components could be implemented for the automated version check:
+
+```shell-session
+$ (cd src/versions && ls *.c)
+acpi.c          less.c          ntp.c
+awk.c           libarchive.c    openpam.c
+bc.c            libc.c          openssh.c
+bmake.c         libcbor.c       openssl.c
+bsddialog.c     libdialog.c     patch.c
+bsnmp.c         libedit.c       pkg.c
+byacc.c         libevent.c      sendmail.c
+bzip2.c         libexpat.c      sqlite.c
+common.c        liblzma.c       tcpdump.c
+diff.c          libmagic.c      tzdata.c
+dma.c           libpcap.c       unbound.c
+dtc.c           libxo.c         unifdef.c
+flex.c          llvm.c          wireguard.c
+heimdal.c       lua.c           wpa_supplicant.c
+ipfilter.c      lyaml.c         zfs.c
+kyua.c          mkuzip.c        zlib.c
+ldns.c          ncurses.c       zstd.c
+```
+
+With these tools, the updated information can be merged into the database
+file directly, with the `merge-versions` rule from the `Makefile`:
+
+```makefile
+merge-versions: $(OBJDIR)versions.yml
+	@(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
+```
+
+This requires the installation of the Go implementation of `yq(1)`, as listed in
+the GitHub workflow.
+
 ### Conclusion
 
+First and foremost, this project has had a tremendous impact at coordinating the
+security lifecycle of FreeBSD's base system with one of its most critical
+components: OpenSSL. This is true for the 15.0 release, but will now also be
+easier for future releases of FreeBSD and OpenSSL.
+
+This work inspired the import of pkgconf and of pkg into the base system;
+unfortunately neither task is fully completed as of the time of this report, but
+reviews are ongoing and testing has validated both concepts.
+
+Just as importantly, this initiative has blended perfectly with another project:
+CRA compliance in the European Union and specifically, for the production of
+SBOM artefacts for future releases of FreeBSD. This task is directly related to
+the import of pkgconf, and has contributed greatly to the accuracy, reusability,
+and completeness of the data gathered, tooling created, and testing performed
+during this project.
+
+Finally, we hope that as much as possible of this information and tooling will
+make its way into the workflow of every user of FreeBSD, either directly as
+developer or downstream user, or for consumers in and beyond the European
+market. We are committed to continuing this work, for current and future
+releases of FreeBSD.
