@@ -193,8 +193,9 @@ system). As a result, the following list of priorities was established:
    formats, respectively.
 2. Import the pkg project into the base system, effectively foregoing the
    bootstrap and replacing it with the regular `pkg(8)` binary instead.
-3. Time allowing, providing metrics for version gaps, time since last import,
-   test suite integration and coverage, distance from upstream, etc.
+3. Time allowing, providing tooling for code ownership, replacement for the
+   `MAINTAINERS` file, metrics for version gaps, time since last import, test
+   suite integration and coverage, distance from upstream, etc.
 
 The initial list of priorities was generated with the tool developed for the
 project, as illustrated here:
@@ -235,5 +236,93 @@ $ grep -v ' fix ' plan.md
 ```
 
 The plans listed above outside of Git, pkg, and pkgconf either document de-facto
-situations ("fork") or reflect events ("forego") that occurred during this
-project.
+situations ("fork") or reflect external events ("forego") that occurred during
+this project.
+
+### Code Owners
+
+This project, its database and tooling have been presented to the respective
+code owners identified, whom have all been contacted in December 2025.
+
+The feedback received was very positive, with corrections made to the database
+as requested by the developers contacted.
+
+The original `MAINTAINERS` file, documenting a mix of internal and third-party
+components, was found to be incomplete and stale - a known problem. Instead, the
+capability to generate machine-readable reports in GitHub's CODEOWNERS file
+format was added to `aobc-tool`, together with a companion `blame` command:
+
+```shell-session
+$ make CODEOWNERS
+cd src && bmake aobc-tool
+go build   -o aobc-tool cmd/aobc-tool/aobc-tool.go
+aobc-tool generate codeowners
+$ cat CODEOWNERS
+# bmake
+/contrib/bmake sjg@FreeBSD.org
+
+# byacc
+/contrib/byacc bapt@FreeBSD.org jkim@FreeBSD.org
+[...]
+$ ./src/aobc-tool blame contrib/byacc/btyaccpar.c
+Owner(s) for byacc: (contrib/byacc/btyaccpar.c in contrib/byacc)
+- bapt@
+- jkim@
+```
+
+### Plan Execution: Import of spdxtool via pkgconf
+
+The SBOM initiative has matured and has been confirmed as a new key component,
+required in the next release of FreeBSD. The original draft pull-request offered
+for this project has been used by the SBOM initiative to validate the prototype,
+in particular regarding the granularity of the SBOM files: it is now expected to
+match each binary component installed (e.g., from the `lib`, `bin`, `sbin`,
+`usr.bin`, and `usr.sbin` sub-directories) where SBOM information is relevant
+and available.
+
+A [draft pull-request](https://github.com/freebsd/freebsd-src/pull/1994) was
+opened on GitHub, documenting the project further
+[here](https://github.com/freebsd/freebsd-src/pull/1994#issuecomment-3896743965)
+and
+[here](https://github.com/freebsd/freebsd-src/pull/1994#issuecomment-3980704283)
+in response to the feedback received.
+
+Further integration work is now needed before this pull-request can land into
+FreeBSD's src repository, as `bomtool(1)` and `spdxtool(1)` need to be built as
+part of the toolchain in addition to being shipped in the default system: they
+are necessary as native tools, even when cross-compiling. This is in addition to
+the actual handling of the SBOM meta-data, and corresponding updates to the
+build system.
+
+The spdxtool command itself is not available in any public release of pkgconf at
+the time of this report; this is why the vendor import branch goes beyond the
+latest release and includes this intermediate development status. The bomtool
+command also implements more features this way than in the public release.
+
+### Plan Execution: Import of pkg in the base system
+
+After discussions between the release engineering team and developers of pkg, it
+has become clear that importing pkg into the base system is the way forward.
+This is due in great part to the ongoing "pkgbase" migration from sets to
+individual packages for the installation and maintenance of the base system.
+Work has begun on this task, following the regular procedure for vendor updates.
+
+This is because the pace of development for pkg is necessarily decoupled from
+that of the base system: packages are released every 3 months, and will require
+fixes or features faster than the base system can offer them. For this reason,
+pkg needs to gain the capability to delegate its operation to any updated
+version installed as a package, as deemed necessary by the developers of pkg.
+Once ready, this will effectively replace ("forego") the bootstrapping system.
+
+In practice, [NetBSD](https://www.NetBSD.org/) already uses this mode of
+operation with its equivalent `pkg_install` tool, which is believed to be
+working well for that project, in a very similar situation.
+
+This task is pending completion, with the current status available for review on
+GitHub at <https://github.com/khorben/freebsd-src/tree/khorben/pkg-2.6.2> for
+pkg's 2.6.2 release.
+
+### Plan Execution: Additional Tooling
+
+### Conclusion
+
