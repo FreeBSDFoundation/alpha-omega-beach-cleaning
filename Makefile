@@ -9,12 +9,9 @@ MKDIR	= mkdir -m 0755 -p
 INSTALL	= install
 RM	= rm -f
 TARGETS	= $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md format jsonld merge-versions pkgconfig $(OBJDIR)plan.md $(OBJDIR)security.md spdx $(OBJDIR)src/aobc-tool $(OBJDIR)versions.yml
-RM	= rm -f
 LN	= ln -f
 TAR	= tar
 TGZEXT	= .tar.gz
-MKDIR	= mkdir -m 0755 -p
-INSTALL	= install
 
 
 all: subdirs $(OBJDIR)CODEOWNERS $(OBJDIR)dependencies.md $(OBJDIR)plan.md $(OBJDIR)security.md
@@ -39,7 +36,7 @@ jsonld: tools/jsonld.sh pkgconfig
 	./tools/jsonld.sh -P "$(PREFIX)" -- "jsonld"
 
 merge-versions: $(OBJDIR)versions.yml
-	@(yq eval-all 'select(fileIndex == 0) * select(fileindex == 1)' database.yml versions.yml)
+	@(yq eval-all 'select(fileIndex == 0) * select(fileIndex == 1)' database.yml versions.yml)
 
 pkgconfig: $(OBJDIR)src/aobc-tool database.yml
 	$(OBJDIR)src/aobc-tool generate pkgconfig
