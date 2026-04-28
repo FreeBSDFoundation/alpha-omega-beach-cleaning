@@ -12,7 +12,6 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"io/ioutil"
 	"os"
 	"strings"
 
@@ -38,7 +37,7 @@ func aobcBlame(path []string) error {
 	var err error
 	var root yaml.Node
 
-	data, err := ioutil.ReadFile(databaseFilename)
+	data, err := os.ReadFile(databaseFilename)
 	if err != nil {
 		return err
 	}
@@ -143,7 +142,7 @@ func aobcGenerate(reports []string) error {
 	var err error
 	var root yaml.Node
 
-	data, err := ioutil.ReadFile(databaseFilename)
+	data, err := os.ReadFile(databaseFilename)
 	if err != nil {
 		return err
 	}
